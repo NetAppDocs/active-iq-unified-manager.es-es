@@ -1,0 +1,14 @@
+---
+permalink: reporting/concept_customize_volume_capacity_reports.html 
+sidebar: sidebar 
+keywords: customize, volume, capacity reports 
+summary: Estos informes personalizados de muestra se utilizan para ayudar a identificar y responder a problemas potenciales relacionados con la capacidad de volumen y el rendimiento. 
+---
+= Personalización de los informes de capacidad de volúmenes
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Estos informes personalizados de muestra se utilizan para ayudar a identificar y responder a problemas potenciales relacionados con la capacidad de volumen y el rendimiento.

@@ -1,0 +1,38 @@
+---
+permalink: performance-checker/task_view_performance_status_of_all_san_array_clusters.html 
+sidebar: sidebar 
+keywords: all san, array, performance, clusters 
+summary: 'Es posible usar la vista Performance: All Clusters para mostrar el estado de rendimiento de los clústeres de cabina All SAN.' 
+---
+= Visualización del rendimiento de los clústeres de cabinas All SAN
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Es posible usar la vista Performance: All Clusters para mostrar el estado de rendimiento de los clústeres de cabina All SAN.
+
+*Lo que necesitará*
+
+Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
+
+Se puede ver información general de todos los clústeres de cabina SAN en la vista Performance: All Clusters y detalles en la página Cluster / Performance Explorer.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *almacenamiento* > *clústeres*.
+. Asegúrese de que la columna "'Personality'" se muestra en la vista *Salud: Todos los clusters*, o añádala utilizando el control *Mostrar / Ocultar*.
++
+Esta columna muestra «"cabina All SAN»» de los clústeres de la cabina All SAN.
+
+. Para ver información sobre el rendimiento en esos clústeres, seleccione la vista *rendimiento: Todos los clústeres*.
++
+Consulte la información de rendimiento del clúster de la cabina All SAN.
+
+. Para ver información detallada sobre el rendimiento de esos clústeres, haga clic en el nombre de un clúster de cabina All SAN.
+. Haga clic en la ficha *Explorer*.
+. En la página *Cluster / Performance Explorer*, seleccione *Nodes en este clúster* en el menú *Ver y Comparar*.
++
+Puede comparar las estadísticas de rendimiento de ambos nodos en este clúster para asegurarse de que la carga es casi idéntica en ambos nodos. Si existen grandes discrepancias entre los dos nodos, puede añadir el segundo nodo a los gráficos y comparar los valores a lo largo de un periodo de tiempo más largo para identificar cualquier problema de configuración.
+
+

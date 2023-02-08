@@ -1,0 +1,31 @@
+---
+permalink: data-protection/task_remove_protection_relationship.html 
+sidebar: sidebar 
+keywords: remove, protection, relationship, volume, relationships page 
+summary: 'En la página Volume Relationships, puede quitar una relación de protección para eliminar de forma permanente una relación existente entre el origen y el destino seleccionados: Por ejemplo, cuando desea crear una relación con otro destino. Esta operación elimina todos los metadatos y no puede deshacerse.' 
+---
+= Quitar una relación de protección en la página Volume Relationships
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+En la página Volume Relationships, puede quitar una relación de protección para eliminar de forma permanente una relación existente entre el origen y el destino seleccionados: Por ejemplo, cuando desea crear una relación con otro destino. Esta operación elimina todos los metadatos y no puede deshacerse.
+
+*Lo que necesitará*
+
+* Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+* Debe haber configurado Workflow Automation.
+
+
+.Pasos
+. En la página *Relaciones de volumen*, seleccione uno o más volúmenes con relaciones de protección que desee quitar y, en la barra de herramientas, haga clic en *Quitar*.
++
+Se muestra el cuadro de diálogo Eliminar relación.
+
+. Haga clic en *continuar* para eliminar la relación.
++
+La relación se eliminará de la página Relaciones de volumen.
+
+

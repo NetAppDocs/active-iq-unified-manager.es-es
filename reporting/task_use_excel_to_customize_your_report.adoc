@@ -1,0 +1,55 @@
+---
+permalink: reporting/task_use_excel_to_customize_your_report.html 
+sidebar: sidebar 
+keywords: excel, customize, report 
+summary: 'Una vez guardada la vista, puede descargarla en formato de libro de Excel (.xlsx). Al abrir el archivo de Excel, puede utilizar características avanzadas de Excel para personalizar el informe.' 
+---
+= Uso de Excel para personalizar el informe
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Una vez guardada la vista, puede descargarla en formato de libro de Excel (.xlsx). Al abrir el archivo de Excel, puede utilizar características avanzadas de Excel para personalizar el informe.
+
+*Lo que necesitará*
+
+Solo puede cargar un archivo de libro de Excel con la extensión .xlsx.
+
+Por ejemplo, algunas de las características avanzadas de Excel que puede utilizar en el informe incluyen:
+
+* Ordenación multicolumna
+* Filtrado complejo
+* Tablas dinámicas
+* Gráficos
+
+
+[NOTE]
+====
+* El archivo de Excel descargado utiliza el nombre de archivo predeterminado para la vista, no el nombre guardado.
++
+** El formato es `<View Area>-<Day>-<Month>-<Year>-<Hour>-<Minute>-<Second>.xlsx.`
+** Por ejemplo, una vista guardada personalizada denominada `Volumes-not online` tiene un nombre de archivo de `health-volumes-05-May-2020-19-18-00.xlsx` si se guardan en ese día y hora.
+
+
+* Puede agregar hojas al archivo de Excel, pero no cambiar las existentes.
++
+** No cambie las hojas, datos e información existentes. En su lugar, copie los datos en una página nueva que cree.
+** Una excepción a la regla anterior es que usted puede crear fórmulas en la página "data". Utilice las fórmulas de las páginas de datos para crear gráficos en páginas nuevas.
+** No asigne un nombre a una nueva hoja de datos o información.
+
+
+* Si existe un archivo de Excel personalizado, hay una Marca de verificación junto al elemento de menú *Informes* > *cargar Excel*. Al descargar el archivo de Excel, se utiliza la versión con las personalizaciones.image:../media/upload_excel.png[""]
+
+
+====
+.Pasos
+. Abra la vista predeterminada, personalizada o guardada que desee utilizar como base para el informe.
+. Seleccione *Informes* > *Descargar Excel*.
+. Guarde el archivo. El archivo se guarda en la carpeta de descargas.
+. Abra el archivo guardado en Excel. No mueva el archivo a una nueva ubicación o si realiza el trabajo en otra ubicación, vuelva a guardarlo en la ubicación original utilizando el nombre del archivo original antes de cargarlo.
+. Personalice el archivo utilizando características de Excel, como ordenaciones complejas, filtros con capas, tablas dinámicas o gráficos. Para obtener más información, consulte la documentación de Microsoft® Excel.
+. Seleccione *Informes* > *cargar Excel* y seleccione el archivo que ha modificado. El archivo descargado más recientemente se carga desde la misma ubicación de archivo.
+. Envíe un informe de prueba utilizando la función *Informes programados*.
+

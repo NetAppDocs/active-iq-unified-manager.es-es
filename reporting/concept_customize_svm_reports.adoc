@@ -1,0 +1,14 @@
+---
+permalink: reporting/concept_customize_svm_reports.html 
+sidebar: sidebar 
+keywords: customize, storage, vm reports 
+summary: Puede crear informes de equipos virtuales de almacenamiento para analizar información del volumen y ver el estado y la disponibilidad generales del almacenamiento. Por ejemplo, puede crear informes para mostrar las SVM que han alcanzado el número máximo de volúmenes y analizar las SVM detenidas. 
+---
+= Personalizar los informes de VM de almacenamiento
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede crear informes de equipos virtuales de almacenamiento para analizar información del volumen y ver el estado y la disponibilidad generales del almacenamiento. Por ejemplo, puede crear informes para mostrar las SVM que han alcanzado el número máximo de volúmenes y analizar las SVM detenidas.

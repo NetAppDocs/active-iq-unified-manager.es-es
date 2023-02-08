@@ -1,0 +1,51 @@
+---
+permalink: health-checker/task_disable_specific_security_events.html 
+sidebar: sidebar 
+keywords: disable, specific, security events 
+summary: Todos los eventos están habilitados de forma predeterminada. Puede deshabilitar eventos específicos para evitar la generación de notificaciones para los eventos que no son importantes en el entorno. Puede habilitar eventos deshabilitados si desea reanudar la recepción de notificaciones. 
+---
+= Desactivación de eventos de seguridad específicos
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Todos los eventos están habilitados de forma predeterminada. Puede deshabilitar eventos específicos para evitar la generación de notificaciones para los eventos que no son importantes en el entorno. Puede habilitar eventos deshabilitados si desea reanudar la recepción de notificaciones.
+
+*Lo que necesitará*
+
+Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
+Si deshabilita eventos, los eventos generados previamente en el sistema se marcan como obsoletos, y no se activan las alertas configuradas para estos eventos. Cuando se habilitan eventos que están deshabilitados, las notificaciones para estos eventos se generan a partir del próximo ciclo de supervisión.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *Administración de almacenamiento* > *Configuración de eventos*.
+. En la página *Event* Setup (Configuración de evento*), desactive o habilite los eventos seleccionando una de las siguientes opciones:
++
+[cols="2*"]
+|===
+| Si desea... | Realice lo siguiente... 
+
+
+ a| 
+Deshabilite eventos
+ a| 
+.. Haga clic en *Desactivar*.
+.. En el cuadro de diálogo Deshabilitar eventos, seleccione la gravedad *Advertencia*. Esta es la categoría para todos los eventos de seguridad.
+.. En la columna Eventos coincidentes, seleccione los eventos de seguridad que desea deshabilitar y, a continuación, haga clic en la flecha derecha para mover dichos eventos a la columna Deshabilitar eventos.
+.. Haga clic en *Guardar y cerrar*.
+.. Compruebe que los eventos que ha deshabilitado se muestran en la vista de lista de la página Event Setup.
+
+
+
+
+ a| 
+Habilite eventos
+ a| 
+.. En la lista de eventos deshabilitados, seleccione la casilla de comprobación del evento o los eventos que desea volver a habilitar.
+.. Haga clic en *Activar*.
+
+
+|===
+

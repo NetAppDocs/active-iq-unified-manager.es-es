@@ -1,0 +1,50 @@
+---
+permalink: config/task_add_additional_network_interfaces.html 
+sidebar: sidebar 
+keywords: add, network, interfaces 
+summary: Puede agregar nuevas interfaces de red si necesita separar el tráfico de red. 
+---
+= Se añaden interfaces de red
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede agregar nuevas interfaces de red si necesita separar el tráfico de red.
+
+*Lo que necesitará*
+
+Debe haber añadido la interfaz de red al dispositivo virtual mediante vSphere.
+
+El dispositivo virtual debe estar encendido.
+
+[NOTE]
+====
+No puede realizar esta operación si Unified Manager está instalado en Red Hat Enterprise Linux o en Microsoft Windows.
+
+====
+.Pasos
+. En el menú principal de la consola de vSphere, seleccione *Configuración del sistema* > *Reiniciar el sistema operativo*.
++
+Después de reiniciarse, la consola de mantenimiento puede detectar la interfaz de red recién añadida.
+
+. Acceda a la consola de mantenimiento.
+. Seleccione *Configuración de red* > *Activar interfaz de red*.
+. Seleccione la nueva interfaz de red y pulse *Intro*.
++
+Seleccione *eth1* y pulse *Intro*.
+
+. Escriba *y* para activar la interfaz de red.
+. Introduzca los ajustes de red.
++
+Se le pedirá que introduzca la configuración de red si se utiliza una interfaz estática o si no se detecta DHCP.
+
++
+Tras introducir los ajustes de red, volverá automáticamente al menú *Configuración de red*.
+
+. Seleccione *Commit Changes*.
++
+Debe confirmar los cambios para añadir la interfaz de red.
+
+

@@ -1,0 +1,31 @@
+---
+permalink: performance-checker/task_view_qos_policy_group_settings_for_volumes_or_luns.html 
+sidebar: sidebar 
+keywords: view, qos, policy, group, settings, applied, specific, volumes, luns 
+summary: Puede ver los grupos de políticas de calidad de servicio que se aplican a sus volúmenes y LUN y puede vincular a la vista Performance/QoS Policy Groups para mostrar las opciones de configuración detalladas para cada política de calidad de servicio. 
+---
+= Ver la configuración del grupo de políticas de calidad de servicio aplicable a volúmenes o LUN específicos
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede ver los grupos de políticas de calidad de servicio que se aplican a sus volúmenes y LUN y puede vincular a la vista Performance/QoS Policy Groups para mostrar las opciones de configuración detalladas para cada política de calidad de servicio.
+
+A continuación se muestran los pasos para ver la política de calidad de servicio que se aplica a un volumen. Los pasos para ver esta información de una LUN son similares.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *almacenamiento* > *volúmenes*.
++
+El estado: Toda la vista de volúmenes se muestra de forma predeterminada.
+
+. En el menú Ver, seleccione *rendimiento: Volúmenes en QoS Policy Group*.
+. Localice el volumen que desea revisar y desplácese a la derecha hasta que vea la columna *Grupo de políticas de QoS*.
+. Haga clic en el nombre del grupo de políticas de calidad de servicio.
++
+La página Quality of Service correspondiente se muestra en función de si es una política de calidad de servicio tradicional, una política de calidad de servicio adaptativa o una política de calidad de servicio que se creó mediante los niveles de servicio de Unified Manager Performance.
+
+. Consulte los ajustes de configuración detallados del grupo de políticas de QoS.
+. Haga clic en el botón expandir (image:../media/chevron_down.gif[""]) Junto al nombre del grupo de políticas QoS para ver más detalles sobre el grupo de políticas.
+

@@ -1,0 +1,75 @@
+---
+permalink: config/task_set_up_authentication_services.html 
+sidebar: sidebar 
+keywords: set up, authentication, services 
+summary: 'Los servicios de autenticación permiten la autenticación de usuarios remotos o grupos remotos en un servidor de autenticación antes de otorgar acceso a Unified Manager. Puede autenticar usuarios utilizando servicios de autenticación predefinidos (como Active Directory u OpenLDAP) o configurando su propio mecanismo de autenticación.' 
+---
+= Configurar servicios de autenticación
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Los servicios de autenticación permiten la autenticación de usuarios remotos o grupos remotos en un servidor de autenticación antes de otorgar acceso a Unified Manager. Puede autenticar usuarios utilizando servicios de autenticación predefinidos (como Active Directory u OpenLDAP) o configurando su propio mecanismo de autenticación.
+
+*Lo que necesitará*
+
+* Debe haber habilitado la autenticación remota.
+* Debe tener la función Administrador de aplicaciones.
+
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *General* > *autenticación remota*.
+. Seleccione uno de los siguientes servicios de autenticación:
++
+[cols="2*"]
+|===
+| Si selecciona... | Realice lo siguiente... 
+
+
+ a| 
+Active Directory
+ a| 
+.. Introduzca el nombre y la contraseña del administrador.
+.. Especifique el nombre completo base del servidor de autenticación.
++
+Por ejemplo, si el nombre de dominio del servidor de autenticación es +ou@domain.com+, entonces el nombre completo base es *cn=ou,dc=domain,dc=com*.
+
+
+
+
+
+ a| 
+OpenLDAP
+ a| 
+.. Introduzca el nombre distintivo del enlace y la contraseña de enlace.
+.. Especifique el nombre completo base del servidor de autenticación.
++
+Por ejemplo, si el nombre de dominio del servidor de autenticación es +ou@domain.com+, entonces el nombre completo base es *cn=ou,dc=domain,dc=com*.
+
+
+
+
+
+ a| 
+Otros
+ a| 
+.. Introduzca el nombre distintivo del enlace y la contraseña de enlace.
+.. Especifique el nombre completo base del servidor de autenticación.
++
+Por ejemplo, si el nombre de dominio del servidor de autenticación es +ou@domain.com+, entonces el nombre completo base es *cn=ou,dc=domain,dc=com*.
+
+.. Especifique la versión de protocolo LDAP que admite el servidor de autenticación.
+.. Introduzca el nombre de usuario, la pertenencia a grupos, el grupo de usuarios y los atributos miembro.
+
+
+|===
++
+[NOTE]
+====
+Si desea modificar el servicio de autenticación, debe eliminar todos los servidores de autenticación existentes y, a continuación, agregar nuevos servidores de autenticación.
+
+====
+. Haga clic en *Guardar*.
+

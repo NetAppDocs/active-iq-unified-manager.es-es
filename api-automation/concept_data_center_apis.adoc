@@ -1,0 +1,257 @@
+---
+permalink: api-automation/concept_data_center_apis.html 
+sidebar: sidebar 
+keywords: manage, storage, objects, data center 
+summary: Las API DE REST en la categoría de centro de datos le permiten gestionar los objetos de almacenamiento en el centro de datos, como clústeres, nodos, agregados, máquinas virtuales de almacenamiento, Volúmenes, LUN, recursos compartidos de archivos y espacios de nombres. Estas API están disponibles para consultar la configuración de los objetos, mientras que algunas de ellas permiten realizar las operaciones de adición, eliminación o modificación de estos objetos. 
+---
+= Gestionar objetos de almacenamiento en un centro de datos mediante API
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Las API DE REST debajo de `datacenter` La categoría le permite gestionar los objetos de almacenamiento en el centro de datos, como clústeres, nodos, agregados, máquinas virtuales de almacenamiento, Volúmenes, LUN, recursos compartidos de archivos y espacios de nombres. Estas API están disponibles para consultar la configuración de los objetos, mientras que algunas de ellas permiten realizar las operaciones de adición, eliminación o modificación de estos objetos.
+
+La mayoría de estas API son LLAMADAS QUE proporcionan agregación entre clústeres con compatibilidad con filtrado, clasificación y paginación. Al ejecutar estas API, devuelven datos de la base de datos. Por lo tanto, los objetos recién creados deben ser descubiertos en el próximo ciclo de adquisición para que aparezcan en la respuesta.
+
+Si desea consultar los detalles de un objeto específico, debe introducir el ID único de ese objeto para ver sus detalles. Por ejemplo, para obtener información de métricas y análisis de los objetos de almacenamiento, consulte link:concept_metrics_apis.html["Ver las métricas de rendimiento"].
+
+[listing]
+----
+curl -X GET "https://<hostname>/api/datacenter/cluster/clusters/4c6bf721-2e3f-11e9-a3e2-00a0985badbb" -H "accept: application/json" -H "Authorization: Basic <Base64EncodedCredentials>"
+----
+[NOTE]
+====
+Los comandos CURL, ejemplos, solicitudes y respuestas a las API están disponibles en la interfaz de API de Swagger. Puede filtrar y ordenar los resultados por parámetros específicos según lo que se indica en Swagger. Estas API le permiten filtrar los resultados de objetos de almacenamiento específicos, como el clúster, el volumen o el equipo virtual de almacenamiento.
+
+====
+
+
+== API para los objetos de almacenamiento en el centro de datos
+
+[cols="3*"]
+|===
+| Verbo HTTP | Ruta | Descripción 
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/cluster/clusters`
+
+`/datacenter/cluster/clusters/\{key}`
+ a| 
+Puede usar este método para ver los detalles de los clústeres ONTAP en todo el centro de datos. La API muestra información, como la dirección IPv4 o IPv6 del clúster, información sobre el nodo, como el estado de los nodos, la capacidad de rendimiento y el par de alta disponibilidad (ha), e indica si el clúster es una cabina All SAN.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/cluster/licensing/licenses /datacenter/cluster/licensing/licenses/\{key}`
+ a| 
+Muestra los detalles de las licencias instaladas en los clústeres del centro de datos. Puede filtrar los resultados en función de los criterios requeridos. Se devuelve información, como la clave de licencia, la clave de clúster, la fecha de caducidad y el alcance de la licencia. Puede introducir una clave de licencia para recuperar los detalles de una licencia específica.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/cluster/nodes`
+
+`/datacenter/cluster/nodes/\{key}`
+ a| 
+Puede usar este método para ver los detalles de los nodos en el centro de datos. Se puede ver información sobre el clúster, el estado de los nodos, la capacidad de rendimiento y la pareja de alta disponibilidad (ha) del nodo.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/protocols/cifs/shares`
+
+`/datacenter/protocols/cifs/shares/\{key}`
+ a| 
+Puede utilizar este método para ver los detalles de los recursos compartidos CIFS en el centro de datos. Además de los detalles del clúster, la SVM y los volúmenes, también se devuelve información sobre Access Control List (ACL).
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/protocols/nfs/export-policies`
+
+`/datacenter/protocols/nfs/export-policies/\{key}`
+ a| 
+Puede utilizar este método para ver los detalles de las políticas de exportación de los servicios NFS admitidos.
+
+Puede consultar las políticas de exportación de una máquina virtual de almacenamiento o clúster y reutilizar la clave de política de exportación para aprovisionar los recursos compartidos de archivos NFS. Para obtener más información acerca de la asignación y reutilización de políticas de exportación en cargas de trabajo, consulte «'aprovisionamiento de recursos compartidos de archivos CIFS y NFS».
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/storage/aggregates`
+
+`/datacenter/storage/aggregates/\{key}`
+ a| 
+Puede usar este método para ver la recogida de agregados en el centro de datos o un agregado específico para aprovisionar cargas de trabajo en ellos o supervisar. Se obtiene información, como detalles del clúster y de los nodos, la capacidad de rendimiento utilizada, el espacio disponible y el uso, y la eficiencia del almacenamiento.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/storage/luns`
+
+`/datacenter/storage/luns/\{key}`
+ a| 
+Puede utilizar este método para ver la colección de LUN en todo el centro de datos. Es posible ver información sobre el LUN, como detalles de clústeres y SVM, políticas de calidad de servicio y iGroups.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/storage/qos/policies`
+
+`/datacenter/storage/qos/policies/\{key}`
+ a| 
+Puede utilizar este método para ver los detalles de todas las políticas de calidad de servicio aplicables a los objetos de almacenamiento del centro de datos. Se obtiene información, como los detalles del clúster y la SVM, los detalles de la política fija o adaptativa, y el número de objetos que se aplican a esa política.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/storage/qtrees`
+
+`/datacenter/storage/qtrees/\{key}`
+ a| 
+Puede usar este método para ver los detalles de qtree en el centro de datos de todos los volúmenes de FlexVol o de FlexGroup. Se devuelve información, como los detalles del clúster y la SVM, el volumen FlexVol y la política de exportación.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/storage/volumes`
+
+`/datacenter/storage/volumes/{key}`
+ a| 
+Puede usar este método para ver la recogida de volúmenes en el centro de datos. Se obtiene información sobre los volúmenes, como SVM y los detalles de los clústeres, las políticas de calidad de servicio y exportación, si el volumen es del tipo de lectura/escritura, la protección de datos o el uso compartido de carga.
+
+Para los volúmenes FlexVol y FlexClone, puede ver la información de los agregados correspondientes. En el caso de un volumen FlexGroup, la consulta devuelve la lista de agregados constituyentes.
+
+
+
+ a| 
+`GET`
+
+`POST`
+
+`DELETE`
+
+`PATCH`
+ a| 
+`/datacenter/protocols/san/igroups`
+
+`/datacenter/protocols/san/igroups/{key}`
+ a| 
+Puede asignar grupos de iniciadores (iGroups) autorizados para acceder a destinos de LUN específicos. Si hay un igroup existente, puede asignarlo. También puede crear iGroups y asignarles a las LUN.
+
+Puede utilizar estos métodos para consultar, crear, eliminar y modificar iGroups respectivamente.
+
+Puntos que tener en cuenta:
+
+* `POST:` Al crear un igroup, es posible designar el equipo virtual de almacenamiento en el que desea asignar acceso.
+* `DELETE:` Debe proporcionar la clave de igroup como parámetro de entrada para eliminar un igroup determinado. Si ya ha asignado un igroup a una LUN, no puede eliminar ese igroup.
+* `PATCH:` Debe proporcionar la clave de igroup como parámetro de entrada para modificar un igroup determinado. También debe introducir la propiedad que desea actualizar junto con su valor.
+
+
+
+
+ a| 
+`GET`
+
+`POST`
+
+`DELETE`
+
+`PATCH`
+ a| 
+`/datacenter/svm/svms`
+
+`/datacenter/svm/svms/\{key}`
+ a| 
+Es posible usar estos métodos para ver, crear, eliminar y modificar máquinas virtuales de almacenamiento (máquinas virtuales de almacenamiento).
+
+* `POST:` Debe introducir el objeto de la máquina virtual de almacenamiento que desea crear como parámetro de entrada. Es posible crear una máquina virtual de almacenamiento personalizado y, a continuación, asignar las propiedades requeridas.
+* `DELETE:` Debe proporcionar la clave de máquina virtual de almacenamiento para eliminar una máquina virtual de almacenamiento particular.
+* `PATCH:` Debe proporcionar la clave de la máquina virtual de almacenamiento para modificar una máquina virtual de almacenamiento particular. También debe introducir las propiedades que desea actualizar, junto con sus valores.
+
+
+|===
+
+NOTE: Puntos que tener en cuenta:
+
+Si ha habilitado el aprovisionamiento de cargas de trabajo basado en SLO en su entorno, al tiempo que crea el equipo virtual de almacenamiento, asegúrese de que admite todos los protocolos necesarios para aprovisionar las LUN y los recursos compartidos de archivos, por ejemplo, CIFS o SMB, NFS, FCP, E iSCSI. Es posible que se produzca un error en los flujos de trabajo de aprovisionamiento si la máquina virtual de almacenamiento no admite los servicios necesarios. Se recomienda habilitar también los servicios para los respectivos tipos de cargas de trabajo en el equipo virtual de almacenamiento.
+
+Si ha habilitado el aprovisionamiento de carga de trabajo basado en SLO en su entorno, no puede eliminar esa máquina virtual de almacenamiento en la que se han aprovisionado las cargas de trabajo de almacenamiento. Cuando se elimina una máquina virtual de almacenamiento en la que se ha configurado un servidor CIFS o SMB, esta API también elimina el servidor CIFS o SMB, junto con la configuración de Active Directory local. Sin embargo, el nombre del servidor CIFS o SMB sigue estando en la configuración de Active Directory que debe eliminar manualmente del servidor de Active Directory.
+
+
+
+== API para los elementos de red en su centro de datos
+
+Las siguientes API de la categoría de centro de datos recuperan información acerca de los puertos y las interfaces de red del entorno, específicamente los puertos FC, las interfaces FC, los puertos ethernet y las interfaces IP.
+
+[cols="3*"]
+|===
+| Verbo HTTP | Ruta | Descripción 
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/network/ethernet/ports`
+
+`/datacenter/network/ethernet/ports/{key}`
+ a| 
+Recupera información sobre todos los puertos ethernet del entorno del centro de datos. Con una clave de puerto como parámetro de entrada, puede ver la información de ese puerto específico. Información, como los detalles del clúster, el dominio de retransmisión, los detalles del puerto, como estado, la velocidad, y escriba, y si el puerto está habilitado, se recupera.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/network/fc/interfaces`
+
+`/datacenter/network/fc/interfaces/{key}`
+ a| 
+Puede utilizar este método para ver los detalles de las interfaces FC en su entorno de centro de datos. Con una clave de interfaz como parámetro de entrada, puede ver la información de esa interfaz específica. Se recupera información, como los detalles del clúster, los detalles de los nodos de inicio y los detalles del puerto principal.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/network/fc/ports`
+
+`/datacenter/network/fc/ports/{key}`
+ a| 
+Recupera información sobre todos los puertos FC utilizados en los nodos del entorno de centro de datos. Con una clave de puerto como parámetro de entrada, puede ver la información de ese puerto específico. Se recupera información, como los detalles del clúster, la descripción del puerto, el protocolo compatible y el estado del puerto.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/network/ip/interfaces`
+
+`/datacenter/network/ip/interfaces/{key}`
+ a| 
+Puede utilizar este método para ver los detalles de las interfaces IP en el entorno del centro de datos. Con una clave de interfaz como parámetro de entrada, puede ver la información de esa interfaz específica. Se recupera información, como detalles del clúster, detalles del espacio IP, detalles del nodo principal, si la conmutación por error está habilitada.
+
+|===

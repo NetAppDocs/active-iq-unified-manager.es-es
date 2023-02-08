@@ -1,0 +1,327 @@
+---
+permalink: data-protection/reference_relationship_all_relationships_view.html 
+sidebar: sidebar 
+keywords: volume, relationships, metrocluster 
+summary: 'La relación: La vista todas las relaciones muestra información sobre las relaciones de protección en el sistema de almacenamiento.' 
+---
+= Relación: Vista todas las relaciones
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+La relación: La vista todas las relaciones muestra información sobre las relaciones de protección en el sistema de almacenamiento.
+
+De forma predeterminada, cuando accede a la página Relationships, el informe que se muestra incluye las relaciones de protección de nivel superior tanto para volúmenes como para máquinas virtuales de almacenamiento. Los controles situados en la parte superior de la página permiten seleccionar una vista concreta, realizar búsquedas para localizar objetos específicos, crear y aplicar filtros para restringir la lista de datos mostrados, añadir/eliminar/reordenar columnas en la página y exportar los datos de la página a .csv, .pdf, o archivo .xlsx. Después de personalizar la página, puede guardar los resultados como una vista personalizada y, a continuación, programar un informe de estos datos para que se genere y se envíe por correo electrónico regularmente. De forma predeterminada, al seleccionar el menú *Relaciones*, el informe que se muestra incluye relaciones de protección tanto para volúmenes como para equipos virtuales de almacenamiento en el centro de datos. Puede utilizar la opción *filtro* para ver sólo los sistemas de almacenamiento seleccionados como sólo los volúmenes o sólo los equipos virtuales de almacenamiento. El mismo informe se muestra en la página almacenamiento y solo para la entidad de almacenamiento seleccionada. Si desea ver las relaciones de VM de volumen o almacenamiento, puede acceder a la página *almacenamiento* > *volúmenes* > *relación: Todas las relaciones* o a *Protección* > *Relaciones* > *relación: Todas las relaciones*, y utilice la opción *Tipo de objeto de relación* de *filtro* para filtrar sólo volúmenes o datos de equipos virtuales de almacenamiento.
+
+La página Relaciones que enumera todas las relaciones de protección tiene el vínculo *Ver en System Manager* para el clúster de destino que permite ver los mismos objetos en el Administrador del sistema de ONTAP.
+
+* *Estado*
++
+Muestra el estado actual de la relación de protección.
+
++
+El estado puede ser uno de los errores (image:../media/sev_error_um60.png[""]), Advertencia (image:../media/sev_warning_um60.png[""]) O bien OK (image:../media/sev_normal_um60.png[""]).
+
+* *VM de almacenamiento de origen*
++
+Muestra el nombre de la SVM de origen. Para ver más detalles sobre la SVM de origen, se debe hacer clic en el nombre de la SVM.
+
++
+Cuando hay una SVM en el clúster, pero aún no se ha añadido al inventario de Unified Manager o cuando la SVM se creó después de la última actualización del clúster, este campo estará vacío. Debe asegurarse de que exista la SVM o realizar una nueva detección en el clúster para actualizar la lista de recursos.
+
+* *Fuente*
++
+Muestra el volumen de origen o la máquina virtual de almacenamiento de origen que se está protegiendo según lo seleccionado. Si desea ver más detalles sobre el volumen de origen o la máquina virtual de almacenamiento, haga clic en el nombre del volumen o de la máquina virtual de almacenamiento.
+
++
+Si el mensaje `Resource-key not discovered` Si se muestra, esto puede indicar que el volumen existe en el clúster pero que aún no se ha añadido al inventario de Unified Manager o que el volumen se creó después de la última actualización del clúster. Debe asegurarse de que el volumen exista o realizar una nueva detección en el clúster para actualizar la lista de recursos.
+
+* *Almacenamiento de destino VM*
++
+Muestra el nombre de la SVM de destino. Para ver más detalles sobre la SVM de destino, se debe hacer clic en el nombre de la SVM.
+
+* *Destino*
++
+Muestra el nombre del volumen de destino o de la máquina virtual de almacenamiento según la selección. Puede ver más detalles sobre el volumen de destino o la máquina virtual de almacenamiento haciendo clic en el nombre del objeto correspondiente.
+
+* *Tipo de objeto de relación*
++
+Muestra el tipo de objeto usado en la relación, como la máquina virtual de almacenamiento, el volumen y el grupo de consistencia. Para los objetos de una relación de consistencia, el origen de las relaciones y los destinos muestran el grupo de consistencia, y al hacer clic en ellos le lleva a la página de LUN para ver la relación.
+
+* *Política*
++
+Muestra el nombre de la política de protección para la relación de SnapMirror. Puede hacer clic en el nombre de la política para ver los detalles asociados con esa política, incluida la siguiente información:
+
++
+** Prioridad de transferencia
++
+Especifica la prioridad en la que se ejecuta una transferencia para operaciones asíncronas. La prioridad de transferencia es normal o Baja. Las transferencias de prioridad normal se programan antes de que se realicen transferencias de baja prioridad. El valor predeterminado es normal.
+
+** Ignorar tiempo de acceso
++
+Se aplica solo a las relaciones de SnapVault. Esto especifica si las transferencias incrementales ignoran archivos que sólo cambian su tiempo de acceso. Los valores son True o False. El valor predeterminado es False.
+
+** Cuando la relación no está sincronizada
++
+Especifica la acción que ONTAP realiza cuando no se puede sincronizar una relación síncrona. Las relaciones de StrictSync restringirán el acceso al volumen primario si no se ha podido sincronizar con el volumen secundario. Las relaciones de sincronización no restringen el acceso al primario si no se sincroniza con el secundario.
+
+** Intenta el límite
++
+Especifica la cantidad máxima de veces que se debe intentar cada transferencia manual o programada para una relación de SnapMirror. El valor predeterminado es 8.
+
+** Comentarios
++
+Proporciona un campo de texto para comentarios específicos de la directiva seleccionada.
+
+** Etiqueta de SnapMirror
++
+Especifica la etiqueta de SnapMirror para la primera programación asociada a la política de copia de Snapshot. El subsistema SnapVault utiliza la etiqueta de SnapMirror al realizar un backup de copias de Snapshot en un destino de SnapVault.
+
+** Configuración de retención
++
+Especifica cuánto tiempo se conservarán los backups, en función del tiempo o de la cantidad de backups.
+
+** Copias Snapshot reales
++
+Especifica la cantidad de copias de Snapshot en este volumen que coinciden con la etiqueta especificada.
+
+** Conserve copias Snapshot
++
+Especifica el número de copias de Snapshot de SnapVault que no se eliminan automáticamente aunque se alcance el límite máximo de la política. Los valores son True o False. El valor predeterminado es False.
+
+** Umbral de advertencia de retención
++
+Especifica el límite de copias de Snapshot en el que se envía una advertencia para indicar que el límite de retención máximo está casi alcanzado.
+
+
+
+* *Duración de retraso*
++
+Muestra la cantidad de tiempo que los datos del reflejo se retrasan con respecto al origen.
+
++
+La duración de la demora debe ser cercana o igual a 0 segundos para las relaciones de StrictSync.
+
+* *Estado de retraso*
++
+Muestra el estado de posposición de las relaciones administradas y de las relaciones no administradas que tienen una programación asociada a dicha relación. El estado de desfase puede ser:
+
++
+** Error
++
+La duración de la demora es mayor o igual que el umbral de error de desfase.
+
+** Advertencia
++
+La duración de la demora es mayor o igual que el umbral de aviso de desfase.
+
+** DE ACUERDO
++
+La duración de la demora se encuentra dentro de los límites normales.
+
+** No aplicable
++
+El estado de desfase no es aplicable a las relaciones síncronas porque no es posible configurar una programación.
+
+
+
+* *Última actualización realizada correctamente*
++
+Muestra la hora a la que se realizó la última operación correcta de SnapMirror o SnapVault.
+
++
+La última actualización realizada correctamente no es aplicable a las relaciones síncronas.
+
+* *Relaciones Constitutivas*
++
+Muestra si hay volúmenes en el objeto seleccionado.
+
+* *Tipo de relación*
++
+Muestra el tipo de relación utilizado para replicar un volumen. Los tipos de relaciones incluyen:
+
++
+** Reflejo asíncrono
+** Vault asíncrono
+** Reflejo asíncrono de Vault
+** StrictSync
+** Sincr
+
+
+* *Estado de transferencia*
++
+Muestra el estado de transferencia de la relación de protección. El estado de la transferencia puede ser uno de los siguientes:
+
++
+** Anulando
++
+Las transferencias de SnapMirror están habilitadas; no obstante, hay una operación de anulación de transferencia que puede incluir la eliminación del punto de comprobación en curso.
+
+** Comprobando
++
+El volumen de destino está sometido a una comprobación de diagnóstico y no hay transferencia en curso.
+
+** Finalizando
++
+Las transferencias de SnapMirror están habilitadas. El volumen se encuentra actualmente en la fase de postransferencia para las transferencias incrementales de la SnapVault.
+
+** Inactivo
++
+Las transferencias están habilitadas y no hay transferencia en curso.
+
+** Sinc
++
+Los datos de los dos volúmenes en la relación síncrona están sincronizados.
+
+** Fuera de sincronización
++
+Los datos del volumen de destino no están sincronizados con el volumen de origen.
+
+** Preparando
++
+Las transferencias de SnapMirror están habilitadas. El volumen se encuentra actualmente en la fase de transferencia previa a las transferencias de SnapVault incrementales.
+
+** En cola
++
+Las transferencias de SnapMirror están habilitadas. No hay transferencias en curso.
+
+** En modo inactivo
++
+Las transferencias de SnapMirror están deshabilitadas. No hay transferencia en curso.
+
+** Ralentización
++
+Hay una transferencia de SnapMirror en curso. Las transferencias adicionales están deshabilitadas.
+
+** Transfiriendo
++
+Las transferencias de SnapMirror están habilitadas y hay una transferencia en curso.
+
+** En transición
++
+Se completó la transferencia asíncrona de datos del volumen de origen al volumen de destino y se inició la transición hacia la operación síncrona.
+
+** Esperando
++
+Se ha iniciado una transferencia de SnapMirror, pero algunas tareas asociadas están a la espera de que se pongan en cola.
+
+
+
+* *Duración de la última transferencia*
++
+Muestra el tiempo que se tarda en finalizar la última transferencia de datos.
+
++
+La duración de la transferencia no es aplicable a las relaciones de StrictSync porque la transferencia debe ser simultánea.
+
+* *Tamaño de la última transferencia*
++
+Muestra el tamaño, en bytes, de la última transferencia de datos.
+
++
+El tamaño de transferencia no es aplicable a las relaciones StrictSync.
+
+* * Mediadores*
++
+Muestra el estado del mediador.
+
++
+** No aplicable
++
+Si el clúster no es compatible con la continuidad empresarial de SnapMirror.
+
+** No configurado
++
+Si no está configurado, o si está configurado pero solo se añade el clúster de destino y el clúster de origen no se añade en Unified Manager.
+
+** Dirección IP del mediador
++
+Si está configurado, y los clústeres de origen y destino se añaden en Unified Manager.
+
+
+
+* *Estado*
++
+Muestra el estado de la relación de SnapMirror o SnapVault. El estado puede ser sin inicializar, con SnapMirror o con Broken-Off. Si se selecciona un volumen de origen, no se aplica el estado de relación y no se muestra.
+
+* *Salud de la relación*
++
+Muestra el estado de la relación del clúster.
+
+* *Razón insalubre*
++
+La razón por la que la relación está en un estado poco saludable.
+
+* *Prioridad de transferencia*
++
+Muestra la prioridad en la que se ejecuta una transferencia. La prioridad de transferencia es normal o Baja. Las transferencias de prioridad normal se programan antes de que se realicen transferencias de baja prioridad.
+
++
+La prioridad de transferencia no es aplicable a las relaciones síncronas porque todas las transferencias se tratan con la misma prioridad.
+
+* *Horario*
++
+Muestra el nombre de la programación de protección asignada a la relación.
+
++
+La programación no se aplica para relaciones síncronas.
+
+* *Replicación flexible de versiones*
++
+Muestra las opciones Sí, Sí con copia de seguridad o Ninguno.
+
+* *Cluster de origen*
++
+Muestra el FQDN, el nombre abreviado o la dirección IP del clúster de origen para la relación de SnapMirror.
+
+* *Cluster de origen FQDN*
++
+Muestra el nombre del clúster de origen de la relación SnapMirror.
+
+* *Nodo de origen*
++
+Muestra el nombre del enlace de nombre del nodo de origen de la relación de SnapMirror de un volumen y muestra el enlace de recuento de nodos de relación de SnapMirror cuando el objeto es una máquina virtual de almacenamiento o un grupo de consistencia.
+
+
+
+En la vista personalizada, al hacer clic en el enlace del nombre del nodo, puede ver y extender la protección de objetos de almacenamiento en los que los volúmenes de esos grupos de coherencia pertenecen a una relación SM-BC.
+
+Cuando hace clic en el enlace del recuento de nodos, llega a la página del nodo con los respectivos nodos asociados a dicha relación. Cuando el número de nodos es 0, no se muestra ningún valor, ya que no hay nodos asociados con la relación.
+
+* *Nodo de destino*
++
+Muestra el nombre del enlace de nombre de nodo de destino de la relación de SnapMirror de un volumen y muestra el enlace de recuento de nodos de relación de SnapMirror cuando el objeto es una máquina virtual de almacenamiento o un grupo de consistencia.
+
++
+Cuando hace clic en el enlace del recuento de nodos, llega a la página del nodo con los respectivos nodos asociados a dicha relación. Cuando el número de nodos es 0, no se muestra ningún valor, ya que no hay nodos asociados con la relación.
+
+* *Cluster de destino*
++
+Muestra el nombre del clúster de destino de la relación SnapMirror.
+
+* *FQDN del clúster de destino*
++
+Muestra el FQDN, el nombre abreviado o la dirección IP del clúster de destino para la relación de SnapMirror.
+
+* * Protegido por*
++
+Muestra las diferentes relaciones. En esta columna, puede ver relaciones de volúmenes y grupos de coherencia para los clústeres y el orden de las máquinas virtuales de almacenamiento, como:
+
++
+** SnapMirror
+** Recuperación ante desastres de máquinas virtuales de almacenamiento
+** SnapMirror y recuperación ante desastres de máquinas virtuales de almacenamiento
+** Grupo de consistencia
+** SnapMirror, grupo de consistencia.
+
+
+
+
+*Información relacionada*
+
+* Para obtener información acerca de *relación: Vista MetroCluster*, consulte link:../storage-mgmt/task_monitor_metrocluster_configurations.html["Supervisar las configuraciones de MetroCluster"].
+* Para obtener información acerca de *relación: Vista Estado de transferencia de último 1 mes*, consulte link:../data-protection/reference_relationship_last_1_month_transfer_status_view.html["Relación: Vista Estado de transferencia de último 1 mes"].
+* Para obtener información acerca de la vista *relación: Todas las relaciones*, consulte link:../data-protection/reference_relationship_last_1_month_transfer_rate_view.html["Relación: Última vista de tarifa de transferencia de 1 mes"].
+

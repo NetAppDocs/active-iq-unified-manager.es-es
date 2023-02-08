@@ -1,0 +1,20 @@
+---
+permalink: performance-checker/concept_when_would_i_use_workload_analyzer.html 
+sidebar: sidebar 
+keywords: workload analyzer, use 
+summary: Por lo general, se usaría el analizador de cargas de trabajo para solucionar un problema de latencia notificado por un usuario, para analizar más a fondo un evento o una alerta informados, o para explorar una carga de trabajo que observe que funciona de forma anormal. 
+---
+= ¿Cuándo se debe utilizar el analizador de cargas de trabajo
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Por lo general, se usaría el analizador de cargas de trabajo para solucionar un problema de latencia notificado por un usuario, para analizar más a fondo un evento o una alerta informados, o para explorar una carga de trabajo que observe que funciona de forma anormal.
+
+En el caso en el que los usuarios se han puesto en contacto con usted para decir que la aplicación que utilizan se está ejecutando muy lentamente, puede comprobar los gráficos de latencia, rendimiento y uso de la carga de trabajo en la cual se está ejecutando la aplicación para ver si el almacenamiento es la causa del problema de rendimiento. Puede utilizar el gráfico de capacidad también para ver si la capacidad es baja, ya que un sistema ONTAP en el que se utiliza más del 85% puede ocasionar problemas de rendimiento. Estas tablas le ayudarán a determinar si el problema está causado por el almacenamiento, una red u otro problema relacionado.
+
+En el caso de que Unified Manager haya generado un evento de rendimiento y desee revisar la causa del problema de forma más exhaustiva, puede iniciar el analizador de cargas de trabajo desde la página de detalles del evento haciendo clic en el botón *analizar carga de trabajo* para investigar parte de la latencia, el rendimiento, y las tendencias de capacidad para la carga de trabajo.
+
+En caso de observar una carga de trabajo que parece estar funcionando de forma anormal al ver cualquier página de inventario de la carga de trabajo (volumen, LUN, carga de trabajo, recurso compartido NFS o recurso compartido SMB/CIFS), se puede hacer clic en el icono más image:../media/more_icon.gif[""], A continuación *analizar carga de trabajo* para abrir la página Análisis de carga de trabajo para examinar más la carga de trabajo.

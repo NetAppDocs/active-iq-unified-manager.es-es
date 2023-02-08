@@ -1,0 +1,74 @@
+---
+permalink: storage-mgmt/task_export_storage_data_as_reports.html 
+sidebar: sidebar 
+keywords: export, storage, data, reports 
+summary: Puede exportar datos de almacenamiento en distintos formatos de salida y, a continuación, utilizar los datos exportados para generar informes. Por ejemplo, si hay 10 eventos críticos que no se han resuelto, puede exportar los datos desde la página del inventario de Event Management para crear un informe y, a continuación, enviar el informe a los administradores que puedan resolver los problemas. 
+---
+= Exportar datos de almacenamiento como informes
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede exportar datos de almacenamiento en distintos formatos de salida y, a continuación, utilizar los datos exportados para generar informes. Por ejemplo, si hay 10 eventos críticos que no se han resuelto, puede exportar los datos desde la página del inventario de Event Management para crear un informe y, a continuación, enviar el informe a los administradores que puedan resolver los problemas.
+
+Puede exportar datos a un `.csv` archivo, `.xlsx` archivo, o. `.pdf` Documente las páginas de inventario *almacenamiento* y *Red* y utilice los datos exportados para generar informes. Hay otras ubicaciones en el producto donde sólo `.csv` o. `.pdf` se pueden generar archivos.
+
+.Pasos
+. Ejecute una de las siguientes acciones:
++
+|===
+| Si desea exportar... | Realice lo siguiente... 
+
+
+ a| 
+Detalles del inventario de objetos de almacenamiento
+ a| 
+Haga clic en *almacenamiento* o *Red* en el menú de navegación de la izquierda y, a continuación, seleccione un objeto de almacenamiento. Elija una de las vistas proporcionadas por el sistema o cualquier vista personalizada que haya creado.
+
+
+
+ a| 
+Detalles del grupo de políticas de QoS
+ a| 
+Haga clic en *almacenamiento* > *grupos de políticas QoS* en el menú de navegación de la izquierda.
+
+
+
+ a| 
+Detalles del historial de protección y capacidad de almacenamiento
+ a| 
+Haga clic en *almacenamiento* > *agregados* o *almacenamiento* > *volúmenes* y, a continuación, seleccione un único agregado o volumen.
+
+
+
+ a| 
+Detalles del evento
+ a| 
+Haga clic en *Gestión de eventos* en el menú de navegación de la izquierda.
+
+
+
+ a| 
+Objetos de almacenamiento: Detalles de rendimiento de los 10 mejores
+ a| 
+Haga clic en *almacenamiento* > *Clusters* > *Performance:All Clusters*, seleccione un clúster y elija la ficha *Top Performers*. A continuación, seleccione un objeto de almacenamiento y un contador de rendimiento.
+
+|===
+. Haga clic en el botón *Informes* (o en el botón *Exportar* de algunas páginas de la interfaz de usuario).
+. Haga clic en *Descargar CSV*, *Descargar PDF* o *Descargar Excel* para confirmar la solicitud de exportación.
++
+En la pestaña Top Performers, es posible elegir descargar un informe de las estadísticas del clúster único que está viendo o de todos los clústeres del centro de datos.
+
++
+Se descarga el archivo.
+
+. Abra el archivo en la aplicación correspondiente.
+
+
+*Información relacionada*
+
+link:["Página del inventario Health/Clusters"]
+
+link:../reporting/task_schedule_report.html["Programar un informe"]

@@ -1,0 +1,14 @@
+---
+permalink: reporting/concept_customize_cluster_storage_reports.html 
+sidebar: sidebar 
+keywords: customize, cluster, storage, reports 
+summary: Los informes de almacenamiento de clúster de ejemplo de esta sección son solo muestras que le ayudan a comprender la forma de crear informes sobre la capacidad de los clústeres para ayudarle a supervisar los recursos del sistema de almacenamiento. 
+---
+= Personalizar informes de almacenamiento de clúster
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Los informes de almacenamiento de clúster de ejemplo de esta sección son solo muestras que le ayudan a comprender la forma de crear informes sobre la capacidad de los clústeres para ayudarle a supervisar los recursos del sistema de almacenamiento.

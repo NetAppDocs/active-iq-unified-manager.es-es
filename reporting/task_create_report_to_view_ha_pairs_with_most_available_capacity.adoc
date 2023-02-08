@@ -1,0 +1,43 @@
+---
+permalink: reporting/task_create_report_to_view_ha_pairs_with_most_available_capacity.html 
+sidebar: sidebar 
+keywords: create, report, view, HA pairs, available, capacity 
+summary: Puede crear un informe para encontrar los pares de alta disponibilidad con la mayor capacidad para aprovisionar nuevos volúmenes y LUN. 
+---
+= Crear un informe para ver los pares de alta disponibilidad con la capacidad más disponible
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede crear un informe para encontrar los pares de alta disponibilidad con la mayor capacidad para aprovisionar nuevos volúmenes y LUN.
+
+*Lo que necesitará*
+
+* Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
+
+Utilice los siguientes pasos para crear una vista personalizada que muestre parejas de alta disponibilidad ordenadas por la capacidad más disponible para aprovisionar volúmenes y LUN nuevos y, a continuación, programar un informe para que se genere para esa vista.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *almacenamiento* > *clústeres*.
+. En el menú Ver, seleccione *capacidad* > *todos los clústeres*.
+. Seleccione *Mostrar/Ocultar* para eliminar las columnas que no desee del informe.
+. Arrastre la columna «'capacidad no utilizada agregada'» cerca de la columna «'par ha'».
+. Haga clic en el icono de filtro, agregue el siguiente filtro y, a continuación, haga clic en *aplicar filtro*:
++
+** Capacidad no utilizada del agregado superior a 0.5 TB
+
+
+. Haga clic en la parte superior de la columna «"capacidad no utilizada agregada"» para ordenar los resultados por la mayor cantidad de capacidad agregada no utilizada.
+. Guarde la vista con un nombre específico que refleje lo que se muestra en la vista, por ejemplo, «"capacidad agregada mínima utilizada»» y haga clic en la Marca de verificación (image:../media/blue_check.gif[""]).
+. Haga clic en el botón *Informes programados* de la página de inventario.
+. Haga clic en *Agregar programación* para agregar una nueva fila a la página programas de informes de modo que pueda definir las características de programación para el nuevo informe.
+. Introduzca un nombre para el programa de informes y complete los otros campos de informe y, a continuación, haga clic en la Marca de verificación (image:../media/blue_check.gif[""]) al final de la fila.
++
+El informe se envía inmediatamente como prueba. Después de esto, el informe genera y se envía por correo electrónico a los destinatarios enumerados utilizando la frecuencia especificada.
+
+
+
+En función de los resultados mostrados en el informe, tal vez le interese equilibrar los pares de alta disponibilidad en función de la capacidad de los agregados.

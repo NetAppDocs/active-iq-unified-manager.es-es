@@ -1,0 +1,62 @@
+---
+permalink: storage-mgmt/task_provision_fileshares.html 
+sidebar: sidebar 
+keywords: provision, file, share, volumes 
+summary: 'Es posible crear volúmenes de recursos compartidos de archivos compatibles con los protocolos CIFS/SMB y NFS en un clúster existente y Storage Virtual Machine (VM de almacenamiento) desde la página de carga de trabajo de aprovisionamiento.' 
+---
+= Aprovisionar los volúmenes compartidos de archivos
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Es posible crear volúmenes de recursos compartidos de archivos compatibles con los protocolos CIFS/SMB y NFS en un clúster existente y Storage Virtual Machine (VM de almacenamiento) desde la página de carga de trabajo de aprovisionamiento.
+
+*Lo que necesitará*
+
+* El equipo virtual de almacenamiento debe tener espacio para aprovisionar el volumen compartido de archivos.
+* Debe habilitarse uno de los servicios de SMB y NFS en el equipo virtual de almacenamiento.
+* Para seleccionar y asignar el nivel de servicio de rendimiento (PSL) y la política de eficiencia de almacenamiento (SEP) en la carga de trabajo, es necesario crear las políticas antes de comenzar a crear la carga de trabajo.
+
+
+.Pasos
+. En la página *Provision Workload*, agregue el nombre de la carga de trabajo que desea crear y, a continuación, seleccione el clúster de la lista Available.
+. En función del clúster que haya seleccionado, el campo *VM de ALMACENAMIENTO* filtra los equipos virtuales de almacenamiento disponibles para ese clúster. Seleccione la máquina virtual de almacenamiento que desee de la lista.
++
+En función de los servicios SMB y NFS admitidos en la máquina virtual de almacenamiento, la opción NAS se habilita en la sección Host Information.
+
+. En la sección Storage and Optimization, asigne la capacidad de almacenamiento y PSL, y de manera opcional, UN SEP para la carga de trabajo.
++
+Las especificaciones para SEP se asignan a la LUN y las definiciones de PSL se aplican a la carga de trabajo cuando se crea.
+
+. Active la casilla de verificación *imponer límites de rendimiento* si desea aplicar la PSL que se ha asignado a la carga de trabajo.
++
+Al asignar un PSL a una carga de trabajo, el agregado en el que se crea la carga de trabajo puede admitir los objetivos de rendimiento y capacidad definidos en la política respectiva. Por ejemplo, si se asigna una carga de trabajo "Extreme Performance "PSL", el agregado en el que se aprovisiona la carga de trabajo debe tener la capacidad de admitir los objetivos de rendimiento y capacidad de la política de "rendimiento extremo", como el almacenamiento SSD.
+
++
+[NOTE]
+====
+A menos que se seleccione esta casilla de comprobación, PSL no se aplica a la carga de trabajo y el estado de la carga de trabajo en la consola se muestra como sin asignar.
+
+====
+. Seleccione la opción *NAS*.
++
+Si no puede ver la opción *NAS* activada, compruebe si el equipo virtual de almacenamiento que ha seleccionado es compatible con SMB o NFS, o ambos.
+
++
+[NOTE]
+====
+Si el equipo virtual de almacenamiento está habilitado para los servicios SMB y NFS, puede seleccionar las casillas de verificación *Compartir por NFS* y *Compartir por SMB* y crear un recurso compartido de archivos que admita los protocolos NFS y SMB. Si desea crear un recurso compartido SMB o CIFS, seleccione la casilla de comprobación únicamente correspondiente.
+
+====
+. En el caso de los volúmenes compartidos de archivos NFS, especifique la dirección IP del host o la red para acceder al volumen de recursos compartidos de archivos. Puede introducir valores separados por comas para varios hosts.
++
+Cuando se añade la dirección IP del host, se ejecuta una comprobación interna para hacer coincidir los detalles del host con la máquina virtual de almacenamiento y la política de exportación de ese host, o bien, en caso de que exista una política existente, se vuelve a utilizar. Si hay varios recursos compartidos NFS creados para el mismo host, se reutilizará una política de exportación disponible para el mismo host con reglas coincidentes para todos los archivos compartidos. La función de especificar reglas de directivas individuales o volver a utilizar directivas proporcionando claves de directiva específicas está disponible cuando se aprovisiona el recurso compartido NFS mediante API.
+
+. Para un recurso compartido de SMB, especifique qué usuarios o grupos de usuarios pueden acceder al recurso compartido de SMB y asignar los permisos necesarios. Para cada grupo de usuarios, se genera una nueva lista de control de acceso (ACL) durante la creación del recurso compartido de archivos.
+. Haga clic en *Guardar*.
++
+La carga de trabajo se añade a la lista de cargas de trabajo de almacenamiento.
+
+

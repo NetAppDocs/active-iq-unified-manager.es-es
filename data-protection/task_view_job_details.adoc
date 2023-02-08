@@ -1,0 +1,24 @@
+---
+permalink: data-protection/task_view_job_details.html 
+sidebar: sidebar 
+keywords: view, job, details 
+summary: Después de iniciar un trabajo, puede realizar un seguimiento de su progreso desde la página de detalles Job y supervisar las tareas asociadas para detectar posibles errores. 
+---
+= Ver los detalles del trabajo
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Después de iniciar un trabajo, puede realizar un seguimiento de su progreso desde la página de detalles Job y supervisar las tareas asociadas para detectar posibles errores.
+
+*Lo que necesitará*
+
+Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *Protección* > *trabajos*.
+. En la página Jobs, haga clic en un nombre de trabajo en la columna *Name* para mostrar la lista de tareas asociadas al trabajo.
+. Haga clic en una tarea para mostrar información adicional en el panel *Detalles de la tarea* y en el panel *mensajes de la tarea* situado a la derecha de la lista de tareas.
+

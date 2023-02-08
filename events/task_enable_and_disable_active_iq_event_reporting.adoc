@@ -1,0 +1,45 @@
+---
+permalink: events/task_enable_and_disable_active_iq_event_reporting.html 
+sidebar: sidebar 
+keywords: enable, disable, active iq, event, report 
+summary: 'Los eventos de la plataforma Active IQ se generan y se muestran de forma predeterminada en la interfaz de usuario de Unified Manager. Si considera que estos eventos son demasiado "ruidosos" o que no desea ver estos eventos en Unified Manager, puede desactivar la generación de estos eventos. Puede habilitarlos más adelante si desea reanudar la recepción de estas notificaciones.' 
+---
+= Habilitar y deshabilitar la generación de informes de eventos de Active IQ
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Los eventos de la plataforma Active IQ se generan y se muestran de forma predeterminada en la interfaz de usuario de Unified Manager. Si considera que estos eventos son demasiado "ruidosos" o que no desea ver estos eventos en Unified Manager, puede deshabilitar la generación de estos eventos. Puede habilitarlos más adelante si desea reanudar la recepción de estas notificaciones.
+
+*Lo que necesitará*
+
+Debe tener la función Administrador de aplicaciones.
+
+Cuando deshabilita esta función, Unified Manager deja de recibir eventos de la plataforma Active IQ de inmediato.
+
+Cuando habilita esta función, Unified Manager comienza a recibir eventos de la plataforma Active IQ poco después de medianoche según la zona horaria del clúster. La hora de inicio se basa en el momento en el que Unified Manager recibe mensajes de AutoSupport de cada clúster.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *General* > *Configuración de funciones*.
+. En la página *Configuración de característica*, desactive o active los eventos de la plataforma Active IQ seleccionando una de las siguientes opciones:
++
+|===
+| Si desea... | Realice lo siguiente... 
+
+
+ a| 
+Deshabilite los eventos de la plataforma Active IQ
+ a| 
+En el panel *Eventos del portal Active IQ*, mueva el botón deslizante hacia la izquierda.
+
+
+
+ a| 
+Habilite los eventos de la plataforma de Active IQ
+ a| 
+En el panel *Eventos del portal Active IQ*, mueva el botón deslizante hacia la derecha.
+
+|===
+

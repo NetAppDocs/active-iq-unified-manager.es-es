@@ -1,0 +1,220 @@
+---
+permalink: install-windows/reference_protocol_and_port_requirements.html 
+sidebar: sidebar 
+keywords: unified manager, protocol, port, requirements 
+summary: Los puertos y protocolos necesarios permiten la comunicación entre el servidor de Unified Manager y los sistemas de almacenamiento gestionados, los servidores y otros componentes. 
+---
+= Requisitos de protocolo y puerto
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Los puertos y protocolos necesarios permiten la comunicación entre el servidor de Unified Manager y los sistemas de almacenamiento gestionados, los servidores y otros componentes.
+
+
+
+== Conexiones con el servidor de Unified Manager
+
+En instalaciones típicas no es necesario especificar números de puerto al conectarse a la interfaz de usuario web de Unified Manager, ya que siempre se utilizan los puertos predeterminados. Por ejemplo, como Unified Manager siempre intenta ejecutar en su puerto predeterminado, puede introducir `+https://<host>+` en lugar de `+https://<host>:443+`.
+
+El servidor de Unified Manager utiliza protocolos específicos para acceder a las siguientes interfaces:
+
+[cols="4*"]
+|===
+| Interfaz | Protocolo | Puerto | Descripción 
+
+
+ a| 
+Interfaz de usuario web de Unified Manager
+ a| 
+HTTP
+ a| 
+80
+ a| 
+Se utiliza para acceder a la IU web de Unified Manager; redirige automáticamente al puerto seguro 443.
+
+
+
+ a| 
+API de interfaz de usuario web y programas de Unified Manager
+ a| 
+HTTPS
+ a| 
+443
+ a| 
+Se usa para acceder de manera segura a la interfaz de usuario web de Unified Manager o para realizar llamadas API, ya que las llamadas API solo se pueden realizar mediante HTTPS.
+
+
+
+ a| 
+Consola de mantenimiento
+ a| 
+SSH/SFTP
+ a| 
+22
+ a| 
+Se usa para acceder a la consola de mantenimiento y recuperar los paquetes de soporte.
+
+
+
+ a| 
+Línea de comandos de Linux
+ a| 
+SSH/SFTP
+ a| 
+22
+ a| 
+Se utiliza para acceder a la línea de comandos Red Hat Enterprise Linux o CentOS y recuperar paquetes de soporte.
+
+
+
+ a| 
+Syslog
+ a| 
+UDP
+ a| 
+514
+ a| 
+Se utiliza para acceder a los mensajes de EMS basados en suscripción desde sistemas ONTAP y para crear eventos basados en los mensajes.
+
+
+
+ a| 
+DESCANSO
+ a| 
+HTTPS
+ a| 
+9443
+ a| 
+Se utiliza para acceder a eventos EMS basados en API DE REST en tiempo real desde sistemas ONTAP autenticados.
+
+
+
+ a| 
+Base de datos MySQL
+ a| 
+MySQL
+ a| 
+3306
+ a| 
+Se utiliza para habilitar el acceso de OnCommand Workflow Automation y OnCommand API Services a Unified Manager.
+
+|===
+[NOTE]
+====
+El puerto predeterminado de MySQL, 3306, está restringido solo a localhost mientras se instala Unified Manager en sistemas Windows. Esto no afecta a ningún escenario de actualización donde se mantenga la configuración anterior. Esta configuración puede modificarse y la conexión puede ponerse a disposición de otros hosts mediante el `Control access to MySQL port 3306` de la consola de mantenimiento. Para obtener más información, consulte link:../config/reference_additional_menu_options.html["Opciones de menú adicionales"]. Los puertos que se utilizan para la comunicación HTTP y HTTPS (puertos 80 y 443) pueden cambiarse con la consola de mantenimiento de Unified Manager. Para obtener más información, consulte link:../config/concept_configure_unified_manager.html["Configurando Active IQ Unified Manager"].
+
+====
+
+
+== Conexiones desde el servidor de Unified Manager
+
+Debe configurar el firewall para que abra puertos que permitan la comunicación entre el servidor de Unified Manager y los sistemas de almacenamiento gestionados, los servidores y otros componentes. Si un puerto no está abierto, la comunicación falla.
+
+Según su entorno, puede elegir modificar los puertos y los protocolos que utiliza el servidor de Unified Manager para conectarse a destinos específicos.
+
+El servidor de Unified Manager se conecta utilizando los siguientes protocolos y puertos a los sistemas de almacenamiento gestionados, los servidores y otros componentes:
+
+[cols="4*"]
+|===
+| Destino | Protocolo | Puerto | Descripción 
+
+
+ a| 
+Sistema de almacenamiento
+ a| 
+HTTPS
+ a| 
+443 TCP
+ a| 
+Se utiliza para supervisar y gestionar sistemas de almacenamiento.
+
+
+
+ a| 
+Sistema de almacenamiento
+ a| 
+NDMP
+ a| 
+10000 TCP
+ a| 
+Se utiliza para ciertas operaciones de restauración de Snapshot.
+
+
+
+ a| 
+Servidor AutoSupport
+ a| 
+HTTPS
+ a| 
+443
+ a| 
+Se utiliza para enviar información de AutoSupport. Requiere el acceso a Internet para realizar esta función.
+
+
+
+ a| 
+Servidor de autenticación
+ a| 
+LDAP
+ a| 
+389
+ a| 
+Se utiliza para realizar solicitudes de autenticación y solicitudes de búsqueda de usuarios y grupos.
+
+
+
+ a| 
+LDAPS
+ a| 
+636
+ a| 
+Se utiliza para comunicación LDAP segura.
+
+
+
+ a| 
+Servidor de correo
+ a| 
+SMTP
+ a| 
+25
+ a| 
+Se utiliza para enviar correos electrónicos de notificación de alertas.
+
+
+
+ a| 
+Remitente de captura SNMP
+ a| 
+SNMPv1 o SNMPv3
+ a| 
+162/UDP
+ a| 
+Se utiliza para enviar notificaciones de alerta de capturas de SNMP.
+
+
+
+ a| 
+Servidor de proveedores de datos externos
+ a| 
+TCP
+ a| 
+2003
+ a| 
+Se utiliza para enviar datos de rendimiento a un proveedor de datos externo, como Graphite.
+
+
+
+ a| 
+Servidor NTP
+ a| 
+NTP
+ a| 
+123/UDP
+ a| 
+Se utiliza para sincronizar la hora en el servidor de Unified Manager con un servidor de hora NTP externo. (Solo sistemas VMware)
+
+|===

@@ -1,0 +1,66 @@
+---
+permalink: performance-checker/task_filter_inventory_page_content.html 
+sidebar: sidebar 
+keywords: filtering, inventory, page, content 
+summary: Puede filtrar los datos de las páginas de inventario en Unified Manager para localizar rápidamente datos según criterios específicos. Puede utilizar el filtrado para limitar el contenido de las páginas de Unified Manager a fin de mostrar únicamente los resultados de los que está interesado. Esto proporciona un método muy eficiente para mostrar sólo los datos en los que usted está interesado. 
+---
+= Filtrado del contenido de la página de inventario
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede filtrar los datos de las páginas de inventario en Unified Manager para localizar rápidamente datos según criterios específicos. Puede utilizar el filtrado para limitar el contenido de las páginas de Unified Manager a fin de mostrar únicamente los resultados de los que está interesado. Esto proporciona un método muy eficiente para mostrar sólo los datos en los que usted está interesado.
+
+Utilice *filtrado* para personalizar la vista de cuadrícula en función de sus preferencias. Las opciones de filtro disponibles se basan en el tipo de objeto que se está viendo en la cuadrícula. Si se aplican filtros actualmente, el número de filtros aplicados se muestra a la derecha del botón filtro.
+
+Se admiten tres tipos de parámetros de filtro.
+
+|===
+| Parámetro | Validación 
+
+
+ a| 
+Cadena (texto)
+ a| 
+Los operadores son *contiene*, *comienza con*, *termina con* y *no contiene*.
+
+
+
+ a| 
+Número
+ a| 
+Los operadores son *superiores a*, *inferiores a*, *en el último* y *entre*.
+
+
+
+ a| 
+Enumeración (texto)
+ a| 
+Los operadores son *is* y *no*.
+
+|===
+Los campos columna, operador y valor son necesarios para cada filtro; los filtros disponibles reflejan las columnas filtrables en la página actual. El número máximo de filtros que puede aplicar es cuatro. Los resultados filtrados se basan en parámetros de filtro combinados. Los resultados filtrados se aplican a todas las páginas de la búsqueda filtrada, no sólo a la página mostrada actualmente.
+
+Puede agregar filtros mediante el panel filtrado.
+
+. En la parte superior de la página, haga clic en el botón *filtro*. Aparecerá el panel filtrado.
+. Haga clic en la lista desplegable que se encuentra a la izquierda y seleccione un objeto; por ejemplo, _Cluster_ o un contador de rendimiento.
+. Haga clic en la lista desplegable Centro y seleccione el operador que desee utilizar.
+. En la última lista, seleccione o escriba un valor para completar el filtro de ese objeto.
+. Para agregar otro filtro, haga clic en *+Agregar filtro*. Aparecerá un campo de filtro adicional. Complete este filtro utilizando el proceso descrito en los pasos anteriores. Tenga en cuenta que al agregar el cuarto filtro, el botón *+Agregar filtro* ya no aparece.
+. Haga clic en *aplicar filtro*. Las opciones de filtro se aplican a la cuadrícula y el número de filtros se muestra a la derecha del botón filtro.
+. Utilice el panel filtrado para eliminar filtros individuales haciendo clic en el icono de papelera situado a la derecha del filtro que se va a eliminar.
+. Para eliminar todos los filtros, haga clic en *Restablecer* en la parte inferior del panel de filtrado.
+
+
+
+
+== Ejemplo de filtrado
+
+La ilustración muestra el panel filtrado con tres filtros. El botón *+Add Filter* aparece cuando tiene menos de cuatro filtros como máximo.
+
+image::../media/opm_filtering_panel_draft_3.gif[borrador del panel de filtrado de opm 3]
+
+Después de hacer clic en *aplicar filtro*, el panel filtrado se cierra, aplica los filtros y muestra el número de filtros aplicados (image:../media/opm_filters_applied.gif[""]).

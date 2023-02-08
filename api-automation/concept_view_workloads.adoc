@@ -1,0 +1,53 @@
+---
+permalink: api-automation/concept_view_workloads.html 
+sidebar: sidebar 
+keywords: view, storage, workloads 
+summary: 'Las API que se enumeran aquí le permiten ver una lista consolidada de cargas de trabajo de almacenamiento para todos los clústeres ONTAP en su centro de datos. Las API también proporcionan una vista de resumen del número de cargas de trabajo de almacenamiento aprovisionadas en el entorno de Active IQ Unified Manager, y sus estadísticas de capacidad y rendimiento (IOPS).' 
+---
+= Ver cargas de trabajo de almacenamiento mediante API
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Las API que se enumeran aquí le permiten ver una lista consolidada de cargas de trabajo de almacenamiento para todos los clústeres ONTAP en su centro de datos. Las API también proporcionan una vista de resumen del número de cargas de trabajo de almacenamiento aprovisionadas en el entorno de Active IQ Unified Manager, y sus estadísticas de capacidad y rendimiento (IOPS).
+
+
+
+== Ver cargas de trabajo de almacenamiento
+
+Puede usar el siguiente método para ver todas las cargas de trabajo de almacenamiento de todos los clústeres del centro de datos. Para obtener información sobre el filtrado de la respuesta en función de columnas específicas, consulte la documentación de referencia de API disponible en la instancia de Unified Manager.
+
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+proveedor de almacenamiento
+ a| 
+OBTENGA
+ a| 
+`/storage-provider/workloads`
+
+|===
+
+
+== Ver resumen de las cargas de trabajo de almacenamiento
+
+Puede utilizar el siguiente método para evaluar la capacidad utilizada, la capacidad disponible, los IOPS usados, las IOPS disponibles y el número de cargas de trabajo de almacenamiento gestionadas por cada nivel de servicio de rendimiento. Las cargas de trabajo de almacenamiento que se muestran pueden ser para cualquier LUN, recurso compartido de archivos NFS o recurso compartido CIFS. La API proporciona información general sobre las cargas de trabajo de almacenamiento, una descripción general de las cargas de trabajo de almacenamiento aprovisionadas por Unified Manager, una información general sobre centros de datos, una descripción general de todo, usado y el espacio y las IOPS disponibles en el centro de datos, en términos de niveles de servicio de rendimiento asignados. La información que se recibe en respuesta a esta API se utiliza para completar la consola en la interfaz de usuario de Unified Manager.
+
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+proveedor de almacenamiento
+ a| 
+OBTENGA
+ a| 
+`/storage-provider/workloads-summary`
+
+|===

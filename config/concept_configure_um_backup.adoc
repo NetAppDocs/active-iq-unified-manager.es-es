@@ -1,0 +1,16 @@
+---
+permalink: config/concept_configure_um_backup.html 
+sidebar: sidebar 
+keywords: configure, unified manager, backup 
+summary: Puede configurar la funcionalidad de backup en Unified Manager mediante un conjunto de pasos de configuración que se realizarán en los sistemas host y en la consola de mantenimiento. 
+---
+= Configuración de backup de Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede configurar la funcionalidad de backup en Unified Manager mediante un conjunto de pasos de configuración que se realizarán en los sistemas host y en la consola de mantenimiento.
+
+Para obtener información acerca de los pasos de configuración, consulte link:..//health-checker/concept_manage_backup_and_restore_operations.html["Gestión de operaciones de backup y restauración"].

@@ -1,0 +1,109 @@
+---
+permalink: events/reference_snapmirror_and_vault_relationship_events.html 
+sidebar: sidebar 
+keywords: asynchronous, mirror, vault, relationship, events, impact area, protection 
+summary: Los eventos de relaciones de mirroring y almacén asíncronos le proporcionan información sobre el estado de las relaciones de SnapMirror y almacén asíncronas para poder realizar una supervisión de posibles problemas. Los eventos de relación de reflejo asíncrono y almacén se admiten tanto para las relaciones de protección de máquinas virtuales de almacenamiento como de volúmenes. Pero solo no se admiten las relaciones de almacén para la recuperación ante desastres de la máquina virtual de almacenamiento. Los eventos se agrupan por área de impacto e incluyen el nombre del evento y de captura, el nivel de impacto, el tipo de origen y la gravedad. 
+---
+= Eventos de relaciones de reflejo asíncrono y almacén
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Los eventos de relaciones de mirroring y almacén asíncronos le proporcionan información sobre el estado de las relaciones de SnapMirror y almacén asíncronas para poder realizar una supervisión de posibles problemas. Los eventos de relación de reflejo asíncrono y almacén se admiten tanto para las relaciones de protección de máquinas virtuales de almacenamiento como de volúmenes. Pero solo no se admiten las relaciones de almacén para la recuperación ante desastres de la máquina virtual de almacenamiento. Los eventos se agrupan por área de impacto e incluyen el nombre del evento y de captura, el nivel de impacto, el tipo de origen y la gravedad.
+
+
+
+== Zona de impacto: Protección
+
+[NOTE]
+====
+Los eventos de relaciones de SnapMirror y almacén también se generan para equipos virtuales de almacenamiento protegidos mediante la recuperación ante desastres de Storage VM pero no para las relaciones de objetos constituyentes.
+
+====
+|===
+| Nombre del evento (nombre de la captura) | Nivel de impacto | Tipo de origen | Gravedad 
+
+
+ a| 
+Reflejo asíncrono y almacén en mal estado(ocumEvtMirrorRelationship relación depósito Unheavy)
+ a| 
+Riesgo
+ a| 
+Relación de SnapMirror
+ a| 
+Advertencia
+
+
+
+ a| 
+Reflejo asíncrono y almacén roto-off (ocumEvtMirrorRelationship ationshipStateBrokenoff)
+ a| 
+Riesgo
+ a| 
+Relación de SnapMirror
+ a| 
+Error
+
+
+
+ a| 
+Error en el reflejo asíncrono y la inicialización del almacén (error de ocumEvtMirrorRelationship InitializeFailed)
+ a| 
+Riesgo
+ a| 
+Relación de SnapMirror
+ a| 
+Error
+
+
+
+ a| 
+Error en la actualización de reflejo asíncrono y almacén (ocumEvtMirrorRelationship UpdateFailed)
+ a| 
+Riesgo
+ a| 
+Relación de SnapMirror
+ a| 
+Error
+
+
+
+ a| 
+Error de desfase de reflejo asíncrono y almacén (ocumEvtMirrorRelationship shipLagError)
+ a| 
+Riesgo
+ a| 
+Relación de SnapMirror
+ a| 
+Error
+
+
+
+ a| 
+Advertencia de desfase de reflejo asíncrono y almacén (ocumEvtMirrorRelationship relación shipLagWarning)
+ a| 
+Riesgo
+ a| 
+Relación de SnapMirror
+ a| 
+Advertencia
+
+
+
+ a| 
+Error en la resincronización de reflejo asíncrono y almacén (ocumEvtMirrorRelationshipResyncFailed)
+ a| 
+Riesgo
+ a| 
+Relación de SnapMirror
+ a| 
+Error
+
+|===
+[NOTE]
+====
+El evento "fallo de actualización de SnapMirror" se produce en el portal de Active IQ (Config Advisor).
+
+====

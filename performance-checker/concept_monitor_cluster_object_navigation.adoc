@@ -1,0 +1,28 @@
+---
+permalink: performance-checker/concept_monitor_cluster_object_navigation.html 
+sidebar: sidebar 
+keywords: monitor, cluster, object, navigation 
+summary: Es posible supervisar el rendimiento de todos los objetos en cualquier clúster gestionado por Unified Manager. La supervisión de objetos de almacenamiento le proporciona una descripción general del rendimiento del clúster y los objetos, e incluye supervisión de eventos de rendimiento. Es posible ver los eventos y el rendimiento a un nivel alto o estudiar aún más detalles sobre los eventos de rendimiento y rendimiento de objetos. 
+---
+= Supervise la navegación de objetos del clúster
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Es posible supervisar el rendimiento de todos los objetos en cualquier clúster gestionado por Unified Manager. La supervisión de objetos de almacenamiento le proporciona una descripción general del rendimiento del clúster y los objetos, e incluye supervisión de eventos de rendimiento. Es posible ver los eventos y el rendimiento a un nivel alto o estudiar aún más detalles sobre los eventos de rendimiento y rendimiento de objetos.
+
+Este es un ejemplo de muchas posibles navegaciones de objetos de clúster:
+
+. En la página Dashboard, revise los detalles en el panel rendimiento capacidad para identificar el clúster que utiliza la mayor capacidad de rendimiento y haga clic en el gráfico de barras para ir a la lista de nodos de ese clúster.
+. Identifique el nodo con el valor de capacidad de rendimiento más alto usado y haga clic en ese nodo.
+. En la página Explorador de nodos / rendimiento, haga clic en *agregados en este nodo* en el menú Ver y comparar.
+. Identifique el agregado que utiliza la mayor capacidad de rendimiento y haga clic en ese agregado.
+. En la página Aggregate / Performance Explorer, haga clic en *Volumes on this aggregate* en el menú View and Compare.
+. Identifique los volúmenes que utilizan más IOPS.
+
+
+Debe investigar estos volúmenes para ver si debe aplicar una política de calidad de servicio o una política de nivel de servicio de rendimiento, o cambiar la configuración de la política, de modo que esos volúmenes no usen un porcentaje de IOPS tan grande en el clúster.
+
+image::../media/monitor_cluster_object.png[supervise el objeto de clúster]

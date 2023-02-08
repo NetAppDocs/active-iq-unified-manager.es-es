@@ -1,0 +1,16 @@
+---
+permalink: reporting/concept_customize_aggregate_capacity_reports.html 
+sidebar: sidebar 
+keywords: customize, aggregate, capacity, reports 
+summary: Estos informes personalizados de muestra se utilizan para ayudarle a identificar y responder a problemas potenciales relacionados con la capacidad de almacenamiento agregada. 
+---
+= Personalizar los informes de capacidad de agregados
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Estos informes personalizados de muestra se utilizan para ayudarle a identificar y responder a problemas potenciales relacionados con la capacidad de almacenamiento agregada.
+
+Los informes de esta sección son solo muestras que le ayudarán a comprender la forma de crear informes sobre la capacidad de agregado con el fin de ayudarle a supervisar los recursos del sistema de almacenamiento.

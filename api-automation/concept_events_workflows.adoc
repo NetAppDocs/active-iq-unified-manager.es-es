@@ -1,0 +1,43 @@
+---
+permalink: api-automation/concept_events_workflows.html 
+sidebar: sidebar 
+keywords: determine, issues, storage, objects, events 
+summary: Cuando un objeto de almacenamiento de su centro de datos cruza un umbral, se obtiene una notificación de ese evento. Con esta notificación, puede analizar el problema y tomar medidas correctivas mediante las API de eventos. 
+---
+= Determinar problemas en objetos de almacenamiento mediante las API de eventos
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Cuando un objeto de almacenamiento de su centro de datos cruza un umbral, se obtiene una notificación de ese evento. Con esta notificación, puede analizar el problema y adoptar medidas correctivas mediante `events` API.
+
+Este flujo de trabajo toma el ejemplo de un volumen como objeto de recurso. Puede utilizar el `events` Las API para recuperar la lista de eventos relacionados con un volumen, analizar los problemas críticos de ese volumen y, a continuación, tomar medidas correctivas para rectificar el problema.
+
+image::../media/handling_event_related_issues_of_a_storage_object_flowchart.gif[gestionar los problemas relacionados con eventos de un diagrama de flujo de objetos de almacenamiento]
+
+Siga estos pasos para determinar los problemas en su volumen antes de seguir los pasos para solucionarlo.
+
+.Pasos
+. Analice las notificaciones de eventos críticos de Active IQ Unified Manager para los volúmenes en el centro de datos.
+. Consulte todos los eventos de los volúmenes mediante los siguientes parámetros de la API /Management-Server/Events:
+`"*resource_type": "volume*"`
+`"*severity": "critical*"`
++
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+servidor de gestión
+ a| 
+OBTENGA
+ a| 
+/management-servidor/eventos
+
+|===
+. Vea el resultado y analice los problemas en los volúmenes específicos.
+. Realice las acciones necesarias mediante las API de REST o la interfaz de usuario web de Unified Manager para resolver los problemas.
+

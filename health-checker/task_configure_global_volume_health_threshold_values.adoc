@@ -1,0 +1,37 @@
+---
+permalink: health-checker/task_configure_global_volume_health_threshold_values.html 
+sidebar: sidebar 
+keywords: configure, global, volume, health, threshold values 
+summary: Puede configurar los valores de umbral de estado global para todos los volúmenes para realizar un seguimiento de cualquier incumplimiento de umbral. Se generan eventos apropiados para las infracciones de los umbrales de salud y puede tomar medidas preventivas basadas en estos eventos. Puede configurar los valores globales a partir de la configuración de prácticas recomendadas para los umbrales que se aplican a todos los volúmenes supervisados. 
+---
+= Configurar los valores de umbral de estado de volúmenes globales
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede configurar los valores de umbral de estado global para todos los volúmenes para realizar un seguimiento de cualquier incumplimiento de umbral. Se generan eventos apropiados para las infracciones de los umbrales de salud y puede tomar medidas preventivas basadas en estos eventos. Puede configurar los valores globales a partir de la configuración de prácticas recomendadas para los umbrales que se aplican a todos los volúmenes supervisados.
+
+*Lo que necesitará*
+
+Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
+La mayoría de las opciones de umbral tienen valores predeterminados para una mejor supervisión. Sin embargo, puede cambiar los valores para adaptarlos a los requisitos de su entorno.
+
+Tenga en cuenta que cuando se habilita la opción Autofila en un volumen, se consideran límites de capacidad según el tamaño máximo de volumen establecido por crecimiento automático, no según el tamaño del volumen original.
+
+[NOTE]
+====
+El valor predeterminado de 1000 copias de Snapshot se aplica solo a los volúmenes FlexVol cuando la versión de ONTAP es 9.4 o posterior, y a los volúmenes FlexGroup cuando la versión de ONTAP es 9.8 y posterior. En los clústeres instalados con versiones anteriores del software ONTAP, el número máximo es de 250 copias snapshot por volumen. En estas versiones anteriores, Unified Manager interpreta este número 1000 (y cualquier número entre 1000 y 250) como 250; lo que significa que continuará recibiendo eventos cuando el número de copias Snapshot llegue a 250. Si desea establecer este umbral en menos de 250 para estas versiones anteriores, debe establecer el umbral en 250 o inferior aquí, en la vista Estado: Todos los volúmenes o en la página de detalles volumen / Estado.
+
+====
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *umbrales de evento* > *volumen*.
+. Configurar los valores de umbral adecuados para la capacidad, las copias Snapshot, las cuotas de qtree, el crecimiento de volumen y los inodos.
+. Haga clic en *Guardar*.
+
+
+*Información relacionada*
+
+link:../config/task_add_users.html["Adición de usuarios"]

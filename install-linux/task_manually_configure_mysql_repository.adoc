@@ -1,0 +1,60 @@
+---
+permalink: install-linux/task_manually_configure_mysql_repository.html 
+sidebar: sidebar 
+keywords: manually configure mysql repository, mysql key, keys update 
+summary: Si el sistema en el que está instalando Unified Manager no tiene acceso al repositorio de MySQL Community Edition, debe descargar y configurar manualmente el repositorio para una instalación correcta. 
+---
+= Configurar manualmente el repositorio de MySQL
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Si el sistema en el que está instalando Unified Manager no tiene acceso al repositorio de MySQL Community Edition, debe descargar y configurar manualmente el repositorio para una instalación correcta.
+
+El repositorio de MySQL proporciona acceso al software MySQL necesario que debe instalarse en el sistema.
+
+[NOTE]
+====
+Esta tarea podría fallar si el sistema no tiene conectividad a Internet. Consulte la documentación de MySQL si el sistema en el que va a instalar Unified Manager no tiene acceso a Internet.
+
+====
+.Pasos
+. Descargue el repositorio de MySQL adecuado para su instalación. Para Red Hat Enterprise Linux 7, descárguelo de:
++
+`+wget http://repo.mysql.com/yum/mysql-8.0-community/el/7/x86_64/mysql80-community-release-el7-3.noarch.rpm+`
+
++
+Para la versión 8, descárguela de:
+
++
+`+wget http://repo.mysql.com/yum/mysql-8.0-community/el/8/x86_64/mysql80-community-release-el8-1.noarch.rpm+`
+
+. Configure el repositorio de MySQL:
++
+`yum install mysql80-community-release-<version>.noarch.rpm`
+
+
+
+Para el sistema Red Hat Enterprise Linux 8, si tiene repositorios internos con java-11-openjdk, p7zip y otros paquetes de software proporcionados por el repositorio AppStream, debe deshabilitar el repositorio de AppStream e instalar MySQL Community Server. Ejecute el siguiente comando:
+
+[listing]
+----
+# sudo yum --disablerepo=rhel-8-for-x86_64-appstream-rpms install  mysql-community-server
+----
+Si recibe un error cuando falta una clave o falta de coincidencia de claves y la instalación falla, intente realizar los siguientes pasos:
+
+* En un sistema conectado, importe la clave MySQL actualizada ejecutando el siguiente comando:
+
+
+[listing]
+----
+rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-<xxxx>
+
+for example:
+
+rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022
+----
+* En un sistema que no tiene conectividad a Internet, actualice el archivo MySQL repo y desactívelo `gpgcheck` marcando `gpgcheck=0`.
+

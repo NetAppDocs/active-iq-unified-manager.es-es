@@ -1,0 +1,44 @@
+---
+permalink: reporting/task_delete_scheduled_reports.html 
+sidebar: sidebar 
+keywords: delete, reports 
+summary: Una vez programados los informes, puede eliminarlos de la página programas de informes. 
+---
+= Eliminar informes programados
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Una vez programados los informes, puede eliminarlos de la página programas de informes.
+
+*Lo que necesitará*
+
+* Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *Administración de almacenamiento* > *programas de informes*.
++
+image::../media/scheduled_reports_2.gif[informes programados 2]
+
++
+[NOTE]
+====
+Si dispone de los permisos adecuados, puede eliminar cualquier informe y su programación en el sistema.
+
+====
+. Haga clic en el icono más image:../media/more_icon.gif[""] para la programación que desea eliminar.
+. Haga clic en *Eliminar*.
+. Confirme su decisión.
++
+El informe programado se elimina de la lista y ya no se generará ni distribuirá en el programa establecido.
+
++
+[NOTE]
+====
+Si elimina una vista personalizada de la página de inventario, también se eliminarán los archivos de Excel personalizados o los informes programados que utilicen esa vista.
+
+====
+

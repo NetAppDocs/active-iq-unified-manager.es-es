@@ -1,0 +1,267 @@
+---
+permalink: storage-mgmt/concept_manage_performance_service_levels.html 
+sidebar: sidebar 
+keywords: manage, performance service level, PSL, User-defined, system-defined PSL, bursty, Database PSL, extreme PSL, beyond extreme PSL 
+summary: Gestión y cálculos de nivel de servicio de rendimiento. 
+---
+= Niveles de servicio de rendimiento
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Un nivel de servicio de rendimiento (PSL) permite definir los objetivos de rendimiento y almacenamiento para una carga de trabajo. Es posible asignar un PSL a una carga de trabajo cuando se crea inicialmente la carga de trabajo, o bien luego editarla.
+
+La gestión y la supervisión de los recursos de almacenamiento se basan en los objetivos de nivel de servicio (SLO). Los acuerdos de nivel de servicio se definen mediante acuerdos de nivel de servicio que se basan en el rendimiento y la capacidad necesarios. En Unified Manager, los objetivos de nivel de servicio se refieren a las definiciones de PSL de las aplicaciones que se ejecutan en el almacenamiento de NetApp. Los servicios de almacenamiento se diferencian en función del rendimiento y la utilización de los recursos subyacentes. Un PSL es una descripción de los objetivos de servicio de almacenamiento. Un PSL permite al proveedor de almacenamiento especificar los objetivos de rendimiento y capacidad para la carga de trabajo. Cuando se asigna una PSL en una carga de trabajo, la carga de trabajo correspondiente en ONTAP se gestiona mediante sus objetivos de rendimiento y capacidad. Cada PSL se rige por IOPS máximas, esperadas y mínimas absolutas, y la latencia esperada.
+
+Unified Manager tiene los siguientes tipos de CAL:
+
+* *Definido por el sistema*: Unified Manager proporciona algunas directivas preparadas que no se pueden modificar. Estas PSLs predefinidas son:
++
+** Rendimiento extremo
+** Rendimiento
+** Valor
++
+Las PSU de rendimiento extremo, rendimiento y valor son aplicables a la mayoría de las cargas de trabajo de almacenamiento comunes en un centro de datos.
+
++
+Unified Manager también ofrece tres niveles de servicio de rendimiento para aplicaciones de bases de datos. Se trata de PSU de rendimiento extremadamente alto que admiten IOPS por ráfagas y son adecuadas para aplicaciones de base de datos con la mayor demanda de rendimiento.
+
+** Extreme para registros de bases de datos
+** Extremo para datos compartidos de bases de datos
+** Extremadamente para datos de bases de datos
+
+
+* *Definido por el usuario*: Si los niveles predefinidos de Servicio de rendimiento no cumplen sus requisitos, puede crear nuevos archivos DLL para satisfacer sus necesidades. Para obtener más información, consulte link:../storage-mgmt/task_create_and_edit_psls.html["Creación y edición de niveles de servicio de rendimiento"].
+* *Beyond Extreme*: Los archivos DLL de Beyond Extreme son los archivos DLL recomendados por el sistema que se sugieren para cargas de trabajo que requieren IOPS más alto que Extreme. Las cargas de trabajo se analizan internamente en función de sus IOPS, su capacidad y su latencia, y se recomienda un PSL superior a Extreme para cada una de estas cargas de trabajo en la pantalla *almacenamiento > cargas de trabajo > todas las cargas de trabajo*. Puede aplicar las PSU a las cargas de trabajo para garantizar un rendimiento óptimo.
++
+Los parámetros de IOPS para las cargas de trabajo se generan de forma dinámica, según el comportamiento de la carga de trabajo, y se añaden al nombre de Beyond Extreme PSL en el formato `Beyond Extreme <number-(peak IOPS/TB)> <number(expected IOPS/TB)>`. Por ejemplo, si el sistema determina una carga de trabajo con el pico y el nivel esperado de IOPS como `106345` y.. `37929` Respectivamente, se denomina como Beyond Extreme PSL que se genera para la carga de trabajo `Beyond Extreme 106345 37929`. Aunque el sistema recomienda estos archivos DLL, cuando se asignan a cargas de trabajo, estos archivos se etiquetan como `User-defined` de tipo.
+
+
+
+
+
+== Gestión de cargas de trabajo mediante la asignación de PSU
+
+Puede acceder a los archivos DLL desde la página *políticas* > *niveles de servicio de rendimiento* y utilizando las API del proveedor de almacenamiento. La gestión de las cargas de trabajo de almacenamiento mediante la asignación de PSU a ellas resulta práctica, ya que no tiene que gestionar de forma individual las cargas de trabajo de almacenamiento. Cualquier modificación también se puede gestionar reasignando otro PSL en lugar de administrarlas individualmente. Unified Manager le ayuda a asignar CAL en sus cargas de trabajo en función de la evaluación interna y las recomendaciones.
+
+Para obtener más información sobre la asignación de archivos DLL recomendados por el sistema a las cargas de trabajo, consulte link:..//storage-mgmt/concept_assign_policies_on_workloads.html#assigning-system-recommended-psls-to-workloads["Asignación de PSU recomendados por el sistema a cargas de trabajo"]
+
+La página Performance Service indica las políticas PSL disponibles y permite añadirlas, editarlas y eliminarlas.
+
+
+NOTE: No es posible modificar un PSL definido por el sistema o asignado actualmente a una carga de trabajo. No es posible eliminar un PSL que se asigna a una carga de trabajo o si es el único PSL disponible.
+
+Esta página muestra la siguiente información:
+
+|===
+| Campo | Descripción 
+
+
+ a| 
+Nombre
+ a| 
+Nombre del PSL.
+
+
+
+ a| 
+Tipo
+ a| 
+Si la política está definida por el sistema o por el usuario.
+
+
+
+ a| 
+Tasa prevista de IOPS/TB
+ a| 
+Número mínimo de IOPS que se espera que realice una aplicación en un LUN o un recurso compartido de archivos. IOPS esperado especifica las IOPS mínimas esperadas asignadas, según el tamaño del objeto de almacenamiento asignado.
+
+
+
+ a| 
+Pico de IOPS/TB
+ a| 
+Número máximo de IOPS que puede realizar una aplicación en un LUN o un recurso compartido de archivos. Pico de IOPS especifica el número máximo de IOPS asignadas, según el tamaño del objeto de almacenamiento asignado o el tamaño del objeto de almacenamiento utilizado.
+
+El número máximo de IOPS se basa en una política de asignación. La política de asignación es espacio asignado o espacio utilizado. Cuando se establece la política de asignación en espacio asignado, el pico de IOPS se calcula en función del tamaño del objeto de almacenamiento. Cuando se establece la política de asignación en espacio de uso, el IOPS máximo se calcula en función de la cantidad de datos almacenados en el objeto de almacenamiento, teniendo en cuenta las eficiencias de almacenamiento. De forma predeterminada, la directiva de asignación se establece en espacio utilizado.
+
+
+
+ a| 
+IOPS mínimo absoluto
+ a| 
+El valor mínimo de IOPS absoluto se utiliza como anulación cuando el número de IOPS esperado es inferior a este valor. Los valores predeterminados de las DLL definidas por el sistema son los siguientes:
+
+* Rendimiento extremo: Si se espera un IOPS >= 6144/TB, el valor mínimo absoluto de IOPS = 1000
+* Rendimiento: Si se espera un IOPS >= 2048/TB y < 6144/TB, el valor mínimo absoluto de IOPS es 500
+* Valor: Si se espera IOPS >= 128/TB y < 2048/TB, entonces el mínimo absoluto de IOPS = 75
+
+
+Los valores predeterminados de las DLL de base de datos definidas por el sistema son los siguientes:
+
+* Extreme for Database Logs: Si espera IOPS >= 22528, entonces el valor mínimo absoluto de IOPS = 4000
+* Extreme para datos compartidos de bases de datos: Si espera IOPS >= 16384, entonces el valor mínimo absoluto de IOPS = 2000
+* Extreme para datos de bases de datos: Si espera IOPS >= 12288, entonces el valor mínimo absoluto de IOPS = 2000
+
+
+El mayor valor de IOPS mínimo absoluto para las DLL personalizadas puede ser un máximo de 75000. El valor inferior se calcula de la siguiente forma:
+
+1000/latencia esperada
+
+
+
+ a| 
+Latencia esperada
+ a| 
+Latencia esperada para IOPS de almacenamiento en milisegundos por operación (ms/op).
+
+
+
+ a| 
+Capacidad
+ a| 
+La capacidad total disponible y utilizada en los clústeres.
+
+
+
+ a| 
+Cargas de trabajo
+ a| 
+Cantidad de cargas de trabajo de almacenamiento a las que se asigna PSL.
+
+|===
+Para obtener más información sobre cómo ayudan las IOPS máximas y los IOPS esperados en lograr un rendimiento diferenciado constante en los clústeres de ONTAP, consulte el siguiente artículo de la base de conocimientos:https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/What_is_Performance_Budgeting%3F["¿Qué es la gestión presupuestaria del rendimiento?"]
+
+
+
+=== Los eventos generados para cargas de trabajo que traspasa el umbral definido por los archivos DLL
+
+Tenga en cuenta que si las cargas de trabajo superan el valor de latencia esperado durante el 30 % del tiempo durante la hora anterior, Unified Manager genera uno de los siguientes eventos para notificarle un posible problema de rendimiento:
+
+* Se superó el umbral de latencia del volumen de cargas de trabajo definido por la política de nivel de servicio de rendimiento
+* Se superó el umbral de latencia de LUN de carga de trabajo definido por la política de nivel de servicio de rendimiento.
+
+
+Puede que se desee analizar la carga de trabajo para ver qué puede estar causando los valores de latencia más altos.
+
+Para más información, consulte los siguientes enlaces:
+
+* link:../events/reference_volume_events.html#impact-area-performance["Eventos de volumen"]
+* link:../performance-checker/concept_what_happens_when_performance_threshold_policy_is_breached.html["Qué sucede cuando se incumple una política de umbral de rendimiento"]
+* link:..//performance-checker/concept_how_unified_manager_uses_workload_response_time.html["Cómo Unified Manager utiliza la latencia de carga de trabajo para identificar problemas de rendimiento"]
+* link:../performance-checker/concept_what_performance_events_are.html["¿Qué eventos de rendimiento son"]
+
+
+
+
+=== PSU definidos por el sistema
+
+En la siguiente tabla se proporciona información acerca de las DLL definidas por el sistema:
+
+|===
+| Nivel de servicio de rendimiento | Descripción y caso de uso | Latencia esperada (ms/op) | Pico de IOPS | IOPS esperada | IOPS mínimo absoluto 
+
+
+ a| 
+Rendimiento extremo
+ a| 
+Proporciona un rendimiento extremadamente alto con una latencia muy baja
+
+Son perfectas para aplicaciones sensibles a la latencia
+ a| 
+1
+ a| 
+12288
+ a| 
+6144
+ a| 
+1000
+
+
+
+ a| 
+Rendimiento
+ a| 
+Proporciona un alto rendimiento a una baja latencia
+
+Ideal para aplicaciones virtualizadas y bases de datos
+ a| 
+2
+ a| 
+4096
+ a| 
+2048
+ a| 
+500
+
+
+
+ a| 
+Valor
+ a| 
+Proporciona una alta capacidad de almacenamiento y una latencia moderada
+
+Ideal para aplicaciones de gran capacidad, como correo electrónico, contenido web, recursos compartidos de archivos y destinos de backup
+ a| 
+17
+ a| 
+512
+ a| 
+128
+ a| 
+75
+
+
+
+ a| 
+Extreme para registros de bases de datos
+ a| 
+Proporciona el máximo rendimiento con la menor latencia.
+
+Ideal para aplicaciones de base de datos que admiten registros de bases de datos. Este PSL ofrece el rendimiento más alto porque los registros de bases de datos son extremadamente potentes y el registro está constantemente bajo demanda.
+ a| 
+1
+ a| 
+45056
+ a| 
+22528
+ a| 
+4000
+
+
+
+ a| 
+Extremo para datos compartidos de bases de datos
+ a| 
+Proporciona un rendimiento muy elevado con la latencia más baja.
+
+Ideal para datos de aplicaciones de base de datos que se almacenan en un almacén de datos común, pero que se comparten entre bases de datos.
+ a| 
+1
+ a| 
+32768
+ a| 
+16384
+ a| 
+2000
+
+
+
+ a| 
+Extremadamente para datos de bases de datos
+ a| 
+Proporciona un alto rendimiento con la latencia más baja.
+
+Ideal para datos de aplicaciones de base de datos, como metadatos y información de tablas de bases de datos.
+ a| 
+1
+ a| 
+24576
+ a| 
+12288
+ a| 
+2000
+
+|===

@@ -1,0 +1,138 @@
+---
+permalink: performance-checker/reference_types_of_performance_counter_charts.html 
+sidebar: sidebar 
+keywords: types, performance, counter, charts 
+summary: Hay gráficos de rendimiento estándar que muestran los valores de contador para el objeto de almacenamiento seleccionado. Cada uno de los gráficos de contadores de desglose muestra los valores totales separados en categorías de lectura, escritura y otras. Además, algunos gráficos de contadores de desglose muestran detalles adicionales cuando el gráfico se muestra en la vista Zoom. 
+---
+= Tipos de gráficos de contadores de rendimiento
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Hay gráficos de rendimiento estándar que muestran los valores de contador para el objeto de almacenamiento seleccionado. Cada uno de los gráficos de contadores de desglose muestra los valores totales separados en categorías de lectura, escritura y otras. Además, algunos gráficos de contadores de desglose muestran detalles adicionales cuando el gráfico se muestra en la vista Zoom.
+
+La siguiente tabla muestra los gráficos de contadores de rendimiento disponibles.
+
+|===
+| Gráficos disponibles | Descripción del gráfico 
+
+
+ a| 
+Eventos
+ a| 
+Muestra eventos críticos, de error, de advertencia e información correlacionados con los gráficos estadísticos del objeto raíz. Los eventos de estado se muestran además de los eventos de rendimiento para proporcionar una imagen completa de las razones por las que el rendimiento puede verse afectado.
+
+
+
+ a| 
+Latencia: Total
+ a| 
+Número de milisegundos necesarios para responder a las solicitudes de aplicaciones. Tenga en cuenta que los valores medios de latencia se ponderan las I/O.
+
+
+
+ a| 
+Latencia: Desglose
+ a| 
+La misma información que se muestra en Latency total, pero con los datos de rendimiento separados en latencia de lectura, escritura y otra. Esta opción de gráfico solo se aplica cuando el objeto seleccionado es una SVM, nodo, agregado, volumen, LUN, o espacio de nombres.
+
+
+
+ a| 
+Latencia: Componentes del clúster
+ a| 
+La misma información que se muestra en latencia total, pero con los datos de rendimiento separados en latencia por componente del clúster. Esta opción de gráfico se aplica solo cuando el objeto seleccionado es un volumen.
+
+
+
+ a| 
+IOPS - total
+ a| 
+Número de operaciones de entrada/salida procesadas por segundo. Cuando se muestra para un nodo, al seleccionar «'total'» se muestra la tasa de IOPS de los datos que se transfieren a través de este nodo que pueden residir en el nodo local o en el remoto, y al seleccionar «'total (local)'» se muestra la tasa de IOPS de los datos que residen únicamente en el nodo actual.
+
+
+
+ a| 
+Desglose de IOPS
+ a| 
+La misma información que se muestra en IOPS total, pero con los datos de rendimiento separados en IOPS de lectura, escritura y otras IOPS. Esta opción de gráfico solo se aplica cuando el objeto seleccionado es una SVM, nodo, agregado, volumen, LUN, o espacio de nombres.
+
+Cuando se muestra en la vista Zoom, el gráfico volúmenes muestra los valores de rendimiento mínimo y máximo de la calidad de servicio si está configurado en ONTAP.
+
+Cuando se muestra para un nodo, al seleccionar «'desglose» se muestra el desglose de IOPS de los datos que se transfieren a través de este nodo que pueden residir en el nodo local o el remoto, y al seleccionar «'desglose (local)» se muestra el desglose de IOPS de los datos que únicamente residen en el nodo actual.
+
+
+
+ a| 
+IOPS: Protocolos
+ a| 
+La misma información que se muestra en IOPS total, pero los datos de rendimiento están separados en gráficos individuales para tráfico de protocolos CIFS, NFS, FCP, NVMe e iSCSI. Esta opción de gráfico se aplica solo cuando el objeto seleccionado es una SVM.
+
+
+
+ a| 
+IOPS/TB: Total
+ a| 
+Número de operaciones de entrada/salida procesadas por segundo según el espacio total que consume la carga de trabajo, en terabytes. También denominado densidad de I/o, este contador mide el rendimiento que ofrece una cantidad de capacidad de almacenamiento determinada. Cuando se muestra en la vista Zoom, el gráfico volúmenes muestra los valores esperado de calidad de servicio y máximo rendimiento, si se configuran en ONTAP.
+
+Esta opción de gráfico se aplica solo cuando el objeto seleccionado es un volumen.
+
+
+
+ a| 
+MB/s - total
+ a| 
+Número de megabytes de datos que se transfieren al objeto y desde él por segundo.
+
+
+
+ a| 
+MB/s: Desglose
+ a| 
+La misma información que se muestra en el gráfico MB/s, pero con los datos de rendimiento separados en lecturas de disco, lecturas de Flash Cache, escrituras y otro. Cuando se muestra en la vista Zoom, el gráfico de volúmenes muestra los valores de rendimiento máximo de la calidad de servicio si se configuró en ONTAP.
+
+Esta opción de gráfico solo se aplica cuando el objeto seleccionado es una SVM, nodo, agregado, volumen, LUN, o espacio de nombres.
+
+[NOTE]
+====
+Los datos de Flash Cache solo se muestran para nodos, y solo cuando se instala un módulo Flash Cache en el nodo.
+
+====
+
+
+ a| 
+Capacidad de rendimiento utilizada - total
+ a| 
+Porcentaje de la capacidad de rendimiento que consume el nodo o el agregado.
+
+
+
+ a| 
+Capacidad de rendimiento utilizada: Desglose
+ a| 
+La capacidad de rendimiento utilizada de datos separados en los protocolos de usuario y los procesos en segundo plano del sistema. Además, se muestra la cantidad de capacidad de rendimiento libre.
+
+
+
+ a| 
+IOPS disponible - total
+ a| 
+Número de operaciones de entrada/salida por segundo que están actualmente disponibles (libres) en este objeto. Este número es el resultado de restar las IOPS actualmente usadas a las IOPS totales que Unified Manager calcula que el objeto puede realizar. Esta opción de gráfico sólo se aplica cuando el objeto seleccionado es un nodo o un agregado.
+
+
+
+ a| 
+Utilización - total
+ a| 
+Porcentaje de recursos disponibles del objeto que se está utilizando. El aprovechamiento indica la utilización de nodos para nodos, utilización de discos para agregados y uso de ancho de banda para puertos. Esta opción de gráfico sólo se aplica cuando el objeto seleccionado es un nodo, agregado o puerto.
+
+
+
+ a| 
+Ratio de falta de caché: Total
+ a| 
+Porcentaje de solicitudes de lectura de aplicaciones cliente que se devuelven del disco en lugar de ser devueltas de la caché. Esta opción de gráfico se aplica solo cuando el objeto seleccionado es un volumen.
+
+|===

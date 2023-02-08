@@ -1,0 +1,49 @@
+---
+permalink: health-checker/task_view_details_about_nfs_shares.html 
+sidebar: sidebar 
+keywords: view, details, nfs shares 
+summary: 'Es posible ver detalles sobre todos los recursos compartidos de NFS, como su estado, la ruta asociada con el volumen (volúmenes FlexGroup o volúmenes FlexVol), los niveles de acceso de los clientes a los recursos compartidos NFS y la política de exportación definida para los volúmenes que se exportan. Use la vista Health: All NFS Shares para ver todos los recursos compartidos de NFS de todos los clústeres supervisados, y use la página de detalles Storage VM / Health para ver todos los recursos compartidos de NFS en una máquina virtual de almacenamiento específica (SVM).' 
+---
+= Ver detalles acerca de los recursos compartidos de NFS
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Es posible ver detalles sobre todos los recursos compartidos de NFS, como su estado, la ruta asociada con el volumen (volúmenes FlexGroup o volúmenes FlexVol), los niveles de acceso de los clientes a los recursos compartidos NFS y la política de exportación definida para los volúmenes que se exportan. Use la vista Health: All NFS Shares para ver todos los recursos compartidos de NFS de todos los clústeres supervisados, y use la página de detalles Storage VM / Health para ver todos los recursos compartidos de NFS en una máquina virtual de almacenamiento específica (SVM).
+
+*Lo que necesitará*
+
+* La licencia de NFS debe estar habilitada en el clúster.
+* Se deben configurar las interfaces de red que sirven a los recursos compartidos de NFS.
+* Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
+
+
+.Paso
+. En el panel de navegación de la izquierda, siga los siguientes pasos dependiendo de si desea ver todos los recursos compartidos NFS o solo los recursos compartidos NFS de una SVM concreta.
++
+[cols="2*"]
+|===
+| Para... | Siga estos pasos... 
+
+
+ a| 
+Ver todos los recursos compartidos de NFS
+ a| 
+Haga clic en *almacenamiento* > *Recursos compartidos NFS*
+
+
+
+ a| 
+Vea los recursos compartidos de NFS para un único SVM
+ a| 
+.. Haga clic en *almacenamiento* > *Storage VMs*
+.. Haga clic en la SVM para la que desea ver los detalles de los recursos compartidos de NFS.
+.. En la página de detalles Storage VM / Health, haga clic en la ficha *NFS Shares*.
+
+
+|===
+
+
+Para obtener más información, consulte link:../storage-mgmt/task_provision_fileshares.html["Aprovisionar los volúmenes compartidos de archivos"] y.. link:../api-automation/concept_provision_file_share.html["Aprovisionamiento de recursos compartidos de archivos CIFS y NFS mediante API"].

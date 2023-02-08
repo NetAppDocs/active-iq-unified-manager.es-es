@@ -1,0 +1,111 @@
+---
+permalink: api-automation/concept_manage_lun.html 
+sidebar: sidebar 
+keywords: manage, lun 
+summary: Puede usar la API /Storage-provider/lun para ver, agregar, modificar y eliminar las LUN en su entorno de centro de datos. 
+---
+= Gestionar las LUN mediante API
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede utilizar el `/storage-provider/luns` API para ver, agregar, modificar y eliminar las LUN en su entorno de centro de datos.
+
+Antes de aprovisionar las LUN, asegúrese de que la SVM se ha creado y aprovisionado con los protocolos compatibles. Si va a asignar niveles de servicio de rendimiento (PSU) o políticas de eficiencia del almacenamiento (SUP) durante el aprovisionamiento, deben crearse los PSLs o SUP antes de crear la LUN.
+
+
+
+== Ver las LUN
+
+Puede utilizar el siguiente método para ver las LUN en su entorno de Unified Manager. Cuando añadió un clúster ONTAP como origen de datos en Active IQ Unified Manager, las cargas de trabajo de almacenamiento para esos clústeres se añaden automáticamente a la instancia de Unified Manager. Esta API recupera todas las LUN se añaden de forma automática y manual a su instancia de Unified Manager. Para ver los detalles de una LUN específica, ejecute esta API con la clave LUN.
+
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+proveedor de almacenamiento
+ a| 
+OBTENGA
+ a| 
+`/storage-provider/luns`
+
+`/storage-provider/luns/\{key}`
+
+|===
+
+
+== Añada LUN
+
+Puede usar el método siguiente para añadir LUN a las SVM.
+
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+proveedor de almacenamiento
+ a| 
+PUBLICAR
+ a| 
+`/storage-provider/luns`
+
+|===
+[NOTE]
+====
+En la solicitud curl, si proporciona un valor para el parámetro opcional volume_name_tag en la entrada, ese valor se usa al asignar un nombre al volumen durante la creación de la LUN. Esta etiqueta permite buscar el volumen fácilmente. Si se proporciona la clave de volumen en la solicitud, se omite el etiquetado.
+
+====
+
+
+== Eliminar las LUN
+
+Puede utilizar el siguiente método para eliminar una LUN específica. Debe proporcionar la clave de LUN para eliminar una LUN determinada.
+
+[NOTE]
+====
+Si ha creado un volumen en ONTAP y, a continuación, ha aprovisionado LUN a través de Unified Manager en ese volumen, cuando elimina todas las LUN con esta API, el volumen también se elimina del clúster de ONTAP.
+
+====
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+proveedor de almacenamiento
+ a| 
+ELIMINAR
+ a| 
+`/storage-provider/luns/\{key}`
+
+|===
+
+
+== Modifique las LUN
+
+Puede utilizar el siguiente método para modificar una LUN y actualizar sus propiedades. Debe proporcionar la clave LUN para modificar una LUN determinada. También debe introducir la propiedad LUN que desea actualizar, junto con su valor. Para actualizar los arrays LUN mediante esta API, debería revisar las recomendaciones de la sección ""recomendaciones para utilizar las API"".
+
+[NOTE]
+====
+Sólo puede actualizar una propiedad en una única invocación de esta API. Para varias actualizaciones, debe ejecutar esta API tantas veces.
+
+====
+|===
+
+
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+proveedor de almacenamiento
+ a| 
+PARCHE
+ a| 
+`/storage-provider/luns/\{key}`
+
+|===

@@ -1,0 +1,41 @@
+---
+permalink: data-protection/task_view_volume_protection_relationships.html 
+sidebar: sidebar 
+keywords: view, volume, protection relationships 
+summary: 'En la vista Relationship: All Relationships y, en la página Volume Relationships, puede ver el estado de las relaciones de SnapMirror y SnapVault para volúmenes existentes. También puede examinar detalles sobre las relaciones de protección, como el estado de transferencia y desfase, los detalles de origen y destino, la información sobre la programación y las políticas, etc.' 
+---
+= Visualización de las relaciones de protección de volúmenes
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+En la vista Relationship: All Relationships y, en la página Volume Relationships, puede ver el estado de las relaciones de SnapMirror y SnapVault para volúmenes existentes. También puede examinar detalles sobre las relaciones de protección, como el estado de transferencia y desfase, los detalles de origen y destino, la información sobre la programación y las políticas, etc.
+
+*Lo que necesitará*
+
+Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
+También puede iniciar los comandos de relaciones desde esta página.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *almacenamiento* > *volúmenes*.
+. En el menú Ver, seleccione *relación* > *todas las relaciones*.
++
+Se muestra la vista relación: Todas las relaciones.
+
+. Seleccione una de las siguientes maneras de ver los detalles de protección de volumen:
++
+** Para ver la información actual acerca de todas las relaciones de volumen, permanezca en la página predeterminada *todas las relaciones*.
+** Para ver información detallada acerca de las tendencias de transferencia de volúmenes durante un periodo de tiempo, en el menú Ver, seleccione relación: Vista Estado de transferencia de último 1 mes.
+** Para ver información detallada sobre la actividad de transferencia de volumen día a día, en el menú Ver, seleccione relación: Vista de tarifa de transferencia de último 1 mes.
+
+
++
+[NOTE]
+====
+Las vistas de transferencia de volúmenes muestran información solo sobre los volúmenes en relaciones asíncronas: No se muestran los volúmenes de las relaciones síncronas.
+
+====
+

@@ -1,0 +1,59 @@
+---
+permalink: storage-mgmt/task_create_and_edit_psls.html 
+sidebar: sidebar 
+keywords: create, edit, performance, service, Levels 
+summary: Cuando los niveles de servicio de rendimiento definidos por el sistema no coinciden con los requisitos de la carga de trabajo, puede crear sus propios niveles de servicio de rendimiento optimizados para sus cargas de trabajo. 
+---
+= Creación y edición de niveles de servicio de rendimiento
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Cuando los niveles de servicio de rendimiento definidos por el sistema no coinciden con los requisitos de la carga de trabajo, puede crear sus propios niveles de servicio de rendimiento optimizados para sus cargas de trabajo.
+
+*Lo que necesitará*
+
+* Debe tener la función Administrador de aplicaciones.
+* El nombre de nivel de servicio de rendimiento debe ser único y no se pueden utilizar las siguientes palabras clave reservadas:
++
+`Prime`, `Extreme`, `Performance`, `Value`, `Unassigned`, `Learning`, `Idle`, `Default`, y. `None`.
+
+
+
+Se pueden crear y editar niveles de servicio de rendimiento personalizados desde la página niveles de servicio de rendimiento definiendo los objetivos de nivel de servicio necesarios para las aplicaciones que accederán al almacenamiento.
+
+[NOTE]
+====
+No es posible modificar un nivel de servicio de rendimiento si actualmente se asigna a una carga de trabajo.
+
+====
+.Pasos
+. En el panel de navegación izquierdo, en *Configuración*, seleccione *Directivas* > *niveles de servicio de rendimiento*.
+. En la página *niveles de servicio de rendimiento*, haga clic en el botón apropiado en función de si desea crear un nuevo nivel de servicio de rendimiento o si desea editar un nivel de servicio de rendimiento existente.
++
+|===
+| Para... | Siga estos pasos... 
+
+
+ a| 
+Cree un nuevo nivel de servicio de rendimiento
+ a| 
+Haga clic en *Agregar*.
+
+
+
+ a| 
+Edite un nivel de servicio de rendimiento existente
+ a| 
+Seleccione un nivel de servicio de rendimiento existente y, a continuación, haga clic en *Editar*.
+
+|===
++
+Se muestra la página para agregar o editar un nivel de servicio de rendimiento.
+
+. Personalice el nivel de servicio de rendimiento especificando los objetivos de rendimiento y, a continuación, haga clic en *Enviar* para guardar el nivel de servicio de rendimiento.
+
+
+Puede aplicar el nivel de servicio de rendimiento nuevo o modificado a las cargas de trabajo (LUN, recursos compartidos de archivos NFS, recursos compartidos de CIFS) desde la página de cargas de trabajo o al aprovisionar una nueva carga de trabajo.

@@ -1,0 +1,30 @@
+---
+permalink: data-protection/task_monitor_jobs.html 
+sidebar: sidebar 
+keywords: monitor, jobs 
+summary: Puede utilizar la página Jobs para supervisar el estado del trabajo y ver propiedades del trabajo, como el tipo de servicio de almacenamiento, el estado, la hora de envío y la hora de finalización, a fin de determinar si un trabajo se ha completado correctamente o no. 
+---
+= Supervisar trabajos de
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede utilizar la página Jobs para supervisar el estado del trabajo y ver propiedades del trabajo, como el tipo de servicio de almacenamiento, el estado, la hora de envío y la hora de finalización, a fin de determinar si un trabajo se ha completado correctamente o no.
+
+*Lo que necesitará*
+
+Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *Protección* > *trabajos*.
++
+Aparece la página Jobs.
+
+. Consulte la columna *Estado* para determinar el estado de los trabajos que se están ejecutando actualmente.
+. Haga clic en un nombre de trabajo para ver los detalles de ese trabajo en particular.
++
+Aparece la página de detalles Job.
+
+

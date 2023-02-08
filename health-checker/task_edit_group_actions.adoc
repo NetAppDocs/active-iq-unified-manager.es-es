@@ -1,0 +1,25 @@
+---
+permalink: health-checker/task_edit_group_actions.html 
+sidebar: sidebar 
+keywords: edit, group actions 
+summary: Puede editar los parámetros de acción del grupo que configuró en Unified Manager, como el nombre de la acción del grupo, la descripción, el nombre del grupo asociado y los parámetros del tipo de acción. 
+---
+= Editar acciones de grupo
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede editar los parámetros de acción del grupo que configuró en Unified Manager, como el nombre de la acción del grupo, la descripción, el nombre del grupo asociado y los parámetros del tipo de acción.
+
+*Lo que necesitará*
+
+Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *Administración de almacenamiento* > *grupos*.
+. En la ficha *acciones de grupo*, seleccione la acción de grupo que desea editar y, a continuación, haga clic en *Editar*.
+. En el cuadro de diálogo *Editar acción de grupo*, cambie el nombre de la acción de grupo, la descripción, el nombre del grupo asociado y los parámetros del tipo de acción, según sea necesario.
+. Haga clic en *Guardar*.
+

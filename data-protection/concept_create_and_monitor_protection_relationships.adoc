@@ -1,0 +1,14 @@
+---
+permalink: data-protection/concept_create_and_monitor_protection_relationships.html 
+sidebar: sidebar 
+keywords: create, monitor, troubleshoot, protection, relationships 
+summary: Unified Manager permite crear relaciones de protección, supervisar y solucionar problemas de protección de reflejos y protección de almacén de backup de los datos almacenados en clústeres gestionados, así como restaurar datos cuando se sobrescriben o se pierden. 
+---
+= Creación, supervisión y solución de problemas de relaciones de protección
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager permite crear relaciones de protección, supervisar y solucionar problemas de protección de reflejos y protección de almacén de backup de los datos almacenados en clústeres gestionados, así como restaurar datos cuando se sobrescriben o se pierden.

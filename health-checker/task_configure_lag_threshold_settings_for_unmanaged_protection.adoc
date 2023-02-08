@@ -1,0 +1,33 @@
+---
+permalink: health-checker/task_configure_lag_threshold_settings_for_unmanaged_protection.html 
+sidebar: sidebar 
+keywords: configure, lag, threshold settings, unmanaged, protection, relationships 
+summary: Puede editar la configuración global predeterminada de umbral de advertencia de desfase y de estado de error para relaciones de protección no administradas, de modo que los eventos se generen a intervalos apropiados para sus necesidades. 
+---
+= Configuración de la configuración del umbral de desfase para relaciones de protección no administradas
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede editar la configuración global predeterminada de umbral de advertencia de desfase y de estado de error para relaciones de protección no administradas, de modo que los eventos se generen a intervalos apropiados para sus necesidades.
+
+*Lo que necesitará*
+
+Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
+El tiempo de desfase no debe superar el intervalo de programación de transferencia definido. Por ejemplo, si la programación de transferencia es por hora, el intervalo de demora no debe ser superior a una hora. El umbral de desfase especifica un porcentaje que no debe superar el tiempo de desfase. Con el ejemplo de una hora, si el umbral de desfase se define como 150%, recibirá un evento cuando el tiempo de retraso sea superior a 1.5 horas.
+
+La configuración descrita en esta tarea se aplica globalmente a todas las relaciones de protección no administradas. La configuración no se puede especificar y aplicar exclusivamente a una relación de protección no administrada.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *umbrales de evento* > *relación*.
+. Aumente o disminuya el porcentaje de tiempo de demora de error o advertencia global predeterminado según sea necesario.
+. Para desactivar la activación de un evento de advertencia o error desde cualquier cantidad de umbral de desfase, desactive la casilla situada junto a *habilitado*.
+. Haga clic en *Guardar*.
+
+
+*Información relacionada*
+
+link:../config/task_add_users.html["Adición de usuarios"]

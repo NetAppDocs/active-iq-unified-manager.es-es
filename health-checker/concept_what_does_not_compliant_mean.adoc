@@ -1,0 +1,23 @@
+---
+permalink: health-checker/concept_what_does_not_compliant_mean.html 
+sidebar: sidebar 
+keywords: not compliant, compliant 
+summary: 'Los clústeres y las máquinas virtuales de almacenamiento (SVM) no se consideran conformes cuando no se cumple ninguno de los criterios de seguridad evaluados con respecto a las recomendaciones definidas en la Guía de seguridad reforzada de ONTAP 9 de NetApp. Además, se considera que un clúster no es compatible cuando se Marca ninguna SVM como no compatible.' 
+---
+= Qué significa no cumplir con las normativas
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Los clústeres y las máquinas virtuales de almacenamiento (SVM) no se consideran conformes cuando no se cumple ninguno de los criterios de seguridad evaluados con respecto a las recomendaciones definidas en la _Guía de seguridad reforzada de NetApp para ONTAP 9_. Además, se considera que un clúster no es compatible cuando se Marca ninguna SVM como no compatible.
+
+Los iconos de estado de las tarjetas de seguridad tienen los siguientes significados en relación con su cumplimiento:
+
+* image:../media/sev_normal_um60.png[""] - El parámetro está configurado como se recomienda.
+* image:../media/sev_warning_um60.png[""] - El parámetro no está configurado como se recomienda.
+* image:../media/sev_information_um60.gif[""] - O bien la funcionalidad no está habilitada en el clúster, o bien el parámetro no está configurado como recomendado, pero este parámetro no contribuye al cumplimiento del objeto.
+
+
+Tenga en cuenta que el estado del cifrado de volúmenes no contribuye a si el clúster o SVM se consideran conformes.

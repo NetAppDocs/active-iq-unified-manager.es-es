@@ -1,0 +1,45 @@
+---
+permalink: health-checker/task_view_antiransomware_status_of_all_volumes_storage_vms.html 
+sidebar: sidebar 
+keywords: view, anti-ransomware status, volumes, storage VMs, SVMs 
+summary: Puede ver una lista de todos los volúmenes y máquinas virtuales de almacenamiento y su estado actual antiransomware para poder determinar si los datos de sus volúmenes están protegidos adecuadamente contra ataques de ransomware. 
+---
+= Ver el estado antiransomware de todos los volúmenes y máquinas virtuales de almacenamiento
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede ver una lista de todos los volúmenes y máquinas virtuales de almacenamiento (SVM) y su estado actual antiransomware para poder determinar si los datos de sus volúmenes y SVM están protegidos adecuadamente de ataques de ransomware.
+
+*Lo que necesitará*
+
+Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
+
+Para obtener más información sobre los diferentes Estados del antiransomware, consulte link:https://docs.netapp.com/us-en/ontap/anti-ransomware/enable-task.html#system-manager-procedure["ONTAP: Habilite el antiransomware"].
+
+
+
+== Consulte detalles de seguridad de todos los volúmenes con detección antiransomware
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *almacenamiento* > *volúmenes*.
+. En el menú Ver, seleccione *Salud* > *Seguridad* > *Antiransomware*
+. En la vista * Security: Anti-ransomware*, puede ordenar por los distintos campos o usar el filtro.
+
+
+
+NOTE: No se admite el ransomware para volúmenes sin conexión, volúmenes restringidos, volúmenes SnapLock, volúmenes FlexGroup, volúmenes FlexCache, Volúmenes solo SAN, volúmenes de máquinas virtuales de almacenamiento detenidas, volúmenes raíz de las máquinas virtuales de almacenamiento o volúmenes de protección de datos.
+
+
+
+== Consulte detalles de seguridad de todas las máquinas virtuales de almacenamiento con detección antiransomware
+
+.Pasos
+. En el panel de navegación de la izquierda, haga clic en *almacenamiento > Storage VMs*.
+. Seleccione *Ver > Seguridad > Anti-ransomware*. Se muestra una lista de las SVM con el estado antiransomware.
+
+
+
+NOTE: La supervisión antiransomware no es compatible con máquinas virtuales de almacenamiento que no tienen el protocolo NAS habilitado.

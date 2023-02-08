@@ -1,0 +1,23 @@
+---
+permalink: reporting/task_search_to_refine_view.html 
+sidebar: sidebar 
+keywords: search, refine, view 
+summary: Una vez que tenga la vista deseada, puede afinar los resultados con el campo Buscar para centrarse en los resultados que desea incluir en el informe. 
+---
+= Uso de la búsqueda para afinar la vista
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Una vez que tenga la vista deseada, puede afinar los resultados con el campo Buscar para centrarse en los resultados que desea incluir en el informe.
+
+.Pasos
+. Abra la vista personalizada o predeterminada que desea utilizar como base del informe.
+. Escriba el campo Buscar para afinar los datos que aparecen en la vista. Puede introducir datos parciales en cualquiera de las columnas mostradas. Por ejemplo, si desea buscar nodos que incluyan "US_East" en el nombre, puede afinar la lista completa de nodos.
++
+Los resultados de la búsqueda se guardan en la vista personalizada y se utilizan en el informe programado resultante.
+
+. Asigne un nombre a la vista sin guardar para guardar los cambios.
+

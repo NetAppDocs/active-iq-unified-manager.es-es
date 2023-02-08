@@ -1,0 +1,75 @@
+---
+permalink: reporting/task_schedule_report.html 
+sidebar: sidebar 
+keywords: report, schedule 
+summary: Después de tener una vista o un archivo de Excel que desee programar para la generación y distribución regulares, puede programar el informe. 
+---
+= Programar un informe
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Después de tener una vista o un archivo de Excel que desee programar para la generación y distribución regulares, puede programar el informe.
+
+*Lo que necesitará*
+
+* Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+* Debe haber configurado la configuración del servidor SMTP en la página *General* > *Notificaciones* para que el motor de informes pueda enviar informes como adjuntos de correo electrónico a la lista de destinatarios desde el servidor de Unified Manager.
+* El servidor de correo electrónico debe configurarse para permitir el envío de archivos adjuntos con los correos electrónicos generados.
+
+
+Utilice los pasos siguientes para probar y programar un informe que se generará para una vista. Seleccione o personalice la vista que desee usar. El procedimiento siguiente utiliza una vista de red que muestra el rendimiento de las interfaces de red, pero puede utilizar cualquier vista que desee.
+
+.Pasos
+. Abra la vista. En este ejemplo, se utiliza la vista de red predeterminada que muestra el rendimiento de la LIF. En el panel de navegación izquierdo, haga clic en *Red > interfaces de red*.
+. Personalice la vista según sea necesario con las funciones integradas de Unified Manager.
+. Después de personalizar la vista, puede proporcionar un nombre único en el campo *Ver* y hacer clic en la Marca de verificación para guardarla.
++
+image::../media/view_save.gif[ver guardar]
+
+. Puede utilizar las características avanzadas de Microsoft® Excel para personalizar el informe. Para obtener más información, consulte link:task_use_excel_to_customize_your_report.html["Uso de Excel para personalizar el informe"].
+. Para ver el resultado antes de programarlo o compartirlo:
++
+[cols="2*"]
+|===
+| Opción | Descripción 
+
+
+ a| 
+*Si ha utilizado Excel para personalizar el informe*
+ a| 
+Ver el archivo de Excel descargado existente.
+
+
+
+ a| 
+*Si no ha utilizado Excel para personalizar el informe*
+ a| 
+Descargue el informe como un archivo *CSV*, *PDF* o *XLSX*.
+
+|===
++
+Abra el archivo con una aplicación instalada, como Microsoft Excel (CSV/XSLX) o Adobe Acrobat (PDF).
+
+. Si está satisfecho con el informe, haga clic en *Informes programados*.
+. En la página programas de informes, haga clic en *Agregar programación*.
+. Acepte el nombre predeterminado, que es una combinación del nombre de la vista y la frecuencia, o personalice el *nombre de la programación*.
+. Para probar el informe programado por primera vez, agregue sólo como *destinatario*. Cuando esté satisfecho, agregue las direcciones de correo electrónico para todos los destinatarios del informe.
+. Especifique con qué frecuencia se generará y enviará el informe a los destinatarios. Puede elegir *Diario*, *Semanal* o *Mensual*.
+. Seleccione el formato *PDF*, *CSV* o *XSLX*.
++
+[NOTE]
+====
+Para los informes en los que utilizó Excel para personalizar el contenido, seleccione siempre *XSLX*.
+
+====
+. Haga clic en la Marca de verificación (image:../media/blue_check.gif[""]) para guardar la programación del informe.
++
+image::../media/scheduled_reports.gif[informes programados]
+
++
+El informe se envía inmediatamente como prueba. Después de esto, el informe genera y se envía por correo electrónico a los destinatarios enumerados utilizando la frecuencia programada.
+
+

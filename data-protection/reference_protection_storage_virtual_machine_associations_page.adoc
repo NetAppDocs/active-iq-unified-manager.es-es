@@ -1,0 +1,102 @@
+---
+permalink: data-protection/reference_protection_storage_virtual_machine_associations_page.html 
+sidebar: sidebar 
+keywords: svm, association, page 
+summary: La página Storage VM Association permite ver las asociaciones de máquinas virtuales de almacenamiento existentes entre las máquinas virtuales de almacenamiento de origen y de destino. 
+---
+= Asociaciones de máquinas virtuales de almacenamiento
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Las asociaciones de máquinas virtuales de almacenamiento (máquinas virtuales de almacenamiento) son asignaciones de una máquina virtual de almacenamiento de origen a una máquina virtual de almacenamiento de destino que utilizan las aplicaciones asociadas para la selección de recursos y el aprovisionamiento de volúmenes secundarios.
+
+Las asociaciones se crean entre una máquina virtual de almacenamiento de origen y una máquina virtual de almacenamiento de destino, independientemente de si la máquina virtual de almacenamiento de destino es un destino secundario o un destino terciario. No se puede usar una máquina virtual de almacenamiento de destino secundario como origen para crear una asociación con una máquina virtual de almacenamiento de destino terciario.
+
+Como administrador de aplicaciones o administrador de almacenamiento, puede ver las asociaciones de VM de almacenamiento en su entorno en la página *Protección* > *Asociaciones de VM de almacenamiento*.
+
+Puede asociar SVM de tres maneras:
+
+* *Asociar cualquier VM de almacenamiento*: Puede crear una asociación entre cualquier VM de almacenamiento de origen primario y una o más SVM de destino. Esto significa que todas las SVM existentes que actualmente requieren protección, así como las SVM que se creen en el futuro, están asociadas con las SVM de destino especificadas. Por ejemplo, puede que desee que se realice el backup de aplicaciones de varios orígenes distintos en ubicaciones en una o varias SVM de destino en una misma ubicación.
+* *Asociar una VM de almacenamiento particular*: Puede crear una asociación entre una VM de almacenamiento de origen específica y una o más SVM de destino específicas. Por ejemplo, si proporciona servicios de almacenamiento a muchos clientes cuyos datos deben estar separados entre sí, puede elegir esta opción para asociar una máquina virtual de almacenamiento de origen específica a una máquina virtual de almacenamiento de destino específica que esté asignada únicamente a ese cliente.
+* *Asociar con una VM de almacenamiento externo*: Puede crear una asociación entre una VM de almacenamiento de origen y un volumen flexible externo de una VM de almacenamiento de destino.
+
+
+
+
+== Crear asociaciones de máquinas virtuales de almacenamiento
+
+El asistente Create Storage Virtual Machine Associations permite que las aplicaciones de protección de partners asocien una máquina virtual de almacenamiento de origen con una máquina virtual de almacenamiento de destino para usarla con las relaciones de SnapMirror y SnapVault. Las aplicaciones de partners utilizan estas asociaciones en el momento del aprovisionamiento inicial de volúmenes de destino para determinar los recursos que se deben seleccionar.dd
+
+*Lo que necesitará*
+
+* La máquina virtual de almacenamiento que está asociando ya debe existir.
+* Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
+
+Para cualquier tipo de relación y máquina virtual de almacenamiento de origen, solo se puede seleccionar una máquina virtual de almacenamiento de destino en cada clúster de destino.
+
+Cambiar asociaciones utilizando las funciones DELETE y CREATE sólo afecta a las operaciones de aprovisionamiento futuras. No mueve volúmenes de destino existentes.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *Protección* > *Storage VM Associations*.
+. En la página *Storage VM Associations*, haga clic en *Crear*.
++
+Se inicia el asistente *Crear asociaciones de máquinas virtuales de almacenamiento*.
+
+. Seleccione una de las siguientes fuentes:
++
+** *Cualquiera*
++
+Seleccione esta opción si desea crear una asociación entre cualquier origen de máquina virtual de almacenamiento primario a una o varias máquinas virtuales de almacenamiento de destino. Esto significa que todos los equipos virtuales de almacenamiento existentes que actualmente requieren protección, así como todos los equipos virtuales de almacenamiento que se creen en el futuro, están asociados con el equipo virtual de almacenamiento de destino especificado. Por ejemplo, puede ser conveniente que se lanzaran backups de aplicaciones de varios orígenes distintos en ubicaciones en una o varias máquinas virtuales de almacenamiento de destino en una misma ubicación.
+
+** *Individual*
++
+Elija esta opción si desea seleccionar una máquina virtual de almacenamiento de origen específica asociada con una o varias máquina virtual de almacenamiento de destino. Por ejemplo, si proporciona servicios de almacenamiento a muchos clientes cuyos datos deben estar separados entre sí, elija esta opción para asociar un origen específico de las máquinas virtuales de almacenamiento a un destino específico de máquinas virtuales de almacenamiento que se asigne solo a ese cliente.
+
+** *Ninguna (externa)*
++
+Seleccione esta opción si desea crear una asociación entre una máquina virtual de almacenamiento de origen y un volumen flexible externo de una máquina virtual de almacenamiento de destino.
+
+
+
+. Seleccione el tipo de relación de protección que desea crear o los dos:
++
+** *SnapMirror*
+** *SnapVault*
+
+
+. Haga clic en *Siguiente*.
+. Seleccione uno o varios destinos de protección para máquinas virtuales de almacenamiento.
+. Haga clic en *Finalizar*.
+
+
+
+
+== Eliminar asociaciones de máquinas virtuales de almacenamiento
+
+Es posible eliminar las asociaciones de máquinas virtuales de almacenamiento para aplicaciones asociadas a fin de eliminar la relación de aprovisionamiento secundaria entre la máquina virtual de almacenamiento de origen y de destino; por ejemplo, puede hacerlo cuando la máquina virtual de almacenamiento de destino esté llena y desea crear una nueva asociación de protección de máquinas virtuales de almacenamiento.
+
+*Lo que necesitará*
+
+Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
+El botón *Eliminar* se desactiva hasta que se selecciona al menos una asociación de VM de almacenamiento. Cambiar las asociaciones que utilizan las funciones de eliminación y creación afecta solo a las operaciones de aprovisionamiento futuras; no mueve los volúmenes de destino existentes.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *Protección* > *Storage VM Associations*.
+. Seleccione al menos una asociación de máquina virtual de almacenamiento.
++
+El botón *Eliminar* está activado.
+
+. Haga clic en *Eliminar.*
++
+Aparecerá un cuadro de diálogo de advertencia.
+
+. Haga clic en *Sí* para continuar.
++
+La asociación de máquina virtual de almacenamiento seleccionada se elimina de la lista.
+
+

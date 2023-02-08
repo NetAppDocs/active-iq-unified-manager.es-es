@@ -1,0 +1,52 @@
+---
+permalink: events/task_disable_unwanted_events.html 
+sidebar: sidebar 
+keywords: disable, unwanted, events 
+summary: Todos los eventos están habilitados de forma predeterminada. Es posible deshabilitar eventos globalmente para evitar la generación de notificaciones para eventos que no tienen importancia en el entorno. Puede habilitar eventos deshabilitados cuando se desea reanudar la recepción de notificaciones. 
+---
+= Deshabilitar eventos no deseados
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Todos los eventos están habilitados de forma predeterminada. Es posible deshabilitar eventos globalmente para evitar la generación de notificaciones para eventos que no tienen importancia en el entorno. Puede habilitar eventos deshabilitados cuando se desea reanudar la recepción de notificaciones.
+
+*Lo que necesitará*
+
+Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
+Si deshabilita eventos, los eventos generados previamente en el sistema se marcan como obsoletos, y no se activan las alertas configuradas para estos eventos. Cuando se habilitan eventos que están deshabilitados, las notificaciones para estos eventos se generan a partir del próximo ciclo de supervisión.
+
+Cuando se deshabilita un evento para un objeto (por ejemplo, el `vol offline` Evento), y posteriormente, usted habilita el evento, Unified Manager no genera nuevos eventos para los objetos que quedan sin conexión cuando el evento estaba en estado deshabilitado. Unified Manager genera un evento nuevo solo cuando hay un cambio en el estado del objeto después de que se rehabilitó el evento.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *Administración de almacenamiento* > *Configuración de eventos*.
+. En la página *Event Setup*, deshabilite o habilite eventos seleccionando una de las siguientes opciones:
++
+|===
+| Si desea... | Realice lo siguiente... 
+
+
+ a| 
+Deshabilite eventos
+ a| 
+.. Haga clic en *Desactivar*.
+.. En el cuadro de diálogo Deshabilitar eventos, seleccione la gravedad del evento.
+.. En la columna Eventos coincidentes, seleccione los eventos que desea deshabilitar según la gravedad del evento y, a continuación, haga clic en la flecha derecha para mover dichos eventos a la columna Deshabilitar eventos.
+.. Haga clic en *Guardar y cerrar*.
+.. Compruebe que los eventos que ha deshabilitado se muestran en la vista de lista de la página Event Setup.
+
+
+
+
+ a| 
+Habilite eventos
+ a| 
+.. Seleccione la casilla de comprobación del evento o los eventos que desea habilitar.
+.. Haga clic en *Activar*.
+
+
+|===
+

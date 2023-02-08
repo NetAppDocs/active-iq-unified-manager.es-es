@@ -1,0 +1,27 @@
+---
+permalink: storage-mgmt/task_create_an_email_notification_format.html 
+sidebar: sidebar 
+keywords: create, email, notification, format, user, group, quotas 
+summary: 'Puede crear un formato de notificación para los mensajes de correo electrónico que se envían a un usuario o a un grupo de usuarios cuando hay un problema relacionado con las cuotas (límite de software incumplido o límite rígido alcanzado).' 
+---
+= Creación de un formato de notificación por correo electrónico para cuotas de usuarios y grupos de usuarios
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede crear un formato de notificación para los mensajes de correo electrónico que se envían a un usuario o a un grupo de usuarios cuando hay un problema relacionado con las cuotas (límite de software incumplido o límite rígido alcanzado).
+
+*Lo que necesitará*
+
+Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
+.Pasos
+. En el panel de navegación de la izquierda, haga clic en *General* > *Formato de correo electrónico de cuota*.
+. Introduzca o modifique los detalles en los campos *de*, *asunto* y *Detalles de correo electrónico*.
+. Haga clic en *Vista previa* para obtener una vista previa de la notificación por correo electrónico.
+. Haga clic en *Cerrar* para cerrar la ventana de vista previa.
+. Modifique el contenido de la notificación por correo electrónico, si es necesario.
+. Haga clic en *Guardar*.
+

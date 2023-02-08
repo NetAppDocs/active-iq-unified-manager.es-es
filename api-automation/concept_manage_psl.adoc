@@ -1,0 +1,114 @@
+---
+permalink: api-automation/concept_manage_psl.html 
+sidebar: sidebar 
+keywords: manage, performance, service, level 
+summary: Puede ver, crear, modificar y eliminar niveles de servicio de rendimiento usando las API del proveedor de almacenamiento para su Active IQ Unified Manager. 
+---
+= Gestión de niveles de servicio de rendimiento mediante API
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede ver, crear, modificar y eliminar niveles de servicio de rendimiento usando las API del proveedor de almacenamiento para su Active IQ Unified Manager.
+
+
+
+== Ver los niveles de servicio de rendimiento
+
+Puede utilizar el siguiente método para ver los niveles de servicio de rendimiento para asignarles a cargas de trabajo de almacenamiento. La API enumera todos los niveles de servicio de rendimiento definidos por el sistema y creados por el usuario, y recupera los atributos de todos los niveles de servicio de rendimiento. Si desea consultar un nivel de servicio de rendimiento específico, debe introducir el ID único del nivel de servicio de rendimiento para recuperar los detalles.
+
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+proveedor de almacenamiento
+ a| 
+OBTENGA
+ a| 
+`/storage-provider/performance-service-levels`
+
+`/storage-provider/performance-service-levels/\{key}`
+
+|===
+
+
+== Agregue niveles de servicio de rendimiento
+
+Puede utilizar el siguiente método para crear niveles de servicio de rendimiento personalizados y asignarles a sus cargas de trabajo de almacenamiento si los niveles de servicio de rendimiento definidos por el sistema no cumplen los objetivos de nivel de servicio requeridos para las cargas de trabajo de almacenamiento. Introduzca los detalles para el nivel de servicio de rendimiento que desea crear. Para las propiedades de IOPS, asegúrese de introducir un rango válido de valores.
+
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+proveedor de almacenamiento
+ a| 
+PUBLICAR
+ a| 
+`/storage-provider/performance-service-levels`
+
+|===
+
+
+== Elimine niveles de servicio de rendimiento
+
+Puede utilizar el método siguiente para eliminar un nivel de servicio de rendimiento específico. No es posible eliminar un nivel de servicio de rendimiento si se asigna a una carga de trabajo o si es el único nivel de servicio de rendimiento disponible. Debe proporcionar el ID único del nivel de servicio de rendimiento como parámetro de entrada para eliminar un nivel de servicio de rendimiento determinado.
+
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+proveedor de almacenamiento
+ a| 
+ELIMINAR
+ a| 
+`/storage-provider/performance-service-levels/\{key}`
+
+|===
+
+
+== Modifique los niveles de servicio de rendimiento
+
+Puede utilizar el método siguiente para modificar un nivel de servicio de rendimiento y actualizar sus propiedades. No es posible modificar un nivel de servicio de rendimiento definido por el sistema o asignado a una carga de trabajo. Debe proporcionar el ID único de para modificar un nivel de servicio de rendimiento determinado. También debe introducir la propiedad IOPS que desea actualizar, junto con un valor válido.
+
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+proveedor de almacenamiento
+ a| 
+PARCHE
+ a| 
+`/storage-provider/performance-service-levels/\{key}`
+
+|===
+
+
+== Ver las capacidades de agregado en función de los niveles de servicio de rendimiento
+
+Puede utilizar el siguiente método para consultar las funcionalidades de agregado en función de los niveles de servicio de rendimiento. Esta API muestra la lista de agregados disponibles en el centro de datos e indica las funcionalidades en cuanto a los niveles de servicio de rendimiento que pueden admitir estos agregados. Al aprovisionar cargas de trabajo en un volumen, puede ver la funcionalidad de un agregado para admitir un nivel de servicio de rendimiento en particular y aprovisionar cargas de trabajo en función de esa funcionalidad. Su capacidad para especificar el agregado solo está disponible cuando se aprovisiona una carga de trabajo mediante API. Esta funcionalidad no está disponible en la interfaz de usuario web de Unified Manager.
+
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+proveedor de almacenamiento
+ a| 
+OBTENGA
+ a| 
+`/storage-provider/aggregate-capabilities`
+
+`/storage-provider/aggregate-capabilities/\{key}`
+
+|===

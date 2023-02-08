@@ -1,0 +1,134 @@
+---
+permalink: install-linux/task_upgrade_unified_manager.html 
+sidebar: sidebar 
+keywords: upgrade, unified manager 
+summary: Puede actualizar Unified Manager descargando y ejecutando el archivo de instalación en la plataforma Linux. 
+---
+= Actualizar Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede actualizar desde Unified Manager 9.10 o 9.11 a 9.12 descargando y ejecutando el archivo de instalación en la plataforma Linux.
+
+*Lo que necesitará*
+
+* El sistema donde se actualiza Unified Manager debe cumplir con los requisitos del sistema y del software.
++
+Consulte link:concept_virtual_infrastructure_or_hardware_system_requirements.html["Requisitos del sistema de hardware"].
+
++
+Consulte link:reference_red_hat_and_centos_software_and_installation_requirements.html["Requisitos de instalación y software Linux"].
+
+* Debe disponer de una suscripción al administrador de suscripciones de Red Hat Enterprise Linux.
+* Debe instalar o actualizar a la versión correcta de OpenJDK antes de actualizar Unified Manager.
++
+Consulte link:task_upgrade_openjdk_on_linux_ocum.html["Actualizar JRE en Linux"].
+
+* Para evitar la pérdida de datos, debe haber creado un backup de la base de datos de Unified Manager en caso de que haya un problema durante la actualización. NetApp recomienda mover el archivo de backup desde la `/opt/netapp/data` directorio a una ubicación externa.
+* Durante la actualización, es posible que se le solicite que confirme si desea mantener la configuración predeterminada anterior para conservar los datos de rendimiento durante 13 meses o si desea cambiarla a 6 meses. Al confirmar, los datos de rendimiento históricos se purgan al cabo de 6 meses.
+* Debe haber completado todas las operaciones en ejecución, ya que Unified Manager no está disponible durante el proceso de actualización.
+* MySQL Community Edition se actualiza automáticamente durante la actualización de Unified Manager. Si la versión instalada de MySQL en el sistema es anterior a 8.0.30, el proceso de actualización de Unified Manager actualiza automáticamente MySQL a 8.0.30.
+
+
+.Pasos
+. Inicie sesión en el servidor Red Hat Enterprise Linux o CentOS de destino.
+. Descargue el paquete de Unified Manager en el servidor.
++
+Consulte link:task_download_unified_manager.html["Descarga de Unified Manager para Linux"].
+
+. Desplácese hasta el directorio de destino y expanda el paquete Unified Manager:
++
+`unzip ActiveIQUnifiedManager-<version>.zip`
+
++
+Los módulos RPM necesarios para Unified Manager se descomprimen en el directorio de destino.
+
+. Compruebe que el siguiente módulo esté disponible en el directorio:
++
+`ls *.rpm`
+
++
+`netapp-um<version>.x86_64.rpm`
+
+. Ejecute la secuencia de comandos previa a la instalación para asegurarse de que no haya ninguna configuración del sistema ni ningún software instalado que pueda entrar en conflicto con la actualización:
++
+`sudo ./pre_install_check.sh`
+
++
+La secuencia de comandos de preinstalación comprueba que el sistema tiene una suscripción válida a Red Hat Enterprise Linux y que tiene acceso a los repositorios de software necesarios. Si el script identifica algún problema, debe corregir los problemas y continuar con la actualización.
+
++
+Si se detecta algún paquete que falta, realice los pasos mencionados en link:../install-linux/task_upgrade_unified_manager.html#additional-steps-to-perform-for-missing-packages["Pasos adicionales que se deben realizar para los paquetes que faltan"]. Si no faltan paquetes, continúe con los siguientes pasos.
+
+. Actualice Unified Manager con el siguiente script:
++
+`upgrade.sh`
+
++
+Esta secuencia de comandos ejecuta automáticamente los módulos RPM, actualizando el software compatible necesario y los módulos Unified Manager que se ejecutan en ellos. Además, el script de actualización comprueba si hay alguna configuración del sistema o cualquier software instalado que pueda entrar en conflicto con la actualización. Si el script identifica algún problema, debe corregir los problemas antes de actualizar Unified Manager. Si ha instalado paquetes previamente, como _net-snmp_ antes de actualizar Unified Manager, la dependencia de MySQL podría desinstalar el paquete durante la actualización. Debe volver a instalar el paquete manualmente para continuar con su uso.
+
+. Una vez completada la actualización, desplácese hacia atrás por los mensajes hasta que vea el mensaje que muestra una dirección IP o una URL para la interfaz de usuario web de Unified Manager, el nombre de usuario de mantenimiento (umadmin) y la contraseña predeterminada.
++
+El mensaje es similar al siguiente:
+
++
+[listing]
+----
+Active IQ Unified Manager upgraded successfully.
+Use a web browser and one of the following URLs to access the Unified Manager GUI:
+
+https://default_ip_address/    (if using IPv4)
+https://[default_ip_address]/  (if using IPv6)
+https://fully_qualified_domain_name/
+----
+
+
+Introduzca la dirección IP o URL especificada en una nueva ventana de un explorador web compatible para iniciar la interfaz de usuario web de Unified Manager y, a continuación, inicie sesión con el mismo nombre de usuario de mantenimiento (umadmin) y la misma contraseña que estableció anteriormente.
+
+
+
+== Pasos adicionales que se deben realizar para los paquetes que faltan
+
+Si hay algún paquete que falte en su sitio durante la actualización, o si su sistema no está conectado a Internet, o si no está utilizando los repositorios de Red Hat Enterprise Linux, realice los pasos siguientes para determinar si falta algún paquete necesario y descargue esos paquetes.
+
+
+NOTE: Estos pasos deben realizarse después del paso _5_ del procedimiento principal. Este procedimiento actualiza Unified Manager y no es necesario ejecutar ningún paso adicional para actualizar.
+
+. Consulte la lista de paquetes disponibles y no disponibles:
++
+`yum install netapp-um<version>.x86_64.rpm --assumeno`
+
++
+Los elementos de la sección «'instalación:'» son los paquetes que están disponibles en el directorio actual, y los elementos de la sección «'instalación de dependencias:'» son los paquetes que faltan en su sistema.
+
+. En otro sistema que tenga acceso a Internet, ejecute el siguiente comando para descargar los paquetes que faltan.
++
+`yum install package_name --downloadonly --downloaddir=.`
+
++
+Los paquetes se descargan en el directorio especificado como `--downloaddir=`.
+
++
+Puesto que el complemento "'yum-plugin-downloadonly'" no siempre está activado en los sistemas Red Hat Enterprise Linux, es posible que tenga que habilitar la funcionalidad para descargar un paquete sin instalarlo:
+
++
+`yum install yum-plugin-downloadonly`
+
+. Copie los paquetes descargados en el directorio donde descomprimió el paquete Unified Manager en el sistema de instalación.
+. Cambie los directorios a ese directorio y ejecute el siguiente comando para instalar los paquetes que faltan, junto con sus dependencias.
++
+`yum install *.rpm`
+
+. Inicie el servidor de Unified Manager. Ejecute estos comandos:
++
+`systemctl start ocie`
+
++
+`systemctl start ocieau`
+
+
+
+Este proceso completa el proceso de actualización de Unified Manager. Introduzca la dirección IP o URL especificada en una nueva ventana de un explorador web compatible para iniciar la interfaz de usuario web de Unified Manager y, a continuación, inicie sesión con el mismo nombre de usuario de mantenimiento (umadmin) y la misma contraseña que estableció anteriormente.

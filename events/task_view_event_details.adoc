@@ -1,0 +1,32 @@
+---
+permalink: events/task_view_event_details.html 
+sidebar: sidebar 
+keywords: view, events, details 
+summary: Puede ver detalles sobre un evento que ha activado Unified Manager para realizar acciones correctivas. Por ejemplo, si hay un volumen de evento de estado sin conexión, puede hacer clic en ese evento para ver los detalles y ejecutar acciones correctivas. 
+---
+= Ver eventos y detalles de eventos
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede ver detalles sobre un evento que ha activado Unified Manager para realizar acciones correctivas. Por ejemplo, si hay un volumen de evento de estado sin conexión, puede hacer clic en ese evento para ver los detalles y ejecutar acciones correctivas.
+
+*Lo que necesitará*
+
+Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
+
+Los detalles del evento incluyen información como el origen del evento, la causa del evento y cualquier nota relacionada con el evento.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *Gestión de eventos*.
++
+De forma predeterminada, la vista todos los eventos activos muestra los eventos nuevos y reconocidos (activos) que se han generado durante los 7 días anteriores que tienen un nivel de impacto de incidente o riesgo.
+
+. Si desea ver una categoría concreta de eventos, por ejemplo, eventos de capacidad o eventos de rendimiento, haga clic en *Ver* y seleccione en el menú de tipos de eventos.
+. Haga clic en el nombre del evento para el que desea ver los detalles.
++
+Los detalles del evento se muestran en la página de detalles Event.
+
+

@@ -1,0 +1,83 @@
+---
+permalink: storage-mgmt/concept_monitor_and_manage_clusters_from_dashboard.html 
+sidebar: sidebar 
+keywords: monitor, manage, clusters, dashboard 
+summary: La consola ofrece información acumulativa de un vistazo sobre el estado actual de los sistemas de ONTAP supervisados. El panel proporciona “paneles” que le permiten evaluar la capacidad general, el rendimiento y el estado de seguridad de los clústeres que está supervisando. 
+---
+= Supervisar y gestionar clústeres desde la consola
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+La consola ofrece información acumulativa de un vistazo sobre el estado actual de los sistemas de ONTAP supervisados. El panel proporciona ""paneles"" que le permiten evaluar la capacidad general, el rendimiento y el estado de seguridad de los clústeres que supervisa.
+
+Además, existen ciertos problemas de ONTAP que se pueden solucionar directamente desde la interfaz de usuario de Unified Manager en lugar de tener que utilizar System Manager de ONTAP o la interfaz de línea de comandos de ONTAP.
+
+En la parte superior de la consola puede seleccionar si los paneles muestran información para todos los clústeres supervisados o para un clúster individual. Para empezar, puede ver el estado de todos los clústeres y profundizar en cada clúster cuando desea ver información detallada.
+
+[NOTE]
+====
+Es posible que algunos de los paneles que se enumeran a continuación no aparezcan en la página en función de su configuración.
+
+====
+|===
+| Paneles | Descripción 
+
+
+ a| 
+Acciones de gestión
+ a| 
+Cuando Unified Manager puede diagnosticar y determinar una única resolución de un problema, estas resoluciones se muestran en este panel con un botón *Fix it*.
+
+
+
+ a| 
+Capacidad
+ a| 
+Muestra la capacidad total y utilizada para el nivel local y el nivel cloud, así como la cantidad de días hasta que la capacidad local alcance el límite superior.
+
+
+
+ a| 
+Capacidad de rendimiento
+ a| 
+Muestra el valor de la capacidad de rendimiento de cada clúster y el número de días hasta que la capacidad de rendimiento alcanza el límite superior.
+
+
+
+ a| 
+IOPS de carga de trabajo
+ a| 
+Muestra el número total de cargas de trabajo que se están ejecutando actualmente en un determinado rango de IOPS.
+
+
+
+ a| 
+Rendimiento de carga de trabajo
+ a| 
+Muestra el número total de cargas de trabajo conformes y no conformes asignadas a cada nivel de servicio de rendimiento definido.
+
+
+
+ a| 
+Seguridad
+ a| 
+Muestra el número de clústeres que son compatibles o no, el número de SVM que son compatibles o no, y el número de volúmenes cifrados o no.
+
+
+
+ a| 
+Protección
+ a| 
+Muestra la cantidad de máquinas virtuales de almacenamiento protegidas por la relación SVM-DR, los volúmenes protegidos por la relación de SnapMirror, los volúmenes protegidos por Snapshot y los clústeres protegidos por MetroCluster.
+
+
+
+ a| 
+Descripción del uso
+ a| 
+Muestra los clústeres ordenados por las IOPS más altas, el rendimiento más alto (Mbps) o la capacidad física utilizada más alta.
+
+|===

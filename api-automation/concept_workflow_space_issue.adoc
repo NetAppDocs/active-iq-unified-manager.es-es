@@ -1,0 +1,74 @@
+---
+permalink: api-automation/concept_workflow_space_issue.html 
+sidebar: sidebar 
+keywords: determine, space, issue, aggregate 
+summary: Puede utilizar las API de centro de datos de Active IQ Unified Manager para supervisar la disponibilidad y el uso del espacio en los volúmenes. Puede determinar problemas de espacio de su volumen e identificar recursos de almacenamiento que estén desaprovechados o sobrecargados. 
+---
+= Determinar problemas de espacio en agregados mediante las API
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede utilizar las API de centro de datos de Active IQ Unified Manager para supervisar la disponibilidad y el uso del espacio en los volúmenes. Puede determinar problemas de espacio de su volumen e identificar recursos de almacenamiento que estén desaprovechados o sobrecargados.
+
+Las API del centro de datos para agregados recuperan la información relevante sobre el espacio disponible y el utilizado, y la configuración de eficiencia que permite ahorrar espacio. También puede filtrar la información recuperada en función de los atributos especificados.
+
+Un método para determinar cualquier falta de espacio en los agregados es verificar si hay volúmenes en su entorno con el modo autosize habilitado. A continuación, debe identificar qué volúmenes se están utilizando en exceso y realizar cualquier acción correctiva.
+
+El siguiente diagrama de flujo ilustra el proceso de recuperación de información acerca de los volúmenes con el modo de ajuste automático activado:
+
+image::../media/space_utilization.gif[uso del espacio]
+
+En este flujo se supone que los clústeres ya se han creado en ONTAP y se han añadido a Unified Manager.
+
+. Obtenga la clave de clúster a menos que conozca el valor:
++
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+centro de datos
+ a| 
+OBTENGA
+ a| 
+`/datacenter/cluster/clusters`
+
+|===
+. Utilice la clave de clúster como el parámetro filter y consulte los agregados de ese clúster.
++
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+centro de datos
+ a| 
+OBTENGA
+ a| 
+`/datacenter/storage/aggregates`
+
+|===
+. Desde la respuesta, analice el uso de espacio de los agregados y determine qué agregados tienen problemas de espacio. Para cada agregado con problema de espacio, obtenga la clave de agregado de la misma salida JSON.
+. Con cada clave de agregado, filtre todos los volúmenes que tengan el valor del parámetro autosize.mode como `grow.`
++
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+centro de datos
+ a| 
+OBTENGA
+ a| 
+`/datacenter/storage/volumes`
+
+|===
+. Analice qué volúmenes se van a utilizar en exceso.
+. Realice cualquier acción correctiva necesaria, por ejemplo, mover el volumen entre agregados para resolver los problemas de espacio del volumen. Es posible realizar estas acciones desde la interfaz de usuario web de ONTAP o Unified Manager.
+

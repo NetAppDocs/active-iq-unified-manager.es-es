@@ -1,0 +1,26 @@
+---
+permalink: events/reference_add_script_dialog_box.html 
+sidebar: sidebar 
+keywords: add, script, dialog, box 
+summary: El cuadro de diálogo Add Script permite añadir scripts a Unified Manager. Es posible configurar alertas con los scripts para resolver automáticamente los eventos generados para los objetos de almacenamiento. 
+---
+= Cuadro de diálogo Add Script
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+El cuadro de diálogo Add Script permite añadir scripts a Unified Manager. Es posible configurar alertas con los scripts para resolver automáticamente los eventos generados para los objetos de almacenamiento.
+
+Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
+* *Seleccione Archivo de secuencia de comandos*
++
+Permite seleccionar un script para la alerta.
+
+* *Descripción*
++
+Permite especificar una descripción para el script.
+
+

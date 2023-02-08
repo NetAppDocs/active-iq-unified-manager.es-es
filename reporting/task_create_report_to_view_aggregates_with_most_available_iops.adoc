@@ -1,0 +1,81 @@
+---
+permalink: reporting/task_create_report_to_view_aggregates_with_most_available_iops.html 
+sidebar: sidebar 
+keywords: create, report, view, aggregates, available, IOPS 
+summary: Este informe muestra los agregados con la tasa de IOPS más disponible por tipo de agregado en los que se pueden aprovisionar nuevas cargas de trabajo. 
+---
+= Crear un informe para ver los agregados con la tasa de IOPS más disponible
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Este informe muestra los agregados con la tasa de IOPS más disponible por tipo de agregado en los que se pueden aprovisionar nuevas cargas de trabajo.
+
+*Lo que necesitará*
+
+* Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
+
+Utilice los pasos siguientes para abrir una vista Estado: Todos los volúmenes, descargar la vista en Excel, crear un gráfico de capacidad disponible, cargar el archivo de Excel personalizado y programar el informe final.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *almacenamiento* > *agregados*.
+. Seleccione *rendimiento: Todos los agregados* en el menú desplegable *Ver*.
+. Seleccione *Mostrar/Ocultar* para mostrar la `Available IOPS` y oculte la `Cluster FQDN, Inactive Data Reporting,` y.. `Threshold Policy` columnas.
+. Arrastre y suelte el `Available IOPS` y.. `Free Capacity` columnas junto a `Type` columna.
+. Asigne un nombre a la vista personalizada y guárdela `Available IOPS Per Aggr.`
+. Seleccione *Informes* > *Descargar Excel*.
++
+image::../media/download_excel_menu.png[descargar menú de excel]
+
++
+Según el explorador, es posible que tenga que hacer clic en *Aceptar* para guardar el archivo.
+
+. Si es necesario, haga clic en *Activar edición*.
+. En Excel, abra el archivo descargado.
+. En la hoja de datos, haga clic en el pequeño triángulo situado en la parte superior izquierda de la hoja para seleccionar toda la hoja.
+. En la cinta *Data*, seleccione *Sort* en `Sort & Filter area.`
+. Establezca los siguientes niveles de ordenación:
++
+.. Especifique *Ordenar por* como `Available IOPS` (IOPS), el *Ordenar en* como `Cell Values,` Y la *Orden* como `Largest to Smallest.`
+.. Haga clic en *Agregar nivel*.
+.. Especifique *Ordenar por* como `Type`, El *Ordenar en* como `Cell Values,` Y la *Orden* como `Z to A.`
+.. Haga clic en *Agregar nivel*.
+.. Especifique *Ordenar por* como `Free Capacity (GB),` El *Ordenar en* como `Cell Values,` Y la *Orden* como `Largest to Smallest.`
+.. Haga clic en *Aceptar*.
+
+
+. Guarde y cierre el archivo de Excel.
+. En Unified Manager, seleccione *Informes* > *cargar Excel*.
++
+[NOTE]
+====
+Asegúrese de que se encuentra en la misma vista en la que descargó el archivo de Excel.
+
+====
+. Seleccione el archivo de Excel que ha modificado, en este caso `performance-aggregates-<date>.xlsx.`
+. Haga clic en *Abrir*.
+. Haga clic en *Enviar*.
++
+Aparece una Marca de verificación junto al elemento de menú *Informes* > *cargar Excel*.
+
++
+image::../media/upload_excel.png[cargar excel]
+
+. Haga clic en *Informes programados*.
+. Haga clic en *Agregar programación* para agregar una nueva fila a la página programas de informes de modo que pueda definir las características de programación para el nuevo informe.
+. Introduzca un nombre para el programa de informes y complete los otros campos de informe y, a continuación, haga clic en la Marca de verificación (image:../media/blue_check.gif[""]) al final de la fila.
++
+[NOTE]
+====
+Seleccione el formato *XLSX* para el informe.
+
+====
++
+El informe se envía inmediatamente como prueba. Después de esto, el informe genera y se envía por correo electrónico a los destinatarios enumerados utilizando la frecuencia especificada.
+
+
+
+Según los resultados mostrados en el informe, es posible que desee aprovisionar nuevas cargas de trabajo en los agregados con la mayor cantidad de IOPS disponible.

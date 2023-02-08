@@ -1,0 +1,116 @@
+---
+permalink: api-automation/concept_gateway_apis.html 
+sidebar: sidebar 
+keywords: access, ONTAP, APIs, proxy, access 
+summary: Las API de puerta de enlace le ofrecen la ventaja de usar las credenciales de Active IQ Unified Manager para ejecutar API DE REST de ONTAP y gestionar objetos de almacenamiento. Estas API están disponibles cuando se habilita la función API Gateway en la interfaz de usuario web de Unified Manager. 
+---
+= Acceso a API de ONTAP a través de acceso de proxy
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Las API de puerta de enlace le ofrecen la ventaja de usar las credenciales de Active IQ Unified Manager para ejecutar API DE REST de ONTAP y gestionar objetos de almacenamiento. Estas API están disponibles cuando se habilita la función API Gateway en la interfaz de usuario web de Unified Manager.
+
+Las API DE REST de Unified Manager solo admiten un conjunto determinado de acciones que se realizarán en los orígenes de datos de Unified Manager, es decir, clústeres de ONTAP. Puede utilizar otras funciones con las API de ONTAP. Las API de puerta de enlace permiten a Unified Manager ser una interfaz de paso a través donde se encapsulan todas las solicitudes de API que se realizan en clústeres de ONTAP que gestiona, sin necesidad de iniciar sesión en cada clúster de centro de datos de forma individual. Realiza como un único punto de gestión para ejecutar las API en los clústeres de ONTAP gestionados por su instancia de Unified Manager. La función de puerta de enlace de API permite a Unified Manager ser un único plano de control desde el cual puede gestionar varios clústeres de ONTAP sin iniciar sesión de forma individual. Las API de puerta de enlace permiten seguir registrando en Unified Manager y gestionar los clústeres de ONTAP ejecutando operaciones de API de REST de ONTAP.
+
+[NOTE]
+====
+Todos los usuarios pueden ejecutar una consulta utilizando LA operación GET. Los administradores de aplicaciones pueden ejecutar todas las operaciones de REST de ONTAP.
+
+====
+La puerta de enlace actúa como proxy para tunear las solicitudes de API manteniendo las solicitudes de encabezado y cuerpo en el mismo formato que en las API de ONTAP. Puede usar las credenciales de Unified Manager y ejecutar las operaciones específicas para acceder a los clústeres de ONTAP y gestionarlos sin aprobar las credenciales de un clúster individual. Continúa gestionando la autenticación del clúster y la gestión del clúster, pero redirige las solicitudes de API para que se ejecuten directamente en el clúster específico. La respuesta que devuelven las API es la misma que la respuesta que devuelven las respectivas API DE REST de ONTAP ejecutadas directamente desde ONTAP.
+
+[cols="3*"]
+|===
+| Verbo HTTP | Ruta (URL) | Descripción 
+
+
+ a| 
+`GET`
+ a| 
+`/gateways`
+ a| 
+Este método GET recupera la lista de todos los clústeres gestionados por Unified Manager compatibles con las llamadas DE REST de ONTAP. Puede verificar los detalles del clúster y elegir ejecutar otros métodos basados en el UUID de clúster o en el identificador único universal (UUID).
+
+[NOTE]
+====
+Las API de puerta de enlace solo recuperan los clústeres compatibles con ONTAP 9.5 o posterior, y se añaden a Unified Manager con HTTPS.
+
+====
+
+
+ a| 
+`GET`
+
+`POST`
+
+`DELETE`
+
+`PATCH`
+
+`OPTIONS` (No disponible en Swagger)
+
+`HEAD` (No disponible en Swagger)
+ a| 
+`/gateways/\{uuid}/\{path}`
+
+[NOTE]
+====
+El valor de \{UUID} debe sustituirse por el UUID de clúster en el que se va a realizar la operación REST. Además, asegúrese de que el UUID sea del clúster compatible con ONTAP 9.5 o una versión posterior, y de que se agregue a Unified Manager mediante HTTPS. La URL DE REST de ONTAP debe sustituir \{path}. Debe quitar `/api/` Desde la URL.
+
+==== a| 
+Se trata de una API de proxy de punto único que admite OPERACIONES POSTERIORES, DE ELIMINACIÓN y REVISIÓN, y QUE se APLICA a todas las API DE REST de ONTAP. No se aplican restricciones en ninguna de las API siempre que sean compatibles con ONTAP. La función de túnel o proxy no se puede desactivar.
+
+La `OPTIONS` Método devuelve todas las operaciones admitidas por una API DE REST de ONTAP. Por ejemplo, si una API de ONTAP solo admite el `GET` funcionamiento, ejecute el `OPTIONS` Método al usar esta API de puerta de enlace se devuelve `GET` como respuesta. Este método no es compatible con Swagger, pero se puede realizar en otras herramientas API.
+
+La `OPTIONS` método determina si un recurso está disponible. Esta operación se puede utilizar para ver los metadatos sobre un recurso en los encabezados de respuesta HTTP. Este método no es compatible con Swagger, pero se puede realizar en otras herramientas API.
+
+|===
+
+
+== Descripción del túnel de puerta de enlace API
+
+Las API de puerta de enlace le permiten gestionar objetos ONTAP mediante Unified Manager. Unified Manager gestiona los clústeres y los detalles de autenticación, y redirige las solicitudes al extremo DE REST de ONTAP. La API de la puerta de enlace transforma la URL e Hypermedia como el Motor de Estado de aplicación (HATEOAS) enlaces en el encabezado y el cuerpo de respuesta con la URL base de la puerta de enlace API. La API de puerta de enlace actúa como la URL base del proxy a la cual se anexa la URL DE REST de ONTAP y se ejecuta el extremo de REST de ONTAP requerido.
+
+
+NOTE: Para que una API de ONTAP se ejecute correctamente a través de una pasarela API, la API debe ser compatible con esa versión del clúster ONTAP en el que se está ejecutando. La ejecución de una API que no es compatible con el clúster de ONTAP no devuelve ningún resultado.
+
+En este ejemplo, la API de la puerta de enlace (URL base de proxy) es: `+/gateways/{uuid}/+`
+
+La API de ONTAP tomada es: `/storage/volumes`. Es necesario añadir la URL DE REST de ONTAP API como valor para el parámetro path.
+
+[NOTE]
+====
+Al añadir la ruta, asegúrese de haber eliminado la ""/`" symbol at the beginning of the URL. For the API `/storage/volumes,` agregar `storage/volumes.`
+
+====
+La URL adjunta es: `+/gateways/{uuid}/storage/volumes+`
+
+Al ejecutar el `GET` En funcionamiento, la URL generada es la siguiente: `GEThttps://<hostname\>/api/gateways/<cluster_UUID\>/storage/volumes`
+
+La `/api` La etiqueta de la URL DE REST de ONTAP se elimina en la URL adjunta y se conserva la de la API de puerta de enlace.
+
+*Comando de rizo de muestra*
+
+[listing]
+----
+curl -X GET "https://<hostname>/api/gateways/1cd8a442-86d1-11e0-ae1c-9876567890123/storage/volumes" -H "accept: application/hal+json" -H "Authorization: Basic <Base64EncodedCredentials>"
+----
+La API muestra la lista de volúmenes de almacenamiento que contiene ese clúster. El formato de respuesta es el mismo que recibe cuando ejecuta la misma API desde ONTAP. Los códigos de estado devueltos son los códigos de estado de REST de ONTAP.
+
+
+
+== Configuración del alcance de la API
+
+Todas las API tienen un contexto dentro del ámbito del clúster. Las API que operan sobre la base de máquinas virtuales de almacenamiento también tienen el clúster como el alcance, es decir, las operaciones de API se realizan en una máquina virtual de almacenamiento particular dentro de un clúster gestionado. Cuando ejecute el `/gateways/\{uuid}/\{path}` API, asegúrese de introducir el UUID de clúster (UUID de origen de datos de Unified Manager) para el clúster en el que se ejecuta la operación. Para establecer el contexto de una máquina virtual de almacenamiento determinada dentro de ese clúster, introduzca la clave de la máquina virtual de almacenamiento como el parámetro X-Dot-SVM-UUID o el nombre de la máquina virtual de almacenamiento como el parámetro X-Dot-SVM-Name. El parámetro se añade como filtro del encabezado de cadena y la operación se ejecuta dentro del ámbito de ese equipo virtual de almacenamiento dentro de ese clúster.
+
+*Comando de rizo de muestra*
+
+[listing]
+----
+curl -X GET "https://<hostname>/api/gateways/e4f33f90-f75f-11e8-9ed9-00a098e3215f/storage/volume" -H "accept: application/hal+json" -H "X-Dot-SVM-UUID: d9c33ec0-5b61-11e9-8760-00a098e3215f"
+-H "Authorization: Basic <Base64EncodedCredentials>"
+----
+Para obtener más información sobre el uso de las API de REST de ONTAP, consultehttps://docs.netapp.com/us-en/ontap-automation/index.html["Automatización de la API DE REST de ONTAP"]

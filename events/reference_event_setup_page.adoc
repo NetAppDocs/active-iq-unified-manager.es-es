@@ -1,0 +1,60 @@
+---
+permalink: events/reference_event_setup_page.html 
+sidebar: sidebar 
+keywords: event, setup, page, command, buttons, list, view 
+summary: En la página Event Setup, se muestra la lista de eventos deshabilitados y se proporciona información como el tipo de objeto asociado y la gravedad del evento. También es posible realizar tareas como deshabilitar o habilitar eventos de forma global. 
+---
+= Página Event Setup
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+En la página Event Setup, se muestra la lista de eventos deshabilitados y se proporciona información como el tipo de objeto asociado y la gravedad del evento. También es posible realizar tareas como deshabilitar o habilitar eventos de forma global.
+
+Sólo puede acceder a esta página si tiene la función Administrador de aplicaciones o Administrador de almacenamiento.
+
+
+
+== Botones de comando
+
+Los botones de comando le permiten realizar las siguientes tareas para los eventos seleccionados:
+
+* *Desactivar*
++
+Abre el cuadro de diálogo Deshabilitar eventos, que se puede utilizar para deshabilitar eventos.
+
+* *Activar*
++
+Activa los eventos seleccionados que ha elegido desactivar anteriormente.
+
+* *Reglas de carga*
++
+Inicia el cuadro de diálogo Upload Rules, lo que permite que los sitios sin acceso a red externo suban manualmente el archivo de reglas de Active IQ en Unified Manager. Las reglas se ejecutan en mensajes de Cluster AutoSupport para generar eventos de configuración, cableado, prácticas recomendadas y disponibilidad del sistema, según lo definido por la plataforma Active IQ.
+
+* *Suscríbete a eventos EMS*
++
+Inicia el cuadro de diálogo Subscribe to EMS Events, que permite suscribirse para recibir eventos específicos del sistema de gestión de eventos (EMS) desde los clústeres que supervisa. EMS recopila información sobre los eventos que se producen en el clúster. Cuando se recibe una notificación para un evento de EMS suscrito, se genera un evento de Unified Manager con la gravedad correspondiente.
+
+
+
+
+
+== Vista de lista
+
+La vista Lista muestra (en formato tabular) información sobre los eventos que están desactivados. Puede utilizar los filtros de columnas para personalizar los datos que se muestran.
+
+* *Evento*
++
+Muestra el nombre del evento que está desactivado.
+
+* *Gravedad*
++
+Muestra la gravedad del evento. La gravedad puede ser crítica, error, advertencia o información.
+
+* *Tipo de fuente*
++
+Muestra el tipo de origen para el que se genera el evento.
+
+

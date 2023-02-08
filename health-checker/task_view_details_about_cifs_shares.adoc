@@ -1,0 +1,54 @@
+---
+permalink: health-checker/task_view_details_about_cifs_shares.html 
+sidebar: sidebar 
+keywords: smb, cifs, view, shares, details 
+summary: 'Puede ver detalles sobre todos los recursos compartidos SMB/CIFS, como el nombre del recurso compartido, la ruta de unión, que contiene objetos, la configuración de seguridad y las políticas de exportación definidas para el recurso compartido. Use la vista Health: Todos los recursos compartidos de SMB para ver todos los recursos compartidos de SMB en todos los clústeres supervisados y use la página de detalles Storage VM / Health para ver todos los recursos compartidos de SMB en una máquina virtual de almacenamiento (SVM) específica.' 
+---
+= Ver detalles sobre los recursos compartidos de SMB/CIFS
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede ver detalles sobre todos los recursos compartidos SMB/CIFS, como el nombre del recurso compartido, la ruta de unión, que contiene objetos, la configuración de seguridad y las políticas de exportación definidas para el recurso compartido. Use la vista Health: Todos los recursos compartidos de SMB para ver todos los recursos compartidos de SMB en todos los clústeres supervisados y use la página de detalles Storage VM / Health para ver todos los recursos compartidos de SMB en una máquina virtual de almacenamiento (SVM) específica.
+
+*Lo que necesitará*
+
+* La licencia de CIFS debe estar habilitada en el clúster.
+* Se deben configurar las interfaces de red que sirven a los recursos compartidos de SMB/CIFS.
+* Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
+
+
+[NOTE]
+====
+No se muestran los recursos compartidos de las carpetas.
+
+====
+.Paso
+. En el panel de navegación de la izquierda, siga los siguientes pasos dependiendo de si desea ver todos los recursos compartidos de SMB/CIFS o solo los recursos compartidos de una SVM en particular.
++
+[cols="2*"]
+|===
+| Para... | Siga estos pasos... 
+
+
+ a| 
+Ver todos los recursos compartidos de SMB/CIFS
+ a| 
+Haga clic en *almacenamiento* > *Recursos compartidos SMB*
+
+
+
+ a| 
+Vea los recursos compartidos de SMB/CIFS para un único SVM
+ a| 
+.. Haga clic en *almacenamiento* > *Storage VMs*
+.. Haga clic en la SVM para la que desea ver los detalles de los recursos compartidos de SMB/CIFS.
+.. En la página de detalles Storage VM / Health, haga clic en la ficha *Recursos compartidos SMB*.
+
+
+|===
+
+
+Para obtener más información, consulte link:../api-automation/concept_provision_file_share.html["Aprovisionamiento de recursos compartidos de archivos CIFS y NFS mediante API"].

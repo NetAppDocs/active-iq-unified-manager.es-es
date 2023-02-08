@@ -1,0 +1,31 @@
+---
+permalink: api-automation/concept_storage_resource_model.html 
+sidebar: sidebar 
+keywords: storage, resource, ONTAP 
+summary: Los recursos de almacenamiento de ONTAP se pueden clasificar en recursos de almacenamiento físico y recursos de almacenamiento lógico. Para gestionar de manera eficaz los sistemas de ONTAP mediante las API proporcionadas en Active IQ Unified Manager, debe conocer el modelo de recursos de almacenamiento y la relación entre varios recursos de almacenamiento. 
+---
+= Recursos de almacenamiento en ONTAP
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Los recursos de almacenamiento de ONTAP pueden clasificarse en términos generales en recursos de almacenamiento físicos_ y recursos de almacenamiento lógico._ para gestionar de forma eficaz los sistemas de ONTAP mediante las API proporcionadas en Active IQ Unified Manager, deberá conocer el modelo de recursos de almacenamiento y la relación entre los distintos recursos de almacenamiento.
+
+* *Recursos de almacenamiento físico*
++
+Hace referencia a los objetos de almacenamiento físico que proporciona ONTAP. Los recursos de almacenamiento físico incluyen discos, clústeres, controladoras de almacenamiento, nodos y agregados.
+
+* *Recursos de almacenamiento lógicos*
++
+Hace referencia a los recursos de almacenamiento que proporciona ONTAP que no están ligados a un recurso físico. Estos recursos están asociados a una máquina virtual de almacenamiento (SVM, antes denominada Vserver) y existen de forma independiente a cualquier recurso de almacenamiento físico específico como un disco, una LUN de cabina o un agregado.
+
++
+Los recursos de almacenamiento lógico incluyen volúmenes de todos los tipos y qtrees, así como las funcionalidades y configuraciones que puede utilizar con estos recursos, como copias de Snapshot, deduplicación, compresión y cuotas.
+
+
+
+En la siguiente ilustración, se muestran los recursos de almacenamiento en un clúster de 2 nodos:
+
+image::../media/storage_resource_model.gif[modelo de recursos de almacenamiento]

@@ -1,0 +1,29 @@
+---
+permalink: include/upgrade-path.html 
+sidebar: sidebar 
+keywords: supported upgrade path, upgrade path, n-2, which versions can be upgraded 
+summary: Ruta de actualización admitida 
+---
+= La ruta de actualización compatible con las versiones de Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Active IQ Unified Manager admite una ruta de actualización específica para cada versión.
+
+No todas las versiones de Unified Manager pueden realizar una actualización sin movimiento a versiones posteriores. Las actualizaciones de Unified Manager se limitan a un modelo N-2, lo que significa que la actualización solo se puede realizar en las próximas dos versiones de todas las plataformas. Por ejemplo, puede realizar una actualización a Unified Manager 9.12 solo desde Unified Manager 9.10 y 9.11.
+
+Si ejecuta una versión anterior a las versiones compatibles, primero deberá actualizar la instancia de Unified Manager con una de las versiones compatibles y, a continuación, actualizarla a la versión actual.
+
+Por ejemplo, si la versión instalada es OnCommand Unified Manager 9.5 y desea actualizar a la versión más reciente de Active IQ Unified Manager 9.12, siga una secuencia de actualizaciones.
+
+.Ruta de actualización de ejemplo:
+. Actualice Unified Manager 9.5 de OnCommand -> Active IQ Unified Manager 9.7.
+. Actualización 9.7 -> 9.9.
+. Actualización 9.9 -> 9.11.
+. Actualización 9.11 -> 9.12.
+
+
+Para obtener más información acerca de la matriz de rutas de actualización, consulte este tema https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/What_is_the_upgrade_path_for_Active_IQ_Unified_Manager_versions["Artículo de la base de conocimientos (KB)"].

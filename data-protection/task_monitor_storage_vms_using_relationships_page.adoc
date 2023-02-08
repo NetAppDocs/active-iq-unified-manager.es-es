@@ -1,0 +1,38 @@
+---
+permalink: data-protection/task_monitor_storage_vms_using_relationships_page.html 
+sidebar: sidebar 
+keywords: relationships page, monitor, storage, vm 
+summary: Las relaciones de recuperación ante desastres de las máquinas virtuales de almacenamiento se pueden supervisar desde la página Relationships de la sección PROTECTION del INVENTARIO. De forma predeterminada, la página Relaciones muestra sólo las relaciones de nivel superior a medida que se aplica el filtro de relaciones constituyentes. 
+---
+= Supervisión de máquinas virtuales de almacenamiento mediante la página Relaciones
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Las relaciones de recuperación ante desastres de las máquinas virtuales de almacenamiento se pueden supervisar desde la página Relationships de la sección PROTECTION del INVENTARIO. De forma predeterminada, la página Relaciones muestra sólo las relaciones de nivel superior a medida que se aplica el filtro de relaciones constituyentes.
+
+*Lo que necesitará*
+
+Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
+Puede utilizar filtros para ver las relaciones de recuperación ante desastres de las máquinas virtuales de almacenamiento.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *PROTECTION* > *Relationships*.
++
+La página muestra todo el tipo de relaciones: Volumen, grupo de coherencia y relaciones de máquina virtual de almacenamiento.
+
+. Haga clic en *filtro* y seleccione *Tipo de objeto de relación* y *Storage VM* para ver sólo las relaciones de recuperación ante desastres de Storage VM.
+. Haga clic en *aplicar filtro*.
++
+[NOTE]
+====
+Debe borrar el filtro de relaciones constituyentes para ver todas las relaciones de protección.
+
+====
++
+La página muestra solo las relaciones de recuperación ante desastres de la máquina virtual de almacenamiento.
+
+

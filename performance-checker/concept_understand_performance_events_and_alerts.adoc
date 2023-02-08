@@ -1,0 +1,18 @@
+---
+permalink: performance-checker/concept_understand_performance_events_and_alerts.html 
+sidebar: sidebar 
+keywords: understand, performance, events, alerts 
+summary: Los eventos de rendimiento son notificaciones que Unified Manager genera automáticamente cuando se produce una condición predefinida o cuando un valor de contador de rendimiento cruza un umbral. Los eventos le ayudan a identificar problemas de rendimiento en los clústeres que se supervisan. 
+---
+= Comprender los eventos y las alertas de rendimiento
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Los eventos de rendimiento son incidentes relacionados con el rendimiento de la carga de trabajo en un clúster. Le ayudan a identificar cargas de trabajo con tiempos de respuesta lentos. Junto con los eventos de salud que ocurrieron al mismo tiempo, usted puede determinar los problemas que podrían haber causado, o contribuido a, los tiempos de respuesta lentos.
+
+Cuando Unified Manager detecta varias apariciones de la misma condición de evento para el mismo componente del clúster, trata todas las ocurrencias como un solo evento, no como eventos independientes.
+
+Es posible configurar alertas para que envíen notificaciones por correo electrónico automáticamente cuando se produzcan eventos de rendimiento de ciertos tipos de gravedad.

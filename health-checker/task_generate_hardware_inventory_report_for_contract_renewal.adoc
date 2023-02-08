@@ -1,0 +1,28 @@
+---
+permalink: health-checker/task_generate_hardware_inventory_report_for_contract_renewal.html 
+sidebar: sidebar 
+keywords: contract, renewal, cluster, inventory report, hardware, generate 
+summary: 'Es posible generar un informe que contenga una lista completa de información de clústeres y nodos; por ejemplo, números de modelo del hardware y números de serie, tipos y números de disco, licencias instaladas, etc. Este informe resulta útil para la renovación de contratos en sitios seguros (sitios «oscuros») que no están conectados a la plataforma Active IQ de NetApp.' 
+---
+= Generar un informe de inventario de hardware para la renovación de contrato
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Es posible generar un informe que contenga una lista completa de información de clústeres y nodos; por ejemplo, números de modelo del hardware y números de serie, tipos y números de disco, licencias instaladas, etc. Este informe resulta útil para la renovación de contratos en sitios seguros (sitios "seguros") que no están conectados a la plataforma Active IQ de NetApp.
+
+*Lo que necesitará*
+
+Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *almacenamiento* > *nodos*.
+. Vaya a la vista *Estado: Todos los nodos* o *rendimiento: Todos los nodos*.
+. Seleccione *Informes* > *** > **Informe de inventario de hardware*.
++
+El informe de inventario de hardware se descarga como un archivo .csv con información completa a partir de la fecha actual.
+
+. Facilite esta información a su contacto de soporte de NetApp para la renovación de su contrato.
+

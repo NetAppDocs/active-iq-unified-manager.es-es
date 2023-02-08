@@ -1,0 +1,73 @@
+---
+permalink: storage-mgmt/concept_monitor_vms.html 
+sidebar: sidebar 
+keywords: monitor, virtual, machines, view, summary, topology, expand 
+summary: 'Para cualquier problema de latencia en las aplicaciones de máquinas virtuales (VM), es posible que deba supervisar las VM para analizar la causa y solucionar los problemas de ella. Las máquinas virtuales están disponibles cuando sus clústeres de vCenter Server y ONTAP que alojan el almacenamiento de máquinas virtuales se añaden a Unified Manager.' 
+---
+= Supervisar máquinas virtuales
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Para cualquier problema de latencia en las aplicaciones de máquinas virtuales (VM), es posible que deba supervisar las VM para analizar la causa y solucionar los problemas de ella. Las máquinas virtuales están disponibles cuando sus clústeres de vCenter Server y ONTAP que alojan el almacenamiento de máquinas virtuales se añaden a Unified Manager.
+
+Puede ver los detalles de los equipos virtuales en la página *VMWARE* > > *Máquinas virtuales*. Se muestra información, como la disponibilidad, el estado, la capacidad utilizada y asignada, la latencia de red, así como las IOPS y la latencia de la máquina virtual, el almacén de datos y el host. Para un equipo virtual que admite varios almacenes de datos, la cuadrícula muestra las métricas del almacén de datos con la peor latencia, con un icono de asterisco (*) que indica almacenes de datos adicionales. Si hace clic en el icono, se muestran las métricas del almacén de datos adicional. Algunas de estas columnas no están disponibles para ordenar y filtrar.
+
+[NOTE]
+====
+Para ver una máquina virtual y sus detalles, se debe completar la detección (sondeo o colección de métricas) del clúster de ONTAP. Si el clúster se elimina de Unified Manager, la máquina virtual ya no estará disponible después del próximo ciclo de detección.
+
+====
+En esta página, también puede ver la topología detallada de una máquina virtual, donde se muestran los componentes a los que está relacionada la máquina virtual, por ejemplo, el host, el disco virtual y el almacén de datos que está conectado a ella. La vista de topología muestra los componentes subyacentes en sus capas específicas, en el siguiente orden: *Disco virtual* > *VM* > *Host* > *Red* > *Datastore* > *VMDK*.
+
+Puede determinar la ruta de I/o y las latencias de los componentes desde un aspecto topológico e identificar si el almacenamiento es la causa del problema de rendimiento. La vista de resumen de la topología muestra la ruta de I/o y resalta el componente que tiene problemas de IOPS y latencia para que pueda decidir los pasos para la solución de problemas. También puede tener una vista ampliada de la topología que representa cada componente por separado junto con la latencia de ese componente. Puede seleccionar un componente para determinar la ruta de I/o resaltada en las capas.
+
+
+
+== Visualización de la topología de resumen
+
+Para determinar los problemas de rendimiento, vea las máquinas virtuales en una topología de resumen:
+
+. Vaya a *VMWARE* > *Máquinas virtuales*.
+. Busque su máquina virtual escribiendo su nombre en el cuadro de búsqueda. También puede filtrar los resultados de la búsqueda según criterios específicos haciendo clic en el botón *filtro*. Sin embargo, si no puede encontrar la máquina virtual, asegúrese de que se haya añadido y detectado la instancia correspondiente de vCenter Server.
++
+[NOTE]
+====
+Los servidores vCenter permiten caracteres especiales (como %, &, *, $, #, @, !, \, /, :, *, ?, "', <, >, |, ;, ') en los nombres de entidades vSphere, como VM, cluster, datastore, carpeta, o archivo. VMware vCenter Server y ESX/ESXi Server no escapan a los caracteres especiales utilizados en los nombres mostrados. Sin embargo, cuando se procesa el nombre en Unified Manager, se muestra de forma diferente. Por ejemplo, una máquina virtual llamada como  `%$VC_AIQUM_clone_191124%` En vCenter Server se muestra como `%25$VC_AIQUM_clone_191124%25` En Unified Manager. Debe conservar una nota de este problema cuando consulta una máquina virtual con un nombre que tenga caracteres especiales en ella.
+
+====
+. Compruebe el estado de la máquina virtual. Los Estados de la máquina virtual se recuperan de vCenter Server. Están disponibles los siguientes Estados: Para obtener más información sobre estos Estados, consulte la documentación de VMware.
++
+** Normal
+** Advertencia
+** Alerta
+** Sin supervisión
+** Desconocido
+
+
+. Haga clic en la flecha hacia abajo junto a la máquina virtual para ver la vista de resumen de la topología de los componentes en las capas de computación, red y almacenamiento. Se resalta el nodo que tiene problemas de latencia. La vista de resumen muestra la peor latencia de los componentes. Por ejemplo, si una máquina virtual tiene más de un disco virtual, esta vista muestra el disco virtual que tiene la peor latencia entre todos los discos virtuales.
+. Para analizar la latencia y el rendimiento del almacén de datos durante un período de tiempo, haga clic en el botón *Workload Analyzer* situado en la parte superior del icono del objeto del almacén de datos. Se va a la página Workload Analysis, donde puede seleccionar un rango de tiempo y ver los gráficos de rendimiento del almacén de datos. Para obtener más información acerca del analizador de cargas de trabajo, consulte _solución de problemas de cargas de trabajo mediante el analizador de cargas de trabajo_.
+
+
+
+
+== Visualización de topología expandida
+
+Es posible desglosar cada componente por separado para ver la topología expandida de la máquina virtual.
+
+.Pasos
+. En la vista de topología de resumen, haga clic en *Expand Topology*. Puede ver la topología detallada de cada componente por separado con los números de latencia de cada objeto. Si hay varios nodos en una categoría, por ejemplo, varios nodos en el almacén de datos o VMDK, el nodo con la peor latencia se resalta en rojo.
+. Para comprobar la ruta de E/S de un objeto específico, haga clic en ese objeto para ver la ruta de E/S y la asignación correspondiente. Por ejemplo, para ver la asignación de un disco virtual, haga clic en el disco virtual para ver su asignación resaltada en el VMDK correspondiente. En caso de desfase en el rendimiento de estos componentes, puede recopilar más datos de ONTAP y solucionar el problema.
++
+[NOTE]
+====
+No se informan las métricas para VMDK. En la topología, solo se muestran los nombres de VMDK, no las métricas.
+
+====
+
+
+*Información relacionada*
+
+link:../performance-checker/concept_troubleshooting_workloads_using_workload_analyzer.html["Solución de problemas de cargas de trabajo mediante Workload Analyzer"]

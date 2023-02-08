@@ -1,0 +1,42 @@
+---
+permalink: health-checker/task_resolve_capacity_issues.html 
+sidebar: sidebar 
+keywords: resolve, capacity issues 
+summary: Este flujo de trabajo proporciona un ejemplo de cómo puede resolver un problema de capacidad. En esta situación, es un administrador o operador y accede a la página Dashboard de Unified Manager para ver si alguno de los objetos de almacenamiento supervisados tiene problemas de capacidad. Desea determinar la posible causa del problema y su resolución. 
+---
+= Resolver problemas de capacidad
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Este flujo de trabajo proporciona un ejemplo de cómo puede resolver un problema de capacidad. En esta situación, usted es administrador o operador y accede a la página Unified Manager Dashboard para ver si alguno de los objetos de almacenamiento supervisados tiene problemas de capacidad. Desea determinar la posible causa del problema y su resolución.
+
+*Lo que necesitará*
+
+Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
+
+En la página Panel, busque un evento de error "'espacio de volumen lleno'" en el panel capacidad de la lista desplegable eventos.
+
+.Pasos
+. En el panel *Capacity* de la página *Dashboard*, haga clic en el nombre del evento de error Volume Space Full.
++
+Se muestra la página de detalles Event para el error.
+
+. En la página de detalles *evento*, puede realizar una o más de las siguientes tareas:
++
+** Revise el mensaje de error en el campo causa y haga clic en las sugerencias en acciones correctivas sugeridas para revisar las descripciones de posibles soluciones.
+** Haga clic en el nombre del objeto, en este caso un volumen, en el campo Source para obtener detalles del objeto.
+** Busque las notas que se podrían haber añadido acerca de este evento.
+** Agregar una nota al evento.
+** Asigne el evento a otro usuario.
+** Reconozca el evento.
+** Marque el evento como solucionado.
+
+
+
+
+*Información relacionada*
+
+link:../events/reference_event_details_page.html["Página de detalles Event"]

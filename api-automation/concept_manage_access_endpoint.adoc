@@ -1,0 +1,98 @@
+---
+permalink: api-automation/concept_manage_access_endpoint.html 
+sidebar: sidebar 
+keywords: manage, endpoints, access 
+summary: 'Necesita crear extremos de acceso o interfaces lógicas (LIF), que se necesitan para aprovisionar las máquinas virtuales de almacenamiento (SVM), las LUN y los recursos compartidos de archivos. Puede ver, crear, modificar y eliminar los extremos de acceso de las SVM, las LUN o los recursos compartidos de archivos en el entorno de Active IQ Unified Manager.' 
+---
+= Gestión de extremos de acceso mediante API
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Necesita crear extremos de acceso o interfaces lógicas (LIF), que se necesitan para aprovisionar las máquinas virtuales de almacenamiento (SVM), las LUN y los recursos compartidos de archivos. Puede ver, crear, modificar y eliminar los extremos de acceso de las SVM, las LUN o los recursos compartidos de archivos en el entorno de Active IQ Unified Manager.
+
+
+
+== Ver extremos de acceso
+
+Se puede ver una lista de extremos de acceso en el entorno de Unified Manager mediante el siguiente método. Para consultar una lista de extremos de acceso de una SVM, una LUN o un recurso compartido de archivos concretos, debe introducir el identificador único de la SVM, la LUN o el recurso compartido de archivos. También es posible introducir la clave de extremo de acceso única para recuperar los detalles del extremo de acceso en particular.
+
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+proveedor de almacenamiento
+ a| 
+OBTENGA
+ a| 
+`/storage-provider/access-endpoints`
+
+`/storage-provider/access-endpoints/\{key}`
+
+|===
+
+
+== Agregar extremos de acceso
+
+Puede crear extremos de acceso personalizados y asignarle propiedades necesarias. Debe introducir los detalles del extremo de acceso que desea crear como parámetros de entrada. Puede usar esta API, o la interfaz de línea de comandos de System Manager o ONTAP para crear un extremo de acceso en cada nodo. Tanto las direcciones IPv4 como IPv6 son compatibles con la creación de extremos de acceso.
+
+[NOTE]
+====
+Debe configurar su SVM con una cantidad mínima de extremos de acceso por nodo para que el aprovisionamiento se realice correctamente de LUN y recursos compartidos de archivos. Debe configurar su SVM con al menos dos extremos de acceso por nodo, uno que admita CIFS y/o el protocolo NFS, otro que admita el protocolo iSCSI o FCP.
+
+====
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+proveedor de almacenamiento
+ a| 
+PUBLICAR
+ a| 
+`/storage-provider/access-endpoints`
+
+|===
+
+
+== Eliminar extremos de acceso
+
+Puede eliminar un extremo de acceso específico mediante el siguiente método. Debe proporcionar la clave de extremo de acceso como parámetro de entrada para eliminar un extremo de acceso determinado.
+
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+proveedor de almacenamiento
+ a| 
+ELIMINAR
+ a| 
+`/storage-provider/access-endpoints/\{key}`
+
+|===
+
+
+== Modificar los extremos de acceso
+
+Puede modificar un extremo de acceso y actualizar sus propiedades mediante el método siguiente. Debe proporcionar la clave de extremo de acceso para modificar un extremo de acceso determinado. También debe introducir la propiedad que desea actualizar junto con su valor.
+
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+proveedor de almacenamiento
+ a| 
+PARCHE
+ a| 
+`/storage-provider/access-endpoints/\{key}`
+
+|===

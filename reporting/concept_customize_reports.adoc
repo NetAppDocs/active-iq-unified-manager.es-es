@@ -1,0 +1,26 @@
+---
+permalink: reporting/concept_customize_reports.html 
+sidebar: sidebar 
+keywords: customize, reports 
+summary: Existen muchas maneras de personalizar las vistas para que se pueda crear un informe que contenga toda la información necesaria para gestionar los clústeres de ONTAP. 
+---
+= Personalización de informes
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Existen muchas maneras de personalizar las vistas para que se pueda crear un informe que contenga toda la información necesaria para gestionar los clústeres de ONTAP.
+
+Empiece por una página de inventario predeterminada o una vista personalizada y, a continuación, personalízala agregando o quitando columnas, cambiando el orden de las columnas, filtrando los datos o ordenando una columna específica en orden ascendente o descendente.
+
+A partir de Unified Manager 9.8, también se puede descargar la vista en Excel para personalizarla mediante funciones avanzadas. Cuando termine, cargue el archivo de Excel personalizado. Si programa un informe con esa vista, utilizará el archivo de Excel personalizado para crear informes sólidos que pueda compartir.
+
+Para obtener más información acerca de cómo personalizar informes con Excel, vea _Sample Microsoft Excel Reports_.
+
+[NOTE]
+====
+Para administrar informes, debe tener la función Administrador de aplicaciones o Administrador de almacenamiento.
+
+====

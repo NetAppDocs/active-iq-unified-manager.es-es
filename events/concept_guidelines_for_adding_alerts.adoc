@@ -1,0 +1,58 @@
+---
+permalink: events/concept_guidelines_for_adding_alerts.html 
+sidebar: sidebar 
+keywords: guidelines, adding, alerts 
+summary: Puede añadir alertas basadas en un recurso, como un clúster, nodo, agregado o volumen, y eventos de un tipo de gravedad determinado. Como práctica recomendada, puede añadir una alerta para cualquiera de los objetos críticos después de haber agregado el clúster al que pertenece el objeto. 
+---
+= Directrices para añadir alertas
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede añadir alertas basadas en un recurso, como un clúster, nodo, agregado o volumen, y eventos de un tipo de gravedad determinado. Como práctica recomendada, puede añadir una alerta para cualquiera de los objetos críticos después de haber agregado el clúster al que pertenece el objeto.
+
+Puede utilizar las siguientes directrices y consideraciones para crear alertas y gestionar los sistemas de forma eficaz:
+
+* Descripción de alertas
++
+Debe proporcionar una descripción de la alerta para ayudarle a realizar un seguimiento de las alertas de forma eficaz.
+
+* Recursos
++
+Debe decidir qué recurso físico o lógico requiere una alerta. Puede incluir y excluir recursos, según sea necesario. Por ejemplo, si desea supervisar de cerca los agregados mediante la configuración de una alerta, debe seleccionar los agregados necesarios de la lista de recursos.
+
++
+Si selecciona una categoría de recursos, por ejemplo, *+<<All User or Group Quotas>>+*, entonces recibirá alertas para todos los objetos de esa categoría.
+
++
+[NOTE]
+====
+Al seleccionar un clúster, ya que el recurso no selecciona de forma automática los objetos de almacenamiento de ese clúster. Por ejemplo, si crea una alerta para todos los eventos críticos de todos los clústeres, recibirá alertas solo para los eventos críticos del clúster. No recibirá alertas sobre eventos críticos en nodos, agregados, etc.
+
+====
+* Gravedad del evento
++
+Debe decidir si un evento de un tipo de gravedad especificado (crítico, error, advertencia) debe activar la alerta y, de ser así, qué tipo de gravedad.
+
+* Eventos seleccionados
++
+Si añade una alerta según el tipo de evento generado, debe decidir qué eventos requieren una alerta.
+
++
+Si selecciona una gravedad de evento, pero no selecciona ningún evento individual (si deja vacía la columna "Eventos seleccionados"), recibirá alertas para todos los eventos de la categoría.
+
+* Acciones
++
+Debe indicar los nombres de usuario y las direcciones de correo electrónico de los usuarios que reciben la notificación. También puede especificar una captura SNMP como un modo de notificación. Puede asociar los scripts a una alerta para que se ejecuten cuando se genere una alerta.
+
+* Frecuencia de notificación
++
+Puede configurar una alerta para que envíe repetidamente notificaciones a los destinatarios durante un tiempo específico. Debe determinar la hora desde la cual está activa la notificación de eventos para la alerta. Si desea que la notificación de eventos se repita hasta que se reconozca el evento, debe determinar la frecuencia con la que desea que se repita la notificación.
+
+* Ejecutar secuencia de comandos
++
+Puede asociar la secuencia de comandos con una alerta. La secuencia de comandos se ejecuta cuando se genera la alerta.
+
+

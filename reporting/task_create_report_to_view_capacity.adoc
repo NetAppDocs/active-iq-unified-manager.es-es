@@ -1,0 +1,96 @@
+---
+permalink: reporting/task_create_report_to_view_capacity.html 
+sidebar: sidebar 
+keywords: create, report, show, aggregate, capacity, table, chart 
+summary: Puede crear un informe para analizar la capacidad de un archivo de Excel utilizando totales sumados y el formato de gráfico de columnas agrupadas. 
+---
+= Creación de un informe para mostrar un gráfico y una tabla de capacidad agregada
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede crear un informe para analizar la capacidad de un archivo de Excel utilizando totales sumados y el formato de gráfico de columnas agrupadas.
+
+*Lo que necesitará*
+
+* Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
+
+Siga estos pasos para abrir una vista Estado: Todos los agregados, descargar la vista en Excel, crear un gráfico de capacidad disponible, cargar el archivo de Excel personalizado y programar el informe final.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *almacenamiento* > *agregados*.
+. Seleccione *Informes* > *Descargar Excel*.
++
+image::../media/download_excel_menu.png[descargar menú de excel]
+
++
+Según el explorador, es posible que tenga que hacer clic en *Aceptar* para guardar el archivo.
+
+. Si es necesario, haga clic en *Activar edición*.
+. En Excel, abra el archivo descargado.
+. Crear una nueva hoja (image:../media/excel_new_sheet_icon.png[""]) después del `data` Sheet y nombra *capacidad total de datos*.
+. Agregue las siguientes columnas en la nueva hoja capacidad total de datos:
++
+.. Capacidad de datos total (GB)
+.. Capacidad proporcionada (GB)
+.. Capacidad de datos utilizada (GB)
+.. Capacidad de datos disponible (GB)
+
+
+. En la primera fila de cada columna, introduzca la siguiente fórmula, asegurándose de que hace referencia a la hoja de datos (¡datos!) y hace referencia a los especificadores de fila y columna correctos para los datos capturados (capacidad total de datos obtiene datos de la columna E, filas 2 a 20).
++
+.. =SUMA(datos!E$2:datos!E$20)
+.. =SUMA(datos!F$2:datos!F$50)
+.. =SUMA(datos!G$2:datos!G$50)
+.. =SUMA(datos!H$2:datos!H$50)
+
+
++
+La fórmula suma cada columna en función de los datos actuales.
+
+
+
+image::../media/capacitysums.png[sumas de capacidad]
+
+. En la hoja de datos, seleccione las columnas *capacidad total de datos (GB)* y *capacidad comprometida (GB)*.
+. Seleccione *Cartas recomendadas* en el menú *Insertar* y seleccione el gráfico *columna en clúster*.
+. Haga clic con el botón derecho del ratón en el gráfico y seleccione *mover gráfico* para mover el gráfico `Total Data Capacity` hoja.
+. Mediante los menús *Diseño* y *Formato*, que están disponibles cuando se selecciona el gráfico, puede personalizar el aspecto del gráfico.
+. Cuando esté satisfecho, guarde el archivo con los cambios. No cambie el nombre ni la ubicación del archivo.
++
+image::../media/cluster_column_chart_2.png[gráfico de columnas de clúster 2]
+
+. En Unified Manager, seleccione *Informes* > *cargar Excel*.
++
+[NOTE]
+====
+Asegúrese de que se encuentra en la misma vista en la que descargó el archivo de Excel.
+
+====
+. Seleccione el archivo de Excel que ha modificado.
+. Haga clic en *Abrir*.
+. Haga clic en *Enviar*.
++
+Aparece una Marca de verificación junto al elemento de menú *Informes* > *cargar Excel*.
+
++
+image::../media/upload_excel.png[cargar excel]
+
+. Haga clic en *Informes programados*.
+. Haga clic en *Agregar programación* para agregar una nueva fila a la página programas de informes de modo que pueda definir las características de programación para el nuevo informe.
++
+[NOTE]
+====
+Seleccione el formato *XLSX* para el informe.
+
+====
+. Introduzca un nombre para el programa de informes y complete los otros campos de informe y, a continuación, haga clic en la Marca de verificación (image:../media/blue_check.gif[""]) al final de la fila.
++
+El informe se envía inmediatamente como prueba. Después de esto, el informe genera y se envía por correo electrónico a los destinatarios enumerados utilizando la frecuencia especificada.
+
+
+
+Basándose en los resultados mostrados en el informe, quizás desee investigar cómo utilizar de mejor forma la capacidad disponible en toda la red.

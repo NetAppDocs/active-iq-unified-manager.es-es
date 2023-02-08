@@ -1,0 +1,137 @@
+---
+permalink: api-automation/concept_events_api.html 
+sidebar: sidebar 
+keywords: view, events, system, details 
+summary: La API de eventos permite recuperar los eventos que se generan para los clústeres supervisados en el centro de datos. 
+---
+= Gestionar eventos y alertas mediante API
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+La `events`, `alerts`, y. `scripts` API en la `management-server` La categoría le permite gestionar los eventos, las alertas y los scripts asociados con las alertas de su entorno Active IQ Unified Manager.
+
+
+
+== Ver y modificar eventos
+
+Unified Manager recibe los eventos que se generan en ONTAP en los clústeres supervisados y gestionados por Unified Manager. Mediante estas API, puede ver los eventos generados para los clústeres y resolverlos y actualizarlos.
+
+Ejecutando el `GET` método para `/management-server/events` API, puede consultar los eventos en su centro de datos, incluidos los datos históricos. Utilice los filtros incorporados, como el nombre, el nivel de impacto, el área de impacto, la gravedad, estado, nombre de recurso y tipo de recurso para ver eventos específicos. El tipo de recurso y los parámetros de área devuelven información sobre el objeto de almacenamiento en el que se produce el evento. El área de impacto devuelve la información sobre el problema sobre el que se genera el evento, como disponibilidad, capacidad, configuración, seguridad, protección y rendimiento.
+
+Al ejecutar la operación DE REVISIÓN para esta API, puede habilitar el flujo de trabajo de resolución para el evento. Puede asignar un evento a usted mismo u otro usuario y confirmar la recepción del evento. Al realizar los pasos en los recursos para resolver el problema que activó el evento, puede usar esta API para marcar el evento como solucionado.
+
+Para obtener más información acerca de los eventos, consulte link:../events/concept_manage_events.html["Gestión de eventos"].
+
+[cols="4*"]
+|===
+| Categoría | Verbo HTTP | Ruta | Descripción 
+
+
+ a| 
+servidor de gestión
+ a| 
+OBTENGA
+ a| 
+`/management-server/events`
+`/management-server/events/{key}`
+ a| 
+Cuando ejecuta el método Get ALL, el cuerpo de respuesta consta de los detalles del evento de todos los eventos del centro de datos. Cuando se recuperan los detalles del evento por una clave específica, se pueden ver los detalles de un evento específico y se ejecuta el siguiente conjunto de operaciones en los recursos. El cuerpo de respuesta consta de los detalles de ese evento.
+
+
+
+ a| 
+servidor de gestión
+ a| 
+PARCHE
+ a| 
+`management-server/events/{key}`
+ a| 
+Ejecute esta API para asignar un evento o cambiar el estado a reconocido o resuelto. También puede utilizar este método para asignar el evento a usted mismo u otro usuario. Es una operación síncrona.
+
+|===
+
+
+== Gestión de alertas
+
+Los eventos se generan de forma automática y continua. Unified Manager genera una alerta solo cuando un evento cumple ciertos criterios de filtro. Puede seleccionar los eventos para los que se deben generar alertas. Mediante el uso de `/management-server/alerts` API, es posible configurar alertas para que se envíen notificaciones automáticamente cuando se produzcan eventos o eventos específicos de ciertos tipos de gravedad.
+
+Para obtener más información sobre las alertas, consulte link:../events/concept_manage_alerts.html["Gestión de alertas"].
+
+[cols="4*"]
+|===
+| Categoría | Verbo HTTP | Ruta | Descripción 
+
+
+ a| 
+servidor de gestión
+ a| 
+OBTENGA
+ a| 
+`/management-server/alerts`
+`/management-server/alerts/{key}`
+ a| 
+Consulte todas las alertas existentes en su entorno o una alerta específica con la clave de alerta. Puede ver la información sobre las alertas que genera su entorno, como la descripción de alertas, la acción, el ID de correo electrónico al que se envía la notificación, el evento y la gravedad.
+
+
+
+ a| 
+servidor de gestión
+ a| 
+PUBLICAR
+ a| 
+`/management-server/alerts`
+ a| 
+Este método le permite agregar alertas para eventos específicos. Debe añadir el nombre de alerta, el recurso físico o lógico o el evento donde corresponda la alerta, si está habilitada y si emite capturas SNMP. Puede añadir detalles adicionales sobre los que desea generar la alerta, como la acción, el ID de correo electrónico de notificación, los detalles del script, por si se añade un script de alerta, etc.
+
+
+
+ a| 
+servidor de gestión
+ a| 
+APLICAR PARCHES y ELIMINARLOS
+ a| 
+`management-server/events/{key}`
+ a| 
+Puede usar estos métodos para modificar y eliminar alertas específicas. Puede modificar distintos atributos, como la descripción, el nombre y la habilitación y deshabilitación de la alerta. Es posible eliminar una alerta cuando ya no se necesita.
+
+|===
+
+NOTE: Mientras se selecciona un recurso para añadir una alerta, tenga en cuenta que al seleccionar un clúster como el recurso no se seleccionan automáticamente los objetos de almacenamiento en ese clúster. Por ejemplo, si crea una alerta para todos los eventos críticos de todos los clústeres, solo recibirá alertas para los eventos críticos del clúster. No recibirá alertas sobre eventos críticos en nodos, agregados, etc.
+
+
+
+== Administrar scripts
+
+Mediante el uso de `/management-server/scripts` API, también puede asociar una alerta a un script que se ejecuta cuando se activa una alerta. Es posible usar scripts para modificar o actualizar automáticamente varios objetos de almacenamiento en Unified Manager. El script está asociado a una alerta. Cuando un evento activa una alerta, se ejecuta el script. Puede cargar scripts personalizados y probar su ejecución cuando se genera una alerta. Es posible asociar una alerta a la secuencia de comandos para que se ejecute el script cuando se genera una alerta para un evento en Unified Manager.
+
+Para obtener más información acerca de los scripts, consulte link:../events/concept_manage_scripts.html["Administrar scripts"].
+
+[cols="4*"]
+|===
+| Categoría | Verbo HTTP | Ruta | Descripción 
+
+
+ a| 
+servidor de gestión
+ a| 
+OBTENGA
+ a| 
+`/management-server/scripts`
+ a| 
+Utilice esta API para consultar todas las secuencias de comandos existentes en su entorno. Utilice el filtro estándar y las operaciones Order by para ver sólo secuencias de comandos específicas.
+
+
+
+ a| 
+servidor de gestión
+ a| 
+PUBLICAR
+ a| 
+`/management-server/scripts`
+ a| 
+Utilice esta API para agregar una descripción del script y cargar el archivo de script asociado a una alerta.
+
+|===

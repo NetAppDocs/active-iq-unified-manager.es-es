@@ -1,0 +1,51 @@
+---
+permalink: storage-mgmt/reference_cluster_connectivity_status_definitions.html 
+sidebar: sidebar 
+keywords: cluster, connectivity, status, definitions 
+summary: 'La conectividad entre los clústeres de una configuración MetroCluster puede ser uno de los siguientes Estados: Optimal, impacted o Down. Comprender los Estados de conectividad permite gestionar las configuraciones de MetroCluster de forma efectiva.' 
+---
+= Definiciones de estado de conectividad de clúster para la configuración de MetroCluster over FC
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+La conectividad entre los clústeres de una configuración MetroCluster over FC puede ser uno de los siguientes Estados: Optimal, impacted o Down. Comprender los Estados de conectividad permite gestionar las configuraciones de MetroCluster de forma efectiva.
+
+|===
+| Estado de conectividad | Descripción | Icono mostrado 
+
+
+ a| 
+Óptimo
+ a| 
+La conectividad entre los clústeres de la configuración de MetroCluster es normal.
+ a| 
+image:../media/metrocluster_connectivity_optimal.gif[""]
+
+
+
+ a| 
+Afectados
+ a| 
+Uno o varios errores comprometen el estado de disponibilidad de conmutación al nodo de respaldo; sin embargo, ambos clústeres de la configuración de MetroCluster siguen en funcionamiento. Por ejemplo, cuando el enlace ISL está inactivo, cuando el enlace IP del interconexión de clústeres está inactivo o cuando no se puede acceder al clúster asociado.
+ a| 
+image:../media/metrocluster_connectivity_impacted.gif[""]
+
+
+
+ a| 
+Abajo
+ a| 
+La conectividad entre los clústeres de la configuración de MetroCluster está inactiva debido a que uno o ambos clústeres están inactivos o a que los clústeres se encuentran en modo de conmutación por error. Por ejemplo, cuando el clúster de partners está inactivo a causa de un desastre o cuando hay una conmutación por error planificada para fines de prueba.
+ a| 
+Conmutación de sitios con errores:
+
+image::../media/metrocluster_connectivity_down.gif[conectividad MetroCluster inactiva]
+
+Conmutación de sitios correcta:
+
+image::../media/metrocluster_connectivity_failover.gif[recuperación tras fallos en la conectividad MetroCluster]
+
+|===

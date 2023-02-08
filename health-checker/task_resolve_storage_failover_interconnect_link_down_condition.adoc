@@ -1,0 +1,56 @@
+---
+permalink: health-checker/task_resolve_storage_failover_interconnect_link_down_condition.html 
+sidebar: sidebar 
+keywords: scan, resolve, storage, failover, interconnect link, conditions 
+summary: Este flujo de trabajo proporciona un ejemplo de cómo puede analizar, evaluar y resolver las condiciones de los enlaces de interconexión de conmutación por error del almacenamiento desactivado. En esta situación, es un administrador que utiliza Unified Manager para analizar los riesgos de la conmutación por error del almacenamiento antes de iniciar una actualización de la versión de ONTAP en los nodos. 
+---
+= Buscar y solucionar las condiciones de enlace inactivo de interconexión de conmutación por error de almacenamiento
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Este flujo de trabajo proporciona un ejemplo de cómo puede analizar, evaluar y resolver las condiciones de los enlaces de interconexión de conmutación por error del almacenamiento desactivado. En esta situación, es un administrador que utiliza Unified Manager para analizar los riesgos de la conmutación por error del almacenamiento antes de iniciar una actualización de la versión de ONTAP en los nodos.
+
+*Lo que necesitará*
+
+Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
+
+Si se producen errores en las interconexiones de conmutación por error del almacenamiento entre nodos de parejas de alta disponibilidad durante un intento de actualización no disruptivo, la actualización falla. Por lo tanto, una práctica común es que el administrador supervise y confirme la fiabilidad de la conmutación por error del almacenamiento en los nodos del clúster que desea actualizar antes del inicio de una actualización.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *Gestión de eventos*.
+. En la página de inventario *Event Management*, seleccione *Eventos de disponibilidad activa*.
+. En la parte superior de la columna *Event Management* Inventory page *Name*, haga clic en image:../media/filtericon_um60.png["Icono para filtro de columna"] e introduzca `*failover` en el cuadro de texto para limitar el evento para que se muestre a eventos relacionados con la conmutación por error de almacenamiento.
++
+Se muestran todos los eventos anteriores relacionados con las condiciones de conmutación por error del almacenamiento.
+
++
+En este escenario, Unified Manager muestra el evento «interconexión por conmutación por error del almacenamiento uno o más enlaces abajo» en su sección incidentes de disponibilidad.
+
+. Si se muestran uno o más eventos relacionados con la conmutación por error del almacenamiento en la página de inventario *Event Management*, realice los siguientes pasos:
++
+.. Haga clic en el enlace del título del evento para mostrar detalles de dicho evento.
++
+En este ejemplo, haga clic en el título del evento «interconexión de conmutación por error de almacenamiento uno o más enlaces hacia abajo».
+
++
+Se muestra la página de detalles Event para ese evento.
+
+.. En la página Event Details, puede realizar una o varias de las siguientes tareas:
++
+*** Revise el mensaje de error en el campo causa y evalúe el problema.
+*** Asigne el evento a un administrador.
+*** Reconozca el evento.
+
+
+
+
+
+
+*Información relacionada*
+
+link:../events/reference_event_details_page.html["Página de detalles Event"]
+
+link:../config/reference_unified_manager_roles_and_capabilities.html["Roles y funcionalidades de usuario de Unified Manager"]

@@ -1,0 +1,67 @@
+---
+permalink: performance-checker/task_respond_to_cluster_imbalance_performance_events.html 
+sidebar: sidebar 
+keywords: cluster, imbalance, performance, events 
+summary: Unified Manager genera eventos de advertencia de desequilibrio en el clúster cuando un nodo de un clúster está funcionando con una carga mucho más alta que otros nodos y, por lo tanto, afecta potencialmente a las latencias de las cargas de trabajo. Estos eventos definidos por el sistema proporcionan la oportunidad para corregir posibles problemas de rendimiento antes de que muchas cargas de trabajo se vean afectadas por la latencia. 
+---
+= Responder a los eventos de rendimiento de desequilibrio de clústeres
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager genera eventos de advertencia de desequilibrio en el clúster cuando un nodo de un clúster está funcionando con una carga mucho más alta que otros nodos y, por lo tanto, afecta potencialmente a las latencias de las cargas de trabajo. Estos eventos definidos por el sistema proporcionan la oportunidad para corregir posibles problemas de rendimiento antes de que muchas cargas de trabajo se vean afectadas por la latencia.
+
+*Lo que necesitará*
+
+Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
+
+Unified Manager genera eventos de advertencia para incumplimiento de políticas de umbral de desequilibrio de clúster mediante la comparación del valor de capacidad de rendimiento utilizada para todos los nodos del clúster para ver si hay una diferencia de carga del 30 % entre cualquier nodo.
+
+Estos pasos le ayudan a identificar los siguientes recursos para poder mover cargas de trabajo de alto rendimiento a un nodo más bajo utilizado:
+
+* Los nodos del mismo clúster que se utilizan menos
+* Los agregados del nuevo nodo que menos se utilizan
+* Los volúmenes de mayor rendimiento en el nodo actual
+
+
+.Pasos
+. Abra la página de detalles *Event* para ver información sobre el evento.
+. Revise la *Descripción*, que describe la brecha de umbral que provocó el evento.
++
+Por ejemplo, el mensaje "'la capacidad de rendimiento utilizada contador indica una diferencia de carga del 62 % entre los nodos del clúster Dallas-1-8 y ha activado un evento de ADVERTENCIA basado en el umbral del sistema del 30 %'" indica que la capacidad de rendimiento de uno de los nodos está sobreutilizada y afecta al rendimiento del nodo.
+
+. Revise el texto de las *acciones sugeridas* para mover un volumen de alto rendimiento del nodo con el valor de alta capacidad de rendimiento usado a un nodo con el valor de menor capacidad de rendimiento usado.
+. Identifique los nodos con la capacidad de rendimiento más alta y mínima utilizada:
++
+.. En la sección *Información de evento*, haga clic en el nombre del clúster de origen.
+.. En la página *Cluster / Performance Summary*, haga clic en *Nodes* en el área *Managed Objects*.
+.. En la página de inventario *Nodes*, ordene los nodos por la columna *capacidad de rendimiento utilizada*.
+.. Identifique los nodos con la capacidad de rendimiento más alta y mínima utilizada, y escriba esos nombres.
+
+
+. Identifique el volumen que utiliza el mayor número de IOPS del nodo que tiene el valor de capacidad de rendimiento más alto utilizado:
++
+.. Haga clic en el nodo con el valor de capacidad de rendimiento más alto que se utiliza.
+.. En la página *Node / Performance Explorer*, seleccione *agregaciones en este nodo* en el menú *Ver y Comparar*.
+.. Haga clic en el agregado con el valor de capacidad de rendimiento más alto utilizada.
+.. En la página *aggregate / Performance Explorer*, seleccione *Volumes en este agregado* en el menú *Ver y Comparar*.
+.. Ordene los volúmenes según la columna *IOPS*, escriba el nombre del volumen con el mayor número de IOPS y el nombre del agregado en el que reside el volumen.
+
+
+. Identifique el agregado con el uso más bajo en el nodo que tiene el valor de capacidad de rendimiento más bajo utilizado:
++
+.. Haga clic en *almacenamiento* > *agregados* para abrir la página de inventario *agregados*.
+.. Seleccione la vista *rendimiento: Todos los agregados*.
+.. Haga clic en el botón *filtro* y agregue un filtro donde "'nodo'" sea igual al nombre del nodo con la capacidad de rendimiento más baja utilizada que escribió en el paso 4.
+.. Escriba el nombre del agregado que tenga el valor de capacidad de rendimiento más bajo utilizada.
+
+
+. Mueva el volumen del nodo sobrecargado al agregado que ha identificado como que tiene un uso bajo en el nodo nuevo.
++
+Puede llevar a cabo la operación de transferencia con System Manager de ONTAP, OnCommand Workflow Automation, comandos de ONTAP o una combinación de estas herramientas.
+
+
+
+Después de unos días, compruebe si está recibiendo el mismo evento de desequilibrio de clúster de este clúster.

@@ -1,0 +1,22 @@
+---
+permalink: config/concept_inactivity_timeout.html 
+sidebar: sidebar 
+keywords: inactivity timeout, feature settings 
+summary: Puede especificar el valor de tiempo de espera de inactividad para Active IQ Unified Manager. Tras una inactividad de la hora especificada, la aplicación se cierra automáticamente. Esta opción está habilitada de forma predeterminada. 
+---
+= Especificación del tiempo de espera de inactividad
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede especificar el valor de tiempo de espera de inactividad para Active IQ Unified Manager. Tras una inactividad de la hora especificada, la aplicación se cierra automáticamente. Esta opción está habilitada de forma predeterminada.
+
+Puede desactivar esta función o modificar el tiempo desde *General* > *Configuración de función* > *tiempo de espera de inactividad*. Una vez que active esta función, deberá especificar el límite de tiempo de inactividad (en minutos) en el campo *LOGOUT AFTER*, después de lo cual el sistema cerrará automáticamente la sesión. El valor predeterminado es 4320 minutos (72 horas).
+
+[NOTE]
+====
+Esta opción no está disponible si tiene habilitada la autenticación del lenguaje de marcado de aserción de seguridad (SAML).
+
+====

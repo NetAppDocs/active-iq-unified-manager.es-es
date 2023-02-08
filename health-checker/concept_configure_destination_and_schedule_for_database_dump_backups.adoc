@@ -1,0 +1,50 @@
+---
+permalink: health-checker/concept_configure_destination_and_schedule_for_database_dump_backups.html 
+sidebar: sidebar 
+keywords: configure, destination, schedule, database dump, backups, snapshot copy, copies 
+summary: Es posible configurar los ajustes de backup de volcado de la base de datos de Unified Manager para configurar la ruta de backup, el número de retención y la programación de backups. Se pueden habilitar backups programados diarios o semanales. De forma predeterminada, las copias de seguridad programadas están deshabilitadas, pero debe configurar una programación de copia de seguridad. 
+---
+= Configurar el destino y la programación para backups de volcado de base de datos
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Es posible configurar los ajustes de backup de volcado de la base de datos de Unified Manager para configurar la ruta de backup, el número de retención y la programación de backups. Se pueden habilitar backups programados diarios o semanales. De forma predeterminada, las copias de seguridad programadas están deshabilitadas, pero debe configurar una programación de copia de seguridad.
+
+*Lo que necesitará*
+
+* Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
+* Debe tener un mínimo de 150 GB de espacio disponible en la ubicación que defina como ruta de backup.
++
+Se recomienda que utilice una ubicación remota externa al sistema host de Unified Manager.
+
+* Cuando Unified Manager se instala en un sistema Linux y se utiliza el backup de MySQL, asegúrese de que se han establecido los siguientes permisos y propiedades en el directorio de backup.
++
+Permisos: 0750, propiedad: jboss:mantenimiento
+
+* Cuando Unified Manager se instala en un sistema Windows y utiliza un backup de MySQL, asegúrese de que solo el administrador tenga acceso al directorio de backup.
+
+
+Se requiere más tiempo la primera vez que se realiza un backup que para backups posteriores, ya que el primer backup es un backup completo. Un backup completo puede tener más de 1 GB y puede tardar entre tres y cuatro horas. Los backups posteriores son incrementales y requieren menos tiempo.
+
+[NOTE]
+====
+* Si encuentra que el número de archivos de copia de seguridad incremental es demasiado grande para el espacio que ha asignado para las copias de seguridad, puede tomar una copia de seguridad completa periódicamente para reemplazar la copia de seguridad antigua y sus archivos incrementales. Como otra opción, puede tomar un backup utilizando las copias Snapshot.
+* El backup realizado durante los 15 días iniciales de un nuevo clúster añadido puede no ser lo suficientemente preciso para obtener los datos de rendimiento históricos.
+
+
+====
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *General* > *copia de seguridad de la base de datos*.
+. En la página *copia de seguridad de la base de datos*, haga clic en *Configuración de copia de seguridad*.
+. Configure los valores adecuados para una ruta de backup, un recuento de retención y una programación.
++
+El valor predeterminado para el número de retención es 10; se puede usar 0 para crear copias de seguridad ilimitadas.
+
+. Seleccione el botón *Diario programado* o *Semanal programado* y, a continuación, especifique los detalles del programa.
+. Haga clic en *aplicar*.
+
+
+Los archivos de backup de volcado de bases de datos se crean según la programación. Puede ver los archivos de copia de seguridad disponibles en la página copia de seguridad de la base de datos.

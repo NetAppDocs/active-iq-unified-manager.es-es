@@ -1,0 +1,52 @@
+---
+permalink: reporting/reference_reporting_limitations.html 
+sidebar: sidebar 
+keywords: reporting, limitations 
+summary: Existen algunas limitaciones con la nueva funcionalidad de generación de informes de Active IQ Unified Manager que debe tener en cuenta. 
+---
+= Limitaciones en la generación de informes
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Existen algunas limitaciones con la nueva funcionalidad de generación de informes de Active IQ Unified Manager que debe tener en cuenta.
+
+
+
+== Informes existentes de versiones anteriores de Unified Manager
+
+Solo es posible editar la programación y los destinatarios de los informes existentes que se hayan creado e importado (como archivos .rptdesign) en Unified Manager 9.5 y versiones anteriores. Si ha personalizado alguno de los informes estándar proporcionados en Unified Manager 9.5 o una versión anterior, estos informes personalizados no se importan en la nueva herramienta de generación de informes.
+
+Si necesita editar informes existentes importados de archivos .rptdesign, realice una de las acciones siguientes y elimine el informe importado:
+
+* crear una nueva vista y programar un informe desde esa vista (preferido)
+* Pase el ratón sobre el informe, copie el SQL y extraiga los datos con una herramienta externa
+
+
+Las vistas predeterminadas se pueden generar como informes sin necesidad de ninguna personalización. Puede usar la nueva solución de generación de informes para volver a crear los informes personalizados.
+
+
+
+== Relación de programación e informes
+
+Puede crear muchas programaciones diferentes con cualquier combinación de destinatarios para cada informe guardado. Sin embargo, no puede reutilizar la programación para varios informes.
+
+
+
+== Protección de informes
+
+Cualquier usuario con los permisos adecuados puede editar o eliminar informes. No hay forma de impedir que otros usuarios eliminen o realicen cambios en las vistas o horarios guardados.
+
+
+
+== Informes de eventos
+
+Aunque puede personalizar la vista de eventos y descargar el informe resultante en formato CSV, no puede programar informes de eventos recurrentes para generación y distribución.
+
+
+
+== Archivos adjuntos de informes
+
+Los informes no se pueden enviar en el cuerpo de un correo electrónico. En su lugar, los informes sólo se envían como archivos PDF, Excel o CSV.

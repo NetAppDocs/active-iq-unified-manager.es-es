@@ -1,0 +1,91 @@
+---
+permalink: storage-mgmt/concept_mcc_svmdr_vmawareness.html 
+sidebar: sidebar 
+keywords: view, virtual, infrastructure, disaster, recovery, setup, datastores, metrocluster configuration 
+summary: 'Es posible ver las métricas de configuración y rendimiento de los almacenes de datos alojados en una configuración de MetroCluster o la configuración de la máquina virtual de almacenamiento (VM de almacenamiento) para la recuperación ante desastres (SVM DR).' 
+---
+= Visualización de la infraestructura virtual en una configuración de recuperación ante desastres
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Es posible ver las métricas de configuración y rendimiento de los almacenes de datos alojados en una configuración de MetroCluster o la configuración de la máquina virtual de almacenamiento (VM de almacenamiento) para la recuperación ante desastres (SVM DR).
+
+En Unified Manager, puede ver los volúmenes NAS o LUN en una configuración de MetroCluster conectada como almacenes de datos en vCenter Server. Los almacenes de datos alojados en una configuración de MetroCluster se representan en la misma vista topológica que para un almacén de datos en un entorno estándar.
+
+También puede ver los volúmenes NAS o LUN en una configuración de recuperación ante desastres de máquinas virtuales de almacenamiento que se asignan a los almacenes de datos en vCenter Server.
+
+
+
+== Ver almacenes de datos en la configuración de MetroCluster
+
+Tenga en cuenta los siguientes requisitos previos antes de ver almacenes de datos en una configuración de MetroCluster:
+
+* En caso de conmutación de sitios y conmutación de estado, será necesario completar el descubrimiento de los clústeres principal y secundario del par de alta disponibilidad y los servidores vCenter.
+* Los clústeres primario y secundario del par de alta disponibilidad y las instancias de vCenter Server deben gestionarse mediante Unified Manager.
+* La configuración necesaria debe completarse en ONTAP y vCenter Server. Para obtener información, consulte la documentación de ONTAP y vCenter.
++
+https://docs.netapp.com/ontap-9/index.jsp["Centro de documentación de ONTAP 9"]
+
+
+
+Siga estos pasos para ver los almacenes de datos:
+
+. En la página *VMWARE* > *Virtual Machines*, haga clic en la máquina virtual que aloja el almacén de datos. Haga clic en el enlace *Workload Analyzer* o datastore. En el escenario estándar cuando el sitio principal que aloja el volumen o LUN funciona como se esperaba, puede ver los detalles del clúster de vServer del sitio principal.
+. En caso de desastre y una conmutación consecutiva al sitio secundario, el enlace del almacén de datos señala a las métricas de rendimiento del volumen o LUN del clúster secundario. Esto se refleja una vez finalizado el siguiente ciclo de clústeres y la detección (adquisición) de vServer.
+. Después de una conmutación de estado exitosa, el enlace del almacén de datos vuelve a reflejar las métricas de rendimiento del volumen o el LUN en el clúster principal. Esto se refleja una vez completado el siguiente ciclo de clústeres y la detección de vServer.
+
+
+
+
+== Ver almacenes de datos en la configuración de recuperación ante desastres de la máquina virtual de almacenamiento
+
+Tenga en cuenta los siguientes requisitos previos antes de ver almacenes de datos en una configuración de recuperación ante desastres de una máquina virtual de almacenamiento:
+
+* En caso de conmutación de sitios y conmutación de estado, será necesario completar el descubrimiento de los clústeres principal y secundario del par de alta disponibilidad y los servidores vCenter.
+* Unified Manager debe gestionar tanto el clúster de origen como el de destino y las máquinas virtuales de almacenamiento.
+* La configuración necesaria debe completarse en ONTAP y vCenter Server.
++
+** En el caso de almacenes de datos NAS (NFS y VMFS), en caso de desastre, los pasos incluyen la recuperación de la máquina virtual de almacenamiento secundario, la verificación de las LIF y las rutas de datos, el establecimiento de conexiones perdidas en vCenter Server y el inicio de las máquinas virtuales.
++
+Para una conmutación de regreso al sitio principal, los datos entre los volúmenes deben sincronizarse antes de que el sitio principal comience a servir los datos.
+
+** Para los almacenes de datos SAN (iSCSI y FC para VMFS), vCenter Server formatea el LUN montado en formato VMFS. En caso de desastre, los pasos incluyen poner en marcha el equipo virtual de almacenamiento secundario, verificar las LIF y las rutas de los datos. Si las IP de destino iSCSI son diferentes de las LIF principales, deben añadirse manualmente. Los nuevos LUN deben estar disponibles como dispositivos bajo el adaptador iSCSI del adaptador de almacenamiento del host. A partir de entonces, se deben crear nuevos almacenes de datos VMFS con las nuevas LUN y los equipos virtuales antiguos se registraron con nuevos nombres. Las máquinas virtuales deben estar en funcionamiento.
++
+En caso de recuperación, es necesario sincronizar los datos entre los volúmenes. Se deben volver a crear nuevos almacenes de datos VMFS con las LUN y las máquinas virtuales antiguas registradas con nombres nuevos.
+
++
+Para obtener información sobre la configuración, consulte la documentación de ONTAP y vCenter Server.
+
++
+https://docs.netapp.com/ontap-9/index.jsp["Centro de documentación de ONTAP 9"]
+
+
+
+
+
+Siga estos pasos para ver los almacenes de datos:
+
+. En la página *VMWARE* > *Virtual Machines*, haga clic en el inventario de VM que aloja el almacén de datos. Haga clic en el enlace del objeto de almacén de datos. En el supuesto estándar, puede ver los datos de rendimiento de los volúmenes y las LUN del equipo virtual de almacenamiento principal.
+. En caso de desastre y una conmutación consecutiva al equipo virtual de almacenamiento secundario, el enlace del almacén de datos señala a las métricas de rendimiento del volumen o LUN del equipo virtual de almacenamiento secundario. Esto se refleja una vez finalizado el siguiente ciclo de clústeres y la detección (adquisición) de vServer.
+. Después de una conmutación de estado exitosa, el enlace del almacén de datos vuelve a reflejar las métricas de rendimiento del volumen o el LUN en el equipo virtual de almacenamiento principal. Esto se refleja una vez completado el siguiente ciclo de clústeres y la detección de vServer.
+
+
+
+
+== Escenarios no compatibles
+
+* Para una configuración MetroCluster, tenga en cuenta las siguientes limitaciones:
++
+** Clústeres de solo en `NORMAL` y.. `SWITCHOVER` los estados son tomados. Otros estados, como `PARTIAL_SWITCHOVER, PARTIAL_SWITCHBACK`, y. `NOT_REACHABLE` no son compatibles.
+** A menos que la conmutación automática (ASO) esté habilitada, si el clúster primario cae, no se puede detectar el clúster secundario y la topología sigue apuntar al volumen o LUN del clúster principal.
+
+
+* Para una configuración de recuperación ante desastres de un equipo virtual de almacenamiento, tenga en cuenta la siguiente limitación:
++
+** No se admite una configuración con el administrador de recuperación de sitios (SRM) o el adaptador de replicación de almacenamiento (SRA) habilitado para un entorno de almacenamiento DE SAN.
+
+
+

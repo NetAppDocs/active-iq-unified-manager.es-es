@@ -1,0 +1,30 @@
+---
+permalink: health-checker/task_delete_annotations.html 
+sidebar: sidebar 
+keywords: delete, annotations 
+summary: Puede eliminar anotaciones personalizadas y sus valores cuando ya no sean necesarias. 
+---
+= Eliminar anotaciones
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede eliminar anotaciones personalizadas y sus valores cuando ya no sean necesarias.
+
+*Lo que necesitará*
+
+* Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+* Los valores de anotación no deben utilizarse en otras anotaciones ni en otras reglas de grupo.
+
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *Administración de almacenamiento* > *Anotaciones*.
+. En la ficha *Anotaciones*, seleccione la anotación que desea eliminar.
++
+Se muestran los detalles de la anotación seleccionada.
+
+. Haga clic en *acciones* > *Eliminar* para eliminar la anotación seleccionada y su valor.
+. En el cuadro de diálogo de advertencia, haga clic en *Sí* para confirmar la eliminación.
+

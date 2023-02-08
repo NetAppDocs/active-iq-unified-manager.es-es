@@ -1,0 +1,42 @@
+---
+permalink: performance-checker/concept_understand_performance_panels_on_dashboard.html 
+sidebar: sidebar 
+keywords: understand, performance, panels, dashboard 
+summary: La consola de Unified Manager proporciona algunos paneles que muestran el estado de rendimiento de alto nivel para todos los clústeres que se supervisan en el entorno. Puede elegir ver el estado de todos los clústeres o de un clúster individual. 
+---
+= Descripción de los paneles de rendimiento de la consola
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+La consola de Unified Manager proporciona algunos paneles que muestran el estado de rendimiento de alto nivel para todos los clústeres que se supervisan en el entorno. Puede elegir ver el estado de todos los clústeres o de un clúster individual.
+
+Además de mostrar la información de rendimiento, la mayoría de los paneles también muestran el número de eventos activos de esa categoría y el número de eventos nuevos añadidos durante las 24 horas anteriores. Esta información le ayuda a decidir qué clústeres se podrían necesitar para analizar más a fin de resolver los eventos notificados. Al hacer clic en los eventos, se muestran los primeros eventos y se proporciona un enlace a la página del inventario Event Management filtrada para mostrar los eventos de esa categoría.
+
+Los siguientes paneles proporcionan el estado del rendimiento.
+
+* *Panel de capacidad de rendimiento*
++
+Cuando se visualizan todos los clústeres, este panel muestra el valor de capacidad de rendimiento de cada clúster (promediado en la 1 hora anterior) y el número de días hasta que la capacidad de rendimiento alcance el límite superior (según la tasa de crecimiento diaria). Al hacer clic en el gráfico de barras, irá la página del inventario de nodos de ese clúster. Tenga en cuenta que la página del inventario de nodos muestra la capacidad de rendimiento media durante las 72 horas anteriores, de modo que es posible que este valor no coincida con el valor del panel.
+
++
+Al ver un único clúster, este panel muestra la capacidad de rendimiento del clúster, las IOPS totales y los valores de rendimiento totales.
+
+* *Panel de IOPS de carga de trabajo*
++
+Cuando se habilita la gestión de cargas de trabajo activas y, al ver un solo clúster, este panel muestra el número total de cargas de trabajo que se están ejecutando actualmente en un determinado rango de IOPS.
+
+* *Panel de rendimiento de carga de trabajo*
++
+Cuando la gestión activa de la carga de trabajo está habilitada, este panel muestra el número total de cargas de trabajo conformes y no conformes asignadas a cada nivel de servicio de rendimiento definido. Al hacer clic en un gráfico de barras se llevan a las cargas de trabajo asignadas a esa política en la página cargas de trabajo.
+
+* *Panel de visión general del uso*
++
+Cuando se ven todos los clústeres, es posible ver clústeres ordenados por mayor IOPS o rendimiento (MB/s).
+
++
+Al ver un único clúster, puede elegir ver cargas de trabajo en ese clúster ordenadas por IOPS o rendimiento (MB/s) más alto.
+
+

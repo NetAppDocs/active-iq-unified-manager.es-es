@@ -1,0 +1,62 @@
+---
+permalink: reporting/task_manage_report_schedules.html 
+sidebar: sidebar 
+keywords:  
+summary: Las programaciones de informes se pueden gestionar desde la página Report Schedules. Es posible ver, modificar o eliminar programaciones existentes. 
+---
+= Gestión de programas de informes
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Las programaciones de informes se pueden gestionar desde la página Report Schedules. Es posible ver, modificar o eliminar programaciones existentes.
+
+*Lo que necesitará*
+
+[NOTE]
+====
+No es posible programar nuevos informes desde la página Report Schedules. Sólo puede agregar informes programados desde las páginas de inventario de objetos.
+
+====
+* Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *Administración de almacenamiento* > *programas de informes*.
+. En la página Report Schedules:
++
+[cols="2*"]
+|===
+| Si desea... | Realice lo siguiente... 
+
+
+ a| 
+Ver una programación existente
+ a| 
+Desplácese por la lista de informes existentes con las barras de desplazamiento y los controles de página.
+
+
+
+ a| 
+Editar una programación existente
+ a| 
+.. Haga clic en el icono más image:../media/more_icon.gif[""] para la programación que desea usar.
+.. Haga clic en *Editar*.
+.. Realice los cambios necesarios.
+.. Haga clic en la Marca de verificación para guardar los cambios.
+
+
+
+
+ a| 
+Eliminar una programación existente
+ a| 
+.. Haga clic en el icono más image:../media/more_icon.gif[""] para la programación que desea usar.
+.. Haga clic en *Eliminar*.
+.. Confirme su decisión.
+
+
+|===
+

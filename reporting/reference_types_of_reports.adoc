@@ -1,0 +1,109 @@
+---
+permalink: reporting/reference_types_of_reports.html 
+sidebar: sidebar 
+keywords: types, reports 
+summary: Esta tabla proporciona una lista completa de las vistas y páginas de inventario que están disponibles como informes que se pueden personalizar, descargar y programar. 
+---
+= Tipos de informes
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Esta tabla proporciona una lista completa de las vistas y páginas de inventario que están disponibles como informes que se pueden personalizar, descargar y programar.
+
+
+
+== Informes de Active IQ Unified Manager
+
+[cols="2*"]
+|===
+| Tipo | Objeto de almacenamiento o red 
+
+
+ a| 
+Capacidad
+ a| 
+De clúster
+
+Agregados
+
+Volúmenes
+
+Qtrees
+
+
+
+ a| 
+Salud
+ a| 
+De clúster
+
+Nodos
+
+Agregados
+
+Máquinas virtuales de almacenamiento
+
+Volúmenes
+
+Recursos compartidos SMB/CIFS
+
+Recursos compartidos de NFS
+
+
+
+ a| 
+Rendimiento
+ a| 
+De clúster
+
+Nodos
+
+Agregados
+
+Máquinas virtuales de almacenamiento
+
+Volúmenes
+
+LUN
+
+Espacios de nombres de NVMe
+
+Interfaces de red (LIF)
+
+Puertos
+
+
+
+ a| 
+Calidad de servicio
+ a| 
+Grupos de políticas de calidad de servicio tradicionales
+
+Grupos de políticas de calidad de servicio adaptativos
+
+Grupos de políticas de nivel de servicio de rendimiento
+
+
+
+ a| 
+Relaciones de protección de volúmenes (disponibles en la página volúmenes)
+ a| 
+Todas las relaciones
+
+Estado de transferencia de último 1 mes
+
+Tarifa de transferencia de 1 mes
+
+
+
+ a| 
+Seguridad
+ a| 
+Máquinas virtuales de almacenamiento
+
+De clúster
+
+|===

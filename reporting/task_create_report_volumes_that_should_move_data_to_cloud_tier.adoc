@@ -1,0 +1,49 @@
+---
+permalink: reporting/task_create_report_volumes_that_should_move_data_to_cloud_tier.html 
+sidebar: sidebar 
+keywords: create, report, identify, volumes, FabricPool, aggregates, data, cloud tier 
+summary: 'Puede crear un informe que contenga la lista de volúmenes que residen actualmente en agregados de FabricPool, que tienen una recomendación de nivel cloud y que tienen una gran cantidad de datos inactivos. Este informe puede ayudarle a decidir si debe cambiar la política de organización en niveles de ciertos volúmenes a “auto” o “all” para descargar más datos inactivos (inactivos) al nivel de cloud.' 
+---
+= Creación de un informe para identificar volúmenes en agregados de FabricPool que deben mover datos al nivel de cloud
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede crear un informe que contenga la lista de volúmenes que residen actualmente en agregados de FabricPool, que tienen una recomendación de nivel cloud y que tienen una gran cantidad de datos inactivos. Este informe puede ayudarle a decidir si debería cambiar la política de organización en niveles de determinados volúmenes a «auto» o «all» para descargar más datos inactivos (inactivos) al nivel cloud.
+
+*Lo que necesitará*
+
+* Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+* Debe haber configurado agregados de FabricPool y tener volúmenes en esos agregados.
+
+
+Siga los pasos que se indican a continuación para crear una vista personalizada que muestre las columnas necesarias en el orden correcto y, a continuación, programe un informe que se genere para esa vista.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *almacenamiento* > *volúmenes*.
+. En el menú Ver, seleccione *rendimiento* > *todos los volúmenes*.
+. En el selector de columnas, asegúrese de que la columna "Tipo disco" aparece en la vista.
++
+Agregue o elimine otras columnas para crear una vista que sea importante para el informe.
+
+. Arrastre y suelte la columna "Tipo de disco" situada cerca de la columna "Recomendación de nube".
+. Haga clic en el icono de filtro, agregue los tres filtros siguientes y, a continuación, haga clic en *aplicar filtro*:
++
+** El tipo de disco contiene FabricPool
+** Las recomendaciones de cloud contienen nivel
+** Datos fríos superiores a 10 GBimage:../media/filter_cold_data.gif[""]
+
+
+. Haga clic en la parte superior de la columna datos fríos para que los volúmenes con más datos fríos aparezcan en la parte superior de la vista.
+. Guarde la vista con un nombre para reflejar lo que muestra la vista, por ejemplo «'Política de cambio de Vols».image:../media/report_vol_cold_data.gif[""]
+. Haga clic en el botón *Informes programados* de la página de inventario.
+. Haga clic en *Agregar programación* para agregar una nueva fila a la página programas de informes de modo que pueda definir las características de programación para el nuevo informe.
+. Introduzca un nombre para el programa de informes y complete los otros campos de informe y, a continuación, haga clic en la Marca de verificación (image:../media/blue_check.gif[""]) al final de la fila.
++
+El informe se envía inmediatamente como prueba. Después de esto, el informe genera y se envía por correo electrónico a los destinatarios enumerados utilizando la frecuencia especificada.
+
+
+
+En función de los resultados mostrados en el informe, puede que desee utilizar System Manager o la interfaz de línea de comandos de ONTAP para cambiar la política de organización en niveles a «'auto» o «'all'» en determinados volúmenes para descargar más datos inactivos al nivel cloud.

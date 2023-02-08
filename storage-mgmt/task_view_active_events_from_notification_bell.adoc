@@ -1,0 +1,23 @@
+---
+permalink: storage-mgmt/task_view_active_events_from_notification_bell.html 
+sidebar: sidebar 
+keywords: view, active, events, notification, bell 
+summary: El timbre de notificación de la barra de menús proporciona un modo rápido de ver los eventos activos más importantes de los que está realizando un seguimiento Unified Manager. 
+---
+= Ver eventos activos desde el timbre de notificación
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+El timbre de notificación (image:../media/notification_bell.png[""]) En la barra de menú proporciona una forma rápida de ver los eventos activos más importantes que Unified Manager realiza el seguimiento.
+
+La lista de eventos activos permite ver el número total de eventos críticos, de error, de advertencia y de actualización en todos los clústeres. Esta lista incluye eventos de los 7 días anteriores y no incluye eventos de información. Puede hacer clic en un enlace para mostrar la lista de los eventos que más le interesen.
+
+Tenga en cuenta que, cuando no se puede acceder a un clúster, Unified Manager muestra esta información en esta página. Puede ver información detallada sobre un clúster que no se puede acceder haciendo clic en el botón *Detalles*. Con esta acción se abre la página de detalles Event. En esta página también se muestran los problemas de monitorización de escala, como poco espacio o RAM en la estación de administración.
+
+.Pasos
+. En la barra de menú, haga clic en image:../media/notification_bell.png[""].
+. Para ver los detalles de cualquiera de los eventos activos, haga clic en el enlace de texto del evento, como "2 capacidad" o "4 rendimiento".
+

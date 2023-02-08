@@ -1,0 +1,38 @@
+---
+permalink: data-protection/view-lun-relationships.html 
+sidebar: sidebar 
+keywords: LUN, SM-BC, SnapMirror Business Continuity, Consistency Group, CG 
+summary: Vista unificada de LUN protegidas por SM-BC. 
+---
+= Supervisar las LUN en una relación de grupo de consistencia
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Si su entorno ONTAP admite la continuidad empresarial de SnapMirror (SM-BC) para proteger las aplicaciones con LUN, puede consultar y supervisar dichas LUN en Active IQ Unified Manager.
+
+SM-BC garantiza un objetivo de tiempo de recuperación cero durante la conmutación por error en entornos SAN. En una implementación típica compatible con SM-BC, las LUN de los volúmenes están protegidas por relaciones de grupos de consistencia.
+
+Estas LUN principales y secundarias son LUN compuestas, o una pareja de LUN de réplica con el mismo UUID y número de serie. Las operaciones de E/S (tanto de lectura como de escritura) se multiplexan a través de los sitios de origen y destino en estas LUN compuestas, lo que garantiza la transparencia.
+
+Para ver las LUN compuestas, se deben añadir y detectar en Unified Manager los clústeres primario y secundario con las LUN que forman parte de la relación del grupo de consistencia. Solo se admiten LUN iSCSI y FCP.
+
+Para obtener información sobre SM-BC, consulte link:https://docs.netapp.com/us-en/ontap/smbc/index.html["Documentación de ONTAP 9 para SM-BC"].
+
+Para ver las LUN compuestas en su entorno, siga estos pasos:
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *almacenamiento* > *LUN*.
+. En el menú Ver, seleccione *relación* > *todas las LUN*.
++
+La relación: Se muestra toda la vista de LUN.
+
+
+
+Puede ver los detalles del LUN, como el nombre del LUN, el volumen, la máquina virtual de almacenamiento que aloja el LUN, el clúster, el grupo de consistencia y el LUN del partner. Puede hacer clic en cada uno de estos componentes para profundizar en una vista detallada. Al hacer clic en el grupo de consistencia se abre la página Relaciones.
+
+Al hacer clic en el LUN de partners puede ver sus detalles de configuración en la pestaña SAN de la página Storage VM Details de la máquina virtual de almacenamiento donde está alojado la LUN de partner. Se muestra información como los iniciadores y los iGroups y otros aspectos de la LUN del partner.
+
+Puede realizar las funciones estándar de nivel de grid para ordenar, filtrar, generar y cargar informes para las LUN protegidas en el entorno.

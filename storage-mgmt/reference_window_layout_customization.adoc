@@ -1,0 +1,45 @@
+---
+permalink: storage-mgmt/reference_window_layout_customization.html 
+sidebar: sidebar 
+keywords: window, layout, customization 
+summary: Active IQ Unified Manager le permite personalizar el diseño de la información en las páginas de objetos de almacenamiento y red. Al personalizar las ventanas, puede controlar qué datos se ven y cómo se muestran. 
+---
+= Personalización del diseño de ventanas
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Active IQ Unified Manager le permite personalizar el diseño de la información en las páginas de objetos de almacenamiento y red. Al personalizar las ventanas, puede controlar qué datos se ven y cómo se muestran.
+
+* *Clasificación*
++
+Puede hacer clic en el encabezado de la columna para cambiar el orden de clasificación de las entradas de la columna. Al hacer clic en el encabezado de la columna, las flechas de ordenación (image:../media/sort_asc_um60.gif["Icono para ordenar columnas: Ascendente"] y.. image:../media/sort_desc_um60.gif["Icono para ordenar columnas: Descendente"]) aparece para esa columna.
+
+* *Filtrado*
++
+Se puede hacer clic en el icono de filtro (image:../media/filtering_icon.gif[""]) aplicar filtros para personalizar la visualización de información en las páginas de objetos de almacenamiento y red de modo que sólo se muestren las entradas que coincidan con las condiciones proporcionadas. Aplica filtros desde el panel Filtros.
+
++
+El panel Filtros permite filtrar la mayoría de las columnas en función de las opciones seleccionadas. Por ejemplo, en la vista Estado: Todos los volúmenes, puede usar el panel Filtros para mostrar todos los volúmenes que están sin conexión. Para ello, seleccione la opción de filtro adecuada en Estado.
+
++
+Las columnas relacionadas con la capacidad de cualquier lista siempre muestran datos de capacidad en unidades adecuadas redondeadas a dos puntos decimales. Esto también se aplica al filtrar columnas de capacidad. Por ejemplo, si utiliza el filtro en la columna total Data Capacity de la vista Estado: Todos los agregados para filtrar datos por encima de 20.45 GB, la capacidad real de 20.454 GB se muestra como 20.45 GB. Del mismo modo, si filtra datos de menos de 20.45 GB, la capacidad real de 20.449 GB se muestra como 20.45 GB.
+
++
+Si utiliza el filtro de la columna Available Data % en la vista Health: All Aggregates para filtrar datos superiores al 20.45 %, la capacidad real del 20.454 % se muestra como 20.45 %. De la misma manera, si filtra datos menos del 20.45%, la capacidad real del 20.449% se muestra como 20.45%.
+
+* *Ocultar o mostrar las columnas*
++
+Puede hacer clic en el icono de visualización de columna (*Mostrar/Ocultar*) para seleccionar las columnas que desea mostrar. Una vez que haya seleccionado las columnas adecuadas, puede volver a ordenarlas arrastrándolas con el ratón.
+
+* *Buscando*
++
+Puede utilizar el cuadro de búsqueda para buscar ciertos atributos de objeto para ayudar a refinar la lista de elementos de la página de inventario. Por ejemplo, puede introducir la palabra "cloud" para refinar la lista de volúmenes de la página del inventario Volumes para ver todos los volúmenes que tienen la palabra "cloud".
+
+* *Exportación de datos*
++
+Puede hacer clic en el botón *Informes* (o en el botón *Exportar* para exportar datos a valores separados por comas  `(.csv)` archivo, `(.pdf)` Document o Microsoft Excel `(.xlsx)` archivar y utilizar los datos exportados para generar informes.
+
+

@@ -1,0 +1,48 @@
+---
+permalink: performance-checker/task_display_information_about_performance_event.html 
+sidebar: sidebar 
+keywords: display, information, performance, events 
+summary: La página del inventario Event Management se puede usar para ver una lista de todos los eventos de rendimiento en los clústeres que se supervisan Unified Manager. Al ver esta información, puede determinar los eventos más críticos y, a continuación, profundizar en información detallada para determinar la causa del evento. 
+---
+= Mostrar información acerca de los eventos de rendimiento
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+La página del inventario Event Management se puede usar para ver una lista de todos los eventos de rendimiento en los clústeres que se supervisan Unified Manager. Al ver esta información, puede determinar los eventos más críticos y, a continuación, profundizar en información detallada para determinar la causa del evento.
+
+*Lo que necesitará*
+
+* Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
+
+
+La lista de eventos se ordena por hora detectada, con los eventos más recientes listados primero. Puede hacer clic en un encabezado de columna para ordenar los eventos según esa columna. Por ejemplo, puede ordenar por la columna Estado para ver los eventos por gravedad. Si está buscando un evento específico o un tipo de evento específico, puede utilizar el filtro y los mecanismos de búsqueda para afinar la lista de eventos que aparecen en la lista.
+
+Los eventos de todos los orígenes se muestran en esta página:
+
+* Política de umbral de rendimiento definida por el usuario
+* Política de umbral de rendimiento definida por el sistema
+* Umbral de rendimiento dinámico
+
+
+La columna Tipo de evento enumera el origen del evento. Puede seleccionar un evento para ver detalles sobre él en la página de detalles Event.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *Gestión de eventos*.
+. En el menú Ver, seleccione *Eventos de rendimiento activos*.
++
+La página muestra todos los eventos de rendimiento nuevos y reconocidos que se han generado en los últimos 7 días.
+
+. Busque un evento que desee analizar y haga clic en el nombre del evento.
++
+Se muestra la página de detalles del evento.
+
++
+[NOTE]
+====
+También puede mostrar la página de detalles de un evento si se hace clic en el enlace del nombre del evento de la página Performance Explorer y también desde un correo electrónico de alerta.
+
+====
+

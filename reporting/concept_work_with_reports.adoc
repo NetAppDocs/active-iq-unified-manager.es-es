@@ -1,0 +1,14 @@
+---
+permalink: reporting/concept_work_with_reports.html 
+sidebar: sidebar 
+keywords: work, reports 
+summary: Aprenda a buscar y personalizar las vistas de páginas de inventario en informes programados compartibles. 
+---
+= Trabajar con informes
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Aprenda a buscar y personalizar las vistas de páginas de inventario en informes programados compartibles.

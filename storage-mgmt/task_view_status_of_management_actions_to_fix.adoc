@@ -1,0 +1,31 @@
+---
+permalink: storage-mgmt/task_view_status_of_management_actions_to_fix.html 
+sidebar: sidebar 
+keywords: view, status, management, actions, chosen, fix 
+summary: Es posible ver el estado de todas las acciones de administración seleccionadas para corregir en la página Management Actions. La mayoría de las acciones se muestran como se completan bastante rápido después de que Unified Manager envía el comando ONTAP al clúster. Sin embargo, algunas acciones, como mover un volumen, pueden tardar más tiempo. 
+---
+= Ver el estado de las acciones de gestión que ha elegido corregir
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Es posible ver el estado de todas las acciones de administración seleccionadas para corregir en la página Management Actions. La mayoría de las acciones se muestran como *completado* bastante rápido después de que Unified Manager envía el comando ONTAP al clúster. Sin embargo, algunas acciones, como mover un volumen, pueden tardar más tiempo.
+
+Hay tres filtros disponibles en la página Management Actions:
+
+* *Completado* muestra las dos acciones de administración que se completaron correctamente y las que han fallado. *Las acciones con fallos* proporcionan una razón para el fallo para que pueda solucionar el problema manualmente.
+* *En curso* muestra tanto las acciones de administración que se están implementando, como las que están programadas para ser implementadas.
+* *Recomendado* muestra todas las acciones de administración que están actualmente activas para todos los clústeres supervisados.
+
+
+.Pasos
+. Haga clic en *acciones de administración* en el panel de navegación izquierdo. Como alternativa, haga clic en image:../media/more_icon.gif[""] En la parte superior del panel *acciones de administración* del *Panel* y seleccione la vista que desee ver.
++
+Se muestra la página Management Actions.
+
+. Puede hacer clic en el icono de intercalación junto a la acción de administración en el campo *Descripción* para ver detalles sobre el problema y el comando que se está utilizando para solucionar el problema.
+. Para ver las acciones que *han fallado*, ordene en la columna *Estado* de la vista *completado*. Puede utilizar la herramienta *filtro* para este mismo fin.
+. Si desea ver más información acerca de una acción de administración fallida o si decide que desea corregir una acción de administración recomendada, puede hacer clic en *Ver detalle de evento* en el área expandida después de hacer clic en el icono de intercalación junto a la acción de administración. Un botón *Fix it* está disponible en esa página.
+

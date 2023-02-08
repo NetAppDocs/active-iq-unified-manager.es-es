@@ -1,0 +1,157 @@
+---
+permalink: events/reference_logical_interface_events.html 
+sidebar: sidebar 
+keywords: 'network, interface, (lif) events, impact area, availability, configuration, performance' 
+summary: 'Los eventos de la interfaz de red proporcionan información acerca del estado de su interfaz de red (LIF), para poder supervisar posibles problemas. Los eventos se agrupan por área de impacto e incluyen el nombre del evento y de captura, el nivel de impacto, el tipo de origen y la gravedad.' 
+---
+= Eventos de la interfaz de red (LIF)
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Los eventos de la interfaz de red proporcionan información acerca del estado de su interfaz de red (LIF), para poder supervisar posibles problemas. Los eventos se agrupan por área de impacto e incluyen el nombre del evento y de captura, el nivel de impacto, el tipo de origen y la gravedad.
+
+
+
+== Área de impacto: Disponibilidad
+
+|===
+| Nombre del evento (nombre de la captura) | Nivel de impacto | Tipo de origen | Gravedad 
+
+
+ a| 
+Estado de la interfaz de red abajo (ocumEvtLifStatusDown)
+ a| 
+Riesgo
+ a| 
+Interfaz
+ a| 
+Error
+
+
+
+ a| 
+Estado de la interfaz de red FC/FCoE inactivo (ocumEvtFCLifStatusDown)
+ a| 
+Riesgo
+ a| 
+Interfaz
+ a| 
+Error
+
+
+
+ a| 
+Conmutación por error de la interfaz de red no posible (ocumEvtLifFailoverNotPossible)
+ a| 
+Riesgo
+ a| 
+Interfaz
+ a| 
+Advertencia
+
+
+
+ a| 
+Interfaz de red no en el puerto de inicio (ocumEvtLifNotAtHomePort)
+ a| 
+Riesgo
+ a| 
+Interfaz
+ a| 
+Advertencia
+
+|===
+
+
+== Área de impacto: Configuración
+
+|===
+| Nombre del evento (nombre de la captura) | Nivel de impacto | Tipo de origen | Gravedad 
+
+
+ a| 
+Ruta de interfaz de red no configurada (no aplicable)
+ a| 
+Evento
+ a| 
+Interfaz
+ a| 
+Información
+
+|===
+
+
+== Área de impacto: Rendimiento
+
+|===
+| Nombre del evento (nombre de la captura) | Nivel de impacto | Tipo de origen | Gravedad 
+
+
+ a| 
+Se ha incumplido el umbral crítico de la interfaz de red MB/s(ocumNetworkLifMbpsIncident)
+ a| 
+Incidente
+ a| 
+Interfaz
+ a| 
+Crítico
+
+
+
+ a| 
+Se ha incumplido el umbral de advertencia de la interfaz de red MB/s (ocumNetworkLifMbpsWarning)
+ a| 
+Riesgo
+ a| 
+Interfaz
+ a| 
+Advertencia
+
+
+
+ a| 
+Se ha incumplido el umbral crítico de la interfaz de red FC MB/s (ocumFcpLifMbpsIncident)
+ a| 
+Incidente
+ a| 
+Interfaz
+ a| 
+Crítico
+
+
+
+ a| 
+Se ha incumplido el umbral de advertencia de la interfaz de red FC MB/s (ocumFcpLifMbpsWarning)
+ a| 
+Riesgo
+ a| 
+Interfaz
+ a| 
+Advertencia
+
+
+
+ a| 
+Se ha incumplido el umbral crítico de la interfaz de red FC de nVMF (OcumNvmfcLifMbpsIncident)
+ a| 
+Incidente
+ a| 
+Interfaz
+ a| 
+Crítico
+
+
+
+ a| 
+Se ha incumplido el umbral de advertencia de la interfaz de red FC de nVMF MB/s (ocumNvmfcLifMbpsWarning)
+ a| 
+Riesgo
+ a| 
+Interfaz
+ a| 
+Advertencia
+
+|===

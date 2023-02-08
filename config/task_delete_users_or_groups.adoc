@@ -1,0 +1,29 @@
+---
+permalink: config/task_delete_users_or_groups.html 
+sidebar: sidebar 
+keywords: delete, users, groups 
+summary: Puede eliminar uno o varios usuarios de la base de datos del servidor de gestión para evitar que usuarios específicos accedan a Unified Manager. También puede eliminar grupos para que todos los usuarios del grupo ya no puedan acceder al servidor de administración. 
+---
+= Eliminación de usuarios o grupos
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede eliminar uno o varios usuarios de la base de datos del servidor de gestión para evitar que usuarios específicos accedan a Unified Manager. También puede eliminar grupos para que todos los usuarios del grupo ya no puedan acceder al servidor de administración.
+
+*Lo que necesitará*
+
+* Cuando se eliminan grupos remotos, debe haber reasignado los eventos que se asignan a los usuarios de los grupos remotos.
++
+Si va a eliminar usuarios locales o usuarios remotos, los eventos asignados a estos usuarios se asignarán automáticamente.
+
+* Debe tener la función Administrador de aplicaciones.
+
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *General* > *usuarios*.
+. En la página Users (usuarios), seleccione los usuarios o grupos que desea eliminar y, a continuación, haga clic en *Delete*.
+. Haga clic en *Sí* para confirmar la eliminación.
+

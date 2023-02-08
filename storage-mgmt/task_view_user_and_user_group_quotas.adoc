@@ -1,0 +1,27 @@
+---
+permalink: storage-mgmt/task_view_user_and_user_group_quotas.html 
+sidebar: sidebar 
+keywords: view, user, user, group, quotas 
+summary: La página de detalles Storage VM / Health muestra información sobre las cuotas de grupos de usuarios y usuarios que están configuradas en la SVM. Puede ver el nombre del usuario o grupo de usuarios, los límites establecidos en los discos y archivos, el espacio utilizado en disco y archivo y la dirección de correo electrónico para la notificación. 
+---
+= Visualización de cuotas de usuarios y grupos de usuarios
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+La página de detalles Storage VM / Health muestra información sobre las cuotas de grupos de usuarios y usuarios que están configuradas en la SVM. Puede ver el nombre del usuario o grupo de usuarios, los límites establecidos en los discos y archivos, el espacio utilizado en disco y archivo y la dirección de correo electrónico para la notificación.
+
+*Lo que necesitará*
+
+Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *almacenamiento* > *Storage VMs*.
+. En la vista *Health: All Storage VMs*, seleccione una máquina virtual de almacenamiento y, a continuación, haga clic en la pestaña *User and Group Quotas*.
+
+
+*Información relacionada*
+
+link:../config/task_add_users.html["Adición de usuarios"]

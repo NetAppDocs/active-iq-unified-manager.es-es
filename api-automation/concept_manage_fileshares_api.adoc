@@ -1,0 +1,109 @@
+---
+permalink: api-automation/concept_manage_fileshares_api.html 
+sidebar: sidebar 
+keywords: manage, file, share 
+summary: Puede utilizar la API /Storage-provider/file-shares para ver, añadir, modificar y eliminar los volúmenes de recursos compartidos de archivos CIFS y NFS en el entorno de su centro de datos. 
+---
+= Gestionar recursos compartidos de archivos mediante API
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede utilizar el `/storage-provider/file-shares` API para ver, añadir, modificar y eliminar los volúmenes compartidos de archivos CIFS y NFS en su entorno de centro de datos.
+
+Antes de aprovisionar los volúmenes de recursos compartidos de archivos, asegúrese de que la SVM se haya creado y aprovisionado con los protocolos compatibles. Si va a asignar niveles de servicio de rendimiento (PSLs) o políticas de eficiencia del almacenamiento (PEPs) durante el aprovisionamiento, se deben crear los PSLs o PES antes de crear los recursos compartidos de archivos.
+
+
+
+== Ver recursos compartidos de archivos
+
+Puede usar el siguiente método para ver los volúmenes para compartir archivos disponibles en el entorno de Unified Manager. Cuando añadió un clúster ONTAP como origen de datos en Active IQ Unified Manager, las cargas de trabajo de almacenamiento para esos clústeres se añaden automáticamente a la instancia de Unified Manager. Esta API recupera los recursos compartidos de archivos de forma automática y manual se añaden a la instancia de Unified Manager. Para ver los detalles de un recurso compartido de archivos específico, ejecute esta API con la clave de recurso compartido de archivos.
+
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+proveedor de almacenamiento
+ a| 
+OBTENGA
+ a| 
+`/storage-provider/file-shares`
+
+`/storage-provider/file-shares/\{key}`
+
+|===
+
+
+== Agregar recursos compartidos de archivos
+
+Puede utilizar el siguiente método para añadir recursos compartidos de archivos CIFS y NFS en la SVM. Debe introducir los detalles del recurso compartido de archivos que desea crear como parámetros de entrada. No se puede usar esta API para añadir volúmenes de FlexGroup.
+
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+proveedor de almacenamiento
+ a| 
+PUBLICAR
+ a| 
+`/storage-provider/file-shares`
+
+|===
+[NOTE]
+====
+En función de si se proporcionan los parámetros de la lista de control de acceso (ACL) o los parámetros de la política de exportación, se crean los recursos compartidos de archivos CIFS o NFS. Si no se proporcionan los valores para los parámetros ACL, no se crean los recursos compartidos de CIFS y los recursos compartidos de NFS se crean de forma predeterminada, proporcionando acceso a todos.
+
+====
+*Creación de volúmenes de protección de datos*: Cuando se agregan recursos compartidos de archivos a la SVM, el tipo de volumen que está montado, por defecto, es `rw` (lectura y escritura). Para crear volúmenes de protección de datos (DP), especifique `dp` como valor para `type` parámetro.
+
+
+
+== Eliminar recursos compartidos de archivos
+
+Puede utilizar el siguiente método para eliminar un recurso compartido de archivos específico. Es necesario introducir la clave de recurso compartido de archivos como parámetro de entrada para eliminar un recurso compartido de archivos concreto.
+
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+proveedor de almacenamiento
+ a| 
+ELIMINAR
+ a| 
+`/storage-provider/file-shares/\{key}`
+
+|===
+
+
+== Modificar recursos compartidos de archivos
+
+Puede utilizar el método siguiente para modificar un recurso compartido de archivos y actualizar sus propiedades.
+
+Debe proporcionar la clave de recurso compartido de archivos para modificar un recurso compartido de archivos concreto. Además, debe introducir la propiedad que desea actualizar junto con su valor.
+
+[NOTE]
+====
+Tenga en cuenta que sólo puede actualizar una propiedad en una única invocación de esta API. Para varias actualizaciones, debe ejecutar esta API tantas veces.
+
+====
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+proveedor de almacenamiento
+ a| 
+PARCHE
+ a| 
+`/storage-provider/file-shares/\{key}`
+
+|===

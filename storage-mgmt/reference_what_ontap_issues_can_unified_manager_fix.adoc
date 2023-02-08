@@ -1,0 +1,264 @@
+---
+permalink: storage-mgmt/reference_what_ontap_issues_can_unified_manager_fix.html 
+sidebar: sidebar 
+keywords: ontap issues, fix it action, automatic remediation feature, remediation events, fix-it messages, fix-it events 
+summary: En esta tabla se describen los problemas de ONTAP que Unified Manager puede resolver directamente desde la interfaz de usuario de Unified Manager. Para ello, haga clic en el botón Fix it o Fix All. 
+---
+= ¿Qué problemas puede solucionar Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Mediante la función de corrección automática de Active IQ Unified Manager, puede optar por resolver determinados problemas de ONTAP o gestionar de forma efectiva determinadas funciones de ONTAP, como la supervisión antiransomware, a través de Unified Manager.
+
+Esta tabla describe estas funciones o problemas de ONTAP que puede gestionar directamente mediante el botón *Fix it* o *Fix All* de la interfaz de usuario web de Unified Manager.
+
+|===
+| Nombre y descripción del evento | Acciones de Gestión | Funcionamiento de "reparar" 
+
+
+ a| 
+Espacio de volumen lleno
+
+El volumen está casi sin espacio y ha superado el umbral de capacidad completa. De manera predeterminada, este umbral se establece en el 90 % del tamaño del volumen.
+ a| 
+Habilitar el crecimiento automático del volumen
+ a| 
+Unified Manager determina que el crecimiento automático del volumen no está configurado para este volumen, por lo que habilita esta función para que el volumen aumente su capacidad cuando sea necesario.
+
+
+
+ a| 
+Inodos llenos
+
+Este volumen se ha quedado sin inodos y no puede aceptar ningún archivo nuevo.
+ a| 
+Aumente el número de inodos en el volumen
+ a| 
+Aumenta el número de inodos en el volumen en un 2 por ciento.
+
+
+
+ a| 
+Se detectó una discrepancia de la política de nivel de almacenamiento
+
+El volumen tiene muchos datos inactivos y la política de organización en niveles actual está establecida en "solo copias Snapshot" o "ninguna".
+ a| 
+Habilite la organización automática en niveles del cloud
+ a| 
+Dado que el volumen ya reside en un FabricPool, cambia la política de organización en niveles a «automática» de modo que los datos inactivos se muevan al nivel de cloud de menor coste.
+
+
+
+ a| 
+Se detectó una discrepancia del nivel de almacenamiento
+
+El volumen tiene muchos datos inactivos, pero no residen en un nivel de almacenamiento (FabricPool) habilitado para el cloud.
+ a| 
+Cambie el nivel de almacenamiento de los volúmenes
+ a| 
+Mueve el volumen al nivel de almacenamiento habilitado para el cloud y establece la política de organización en niveles en "automático" para mover los datos inactivos al nivel de cloud.
+
+
+
+ a| 
+Registro de auditoría deshabilitado
+
+El registro de auditoría no está habilitado para la máquina virtual de almacenamiento
+ a| 
+Habilitar el registro de auditoría para la máquina virtual de almacenamiento
+ a| 
+Permite el registro de auditoría en la máquina virtual de almacenamiento.
+
+Tenga en cuenta que la máquina virtual de almacenamiento ya debe tener configurada una ubicación de registro de auditoría local o remota.
+
+
+
+ a| 
+Banner de inicio de sesión deshabilitado
+
+Se debe habilitar el banner de inicio de sesión del clúster para aumentar la seguridad al borrar las restricciones de acceso.
+ a| 
+Configure el banner de inicio de sesión para el clúster
+ a| 
+Establece el banner de inicio de sesión del clúster en "'acceso restringido a usuarios autorizados'".
+
+
+
+ a| 
+Banner de inicio de sesión deshabilitado
+
+El banner de inicio de sesión de la máquina virtual de almacenamiento se debe habilitar para aumentar la seguridad al borrar las restricciones de acceso.
+ a| 
+Configure el banner de inicio de sesión para la máquina virtual de almacenamiento
+ a| 
+Configura el banner de inicio de sesión de la máquina virtual de almacenamiento en "acceso restringido a usuarios autorizados".
+
+
+
+ a| 
+SSH utiliza claves no seguras
+
+Los cifrados con el sufijo "-cbc" se consideran no seguros.
+ a| 
+Quite los cifrados no seguros del clúster
+ a| 
+Elimina de el clúster los cifrados no seguros, como aes192-cbc y aes128-cbc.
+
+
+
+ a| 
+SSH utiliza claves no seguras
+
+Los cifrados con el sufijo "-cbc" se consideran no seguros.
+ a| 
+Quite los cifrados no seguros de la máquina virtual de almacenamiento
+ a| 
+Elimina los cifrados no seguros, como aes192-cbc y aes128-cbc, de la máquina virtual de almacenamiento.
+
+
+
+ a| 
+Transporte HTTPS de AutoSupport deshabilitado
+
+El protocolo de transporte utilizado para enviar mensajes de AutoSupport al soporte técnico debe estar cifrado.
+ a| 
+Establezca HTTPS como el protocolo de transporte para los mensajes de AutoSupport
+ a| 
+Establece HTTPS como el protocolo de transporte para los mensajes de AutoSupport en el clúster.
+
+
+
+ a| 
+Se superó el umbral de desequilibrio de carga del clúster
+
+Indica que la carga está desequilibrado entre los nodos del clúster. Este evento se genera cuando la variación de capacidad de rendimiento utilizada es de más de un 30 % entre nodos.
+ a| 
+Equilibre las cargas de trabajo del clúster
+ a| 
+Unified Manager identifica el mejor volumen para moverse de un nodo a otro para reducir el desequilibrio y luego mueve el volumen.
+
+
+
+ a| 
+Se superó el umbral de desequilibrio de capacidad del clúster
+
+Indica que la capacidad está desequilibrado entre los agregados del clúster. Este evento se genera cuando la variación de capacidad utilizada es superior al 70 % entre agregados.
+ a| 
+Equilibre la capacidad del clúster
+ a| 
+Unified Manager identifica el mejor volumen para moverlo de un agregado a otro con el fin de reducir el desequilibrio y luego lo mueve.
+
+
+
+ a| 
+Se superó el umbral de capacidad de rendimiento utilizada
+
+Indica que la carga del nodo se podría volver a utilizar si no se reduce el uso en una o más cargas de trabajo altamente activas. Este evento se genera cuando el valor de capacidad de rendimiento del nodo usado es superior al 100 % durante más de 12 horas.
+ a| 
+Limite la carga alta en el nodo
+ a| 
+Unified Manager identifica el volumen con el IOPS más alto y aplica una política de calidad de servicio utilizando los niveles históricos esperados y pico de IOPS para reducir la carga en el nodo.
+
+
+
+ a| 
+Umbral de advertencia de evento dinámico incumplido
+
+Indica que el nodo ya está funcionando en estado sobrecargado debido a la carga anormalmente alta de algunas cargas de trabajo.
+ a| 
+Reducir la sobrecarga en el nodo
+ a| 
+Unified Manager identifica el volumen con el IOPS más alto y aplica una política de calidad de servicio utilizando los niveles históricos esperados y pico de IOPS para reducir la carga en el nodo.
+
+
+
+ a| 
+La toma de control no es posible
+
+La conmutación al respaldo está deshabilitada actualmente, por lo que el acceso a los recursos del nodo durante una interrupción o reinicio se perderá hasta que el nodo vuelva a estar disponible.
+ a| 
+Habilite la conmutación al nodo de respaldo
+ a| 
+Unified Manager envía el comando correspondiente para habilitar la conmutación por error en todos los nodos del clúster.
+
+
+
+ a| 
+La opción cf.takeover.on_panic está CONFIGURADA COMO DESACTIVADA
+
+La opción nodeshell "cf.takeover.on_panic" está establecida en *off*, lo que podría causar un problema en sistemas configurados por ha.
+ a| 
+Permita la toma de control en caso de pánico
+ a| 
+Unified Manager envía el comando correspondiente al clúster para cambiar esta configuración a *On*.
+
+
+
+ a| 
+Deshabilite la opción nodeshell snapmirror.enable
+
+La antigua opción nodeshell "snapmirror.enable" está establecida en *on*, lo que podría causar un problema durante el arranque tras actualizar a ONTAP 9.3 o superior.
+ a| 
+Establezca la opción snapmirror.enable como off
+ a| 
+Unified Manager envía el comando correspondiente al clúster para cambiar esta configuración a *OFF*.
+
+
+
+ a| 
+Telnet activado
+
+Indica un posible problema de seguridad porque Telnet no es seguro y pasa datos de una manera no cifrada.
+ a| 
+Desactivar Telnet
+ a| 
+Unified Manager envía el comando correspondiente al clúster para deshabilitar Telnet.
+
+
+
+ a| 
+Configure el aprendizaje de la máquina virtual de almacenamiento contra ransomware
+
+Comprueba periódicamente si hay clústeres con licencias para supervisar el ransomware. Valida si una máquina virtual de almacenamiento admite solo volúmenes NFS o SMB en este clúster.
+ a| 
+Ponga en marcha máquinas virtuales de almacenamiento `learning` modo de supervisión antiransomware
+ a| 
+Unified Manager establece la supervisión antiransomware `learning` estado para las máquinas virtuales de almacenamiento a través de la consola de gestión de clústeres. La supervisión antiransomware en todos los volúmenes nuevos creados en la máquina virtual de almacenamiento se mueve automáticamente a un modo de aprendizaje. Con esta habilitación, ONTAP puede aprender el patrón de actividad en los volúmenes y detectar las anomalías debido a posibles ataques maliciosos.
+
+
+
+ a| 
+Configure el aprendizaje de volúmenes contra ransomware
+
+Comprueba periódicamente si hay clústeres con licencias para supervisar el ransomware. Valida si un volumen solo admite los servicios NFS o SMB en este tipo de clúster.
+ a| 
+Coloque volúmenes en `learning` modo de supervisión antiransomware
+ a| 
+Unified Manager establece la supervisión antiransomware `learning` estado para los volúmenes a través de la consola de gestión de clústeres. Con esta habilitación, ONTAP puede aprender el patrón de actividad en los volúmenes y detectar las anomalías debido a posibles ataques maliciosos.
+
+
+
+ a| 
+Habilite el volumen contra ransomware
+
+Comprueba periódicamente si hay clústeres con licencias para supervisar el ransomware. Detecta si los volúmenes se encuentran en el `learning` modo de supervisión antiransomware durante más de 45 días, y determina el posible cliente de ponerlos en modo activo.
+ a| 
+Coloque volúmenes en `active` modo de supervisión antiransomware
+ a| 
+Unified Manager establece la supervisión antiransomware `active` en los volúmenes a través de la consola de gestión de clústeres. Con esta habilitación, ONTAP puede aprender el patrón de actividad en los volúmenes y detectar las anomalías debido a posibles ataques malintencionados, y crear alertas para las acciones de protección de datos.
+
+
+
+ a| 
+Deshabilite el volumen antiransomware
+
+Comprueba periódicamente si hay clústeres con licencias para supervisar el ransomware. Detecta notificaciones repetitivos durante la supervisión activa contra el ransomware en los volúmenes (por ejemplo, se devuelven varias advertencias de posibles ataques de ransomware durante 30 días).
+ a| 
+Deshabilite la supervisión antiransomware en volúmenes
+ a| 
+Unified Manager deshabilita la supervisión antiransomware en los volúmenes a través de la consola de gestión del clúster.
+
+|===

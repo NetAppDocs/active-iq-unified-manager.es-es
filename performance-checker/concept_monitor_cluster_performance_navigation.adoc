@@ -1,0 +1,28 @@
+---
+permalink: performance-checker/concept_monitor_cluster_performance_navigation.html 
+sidebar: sidebar 
+keywords: monitor, cluster, performance, navigation 
+summary: Es posible supervisar el rendimiento de todos los clústeres gestionados por Unified Manager. La supervisión de los clústeres ofrece una descripción general del rendimiento del clúster y el objeto, e incluye supervisión de eventos de rendimiento. Es posible ver los eventos y el rendimiento a un nivel alto o bien investigar más sobre cualquier detalle de los eventos de rendimiento y rendimiento de objetos y clústeres. 
+---
+= Supervise la navegación del rendimiento del clúster
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Es posible supervisar el rendimiento de todos los clústeres gestionados por Unified Manager. La supervisión de los clústeres ofrece una descripción general del rendimiento del clúster y el objeto, e incluye supervisión de eventos de rendimiento. Es posible ver los eventos y el rendimiento a un nivel alto o bien investigar más sobre cualquier detalle de los eventos de rendimiento y rendimiento de objetos y clústeres.
+
+Este es un ejemplo de muchas posibles rutas de navegación del rendimiento del clúster:
+
+. En el panel de navegación izquierdo, haga clic en *almacenamiento* > *agregados*.
+. Para ver información sobre el rendimiento de esos agregados, seleccione la vista rendimiento: All Aggregates.
+. Identifique el agregado que desea investigar y haga clic en el nombre del agregado para desplazarse a la página Aggregate / Performance Explorer.
+. Opcionalmente, seleccione otros objetos para comparar con este agregado en el menú Ver y comparar y, a continuación, agregue uno de los objetos al panel comparación.
++
+Las estadísticas de ambos objetos aparecerán en los gráficos de contadores para realizar la comparación.
+
+. En el panel de comparación situado a la derecha de la página del explorador, haga clic en *Zoom View* en uno de los gráficos de contadores para ver detalles sobre el historial de rendimiento de ese agregado.
+
+
+image::../media/monitor_cluster_performance.png[supervise el rendimiento del clúster]

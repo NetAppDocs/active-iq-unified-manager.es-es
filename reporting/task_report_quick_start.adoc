@@ -1,0 +1,92 @@
+---
+permalink: reporting/task_report_quick_start.html 
+sidebar: sidebar 
+keywords: reporting, quick, start 
+summary: 'Cree un informe personalizado de ejemplo para disfrutar de la exploración de vistas e informes de programación. Este informe de inicio rápido encuentra una lista de volúmenes que es posible que desee mover al nivel de cloud porque hay una cantidad justa de datos inactivos (fríos). Se abrirá la vista rendimiento: Todos los volúmenes, se personalizará la vista con filtros y columnas, se guardará la vista personalizada como informe y se programará el informe para que se comparta una vez por semana.' 
+---
+= Inicio rápido de informes
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Cree un informe personalizado de ejemplo para disfrutar de la exploración de vistas e informes de programación. Este informe de inicio rápido encuentra una lista de volúmenes que es posible que desee mover al nivel de cloud porque hay una cantidad justa de datos inactivos (fríos). Se abrirá la vista rendimiento: Todos los volúmenes, se personalizará la vista con filtros y columnas, se guardará la vista personalizada como informe y se programará el informe para que se comparta una vez por semana.
+
+*Lo que necesitará*
+
+* Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+* Debe haber configurado agregados de FabricPool y tener volúmenes en esos agregados.
+
+
+Siga estos pasos para:
+
+* Abra la vista predeterminada
+* Personalice las columnas filtrando y ordenando los datos
+* Guarde la vista
+* Programar un informe que se va a generar para la vista personalizada
+
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *almacenamiento* > *volúmenes*.
+. En el menú Ver, seleccione *rendimiento* > *todos los volúmenes*.
+. Haga clic en *Mostrar/Ocultar* para asegurarse de que la columna "tipos de disco" aparece en la vista.
++
+image::../media/show_hide_3.png[mostrar ocultar 3]
+
++
+Agregue o elimine otras columnas para crear una vista que contenga los campos que son importantes para el informe.
+
+. Arrastre la columna "tipos de disco" situada junto a la columna "Recomendación sobre la nube".
+. Haga clic en el icono de filtro para agregar los tres filtros siguientes y, a continuación, haga clic en *aplicar filtro*:
++
+** Los tipos de disco contienen FabricPool
+** Las recomendaciones de cloud contienen nivel
+** Datos fríos superiores a 10 GBimage:../media/filter_cold_data_2.png[""]
+
+
++
+Tenga en cuenta que cada filtro está Unido a un valor lógico Y que todos los volúmenes devueltos deben cumplir todos los criterios. Puede agregar un máximo de cinco filtros.
+
+. Haga clic en la parte superior de la columna datos fríos para ordenar los resultados de modo que los volúmenes con datos más fríos aparezcan en la parte superior de la vista.
+. Cuando la vista está personalizada, el nombre de la vista es Vista no guardada. Nombre la vista para reflejar lo que muestra la vista, por ejemplo «'Vols change Tiering policy»». Cuando haya terminado, haga clic en la Marca de verificación o pulse *Intro* para guardar la vista con el nuevo nombre.
++
+image::../media/report_vol_code_data_2.png[informe de datos de códigos vol. 2]
+
+. Descargue el informe como un archivo *CSV*, *Excel* o *PDF* para ver el resultado antes de programarlo o compartirlo.
++
+Abra el archivo con una aplicación instalada, como Microsoft Excel (CSV o Excel) o Adobe Acrobat (PDF), o guarde el archivo.
+
++
+[NOTE]
+====
+Puede personalizar aún más el informe utilizando filtros, ordenaciones, tablas dinámicas o gráficos complejos descargando la vista como un archivo de Excel. Después de abrir el archivo en Excel, utilice las funciones avanzadas para personalizar el informe. Cuando esté satisfecho, cargue el archivo de Excel. Este archivo, con sus personalizaciones, se aplica a la vista cuando se ejecuta el informe.
+
+====
++
+Para obtener más información acerca de cómo personalizar informes con Excel, vea _Sample Microsoft Excel Reports_.
+
+. Haga clic en el botón *Informes programados* de la página de inventario. Todos los informes programados relacionados con el objeto, en este caso volúmenes, aparecen en la lista.
++
+image::../media/scheduled_reports_3.gif[informes programados 3]
+
+. Haga clic en *Agregar programación* para agregar una nueva fila a la página programas de informes de modo que pueda definir las características de programación para el nuevo informe.
+. Introduzca un nombre para el informe y complete los demás campos de informe y, a continuación, haga clic en la Marca de verificación (image:../media/blue_check.gif[""]) al final de la fila.
++
+El informe se envía inmediatamente como prueba. Después de esto, el informe genera y se envía por correo electrónico a los destinatarios enumerados utilizando la frecuencia especificada.
+
++
+El siguiente informe de ejemplo tiene el formato CSV:
+
++
+image::../media/csv_sample_report.gif[informe de ejemplo csv]
+
++
+El siguiente informe de ejemplo está en formato PDF:
+
++
+image::../media/pdf_sample_report.gif[ejemplo de informe en pdf]
+
+
+
+En función de los resultados mostrados en el informe, puede que desee utilizar System Manager de ONTAP o la interfaz de línea de comandos de ONTAP para cambiar la política de organización en niveles a «'auto» o «'all'» en determinados volúmenes para descargar más datos inactivos al nivel cloud.

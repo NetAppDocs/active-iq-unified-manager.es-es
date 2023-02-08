@@ -1,0 +1,18 @@
+---
+permalink: data-protection/concept_monitor_storage_vm_disaster_recovery_relationships.html 
+sidebar: sidebar 
+keywords: disaster recovery, monitor, storage vm protection, relationships 
+summary: Active IQ Unified Manager admite la supervisión de las relaciones de recuperación ante desastres de máquinas virtuales de almacenamiento, lo que proporciona recuperación ante desastres a la granularidad de un nivel de equipo virtual de almacenamiento. La recuperación ante desastres del equipo virtual de almacenamiento permite la recuperación de los datos presentes en los volúmenes constituyentes del equipo virtual de almacenamiento y la recuperación de la configuración del equipo virtual de almacenamiento. 
+---
+= Supervisar las relaciones de protección de recuperación ante desastres de las máquinas virtuales de almacenamiento
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Active IQ Unified Manager admite la supervisión de las relaciones de recuperación ante desastres de máquinas virtuales de almacenamiento, lo que proporciona recuperación ante desastres a la granularidad de un nivel de equipo virtual de almacenamiento. La recuperación ante desastres del equipo virtual de almacenamiento permite la recuperación de los datos presentes en los volúmenes constituyentes del equipo virtual de almacenamiento y la recuperación de la configuración del equipo virtual de almacenamiento.
+
+Se crea una relación de recuperación ante desastres de una máquina virtual de almacenamiento a partir de la máquina virtual de almacenamiento de origen, hasta la máquina virtual de almacenamiento de destino, con el fin de proporcionar una recuperación ante desastres asíncrona. Puede seleccionar si desea replicar toda la configuración del equipo virtual de almacenamiento o un subconjunto de ella (excepto la configuración de la red y del protocolo) junto con los volúmenes de datos en función de la configuración del clúster.
+
+Una vez configurada la relación de recuperación ante desastres de la máquina virtual de almacenamiento de origen, cuando la máquina virtual de almacenamiento de origen deja de estar disponible debido a un error de hardware o a un desastre en el entorno, se inicia la máquina virtual de almacenamiento de destino, lo que proporciona acceso a los datos con la menor interrupción. Del mismo modo, cuando la máquina virtual de almacenamiento de origen está disponible, se resincronizaba con la máquina virtual de almacenamiento de destino y, a continuación, el origen se reinicia para proporcionar los datos. Puede usar comandos de SnapMirror para configurar y gestionar las relaciones de recuperación ante desastres de máquinas virtuales de almacenamiento.

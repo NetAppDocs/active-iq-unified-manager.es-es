@@ -1,0 +1,82 @@
+---
+permalink: config/concept_audit_logging.html 
+sidebar: sidebar 
+keywords: audit, logging 
+summary: Es posible detectar si los registros de auditoría se ven comprometidos con el uso de registros de auditoría. Todas las actividades realizadas por un usuario se supervisan y registran en los registros de auditoría. Las auditorías se realizan para todas las interfaces de usuario y las funcionalidades de Active IQ Unified Manager de las API expuestas al público. 
+---
+= Registro de auditoría
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Es posible detectar si los registros de auditoría se ven comprometidos con el uso de registros de auditoría. Todas las actividades realizadas por un usuario se supervisan y registran en los registros de auditoría. Las auditorías se realizan para todas las interfaces de usuario y las funcionalidades de Active IQ Unified Manager de las API expuestas al público.
+
+Puede utilizar *Registro de auditoría: Vista de archivo* para ver y acceder a todos los archivos de registro de auditoría disponibles en Active IQ Unified Manager. Los archivos del Registro de auditoría: Vista de archivo se muestran en función de su fecha de creación. Esta vista muestra información de todo el registro de auditoría capturado desde la instalación o actualización al presente en el sistema. Siempre que se realiza una acción en Unified Manager, la información se actualiza y está disponible en los registros. El estado de cada archivo de registro se captura mediante el atributo "'Estado de integridad de archivo'", que se supervisa activamente para detectar la manipulación o eliminación del archivo de registro. Los registros de auditoría pueden tener uno de los siguientes estados cuando los registros de auditoría están disponibles en el sistema:
+
+[cols="2*"]
+|===
+| Estado | Descripción 
+
+
+ a| 
+ACTIVO
+ a| 
+Archivo en el que se registran actualmente los registros.
+
+
+
+ a| 
+NORMAL
+ a| 
+Archivo inactivo, comprimido y almacenado en el sistema.
+
+
+
+ a| 
+MANIPULADO
+ a| 
+Archivo que ha sido comprometido por un usuario que ha editado el archivo manualmente.
+
+
+
+ a| 
+ELIMINAR_MANUAL
+ a| 
+Archivo eliminado por un usuario autorizado.
+
+
+
+ a| 
+ROLLOVER_DELETE
+ a| 
+Archivo que se eliminó debido a la rodadura basada en la directiva de configuración gradual.
+
+
+
+ a| 
+INESPERADO_DELETE
+ a| 
+Archivo eliminado por motivos desconocidos.
+
+|===
+La página Registro de auditoría incluye los siguientes botones de comando:
+
+* Configurar
+* Eliminar
+* Descargue
+
+
+El botón *DELETE* permite eliminar cualquiera de los registros de auditoría enumerados en la vista registros de auditoría. Puede eliminar un registro de auditoría y, opcionalmente, proporcionar un motivo para eliminar el archivo que ayuda en el futuro a determinar una eliminación válida. La columna MOTIVO enumera el motivo junto con el nombre del usuario que realizó la operación de eliminación.
+
+[NOTE]
+====
+La eliminación de un archivo de registro provocará la eliminación del archivo del sistema, pero la entrada de la tabla DB no se eliminará.
+
+====
+Puede descargar los registros de auditoría de Active IQ Unified Manager con el botón *DOWNLOAD* de la sección registros de auditoría y exportar los archivos de registro de auditoría. Los archivos marcados con «'NORMAL'» o «'MANIPULADO'» se descargan en una compresión `.gzip` formato.
+
+Los archivos de registro de auditoría se archivan periódicamente y se guardan en la base de datos a modo de referencia. Antes del archivado, los registros de auditoría se firman digitalmente para mantener la seguridad y la integridad.
+
+Cuando se genera un paquete AutoSupport completo, el bundle de soporte incluye tanto archivos de registro de auditoría archivados como activos. Pero cuando se genera un bundle de soporte ligero, solo incluye los registros de auditoría activos. No se incluyen los registros de auditoría archivados.

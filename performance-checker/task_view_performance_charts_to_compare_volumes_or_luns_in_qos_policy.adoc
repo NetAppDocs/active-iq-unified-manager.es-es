@@ -1,0 +1,36 @@
+---
+permalink: performance-checker/task_view_performance_charts_to_compare_volumes_or_luns_in_qos_policy.html 
+sidebar: sidebar 
+keywords: view, performance, charts, compare, volumes, luns, same, qos, policy, group 
+summary: Puede ver los volúmenes y las LUN que se encuentran en los mismos grupos de políticas de calidad de servicio y, a continuación, comparar el rendimiento en un único gráfico de IOPS, MB/s o IOPS/TB para identificar cualquier problema. 
+---
+= Ver los gráficos de rendimiento para comparar volúmenes o LUN que están en el mismo grupo de políticas de calidad de servicio
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede ver los volúmenes y las LUN que se encuentran en los mismos grupos de políticas de calidad de servicio y, a continuación, comparar el rendimiento en un único gráfico de IOPS, MB/s o IOPS/TB para identificar cualquier problema.
+
+Los pasos para comparar el rendimiento de los volúmenes en el mismo grupo de políticas de calidad de servicio se muestran a continuación. Los pasos para ver esta información de una LUN son similares.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *almacenamiento* > *volúmenes*.
++
+El estado: Toda la vista de volúmenes se muestra de forma predeterminada.
+
+. En el menú Ver, seleccione *rendimiento: Volúmenes en QoS Policy Group*.
+. Haga clic en el nombre del volumen que desea revisar.
++
+Se muestra la página Performance Explorer para el volumen.
+
+. En el menú Ver y comparar, seleccione *volúmenes en el mismo grupo de políticas QoS*.
++
+En la tabla siguiente se enumeran los demás volúmenes que comparten la misma política de calidad de servicio.
+
+. Haga clic en el botón *Agregar* para agregar esos volúmenes a los gráficos para que pueda comparar las IOPS, MB/s, IOPS/TB y otros contadores de rendimiento de todos los volúmenes seleccionados en los gráficos.
++
+Es posible cambiar el intervalo de tiempo para ver el rendimiento durante diferentes intervalos de tiempo distintos a los predeterminados de 72 horas.
+
+

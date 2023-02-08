@@ -1,0 +1,209 @@
+---
+section: data-protection
+title: Proteja y restaure sus datos
+entries:
+- title: Crear y solucionar problemas de relaciones de protección
+  url: "/data-protection/concept_create_and_monitor_protection_relationships.html"
+  entries:
+  - title: Tipos de protección SnapMirror
+    url: "/data-protection/concept_types_of_snapmirror_protection.html"
+  - title: Configuración de las relaciones de protección en Unified Manager
+    url: "/data-protection/task_set_up_protection_relationships_in_unified_manager.html"
+    entries:
+    - title: Configuración de una conexión entre Workflow Automation y Unified Manager
+      url: "/data-protection/task_configure_connection_between_workflow_automation_um.html"
+    - title: Verificación del almacenamiento en caché de origen de datos de Unified
+        Manager en Workflow Automation
+      url: "/data-protection/task_verify_um_data_source_caching_in_workflow_automation.html"
+    - title: Qué ocurre cuando se vuelve a instalar o actualizar OnCommand Workflow
+        Automation
+      url: "/data-protection/concept_what_happens_when_wfa_is_reinstalled_or_upgraded.html"
+    - title: Se elimina la configuración de OnCommand Workflow Automation de Unified
+        Manager
+      url: "/data-protection/task_remove_workflow_automation.html"
+  - title: Recuperación tras fallos y recuperación de una relación de protección
+    url: "/data-protection/task_perform_protection_relationship_failover_and_failback.html"
+    entries:
+    - title: Romper una relación de SnapMirror en la página de detalles Volume/Health
+      url: "/data-protection/task_break_snapmirror_relationship_from_health_volume_details.html"
+    - title: Inversión de las relaciones de protección desde la página de detalles
+        volumen / Estado
+      url: "/data-protection/task_reverse_protection_relationships_from_health_volume_details.html"
+    - title: Eliminación de una relación de protección de la página de detalles Volume
+        / Health
+      url: "/data-protection/task_remove_protection_relationship_voldtls.html"
+    - title: Resincronizando las relaciones de protección desde la página de detalles
+        Volume / Health
+      url: "/data-protection/task_resynchronize_protection_relationships_voldtls.html"
+  - title: Solucionar un error de un trabajo de protección
+    url: "/data-protection/task_resolve_protection_job_failure.html"
+    entries:
+    - title: Identificar el problema y realizar acciones correctivas para un trabajo
+        de protección con errores
+      url: "/data-protection/task_identify_problem_for_failed_protection_job.html"
+  - title: Resolución de problemas de desfase
+    url: "/data-protection/task_resolve_lag_issues.html"
+- title: Gestión y supervisión de relaciones de protección
+  url: "/data-protection/concept_manage_and_monitor_protection_relationships.html"
+  entries:
+  - title: Ver el estado de protección de volumen
+    url: "/data-protection/view-protection-status.html"
+  - title: Visualización de las relaciones de protección de volúmenes
+    url: "/data-protection/task_view_volume_protection_relationships.html"
+  - title: Supervisar las LUN en una relación de grupo de consistencia
+    url: "/data-protection/view-lun-relationships.html"
+  - title: Crear una relación de protección SnapVault desde la vista Estado/todos
+      los volúmenes
+    url: "/data-protection/task_create_snapvault_protection_relationship.html"
+  - title: Crear una relación de protección SnapVault desde la página de detalles
+      Volume/Health
+    url: "/data-protection/task_create_snapvault_protection_relationship_from_health_volume_details.html"
+  - title: Crear una relación de protección SnapMirror desde la vista Estado/todos
+      los volúmenes
+    url: "/data-protection/task_create_snapmirror_relationship_from_health_volumes.html"
+  - title: Crear una relación de protección SnapMirror desde la página de detalles
+      Volume/Health
+    url: "/data-protection/task_create_snapmirror_relationship_from_health_volume.html"
+  - title: Crear una relación de SnapMirror con una replicación de versión flexible
+    url: "/data-protection/task_create_snapmirror_relationship_with_version_flexible_replication.html"
+  - title: Crear relaciones SnapMirror con una replicación de versión flexible con
+      la opción de backup
+    url: "/data-protection/task_create_snapmirror_relationships_with_version_flexible_replication.html"
+  - title: Configurar los ajustes de eficiencia de destino
+    url: "/data-protection/task_configure_protection_destination_settings.html"
+  - title: Crear programaciones de SnapMirror y SnapVault
+    url: "/data-protection/task_create_snapmirror_and_snapvault_schedules.html"
+  - title: Crear relaciones en cascada o con ventilador para ampliar la protección
+      a partir de una relación de protección existente
+    url: "/data-protection/task_create_cascade_or_fanout_relationships_to_extend_protection.html"
+  - title: Editar las relaciones de protección en la página Volume Relationships
+    url: "/data-protection/task_edit_protection_relationships_from_protection_volume.html"
+  - title: Editar las relaciones de protección desde la página de detalles volumen
+      / Estado
+    url: "/data-protection/task_edit_protection_relationships_from_health_volume.html"
+  - title: Creación de una política de SnapMirror para maximizar la eficiencia de
+      transferencia
+    url: "/data-protection/task_create_snapmirror_policy_to_maximize_transfer_efficiency.html"
+  - title: Creación de una política de SnapVault para maximizar la eficiencia de transferencia
+    url: "/data-protection/task_create_snapvault_policy_to_maximize_transfer_efficiency.html"
+  - title: Cancelar una transferencia de protección de datos activa desde la página
+      Relaciones de volumen
+    url: "/data-protection/task_abort_an_active_data_protection_transfer.html"
+  - title: Cancelación de una transferencia de protección de datos activa desde la
+      página de detalles volumen / Salud
+    url: "/data-protection/task_abort_active_data_protection_transfer_from_health_volume.html"
+  - title: Desactivación de una relación de protección en la página Relaciones de
+      volumen
+    url: "/data-protection/task_quiesce_protection_relationship_from_volume_relationships.html"
+  - title: Desactivación de una relación de protección desde la página de detalles
+      volumen / Salud
+    url: "/data-protection/task_quiesce_protection_relationship_from_health_volume_details.html"
+  - title: Interrumpir una relación de SnapMirror en la página Volume Relationships
+    url: "/data-protection/task_break_snapmirror_relationship.html"
+  - title: Quitar una relación de protección en la página Volume Relationships
+    url: "/data-protection/task_remove_protection_relationship.html"
+  - title: Reanude las transferencias programadas en una relación de modo inactivo
+      en la página Relaciones de volumen
+    url: "/data-protection/task_resume_scheduled_transfers_on_quiesced_relationship.html"
+  - title: Reanude las transferencias programadas en una relación en modo inactivo
+      en la página de detalles Volume/Health
+    url: "/data-protection/task_resume_scheduled_transfers_voldtls_page.html"
+  - title: Inicializando o actualizando relaciones de protección en la página Volume
+      Relationships
+    url: "/data-protection/task_initialize_or_update_protection_relationships.html"
+  - title: Inicializar o actualizar las relaciones de protección en la página de detalles
+      Volume / Health
+    url: "/data-protection/task_update_protection_voldtls_page.html"
+  - title: Resincronizando las relaciones de protección desde la página Volume Relationships
+    url: "/data-protection/task_resynchronize_protection_relationships.html"
+  - title: Inversión de las relaciones de protección en la página Volume Relationships
+    url: "/data-protection/task_reverse_protection_relationships.html"
+  - title: Restaurar datos mediante la página de detalles Volume / Health
+    url: "/data-protection/task_restore_data_use_health_volume_details_page.html"
+  - title: Qué pools de recursos son
+    url: "/data-protection/concept_what_resource_pools_are.html"
+  - title: Creación de pools de recursos
+    url: "/data-protection/task_create_resource_pools.html"
+  - title: Editar pools de recursos
+    url: "/data-protection/task_edit_resource_pools.html"
+  - title: Ver el inventario de pools de recursos
+    url: "/data-protection/task_view_resource_pool_inventory.html"
+  - title: Agregar miembros del pool de recursos
+    url: "/data-protection/task_add_resource_pool_members.html"
+  - title: Eliminación de agregados de pools de recursos
+    url: "/data-protection/task_remove_aggregates_from_resource_pools.html"
+  - title: Eliminación de pools de recursos
+    url: "/data-protection/task_delete_resource_pools.html"
+  - title: Supervisar las relaciones de protección de recuperación ante desastres
+      de las máquinas virtuales de almacenamiento
+    url: "/data-protection/concept_monitor_storage_vm_disaster_recovery_relationships.html"
+    entries:
+    - title: Supervisión de máquinas virtuales de almacenamiento mediante la página
+        Relaciones
+      url: "/data-protection/task_monitor_storage_vms_using_relationships_page.html"
+    - title: Ver las relaciones de protección en la página Storage VMs
+      url: "/data-protection/task_view_protection_relationships_from_storage_vms_page.html"
+    - title: Ver las máquinas virtuales de almacenamiento en función del estado de
+        protección
+      url: "/data-protection/task_view_storage_vms_based_on_protection_status.html"
+  - title: Comprender las asociaciones de máquinas virtuales de almacenamiento
+    url: "/data-protection/reference_protection_storage_virtual_machine_associations_page.html"
+  - title: Requisitos de SVM y pool de recursos para dar soporte a servicios de almacenamiento
+    url: "/data-protection/concept_storage_virtual_machine_and_resource_pool_requirements.html"
+  - title: Qué trabajos son
+    url: "/data-protection/concept_what_jobs_are.html"
+  - title: Supervisar trabajos de
+    url: "/data-protection/task_monitor_jobs.html"
+  - title: Ver los detalles del trabajo
+    url: "/data-protection/task_view_job_details.html"
+  - title: Anulación de trabajos
+    url: "/data-protection/task_abort_jobs.html"
+  - title: Volver a intentar un trabajo de protección con errores
+    url: "/data-protection/task_retry_failed_protection_job.html"
+  - title: Descripción de las ventanas y cuadros de diálogo de relaciones de protección
+    url: "/data-protection/reference_description_of_protection_relationships_window.html"
+    entries:
+    - title: Página Resource Pools
+      url: "/data-protection/reference_resource_pools_page.html"
+    - title: Cuadro de diálogo Create Resource Pool
+      url: "/data-protection/reference_create_resource_pool_dialog_box.html"
+    - title: Cuadro de diálogo Edit Resource Pool
+      url: "/data-protection/reference_edit_resource_pool_dialog_box.html"
+    - title: Cuadro de diálogo Aggregates
+      url: "/data-protection/reference_aggregates_dialog_box.html"
+    - title: Trabajos
+      url: "/data-protection/reference_protection_jobs_page.html"
+    - title: Página de detalles Job
+      url: "/data-protection/reference_job_details_page.html"
+    - title: Cuadro de diálogo Advanced Secondary Settings
+      url: "/data-protection/reference_advanced_secondary_setting_dialog_box.html"
+    - title: Cuadro de diálogo Advanced Destination Settings
+      url: "/data-protection/reference_advanced_destination_settings_dialog_box.html"
+    - title: Restaurar
+      url: "/data-protection/reference_restore_dialog_box.html"
+    - title: Cuadro de diálogo Browse Directories
+      url: "/data-protection/reference_browse_directories_dialog_box.html"
+    - title: Cuadro de diálogo Configure Protection
+      url: "/data-protection/reference_configure_protection_dialog_box.html"
+    - title: Cuadro de diálogo Create Schedule
+      url: "/data-protection/reference_create_schedule_dialog_box.html"
+    - title: Cuadro de diálogo Create SnapMirror Policy
+      url: "/data-protection/reference_create_snapmirror_policy_dialog_box.html"
+    - title: Cuadro de diálogo Create SnapVault Policy
+      url: "/data-protection/reference_create_snapvault_policy_dialog_box.html"
+    - title: Cuadro de diálogo Edit Relationship
+      url: "/data-protection/reference_edit_relationship_dialog_box.html"
+    - title: Cuadro de diálogo Initialize/Update
+      url: "/data-protection/reference_initialize_update_relationship_dialog_box.html"
+    - title: Cuadro de diálogo Resynchronize
+      url: "/data-protection/reference_resynchronize_dialog_box.html"
+    - title: Cuadro de diálogo Select Source Snapshot Copy
+      url: "/data-protection/reference_select_source_snapshot_copy_dialog_box.html"
+    - title: Cuadro de diálogo Reverse Resync
+      url: "/data-protection/reference_reverse_resync_dialog_box.html"
+    - title: Relación / todas las relaciones
+      url: "/data-protection/reference_relationship_all_relationships_view.html"
+    - title: Relación / última vista Estado de transferencia de 1 mes
+      url: "/data-protection/reference_relationship_last_1_month_transfer_status_view.html"
+    - title: Relación / última vista de tarifa de transferencia de 1 mes
+      url: "/data-protection/reference_relationship_last_1_month_transfer_rate_view.html"

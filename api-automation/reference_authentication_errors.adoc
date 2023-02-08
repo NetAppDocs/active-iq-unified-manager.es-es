@@ -1,0 +1,111 @@
+---
+permalink: api-automation/reference_authentication_errors.html 
+sidebar: sidebar 
+keywords: http, status, code, active iq, unified manager 
+summary: Al ejecutar las API o solucionar problemas, debe tener en cuenta los distintos códigos de estado HTTP y códigos de error que utilizan las API de Active IQ Unified Manager. 
+---
+= códigos de estado HTTP utilizados en Active IQ Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Al ejecutar las API o solucionar problemas, debe tener en cuenta los distintos códigos de estado HTTP y códigos de error que utilizan las API de Active IQ Unified Manager.
+
+En la siguiente tabla se enumeran los códigos de error relacionados con la autenticación:
+
+[cols="3*"]
+|===
+| Código de estado HTTP | Título del código de estado | Descripción 
+
+
+ a| 
+200
+ a| 
+DE ACUERDO
+ a| 
+Se devolvió al ejecutar correctamente las llamadas API síncronas.
+
+
+
+ a| 
+201
+ a| 
+Creado
+ a| 
+Creación de recursos nuevos mediante llamadas síncronas, como la configuración de Active Directory.
+
+
+
+ a| 
+202
+ a| 
+Aceptado
+ a| 
+Devuelto cuando la ejecución correcta de llamadas asíncronas para funciones de aprovisionamiento, como la creación de LUN y recursos compartidos de archivos.
+
+
+
+ a| 
+400
+ a| 
+Solicitud no válida
+ a| 
+Indica fallo de validación de entrada. El usuario tiene que corregir las entradas, por ejemplo, las claves válidas de un cuerpo de solicitud.
+
+
+
+ a| 
+401
+ a| 
+Solicitud no autorizada
+ a| 
+No está autorizado a ver el recurso o no autorizado.
+
+
+
+ a| 
+403
+ a| 
+Solicitud prohibida
+ a| 
+Está prohibido acceder al recurso que estaba intentando alcanzar.
+
+
+
+ a| 
+404
+ a| 
+No se encuentra el recurso
+ a| 
+No se encuentra el recurso al que estaba intentando acceder.
+
+
+
+ a| 
+405
+ a| 
+Método no permitido
+ a| 
+Método no permitido.
+
+
+
+ a| 
+429
+ a| 
+Demasiadas solicitudes
+ a| 
+Devuelto cuando el usuario envía demasiadas solicitudes dentro de un periodo de tiempo específico.
+
+
+
+ a| 
+500
+ a| 
+Error interno del servidor
+ a| 
+Error interno del servidor. Error al obtener la respuesta del servidor. Este error interno del servidor puede ser permanente o no. Por ejemplo, si ejecuta un `GET` o. `GET ALL` operación y recibir este error, se recomienda repetir esta operación por un mínimo de cinco reintentos. Si se trata de un error permanente, el código de estado devuelto sigue siendo 500. Si la operación se realiza correctamente, el código de estado devuelto es 200.
+
+|===

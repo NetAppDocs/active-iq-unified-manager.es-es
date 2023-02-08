@@ -1,0 +1,32 @@
+---
+permalink: health-checker/task_delete_values_from_annotations.html 
+sidebar: sidebar 
+keywords: delete, values, annotations 
+summary: Puede eliminar valores asociados con anotaciones personalizadas cuando ese valor ya no se aplica a la anotación. 
+---
+= Eliminar valores de anotaciones
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede eliminar valores asociados con anotaciones personalizadas cuando ese valor ya no se aplica a la anotación.
+
+*Lo que necesitará*
+
+* Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+* El valor de anotación no debe estar asociado a ninguna regla de anotación o reglas de grupo.
+
+
+No se pueden eliminar valores de anotaciones predefinidas.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *Administración de almacenamiento* > *Anotaciones*.
+. En la lista de anotaciones de la ficha *Anotaciones*, seleccione la anotación desde la que desea eliminar un valor.
+. En el área *valores* de la ficha *Anotaciones*, seleccione el valor que desea eliminar y haga clic en *Eliminar*.
+. En el cuadro de diálogo *Advertencia*, haga clic en *Sí*.
++
+El valor se elimina y ya no se muestra en la lista de valores para la anotación seleccionada.
+
+

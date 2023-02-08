@@ -1,0 +1,346 @@
+---
+permalink: api-automation/concept_modify_workloads_workflow.html 
+sidebar: sidebar 
+keywords: modify, storage, workloads 
+summary: La modificación de las cargas de trabajo de almacenamiento consiste en actualizar las LUN o recursos compartidos de archivos con los parámetros que faltan o cambiar los parámetros existentes. 
+---
+= Modificación de las cargas de trabajo de almacenamiento mediante API
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+La modificación de las cargas de trabajo de almacenamiento consiste en actualizar las LUN o recursos compartidos de archivos con los parámetros que faltan o cambiar los parámetros existentes.
+
+Este flujo de trabajo toma el ejemplo de actualización de niveles de servicio de rendimiento para LUN y recursos compartidos de archivos.
+
+[NOTE]
+====
+El flujo de trabajo supone que el LUN o el recurso compartido de archivos se han aprovisionado con niveles de servicio de rendimiento.
+
+====
+
+
+== Modificación de los recursos compartidos de archivos
+
+Al modificar un recurso compartido de archivos, puede actualizar los siguientes parámetros:
+
+* Capacidad o tamaño.
+* Configuración en línea o sin conexión.
+* Política de eficiencia de almacenamiento.
+* Nivel de servicio de rendimiento.
+* Ajustes de la lista de control de acceso (ACL).
+* Configuración de la directiva de exportación. También puede eliminar los parámetros de política de exportación y revertir las reglas de política de exportación predeterminadas (vacías) en el recurso compartido de archivos.
+
+
+[NOTE]
+====
+Durante una sola ejecución de API, solo puede actualizar un parámetro.
+
+====
+Este procedimiento describe cómo agregar un nivel de servicio de rendimiento a un recurso compartido de archivos. Puede utilizar el mismo procedimiento para actualizar cualquier otra propiedad de recurso compartido de archivos.
+
+. Obtenga la clave del recurso compartido de CIFS o del recurso compartido de archivos NFS del que desea actualizar. Esta API consulta todos los recursos compartidos de archivos en su centro de datos. Omita este paso si ya conoce la clave para compartir archivos.
++
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+proveedor de almacenamiento
+ a| 
+OBTENGA
+ a| 
+`/storage-provider/file-shares`
+
+|===
+. Para ver los detalles del recurso compartido de archivos, ejecute la siguiente API con la clave de recurso compartido de archivos obtenida.
++
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+proveedor de almacenamiento
+ a| 
+OBTENGA
+ a| 
+`/storage-provider/file-shares/\{key}`
+
+|===
++
+Vea los detalles del recurso compartido de archivos en el resultado.
+
++
+[listing]
+----
+"assigned_performance_service_level": {
+        "key": null,
+        "name": "Unassigned",
+        "peak_iops": null,
+        "expected_iops": null,
+        "_links": {}
+      },
+----
+. Obtenga la clave del nivel de servicio de rendimiento que desea asignar en este recurso compartido de archivos. Actualmente no hay ninguna directiva asignada.
++
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+Niveles de servicio de rendimiento
+ a| 
+OBTENGA
+ a| 
+`/storage-provider/performance-service-levels`
+
+|===
++
+[NOTE]
+====
+Para recuperar los detalles de los niveles de servicio de rendimiento definidos por el sistema, configure el `system_defined` introduzca el parámetro a. `true`. En el resultado, obtenga la clave del nivel de servicio de rendimiento que desea aplicar al recurso compartido de archivos.
+
+====
+. Aplique el nivel de servicio de rendimiento en el recurso compartido de archivos.
++
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+Proveedor de almacenamiento de NetApp
+ a| 
+PARCHE
+ a| 
+`/storage-provider/file-shares/\{key}`
+
+|===
++
+En la entrada, debe especificar solo el parámetro que desea actualizar, junto con la clave de recurso compartido de archivos. En este caso, es la clave del nivel de servicio de rendimiento.
+
++
+*Muestra de rizo*
+
++
+[listing]
+----
+curl -X POST "https://<hostname>/api/storage-provider/file-shares"`-H "accept: application/json" -H "Authorization: Basic <Base64EncodedCredentials>" -d
+"{
+\"performance_service_level\": { \"key\": \"1251e51b-069f-11ea-980d-fa163e82bbf2\" },
+}"
+----
++
+El resultado de JSON muestra un objeto de trabajo que se puede usar para verificar que los extremos de acceso de los nodos raíz y asociados se hayan creado correctamente.
+
+. Compruebe si el nivel de servicio de rendimiento se ha agregado al recurso compartido de archivos utilizando la clave de objeto Job que se muestra en la salida.
++
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+Servidor de gestión
+ a| 
+OBTENGA
+ a| 
+`/management-server/jobs/\{key}`
+
+|===
++
+Si consulta por el ID del objeto Job, verá si el recurso compartido de archivos se actualiza correctamente. En caso de que se produzca un error, solucione un error y vuelva a ejecutar la API. Una vez creada correctamente, consulte el recurso compartido de archivos para ver el objeto modificado:
+
++
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+proveedor de almacenamiento
+ a| 
+OBTENGA
+ a| 
+`/storage-provider/file-shares/\{key}`
+
+|===
++
+Vea los detalles del recurso compartido de archivos en el resultado.
+
++
+[listing]
+----
+"assigned_performance_service_level": {
+        "key": "1251e51b-069f-11ea-980d-fa163e82bbf2",
+        "name": "Value",
+        "peak_iops": 75,
+        "expected_iops": 75,
+        "_links": {
+            "self": {
+                "href": "/api/storage-provider/performance-service-levels/1251e51b-069f-11ea-980d-fa163e82bbf2"
+            }
+        }
+----
+
+
+
+
+== Actualizando las LUN
+
+Al actualizar una LUN, puede modificar los siguientes parámetros:
+
+* Capacidad o tamaño
+* Configuración en línea o sin conexión
+* Política de eficiencia de almacenamiento
+* Nivel de servicio de rendimiento
+* Mapa de LUN
+
+
+[NOTE]
+====
+Durante una sola ejecución de API, solo puede actualizar un parámetro.
+
+====
+En este procedimiento, se describe cómo añadir un nivel de servicio de rendimiento a una LUN. Puede utilizar el mismo procedimiento para actualizar cualquier otra propiedad de LUN.
+
+. Obtenga la clave LUN de la LUN que desea actualizar. Esta API muestra detalles de todas las LUN del centro de datos. Evite este paso si ya conoce la clave LUN.
++
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+Proveedor de almacenamiento de NetApp
+ a| 
+OBTENGA
+ a| 
+`/storage-provider/luns`
+
+|===
+. Vea los detalles de la LUN. Para ello, ejecute la siguiente API con la clave LUN que obtuvo.
++
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+Proveedor de almacenamiento de NetApp
+ a| 
+OBTENGA
+ a| 
+`/storage-provider/luns/\{key}`
+
+|===
++
+Vea los detalles de la LUN en el resultado. Puede ver que no hay ningún nivel de servicio de rendimiento asignado a esta LUN.
+
++
+*Ejemplo de salida JSON*
+
++
+[listing]
+----
+
+  "assigned_performance_service_level": {
+        "key": null,
+        "name": "Unassigned",
+        "peak_iops": null,
+        "expected_iops": null,
+        "_links": {}
+      },
+----
+. Obtenga la clave del nivel de servicio de rendimiento que desea asignar a la LUN.
++
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+Niveles de servicio de rendimiento
+ a| 
+OBTENGA
+ a| 
+`/storage-provider/performance-service-levels`
+
+|===
++
+[NOTE]
+====
+Para recuperar los detalles de los niveles de servicio de rendimiento definidos por el sistema, configure el `system_defined` introduzca el parámetro a. `true`. En la salida, obtenga la clave del nivel de servicio de rendimiento que desea aplicar en la LUN.
+
+====
+. Aplique el nivel de servicio de rendimiento en la LUN.
++
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+Proveedor de almacenamiento de NetApp
+ a| 
+PARCHE
+ a| 
+`/storage-provider/lun/\{key}`
+
+|===
++
+En la entrada, debe especificar solo el parámetro que desea actualizar, junto con la clave LUN. En este caso, es la clave del nivel de servicio rendimiento.
+
++
+*Muestra de rizo*
+
++
+[listing]
+----
+curl -X PATCH "https://<hostname>/api/storage-provider/luns/7d5a59b3-953a-11e8-8857-00a098dcc959" -H "accept: application/json" -H "Content-Type: application/json" H "Authorization: Basic <Base64EncodedCredentials>" -d
+"{ \"performance_service_level\": { \"key\": \"1251e51b-069f-11ea-980d-fa163e82bbf2\" }"
+----
++
+El resultado de JSON muestra una clave de objeto de trabajo que puede utilizar para verificar la LUN que ha actualizado.
+
+. Vea los detalles de la LUN. Para ello, ejecute la siguiente API con la clave LUN que obtuvo.
++
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+Proveedor de almacenamiento de NetApp
+ a| 
+OBTENGA
+ a| 
+`/storage-provider/luns/\{key}`
+
+|===
++
+Vea los detalles de la LUN en el resultado. Puede ver que el nivel de servicio de rendimiento está asignado a esta LUN.
+
++
+*Ejemplo de salida JSON*
+
++
+[listing]
+----
+
+     "assigned_performance_service_level": {
+        "key": "1251e51b-069f-11ea-980d-fa163e82bbf2",
+        "name": "Value",
+        "peak_iops": 75,
+        "expected_iops": 75,
+        "_links": {
+            "self": {
+                "href": "/api/storage-provider/performance-service-levels/1251e51b-069f-11ea-980d-fa163e82bbf2"
+            }
+----
+

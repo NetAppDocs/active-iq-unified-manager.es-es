@@ -1,0 +1,45 @@
+---
+permalink: reporting/task_create_report_volume_relationships_source_of_failure.html 
+sidebar: sidebar 
+keywords: create, report, group, volume, relationships, source, failure 
+summary: Es posible crear un informe que agrupa volúmenes por el motivo que la relación está en estado incorrecto. 
+---
+= Creación de un informe para agrupar relaciones de volumen por origen de error
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Es posible crear un informe que agrupa volúmenes por el motivo que la relación está en estado incorrecto.
+
+*Lo que necesitará*
+
+* Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
+
+Use los siguientes pasos para crear una vista personalizada que agrupa volúmenes por origen de un error y, a continuación, programa la generación de un informe para esa vista.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *almacenamiento* > *volúmenes*.
+. En el menú Ver, seleccione *relación* > *todas las relaciones*.
+. Seleccione *Mostrar/Ocultar* para asegurarse de que las columnas «'Salud de la relación'» y «'razón no saludable'» aparecen en la vista.
++
+Agregue o elimine otras columnas para crear una vista que sea importante para el informe.
+
+. Arrastre las columnas «Salud de la relación» y «razón no saludable» cerca de la columna «Estado».
+. Haga clic en el icono de filtro, agregue el siguiente filtro y, a continuación, haga clic en *aplicar filtro*:
++
+** La salud de la relación es mala
+
+
+. Haga clic en la parte superior de la columna "'razón no saludable'" para agrupar las relaciones de volumen por origen del fallo.
+. Guarde la vista con un nombre específico que refleje lo que muestra la vista, por ejemplo, "'Relaciones vol por fallo'".
+. Haga clic en el botón *Informes programados* de la página de inventario.
+. Introduzca un nombre para el programa de informes y complete los otros campos de informe y, a continuación, haga clic en la Marca de verificación (image:../media/blue_check.gif[""]) al final de la fila.
++
+El informe se envía inmediatamente como prueba. Después de esto, el informe genera y se envía por correo electrónico a los destinatarios enumerados utilizando la frecuencia especificada.
+
+
+
+Basándose en los resultados mostrados en el informe, puede investigar la fuente y el impacto de cada tipo de fallo.

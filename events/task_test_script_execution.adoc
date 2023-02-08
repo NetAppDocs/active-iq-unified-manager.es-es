@@ -1,0 +1,54 @@
+---
+permalink: events/task_test_script_execution.html 
+sidebar: sidebar 
+keywords: test, script, execution 
+summary: Puede verificar que el script se ejecute correctamente cuando se genera una alerta para un objeto de almacenamiento. 
+---
+= Prueba de la ejecución de scripts
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede verificar que el script se ejecute correctamente cuando se genera una alerta para un objeto de almacenamiento.
+
+*Lo que necesitará*
+
+* Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+* Debe haber cargado un script en el formato de archivo compatible a Unified Manager.
+
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *Storage Management* > *Scripts*.
+. En la página *Scripts*, agregue el script de prueba.
+. En el panel de navegación izquierdo, haga clic en *Administración de almacenamiento* > *Configuración de alertas*.
+. En la página *Configuración de alertas*, realice una de las siguientes acciones:
++
+|===
+| Para... | Realice lo siguiente... 
+
+
+ a| 
+Añadir una alerta
+ a| 
+.. Haga clic en *Agregar*.
+.. En la sección acciones, asocie la alerta al script de prueba.
+
+
+
+
+ a| 
+Editar una alerta
+ a| 
+.. Seleccione una alerta y, a continuación, haga clic en *Editar*.
+.. En la sección acciones, asocie la alerta al script de prueba.
+
+
+|===
+. Haga clic en *Guardar*.
+. En la página *Configuración de alertas*, seleccione la alerta que ha agregado o modificado y, a continuación, haga clic en *Prueba*.
++
+El script se ejecuta con el argumento "-test" y se envía una alerta de notificación a las direcciones de correo electrónico que se especificaron al crear la alerta.
+
+

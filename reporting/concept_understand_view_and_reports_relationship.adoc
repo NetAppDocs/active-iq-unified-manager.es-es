@@ -1,0 +1,29 @@
+---
+permalink: reporting/concept_understand_view_and_reports_relationship.html 
+sidebar: sidebar 
+keywords: understand, view, report, relationship 
+summary: Las vistas y las páginas de inventario se convierten en informes cuando las descarga o las programa. 
+---
+= Comprensión de la relación de vista e informe
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Las vistas y las páginas de inventario se convierten en informes cuando las descarga o las programa.
+
+Se pueden personalizar y guardar vistas y páginas de inventario para volver a utilizarlas. Casi todo lo que se puede ver en Unified Manager se puede guardar, reutilizar, personalizar, programar y compartir como un informe.
+
+En el menú desplegable de la vista, los elementos con el icono de eliminación son vistas personalizadas existentes que usted u otro usuario han creado. Los elementos sin un icono son las vistas predeterminadas que se proporcionan con Unified Manager. Las vistas predeterminadas no se pueden modificar ni eliminar.
+
+[NOTE]
+====
+* Si elimina una vista personalizada de la lista, también elimina los archivos de Excel o los informes programados que utilicen esa vista.
+* Si cambia una vista personalizada, los informes que utilizan esa vista reflejarán el cambio la próxima vez que se genere el informe y se envíe por correo electrónico de acuerdo con la programación del informe. Al cambiar las vistas, asegúrese de que los cambios funcionan con las personalizaciones de Excel asociadas que se utilizan para los informes. Si es necesario, puede actualizar el archivo de Excel descargándolo, realizando los cambios necesarios y cargándolo como una nueva personalización de Excel para la vista.
+
+
+====
+image::../media/view_drop_down_3.png[vista desplegable 3]
+
+Sólo los usuarios con la función Administrador de aplicaciones o Administrador de almacenamiento pueden ver el icono de eliminar, cambiar o eliminar una vista, o cambiar o eliminar un informe programado.

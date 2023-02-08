@@ -1,0 +1,160 @@
+---
+permalink: api-automation/task_modify_fileshare_to_include_cifs_and_nfs.html 
+sidebar: sidebar 
+keywords: modify, nfs, file, share, support, cifs 
+summary: 'Es posible modificar un recurso compartido de archivos NFS para admitir el protocolo CIFS. Durante la creación de archivos compartidos, es posible especificar tanto los parámetros de la lista de control de acceso (ACL) como las reglas de política de exportación para el mismo recurso compartido de archivos. No obstante, si desea habilitar CIFS en el mismo volumen en el que se creó un recurso compartido de archivos NFS, es posible actualizar los parámetros de ACL en ese recurso compartido de archivos para admitir CIFS.' 
+---
+= Modificar un recurso compartido de archivos NFS mediante API para admitir CIFS
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Es posible modificar un recurso compartido de archivos NFS para admitir el protocolo CIFS. Durante la creación de archivos compartidos, es posible especificar tanto los parámetros de la lista de control de acceso (ACL) como las reglas de política de exportación para el mismo recurso compartido de archivos. No obstante, si desea habilitar CIFS en el mismo volumen en el que se creó un recurso compartido de archivos NFS, es posible actualizar los parámetros de ACL en ese recurso compartido de archivos para admitir CIFS.
+
+*Lo que necesitará*
+
+. Se debe haber creado un recurso compartido de archivos NFS con únicamente los detalles de la política de exportación. Para obtener información, consulte _Administrar recursos compartidos de archivos_ y _Modificar las cargas de trabajo de almacenamiento_.
+. Debe tener la clave para compartir archivos para ejecutar esta operación. Para obtener información acerca de cómo ver los detalles de los recursos compartidos de archivos y recuperar la clave de uso compartido de archivos mediante el identificador de trabajo, consulte _Provisioning CIFS and NFS file shares_.
+
+
+Esto se aplica a un recurso compartido de archivos NFS creado añadiendo solo reglas de política de exportación y no parámetros ACL. El recurso compartido de archivos NFS se modifica para incluir los parámetros ACL.
+
+.Pasos
+. En el recurso compartido de archivos NFS, realice un `PATCH` Operación con los detalles de ACL para permitir el acceso CIFS.
++
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+proveedor de almacenamiento
+ a| 
+PARCHE
+ a| 
+`/storage-provider/file-shares`
+
+|===
++
+*Muestra de rizo*
+
++
+Según los privilegios de acceso que asigne al grupo de usuarios, como se muestra en el siguiente ejemplo, se crea una ACL y se asigna al recurso compartido de archivos.
+
++
+[listing]
+----
+{
+  "access_control": {
+    "acl": [
+      {
+        "permission": "read",
+        "user_or_group": "everyone"
+      }
+    ],
+    "active_directory_mapping": {
+      "key": "3b648c1b-d965-03b7-20da-61b791a6263c"
+    }
+----
++
+*Ejemplo de salida JSON*
+
++
+La operación devuelve el identificador de trabajo del trabajo que ejecuta la actualización.
+
+. Compruebe si los parámetros se han agregado correctamente consultando los detalles del recurso compartido de archivos para el mismo recurso compartido de archivos.
++
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+proveedor de almacenamiento
+ a| 
+OBTENGA
+ a| 
+`/storage-provider/file-shares/\{key}`
+
+|===
++
+*Ejemplo de salida JSON*
+
++
+[listing]
+----
+"access_control": {
+        "acl": [
+            {
+                "user_or_group": "everyone",
+                "permission": "read"
+            }
+        ],
+        "export_policy": {
+            "id": 1460288880641,
+            "key": "7d5a59b3-953a-11e8-8857-00a098dcc959:type=export_policy,uuid=1460288880641",
+            "name": "default",
+            "rules": [
+                {
+                    "anonymous_user": "65534",
+                    "clients": [
+                        {
+                            "match": "0.0.0.0/0"
+                        }
+                    ],
+                    "index": 1,
+                    "protocols": [
+                        "nfs3",
+                        "nfs4"
+                    ],
+                    "ro_rule": [
+                        "sys"
+                    ],
+                    "rw_rule": [
+                        "sys"
+                    ],
+                    "superuser": [
+                        "none"
+                    ]
+                },
+                {
+                    "anonymous_user": "65534",
+                    "clients": [
+                        {
+                            "match": "0.0.0.0/0"
+                        }
+                    ],
+                    "index": 2,
+                    "protocols": [
+                        "cifs"
+                    ],
+                    "ro_rule": [
+                        "ntlm"
+                    ],
+                    "rw_rule": [
+                        "ntlm"
+                    ],
+                    "superuser": [
+                        "none"
+                    ]
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "/api/datacenter/protocols/nfs/export-policies/7d5a59b3-953a-11e8-8857-00a098dcc959:type=export_policy,uuid=1460288880641"
+                }
+            }
+        }
+    },
+    "_links": {
+        "self": {
+            "href": "/api/storage-provider/file-shares/7d5a59b3-953a-11e8-8857-00a098dcc959:type=volume,uuid=e581c23a-1037-11ea-ac5a-00a098dcc6b6"
+        }
+    }
+----
++
+Se puede ver la ACL asignada junto con la política de exportación para el mismo recurso compartido de archivos.
+
+

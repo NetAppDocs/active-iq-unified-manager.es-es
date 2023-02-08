@@ -1,0 +1,26 @@
+---
+permalink: health-checker/task_delete_scripts.html 
+sidebar: sidebar 
+keywords: delete, scripts 
+summary: Es posible eliminar un script de Unified Manager cuando el script ya no se requiere o no es válido. 
+---
+= Eliminar scripts
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Es posible eliminar un script de Unified Manager cuando el script ya no se requiere o no es válido.
+
+*Lo que necesitará*
+
+* Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+* El script no debe estar asociado a una alerta.
+
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *Storage Management* > *Scripts*.
+. En la página *Scripts*, seleccione la secuencia de comandos que desea eliminar y, a continuación, haga clic en *Eliminar*.
+. En el cuadro de diálogo *Advertencia*, confirme la eliminación haciendo clic en *Sí*.
+

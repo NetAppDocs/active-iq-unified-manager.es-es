@@ -1,0 +1,86 @@
+---
+permalink: api-automation/concept_administration_apis.html 
+sidebar: sidebar 
+keywords: perform, administrative, tasks 
+summary: Puede usar las API de la categoría de administración para modificar la configuración de backup, comprobar la información del archivo de backup y los certificados de clúster, así como gestionar los clústeres de ONTAP como orígenes de datos de Active IQ Unified Manager. 
+---
+= Realización de tareas administrativas mediante API
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede usar las API en `administration` Categoría para modificar la configuración de copia de seguridad, verificar la información del archivo de copia de seguridad y los certificados del clúster, así como gestionar los clústeres de ONTAP como orígenes de datos de Active IQ Unified Manager.
+
+[NOTE]
+====
+Debe tener la función Administrador de aplicaciones para ejecutar estas operaciones. También puede usar la interfaz de usuario web de Unified Manager para configurar estos ajustes.
+
+====
+[cols="3*"]
+|===
+| Verbo HTTP | Ruta | Descripción 
+
+
+ a| 
+`GET`
+
+`PATCH`
+ a| 
+`/admin/backup-settings`
+
+`/admin/backup-settings`
+ a| 
+Puede utilizar el `GET` Método para ver la configuración de la programación de backup configurada en Unified Manager de forma predeterminada. Puede verificar lo siguiente:
+
+* Si la programación está habilitada o deshabilitada
+* Frecuencia del backup programado (diario o semanal)
+* Hora del backup
+* Número máximo de archivos de copia de seguridad que se deben conservar en la aplicación
+
+
+La hora de la copia de seguridad se encuentra en la zona horaria del servidor.
+
+La configuración de backup de la base de datos se encuentra disponible en Unified Manager de forma predeterminada, y no se puede crear una programación de backup. Sin embargo, puede utilizar la `PATCH` método para modificar la configuración predeterminada.
+
+
+
+ a| 
+`GET`
+ a| 
+`/admin/backup-file-info`
+ a| 
+Se genera un archivo de volcado de backup cada vez que se modifica la programación de backup para Unified Manager. Puede utilizar este método para comprobar si el archivo de copia de seguridad se genera según la configuración de copia de seguridad modificada y si la información del archivo coincide con la configuración modificada.
+
+
+
+ a| 
+`GET`
+ a| 
+`/admin/datasource-certificate`
+ a| 
+Puede usar este método para ver el certificado de origen de datos (clúster) desde el almacén de confianza. Es necesario validar el certificado antes de agregar un clúster de ONTAP como origen de datos de Unified Manager.
+
+
+
+ a| 
+`GET`
+
+`POST`
+
+`PATCH`
+
+`DELETE`
+ a| 
+`/admin/datasources/clusters`
+
+`/admin/datasources/clusters/\{key}`
+ a| 
+Puede utilizar el `GET` Método para recuperar los detalles de los orígenes de datos (clústeres de ONTAP) gestionados por Unified Manager.
+
+También puede agregar un clúster nuevo a Unified Manager como origen de datos. Para añadir un clúster, debe conocer el nombre de host, el nombre de usuario y la contraseña.
+
+Para modificar y eliminar un clúster gestionado como origen de datos por Unified Manager, utilice la clave de clúster de ONTAP.
+
+|===

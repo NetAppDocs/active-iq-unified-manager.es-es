@@ -1,0 +1,16 @@
+---
+permalink: storage-mgmt/concept_override_management_actions_through_scripts.html 
+sidebar: sidebar 
+keywords: override, management, actions, scripts 
+summary: Puede crear scripts personalizados y asociarlos a alertas para realizar acciones específicas en eventos específicos, y no optar por las acciones de gestión predeterminadas que están disponibles en la página Management Actions o en la consola de Unified Manager. 
+---
+= Sobrescribir las acciones de gestión a través de scripts
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede crear scripts personalizados y asociarlos a alertas para realizar acciones específicas en eventos específicos, y no optar por las acciones de gestión predeterminadas que están disponibles en la página Management Actions o en la consola de Unified Manager.
+
+Si desea realizar acciones específicas para un tipo de evento y elegir no corregirlas como parte de la funcionalidad de acción de gestión proporcionada por Unified Manager, puede configurar un script personalizado para la acción específica. A continuación, puede asociar el script con una alerta para ese tipo de evento y ocuparse de estos eventos individualmente. En este caso, las acciones de gestión no se generan para ese tipo de evento específico en la página Management Actions o la consola de Unified Manager.

@@ -1,0 +1,37 @@
+---
+permalink: health-checker/reference_configure_ontap_cluster.html 
+sidebar: sidebar 
+keywords: netapp, snapshot copy, copies, backup, windows, configure, ontap, cluster 
+summary: Es necesario realizar algunos pasos de configuración previa en clústeres de ONTAP para poder realizar un backup y restaurar Active IQ Unified Manager mediante la copia de Snapshot en sistemas Windows. 
+---
+= Configurando clúster de ONTAP
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Es necesario realizar algunos pasos de configuración previa en clústeres de ONTAP para poder realizar un backup y restaurar Active IQ Unified Manager mediante la copia de Snapshot en sistemas Windows.
+
+Es posible configurar el clúster de ONTAP mediante el símbolo del sistema o la interfaz de usuario de System Manager. La configuración del clúster de ONTAP implica la configuración de LIF de datos para que estén disponibles como LIF iSCSI para el equipo virtual de almacenamiento. El paso siguiente consiste en configurar un equipo virtual de almacenamiento habilitado para iSCSI mediante la interfaz de usuario de System Manager. Tendrá que configurar una ruta de red estática para esta máquina virtual de almacenamiento a fin de controlar cómo utilizan las LIF la red para el tráfico saliente.
+
+[NOTE]
+====
+Debe tener un volumen dedicado y un LUN para la configuración de backup. El volumen seleccionado solo debe incluir un LUN. El tamaño de la LUN debe ser al menos el doble del tamaño de datos que se espera que gestione Active IQ Unified Manager.
+
+====
+Debe realizar la siguiente configuración:
+
+.Pasos
+. Configurar una máquina virtual de almacenamiento habilitada para iSCSI o utilizar una máquina virtual de almacenamiento existente con la misma configuración.
+. Configure una ruta de red para el equipo virtual de almacenamiento configurado.
+. Configure un volumen de la capacidad adecuada y una única LUN dentro para garantizar que el volumen se dedica únicamente a esta LUN.
++
+
+NOTE: En una situación en la que se crea la LUN en System Manager, es posible que la desasignación de la LUN elimine el igroup y que se produzca un error en la restauración. Para evitar esta situación, asegúrese de que al crear una LUN, se crea explícitamente y no se elimina cuando se anula la asignación de la LUN.
+
+. Configure un iGroup en la máquina virtual de almacenamiento.
+. Configurar un conjunto de puertos.
+. Integre el igroup con el conjunto de puertos.
+. Asigne la LUN al igroup.
+

@@ -1,0 +1,29 @@
+---
+permalink: health-checker/task_view_all_security_events.html 
+sidebar: sidebar 
+keywords: view, active, security events 
+summary: Puede ver todos los eventos de seguridad activos y, a continuación, asignar cada uno de ellos a un usuario que pueda resolver el problema. Además, si hay determinados eventos de seguridad que no desea recibir, esta lista puede ayudarle a identificar los eventos que desea deshabilitar. 
+---
+= Ver todos los eventos de seguridad activos
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede ver todos los eventos de seguridad activos y, a continuación, asignar cada uno de ellos a un usuario que pueda resolver el problema. Además, si hay determinados eventos de seguridad que no desea recibir, esta lista puede ayudarle a identificar los eventos que desea deshabilitar.
+
+*Lo que necesitará*
+
+Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *Gestión de eventos*.
++
+De forma predeterminada, los eventos nuevos y reconocidos se muestran en la página de inventario Gestión de eventos.
+
+. En el menú Ver, seleccione *Eventos de seguridad activos*.
++
+La página muestra todos los eventos de seguridad nuevos y reconocidos que se han generado en los últimos 7 días.
+
+

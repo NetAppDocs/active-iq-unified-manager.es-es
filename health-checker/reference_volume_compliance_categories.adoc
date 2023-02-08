@@ -1,0 +1,49 @@
+---
+permalink: health-checker/reference_volume_compliance_categories.html 
+sidebar: sidebar 
+keywords: volume, encryption, compliance, categories 
+summary: En esta tabla, se describen los parámetros de cifrado de volúmenes que Unified Manager evalúa para determinar si los datos de los volúmenes están protegidos de forma adecuada para que usuarios no autorizados puedan acceder a ellos. 
+---
+= Categorías de cumplimiento de volúmenes
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+En esta tabla, se describen los parámetros de cifrado de volúmenes que Unified Manager evalúa para determinar si los datos de los volúmenes están protegidos de forma adecuada para que usuarios no autorizados puedan acceder a ellos.
+
+Tenga en cuenta que los parámetros de cifrado de volúmenes no afectan a si el clúster o el equipo virtual de almacenamiento se consideran conformes.
+
+[cols="2*"]
+|===
+| Parámetro | Descripción 
+
+
+ a| 
+Cifrado por software
+ a| 
+Muestra el número de volúmenes protegidos con las soluciones de cifrado de software de cifrado de volúmenes de NetApp (NVE) o cifrado de agregados de NetApp (NAE).
+
+
+
+ a| 
+Cifrado por hardware
+ a| 
+Muestra la cantidad de volúmenes protegidos con cifrado de hardware de cifrado de almacenamiento de NetApp (NSE).
+
+
+
+ a| 
+Cifrado de software y hardware
+ a| 
+Muestra el número de volúmenes protegidos por cifrado de software y hardware.
+
+
+
+ a| 
+No cifrado
+ a| 
+Muestra el número de volúmenes que no están cifrados.
+
+|===

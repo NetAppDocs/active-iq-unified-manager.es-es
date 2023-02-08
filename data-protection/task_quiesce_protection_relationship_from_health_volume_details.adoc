@@ -1,0 +1,41 @@
+---
+permalink: data-protection/task_quiesce_protection_relationship_from_health_volume_details.html 
+sidebar: sidebar 
+keywords: quiesce, protection, relationship, volume, health details page 
+summary: Es posible poner en modo inactivo una relación de protección para evitar temporalmente las transferencias de datos. Puede desactivar una relación cuando desea crear una copia Snapshot de un volumen de destino de SnapMirror que contiene una base de datos, y desea garantizar que su contenido sea estable durante la copia Snapshot. 
+---
+= Desactivación de una relación de protección desde la página de detalles volumen / Salud
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Es posible poner en modo inactivo una relación de protección para evitar temporalmente las transferencias de datos. Puede desactivar una relación cuando desea crear una copia Snapshot de un volumen de destino de SnapMirror que contiene una base de datos, y desea garantizar que su contenido sea estable durante la copia Snapshot.
+
+*Lo que necesitará*
+
+* Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+* Debe haber configurado Workflow Automation.
+
+
+La acción de inactividad no se muestra en las siguientes instancias:
+
+* Si la configuración de RBAC no permite esta acción, por ejemplo, si solo tiene privilegios de operador
+* Si se desconoce el ID de volumen, por ejemplo, cuando se mantiene una relación de interconexión de clústeres y el clúster de destino aún no se detectó
+* Cuando no esté emparejado Workflow Automation y Unified Manager
+
+
+.Pasos
+. En la pestaña *Protección* de la página de detalles *volumen / Salud*, haga clic con el botón derecho del ratón en la relación en la vista de topología para la relación de protección que desea desactivar.
+. Seleccione *Quiesce* en el menú.
+. Haga clic en *Sí* para continuar.
++
+El estado del trabajo de inactividad se muestra en la parte superior de la página de detalles Volume / Health, junto con un enlace a los detalles del trabajo.
+
+. Haga clic en el enlace *Ver detalles* para ir a la página de detalles *Trabajo* para obtener detalles adicionales y el progreso del trabajo.
+. *Opcional:* haga clic en la flecha Atrás de su navegador para volver a la página de detalles *volumen / Salud*.
++
+El trabajo de inactividad finaliza cuando todas las tareas de trabajo se completan correctamente.
+
+

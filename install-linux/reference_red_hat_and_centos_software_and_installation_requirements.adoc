@@ -1,0 +1,108 @@
+---
+permalink: install-linux/reference_red_hat_and_centos_software_and_installation_requirements.html 
+sidebar: sidebar 
+keywords: linux software, installation requirements, system, authorization,  requirements 
+summary: El sistema Linux en el que instala Unified Manager requiere versiones específicas del sistema operativo y del software compatible. 
+---
+= Requisitos de instalación y software Linux
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+El sistema Linux en el que instala Unified Manager requiere versiones específicas del sistema operativo y del software compatible.
+
+
+
+== Software del sistema operativo
+
+El sistema Linux debe tener instaladas las siguientes versiones del sistema operativo y el software de soporte:
+
+* Red Hat Enterprise Linux versión 7.x y 8.x basada en arquitectura x86_64.
+* CentOS versión 7.x basado en arquitectura x86_64 CentOS Stream no es compatible.
+
+
+Consulte la matriz de interoperabilidad para ver la lista completa y más actualizada de las versiones compatibles de Red Hat Enterprise Linux y CentOS.
+
+http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"]
+
+
+
+== Software de terceros
+
+Unified Manager se ha puesto en marcha en un servidor web de WildFly. WildFly 19.0.0 se incluye y configura con Unified Manager.
+
+Se requieren los siguientes paquetes de terceros, pero no se incluyen con Unified Manager. Estos paquetes son instalados automáticamente por el `yum` instalador durante la instalación, siempre que haya configurado los repositorios como se menciona en las siguientes secciones.
+
+* MySQL Community Edition versión 8.0.30 (del repositorio de MySQL).
+* OpenJDK versión 11.0.17 (del repositorio de Red Hat Extra Enterprise Linux Server)
+* Python 3.6.x
+* P7zip versión 16.02 o posterior (del repositorio de Red Hat Extra Packages para Enterprise Linux)
+
+
+[NOTE]
+====
+Debe apagar una instancia en ejecución de Unified Manager antes de actualizar cualquier software de terceros. Tras completar la instalación del software de terceros, puede reiniciar Unified Manager.
+
+====
+
+
+== Requisitos de autorización de usuarios
+
+La instalación de Unified Manager en un sistema Linux puede realizarlo el usuario raíz o los usuarios no raíz mediante el `sudo` comando.
+
+
+
+== Requisitos de instalación
+
+A continuación se enumeran las mejores prácticas para instalar Red Hat Enterprise Linux o CentOS y los repositorios asociados en su sistema. Los sistemas instalados o configurados de manera diferente, o puestos en marcha fuera de las instalaciones (en el cloud), pueden requerir pasos adicionales y es posible que Unified Manager no se ejecute correctamente en dichas puestas en marcha.
+
+* Debe instalar Red Hat Enterprise Linux o CentOS de acuerdo con las mejores prácticas de Red Hat y debe seleccionar las siguientes opciones predeterminadas, lo que requiere seleccionar el entorno base "servidor con GUI".
+* Durante la instalación de Unified Manager en Red Hat Enterprise Linux o CentOS, el sistema debe tener acceso al repositorio adecuado para que el programa de instalación pueda acceder a todas las dependencias de software necesarias e instalarlas.
+* Para la `yum` Instalador para buscar software dependiente en los repositorios de Red Hat Enterprise Linux, debe haber registrado el sistema durante la instalación de Red Hat Enterprise Linux o después mediante una suscripción válida a Red Hat.
++
+Consulte la documentación de Red Hat para obtener información acerca de Red Hat Subscription Manager.
+
+* Debe habilitar el repositorio de paquetes adicionales para Enterprise Linux (EPEL) para instalar correctamente las utilidades de terceros necesarias en el sistema.
++
+Si el repositorio de EPEL no está configurado en su sistema, debe descargar y configurar manualmente el repositorio.
+
++
+Consulte link:task_manually_configure_epel_repository.html["Configurar manualmente el repositorio de EPEL"].
+
+* Si no está instalada la versión correcta de MySQL, debe habilitar el repositorio de MySQL para que pueda instalar correctamente el software MySQL en el sistema.
++
+Si el repositorio de MySQL no está configurado en el sistema, debe descargar y configurar manualmente el repositorio.
+
++
+Consulte link:task_manually_configure_mysql_repository.html["Configurar manualmente el repositorio de MySQL"].
+
+
+
+Si su sistema no tiene acceso a Internet y los repositorios no se duplican desde un sistema conectado a Internet al sistema no conectado, siga las instrucciones de instalación para determinar las dependencias de software externo de su sistema. A continuación, puede descargar el software necesario en el sistema conectado a Internet y copiar el `.rpm` Archivos en el sistema en el que tiene pensado instalar Unified Manager. Para descargar los artefactos y paquetes, debe usar `yum install` comando. Debe asegurarse de que los dos sistemas ejecutan la misma versión del sistema operativo y de que la licencia de suscripción es para la versión adecuada de Red Hat Enterprise Linux o CentOS.
+
+[NOTE]
+====
+No debe instalar el software de terceros necesario desde repositorios distintos a los que se enumeran aquí. El software instalado desde los repositorios de Red Hat se ha diseñado explícitamente para Red Hat Enterprise Linux y cumple con las prácticas recomendadas de Red Hat (diseños de directorios, permisos, etc.). Es posible que el software desde otras ubicaciones no siga estas directrices, lo que puede provocar errores en la instalación de Unified Manager o podría provocar problemas con actualizaciones futuras.
+
+====
+
+
+== Requisito del puerto 443
+
+Las imágenes genéricas de Red Hat Enterprise Linux y CentOS pueden bloquear el acceso externo al puerto 443. Debido a esta restricción, es posible que no se pueda conectar a la interfaz de usuario web del administrador después de instalar Unified Manager. La ejecución del comando siguiente permite el acceso al puerto 443 para todos los usuarios y aplicaciones externos en un sistema genérico Red Hat Enterprise Linux o CentOS.
+
+`# firewall-cmd --zone=public --add-port=443/tcp --permanent; firewall-cmd --reload`
+
+Debe instalar Red Hat Enterprise Linux y CentOS con el entorno base "servidor con GUI". Proporciona los comandos utilizados por las instrucciones de instalación de Unified Manager. Es posible que otros entornos base requieran instalar comandos adicionales para validar o completar la instalación. Si la `firewall-cmd` no está disponible en el sistema, debe instalarlo ejecutando el siguiente comando:
+
+`# sudo yum install firewalld`
+
+Póngase en contacto con EL departamento de TI antes de ejecutar los comandos para ver si sus políticas de seguridad requieren un procedimiento diferente.
+
+[NOTE]
+====
+THP (páginas grandes transparentes) debe desactivarse en sistemas CentOS y Red Hat. Cuando se habilita esta opción, en algunos casos puede provocar que Unified Manager se apague cuando ciertos procesos consuman demasiado memoria y queden terminados.
+
+====

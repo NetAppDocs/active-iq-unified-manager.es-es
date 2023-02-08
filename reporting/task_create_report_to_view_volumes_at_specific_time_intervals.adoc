@@ -1,0 +1,42 @@
+---
+permalink: reporting/task_create_report_to_view_volumes_at_specific_time_intervals.html 
+sidebar: sidebar 
+keywords: create, report, view, volume, transfer, trends, specific, time intervals 
+summary: Se puede crear un informe que muestre las tendencias de transferencia de volumen en intervalos de tiempo específicos. 
+---
+= Creación de un informe para ver las tendencias de transferencia de volumen en intervalos de tiempo específicos
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Se puede crear un informe que muestre las tendencias de transferencia de volumen en intervalos de tiempo específicos.
+
+*Lo que necesitará*
+
+* Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
+
+Use los siguientes pasos para crear una vista personalizada de los volúmenes en intervalos de tiempo específicos y luego programar la generación de un informe para esa vista.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *almacenamiento* > *volúmenes*.
+. En el menú Ver, seleccione *relación* > *Estado de transferencia de último 1 mes*.
+. Seleccione *Mostrar/Ocultar* para eliminar las columnas que no desee del informe.
+. Arrastre la columna duración de la transferencia cerca de la columna "'Resultado operativo'".
+. Haga clic en el icono de filtro, agregue el siguiente filtro y, a continuación, haga clic en *aplicar filtro*:
++
+** Hora de finalización de la transferencia en los últimos 7 días
+
+
+. Haga clic en la parte superior de la columna "'duración de la transferencia'" para ordenar los volúmenes por intervalo de tiempo.
+. Guarde la vista con un nombre específico que refleje lo que se muestra en la vista, por ejemplo «'volúmenes por duración'».
+. Haga clic en el botón *Informes programados* de la página de inventario.
+. Introduzca un nombre para el programa de informes, establezca la frecuencia como *Semanal* y complete los otros campos de informe y, a continuación, haga clic en la Marca de verificación (image:../media/blue_check.gif[""]) al final de la fila.
++
+El informe se envía inmediatamente como prueba. Después de esto, el informe genera y se envía por correo electrónico a los destinatarios enumerados utilizando la frecuencia especificada.
+
+
+
+Basándose en los resultados mostrados en el informe, puede investigar los intervalos de tiempo de transferencia.

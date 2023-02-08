@@ -1,0 +1,67 @@
+---
+permalink: storage-mgmt/concept_assign_policies_on_workloads.html 
+sidebar: sidebar 
+keywords: assign, policies, workloads, single, multiple, storage, system-recommended, psls 
+summary: 'Puede asignar políticas de eficiencia del almacenamiento (ASP) y niveles de servicio de rendimiento (PSLs) a cargas de trabajo de almacenamiento desde la página todas las cargas de trabajo mediante las distintas opciones de navegación.' 
+---
+= Asignar políticas a cargas de trabajo
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede asignar políticas de eficiencia del almacenamiento (ASP) y niveles de servicio de rendimiento (PSLs) a cargas de trabajo de almacenamiento desde la página todas las cargas de trabajo mediante las distintas opciones de navegación.
+
+
+
+== Asignación de políticas a una sola carga de trabajo
+
+Es posible asignar un PSL, UN SEP o ambos, a una sola carga de trabajo. Siga estos pasos:
+
+. Seleccionar la carga de trabajo.
+. Haga clic en el icono de edición situado junto a la fila y, a continuación, haga clic en *Editar*.
++
+Los campos *nivel de servicio de rendimiento asignado* y *Política de eficiencia de almacenamiento* están activados.
+
+. Seleccione el PSL o SEP requerido, o ambos.
+. Haga clic en el icono de comprobación para aplicar los cambios.
+
+
+[NOTE]
+====
+También puede seleccionar una carga de trabajo y hacer clic en *más acciones* para asignar las políticas.
+
+====
+
+
+== Asignar políticas a varias cargas de trabajo de almacenamiento
+
+Es posible asignar un PSL o UN SEP a varias cargas de trabajo de almacenamiento juntas. Siga estos pasos:
+
+. Seleccione las casillas de comprobación de las cargas de trabajo a las que desea asignar la política o seleccione todas las cargas de trabajo del centro de datos.
+. Haga clic en *más acciones*.
+. Para asignar un PSL, seleccione *asignar nivel de servicio de rendimiento*. Para asignar UN SEP, seleccione *asignar directiva de eficiencia del almacenamiento*. Aparecerá una ventana emergente que le permitirá seleccionar la directiva.
+. Seleccione la directiva adecuada y haga clic en *aplicar*. Se muestra el número de cargas de trabajo a las que se asignan las políticas. También se enumeran las cargas de trabajo en las que no se asignan las políticas, con la causa.
++
+[NOTE]
+====
+La aplicación de políticas en cargas de trabajo de forma masiva puede tardar algún tiempo, según el número de cargas de trabajo seleccionadas. Puede hacer clic en el botón *Ejecutar en segundo plano* y continuar con otras tareas mientras la operación se ejecuta en segundo plano. Una vez finalizada la asignación masiva, puede ver el estado de finalización. Si se aplica un PSL en varias cargas de trabajo, no es posible activar otra solicitud cuando se ejecuta el trabajo anterior de asignación masiva.
+
+====
+
+
+
+
+== Asignación de PSU recomendados por el sistema a cargas de trabajo
+
+Puede asignar LSP recomendadas por el sistema a estas cargas de trabajo de almacenamiento en un centro de datos que no tiene LSP asignadas o los LSP asignados no coinciden con las recomendaciones del sistema. Para utilizar esta funcionalidad, haga clic en el botón *asignar archivos PSL* recomendados por el sistema. No es necesario seleccionar cargas de trabajo específicas.
+
+La recomendación se determina internamente mediante análisis del sistema y se omite para aquellas cargas de trabajo cuyos IOPS y otros parámetros no coinciden con las definiciones de cualquier PSL disponible. Almacenamiento de cargas de trabajo con `Waiting for I/O` Y los Estados de aprendizaje también están excluidos.
+
+[NOTE]
+====
+Existen palabras clave especiales que Unified Manager busca en el nombre de la carga de trabajo para anular el análisis del sistema y recomendar una PSL diferente para la carga de trabajo. Cuando la carga de trabajo tenga las letras "'ora'" en el nombre, se recomienda **Extreme Performance**PSL. Y cuando la carga de trabajo tenga las letras "'vm'" en el nombre, se recomienda **Performance**PSL.
+
+====
+También consulte el artículo de la base de conocimientos (KB) https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/Performance_Service_Level'_is_not_adaptive_to_a_highly_variable_workload["El valor de ActiveIQ Unified Manager "Assign System recommended Performance Service Level" no es adaptable a una carga de trabajo de alta variable"]

@@ -1,0 +1,43 @@
+---
+permalink: reporting/task_create_report_to_view_aggregates_that_are_nearly_full.html 
+sidebar: sidebar 
+keywords: create, report, view, aggregates, full 
+summary: 'Puede crear un informe para resaltar los agregados que estén un 80 % o más completos.' 
+---
+= Creación de un informe para ver agregados del 80 % o más completos
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede crear un informe para resaltar los agregados que estén un 80 % o más completos.
+
+*Lo que necesitará*
+
+* Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
+
+Siga estos pasos para crear una vista personalizada que muestre agregados del 80 % o más completos y, a continuación, programe un informe para su generación.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *almacenamiento* > *agregados*.
+. En el menú Ver, seleccione *capacidad* > *todos los agregados*.
+. Seleccione *Mostrar/Ocultar* para eliminar las columnas que no desee del informe.
+. Arrastre las columnas «'% de datos disponibles'» y « % de datos usados» cerca de la columna «'agregado'».
+. Haga clic en el icono de filtro, agregue los siguientes filtros y, a continuación, haga clic en *aplicar filtro*:
++
+** % De datos usados es mayor que 80 %
+
+
+. Haga clic en la parte superior de la columna "'datos usados %'" para ordenar los resultados por porcentaje de capacidad.
+. Guarde la vista con un nombre específico que refleje lo que se muestra en la vista, por ejemplo, "'agregados casi completos'" y haga clic en la Marca de verificación (image:../media/blue_check.gif[""]) .
+. Haga clic en el botón *Informes programados* de la página de inventario.
+. Haga clic en *Agregar programación* para agregar una nueva fila a la página programas de informes de modo que pueda definir las características de programación para el nuevo informe.
+. Introduzca un nombre para el programa de informes y complete los otros campos de informe y, a continuación, haga clic en la Marca de verificación (image:../media/blue_check.gif[""]) al final de la fila.
++
+El informe se envía inmediatamente como prueba. Después de esto, el informe genera y se envía por correo electrónico a los destinatarios enumerados utilizando la frecuencia especificada.
+
+
+
+Basándose en los resultados mostrados en el informe, quizás desee mover algunos datos de ciertos agregados.

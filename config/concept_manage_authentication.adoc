@@ -1,0 +1,16 @@
+---
+permalink: config/concept_manage_authentication.html 
+sidebar: sidebar 
+keywords: manage, authentication 
+summary: Puede habilitar la autenticación mediante LDAP o Active Directory en el servidor de Unified Manager y configurarla para que funcione con los servidores con el fin de autenticar usuarios remotos. 
+---
+= Gestión de la autenticación
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede habilitar la autenticación mediante LDAP o Active Directory en el servidor de Unified Manager y configurarla para que funcione con los servidores con el fin de autenticar usuarios remotos.
+
+Para habilitar la autenticación remota, configurar los servicios de autenticación y agregar servidores de autenticación, consulte la sección anterior en *Configuración de Unified Manager para enviar notificaciones de alerta*.

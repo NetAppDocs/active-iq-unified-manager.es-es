@@ -1,0 +1,22 @@
+---
+permalink: reporting/concept_sample_microsoft_excel_reports.html 
+sidebar: sidebar 
+keywords: sample, microsoft, excel, reports 
+summary: Estos informes de ejemplo de Microsoft Excel tienen como objetivo introducir opciones de generación de informes disponibles mediante las características avanzadas de Excel. 
+---
+= Informes de ejemplo de Microsoft Excel
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Estos informes de ejemplo de Microsoft Excel tienen como objetivo introducir opciones de generación de informes disponibles mediante las características avanzadas de Excel.
+
+La funcionalidad avanzada de Excel puede crear una amplia gama de informes específicos a sus necesidades. Para obtener información completa sobre cómo utilizar Excel, consulte la documentación del producto.
+
+[NOTE]
+====
+Para administrar informes, debe tener la función Administrador de aplicaciones o Administrador de almacenamiento.
+
+====

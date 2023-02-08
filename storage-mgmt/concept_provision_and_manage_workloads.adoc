@@ -1,0 +1,46 @@
+---
+permalink: storage-mgmt/concept_provision_and_manage_workloads.html 
+sidebar: sidebar 
+keywords: provision, manage, workloads 
+summary: La función de gestión activa de Active IQ Unified Manager proporciona niveles de servicio de rendimiento, políticas de eficiencia del almacenamiento y API de proveedores de almacenamiento para aprovisionar, supervisar y gestionar cargas de trabajo de almacenamiento en un centro de datos. 
+---
+= Aprovisionamiento y gestión de cargas de trabajo
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+La función de gestión activa de Active IQ Unified Manager proporciona niveles de servicio de rendimiento, políticas de eficiencia del almacenamiento y API de proveedores de almacenamiento para aprovisionar, supervisar y gestionar cargas de trabajo de almacenamiento en un centro de datos.
+
+[NOTE]
+====
+Unified Manager proporciona esta funcionalidad de forma predeterminada. Puede desactivarla desde *Storage Management* > *Configuración de funciones* si no planea utilizar esta funcionalidad.
+
+====
+Cuando se habilita esta opción, puede aprovisionar cargas de trabajo en los clústeres de ONTAP que gestiona la instancia de Unified Manager. También puede asignar políticas, como los niveles de servicio de rendimiento y las políticas de eficiencia del almacenamiento en las cargas de trabajo y gestionar el entorno de almacenamiento basado en dichas políticas.
+
+Esta función habilita las siguientes funciones:
+
+* Detección automática de las cargas de trabajo de almacenamiento en los clústeres añadidos, lo cual facilita la evaluación y la puesta en marcha de las cargas de trabajo de almacenamiento
+* Aprovisionamiento de cargas de trabajo NAS con compatibilidad con protocolos NFS y CIFS
+* Aprovisionamiento de cargas DE trabajo SAN que admiten los protocolos iSCSI y FCP
+* Compatibilidad con los protocolos NFS y CIFS en el mismo recurso compartido de archivos
+* Gestión de los niveles de servicio del rendimiento y políticas de eficiencia del almacenamiento
+* Asignación de niveles de servicio de rendimiento y políticas de eficiencia del almacenamiento a cargas de trabajo de almacenamiento
+
+
+Las opciones *Provisioning*, *Storage* > *Workloads* y *Policies* del panel izquierdo de la interfaz de usuario permiten modificar varias configuraciones.
+
+Puede realizar las siguientes funciones con estas opciones:
+
+* Vea las cargas de trabajo de almacenamiento en la página *almacenamiento* > *cargas de trabajo*
+* Crear cargas de trabajo de almacenamiento a partir de la página de cargas de trabajo de aprovisionamiento
+* Crear y gestionar niveles de servicio de rendimiento desde políticas
+* Cree y gestione políticas de eficiencia del almacenamiento desde políticas
+* Asigne políticas a las cargas de trabajo de almacenamiento desde la página Workloads
+
+
+*Información relacionada*
+
+link:../config/concept_policy_based_storage_management.html["Administración del almacenamiento basada en políticas"]

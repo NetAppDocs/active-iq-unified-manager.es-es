@@ -1,0 +1,43 @@
+---
+permalink: health-checker/task_view_svm_list_and_details.html 
+sidebar: sidebar 
+keywords: view, storage vm list, details 
+summary: 'En la vista Health: All Storage VMs, puede supervisar el inventario de máquinas virtuales de almacenamiento (SVM). Puede usar la página de detalles Storage VM / Health para ver información detallada sobre las SVM que se supervisan.' 
+---
+= Consulte la lista y los detalles de la máquina virtual de almacenamiento
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+En la vista Health: All Storage VMs, puede supervisar el inventario de máquinas virtuales de almacenamiento (SVM). Puede usar la página de detalles Storage VM / Health para ver información detallada sobre las SVM que se supervisan.
+
+*Lo que necesitará*
+
+Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
+
+Puede ver detalles de SVM, como la capacidad, la eficiencia y la configuración de una SVM. También se puede ver información sobre los dispositivos relacionados y las alertas relacionadas de esa SVM.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *almacenamiento* > *Storage VMs*.
+. Elija una de las siguientes maneras de ver los detalles de SVM:
++
+** Para ver información sobre el estado de todas las SVM de todos los clústeres, en el menú Ver, seleccione Estado: All Storage VMs view.
+** Para ver los detalles completos, haga clic en el nombre de la máquina virtual de almacenamiento.
++
+También puede ver todos los detalles haciendo clic en *Ver detalles* en el cuadro de diálogo Detalles mínimos.
+
+
+
+. Vea los objetos relacionados con la SVM haciendo clic en *Ver relacionado* en el cuadro de diálogo Detalles mínimos.
+
+
+*Información relacionada*
+
+* link:../health-checker/reference_health_svm_details_page.html["Storage VM: Página de detalles Health"]
+* link:../performance-checker/performance-view-all.html#performance-all-storage-vms-view["Rendimiento: Vista de todas las máquinas virtuales de almacenamiento"]
+* link:../health-checker/task_view_antiransomware_status_of_all_volumes_storage_vms.html#view-security-details-of-all-volumes-with-anti-ransomware-detection["Seguridad: Vista antiransomware"]
+* link:../health-checker/task_view_detailed_security_status_for_clusters_and_svms.html["Visualización del estado de seguridad para clústeres y máquinas virtuales de almacenamiento"]
+* link:../data-protection/reference_relationship_all_relationships_view.html["Relación: Vista todas las relaciones"]
+

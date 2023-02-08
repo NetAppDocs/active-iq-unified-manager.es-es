@@ -1,0 +1,103 @@
+---
+permalink: api-automation/concept_manage_sep.html 
+sidebar: sidebar 
+keywords: manage, storage, efficiency, policy 
+summary: Puede ver, crear, modificar y eliminar políticas de eficiencia del almacenamiento usando las API del proveedor de almacenamiento. 
+---
+= Gestión de políticas de eficiencia del almacenamiento mediante API
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede ver, crear, modificar y eliminar políticas de eficiencia del almacenamiento usando las API del proveedor de almacenamiento.
+
+[NOTE]
+====
+Tenga en cuenta lo siguiente:
+
+* No es obligatorio asignar una política de eficiencia de almacenamiento al crear una carga de trabajo en Unified Manager.
+* No es posible anular la asignación de una política de eficiencia del almacenamiento de una carga de trabajo después de asignarla una política.
+* Si una carga de trabajo tiene algunos valores de configuración de almacenamiento especificados en los volúmenes de ONTAP, como la deduplicación y la compresión, esta configuración puede sobrescribirse en la configuración especificada en la Política de eficiencia del almacenamiento que se aplica al añadir las cargas de trabajo de almacenamiento en Unified Manager.
+
+
+====
+
+
+== Consulte las políticas de eficiencia del almacenamiento
+
+Puede utilizar el siguiente método para ver las políticas de eficiencia del almacenamiento antes de asignarles cargas de trabajo de almacenamiento. Esta API enumera todas las políticas de eficiencia del almacenamiento definidas por el sistema y creadas por el usuario, y recupera los atributos de todas las políticas de eficiencia del almacenamiento. Si desea consultar una Política de eficiencia de almacenamiento específica, debe introducir el ID único de la política para recuperar sus detalles.
+
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+proveedor de almacenamiento
+ a| 
+OBTENGA
+ a| 
+`/storage-provider/storage-efficiency-policies`
+
+`/storage-provider/storage-efficiency-policies/\{key}`
+
+|===
+
+
+== Añada políticas de eficiencia del almacenamiento
+
+Puede utilizar el siguiente método para crear políticas de eficiencia del almacenamiento personalizadas y asignarlas a sus cargas de trabajo de almacenamiento si las políticas definidas por el sistema no cumplen los requisitos de aprovisionamiento para las cargas de trabajo de almacenamiento. Introduzca los detalles de la Política de eficiencia del almacenamiento que desea crear como parámetros de entrada.
+
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+proveedor de almacenamiento
+ a| 
+PUBLICAR
+ a| 
+`/storage-provider/storage-efficiency-policies`
+
+|===
+
+
+== Eliminar políticas de eficiencia del almacenamiento
+
+Puede utilizar el siguiente método para eliminar una directiva de eficiencia del almacenamiento específica. No puede eliminar una Política de eficiencia del almacenamiento si se asigna a una carga de trabajo o si es la única Política de eficiencia del almacenamiento disponible. Debe proporcionar el ID único de la Política de eficiencia del almacenamiento como parámetro de entrada para eliminar una determinada Política de eficiencia del almacenamiento.
+
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+proveedor de almacenamiento
+ a| 
+ELIMINAR
+ a| 
+`/storage-provider/storage-efficiency-policies/\{key}`
+
+|===
+
+
+== Modificar las políticas de eficiencia del almacenamiento
+
+Puede utilizar el método siguiente para modificar una Política de eficiencia del almacenamiento y actualizar sus propiedades. No es posible modificar una Política de eficiencia del almacenamiento que esté definida por el sistema o que se asigne a una carga de trabajo. Debe proporcionar el ID exclusivo de la normativa de eficiencia del almacenamiento para modificar una determinada política de eficiencia del almacenamiento. Además, debe proporcionar la propiedad que desea actualizar, junto con su valor.
+
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+proveedor de almacenamiento
+ a| 
+PARCHE
+ a| 
+`/storage-provider/storage-efficiency-policies/\{key}`
+
+|===

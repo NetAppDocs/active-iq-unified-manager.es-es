@@ -1,0 +1,20 @@
+---
+permalink: reporting/concept_schedule_reports.html 
+sidebar: sidebar 
+keywords: scheduling, reports 
+summary: Una vez que tenga la vista que desea reutilizar y compartir como un informe, puede programarla mediante Active IQ Unified Manager. Puede gestionar informes programados, cambiando los destinatarios y la frecuencia de distribución de cada programación de informes. 
+---
+= Programación de informes
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Una vez que tenga la vista que desea reutilizar y compartir como un informe, puede programarla mediante Active IQ Unified Manager. Puede gestionar informes programados, cambiando los destinatarios y la frecuencia de distribución de cada programación de informes.
+
+Es posible programar la mayoría de las vistas o páginas de inventario en Unified Manager. Las excepciones son eventos, que son informes que puede descargar como archivos CSV, pero no puede programar eventos para regeneración y uso compartido. Tampoco puede descargar ni programar los paneles, los favoritos ni las páginas de configuración.
+
+A partir de Active IQ Unified Manager 9.8, puede descargar vistas en formato Microsoft® Excel y personalizarlas. Puede utilizar características avanzadas de Excel como ordenaciones complejas, filtros con capas, tablas dinámicas y gráficos. Cuando esté satisfecho con el informe de Excel resultante, puede cargar el archivo de Excel para utilizarlo cada vez que se programe y comparta el informe.
+
+Puede programar las vistas incorporadas que desee personalizar. Puede elegir el tipo de archivo que desea enviar, ya sea CSV, PDF o XSLX. Cuando programe un informe por primera vez, puede descargarlo y asignarlo como el único destinatario para verlo como lo verán sus destinatarios.

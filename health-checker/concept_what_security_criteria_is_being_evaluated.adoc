@@ -1,0 +1,31 @@
+---
+permalink: health-checker/concept_what_security_criteria_is_being_evaluated.html 
+sidebar: sidebar 
+keywords: security criteria, evaluated 
+summary: 'En general, los criterios de seguridad de sus clústeres de ONTAP, las máquinas virtuales de almacenamiento (SVM) y los volúmenes se evalúan con arreglo a las recomendaciones definidas en la Guía de seguridad reforzada de ONTAP 9.' 
+---
+= Qué criterios de seguridad se están evaluando
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+En general, los criterios de seguridad de los clústeres, las máquinas virtuales de almacenamiento (SVM) y los volúmenes de ONTAP se evalúan con arreglo a las recomendaciones definidas en la _Guía de seguridad reforzada de NetApp para ONTAP 9_.
+
+Algunas de las comprobaciones de seguridad incluyen:
+
+* Si un clúster utiliza un método de autenticación segura, como SAML
+* si los clústeres con una relación entre iguales tienen cifrado de comunicación
+* Si un equipo virtual de almacenamiento tiene habilitado el registro de auditoría
+* si sus volúmenes tienen activado el cifrado de software o hardware
+
+
+Consulte los temas sobre categorías de cumplimiento y la http://www.netapp.com/us/media/tr-4569.pdf["Guía de fortalecimiento de la seguridad de NetApp para ONTAP 9"] para obtener información detallada.
+
+[NOTE]
+====
+Los eventos de actualización notificados desde la plataforma Active IQ también se consideran eventos de seguridad. Estos eventos identifican problemas en los que la resolución requiere actualizar el software ONTAP, el firmware del nodo o el software del sistema operativo (para avisos de seguridad). Estos eventos no se muestran en el panel Seguridad, pero están disponibles en la página de inventario de Event Management.
+
+====
+Para obtener más información, consulte link:..health-checker/concept_manage_cluster_security_objectives.html["Gestión de los objetivos de seguridad del clúster"].

@@ -1,0 +1,37 @@
+---
+permalink: reporting/task_create_report_to_view_failed_or_successful_volume_transfers.html 
+sidebar: sidebar 
+keywords: create, report, view, failed, successful, volume, transfer 
+summary: Es posible crear un informe que muestre el estado de las transferencias de volúmenes. En este informe se pueden ver tanto las transferencias de volúmenes con errores como las correctas. 
+---
+= Creación de un informe para ver una transferencia de volumen con errores o correctamente
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Es posible crear un informe que muestre el estado de las transferencias de volúmenes. En este informe se pueden ver tanto las transferencias de volúmenes con errores como las correctas.
+
+*Lo que necesitará*
+
+* Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
+
+Utilice los pasos siguientes para crear una vista personalizada para mostrar qué transferencias han fallado y cuáles se han realizado correctamente y, a continuación, programe un informe que se generará para esa vista.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *almacenamiento* > *volúmenes*.
+. En el menú Ver, seleccione *relación* > *Estado de transferencia de último 1 mes*.
+. Seleccione *Mostrar/Ocultar* para quitar las columnas que no desee del informe.
+. Arrastre la columna "'Resultado de la operación'" cerca de la columna "Estado".
+. Haga clic en la parte superior de la columna "'Resultado de la operación'" para ordenar los volúmenes por el estado.
+. Guarde la vista con un nombre específico que refleje lo que se muestra en la vista, por ejemplo «'volúmenes por estado de transferencia'».
+. Haga clic en el botón *Informes programados* de la página de inventario.
+. Introduzca un nombre para el programa de informes y complete los otros campos de informe y, a continuación, haga clic en la Marca de verificación (image:../media/blue_check.gif[""]) al final de la fila.
++
+El informe se envía inmediatamente como prueba. Después de esto, el informe genera y se envía por correo electrónico a los destinatarios enumerados utilizando la frecuencia especificada.
+
+
+
+En función de los resultados mostrados en el informe, puede investigar el estado de la transferencia.

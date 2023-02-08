@@ -1,0 +1,26 @@
+---
+permalink: data-protection/task_create_resource_pools.html 
+sidebar: sidebar 
+keywords: creating, resource, pools 
+summary: Puede utilizar el cuadro de diálogo Crear pool de recursos para agrupar agregados con fines de aprovisionamiento. 
+---
+= Creación de pools de recursos
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede utilizar el cuadro de diálogo Crear pool de recursos para agrupar agregados con fines de aprovisionamiento.
+
+*Lo que necesitará*
+
+Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
+.Pasos
+Los pools de recursos pueden contener agregados de clústeres de diferentes, pero el mismo agregado no puede pertenecer a pools de recursos diferentes.
+
+. En el panel de navegación izquierdo, haga clic en *Protección* > *agrupaciones de recursos*.
+. En la página *Pools de recursos*, haga clic en *Crear*.
+. Siga las instrucciones del cuadro de diálogo *Crear grupo de recursos* para proporcionar un nombre y una descripción y agregar agregados como miembros al pool de recursos que desea crear.
+

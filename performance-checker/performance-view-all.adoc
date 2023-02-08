@@ -1,0 +1,222 @@
+---
+permalink: performance-checker/performance-view-all.html 
+sidebar: sidebar 
+keywords: performance view 
+summary: vista de rendimiento de todos los objetos de almacenamiento 
+---
+= Ver las páginas de inventario de rendimiento para todos los objetos de almacenamiento
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Las páginas de inventario de rendimiento se utilizan para ver un resumen de la información sobre el rendimiento de cada uno de los objetos de almacenamiento disponibles, como los clústeres, los agregados, los volúmenes, etc. Puede establecer un enlace a las páginas de detalles del objeto Performance para ver información detallada de un objeto determinado.
+
+De forma predeterminada, los objetos de las páginas de vista se ordenan en función de la gravedad del evento. Los objetos con eventos críticos se enumeran primero y los objetos con eventos de advertencia aparecen en segundo lugar. Esto proporciona una indicación visual inmediata de los problemas que deben abordarse.
+
+Puede exportar datos de estas páginas a valores separados por comas (`.csv`), archivo de Microsoft Excel (`.xlsx`), o. (`.pdf`) Documente utilizando el botón *Informes* y, a continuación, utilice los datos exportados para generar informes. Además, puede personalizar la página y, a continuación, programar un informe para que se cree y envíe por correo electrónico regularmente mediante el botón *Informes programados*.
+
+Todos los campos de estas páginas se pueden utilizar en vistas personalizadas y en informes. Algunos de los campos están vinculados a páginas relacionadas, lo que permite una vista más detallada.
+
+
+
+== Rendimiento: Vista All Clusters
+
+La vista Performance: All Clusters muestra una descripción general de los eventos de rendimiento, los datos y la información de configuración para cada clúster supervisado por una instancia de Unified Manager. Esta página permite supervisar el rendimiento de los clústeres y solucionar problemas de rendimiento y eventos de umbral.
+
+Puede asignar directivas de umbral de rendimiento a cualquier objeto de las páginas de inventario de objetos o borrar directivas de umbral mediante los botones *asignar directiva de umbral de rendimiento* y *Borrar directiva de umbral de rendimiento*.
+
+A continuación se muestran algunos campos importantes en la vista Performance: All Clusters.
+
+* Cluster FQDN: El nombre de dominio completo (FQDN) del clúster.
+* IOPS: Las operaciones de entrada/salida por segundo en el clúster.
+* MB/s: El rendimiento en el clúster, medido en MIB por segundo.
+* Campos de capacidad: Capacidad libre y total en GIB.
+* Host Name or IP Address: El nombre de host o la dirección IP (IPv4 o IPv6) de la LIF de gestión del clúster.
+* OS Version: La versión del software ONTAP que se instala en el clúster.
++
+
+NOTE: Si se instalan diferentes versiones del software ONTAP en los nodos del clúster, se muestra el número de versión más bajo. Puede ver la versión de ONTAP que se instala en cada nodo desde la vista rendimiento: Todos los nodos.
+
+* Política de umbral: La política de umbral de rendimiento definida por el usuario o políticas que están activas en este objeto de almacenamiento. Puede colocar el cursor sobre los nombres de directivas que contienen puntos suspensivos (...). para ver el nombre completo de la directiva o la lista de nombres de directivas asignadas. Los botones asignar directiva de umbral de rendimiento y Borrar directiva de umbral de rendimiento permanecen deshabilitados hasta que seleccione uno o más objetos haciendo clic en las casillas de verificación situadas en el extremo izquierdo.
+
+
+
+
+== Rendimiento: Vista de todos los volúmenes
+
+Performance: All Volumes View muestra información general de los eventos de rendimiento, los datos de contador y la información de configuración de cada volumen FlexVol y volumen FlexGroup que supervisa una instancia de Unified Manager. Esto permite supervisar rápidamente el rendimiento de los volúmenes y solucionar problemas de rendimiento y eventos de umbral.
+
+Si desea analizar la latencia y el rendimiento de un objeto específico, haga clic en el botón más opciones image:icon_kabob.gif[""] A continuación *analizar carga de trabajo* y puede ver gráficos de rendimiento y capacidad en la página Análisis de carga de trabajo. Puede ver los detalles en System Manager si tiene credenciales válidas para System Manager.
+
+
+NOTE: Para los volúmenes de protección de datos (DP), solo se muestran los valores de contador del tráfico generado por el usuario. Los volúmenes raíz no se muestran en esta página.
+
+A continuación se muestran algunos campos importantes en la vista rendimiento: Todos los volúmenes.
+
+* Estilo: FlexVol o FlexGroup.
+* Latencia: Para los volúmenes FlexVol, es el tiempo de respuesta medio del volumen para todas las solicitudes de I/o, expresado en milisegundos por operación. Para los volúmenes FlexGroup, esta es la latencia media de todos los volúmenes constituyentes.
+* IOPS/TB: El número de operaciones de entrada/salida procesadas por segundo según el espacio total que consume la carga de trabajo, en terabytes. Este contador mide el rendimiento que ofrece una cantidad de capacidad de almacenamiento determinada.
+* IOPS: Para los volúmenes FlexVol, este es el número de operaciones de entrada/salida por segundo del volumen. Para los volúmenes FlexGroup, esta es la suma de IOPS para todos los volúmenes constituyentes.
+* MB/s: Para volúmenes FlexVol, el rendimiento en el volumen, medido en megabytes por segundo. Para los volúmenes FlexGroup, esta es la suma de MB/s para todos los volúmenes constituyentes.
+* Campos de capacidad: Capacidad libre y total en GIB.
+
+
+Consulte los siguientes enlaces para obtener más información:
+
+* link:../performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html["Asignación de políticas de umbral de rendimiento a objetos de almacenamiento"]
+* link:../performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html["Eliminación de políticas de umbral de rendimiento de objetos de almacenamiento"]
+* link:../performance-checker/concept_types_of_workloads_monitored_by_unified_manager.html["Tipos de cargas de trabajo supervisadas por Unified Manager"]
+* link:../performance-checker/task_view_qos_policy_group_settings_for_volumes_or_luns.html["Ver la configuración del grupo de políticas de calidad de servicio aplicable a volúmenes o LUN específicos"]
+* link:../performance-checker/concept_understand_um_recommendations_to_tier_data_to_cloud.html["Descripción de las recomendaciones de Unified Manager para organizar los datos en niveles en el cloud"]
+* link:../performance-checker/task_view_performance_charts_to_compare_volumes_or_luns_in_qos_policy.html["Ver los gráficos de rendimiento para comparar volúmenes o LUN que están en el mismo grupo de políticas de calidad de servicio"]
+
+
+
+
+== Rendimiento: Vista de todos los agregados
+
+La vista rendimiento: Todos los agregados muestra una descripción general de los eventos de rendimiento, los datos y la información de configuración de cada agregado supervisado por una instancia de Unified Manager. Esta página le permite supervisar el rendimiento de los agregados y solucionar problemas de rendimiento y eventos de umbral.
+
+A continuación se muestran algunos campos importantes en la vista Performance: All Aggregates.
+
+* Tipo: El tipo de agregado:
++
+** HDD
+** Híbrido. Combina HDD y SSD, pero Flash Pool no se ha habilitado.
+** Híbrido (Flash Pool). Combina HDD y SSD y Flash Pool se ha habilitado.
+** SSD
+** SSD (FabricPool). Combina SSD y un nivel de cloud
+** Unidad de disco duro (FabricPool). Combina HDD y un nivel de cloud
+** VMDisk (SDS). Discos virtuales en una máquina virtual
+** Disco de VMware (FabricPool). Combina discos virtuales y un nivel de cloud
+** LUN (FlexArray)
+
+
+* Generación de informes de datos inactivos: Si la funcionalidad de generación de informes de datos inactivos está habilitada o deshabilitada en este agregado. Cuando se encuentra habilitada, los volúmenes de este agregado muestran la cantidad de datos inactivos en la vista rendimiento: Todos los volúmenes. El valor de este campo es "N/A" cuando la versión de ONTAP no admite la generación de informes de datos inactivos.
+* Política de umbral: La política de umbral de rendimiento definida por el usuario o políticas que están activas en este objeto de almacenamiento. Puede colocar el cursor sobre los nombres de directivas que contienen puntos suspensivos (...). para ver el nombre completo de la directiva o la lista de nombres de directivas asignadas. Los botones asignar directiva de umbral de rendimiento y Borrar directiva de umbral de rendimiento permanecen deshabilitados hasta que seleccione uno o más objetos haciendo clic en las casillas de verificación situadas en el extremo izquierdo. Consulte los siguientes enlaces para obtener más información:
+* link:../performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html["Asignación de políticas de umbral de rendimiento a objetos de almacenamiento"]
+* link:../performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html["Eliminación de políticas de umbral de rendimiento de objetos de almacenamiento"]
+
+
+
+
+== Rendimiento: Vista de todos los nodos
+
+La vista rendimiento: Todos los nodos muestra información general de los eventos de rendimiento, los datos y la información de configuración de cada nodo que supervisa una instancia de Unified Manager. Esto permite supervisar rápidamente el rendimiento de los nodos y solucionar problemas de rendimiento y eventos de umbral.
+
+
+NOTE: Las lecturas de Flash Cache muestran el porcentaje de operaciones de lectura del nodo que se satisfacen con la caché, en lugar de ser devueltas del disco. Los datos de Flash Cache solo se muestran para nodos, y solo cuando se instala un módulo Flash Cache en el nodo.
+
+En el menú *Informes*, la opción *Informe de inventario de hardware* se proporciona cuando Unified Manager, y los clústeres que administra, se instalan en un sitio sin conectividad de red externa. Este botón genera un archivo .csv que contiene una lista completa de información de clústeres y nodos; como números de modelo de hardware y números de serie, tipos y números de discos, licencias instaladas, etc. Esta funcionalidad de generación de informes resulta útil para renovar el contrato en sitios seguros que no están conectados a la plataforma Active IQ de NetApp. Puede asignar directivas de umbral de rendimiento a cualquier objeto de las páginas de inventario de objetos o borrar directivas de umbral mediante los botones *asignar directiva de umbral de rendimiento* y *Borrar directiva de umbral de rendimiento*.
+
+Consulte los siguientes enlaces para obtener más información:
+
+* link:../performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html["Asignación de políticas de umbral de rendimiento a objetos de almacenamiento"]
+* link:../performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html["Eliminación de políticas de umbral de rendimiento de objetos de almacenamiento"]
+* link:../health-checker/task_generate_hardware_inventory_report_for_contract_renewal.html["Generar un informe de inventario de hardware para la renovación de contrato"]
+
+
+
+
+== Rendimiento: Vista de todas las máquinas virtuales de almacenamiento
+
+La vista rendimiento: All Storage VMs muestra información general sobre los eventos de rendimiento, los datos y la información de configuración para cada máquina virtual de almacenamiento (SVM) que supervisa una instancia de Unified Manager. Esto le permite supervisar rápidamente el rendimiento de las SVM y solucionar problemas de rendimiento y eventos de umbral. En el campo latencia de esta página, se informa del tiempo de respuesta medio de todas las solicitudes de I/o, expresadas en milisegundos por operación.
+
+
+NOTE: Las SVM que aparecen en esta página incluyen solo SVM de datos y clúster. Unified Manager no utiliza ni muestra las SVM de administrador ni de nodo.
+
+Consulte los siguientes enlaces para obtener más información:
+
+* link:../performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html["Asignación de políticas de umbral de rendimiento a objetos de almacenamiento"]
+* link:../performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html["Eliminación de políticas de umbral de rendimiento de objetos de almacenamiento"]
+
+
+
+
+== Rendimiento: Vista de todas las LUN
+
+La vista rendimiento: Todas las LUN muestra información general de los eventos de rendimiento, los datos y la información de configuración de cada LUN que supervisa una instancia de Unified Manager. Esto le permite supervisar rápidamente el rendimiento de sus LUN y solucionar problemas de rendimiento y eventos de umbral.
+
+Si desea analizar la latencia y el rendimiento de un objeto específico, haga clic en el icono más image:icon_kabob.gif[""], Luego *analizar la carga de trabajo* y puede ver los gráficos de rendimiento y capacidad en la página *Análisis de carga de trabajo*.
+
+Consulte los siguientes enlaces para obtener más información:
+
+* link:../data-protection/view-lun-relationships.html["Supervisar las LUN en una relación de grupo de consistencia"]
+* link:../storage-mgmt/task_provision_luns.html["Aprovisionar las LUN"]
+* link:../performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html["Asignación de políticas de umbral de rendimiento a objetos de almacenamiento"]
+* link:../performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html["Eliminación de políticas de umbral de rendimiento de objetos de almacenamiento"]
+* link:../performance-checker/task_view_volumes_or_luns_in_same_qos_policy_group.html["Ver volúmenes o LUN que estén en el mismo grupo de políticas de calidad de servicio"].
+* link:../performance-checker/task_view_qos_policy_group_settings_for_volumes_or_luns.html["Ver la configuración del grupo de políticas de calidad de servicio aplicable a volúmenes o LUN específicos"]
+* link:../api-automation/concept_provision_luns.html["Aprovisionamiento de LUN mediante API"]
+
+
+
+
+== Performance: Toda la vista NVMe Namespaces
+
+La vista Performance: All NVMe Namespaces muestra información general sobre los eventos de rendimiento, los datos y la información de configuración de cada espacio de nombres de NVMe que se supervisa mediante una instancia de Unified Manager. Esto permite supervisar rápidamente el rendimiento y el estado de los espacios de nombres, así como resolver problemas y eventos de umbral.
+
+Se informa de la siguiente información, entre otras: El estado actual del espacio de nombres. * Sin conexión: No se permite el acceso de lectura o escritura al espacio de nombres. * Online: Se permite el acceso de lectura y escritura al espacio de nombres. * NVFAIL: El espacio de nombres se desconectó automáticamente debido a un fallo de NVRAM. * Error de espacio: El espacio de nombres se ha quedado sin espacio.
+
+Consulte los siguientes enlaces para obtener más información:
+
+* link:../performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html["Asignación de políticas de umbral de rendimiento a objetos de almacenamiento"]
+* link:../performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html["Eliminación de políticas de umbral de rendimiento de objetos de almacenamiento"]
+
+
+
+
+== Performance: Vista de todas las interfaces de red
+
+La vista Performance: All Network interfaces muestra una descripción general de los eventos de rendimiento, los datos y la información de configuración de cada interfaz de red (LIF) que está supervisando mediante esta instancia de Unified Manager. Esta página le permite supervisar rápidamente el rendimiento de las interfaces y solucionar problemas de rendimiento y eventos de umbral. A continuación se muestran algunos campos importantes en la vista Performance: All Network interfaces.
+
+* IOPS: Las operaciones de entrada/salida por segundo. IOPS no es aplicable a los LIF NFS ni a los LIF CIFS, y se muestra como N/A para estos tipos.
+* Latencia: El tiempo de respuesta medio de todas las solicitudes de I/o, expresado en milisegundos por operación. La latencia no es aplicable a los LIF NFS y los LIF CIFS, y se muestra como N/A para estos tipos.
+* Ubicación de inicio: La ubicación de inicio de la interfaz, mostrada como nombre de nodo y nombre de puerto, separados por dos puntos (:). Si la ubicación se muestra con puntos suspensivos (...), puede colocar el cursor sobre el nombre de la ubicación para ver la ubicación completa.
+* Ubicación actual: La ubicación actual de la interfaz, mostrada como nombre de nodo y nombre de puerto, separados por dos puntos (:). Si la ubicación se muestra con puntos suspensivos (...), puede colocar el cursor sobre el nombre de la ubicación para ver la ubicación completa.
+* Role: El rol de interfaz: Data, Cluster, Node Management o Intercluster.
+
+
+
+NOTE: Las interfaces que se enumeran en esta página incluyen LIF de datos, LIF de clúster, LIF de gestión de nodos y LIF de interconexión de clústeres. Unified Manager no utiliza ni muestra las LIF del sistema.
+
+
+
+== Rendimiento: Vista de todos los puertos
+
+La vista rendimiento: Todos los puertos muestra una descripción general de los eventos de rendimiento, los datos y la información de configuración de cada puerto que supervisa una instancia de Unified Manager. Esto permite supervisar rápidamente el rendimiento de los puertos y solucionar problemas de rendimiento y eventos de umbral. Para un rol de puerto, se muestra la función de puerto de red, ya sea Data o Cluster. Los puertos FCP no pueden tener un rol y el rol se muestra como N/A.
+
+
+NOTE: Los valores de contador de rendimiento solo se muestran para los puertos físicos. Los valores de contador no se muestran para las VLAN ni los grupos de interfaces.
+
+Consulte los siguientes enlaces para obtener más información:
+
+* link:../performance-checker/task_assign_performance_threshold_policies_to_storage_objects.html["Asignación de políticas de umbral de rendimiento a objetos de almacenamiento"]
+* link:../performance-checker/task_remove_performance_threshold_policies_from_storage_objects.html["Eliminación de políticas de umbral de rendimiento de objetos de almacenamiento"]
+
+
+
+
+== Rendimiento: Vista QoS Policy Groups
+
+La vista QoS Policy Groups muestra los grupos de políticas de calidad de servicio disponibles en los clústeres que supervisa Unified Manager. Esto incluye las políticas de calidad de servicio tradicionales, las políticas de calidad de servicio adaptativas y las políticas de calidad de servicio asignadas mediante los niveles de servicio de rendimiento.
+
+A continuación, se muestran algunos campos importantes en la vista Performance: QoS Policy Groups.
+
+* QoS Policy Group: El nombre del grupo de políticas de calidad de servicio. Para las políticas de Service Level Manager (NSLM) 1.3 de NetApp que se han importado a Unified Manager 9.7 o posterior, el nombre que se muestra aquí incluye el nombre de SVM y otra información que no aparece en el nombre cuando se definió Performance Service Levelwas en NSLM. Por ejemplo, el nombre "NSLM_vs6_Performance_2_0" significa que esta es la política "Performance" de NSLM definida por el sistema creada en la SVM "vs6" con una latencia esperada de "2 ms/op".
+* SVM: La máquina virtual de almacenamiento (SVM) a la que pertenece el grupo de políticas de calidad de servicio. Es posible hacer clic en el nombre de la máquina virtual de almacenamiento para acceder a la página de detalles de esa máquina virtual de almacenamiento. Tenga en cuenta que este campo está vacío si la política de calidad de servicio se ha creado en la máquina virtual de almacenamiento Admin, ya que este tipo de máquina virtual de almacenamiento representa el clúster.
+* Min rendimiento: El rendimiento mínimo, en IOPS, que se garantizará que proporcione el grupo de políticas. Para las políticas adaptativas, se trata del número mínimo esperado de IOPS por TB asignado al volumen o LUN, según el tamaño del objeto de almacenamiento asignado.
+* Rendimiento máximo: El rendimiento, en IOPS y/o MB/s, que el grupo de políticas no debe superar. Cuando este campo está en blanco, significa que el máximo definido en ONTAP es infinito. Para las políticas adaptativas, es el número máximo (pico) de IOPS posible por TB asignado al volumen o LUN, en función del tamaño del objeto de almacenamiento asignado o del tamaño del objeto de almacenamiento utilizado.
+* Absolute Minimum IOPS: Para las políticas adaptativas, es el valor mínimo absoluto de IOPS que se utiliza como anulación cuando el IOPS esperado es inferior a este valor.
+* Block Size: El tamaño de bloque especificado para la política adaptativa de calidad de servicio.
+* Asignación mínima: Se utiliza si el "espacio asignado" o el "espacio utilizado" para determinar el rendimiento máximo de IOPS (pico).
+* Latencia esperada: La latencia media esperada para operaciones de entrada/salida de almacenamiento.
+* Compartido: Para las políticas de calidad de servicio tradicionales, si los valores de rendimiento definidos en el grupo de políticas se comparten entre varios objetos.
+* Associated Objects: La cantidad de cargas de trabajo que se asignan al grupo de políticas de calidad de servicio. Puede hacer clic en el botón expandir ( ) junto al nombre del grupo de políticas de QoS para ver más detalles sobre el grupo de políticas.
+* Capacidad asignada: La cantidad de espacio que usan los objetos del grupo de políticas de calidad de servicio actualmente.
+* Asociados Objects: El número de cargas de trabajo que se asignan al grupo de políticas de calidad de servicio, separadas en volúmenes y LUN. Puede hacer clic en el número para desplazarse a una página que proporciona más detalles sobre los volúmenes o LUN seleccionados.
+
+
+Para obtener más información, consulte los temas en link:..//performance-checker/concept_manage_performance_using_qos_policy_group_information.html["Gestione el rendimiento mediante información del grupo de políticas de calidad de servicio"].

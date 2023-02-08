@@ -1,0 +1,26 @@
+---
+permalink: events/reference_what_suggested_actions_section_displays.html 
+sidebar: sidebar 
+keywords: suggest, actions, section, displays 
+summary: La sección acciones sugeridas de la página de detalles evento proporciona posibles motivos para el evento y sugiere algunas acciones para que pueda intentar resolver el evento por su cuenta. Las acciones sugeridas se personalizan en función del tipo de evento o tipo de umbral que se ha incumplido. 
+---
+= Aparece la sección acciones recomendadas
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+La sección acciones sugeridas de la página de detalles evento proporciona posibles motivos para el evento y sugiere algunas acciones para que pueda intentar resolver el evento por su cuenta. Las acciones sugeridas se personalizan en función del tipo de evento o tipo de umbral que se ha incumplido.
+
+Esta área solo se muestra para algunos tipos de eventos.
+
+En algunos casos se proporcionan enlaces de *Ayuda* en la página que hacen referencia a información adicional para muchas acciones sugeridas, incluidas instrucciones para realizar una acción específica. Algunas de estas acciones pueden requerir el uso de Unified Manager, System Manager de ONTAP, OnCommand Workflow Automation, comandos de la CLI de ONTAP o una combinación de estas herramientas.
+
+Debe tener en cuenta las acciones sugeridas aquí como solo una guía para resolver este evento. La acción que se toma para resolver este evento debe basarse en el contexto de su entorno.
+
+Si desea analizar el objeto y el evento con más detalle, haga clic en el botón *analizar carga de trabajo* para mostrar la página Análisis de carga de trabajo.
+
+Hay ciertos eventos que Unified Manager puede diagnosticar a fondo y proporcionar una única resolución. Si están disponibles, estas resoluciones se muestran con un botón *Fix it*. Haga clic en este botón para que Unified Manager solucione el problema que causa el evento.
+
+Para los eventos de plataforma Active IQ, esta sección puede contener un enlace a un artículo de la base de conocimientos de NetApp, cuando esté disponible, que describe el problema y posibles resoluciones. En los sitios sin acceso a red externa, se abre localmente un PDF del artículo de la base de conocimientos; el PDF forma parte del archivo de reglas que se descarga manualmente en la instancia de Unified Manager.

@@ -1,0 +1,22 @@
+---
+permalink: config/concept_api_gateway.html 
+sidebar: sidebar 
+keywords: api gateway 
+summary: La función de puerta de enlace de API permite a Active IQ Unified Manager ser un único plano de control desde el cual puede gestionar varios clústeres de ONTAP sin iniciar sesión de forma individual. 
+---
+= Habilitar API Gateway
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+La función de puerta de enlace de API permite a Active IQ Unified Manager ser un único plano de control desde el cual puede gestionar varios clústeres de ONTAP sin iniciar sesión de forma individual.
+
+Puede habilitar esta función en las páginas de configuración que aparecen cuando se inicia sesión por primera vez en Unified Manager. También puede activar o desactivar esta función en *General* > *Configuración de funciones* > *Puerta de enlace API*.
+
+Las API DE REST de Unified Manager son diferentes de las API de REST de ONTAP. No todas las funcionalidades de las API DE REST de ONTAP se pueden obtener usando LAS API DE REST de Unified Manager. Sin embargo, si tiene un requisito empresarial específico de acceso a las API de ONTAP para gestionar funciones específicas que no se exponen a Unified Manager, puede habilitar la función API Gateway y ejecutar las API de ONTAP. La puerta de enlace actúa como proxy para tunear las solicitudes de API manteniendo las solicitudes de encabezado y cuerpo en el mismo formato que en las API de ONTAP. Puede usar sus credenciales de Unified Manager y ejecutar las API específicas para acceder a los clústeres de ONTAP y gestionarlos sin aprobar las credenciales de un clúster individual. Unified Manager se realiza como un único punto de gestión para ejecutar las API en los clústeres de ONTAP gestionados por la instancia de Unified Manager. La respuesta que devuelven las API es la misma que la respuesta que devuelven las respectivas API DE REST de ONTAP ejecutadas directamente desde ONTAP.
+
+Después de activar esta función, puede ejecutar las API REST de Unified Manager desde *barra de menús* > *botón de ayuda* > *Documentación de API* > *categoría de puerta de enlace*. Como alternativa, es posible introducir el nombre de host o la dirección IP y la URL para acceder a la página de API DE REST en formato `https://<hostname>/docs/api/`
+
+Para obtener más información sobre las API, consulte link:../api-automation/concept_get_started_with_um_apis.html["Primeros pasos con API de REST de Active IQ Unified Manager"].

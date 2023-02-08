@@ -1,0 +1,31 @@
+---
+permalink: health-checker/task_configure_volume_health_thresholds_for_groups.html 
+sidebar: sidebar 
+keywords: configure, volume, health, thresholds, groups 
+summary: Puede configurar umbrales de estado del volumen a nivel de grupo para la capacidad, las copias Snapshot, las cuotas de qtree, el crecimiento y los inodos. 
+---
+= Configurar los umbrales de estado de volúmenes para grupos
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede configurar umbrales de estado del volumen a nivel de grupo para la capacidad, las copias Snapshot, las cuotas de qtree, el crecimiento y los inodos.
+
+*Lo que necesitará*
+
+Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
+El tipo de umbral de estado del volumen de la acción del grupo se aplica solo a los volúmenes de un grupo.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *Administración de almacenamiento* > *grupos*.
+. En la ficha *acciones de grupo*, haga clic en *Agregar*.
+. Introduzca un nombre y una descripción para la acción de grupo.
+. En el cuadro desplegable *Grupo*, seleccione el grupo para el que desea configurar la acción de grupo.
+. Seleccione *Tipo de acción* como el umbral de estado del volumen.
+. Seleccione la categoría para la que desea establecer el umbral.
+. Introduzca los valores necesarios para el umbral de estado.
+. Haga clic en *Agregar*.
+

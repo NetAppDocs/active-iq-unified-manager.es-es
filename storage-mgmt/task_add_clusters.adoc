@@ -1,0 +1,90 @@
+---
+permalink: storage-mgmt/task_add_clusters.html 
+sidebar: sidebar 
+keywords: add cluster 
+summary: Puede añadir un clúster a la Active IQ Unified Manager para poder supervisar el clúster. Esto incluye la capacidad de obtener información del clúster, como el estado, la capacidad, el rendimiento y la configuración del clúster, para poder encontrar y resolver cualquier problema que pueda ocurrir. 
+---
+= Añadir clústeres
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede añadir un clúster a la Active IQ Unified Manager para poder supervisar el clúster. Esto incluye la capacidad de obtener información del clúster, como el estado, la capacidad, el rendimiento y la configuración del clúster, para poder encontrar y resolver cualquier problema que pueda ocurrir.
+
+*Lo que necesitará*
+
+* Debe tener el rol de administrador de aplicaciones o de administrador de almacenamiento.
+* Debe tener el nombre de host o la dirección IP de administración del clúster (IPv4 o IPv6) para el clúster.
++
+Cuando se utiliza el nombre de host, debe resolver la dirección IP de administración del clúster para la LIF de gestión del clúster. Si utiliza un LIF de gestión de nodos, la operación da error.
+
+* Debe tener el nombre de usuario y la contraseña para acceder al clúster.
++
+Esta cuenta debe tener el rol _admin_ con acceso a aplicaciones establecido en _ontapi_, _Console_ y _http_.
+
+* Debe conocer el número de puerto para conectarse al clúster mediante el protocolo HTTPS (por lo general, el puerto 443).
+* El clúster de debe ejecutar el software ONTAP versión 9.1 o posterior.
+* Debe tener espacio suficiente en el servidor de Unified Manager. Se le impide agregar un clúster al servidor cuando más del 90 % del espacio ya está consumido.
+* Tiene los certificados necesarios. Unified Manager instala certificados de seguridad al añadir un clúster:
++
+*Certificados de servidor*: Este certificado es propiedad de Unified Manager. Se genera un certificado SSL (HTTPS) autofirmado predeterminado con una instalación nueva de Unified Manager. NetApp recomienda actualizarlo a certificado firmado por CA para mejorar la seguridad. Si el certificado de servidor caduca, debe volver a regenerarlo y reiniciar Unified Manager para que los servicios incorporen el nuevo certificado. Para obtener más información acerca de la regeneración del certificado SSL, consulte link:../config/task_generate_an_https_security_certificate_ocf.html["Generar un certificado de seguridad HTTPS"].
+
++
+*Certificados para la comunicación mutua con TLS*: Se utiliza durante la comunicación mutua con TLS entre Unified Manager y ONTAP. La autenticación basada en certificados está habilitada para un clúster de acuerdo con la versión de ONTAP. Si el clúster que ejecuta la versión de ONTAP es inferior a la versión 9.5, la autenticación basada en certificados no está habilitada.
+
++
+La autenticación basada en certificados no se habilita automáticamente para un clúster, si va a actualizar una versión anterior de Unified Manager a Unified Manager 9.12. Sin embargo, puede habilitarla mediante la modificación y el guardado de los detalles del clúster. Si el certificado caduca, debe regenerarlo para incorporar el nuevo certificado. Para obtener más información sobre la visualización y regeneración del certificado, consulte link:../storage-mgmt/task_edit_clusters.html["Editar clústeres"].
+
++
+[NOTE]
+====
+** La autenticación basada en certificados se habilita automáticamente si se añade un clúster de la interfaz de usuario web de. Si agrega un clúster desde la consola de mantenimiento, la autenticación basada en certificados no está habilitada.
+** Si la autenticación basada en certificados está habilitada para un clúster, y realiza el backup de Unified Manager desde un servidor y la restauración a otro servidor de Unified Manager donde se cambia el nombre de host o la dirección IP, la supervisión del clúster puede fallar. Para evitar el error, edite y guarde los detalles del clúster. Para obtener más información sobre cómo editar detalles del clúster, consulte link:../storage-mgmt/task_edit_clusters.html["Editar clústeres"].
+
+
+====
++
+*Certificados de cliente*: Se utiliza durante la autenticación de mensajes EMS recibidos de ONTAP. Este certificado es propiedad de ONTAP y es obligatorio cuando se añade un clúster de ONTAP a Unified Manager. No puede agregar un clúster a Unified Manager con un certificado caducado y si el certificado de cliente ya ha caducado, debe volver a regenerarlo antes de agregar el clúster. Sin embargo, si este certificado caduca en un clúster que ya se ha añadido y está siendo utilizado por Unified Manager, la mensajería de EMS sigue funcionando con el certificado caducado. Para obtener información acerca de la generación de certificados, consulte el artículo de la base de conocimientos (KB) https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_renew_an_SSL_certificate_in_ONTAP_9["Cómo renovar un certificado autofirmado de ONTAP en la interfaz de usuario de System Manager"^].
+
+* Una única instancia de Unified Manager puede admitir un número determinado de nodos. Si necesita supervisar un entorno que supere el número de nodos admitidos, debe instalar una instancia adicional de Unified Manager para supervisar algunos de los clústeres. Para ver la lista del número de nodos admitidos, consulte https://www.netapp.com/media/13504-tr4621.pdf["Guía de prácticas recomendadas de Unified Manager"^].
+
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *Storage Management* > *Cluster Setup*.
+. En la página Cluster Setup, haga clic en *Add*.
+. En el cuadro de diálogo Agregar clúster, especifique los valores según sea necesario y, a continuación, haga clic en *Enviar*.
+. En el cuadro de diálogo autorizar host, haga clic en *Ver certificado* para ver la información del certificado sobre el clúster.
+. Haga clic en *Sí*.
++
+En Unified Manager 9.12, después de guardar los detalles del clúster, puede ver el certificado para comunicación mutua TLS para un clúster.
+
++
+Si la autenticación basada en certificados no está habilitada, Unified Manager comprueba el certificado solo cuando se añade el clúster inicialmente. Unified Manager no comprueba el certificado para cada llamada API a ONTAP.
+
+
+
+Después de detectar todos los objetos de un clúster nuevo, Unified Manager comienza a recopilar datos históricos de rendimiento de los 15 días anteriores. Estas estadísticas se recopilan mediante la funcionalidad de recogida de continuidad de datos. Esta función le proporciona más de dos semanas de información sobre el rendimiento de un clúster inmediatamente después de añadir. Una vez completado el ciclo de recogida de continuidad de datos, se recogen datos de rendimiento del clúster en tiempo real, de forma predeterminada, cada cinco minutos.
+
+[NOTE]
+====
+Dado que la recogida de 15 días de datos de rendimiento requiere un uso intensivo de la CPU, se sugiere escalonar la adición de nuevos clústeres de manera que las encuestas de recogida de continuidad de datos no se ejecuten en demasiados clústeres al mismo tiempo. Además, si reinicia Unified Manager durante el período de recogida de continuidad de datos, la recogida se detiene y verá vacíos en los gráficos de rendimiento correspondientes al periodo que falta.
+
+====
+[TIP]
+====
+Si recibe un mensaje de error que no puede agregar el clúster, compruebe si existen los siguientes problemas:
+
+* Si los relojes de los dos sistemas no están sincronizados y la fecha de inicio del certificado HTTPS de Unified Manager es posterior a la fecha en el clúster. Debe asegurarse de que los relojes se sincronicen con NTP o un servicio similar.
+* Si el clúster ha alcanzado la cantidad máxima de destinos de notificaciones de EMS, no se puede añadir la dirección de Unified Manager. De manera predeterminada, solo se pueden definir 20 destinos de notificación de EMS en el clúster.
+
+
+====
+*Información relacionada*
+
+link:../config/task_add_users.html["Adición de usuarios"]
+
+link:../health-checker/task_view_cluster_list_and_details.html["Ver la lista del clúster y sus detalles"]
+
+link:../config/task_install_ca_signed_and_returned_https_certificate.html#example-certificate-chain["Instalar una CA firmada y devolvió un certificado HTTPS"]

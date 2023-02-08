@@ -1,0 +1,37 @@
+---
+permalink: api-automation/concept_provision_workflow.html 
+sidebar: sidebar 
+keywords: workflow, workload, management 
+summary: 'Con Active IQ Unified Manager, puede aprovisionar y modificar cargas de trabajo de almacenamiento (LUN, recursos compartidos de archivos NFS y recursos compartidos CIFS). El aprovisionamiento consiste en varios pasos, desde la creación de la máquina virtual de almacenamiento (SVM) hasta la aplicación de políticas de nivel de servicio de rendimiento y eficiencia del almacenamiento en las cargas de trabajo de almacenamiento. La modificación de las cargas de trabajo consta de los pasos necesarios para modificar parámetros específicos y habilitar funciones adicionales en ellos.' 
+---
+= Flujos de trabajo API para la gestión de cargas de trabajo
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Con Active IQ Unified Manager, puede aprovisionar y modificar cargas de trabajo de almacenamiento (LUN, recursos compartidos de archivos NFS y recursos compartidos CIFS). El aprovisionamiento consiste en varios pasos, desde la creación de la máquina virtual de almacenamiento (SVM) hasta la aplicación de políticas de nivel de servicio de rendimiento y eficiencia del almacenamiento en las cargas de trabajo de almacenamiento. La modificación de las cargas de trabajo consta de los pasos necesarios para modificar parámetros específicos y habilitar funciones adicionales en ellos.
+
+Se describen los siguientes flujos de trabajo:
+
+* Flujo de trabajo de aprovisionamiento de máquinas virtuales de almacenamiento (SVM) en Unified Manager.
++
+[NOTE]
+====
+Este flujo de trabajo se debe realizar antes de aprovisionar las LUN o los recursos compartidos de archivos en Unified Manager.
+
+====
+* Aprovisionamiento de recursos compartidos de archivos.
+* Aprovisionar las LUN.
+* Modificar los LUN y los recursos compartidos de archivos (mediante el ejemplo de actualización del parámetro Performance Service Level para las cargas de trabajo de almacenamiento).
+* Modificar un recurso compartido de archivos NFS para admitir el protocolo CIFS
+* Modificar las cargas de trabajo para actualizar QoS a AQoS
+
+
+[NOTE]
+====
+Para cada flujo de trabajo de aprovisionamiento (LUN y recursos compartidos de archivos), asegúrese de haber completado el flujo de trabajo para verificar las SVM en los clústeres.
+
+====
+También debe leer las recomendaciones y las limitaciones antes de utilizar cada API en los flujos de trabajo. Los detalles pertinentes de las API están disponibles en sus secciones individuales enumeradas en los conceptos y referencias relacionados.

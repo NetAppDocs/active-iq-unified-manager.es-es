@@ -1,0 +1,59 @@
+---
+permalink: storage-mgmt/task_create_and_edit_seps.html 
+sidebar: sidebar 
+keywords: create, edit, storage, efficiency, policies 
+summary: Cuando las políticas de eficiencia del almacenamiento definidas por el sistema no coinciden con los requisitos de carga de trabajo, puede crear sus propias políticas de eficiencia del almacenamiento optimizadas para sus cargas de trabajo. 
+---
+= Crear y editar políticas de eficiencia del almacenamiento
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Cuando las políticas de eficiencia del almacenamiento definidas por el sistema no coinciden con los requisitos de carga de trabajo, puede crear sus propias políticas de eficiencia del almacenamiento optimizadas para sus cargas de trabajo.
+
+*Lo que necesitará*
+
+* Debe tener la función Administrador de aplicaciones.
+* El nombre de la política de eficiencia de almacenamiento debe ser único y no se pueden utilizar las siguientes palabras clave reservadas:
++
+`High`, `Low`, `Unassigned`, `Learning`, `Idle`, `Default`, y. `None`.
+
+
+
+Puede crear y editar políticas personalizadas de eficiencia del almacenamiento desde la página políticas de eficiencia del almacenamiento definiendo las características de eficiencia del almacenamiento necesarias para las aplicaciones que accederán al almacenamiento.
+
+[NOTE]
+====
+No puede modificar una Política de eficiencia del almacenamiento si actualmente se asigna a una carga de trabajo.
+
+====
+.Pasos
+. En el panel de navegación izquierdo, en *Ajustes*, seleccione *Directivas* > *eficiencia del almacenamiento*.
+. En la página *políticas de eficiencia del almacenamiento*, haga clic en el botón apropiado dependiendo de si desea crear una nueva Política de eficiencia del almacenamiento o si desea editar una Política de eficiencia del almacenamiento existente.
++
+|===
+| Para... | Siga estos pasos... 
+
+
+ a| 
+Cree una nueva Política de eficiencia del almacenamiento
+ a| 
+Haga clic en *Agregar*
+
+
+
+ a| 
+Editar una Política de eficiencia del almacenamiento existente
+ a| 
+Seleccione una Política de eficiencia del almacenamiento existente y haga clic en *Editar*
+
+|===
++
+Se muestra la página para añadir o editar una Política de eficiencia del almacenamiento.
+
+. Personalice la Política de eficiencia del almacenamiento especificando las características de eficiencia del almacenamiento y, a continuación, haga clic en *Enviar* para guardar la Política de eficiencia del almacenamiento.
+
+
+Puede aplicar la Política de eficiencia del almacenamiento nueva o modificada a las cargas de trabajo (LUN, recursos compartidos de archivos NFS, recursos compartidos de CIFS) desde la página de cargas de trabajo o al aprovisionar una carga de trabajo nueva.

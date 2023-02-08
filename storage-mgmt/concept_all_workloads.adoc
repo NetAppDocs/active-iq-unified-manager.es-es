@@ -1,0 +1,76 @@
+---
+permalink: storage-mgmt/concept_all_workloads.html 
+sidebar: sidebar 
+keywords: view, workloads, add, provision, storage, filter, analyze, performance, capacity, criteria 
+summary: La vista All Workloads muestra la lista de todas las cargas de trabajo disponibles en los clústeres en un centro de datos. 
+---
+= Ver cargas de trabajo
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Cuando se añaden clústeres a Unified Manager, las cargas de trabajo de almacenamiento de cada clúster se detectan y se muestran automáticamente en la página Workloads.
+
+Unified Manager comienza a analizar las cargas de trabajo para recomendación (PSU recomendados) solo después de que comiencen las operaciones de I/o en las cargas de trabajo de almacenamiento.
+
+Se excluyen los volúmenes de FlexGroup y sus componentes.
+
+
+
+== Información general de cargas de trabajo
+
+La página Workloads Overview muestra la descripción general de las cargas de trabajo en el centro de datos y la descripción general de espacio y rendimiento del centro de datos.
+
+* Panel *Resumen de cargas de trabajo*: Muestra el número total de cargas de trabajo y el número de cargas de trabajo con o sin las PSLs asignadas en ellas. También se muestra el desglose del número de cargas de trabajo de cada PSL. Al hacer clic en los recuentos, se puede acceder a la vista *todas las cargas de trabajo* con las cargas de trabajo filtradas. También puede ver el número de cargas de trabajo que no se ajustan a la recomendación del sistema y asignar las PSLs recomendadas por el sistema haciendo clic en el botón *asignar PSLs* recomendados por el sistema.
+* *Panel de visión general del centro de datos*: Muestra el espacio disponible y utilizado (TIB) y el rendimiento (IOPS) del centro de datos. También se muestra un desglose de los espacios disponibles y utilizados (TIB) y el rendimiento (IOPS) de todas las cargas de trabajo en cada PSL.
+
+
+
+
+== Vista All Workloads
+
+La página *almacenamiento > cargas de trabajo > todas las cargas de trabajo* muestra las cargas de trabajo de almacenamiento asociadas con los clústeres de ONTAP gestionados por Unified Manager.
+
+En el caso de las cargas de trabajo de almacenamiento recién descubiertas en las que no se han realizado operaciones de I/o, el estado es «'esperando a que se produzca un I/o». Cuando las operaciones de I/o empiezan en las cargas de trabajo de almacenamiento, Unified Manager inicia el análisis y el estado de la carga de trabajo cambia a «'Aprendizaje...». Una vez completado el análisis (dentro de las 24 horas desde el comienzo de las operaciones de I/o), se muestran los PSU recomendados para las cargas de trabajo de almacenamiento.
+
+La página también permite asignar políticas de eficiencia del almacenamiento (SAP) y niveles de servicio de rendimiento (PSU) a las cargas de trabajo de almacenamiento. Es posible realizar varias tareas:
+
+* Añada o aprovisione cargas de trabajo de almacenamiento
+* Ver y filtrar la lista de cargas de trabajo
+* Asignación de PSU a las cargas de trabajo de almacenamiento
+* Evaluar los archivos PSL recomendados por el sistema y asignarlos a las cargas de trabajo
+* Asignación de ASP a cargas de trabajo de almacenamiento
+
+
+
+
+=== Agregar o aprovisionar cargas de trabajo de almacenamiento
+
+Puede agregar o aprovisionar las cargas de trabajo de almacenamiento a LUN compatibles (compatibles tanto con los protocolos iSCSI como FCP), recursos compartidos de archivos NFS y recursos compartidos SMB.
+
+.Pasos
+. Haga clic en *almacenamiento > cargas de trabajo > todas las cargas de trabajo > Crear*.
+. Crear cargas de trabajo. Para obtener más información, consulte link:../storage-mgmt/concept_provision_and_manage_workloads.html["Aprovisionamiento y gestión de cargas de trabajo"].
+
+
+
+
+=== Visualización y filtrado de cargas de trabajo
+
+En la pantalla todas las cargas de trabajo, es posible ver todas las cargas de trabajo del centro de datos o buscar cargas de trabajo de almacenamiento específicas según sus PSU o sus nombres. Puede usar el icono de filtro para introducir condiciones específicas para su búsqueda. Puede buscar por diferentes condiciones de filtro, como por el clúster de hosts o la máquina virtual de almacenamiento. La opción *capacidad total* permite filtrar por la capacidad total de las cargas de trabajo (por MB). Sin embargo, en este caso, el número de cargas de trabajo que se devuelve puede variar, ya que la capacidad total se compara a nivel de byte.
+
+Para cada carga de trabajo, se muestra información, como el clúster de hosts y la máquina virtual de almacenamiento, junto con el PSL y SEP asignados.
+
+La página también permite ver los detalles de rendimiento de una carga de trabajo. Para ver información detallada sobre las IOPS, la capacidad y la latencia de la carga de trabajo, haga clic en el botón *elegir / columnas de pedido* y seleccione columnas específicas para ver. La columna Performance View muestra la tasa media y máxima de IOPS de una carga de trabajo, y puede hacer clic en el icono del analizador de cargas de trabajo para ver el análisis detallado de IOPS.
+
+
+
+=== Análisis de criterios de rendimiento y capacidad para una carga de trabajo
+
+El botón *analizar carga de trabajo* del menú emergente *Análisis IOPS* le lleva a la página Análisis de carga de trabajo, donde puede seleccionar un intervalo de tiempo y ver las tendencias de latencia, rendimiento y capacidad para la carga de trabajo seleccionada. Para obtener más información acerca del analizador de cargas de trabajo, consulte link:..//performance-checker/concept_troubleshooting_workloads_using_workload_analyzer.html["Solucionar problemas de cargas de trabajo mediante el analizador de cargas de trabajo"].
+
+Puede ver información de rendimiento sobre una carga de trabajo para ayudarle con la solución de problemas haciendo clic en el icono del gráfico de barras en la columna *Vista de rendimiento*. Para ver los gráficos de rendimiento y capacidad en la página Análisis de carga de trabajo para analizar el objeto, haga clic en el botón *analizar carga de trabajo*.
+
+Para obtener más información, consulte link:../performance-checker/reference_what_data_does_workload_analyzer_display.html["¿Qué datos muestra el analizador de cargas de trabajo"].

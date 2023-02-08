@@ -1,0 +1,87 @@
+---
+permalink: install-windows/task_upgrade_to_unified_manager_on_microsoft_windows.html 
+sidebar: sidebar 
+keywords: upgrade, unified manager 
+summary: Puede actualizar Unified Manager descargando y ejecutando el archivo de instalación en la plataforma Windows. 
+---
+= Actualizar Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede actualizar Unified Manager 9.10 o 9.11 a 9.12 descargando y ejecutando el archivo de instalación en la plataforma Windows.
+
+*Lo que necesitará*
+
+* El sistema donde se actualiza Unified Manager debe cumplir con los requisitos del sistema y del software.
++
+Consulte link:concept_virtual_infrastructure_or_hardware_system_requirements.html["Requisitos del sistema de hardware"].
+
++
+Consulte link:reference_windows_software_and_installation_requirements.html["Requisitos de instalación y software de Windows"].
+
++
+[NOTE]
+====
+A partir de Unified Manager 9.5, OpenJDK se proporciona en el paquete de instalación y se instala automáticamente. Oracle Java no es compatible a partir de Unified Manager 9.5.
+
+====
++
+[NOTE]
+====
+Asegúrese de que Microsoft .NET 4.5.2 o superior esté instalado en el sistema antes de iniciar la actualización.
+
+====
+* MySQL Community Edition se actualiza automáticamente durante la actualización de Unified Manager. Si la versión instalada de MySQL en el sistema es anterior a 8.0.30, el proceso de actualización de Unified Manager actualiza automáticamente MySQL a 8.0.30. No debe ejecutar una actualización independiente de una versión anterior de MySQL a la versión 8.0.30.
+* Debe tener privilegios de administrador de Windows. Asegúrese de que su nombre de usuario no comience con un signo de exclamación "'!`". Installation of Unified Manager might fail if the user name of user running the installation begins with "`!''.
+* Debe tener credenciales válidas para iniciar sesión en el sitio de soporte de NetApp.
+* Para evitar la pérdida de datos, debe haber creado un backup de la máquina de Unified Manager en caso de que haya un problema durante la actualización.
+* Debe tener suficiente espacio en disco disponible para realizar la actualización.
++
+El espacio disponible en la unidad de instalación debe ser 2.5 GB mayor que el tamaño del directorio de datos. La actualización se detiene y muestra un mensaje de error que indica la cantidad de espacio que debe añadirse si no hay suficiente espacio libre.
+
+* Durante la actualización, es posible que se le solicite que confirme si desea mantener la configuración predeterminada anterior para conservar los datos de rendimiento durante 13 meses o si desea cambiarla a 6 meses. Al confirmar, se depuran los datos de rendimiento históricos después de 6 meses.
+* Antes de realizar la actualización, debe cerrar cualquier archivo o carpeta abiertos en _<InstallDir>\JDK_ y _MySQL Data Directory_.
+* Si tiene un software antivirus activo instalado en el sistema Windows, es posible que se produzca un error en la actualización de Unified Manager. Debe deshabilitar todo el software de análisis de virus en el sistema antes de actualizar Unified Manager.
+
+
+Durante el proceso de actualización, Unified Manager no está disponible. Debe completar todas las operaciones en ejecución antes de actualizar Unified Manager.
+
+Si Unified Manager se empareja con una instancia de OnCommand Workflow Automation y hay nuevas versiones del software disponibles para ambos productos, debe desconectar los productos y, a continuación, configurar una nueva conexión de Workflow Automation tras las actualizaciones. Si solo actualiza uno de los productos, deberá iniciar sesión en Workflow Automation tras la actualización y comprobar que aún se recopilen datos de Unified Manager.
+
+.Pasos
+. Inicie sesión en el sitio de soporte de NetApp y desplácese hasta la página de descarga de Unified Manager:
++
+https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab["Sitio de soporte de NetApp"^].
+
+. Seleccione la versión requerida de Unified Manager y acepte el contrato de licencia para usuarios finales (CLUF).
+. Descargue el archivo de instalación de Unified Manager Windows en un directorio de destino en el sistema Windows.
+. Haga clic con el botón derecho en y ejecute el archivo ejecutable (.exe) del instalador de Unified Manager como administrador.
++
+Unified Manager le solicita el siguiente mensaje:
+
++
+[listing]
+----
+This setup will perform an upgrade of Unified Manager. Do you want to continue?
+----
+. Haga clic en *Sí* y, a continuación, haga clic en *Siguiente*.
+. Introduzca la contraseña de root MySQL8 que se estableció durante la instalación y, a continuación, haga clic en *Siguiente*.
+. Inicie la interfaz de usuario web en una nueva ventana en un explorador web compatible e inicie sesión para utilizar la versión actualizada de Unified Manager.
+. Si tiene instalado un software antivirus activo en el sistema Windows, asegúrese de excluir manualmente las siguientes rutas del análisis antivirus una vez completada la actualización:
++
+** Directorio de datos de Unified Manager
+** Directorio de instalación de Unified Manager
+** Directorio de datos de MySQL
+
+
+
+
+[NOTE]
+====
+Para realizar una actualización silenciosa de Unified Manager, ejecute el siguiente comando:
+`ActiveIQUnifiedManager-<version\>.exe /s /v"MYSQL_PASSWORD=<password> /qn /l*v <system_drive>:\install.log"`
+
+====

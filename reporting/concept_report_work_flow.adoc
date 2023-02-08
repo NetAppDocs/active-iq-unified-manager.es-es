@@ -1,0 +1,16 @@
+---
+permalink: reporting/concept_report_work_flow.html 
+sidebar: sidebar 
+keywords: report, workflow 
+summary: Árbol de decisiones que describe el flujo de trabajo del informe. 
+---
+= Flujo de trabajo de informes
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Árbol de decisiones que describe el flujo de trabajo del informe.
+
+image::../media/reports_view_workflow.png[flujo de trabajo de vista informes]

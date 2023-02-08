@@ -1,0 +1,33 @@
+---
+permalink: health-checker/concept_what_database_restore_is.html 
+sidebar: sidebar 
+keywords: unified manager, database, restore 
+summary: Una restauración de base de datos de MySQL es el proceso de restaurar un archivo de backup de Unified Manager existente en el mismo servidor de Unified Manager o en uno diferente. La operación de restauración se realiza desde la consola de mantenimiento de Unified Manager. 
+---
+= Qué es una restauración de base de datos
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Una restauración de base de datos de MySQL es el proceso de restaurar un archivo de backup de Unified Manager existente en el mismo servidor de Unified Manager o en uno diferente. La operación de restauración se realiza desde la consola de mantenimiento de Unified Manager.
+
+Si va a realizar una operación de restauración en el mismo sistema (local) y los archivos de backup se almacenan localmente, puede ejecutar la opción de restauración con la ubicación predeterminada. Si va a realizar una operación de restauración en un sistema de Unified Manager diferente (un sistema remoto), debe copiar el archivo de backup o los archivos, desde el almacenamiento secundario al disco local antes de ejecutar la opción de restauración.
+
+Durante el proceso de restauración, se cerró la sesión en Unified Manager. Se puede iniciar sesión en el sistema una vez completado el proceso de restauración.
+
+Si va a restaurar la imagen de backup en un servidor nuevo, una vez que finalice la operación de restauración, debe generar un nuevo certificado de seguridad HTTPS y reiniciar el servidor de Unified Manager. También deberá volver a configurar la configuración de autenticación SAML, si es necesario, al restaurar la imagen de backup en un nuevo servidor.
+
+[NOTE]
+====
+No es posible usar los archivos de backup antiguos para restaurar una imagen después de que Unified Manager se haya actualizado a una versión más reciente de software. Para ahorrar espacio, se eliminan automáticamente todos los archivos de backup antiguos, excepto el archivo más reciente, al actualizar Unified Manager.
+
+====
+*Información relacionada*
+
+link:../config/task_generate_an_https_security_certificate_ocf.html["Generar un certificado de seguridad HTTPS"]
+
+link:../config/task_enable_saml_authentication_um.html["Habilitación de la autenticación SAML"]
+
+link:../config/concept_authentication_with_active_directory_or_openldap.html["Autenticación con Active Directory u OpenLDAP"]

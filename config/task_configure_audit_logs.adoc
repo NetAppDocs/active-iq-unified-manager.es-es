@@ -1,0 +1,24 @@
+---
+permalink: config/task_configure_audit_logs.html 
+sidebar: sidebar 
+keywords: configure, audit logs 
+summary: Puede usar el botón Configure de la sección Audit Logs para configurar la política de implementación de los archivos de registro de auditoría y también para habilitar el registro remoto de los registros de auditoría. 
+---
+= Configuración de registros de auditoría
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede utilizar el botón *Configurar* de la sección registros de auditoría para configurar la directiva de implementación para archivos de registro de auditoría y también para habilitar el registro remoto para los registros de auditoría.
+
+Puede establecer los valores en *MAX FILE SIZE* y *AUDIT LOG RETENTION PERID* según la cantidad y frecuencia de datos que desee almacenar en el sistema. El valor del campo *TAMAÑO TOTAL del REGISTRO de AUDITORÍA* es el tamaño de los datos totales del registro de auditoría presentes en el sistema. La directiva de recuperación viene determinada por los valores del campo *DÍAS de RETENCIÓN de REGISTRO DE AUDITORÍA*, *TAMAÑO de ARCHIVO MAX* y *TAMAÑO DE REGISTRO DE AUDITORÍA TOTAL*. Cuando el tamaño de la copia de seguridad del registro de auditoría alcanza el valor configurado en *TAMAÑO TOTAL del REGISTRO de AUDITORÍA*, el archivo que se archivó primero se elimina. Esto significa que se ha eliminado el archivo más antiguo. Pero la entrada del fichero sigue estando disponible en la base de datos y está marcada como "'Rollover Delete'". El valor *DÍAS de RETENCIÓN del REGISTRO DE AUDITORÍA* es para el número de días que se conservan los archivos de registro de auditoría. Cualquier archivo anterior al valor establecido en este campo se repasa.
+
+.Pasos
+. Haga clic en *registros de auditoría* > > *Configurar*.
+. Introduzca los valores en *MAX FILE SIZE*, *TOTAL AUDIT LOG SIZE* y *DÍAS DE RETENCIÓN DEL REGISTRO de AUDITORÍA*.
++
+Si desea activar el registro remoto, debe seleccionar *Activar registro remoto*.
+
+

@@ -1,0 +1,14 @@
+---
+permalink: health-checker/concept_manage_and_monitor_groups.html 
+sidebar: sidebar 
+keywords: manage, monitor, groups 
+summary: Es posible crear grupos en Unified Manager para gestionar objetos de almacenamiento. 
+---
+= Gestión y supervisión de grupos
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Es posible crear grupos en Unified Manager para gestionar objetos de almacenamiento.

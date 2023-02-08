@@ -1,0 +1,60 @@
+---
+permalink: data-protection/task_update_protection_voldtls_page.html 
+sidebar: sidebar 
+keywords: initialize, update, protection, relationships, volume, health details page 
+summary: Puede realizar una primera transferencia de referencia en una nueva relación de protección o actualizar una relación si ya está inicializada y desea realizar una actualización incremental manual no programada para transferir datos de inmediato. 
+---
+= Inicializar o actualizar las relaciones de protección en la página de detalles Volume / Health
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede realizar una primera transferencia de referencia en una nueva relación de protección o actualizar una relación si ya está inicializada y desea realizar una actualización incremental manual no programada para transferir datos de inmediato.
+
+*NOTA*: No puede inicializar ni actualizar volúmenes protegidos por grupos de consistencia.
+
+*Lo que necesitará*
+
+* Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+* Debe haber configurado OnCommand Workflow Automation.
+
+
+.Pasos
+. En la ficha *Protección* de la página de detalles *volumen / Salud*, busque en la topología la relación de protección que desea inicializar o actualizar y haga clic con el botón secundario del ratón en ella.
+. Seleccione *inicializar/actualizar* en el menú.
++
+Como alternativa, en el menú *acciones*, seleccione *relación* > *inicializar/actualizar* para inicializar o actualizar la relación para la que está viendo los detalles.
+
++
+Aparece el cuadro de diálogo inicializar/actualizar.
+
+. En la ficha *Opciones de transferencia*, seleccione una prioridad de transferencia y la velocidad máxima de transferencia.
+. Haga clic en *copias Snapshot de origen*; a continuación, en la columna *copia Snapshot*, haga clic en *predeterminado*.
++
+Se muestra el cuadro de diálogo Seleccionar copia Snapshot de origen.
+
+. Si desea especificar una copia Snapshot existente en lugar de transferir la copia Snapshot predeterminada, haga clic en *copia Snapshot existente* y seleccione una copia Snapshot de la lista.
+. Haga clic en *Enviar*.
++
+Volverá al cuadro de diálogo inicializar/actualizar.
+
+. Si ha seleccionado más de un origen para inicializar o actualizar, haga clic en *predeterminado* para el siguiente origen de lectura/escritura para el que desea especificar una copia Snapshot existente.
++
+No puede seleccionar una copia Snapshot diferente para los volúmenes de protección de datos.
+
+. Haga clic en *Enviar* para iniciar el trabajo de inicialización o actualización.
++
+El trabajo de inicialización o actualización se inicia, vuelve a la página de detalles Volume / Health y se muestra un enlace Jobs en la parte superior de la página.
+
+. *Opcional:* haga clic en *Ver trabajos* en la página de detalles *volumen / Salud* para realizar un seguimiento del estado de cada trabajo de inicialización o actualización.
++
+Se muestra una lista filtrada de trabajos.
+
+. *Opcional:* haga clic en cada trabajo para ver sus detalles.
+. *Opcional:* haga clic en la flecha Atrás de su navegador para volver a la página de detalles *volumen / Salud*.
++
+La operación de inicialización o actualización finaliza cuando todas las tareas de trabajo se completan correctamente.
+
+

@@ -1,0 +1,16 @@
+---
+permalink: config/concept_login_banner.html 
+sidebar: sidebar 
+keywords: login banner, feature settings 
+summary: Esta función permite a la empresa mostrar cualquier información, como, por ejemplo, quién puede acceder al sistema y los términos y condiciones de uso durante el inicio de sesión y el cierre de sesión. 
+---
+= Adición de un banner de inicio de sesión
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Al añadir un banner de inicio de sesión, su organización puede mostrar cualquier información, como, por ejemplo, quién puede acceder al sistema y los términos y condiciones de uso durante el inicio de sesión y el cierre de sesión.
+
+Cualquier usuario, como operadores de almacenamiento o administradores, puede ver la ventana emergente de este banner de inicio de sesión durante el inicio de sesión, el cierre de sesión y el tiempo de espera de la sesión.

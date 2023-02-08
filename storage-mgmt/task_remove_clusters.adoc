@@ -1,0 +1,34 @@
+---
+permalink: storage-mgmt/task_remove_clusters.html 
+sidebar: sidebar 
+keywords: remove, cluster 
+summary: Puede quitar un clúster de Unified Manager mediante la página Cluster Setup. Por ejemplo, puede quitar un clúster si la detección del clúster falla o cuando desea retirar un sistema de almacenamiento. 
+---
+= Quitar clústeres
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede quitar un clúster de Unified Manager mediante la página Cluster Setup. Por ejemplo, puede quitar un clúster si la detección del clúster falla o cuando desea retirar un sistema de almacenamiento.
+
+*Lo que necesitará*
+
+Debe tener el rol de administrador de aplicaciones o de administrador de almacenamiento.
+
+Esta tarea elimina el clúster seleccionado de Unified Manager. Después de eliminar un clúster, este ya no se supervisa. La instancia de Unified Manager registrada en el clúster eliminado también se elimina del clúster.
+
+Al quitar un clúster, también se eliminan todos sus objetos de almacenamiento, datos históricos, servicios de almacenamiento y todos los eventos asociados de Unified Manager. Estos cambios se reflejan en las páginas de inventario y las páginas de detalles después del siguiente ciclo de recopilación de datos.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *Storage Management* > *Cluster Setup*.
+. En la página Cluster Setup (Configuración del clúster), seleccione el clúster que desea quitar y haga clic en *Remove*.
+. En el cuadro de diálogo del mensaje *Quitar origen de datos*, haga clic en *Quitar* para confirmar la solicitud de eliminación.
+
+
+*Información relacionada*
+
+link:../config/task_add_users.html["Adición de usuarios"]
+
+link:../health-checker/task_view_cluster_list_and_details.html["Ver la lista del clúster y sus detalles"]

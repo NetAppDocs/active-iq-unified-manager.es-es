@@ -1,0 +1,25 @@
+---
+permalink: events/task_view_alerts.html 
+sidebar: sidebar 
+keywords: view, alerts 
+summary: Es posible ver la lista de alertas que se crean para varios eventos en la página Alert Setup. También es posible ver propiedades de alerta como la descripción de alertas, el método de notificación y la frecuencia, los eventos que activan la alerta, los destinatarios de correo electrónico de las alertas y los recursos afectados, como clústeres, agregados y volúmenes. 
+---
+= Visualizar alertas
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Es posible ver la lista de alertas que se crean para varios eventos en la página Alert Setup. También es posible ver propiedades de alerta como la descripción de alertas, el método de notificación y la frecuencia, los eventos que activan la alerta, los destinatarios de correo electrónico de las alertas y los recursos afectados, como clústeres, agregados y volúmenes.
+
+*Lo que necesitará*
+
+Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
+
+.Paso
+. En el panel de navegación izquierdo, haga clic en *Administración de almacenamiento* > *Configuración de alertas*.
++
+La lista de alertas se muestra en la página Alert Setup.
+
+

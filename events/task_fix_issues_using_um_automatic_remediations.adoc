@@ -1,0 +1,26 @@
+---
+permalink: events/task_fix_issues_using_um_automatic_remediations.html 
+sidebar: sidebar 
+keywords: fix, issues, use, unified manager, automatic, remediations 
+summary: Hay ciertos eventos que Unified Manager puede diagnosticar a fondo y proporcionar una sola resolución mediante el botón Fix it. Cuando están disponibles, estas resoluciones se muestran en el Panel , en la página Detalles de eventos y en la selección Análisis de carga de trabajo del menú de navegación izquierdo. 
+---
+= Solución de problemas mediante la solución automática de Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Hay ciertos eventos que Unified Manager puede diagnosticar a fondo y proporcionar una única resolución mediante el botón *Fix it*. Si están disponibles, estas resoluciones se muestran en el Panel, en la página de detalles de eventos y en la selección Análisis de carga de trabajo del menú de navegación izquierdo.
+
+La mayoría de los eventos tienen diversas resoluciones posibles que se muestran en la página de detalles del evento de modo que puede implementar la mejor solución con System Manager de ONTAP o la CLI de ONTAP. Una acción *Fix it* está disponible cuando Unified Manager ha determinado que existe una única resolución para solucionar el problema y que se puede resolver mediante un comando CLI de ONTAP.
+
+.Pasos
+. Para ver los eventos que se pueden solucionar desde *Panel*, haga clic en *Panel*.
++
+image::../media/management_actions.png[acciones de gestión]
+
+. Para resolver cualquiera de los problemas que Unified Manager puede solucionar, haga clic en el botón *Fix it*. Para solucionar un problema que existe en varios objetos, haga clic en el botón *solucionar todo*.
+
+
+Para obtener información sobre los problemas que pueden solucionarse automáticamente con la solución de problemas, consulte link:..//storage-mgmt/reference_what_ontap_issues_can_unified_manager_fix.html["¿Qué problemas puede solucionar Unified Manager"].

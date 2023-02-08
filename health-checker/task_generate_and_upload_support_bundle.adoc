@@ -1,0 +1,90 @@
+---
+permalink: health-checker/task_generate_and_upload_support_bundle.html 
+sidebar: sidebar 
+keywords: generate, upload, support bundle 
+summary: Es posible generar un bundle de soporte, que contiene información de diagnóstico, de modo que se pueda enviar al soporte técnico para la ayuda de solución de problemas. También puede cargar el paquete de soporte en NetApp desde la consola de mantenimiento. 
+---
+= Generar y cargar un bundle de soporte
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Es posible generar un bundle de soporte, que contiene información de diagnóstico, de modo que se pueda enviar al soporte técnico para la ayuda de solución de problemas.
+
+A partir de Unified Manager 9.8, si el servidor de Unified Manager está conectado a Internet, también puede cargar el paquete de soporte a NetApp desde la consola de mantenimiento.
+
+*Lo que necesitará*
+
+Debe tener acceso a la consola de mantenimiento como usuario de mantenimiento.
+
+Como algunos tipos de datos de soporte pueden usar una gran cantidad de recursos del clúster o demorar mucho tiempo para completarse, cuando selecciona el paquete de soporte completo puede especificar los tipos de datos que se incluirán o excluir para reducir el tamaño del paquete de soporte. También tiene la opción de crear un paquete de soporte ligero que contenga sólo 30 días de registros y registros de la base de datos de configuración, lo que excluye datos de rendimiento, archivos de grabación de adquisición y volcado de pila del servidor.
+
+Unified Manager almacena solo los dos paquetes de soporte generados más recientemente. Los paquetes de soporte más antiguos se eliminan del sistema.
+
+.Pasos
+. En la consola de mantenimiento *Menú principal*, seleccione *Soporte/Diagnóstico*.
+. Seleccione *generar paquete de soporte ligero* o *generar paquete de soporte* dependiendo del nivel de detalles que desee tener en el paquete de soporte.
+. Si elige el paquete de soporte completo, seleccione o anule la selección de los siguientes tipos de datos para incluir o excluir en el paquete de soporte:
++
+** *volcado de base de datos*
++
+Un volcado de la base de datos de MySQL Server.
+
+** *volcado de pila*
++
+Una copia Snapshot del estado de los procesos principales del servidor de Unified Manager. Esta opción está deshabilitada de forma predeterminada y solo se debe seleccionar cuando el servicio de soporte al cliente lo solicite.
+
+** *grabaciones de adquisición*
++
+Un registro de todas las comunicaciones entre Unified Manager y los clústeres supervisados.
+
+
+
++
+[NOTE]
+====
+Si anule la selección de todos los tipos de datos, el bundle de soporte se sigue generando con otros datos de Unified Manager.
+
+====
+. Tipo `g`Y, a continuación, presione Intro para generar el paquete de soporte.
++
+Dado que la generación de un bundle de soporte es una operación que utiliza bastante memoria, se le solicita que verifique que desea generar el bundle de soporte en este momento.
+
+. Tipo `y`Y, a continuación, presione Intro para generar el paquete de soporte.
++
+Si no desea generar el bundle de soporte en este momento, escriba `n`Y, a continuación, pulse Intro.
+
+. Si incluyó archivos de volcado de base de datos en el bundle de soporte completo, se le solicitará que especifique el periodo de tiempo durante el cual se incluirán las estadísticas de rendimiento. Las estadísticas de rendimiento pueden requerir mucho tiempo y espacio, por lo que también puede volcar la base de datos sin incluir las estadísticas de rendimiento:
++
+.. Introduzca la fecha de inicio con el formato AAAAMMDD.
++
+Por ejemplo, introduzca `20210101` Para el 1 de enero de 2021. Introduzca `n` si no desea incluir las estadísticas de rendimiento.
+
+.. Introduzca la cantidad de días de estadísticas que se incluirán; a partir de las 12:00 en la fecha de inicio especificada.
++
+Puede introducir un número del 1 al 10.
+
+
+
++
+Si se incluyen las estadísticas de rendimiento, el sistema muestra el periodo de tiempo durante el cual se recogerán las estadísticas de rendimiento.
+
+. Una vez creado el paquete de soporte, se le solicitará si desea cargarlo a NetApp. Tipo `y`Y, a continuación, pulse Intro.
++
+Se le pedirá que introduzca el número de caso de soporte.
+
+. Si ya dispone de un número de caso, introduzca el número y pulse Intro. En caso contrario, pulse Intro.
++
+El bundle de soporte se carga a NetApp.
+
+
+
+Si el servidor de Unified Manager no está conectado a Internet o si no puede cargar el bundle de soporte por cualquier otro motivo, puede recuperarlo y enviarlo manualmente. Puede recuperarlo con un cliente SFTP o con comandos de la CLI de UNIX o Linux. En instalaciones de Windows puede utilizar Remote Desktop (RDP) para recuperar el paquete de soporte.
+
+El paquete de soporte generado reside en el directorio /Support de los sistemas VMware, en /opt/netapp/data/support/ en sistemas Linux y en ProgramData\NetApp\dAppData\ocum\support en sistemas Windows.
+
+*Información relacionada*
+
+link:../config/reference_unified_manager_roles_and_capabilities.html["Roles y funcionalidades de usuario de Unified Manager"]

@@ -1,0 +1,18 @@
+---
+permalink: data-protection/concept_what_happens_when_wfa_is_reinstalled_or_upgraded.html 
+sidebar: sidebar 
+keywords: what happens, oncommand, workflow automation, reinstalled, upgraded 
+summary: Antes de reinstalar o actualizar OnCommand Workflow Automation, primero debe quitar la conexión entre OnCommand Workflow Automation y Unified Manager y asegurarse de que se hayan detenido todos los trabajos programados o en ejecución actualmente de OnCommand Workflow Automation. 
+---
+= Qué ocurre cuando se vuelve a instalar o actualizar OnCommand Workflow Automation
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Antes de reinstalar o actualizar OnCommand Workflow Automation, primero debe quitar la conexión entre OnCommand Workflow Automation y Unified Manager y asegurarse de que se hayan detenido todos los trabajos programados o en ejecución actualmente de OnCommand Workflow Automation.
+
+También debe eliminar manualmente Unified Manager de OnCommand Workflow Automation.
+
+Después de reinstalar o actualizar OnCommand Workflow Automation, debe configurar de nuevo la conexión con Unified Manager.

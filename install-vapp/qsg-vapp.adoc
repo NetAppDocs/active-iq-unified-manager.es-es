@@ -1,0 +1,62 @@
+---
+permalink: install-vapp/qsg-vapp.html 
+sidebar: sidebar 
+keywords: quick start guide, getting started, QSG, VMWare QSG, vApp QSG, quick installation 
+summary: Guía de inicio rápido para Unified Manager en plataforma VMware vSphere. 
+---
+= Instrucciones de inicio rápido para instalaciones de VMware
+:allow-uri-read: 
+
+
+
+
+== Requisitos del sistema
+
+* Sistema operativo: VMware ESXi 6.5, 6.7 y 7.0.x
+* RAM: 12 GB
+* CPU: 9572 MHz en total
+* Espacio libre en disco: 5 GB (thin provisioning), 152 GB (thick provisioning)
+
+
+Para ver los requisitos detallados del sistema, consulte link:../install-vapp/concept_requirements_for_installing_unified_manager.html["Requisitos para instalar Unified Manager"] y.. link:http://mysupport.netapp.com/matrix["Matriz de interoperabilidad"].
+
+
+
+== Instalando Active IQ Unified Manager
+
+
+
+=== Descargue el instalador
+
+. Descargue el `.tar` archivo que contiene un certificado raíz, un `README` archivo, y una `OVA` archivo.
+. Guarde el archivo en un directorio local o en un directorio de red al que pueda acceder vSphere Client.
+. En el directorio en el que ha descargado el `.tar` archivo, introduzca la `tar -xvzf ActiveIQUnifiedManager-<version>.tar.gz` comando. + el requerido `OVA` archivo, un certificado raíz y un `README` el archivo se descomprime en el directorio de destino.
+
+
+
+
+=== Verifique la integridad
+
+Puede verificar la integridad de `OVA` siga los pasos proporcionados en `README` archivo.
+
+
+
+=== Instale Unified Manager
+
+. En vSphere Client, haga clic en *Archivo > implementar plantilla OVF*.
+. Busque el archivo OVA y utilice el asistente para implementar el dispositivo virtual en el servidor ESXi.
+. En la página revisar detalles, en la sección Publisher, aparece el mensaje  `Entrust Code Signing - OVCS2 (Trusted certificate)` confirma la integridad de la descarga `OVA` archivo. Para el mensaje `Entrust Code Signing - OVCS2 (Invalid certificate)`, Actualice VMware vCenter Server a 7.0U3E o una versión posterior.
+. En la página Personalizar plantilla, en la ficha Propiedades, rellene los campos según sea necesario para el tipo de instalación que esté realizando:
++
+** Para la configuración estática, introduzca la información requerida en todos los campos. No es necesario agregar información para el campo *DNS secundario*.
+** Para DHCP que utilice IPv4, no añada ninguna información en ningún campo.
+** Para DHCP con IPv6, marque la casilla “Habilitar direccionamiento IPv6 automático”. No añada ninguna información en ningún otro campo.
+
+
+. Encienda la máquina virtual.
+. Haga clic en la ficha Consola para ver el proceso de inicio inicial.
+. Configure la zona horaria.
+. Introduzca un nombre de usuario y una contraseña de mantenimiento de Unified Manager.
+
+
+Al finalizar la instalación, se muestra la información para conectarse a la interfaz de usuario web de Unified Manager.

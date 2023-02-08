@@ -1,0 +1,18 @@
+---
+permalink: data-protection/concept_what_jobs_are.html 
+sidebar: sidebar 
+keywords: jobs 
+summary: Un trabajo es una serie de tareas que se pueden supervisar con Unified Manager. La visualización de trabajos y sus tareas asociadas permite determinar si los trabajos se completaron correctamente. 
+---
+= Qué trabajos son
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Un trabajo es una serie de tareas que se pueden supervisar con Unified Manager. La visualización de trabajos y sus tareas asociadas permite determinar si los trabajos se completaron correctamente.
+
+Los trabajos se inician cuando se crean relaciones de SnapMirror y SnapVault, al realizar cualquier operación de relación (break, editar, poner en modo inactivo, eliminar, reanudar, resincronizar y resincronización inversa), cuando realiza tareas de restauración de datos, cuando inicia sesión en un clúster, etc.
+
+Al iniciar un trabajo, es posible usar la página Jobs y la página de detalles Job para supervisar el trabajo y el progreso de las tareas asociadas.

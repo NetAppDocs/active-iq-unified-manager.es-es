@@ -1,0 +1,52 @@
+---
+permalink: reporting/task_search_for_scheduled_report.html 
+sidebar: sidebar 
+keywords: search, schedule, report 
+summary: Puede buscar informes programados por nombre, nombre de vista, tipo de objeto o destinatarios. 
+---
+= Buscando un informe programado
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede buscar informes programados por nombre, nombre de vista, tipo de objeto o destinatarios.
+
+. En el panel de navegación izquierdo, haga clic en *Administración de almacenamiento* > *programas de informes*.
+. Utilice el campo de texto *Buscar informes programados*.
++
+[cols="2*"]
+|===
+| Para encontrar informes por ... | Pruebe ... 
+
+
+ a| 
+Nombre del programa
+ a| 
+Escriba parte del nombre del programa del informe.
+
+
+
+ a| 
+Nombre de la vista
+ a| 
+Escriba parte del nombre de la vista de informe. Las vistas predeterminadas y las vistas personalizadas aparecen en la lista de vistas.
+
+
+
+ a| 
+Destinatario
+ a| 
+Escriba parte de la dirección de correo electrónico.
+
+
+
+ a| 
+Tipo de archivo
+ a| 
+Escriba "PDF", "CSV" o "XLSX".
+
+|===
+. Puede hacer clic en un encabezado de columna para ordenar los informes en orden ascendente o descendente por esa columna, como el nombre de la programación o el formato.
+

@@ -1,0 +1,19 @@
+---
+permalink: reporting/task_sort_data.html 
+sidebar: sidebar 
+keywords: sort, data 
+summary: Para ordenar los resultados, haga clic en una columna e indique el orden ascendente o descendente. Ordenar los datos da prioridad a la información que necesita para elaborar el informe. 
+---
+= Ordenar datos
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Para ordenar los resultados, haga clic en una columna e indique el orden ascendente o descendente. Ordenar los datos da prioridad a la información que necesita para elaborar el informe.
+
+.Pasos
+. Haga clic en la parte superior de una columna para ordenar los resultados de modo que la información más importante aparezca en la parte superior de la vista.
+. Asigne un nombre a la vista sin guardar para guardar los cambios.
+

@@ -1,0 +1,44 @@
+---
+permalink: health-checker/task_view_volume_list_and_details.html 
+sidebar: sidebar 
+keywords: view, volume list, details 
+summary: 'En la vista Health: Todos los volúmenes, es posible supervisar el inventario de volúmenes. La capacidad: Todos los volúmenes de la vista le permite ver información sobre la capacidad y la utilización de los volúmenes de un clúster.' 
+---
+= Ver la lista de volúmenes y los detalles
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+En la vista Health: Todos los volúmenes, es posible supervisar el inventario de volúmenes. La capacidad: Todos los volúmenes de la vista le permite ver información sobre la capacidad y la utilización de los volúmenes de un clúster.
+
+*Lo que necesitará*
+
+Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
+
+También se puede usar la página de detalles Volume / Health para ver información detallada sobre los volúmenes que se supervisan, incluida la capacidad, la eficiencia, la configuración y la protección de los volúmenes. También es posible ver información sobre los dispositivos relacionados y las alertas relacionadas para un volumen específico.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *almacenamiento* > *volúmenes*.
+. Seleccione una de las siguientes maneras de ver los detalles del volumen:
++
+** Para ver información detallada sobre el estado de los volúmenes de un clúster, en el menú Ver, seleccione Estado: All Volumes view.
+** Para ver información detallada sobre la capacidad y la utilización de los volúmenes en un clúster, en el menú Ver, seleccione capacidad: All Volumes view.
+** Para ver los detalles completos, haga clic en el nombre del volumen.
++
+También puede ver todos los detalles haciendo clic en *Ver detalles* en el cuadro de diálogo Detalles mínimos.
+
+
+
+. *Opcional:* para ver los objetos relacionados con el volumen, haga clic en *Ver relacionados* en el cuadro de diálogo Detalles mínimos.
+
+
+*Información relacionada*
+
+* link:../health-checker/reference_health_volume_details_page.html["Volumen: Página de detalles Health"]
+* link:../performance-checker/performance-view-all.html#performance-all-volumes-view["Rendimiento: Vista de todos los volúmenes"]
+* link:../health-checker/task_view_antiransomware_status_of_all_volumes_storage_vms.html#view-security-details-of-all-volumes-with-anti-ransomware-detection["Seguridad: Vista antiransomware"]
+* link:../data-protection/task_view_volume_protection_relationships.html["Visualización de las relaciones de protección de volúmenes"]
+* link:../reporting/task_create_report_to_view_available_volume_capacity_charts.html["Creación de un informe para ver los gráficos de capacidad de los volúmenes disponibles"]
+

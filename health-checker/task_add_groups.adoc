@@ -1,0 +1,27 @@
+---
+permalink: health-checker/task_add_groups.html 
+sidebar: sidebar 
+keywords: add, groups 
+summary: 'Puede crear grupos para combinar clústeres, volúmenes y máquinas virtuales de almacenamiento (SVM) con el fin de simplificar la gestión.' 
+---
+= Agregar grupos
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede crear grupos para combinar clústeres, volúmenes y máquinas virtuales de almacenamiento (SVM) con el fin de simplificar la gestión.
+
+*Lo que necesitará*
+
+Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
+Puede definir reglas de grupo para agregar o quitar miembros del grupo y modificar acciones de grupo para el grupo.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *Administración de almacenamiento* > *grupos*.
+. En la ficha *grupos*, haga clic en *Agregar*.
+. En el cuadro de diálogo *Agregar grupo*, escriba un nombre y una descripción para el grupo.
+. Haga clic en *Agregar*.
+

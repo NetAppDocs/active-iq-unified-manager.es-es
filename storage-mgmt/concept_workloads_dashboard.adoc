@@ -1,0 +1,74 @@
+---
+permalink: storage-mgmt/concept_workloads_dashboard.html 
+sidebar: sidebar 
+keywords: workloads, overview, data center, sections 
+summary: 'Una carga de trabajo representa las operaciones de entrada/salida (I/o) de un objeto de almacenamiento, como un volumen o LUN. La forma en que se aprovisiona el almacenamiento se basa en los requisitos esperados de la carga de trabajo. Active IQ Unified Manager realiza un seguimiento de las estadísticas de carga de trabajo solo después de que haya tráfico hacia y desde el objeto de almacenamiento. Por ejemplo, los valores de latencia e IOPS de la carga de trabajo están disponibles después de que los usuarios comiencen a utilizar una base de datos o una aplicación de correo electrónico.' 
+---
+= Información general de cargas de trabajo
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Una carga de trabajo representa las operaciones de entrada/salida (I/o) de un objeto de almacenamiento, como un volumen o LUN. La forma en que se aprovisiona el almacenamiento se basa en los requisitos esperados de la carga de trabajo. Active IQ Unified Manager realiza un seguimiento de las estadísticas de carga de trabajo solo después de que haya tráfico hacia y desde el objeto de almacenamiento. Por ejemplo, los valores de latencia e IOPS de la carga de trabajo están disponibles después de que los usuarios comiencen a utilizar una base de datos o una aplicación de correo electrónico.
+
+La página Workloads muestra un resumen de las cargas de trabajo de almacenamiento de los clústeres de ONTAP que gestiona Unified Manager. Proporciona información acumulativa de un vistazo acerca de las cargas de trabajo de almacenamiento que cumplen con el nivel de servicio de rendimiento, así como las cargas de trabajo de almacenamiento no conformes. También le permite evaluar la capacidad y el rendimiento (IOPS) totales, disponibles y usados de los clústeres en todo el centro de datos.
+
+[NOTE]
+====
+Se recomienda que evalúe el número de cargas de trabajo de almacenamiento no conformes, no disponibles o no gestionadas por cualquier nivel de servicio de rendimiento y realice las acciones necesarias para garantizar que cumple con sus normativas, su uso de capacidad y las IOPS.
+
+====
+La página Workloads tiene las siguientes dos secciones:
+
+* Información general de cargas de trabajo: Proporciona información general sobre el número de cargas de trabajo de almacenamiento en los clústeres de ONTAP gestionados por Unified Manager.
+* Descripción general del centro de datos: Proporciona una descripción general de la capacidad y las IOPS de las cargas de trabajo del almacenamiento en el centro de datos. Los datos correspondientes se muestran a nivel de centro de datos y para individuales .
+
+
+
+
+== Sección general de las cargas de trabajo
+
+La sección de información general de las cargas de trabajo ofrece información acumulativa de un vistazo de las cargas de trabajo de almacenamiento. El estado de las cargas de trabajo de almacenamiento se muestra en función de los niveles de servicio de rendimiento asignados y sin asignar.
+
+* *Asignado*: Se informa de los siguientes Estados para las cargas de trabajo de almacenamiento en las que se han asignado niveles de servicio de rendimiento:
++
+** *Cumplimiento*: El rendimiento de las cargas de trabajo de almacenamiento se basa en los niveles de servicio de rendimiento que se les ha asignado. Si las cargas de trabajo de almacenamiento se encuentran en el umbral de latencia definido en los niveles de servicio de rendimiento asociados, están marcadas como « conformes ». Las cargas de trabajo conformes están marcadas en azul.
+** *No conforme*: Durante la supervisión del rendimiento, las cargas de trabajo de almacenamiento se marcan como «no conformes» si la latencia de las cargas de trabajo de almacenamiento supera el umbral de latencia definido en el nivel de servicio de rendimiento asociado. Las cargas de trabajo no conformes se marcan en naranja.
+** *No disponible*: Las cargas de trabajo de almacenamiento se marcan como "'indisponible'" si están desconectadas o si el clúster correspondiente no es accesible. Las cargas de trabajo no disponibles se marcan en rojo.
+
+
+* *Sin asignar*: Las cargas de trabajo de almacenamiento que no tienen asignado un nivel de servicio de rendimiento se indican como "'unassigned'". El número se transmite mediante el icono de información.
+
+
+El número total de cargas de trabajo es la suma del total de las cargas de trabajo asignadas y sin asignar.
+
+Puede hacer clic en el número total de cargas de trabajo que se muestran en esta sección y visualizarlas en la página cargas de trabajo.
+
+La subsección conformidad por niveles de servicio de rendimiento muestra el número total de cargas de trabajo de almacenamiento disponibles:
+
+* Conforme a cada tipo de nivel de servicio de rendimiento
+* Para el cual no hay coincidencia entre los niveles de servicio de rendimiento asignado y recomendado
+
+
+
+
+== Sección de información general del centro de datos
+
+En la sección de información general del centro de datos se representa gráficamente la capacidad disponible y utilizada, además de las IOPS para todos los clústeres del centro de datos. Con estos datos, debe gestionar la capacidad y las IOPS de las cargas de trabajo de almacenamiento. En la sección también se muestra la siguiente información de las cargas de trabajo de almacenamiento en todos los clústeres:
+
+* La capacidad total, disponible y utilizada en todos los clústeres del centro de datos
+* La tasa de IOPS total, disponible y utilizada para todos los clústeres del centro de datos
+* La capacidad disponible y utilizada según cada nivel de servicio de rendimiento
+* La tasa de IOPS disponible y utilizada en función de cada nivel de servicio de rendimiento
+* El espacio total y las IOPS utilizadas por las cargas de trabajo que no tienen asignado un nivel de servicio de rendimiento
+
+
+*Cómo se calcula la capacidad y el rendimiento del centro de datos en función de los niveles de servicio de rendimiento*
+
+La capacidad utilizada y las IOPS se recuperan en términos de la capacidad total utilizada y del rendimiento de todas las cargas de trabajo de almacenamiento de los clústeres.
+
+La IOPS disponible se calcula en función de la latencia esperada y los niveles de servicio de rendimiento recomendados en los nodos. Incluye las IOPS disponibles para todos los niveles de servicio de rendimiento cuya latencia esperada sea menor o igual a su propia latencia esperada.
+
+La capacidad disponible se calcula en función de la latencia esperada y los niveles de servicio de rendimiento recomendados en los agregados. Incluye la capacidad disponible para todos los niveles de servicio de rendimiento cuya latencia esperada es menor o igual a su propia latencia esperada.

@@ -1,0 +1,44 @@
+---
+permalink: config/task_change_ports_um_uses_for_http_and_https_protocols.html 
+sidebar: sidebar 
+keywords: change, ports, unified manager, uses, http, https, protocols 
+summary: Los puertos predeterminados que Unified Manager utiliza para los protocolos HTTP y HTTPS se pueden cambiar después de la instalación si es necesario para la seguridad. Los puertos predeterminados son 80 para HTTP y 443 para HTTPS. 
+---
+= Cambiar los puertos Unified Manager utiliza para los protocolos HTTP y HTTPS
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Los puertos predeterminados que Unified Manager utiliza para los protocolos HTTP y HTTPS se pueden cambiar después de la instalación si es necesario para la seguridad. Los puertos predeterminados son 80 para HTTP y 443 para HTTPS.
+
+*Lo que necesitará*
+
+Debe tener un ID de usuario y una contraseña autorizados para iniciar sesión en la consola de mantenimiento del servidor de Unified Manager.
+
+[NOTE]
+====
+Hay algunos puertos que se consideran no seguros cuando se utilizan los navegadores Mozilla Firefox o Google Chrome. Consulte con el navegador antes de asignar un nuevo número de puerto para el tráfico HTTP y HTTPS. La selección de un puerto no seguro podría hacer que el sistema no sea accesible, lo que requeriría que se pusiera en contacto con el servicio de atención al cliente para obtener una resolución.
+
+====
+La instancia de Unified Manager se reinicia automáticamente después de cambiar el puerto, por lo que debe asegurarse de que es bueno momento para dejar el sistema inactivo durante un breve período de tiempo.
+
+. Inicie sesión con SSH como usuario de mantenimiento en el host de Unified Manager.
++
+Se muestran los mensajes de la consola de mantenimiento de Unified Manager.
+
+. Escriba el número de la opción de menú con la etiqueta *Ver/Cambiar puertos de aplicación* y, a continuación, pulse Intro.
+. Si se le solicita, vuelva a introducir la contraseña de usuario de mantenimiento.
+. Escriba los números de puerto nuevos para los puertos HTTP y HTTPS y, a continuación, pulse Intro.
++
+Si deja un número de puerto en blanco, se asigna el puerto predeterminado para el protocolo.
+
++
+Se le pregunta si desea cambiar los puertos y reiniciar Unified Manager ahora.
+
+. Escriba *y* para cambiar los puertos y reinicie Unified Manager.
+. Salga de la consola de mantenimiento.
+
+
+Después de este cambio, los usuarios deben incluir el nuevo número de puerto en la URL para acceder a la interfaz de usuario web de Unified Manager, por ejemplo: +https://host.company.com:1234+, +https://12.13.14.15:1122+ o +https://[2001:db8:0:1]:2123+.

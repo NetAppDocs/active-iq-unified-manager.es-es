@@ -1,0 +1,37 @@
+---
+permalink: reporting/task_create_report_view_nodes_running_older_versions_of_ontap.html 
+sidebar: sidebar 
+keywords: create, report, view, nodes, running, older versions, ONTAP 
+summary: Puede crear un informe para mostrar la versión del software ONTAP que está instalada en todos los nodos del clúster de modo que pueda ver qué nodos debe actualizar. 
+---
+= Crear un informe para ver los nodos que ejecutan versiones anteriores de ONTAP
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede crear un informe para mostrar la versión del software ONTAP que está instalada en todos los nodos del clúster de modo que pueda ver qué nodos debe actualizar.
+
+*Lo que necesitará*
+
+* Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
+
+Use los siguientes pasos para crear una vista personalizada que muestre los nodos que ejecutan versiones anteriores de ONTAP y, a continuación, programar un informe para que se genere en esa vista.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *almacenamiento* > *nodos*.
+. Seleccione *Mostrar/Ocultar* para quitar las columnas que no desee del informe.
+. Arrastre la columna «'OS Version'» cerca de la columna «'Node'».
+. Haga clic en la parte superior de la columna "'Versión del SO'" para ordenar los resultados por la versión más antigua de ONTAP.
+. Guarde la vista con un nombre específico que refleje lo que muestra la vista, por ejemplo, «'Nodes by ONTAP version'».
+. Haga clic en el botón *Informes programados* de la página de inventario.
+. Haga clic en *Agregar programación* para agregar una nueva fila a la página programas de informes de modo que pueda definir las características de programación para el nuevo informe.
+. Introduzca un nombre para el programa de informes y complete los otros campos de informe y, a continuación, haga clic en la Marca de verificación (image:../media/blue_check.gif[""]) al final de la fila.
++
+El informe se envía inmediatamente como prueba. Después de esto, el informe genera y se envía por correo electrónico a los destinatarios enumerados utilizando la frecuencia especificada.
+
+
+
+Según los resultados que se muestran en el informe, quizás desee actualizar nodos que ejecutan versiones anteriores de ONTAP.

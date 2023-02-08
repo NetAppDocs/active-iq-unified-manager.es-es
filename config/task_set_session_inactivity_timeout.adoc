@@ -1,0 +1,49 @@
+---
+permalink: config/task_set_session_inactivity_timeout.html 
+sidebar: sidebar 
+keywords: inactivity, timeout 
+summary: 'Es posible especificar el valor de tiempo de espera de inactividad para Unified Manager a fin de que la sesión se finalice automáticamente después de un cierto periodo de tiempo. De manera predeterminada, el tiempo de espera está configurado en 4,320 minutos (72 horas).' 
+---
+= Configurar el tiempo de espera de inactividad de la sesión
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Es posible especificar el valor de tiempo de espera de inactividad para Unified Manager a fin de que la sesión se finalice automáticamente después de un cierto periodo de tiempo. De manera predeterminada, el tiempo de espera está configurado en 4,320 minutos (72 horas).
+
+*Lo que necesitará*
+
+Debe tener la función Administrador de aplicaciones.
+
+Esta configuración afecta a todas las sesiones de usuario que han iniciado sesión.
+
+[NOTE]
+====
+Esta opción no está disponible si tiene habilitada la autenticación del lenguaje de marcado de aserción de seguridad (SAML).
+
+====
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *General* > *Configuración de funciones*.
+. En la página *Configuración de característica*, especifique el tiempo de espera de inactividad seleccionando una de las siguientes opciones:
++
+[cols="2*"]
+|===
+| Si desea... | Realice lo siguiente... 
+
+
+ a| 
+No tener tiempo de espera configurado para que la sesión nunca se cierre automáticamente
+ a| 
+En el panel *tiempo de espera de inactividad*, mueva el botón deslizante hacia la izquierda (OFF) y haga clic en *aplicar*.
+
+
+
+ a| 
+Establezca un número específico de minutos como valor de tiempo de espera
+ a| 
+En el panel *tiempo de espera de inactividad*, mueva el botón deslizante hacia la derecha (Activado), especifique el valor de tiempo de espera de inactividad en minutos y haga clic en *aplicar*.
+
+|===
+

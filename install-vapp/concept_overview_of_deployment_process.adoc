@@ -1,0 +1,16 @@
+---
+permalink: install-vapp/concept_overview_of_deployment_process.html 
+sidebar: sidebar 
+keywords: overview, deployment, process 
+summary: En el flujo de trabajo de implementación, se describen las tareas que deben realizarse para poder usar Unified Manager. 
+---
+= Información general del proceso de implementación
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+En el flujo de trabajo de implementación, se describen las tareas que deben realizarse para poder usar Unified Manager.
+
+image::../media/deployment_sequence_oc_6_0.gif[secuencia de despliegue oc 6 0]

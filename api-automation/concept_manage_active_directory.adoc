@@ -1,0 +1,55 @@
+---
+permalink: api-automation/concept_manage_active_directory.html 
+sidebar: sidebar 
+keywords: manage, active, directory, mapping 
+summary: Puede utilizar las API que aparecen aquí para gestionar las asignaciones de Active Directory en la SVM que se necesitan para aprovisionar recursos compartidos de CIFS en las SVM. Es necesario configurar las asignaciones de Active Directory para asignar las SVM con ONTAP. 
+---
+= Gestión de la asignación de Active Directory mediante API
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede utilizar las API que aparecen aquí para gestionar las asignaciones de Active Directory en la SVM que se necesitan para aprovisionar recursos compartidos de CIFS en las SVM. Es necesario configurar las asignaciones de Active Directory para asignar las SVM con ONTAP.
+
+
+
+== Ver las asignaciones de Active Directory
+
+Puede ver los detalles de configuración de las asignaciones de Active Directory para una SVM mediante el siguiente método. Para ver las asignaciones de Active Directory en una SVM, debe introducir la clave de SVM. Para consultar los detalles de una asignación concreta, debe introducir la clave de asignación.
+
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+proveedor de almacenamiento
+ a| 
+OBTENGA
+ a| 
+`/storage-provider/active-directories-mappings`
+
+`/storage-provider/active-directories-mappings/\{key}`
+
+|===
+
+
+== Agregue la asignación de Active Directory
+
+Puede crear asignaciones de Active Directory en una SVM mediante el método siguiente. Como parámetros de entrada, debe introducir los detalles de asignación.
+
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+proveedor de almacenamiento
+ a| 
+PUBLICAR
+ a| 
+`/storage-provider/active-directories-mappings`
+
+|===

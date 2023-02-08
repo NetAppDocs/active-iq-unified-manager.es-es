@@ -1,0 +1,72 @@
+---
+permalink: api-automation/concept_api_url_and_categories.html 
+sidebar: sidebar 
+keywords: active iq, unified manager, api, access, categories 
+summary: Las API de Active IQ Unified Manager le permiten gestionar y aprovisionar objetos de almacenamiento en su entorno. También puede acceder a la interfaz de usuario web de Unified Manager para realizar algunas de estas funciones. 
+---
+= Categorías y acceso API de Active IQ Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+:pp: &#43;&#43;
+
+
+[role="lead"]
+Las API de Active IQ Unified Manager le permiten gestionar y aprovisionar objetos de almacenamiento en su entorno. También puede acceder a la interfaz de usuario web de Unified Manager para realizar algunas de estas funciones.
+
+
+
+== Creación de una URL para acceder directamente a las API de REST
+
+Puede acceder a las API DE REST directamente a través de un lenguaje de programación, como Python, C#, C{pp}, JavaScript, y así sucesivamente. Introduzca el nombre de host o la dirección IP y la URL para acceder a las API de REST en formato
+
++https://<hostname>/api+
+
+[NOTE]
+====
+El puerto predeterminado es 443. Puede configurar el puerto según lo requiera su entorno.
+
+====
+
+
+== Acceder a la página de documentación de API en línea
+
+Puede acceder a la página de contenido de referencia _API Documentation_ que se incluye junto con el producto para mostrar la documentación de la API, y también para emitir manualmente una llamada de API (en la interfaz, por ejemplo, Swagger). Puede acceder a esta documentación haciendo clic en *barra de menús* > *botón de ayuda* > *Documentación de API*
+
+Como alternativa, introduzca el nombre o la dirección IP de host y la URL para acceder a la página API DE REST en formato
+
++https://<hostname>/docs/api/+
+
+
+
+== Categorías
+
+Las llamadas API se organizan en función de las áreas o categorías. Para buscar una API específica, haga clic en la categoría API correspondiente.
+
+Las API REST que proporciona Unified Manager ayudan a realizar funciones administrativas, de supervisión y de aprovisionamiento. Las API se agrupan en las siguientes categorías.
+
+* *centro de datos*
++
+Esta categoría contiene las API que le ayudan en la gestión del almacenamiento del centro de datos y los análisis con herramientas como Work Flow Automation y Ansible. Las API DE REST en esta categoría proporcionan información sobre los clústeres, los nodos, los agregados, los volúmenes, las LUN, recursos compartidos de archivos, espacios de nombres y otros elementos del centro de datos.
+
+* *servidor-administración*
++
+Las API bajo la categoría *Management-Server* contienen `jobs, system,` y.. `events` API. Los trabajos son operaciones que se programan para la ejecución asíncrona relacionadas con la gestión de objetos de almacenamiento o cargas de trabajo en Unified Manager. La `events` La API muestra eventos del centro de datos y del `system` La API muestra los detalles de la instancia de Unified Manager.
+
+* *proveedor de almacenamiento*
++
+Esta categoría contiene todas las API de aprovisionamiento necesarias para gestionar y aprovisionar recursos compartidos de archivos, LUN, niveles de servicio de rendimiento y políticas de eficiencia del almacenamiento. Las API también permiten configurar extremos de acceso, directorios activos, así como asignar niveles de servicio de rendimiento y políticas de eficiencia del almacenamiento en cargas de trabajo de almacenamiento.
+
+* *administración*
++
+Esta categoría contiene las API utilizadas para ejecutar tareas administrativas, como mantener la configuración de backup, ver certificados del almacén de confianza para los orígenes de datos de Unified Manager y gestionar clústeres de ONTAP como fuentes de datos para Unified Manager.
+
+* *puerta de enlace*
++
+Unified Manager le permite invocar API DE REST de ONTAP a través de las API bajo la categoría de pasarela y gestionar los objetos de almacenamiento del centro de datos.
+
+* *seguridad*
++
+Esta categoría contiene API para gestionar usuarios de Unified Manager.
+
+

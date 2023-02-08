@@ -1,0 +1,26 @@
+---
+permalink: health-checker/task_delete_group_actions.html 
+sidebar: sidebar 
+keywords: delete, group actions 
+summary: Es posible eliminar una acción de grupo de Unified Manager cuando ya no se necesita la acción de grupo. 
+---
+= Eliminar acciones de grupo
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Es posible eliminar una acción de grupo de Unified Manager cuando ya no se necesita la acción de grupo.
+
+*Lo que necesitará*
+
+Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
+Cuando se elimina la acción de grupo para el umbral de estado del volumen, se aplican umbrales globales a los objetos de almacenamiento de ese grupo. Cualquier umbral de estado a nivel de objeto que se establezca en el objeto de almacenamiento no se ve afectado.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *Administración de almacenamiento* > *grupos*.
+. En la ficha *acciones de grupo*, seleccione la acción de grupo que desea eliminar y, a continuación, haga clic en *Eliminar*.
+. En el cuadro de diálogo *Advertencia*, confirme la eliminación haciendo clic en *Sí*.
+

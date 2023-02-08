@@ -1,0 +1,29 @@
+---
+permalink: api-automation/concept_workflow_intro.html 
+sidebar: sidebar 
+keywords: common, workflows, storage, management 
+summary: Los flujos de trabajo comunes proporcionan a los desarrolladores de aplicaciones cliente ejemplos de cómo puede llamar una aplicación cliente a las API de Active IQ Unified Manager para ejecutar funciones comunes de gestión del almacenamiento. Esta sección contiene algunos de estos flujos de trabajo de ejemplo. 
+---
+= Flujos de trabajo API comunes para la gestión del almacenamiento
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Los flujos de trabajo comunes proporcionan a los desarrolladores de aplicaciones cliente ejemplos de cómo puede llamar una aplicación cliente a las API de Active IQ Unified Manager para ejecutar funciones comunes de gestión del almacenamiento. Esta sección contiene algunos de estos flujos de trabajo de ejemplo.
+
+Los flujos de trabajo describen algunos de los casos de uso de gestión del almacenamiento más utilizados, junto con códigos de muestra que puede utilizar. Cada una de las tareas se describe mediante un proceso de flujo de trabajo compuesto por una o más llamadas API.
+
+
+
+== Llamadas API que se usan en los flujos de trabajo
+
+Es posible ver la página de documentación en línea desde la instancia de Unified Manager que incluye los detalles de cada llamada de API DE REST. Este documento no repite los detalles de la documentación en línea. Cada llamada API utilizada en los ejemplos de flujo de trabajo de este documento incluye solo la información necesaria para localizar la llamada en la página de documentación. Después de localizar una llamada API específica, puede revisar los detalles completos de la llamada, incluidos los parámetros de entrada, formatos de salida, códigos de estado HTTP y tipo de procesamiento de solicitudes.
+
+Se incluye la siguiente información para cada llamada de API dentro de un flujo de trabajo para ayudar a localizar la llamada en la página de documentación:
+
+* Categoría: Las llamadas API se organizan en la página de documentación en categorías o áreas relacionadas con la funcionalidad. Para ubicar una llamada API específica, desplácese hasta la parte inferior de la página y haga clic en la categoría API correspondiente.
+* Verbo HTTP (call): El verbo HTTP identifica la acción realizada en un recurso. Cada llamada API se ejecuta a través de un único verbo HTTP.
+* Ruta: La ruta determina el recurso específico al que se aplica la acción como parte de la realización de una llamada. La cadena de ruta de acceso se anexa a la URL de núcleo para formar la URL completa que identifica el recurso.
+

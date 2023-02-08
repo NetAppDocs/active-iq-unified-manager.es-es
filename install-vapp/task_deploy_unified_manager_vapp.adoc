@@ -1,0 +1,47 @@
+---
+permalink: install-vapp/task_deploy_unified_manager_vapp.html 
+sidebar: sidebar 
+keywords: deploy, unified manager 
+summary: La puesta en marcha de Unified Manager incluye la descarga de software, la puesta en marcha de dispositivos virtuales, la creación de un nombre de usuario y una contraseña de mantenimiento, y la realización de la configuración inicial en la interfaz de usuario web. 
+---
+= Ponga en marcha Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+La puesta en marcha de Unified Manager incluye la descarga de software, la puesta en marcha de dispositivos virtuales, la creación de un nombre de usuario y una contraseña de mantenimiento, y la realización de la configuración inicial en la interfaz de usuario web.
+
+*Lo que necesitará*
+
+* Debe verificar y completar los requisitos del sistema para la puesta en marcha.
++
+Consulte link:concept_requirements_for_installing_unified_manager.html["Requisitos del sistema"].
+
+* Asegúrese de disponer de la siguiente información:
++
+** Credenciales de inicio de sesión para el sitio de soporte de NetApp
+** Credenciales para acceder a VMware vCenter Server y vSphere Web Client
+** Dirección IP del servidor ESXi en el que va a implementar el dispositivo virtual de Unified Manager
+** Detalles sobre el centro de datos, como el espacio de almacenamiento en el almacén de datos y los requisitos de memoria
+** Se debe habilitar IPv6 en el host si tiene pensado usar direcciones IPv6.
+
+
+
+
+Puede poner en marcha Unified Manager como dispositivo virtual en un servidor VMware ESXi.
+
+Debería acceder a la consola de mantenimiento mediante la consola de VMware, y no mediante SSH.
+
+[NOTE]
+====
+A partir de Unified Manager 9.8, VMware Tools se ha sustituido por Open VM Tools  `open-vm-tools`). Ya no es necesario instalar VMware Tools como parte de la instalación debido a esto `open-vm-tools` Se incluye en el paquete de instalación de Unified Manager.
+
+====
+Una vez finalizada la puesta en marcha y la configuración inicial, puede añadir clústeres o configurar ajustes de red adicionales en la consola de mantenimiento y, a continuación, acceder a la interfaz de usuario web.
+
+.Pasos
+. Siga los pasos de link:task_download_unified_manager_ova_file.html["Descargue Unified Manager"].
+. Además, siga los pasos de link:task_deploy_unified_manager_virtual_appliance_vapp.html["Ponga en marcha el dispositivo virtual Unified Manager"].
+

@@ -1,0 +1,14 @@
+---
+permalink: reporting/concept_customize_volume_performance_reports.html 
+sidebar: sidebar 
+keywords: customize, volume, performance, reports 
+summary: Estos informes personalizados de muestra se utilizan para ayudarle a identificar y responder a problemas potenciales relacionados con el rendimiento de los volúmenes. 
+---
+= Personalización de los informes de rendimiento de volúmenes
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Estos informes personalizados de muestra se utilizan para ayudarle a identificar y responder a problemas potenciales relacionados con el rendimiento de los volúmenes.

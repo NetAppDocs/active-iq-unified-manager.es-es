@@ -1,0 +1,24 @@
+---
+permalink: data-protection/task_abort_jobs.html 
+sidebar: sidebar 
+keywords: abort, jobs 
+summary: Puede utilizar la página trabajos para cancelar un trabajo si tarda demasiado en finalizarlo, si encuentra demasiados errores o si ya no es necesario. Sólo puede cancelar un trabajo si su estado y el tipo permitir. Puede anular cualquier trabajo en ejecución. 
+---
+= Anulación de trabajos
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede utilizar la página trabajos para cancelar un trabajo si tarda demasiado en finalizarlo, si encuentra demasiados errores o si ya no es necesario. Sólo puede cancelar un trabajo si su estado y el tipo permitir. Puede anular cualquier trabajo en ejecución.
+
+*Lo que necesitará*
+
+Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *Protección* > *trabajos*.
+. En la lista de trabajos, seleccione un trabajo y, a continuación, haga clic en *Anular*.
+. En el mensaje de confirmación, haga clic en *Sí* para anular el trabajo seleccionado.
+

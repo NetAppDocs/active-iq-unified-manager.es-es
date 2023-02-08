@@ -1,0 +1,35 @@
+---
+permalink: reporting/task_create_report_to_view_volume_transfers_based_on_transfer_size.html 
+sidebar: sidebar 
+keywords: create, report, view, volume, transfers, transfer size 
+summary: Es posible crear un informe para ver las transferencias de volumen en función del tamaño de la transferencia. 
+---
+= Creación de un informe para ver las transferencias de volumen en función del tamaño de la transferencia
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Es posible crear un informe para ver las transferencias de volumen en función del tamaño de la transferencia.
+
+*Lo que necesitará*
+
+* Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
+
+Utilice los siguientes pasos para crear una vista personalizada para las transferencias de volúmenes en función del tamaño de transferencia y, a continuación, programar un informe para que se genere en esa vista.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *almacenamiento* > *volúmenes*.
+. En el menú Ver, seleccione *relación* > *velocidad de transferencia de último 1 mes*.
+. Haga clic en la parte superior de la columna "'Tamaño total de transferencia'" para ordenar las transferencias de volumen por tamaño.
+. Guarde la vista con un nombre específico que refleje lo que se muestra en la vista, por ejemplo «'volúmenes por tamaño de transferencia'».
+. Haga clic en el botón *Informes programados* de la página de inventario.
+. Introduzca un nombre para el programa de informes y complete los otros campos de informe y, a continuación, haga clic en la Marca de verificación (image:../media/blue_check.gif[""]) al final de la fila.
++
+El informe se envía inmediatamente como prueba. Después de esto, el informe genera y se envía por correo electrónico a los destinatarios enumerados utilizando la frecuencia especificada.
+
+
+
+Según los resultados mostrados en el informe, puede investigar las relaciones de volumen por tamaño de transferencia.

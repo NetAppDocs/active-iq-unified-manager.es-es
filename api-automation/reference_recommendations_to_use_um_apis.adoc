@@ -1,0 +1,29 @@
+---
+permalink: api-automation/reference_recommendations_to_use_um_apis.html 
+sidebar: sidebar 
+keywords: recommendations, apis, active iq, unified, manager 
+summary: Al usar las API en Active IQ Unified Manager, debe seguir ciertas prácticas recomendadas. 
+---
+= Recomendaciones para el uso de las API para Active IQ Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Al usar las API en Active IQ Unified Manager, debe seguir ciertas prácticas recomendadas.
+
+* Todos los tipos de contenido de la respuesta deben tener el siguiente formato para una ejecución válida:
++
+[listing]
+----
+application/json
+----
+* El número de versión de la API no está relacionado con el número de versión del producto. Debe utilizar la versión más reciente de la API disponible para la instancia de Unified Manager. Si quiere más información acerca de las versiones de la API de Unified Manager, consulte la sección «ARTÍCULO «Artículo DE la creación de versiones de la API en Active IQ Unified Manager».
+* Al actualizar los valores de cabinas mediante una API de Unified Manager, debe actualizar toda la cadena de valores. No se pueden agregar valores a una matriz. Solo es posible reemplazar una cabina existente.
+* Puede utilizar operadores de filtro, como pipe (|) y comodines (+*+) para todos los parámetros de consulta, excepto para valores dobles, por ejemplo, IOPS y rendimiento en las API de métricas.
+* Evite consultar objetos mediante una combinación de la comoda (+*+) y la tubería (|) del operador de filtro. Es posible que recupere una cantidad incorrecta de objetos.
+* Cuando utilice valores para el filtro, asegúrese de que el valor no contiene ninguno `?` carácter. Esto es para mitigar los riesgos de la inyección SQL.
+* Observe que el `GET` (All) la solicitud de cualquier API devuelve un máximo de 1000 registros. Incluso si ejecuta la consulta estableciendo la `max_records` parámetro a un valor superior a 1000, sólo se devuelven 1000 registros.
+* Para realizar funciones administrativas, se recomienda usar la interfaz de usuario de Unified Manager.
+

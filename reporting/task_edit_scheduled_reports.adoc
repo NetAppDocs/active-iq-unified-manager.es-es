@@ -1,0 +1,36 @@
+---
+permalink: reporting/task_edit_scheduled_reports.html 
+sidebar: sidebar 
+keywords: editing, schedule, reports 
+summary: Después de programar los informes, puede editarlos en la página programas de informes. 
+---
+= Edición de informes programados
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Después de programar los informes, puede editarlos en la página programas de informes.
+
+*Lo que necesitará*
+
+* Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *Administración de almacenamiento* > *programas de informes*.
++
+image::../media/scheduled_reports_2.gif[informes programados 2]
+
++
+[NOTE]
+====
+Si dispone de los permisos adecuados, puede modificar cualquier informe y su programación en el sistema.
+
+====
+. Haga clic en el icono más image:../media/more_icon.gif[""] para la programación que desea cambiar.
+. Haga clic en *Editar*.
+. Puede cambiar la lista *Nombre de programa*, *destinatario*, *frecuencia* y *Formato* para el programa de informes.
+. Cuando haya terminado, haga clic en la Marca de verificación para guardar los cambios.
+

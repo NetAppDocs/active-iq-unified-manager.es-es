@@ -1,0 +1,43 @@
+---
+permalink: reporting/task_create_report_to_identify_volumes_nearing_full_capacity.html 
+sidebar: sidebar 
+keywords: create, report, identify, volumes, full capacity, snapshot, autodelete, turned off 
+summary: Puede crear un informe que contenga la lista de volúmenes que se esté acercando a su capacidad completa con la función Snapshot Autodelete deshabilitada. Los resultados pueden ayudar a identificar volúmenes en los que se podría configurar la eliminación automática de instantánea. 
+---
+= Creación de un informe para identificar volúmenes que están casi por completo y que tienen desactivada la eliminación automática de Snapshot
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede crear un informe que contenga la lista de volúmenes que se esté acercando a su capacidad completa con la función Snapshot Autodelete deshabilitada. Los resultados pueden ayudar a identificar volúmenes en los que se podría configurar la eliminación automática de instantánea.
+
+*Lo que necesitará*
+
+* Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
+
+Siga los pasos que se indican a continuación para crear una vista personalizada que muestre las columnas necesarias en el orden correcto y, a continuación, programe un informe que se genere para esa vista.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *almacenamiento* > *volúmenes*.
+. En el menú Ver, seleccione *capacidad* > *todos los volúmenes*.
+. Seleccione *Mostrar/Ocultar* para eliminar las columnas que no desee del informe.
+. Arrastre y suelte las columnas "Snapshot Autodelete" y "Days to Full" cerca de la columna "'Available Data Capacity".
+. Haga clic en el icono de filtro, agregue los dos filtros siguientes y, a continuación, haga clic en *aplicar filtro*:
++
+** Días a completo menos de 30 días
+** La eliminación automática de instantáneas está deshabilitada
+
+
+. Haga clic en la parte superior de la columna *días a Full* para que los volúmenes con menos días restantes aparezcan en la parte superior de la lista.
+. Guarde la vista con un nombre específico que refleje lo que muestra la vista, por ejemplo «'Vols near Capacity»».
+. Haga clic en el botón *Informes programados* de la página de inventario.
+. Introduzca un nombre para el programa de informes y complete los otros campos de informe y, a continuación, haga clic en la Marca de verificación (image:../media/blue_check.gif[""]) al final de la fila.
++
+El informe se envía inmediatamente como prueba. Después de esto, el informe genera y se envía por correo electrónico a los destinatarios enumerados utilizando la frecuencia especificada.
+
+
+
+En función de los resultados mostrados en el informe, quizás desee habilitar la eliminación automática de instantánea en los volúmenes o buscar una forma de aumentar el espacio disponible.

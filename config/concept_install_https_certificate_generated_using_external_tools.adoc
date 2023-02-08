@@ -1,0 +1,119 @@
+---
+permalink: config/concept_install_https_certificate_generated_using_external_tools.html 
+sidebar: sidebar 
+keywords: install, HTTPS, certificate, generated from external tools 
+summary: Puede instalar certificados que están autofirmados o firmados por CA y que se generan con una herramienta externa como OpenSSL, BoringSSL o LetsEncrypt. 
+---
+= Instalar un certificado HTTPS generado con herramientas externas
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede instalar certificados que están autofirmados o firmados por CA y que se generan con una herramienta externa como OpenSSL, BoringSSL o LetsEncrypt.
+
+Debe cargar la clave privada junto con la cadena de certificados porque estos certificados son pares de claves pública-privada generados externamente. Los algoritmos de pares de claves permitidos son «'RSA'» y «'EC'». La opción *instalar certificado HTTPS* está disponible en la página certificados HTTPS de la sección General. El archivo que cargue debe tener el siguiente formato de entrada.
+
+. Clave privada del servidor que pertenece al host Active IQ Unified Manager
+. Certificado del servidor que coincide con la clave privada
+. Certificado de las CA en reverso hasta la raíz, que se utilizan para firmar el certificado anterior
+
+
+
+
+== Formato para cargar un certificado con un par de claves EC
+
+Las curvas permitidas son «'prime256v1» y «slecp384r1». Ejemplo de certificado con un par de EC generado externamente:
+
+[listing]
+----
+ -----BEGIN EC PRIVATE KEY-----
+<EC private key of Server>
+-----END EC PRIVATE KEY-----
+----
+[listing]
+----
+ -----BEGIN CERTIFICATE-----
+ <Server certificate>
+ -----END CERTIFICATE-----
+ -----BEGIN CERTIFICATE-----
+ <Intermediate certificate #1 (if present)>
+ -----END CERTIFICATE-----
+ -----BEGIN CERTIFICATE-----
+ <Intermediate certificate #2 (if present)>
+ -----END CERTIFICATE-----
+ -----BEGIN CERTIFICATE-----
+ <Root signing certificate>
+ -----END CERTIFICATE-----
+----
+
+
+== Formato para cargar un certificado con un par de claves RSA
+
+Los tamaños de claves permitidos del par de claves RSA que pertenece al certificado de host son 2048, 3072 y 4096. Certificado con un par de claves *RSA* generado externamente:
+
+[listing]
+----
+-----BEGIN RSA PRIVATE KEY-----
+ <RSA private key of Server>
+ -----END RSA PRIVATE KEY-----
+ -----BEGIN CERTIFICATE-----
+ <Server certificate>
+ -----END CERTIFICATE-----
+ -----BEGIN CERTIFICATE-----
+ <Intermediate certificate #1 (if present)>
+ -----END CERTIFICATE-----
+ -----BEGIN CERTIFICATE-----
+ <Intermediate certificate #2 (if present)>
+ -----END CERTIFICATE-----
+ -----BEGIN CERTIFICATE-----
+ <Root signing certificate>
+ -----END CERTIFICATE-----
+----
+Una vez cargado el certificado, debe reiniciar la instancia de Active IQ Unified Manager para que los cambios se apliquen.
+
+
+
+== Comprueba la carga de certificados generados externamente
+
+El sistema realiza comprobaciones mientras carga un certificado generado mediante herramientas externas. Si alguna de las comprobaciones falla, se rechaza el certificado. También se incluye una validación para los certificados generados a partir de la CSR dentro del producto y para los certificados generados mediante herramientas externas.
+
+* La clave privada de la entrada se valida contra el certificado de host en la entrada.
+* El nombre común (CN) del certificado de host se comprueba con el FQDN del host.
+* El nombre común (CN) del certificado de host no debe estar vacío ni en blanco y no debe establecerse en localhost.
+* La fecha de inicio de la validez no debe ser posterior y la fecha de caducidad del certificado no debe ser pasada.
+* Si existe CA intermedia o CA, la fecha de inicio de validez del certificado no debe ser futura y la fecha de caducidad de validez no debe ser pasada.
+
+
+[NOTE]
+====
+La clave privada de la entrada no debe estar cifrada. Si hay claves privadas cifradas, el sistema las rechaza.
+
+====
+Ejemplo 1
+
+[listing]
+----
+----BEGIN ENCRYPTED PRIVATE KEY-----
+<Encrypted private key>
+-----END ENCRYPTED PRIVATE KEY-----
+----
+Ejemplo 2
+
+[listing]
+----
+-----BEGIN RSA PRIVATE KEY-----
+Proc-Type: 4,ENCRYPTED
+<content here>
+-----END RSA PRIVATE KEY-----
+----
+Ejemplo 3
+
+[listing]
+----
+-----BEGIN EC PRIVATE KEY-----
+Proc-Type: 4,ENCRYPTED
+<content here>
+-----END EC PRIVATE KEY-----
+----

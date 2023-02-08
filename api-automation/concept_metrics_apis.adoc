@@ -1,0 +1,389 @@
+---
+permalink: api-automation/concept_metrics_apis.html 
+sidebar: sidebar 
+keywords: view, performance, metrics 
+summary: Active IQ Unified Manager ofrece un conjunto de API en la categoría /Datacenter que le permiten ver los datos de rendimiento de los clústeres y los objetos de almacenamiento en un centro de datos. Estas API recuperan los datos de rendimiento de los diferentes objetos de almacenamiento, como clústeres, nodos, LUN, volúmenes Agregados y equipos virtuales de almacenamiento. 
+---
+= Ver las métricas de rendimiento mediante API
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Active IQ Unified Manager le proporciona un conjunto de API en `/datacenter` categoría que permite ver los datos de rendimiento de los clústeres y los objetos de almacenamiento en un centro de datos. Estas API recuperan los datos de rendimiento de los diferentes objetos de almacenamiento, como clústeres, nodos, LUN, volúmenes, agregados Máquinas virtuales de almacenamiento, interfaces FC, puertos FC, puertos Ethernet e interfaces IP.
+
+La `/metrics` y.. `/analytics` Las API ofrecen distintas vistas de las métricas de rendimiento, mediante las cuales, puede obtener un análisis de los siguientes niveles de detalles sobre los siguientes objetos de almacenamiento en su centro de datos:
+
+* de clúster
+* nodos
+* Máquinas virtuales de almacenamiento
+* agregados
+* volúmenes
+* LUN
+* Interfaces FC
+* Puertos FC
+* Puertos Ethernet
+* Interfaces IP
+
+
+La siguiente tabla dibuja una comparación entre `/metrics` y.. `/analytics` API con respecto a los detalles de los datos de rendimiento recuperados.
+
+[cols="2*"]
+|===
+| Métricas | Análisis 
+
+
+ a| 
+Detalles de rendimiento para un único objeto. Por ejemplo, la `/datacenter/cluster/clusters/\{key}/metrics` API requiere que se introduzca la clave de clúster como el parámetro path para recuperar las métricas de ese clúster específico.
+ a| 
+Detalles de rendimiento para varios objetos del mismo tipo en un centro de datos. Por ejemplo, la `/datacenter/cluster/clusters/analytics` La API recupera las métricas colectivas de todos los clústeres de un centro de datos.
+
+
+
+ a| 
+Muestra de métricas de rendimiento para un objeto de almacenamiento según el parámetro de intervalo de tiempo para la recuperación.
+ a| 
+El valor agregado de alto nivel de rendimiento para un determinado tipo de objeto de almacenamiento durante un determinado período (por encima de 72 horas).
+
+
+
+ a| 
+Se recuperan detalles básicos del objeto, como los detalles de un nodo o de un clúster.
+ a| 
+No se recuperan detalles específicos.
+
+
+
+ a| 
+Los contadores acumulados, como mínimo, máximo, percentil 95o y los valores de rendimiento promedio durante un período de tiempo se recuperan para un único objeto, como contadores de lectura, escritura, total y otros.
+ a| 
+Se muestra un único valor agregado para todos los objetos del mismo tipo.
+
+
+
+ a| 
+El intervalo de tiempo y los datos de muestra se basan en la siguiente programación: El intervalo de tiempo de los datos. Los ejemplos pueden ser 1h, 12h, 1d, 2d, 3d, 15d, 1w, 1 m, 2 m, 3 m, 6 millones Recibirá muestras de 1 hora si el intervalo es superior a 3 días (72 horas); de lo contrario, son muestras de 5 minutos. El período de cada intervalo de tiempo es el siguiente:
+
+* 1h: Métricas de la última hora muestreadas en 5 minutos.
+* 12h: Métricas de las últimas 12 horas muestreadas en 5 minutos.
+* 1d: Métricas durante el día más reciente muestreadas durante 5 minutos.
+* 2d: Métricas de los últimos 2 días muestreadas durante 5 minutos.
+* 3d: Métricas de los últimos 3 días muestreadas en 5 minutos.
+* 15d: Métricas de los últimos 15 días muestreadas durante 1 hora.
+* 1w: Métricas de la semana más reciente muestreadas durante 1 hora.
+* 1 m: Métricas durante el último mes muestreadas durante 1 hora.
+* 2 m: Métricas de los últimos 2 meses, muestreadas en 1 hora.
+* 3M: Métricas de los últimos 3 meses muestreadas durante 1 hora.
+* 6m: Métricas de los últimos 6 meses muestreados en 1 hora.
++
+Valores disponibles: 1h, 12h, 1d, 2d, 3d, 15d, 1w, 1 m, 2 m, 3 m, 6 millones
+
++
+Valor predeterminado : 1h
+
+
+ a| 
+Más de 72 horas. La duración sobre la que se calcula esta muestra se representa en el formato estándar ISO-8601.
+
+|===
+
+
+== Ejemplo de salida para API de métricas
+
+Por ejemplo, la `/datacenter/cluster/nodes/\{key}/metrics` API recupera los siguientes detalles (entre otros) de un nodo:
+
+
+NOTE: El percentil 95 del valor resumido indica que el 95% de las muestras recogidas para el período tienen un valor de contador inferior al valor especificado como percentil 95.
+
+[listing]
+----
+{
+     "iops": {
+       "local": {
+         "other": 100.53,
+         "read": 100.53,
+         "total": 100.53,
+         "write": 100.53
+       },
+       "other": 100.53,
+       "read": 100.53,
+       "total": 100.53,
+       "write": 100.53
+     },
+     "latency": {
+       "other": 100.53,
+       "read": 100.53,
+       "total": 100.53,
+       "write": 100.53
+     },
+     "performance_capacity": {
+       "available_iops_percent": 0,
+       "free_percent": 0,
+       "system_workload_percent": 0,
+       "used_percent": 0,
+       "user_workload_percent": 0
+     },
+     "throughput": {
+       "other": 100.53,
+       "read": 100.53,
+       "total": 100.53,
+       "write": 100.53
+     },
+     "timestamp": "2018-01-01T12:00:00-04:00",
+     "utilization_percent": 0
+   }
+ ],
+ "start_time": "2018-01-01T12:00:00-04:00",
+ "summary": {
+   "iops": {
+     "local_iops": {
+       "other": {
+         "95th_percentile": 28,
+         "avg": 28,
+         "max": 28,
+         "min": 5
+       },
+       "read": {
+         "95th_percentile": 28,
+         "avg": 28,
+         "max": 28,
+         "min": 5
+       },
+       "total": {
+         "95th_percentile": 28,
+         "avg": 28,
+         "max": 28,
+         "min": 5
+       },
+       "write": {
+         "95th_percentile": 28,
+         "avg": 28,
+         "max": 28,
+         "min": 5
+       }
+     },
+----
+
+
+== Muestra de salida para las API de análisis
+
+Por ejemplo, la `/datacenter/cluster/nodes/analytics` API recupera los siguientes valores (entre otros) de todos los nodos:
+
+[listing]
+----
+{     "iops": 1.7471,
+     "latency": 60.0933,
+     "throughput": 5548.4678,
+     "utilization_percent": 4.8569,
+     "period": 72,
+     "performance_capacity": {
+       "used_percent": 5.475,
+       "available_iops_percent": 168350
+     },
+     "node": {
+       "key": "37387241-8b57-11e9-8974-00a098e0219a:type=cluster_node,uuid=95f94e8d-8b4e-11e9-8974-00a098e0219a",
+       "uuid": "95f94e8d-8b4e-11e9-8974-00a098e0219a",
+       "name": "ocum-infinity-01",
+       "_links": {
+         "self": {
+           "href": "/api/datacenter/cluster/nodes/37387241-8b57-11e9-8974-00a098e0219a:type=cluster_node,uuid=95f94e8d-8b4e-11e9-8974-00a098e0219a"
+         }
+       }
+     },
+     "cluster": {
+       "key": "37387241-8b57-11e9-8974-00a098e0219a:type=cluster,uuid=37387241-8b57-11e9-8974-00a098e0219a",
+       "uuid": "37387241-8b57-11e9-8974-00a098e0219a",
+       "name": "ocum-infinity",
+       "_links": {
+         "self": {
+           "href": "/api/datacenter/cluster/clusters/37387241-8b57-11e9-8974-00a098e0219a:type=cluster,uuid=37387241-8b57-11e9-8974-00a098e0219a"
+         },
+     "_links": {
+       "self": {
+         "href": "/api/datacenter/cluster/nodes/analytics"
+       }
+     }
+   },
+----
+
+
+== Lista de las API disponibles
+
+En la siguiente tabla se describe el `/metrics` y.. `/analytics` API más detalles.
+
+[NOTE]
+====
+Las métricas de IOPS y rendimiento que devuelven estas API son, por ejemplo, valores dobles `100.53`. No se admite el filtrado de estos valores flotantes por los caracteres de tubería (|) y comodín (*).
+
+====
+[cols="3*"]
+|===
+| HTTP Verbo | Ruta | Descripción 
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/cluster/clusters/\{key}/metrics`
+ a| 
+Recupera los datos de rendimiento (muestra y resumen) de un clúster especificado por el parámetro de entrada de la clave de clúster. Se devuelve información, como la clave de clúster y el UUID, el intervalo de tiempo, las IOPS, el rendimiento y el número de muestras.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/cluster/clusters/analytics`
+ a| 
+Recupera métricas de alto nivel de rendimiento para todos los clústeres de un centro de datos. Puede filtrar los resultados en función de los criterios requeridos. Se devuelven valores, como el número de IOPS agregado, el rendimiento y el período de recogida (en horas).
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/cluster/nodes/\{key}/metrics`
+ a| 
+Recupera datos de rendimiento (muestra y resumen) de un nodo especificado por el parámetro de entrada de la clave del nodo. Se muestra información, como el UUID de nodo, el intervalo de tiempo, el resumen de las IOPS, el rendimiento, la latencia y el rendimiento, el número de muestras recogidas y el porcentaje utilizado.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/cluster/nodes/analytics`
+ a| 
+Recupera métricas de alto nivel de rendimiento para todos los nodos de un centro de datos. Puede filtrar los resultados en función de los criterios requeridos. Se devuelve información, como las claves de nodo y de clúster, y valores, como las IOPS agregadas, el rendimiento y el período de recogida (en horas).
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/storage/aggregates/\{key}/metrics`
+ a| 
+Recupera datos de rendimiento (ejemplo y resumen) de un agregado especificado por el parámetro de entrada de la clave de agregado. Se muestra información, como el intervalo de tiempo, el resumen de IOPS, la latencia, el rendimiento y la capacidad de rendimiento, el número de muestras recogidas para cada contador y el porcentaje utilizado.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/storage/aggregates/analytics`
+ a| 
+Recupera métricas de alto nivel de rendimiento de todos los agregados de un centro de datos. Puede filtrar los resultados en función de los criterios requeridos. Se devuelve información, como las claves de agregado y de clúster, y valores, como las IOPS agregadas, el rendimiento y el período de recogida (en horas).
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/storage/luns/\{key}/metrics`
+
+`/datacenter/storage/volumes/\{key}/metrics`
+ a| 
+Recupera datos de rendimiento (muestra y resumen) de un LUN o un recurso compartido de archivos (volumen) especificado por el parámetro de entrada de la clave de volumen o LUN. Información, como el resumen de la cantidad mínima, máxima y promedio de las IOPS de lectura, escritura y total, la latencia y el rendimiento, y se devuelve el número de muestras recogidas para cada contador.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/storage/luns/analytics`
+
+`/datacenter/storage/volumes/analytics`
+ a| 
+Recupera métricas de rendimiento de alto nivel para todas las LUN o volúmenes en un centro de datos. Puede filtrar los resultados en función de los criterios requeridos. Se devuelve información, como la máquina virtual de almacenamiento y las claves del clúster, así como valores, como el número de IOPS agregadas, el rendimiento y el período de recogida (en horas).
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/svm/svms/{key}/metrics`
+ a| 
+Recupera datos de rendimiento (muestra y resumen) de una máquina virtual de almacenamiento especificada por el parámetro de entrada de la clave de máquina virtual de almacenamiento. Un resumen de las IOPS basado en cada protocolo admitido, por ejemplo `nvmf, fcp, iscsi,` y.. `nfs`se devuelven , procesamiento, latencia y el número de muestras recogidas.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/svm/svms/analytics`
+ a| 
+Recupera métricas de alto nivel de rendimiento para todos los equipos virtuales de almacenamiento de un centro de datos. Puede filtrar los resultados en función de los criterios requeridos. Se devuelve información, como el UUID de máquinas virtuales de almacenamiento, las IOPS agregadas, la latencia, el rendimiento y el período de recogida (en horas).
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/network/ethernet/ports/{key}/metrics`
+ a| 
+Recupera las métricas de rendimiento para un puerto ethernet específico especificado por el parámetro de entrada de la clave de puerto. Cuando se proporciona un intervalo (intervalo de tiempo) desde el intervalo admitido, la API devuelve los contadores acumulados, como valores mínimo, máximo y promedio de rendimiento durante el período de tiempo.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/network/ethernet/ports/analytics`
+ a| 
+Recupera las métricas de alto nivel de rendimiento de todos los puertos ethernet del entorno del centro de datos. Se devuelve información, como la clave de clúster y nodo, y el UUID, el rendimiento, el período de recopilación y el porcentaje de utilización de los puertos. Puede filtrar el resultado por los parámetros disponibles, como la clave de puerto, el porcentaje de utilización, el nombre y el UUID del clúster y el nodo, etc.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/network/fc/interfaces/{key}/metrics`
+ a| 
+Recupera las métricas de rendimiento de una interfaz de FC de red específica especificada por el parámetro de entrada de la clave de interfaz. Cuando se proporciona un intervalo (intervalo de tiempo) desde el intervalo admitido, la API devuelve los contadores acumulados, como valores mínimo, máximo y promedio de rendimiento durante el período de tiempo.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/network/fc/interfaces/analytics`
+ a| 
+Recupera las métricas de alto nivel de rendimiento de todos los puertos ethernet del entorno del centro de datos. Se obtiene información, como la clave de interfaz del clúster y FC, y el UUID, el rendimiento, las IOPS, la latencia y la máquina virtual de almacenamiento. Puede filtrar el resultado por los parámetros disponibles, como el nombre y el UUID de la interfaz de FC y el clúster, la máquina virtual de almacenamiento, el rendimiento, etc.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/network/fc/ports/{key}/metrics`
+ a| 
+Recupera las métricas de rendimiento de un puerto FC específico especificado por el parámetro de entrada de la clave de puerto. Cuando se proporciona un intervalo (intervalo de tiempo) desde el intervalo admitido, la API devuelve los contadores acumulados, como valores mínimo, máximo y promedio de rendimiento durante el período de tiempo.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/network/fc/ports/analytics`
+ a| 
+Recupera las métricas de rendimiento de alto nivel para todos los puertos FC del entorno de centro de datos. Se devuelve información, como la clave de clúster y nodo, y el UUID, el rendimiento, el período de recopilación y el porcentaje de utilización de los puertos. Puede filtrar el resultado por los parámetros disponibles, como la clave de puerto, el porcentaje de utilización, el nombre y el UUID del clúster y el nodo, etc.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/network/ip/interfaces/{key}/metrics`
+ a| 
+Recupera las métricas de rendimiento de una interfaz IP de red según lo especificado por el parámetro de entrada de la clave de interfaz. Cuando se proporciona un intervalo (intervalo de tiempo) desde el intervalo admitido, la API devuelve información, como el número de muestras, los contadores acumulados, el rendimiento y el número de paquetes recibidos y transmitidos.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/network/ip/interfaces/analytics`
+ a| 
+Recupera las métricas de alto nivel de rendimiento de todas las interfaces IP de red del entorno del centro de datos. Se devuelve información, como la clave de interfaz IP y el UUID, el rendimiento, las IOPS y la latencia. Puede filtrar el resultado por los parámetros disponibles, como el nombre y el UUID de la interfaz IP y el clúster, las IOPS, la latencia, el rendimiento, etc.
+
+|===

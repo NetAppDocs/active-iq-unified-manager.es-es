@@ -1,0 +1,25 @@
+---
+permalink: reporting/concept_report_access_points.html 
+sidebar: sidebar 
+keywords: access, points, generating, reports 
+summary: Puede recopilar información en Unified Manager sobre los clústeres para crear informes desde la interfaz de usuario, consultas de base de datos de MySQL y API DE REST. 
+---
+= Puntos de acceso para generar informes
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede recopilar información en Unified Manager sobre los clústeres para crear informes desde la interfaz de usuario, consultas de base de datos de MySQL y API DE REST.
+
+Estas secciones describen los informes de Unified Manager y la programación a través de la interfaz de usuario de.
+
+Existen tres formas de acceder a las funcionalidades de generación de informes que proporciona Unified Manager:
+
+* Extrayendo datos directamente de las páginas de inventario de la interfaz de usuario.
+* Utilizar las herramientas ODBC (Open Database Connectivity) y ODBC para tener acceso a todos los objetos disponibles.
+* Ejecute las API DE REST de Unified Manager para obtener la información que desea revisar.
+
+
+Estas secciones describen los informes de Unified Manager y la programación a través de la interfaz de usuario de.

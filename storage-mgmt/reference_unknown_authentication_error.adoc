@@ -1,0 +1,30 @@
+---
+permalink: storage-mgmt/reference_unknown_authentication_error.html 
+sidebar: sidebar 
+keywords: unknown, authentication, error 
+summary: 'Solución de problemas: Error de autenticación desconocido' 
+---
+= Error de autenticación desconocido
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Al realizar una operación relacionada con la autenticación, como agregar, editar, eliminar o probar usuarios o grupos remotos, puede aparecer el siguiente mensaje de error: `Unknown authentication error.`
+
+*Causa*
+
+Este problema puede ocurrir si ha establecido un valor incorrecto para las siguientes opciones:
+
+* Nombre del administrador del servicio de autenticación de Active Directory
+* Enlazar nombre completo del servicio de autenticación de OpenLDAP
+
+
+*Acción Correctiva*
+
+. En el panel de navegación izquierdo, haga clic en *General* > *autenticación remota*.
+. En función del servicio de autenticación que haya seleccionado, introduzca la información adecuada para el nombre de administrador o el nombre distintivo de enlace.
+. Haga clic en *probar autenticación* para probar la autenticación con los detalles especificados.
+. Haga clic en *Guardar*.
+

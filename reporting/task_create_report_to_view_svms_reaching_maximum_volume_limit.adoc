@@ -1,0 +1,37 @@
+---
+permalink: reporting/task_create_report_to_view_svms_reaching_maximum_volume_limit.html 
+sidebar: sidebar 
+keywords: create, report, view, storage VMs, volume, limit 
+summary: Puede crear un informe para encontrar las SVM que alcanzan el límite máximo de volumen. 
+---
+= Creación de un informe para ver las máquinas virtuales de almacenamiento que alcanzan el límite máximo de volumen
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede crear un informe para encontrar las SVM que alcanzan el límite máximo de volumen.
+
+*Lo que necesitará*
+
+* Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
+
+Siga los siguientes pasos para crear una vista personalizada que muestre las máquinas virtuales de almacenamiento que alcanzan el límite máximo de volúmenes y, a continuación, programar un informe para que se genere en esa vista.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *almacenamiento* > *Storage VMs*.
+. Seleccione *Mostrar/Ocultar* para eliminar las columnas que no desee del informe.
+. Arrastre las columnas «'número de volumen» y «máximo volumen permitido» cerca de la columna «máquina virtual de almacenamiento».
+. Haga clic en la parte superior de la columna "volumen máximo permitido" para ordenar los resultados por el número más alto de volúmenes.
+. Guarde la vista con un nombre específico que refleje lo que se muestra en la vista, por ejemplo, «MVMs Reaching max volumes»» y haga clic en la Marca de verificación (image:../media/blue_check.gif[""]).
+. Haga clic en el botón *Informes programados* de la página de inventario.
+. Haga clic en *Agregar programación* para agregar una nueva fila a la página *programas de informes* de modo que pueda definir las características de programación para el nuevo informe.
+. Introduzca un nombre para el programa de informes y complete los otros campos de informe y, a continuación, haga clic en la Marca de verificación (image:../media/blue_check.gif[""]) al final de la fila.
++
+El informe se envía inmediatamente como prueba. Después de esto, el informe genera y se envía por correo electrónico a los destinatarios enumerados utilizando la frecuencia especificada.
+
+
+
+Según los resultados mostrados en el informe, quizás desee equilibrar los volúmenes asignados a equipos virtuales de almacenamiento o, si es posible, usar System Manager de ONTAP para cambiar el número máximo permitido de volúmenes.

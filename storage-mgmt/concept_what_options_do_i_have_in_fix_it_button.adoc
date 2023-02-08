@@ -1,0 +1,81 @@
+---
+permalink: storage-mgmt/concept_what_options_do_i_have_in_fix_it_button.html 
+sidebar: sidebar 
+keywords: fix it,fix all 
+summary: La página Management Actions proporciona el botón Fix it o Fix All para solucionar los problemas que Unified Manager ha sido notificado de un evento. 
+---
+= ¿Qué opciones tengo cuando veo el botón reparar o reparar todo
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+La página Management Actions (acciones de administración) le proporciona el botón *Fix it* o *Fix All* para solucionar los problemas de los que Unified Manager ha sido notificado a través de un evento.
+
+Le recomendamos que haga clic en los botones para solucionar un problema, según sea necesario. Sin embargo, si no está seguro de que desea resolver el problema como recomienda Unified Manager, puede realizar las siguientes acciones:
+
+|===
+| ¿Qué desea hacer? | *Acción* 
+
+
+ a| 
+Tiene Unified Manager que se solucione el problema en todos los objetos identificados.
+ a| 
+Haga clic en el botón *Fix All*.
+
+
+
+ a| 
+No solucione el problema de ninguno de los objetos identificados en este momento y oculte esta acción de administración hasta que el evento vuelva a aparecer.
+ a| 
+Haga clic en la flecha hacia abajo y haga clic en *descartar todo*.
+
+
+
+ a| 
+Solucione el problema sólo en algunos de los objetos identificados.
+ a| 
+Haga clic en el nombre de la acción de administración para expandir la lista y mostrar todas las acciones * Fix it* individuales. A continuación, siga los pasos para corregir o descartar acciones de administración individuales.
+
+|===
+|===
+| ¿Qué desea hacer? | Acción 
+
+
+ a| 
+Tenga Unified Manager que solucione el problema.
+ a| 
+Haga clic en el botón *Fix it*.
+
+
+
+ a| 
+No solucione el problema en este momento y oculte esta acción de administración hasta que el evento vuelva a aparecer.
+ a| 
+Haga clic en la flecha hacia abajo y haga clic en *descartar*.
+
+
+
+ a| 
+Muestre los detalles de este evento para que pueda comprender mejor el problema.
+ a| 
+* Haga clic en el botón *Fix it* y revise la corrección que se aplicará en el cuadro de diálogo resultante.
+* Haga clic en la flecha hacia abajo y haga clic en *Ver detalle de evento* para mostrar la página de detalles evento.
+
+
+A continuación, haga clic en *Fix it* en cualquiera de estas páginas resultantes si desea solucionar el problema.
+
+
+
+ a| 
+Muestre los detalles de este objeto de almacenamiento para que pueda comprender mejor el problema.
+ a| 
+Haga clic en el nombre del objeto de almacenamiento para mostrar detalles en la página Performance Explorer o Health Details.
+
+|===
+En algunos casos, la corrección se refleja en el sondeo de configuración de 15 minutos siguiente. En otros casos, el cambio de configuración puede tardar varias horas en verificarse y en que el evento se quede obsoleto.
+
+Para ver la lista de acciones de administración en curso o completadas, haga clic en el icono de filtro y seleccione *completado* o *en curso*.
+
+Corrija todas las operaciones se ejecutan de forma serial, por lo que cuando vea el panel *en curso* algunos objetos tendrán el estado *en curso* mientras que otros tendrán el estado *programado*; lo que significa que todavía están esperando a ser implementado.

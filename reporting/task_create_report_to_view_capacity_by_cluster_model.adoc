@@ -1,0 +1,38 @@
+---
+permalink: reporting/task_create_report_to_view_capacity_by_cluster_model.html 
+sidebar: sidebar 
+keywords: create, report, view, capacity, cluster, model 
+summary: Puede crear un informe para analizar la capacidad de almacenamiento y la utilización de los clústeres según el modelo del sistema de almacenamiento. 
+---
+= Creación de un informe para ver la capacidad por modelo de clúster
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede crear un informe para analizar la capacidad de almacenamiento y la utilización de los clústeres según el modelo del sistema de almacenamiento.
+
+*Lo que necesitará*
+
+* Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
+
+Use los siguientes pasos para crear una vista personalizada que muestra la capacidad según el modelo de clúster y, a continuación, programar un informe que se generará para esa vista.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *almacenamiento* > *clústeres*.
+. En el menú Ver, seleccione *capacidad* > *todos los clústeres*.
+. Seleccione *Mostrar/Ocultar* para eliminar cualquier columna, como "'Cluster FQDN'" y "'Versión del SO'", que no desee en el informe.
+. Arrastre la «capacidad bruta total», «Model/Familia» y las tres columnas agregadas cerca de la columna «Cluster».
+. Haga clic en la parte superior de la columna "Model/Familia" para ordenar los resultados por tipo de cluster.
+. Guarde la vista con un nombre específico que refleje lo que muestra la vista, por ejemplo, «'capacidad por modelo de clúster'».
+. Haga clic en el botón *Informes programados* de la página de inventario.
+. Haga clic en *Agregar programación* para agregar una nueva fila a la página *programas de informes* de modo que pueda definir las características de programación para el nuevo informe.
+. Introduzca un nombre para el programa de informes y complete los otros campos de informe y, a continuación, haga clic en la Marca de verificación (image:../media/blue_check.gif[""]) al final de la fila.
++
+El informe se envía inmediatamente como prueba. Después de esto, el informe genera y se envía por correo electrónico a los destinatarios enumerados utilizando la frecuencia especificada.
+
+
+
+Según los resultados mostrados en el informe, quizás desee añadir más capacidad a determinados clústeres o actualizar modelos de clústeres anteriores.

@@ -1,0 +1,52 @@
+---
+permalink: install-vapp/reference_vmware_software_and_installation_requirements.html 
+sidebar: sidebar 
+keywords: vmware, software, installation, requirements 
+summary: El sistema VMware vSphere en el que se instala Unified Manager requiere versiones específicas del sistema operativo y el software compatible. 
+---
+= Requisitos de instalación y software de VMware
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+El sistema VMware vSphere en el que se instala Unified Manager requiere versiones específicas del sistema operativo y el software compatible.
+
+
+
+== Software del sistema operativo
+
+Se admiten las siguientes versiones de VMware ESXi:
+
+* ESXi 6.5, 6.7 y 7.0.x.
+
+
+[NOTE]
+====
+El OVA de Unified Manager en sistemas VMware vSphere ejecuta Debian OS 11 (bullseye) internamente. Para obtener información sobre las versiones del hardware de la máquina virtual que pueden admitir las versiones compatibles de los servidores ESXi, consulte la documentación de VMware.
+
+====
+Se admiten las siguientes versiones de vSphere:
+
+* VMware vCenter Server 6.5, 6.7 y 7.0.x.
+
+
+Consulte la matriz de interoperabilidad para ver la lista completa y más actual de versiones ESXi compatibles.
+
+http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"]
+
+La hora del servidor VMware ESXi debe ser la misma que la del servidor NTP para que el dispositivo virtual funcione correctamente. La sincronización de la hora del servidor VMware ESXi con la hora del servidor NTP evita un fallo del tiempo.
+
+
+
+== Requisitos de instalación
+
+Se admite la alta disponibilidad de VMware para el dispositivo virtual de Unified Manager.
+
+Si se implementa un almacén de datos NFS en un sistema de almacenamiento que ejecuta el software ONTAP, se debe utilizar el plugin de NFS de NetApp para VMware VAAI para utilizar aprovisionamiento grueso.
+
+Si se produce un error en la implementación con su entorno habilitado para alta disponibilidad debido a recursos insuficientes, es posible que deba modificar las Opciones de máquina virtual de las características de clúster desactivando la prioridad de reinicio de la máquina virtual y dejando encendida la respuesta de aislamiento del host.
+
+
+NOTE: Durante la instalación o actualización de Unified Manager, las revisiones de seguridad y software de terceros necesarias se instalan o actualizan automáticamente en un sistema VMware vSphere. Dado que los procesos de instalación y actualización de Unified Manager controlan estos componentes, no debe intentar una instalación o actualización independientes de ningún componente de terceros.

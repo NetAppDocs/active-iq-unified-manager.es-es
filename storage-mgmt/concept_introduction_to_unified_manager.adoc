@@ -1,0 +1,26 @@
+---
+permalink: storage-mgmt/concept_introduction_to_unified_manager.html 
+sidebar: sidebar 
+keywords: introduction, active iq unified manager 
+summary: 'Active IQ Unified Manager (anteriormente Unified Manager de OnCommand) le permite supervisar y gestionar el estado y el rendimiento de sus sistemas de almacenamiento de ONTAP desde una única interfaz.' 
+---
+= Introducción a Active IQ Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Active IQ Unified Manager (anteriormente Unified Manager de OnCommand) le permite supervisar y gestionar el estado y el rendimiento de sus sistemas de almacenamiento de ONTAP desde una única interfaz.
+
+Unified Manager proporciona las siguientes funciones:
+
+* Detección, supervisión y notificaciones de los sistemas instalados con el software ONTAP.
+* Panel para mostrar el estado de la capacidad, la seguridad y el rendimiento del entorno.
+* Alertas mejoradas, eventos e infraestructura de umbral.
+* Muestra gráficos detallados que traza la actividad de las cargas de trabajo con el tiempo; incluidos IOPS (operaciones), Mbps (rendimiento), latencia (tiempo de respuesta), utilización, la capacidad de rendimiento y la proporción de caché.
+* Identifica cargas de trabajo que utilizan en exceso los componentes del clúster y las cargas de trabajo cuyo rendimiento se ve afectado por la mayor actividad.
+* Proporciona acciones correctivas sugeridas que se pueden realizar para solucionar ciertos incidentes y eventos, y botón "solucionarlo" para algunos eventos, de modo que pueda resolver el problema de inmediato.
+* Se integra con OnCommand Workflow Automation para ejecutar flujos de trabajo de protección automatizados.
+* Capacidad para crear nuevas cargas de trabajo, como un LUN o un recurso compartido de archivos, directamente desde Unified Manager y asignar un nivel de servicio de rendimiento para definir los objetivos de rendimiento y almacenamiento para los usuarios que acceden a la aplicación utilizando dicha carga de trabajo.
+

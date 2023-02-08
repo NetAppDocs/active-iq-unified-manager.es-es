@@ -1,0 +1,32 @@
+---
+permalink: health-checker/task_view_encryption_status_of_all_volumes.html 
+sidebar: sidebar 
+keywords: view, encryption status, volumes 
+summary: Puede ver una lista de todos los volúmenes y su estado de cifrado actual para poder determinar si los datos de los volúmenes están protegidos correctamente para que otros usuarios no autorizados puedan acceder a ellos. 
+---
+= Ver el estado de cifrado de todos los volúmenes
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede ver una lista de todos los volúmenes y su estado de cifrado actual para poder determinar si los datos de los volúmenes están protegidos correctamente para que otros usuarios no autorizados puedan acceder a ellos.
+
+*Lo que necesitará*
+
+Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
+
+Los tipos de cifrado que se pueden aplicar a un volumen son los siguientes:
+
+* Software: Volúmenes protegidos con las soluciones de cifrado por software de cifrado de volúmenes de NetApp (NVE) o cifrado de agregados de NetApp (NAE).
+* Hardware: Volúmenes protegidos con cifrado de hardware de cifrado del almacenamiento de NetApp (NSE).
+* Software y hardware: Volúmenes protegidos por cifrado de software y hardware.
+* None: Volúmenes que no están cifrados.
+
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *almacenamiento* > *volúmenes*.
+. En el menú Ver, seleccione *Estado* > *cifrado de volúmenes*
+. En la vista *Estado: Cifrado de volúmenes*, ordene el campo *Tipo de cifrado* o utilice el filtro para mostrar los volúmenes que tienen un tipo de cifrado específico, o que no están cifrados (Tipo de cifrado "'Ninguno'").
+

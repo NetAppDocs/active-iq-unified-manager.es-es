@@ -1,0 +1,42 @@
+---
+permalink: health-checker/task_view_aggregate_list_and_details.html 
+sidebar: sidebar 
+keywords: view, aggregate list, details 
+summary: 'En la vista Health: All Aggregates, puede supervisar su inventario de agregados. La vista capacidad: Todos los agregados le permite ver información sobre la capacidad y la utilización de los agregados en todos los clústeres.' 
+---
+= Consulte la lista de agregados y los detalles
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+En la vista Health: All Aggregates, puede supervisar su inventario de agregados. La vista capacidad: Todos los agregados le permite ver información sobre la capacidad y la utilización de los agregados en todos los clústeres.
+
+*Lo que necesitará*
+
+Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
+
+Puede ver detalles como la capacidad y la configuración del agregado, y la información sobre el disco en la página de detalles Aggregate / Health. Puede utilizar estos detalles antes de configurar los ajustes del umbral si es necesario.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *almacenamiento* > *agregados*.
+. Seleccione una de las siguientes formas de ver los detalles del agregado:
++
+** Para ver información sobre el estado de todos los agregados de todos los clústeres, en el menú Ver, seleccione Estado: Todos los agregados vista.
+** Para ver información sobre la capacidad y la utilización de todos los agregados en todos los clústeres, en el menú Ver, seleccione capacidad: All Aggregates View.
+** Para ver todos los detalles, haga clic en el nombre del agregado.
++
+También puede ver todos los detalles haciendo clic en *Ver detalles* en el cuadro de diálogo Detalles mínimos.
+
+
+
+. Para ver los objetos relacionados con el agregado, haga clic en *Ver relacionado* en el cuadro de diálogo Detalles mínimos.
+
+
+*Información relacionada*
+
+* link:../health-checker/reference_health_aggregate_details_page.html["Página de detalles Aggregate / Health"]
+* link:../performance-checker/performance-view-all.html#performance-all-aggregates-view["Rendimiento: Vista de todos los agregados"]
+* link:../reporting/concept_customize_aggregate_capacity_reports.html["Personalizar los informes de capacidad de agregados"]
+

@@ -1,0 +1,27 @@
+---
+permalink: health-checker/task_edit_group_settings.html 
+sidebar: sidebar 
+keywords: edit, groups 
+summary: Puede editar el nombre y la descripción de un grupo creado en Unified Manager. 
+---
+= Edición de grupos
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede editar el nombre y la descripción de un grupo creado en Unified Manager.
+
+*Lo que necesitará*
+
+Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
+Cuando edite un grupo para actualizar el nombre, debe especificar un nombre único; no puede utilizar un nombre de grupo existente.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *Administración de almacenamiento* > *grupos*.
+. En la ficha *grupos*, seleccione el grupo que desea editar y, a continuación, haga clic en *Editar*.
+. En el cuadro de diálogo *Editar grupo*, cambie el nombre, la descripción o ambos para el grupo.
+. Haga clic en *Guardar*.
+

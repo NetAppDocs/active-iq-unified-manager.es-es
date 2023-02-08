@@ -1,0 +1,179 @@
+---
+permalink: api-automation/concept_ontap_troubleshooting_workflow.html 
+sidebar: sidebar 
+keywords: troubleshoot, ontap, volumes, gateway, api 
+summary: Las API de puerta de enlace actúan como puerta de enlace para invocar las API ONTAP para consultar información sobre los objetos de almacenamiento ONTAP y tomar medidas correctivas para abordar los problemas notificados. 
+---
+= Solución de problemas de volúmenes de ONTAP mediante API de puerta de enlace
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Las API de puerta de enlace actúan como puerta de enlace para invocar las API ONTAP para consultar información sobre los objetos de almacenamiento ONTAP y tomar medidas correctivas para abordar los problemas notificados.
+
+Este flujo de trabajo requiere un caso de uso de muestra en el que se genera un evento cuando un volumen de ONTAP casi alcanza su capacidad. El flujo de trabajo también muestra cómo resolver este problema invocando una combinación de API REST de Active IQ Unified Manager y ONTAP.
+
+[NOTE]
+====
+Antes de ejecutar los pasos del flujo de trabajo, asegúrese de lo siguiente:
+
+* Conoce las API de puerta de enlace y cómo se utilizan. Para obtener más información, consulte link:concept_gateway_apis.html["Acceso a API de ONTAP a través de acceso de proxy"].
+* Conoce el uso de las API de REST de ONTAP. Para obtener información sobre el uso de las API de REST de ONTAP, consultehttps://docs.netapp.com/us-en/ontap-automation/index.html["Documentación de automatización de ONTAP"].
+* Es administrador de aplicaciones.
+* El clúster en el cual desea ejecutar las operaciones de API REST es compatible con ONTAP 9.5 o una versión posterior, y el clúster se añade a Unified Manager a HTTPS.
+
+
+====
+En el siguiente diagrama, se muestran cada paso del flujo de trabajo para solucionar el problema del uso de capacidad de volumen de ONTAP.
+
+image::../media/api_gateway_ontap_workflow.gif[flujo de trabajo ONTAP de puerta de enlace api]
+
+El flujo de trabajo abarca los puntos de invocación de las API DE REST de Unified Manager y ONTAP.
+
+. Observe el nombre del volumen desde el evento que notifica al uso de capacidad del volumen.
+. Con el nombre del volumen como valor del parámetro name, consulte el volumen ejecutando la siguiente API de Unified Manager.
++
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+centro de datos
+ a| 
+OBTENGA
+ a| 
+`/datacenter/storage/volumes`
+
+|===
+. Recupere el UUID de clúster y el UUID de volumen de la salida.
+. En la interfaz de usuario web de Unified Manager, desplácese hasta *General* > *Configuración de funciones* > *puerta de enlace API* para verificar si la función API Gateway está activada. A menos que esté habilitado, las API de la categoría de puerta de enlace no estarán disponibles para que pueda invocar. Habilite la función si está deshabilitada.
+. Utilice el UUID de clúster para ejecutar la API ONTAP /`storage/volumes/{uuid}` A través de la pasarela API. La consulta devuelve los detalles del volumen cuando el UUID de volumen se pasa como el parámetro API.
++
+Para ejecutar las API de ONTAP mediante una puerta de enlace API, las credenciales de Unified Manager se pasan internamente para la autenticación; no es necesario ejecutar un paso de autenticación adicional para el acceso a cada clúster.
+
++
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+Unified Manager: Puerta de enlace
+
+ONTAP: Almacenamiento
+ a| 
+OBTENGA
+ a| 
+API de puerta de enlace: `/gateways/\{uuid}/\{path}`
+
+API de ONTAP: `/storage/volumes/\{uuid}`
+
+|===
++
+[NOTE]
+====
+En /gateways/\{UUID}/\{path}, el valor de \{UUID} debe sustituirse por el UUID de clúster en el que se va a realizar la operación REST. \{path} debe sustituirse por la URL DE REST de ONTAP /almacenamiento/volúmenes/\{UUID}.
+
+====
++
+La URL adjunta es: `/gateways/\{cluster_uuid}/storage/volumes/\{volume_uuid}`
+
++
+Al ejecutar la operación DE OBTENER, la URL generada es: `GEThttps://<hostname\>/api/gateways/<cluster_UUID\>/storage/volumes/\{volume_uuid\}`
+
++
+*Comando de rizo de muestra*
+
++
+[listing]
+----
+curl -X GET "https://<hostname>/api/gateways/1cd8a442-86d1-11e0-ae1c-9876567890123/storage/volumes/028baa66-41bd-11e9-81d5-00a0986138f7"
+-H "accept: application/hal+json" -H "Authorization: Basic <Base64EncodedCredentials>"
+----
+. A partir de la salida, determine el tamaño, uso y medidas correctivas que se van a tomar. En este flujo de trabajo, la medida correctiva tomada es ajustar el tamaño del volumen.
+. Utilice el UUID de clúster y ejecute la siguiente API ONTAP a través de la puerta de enlace API para cambiar el tamaño del volumen. Para obtener información acerca de los parámetros de entrada de la puerta de enlace y las API ONTAP, consulte el paso 5.
++
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+Unified Manager: Puerta de enlace
+
+ONTAP: Almacenamiento
+ a| 
+PARCHE
+ a| 
+API de puerta de enlace: `/gateways/\{uuid}/\{path}`
+
+API de ONTAP: `/storage/volumes/\{uuid}`
+
+|===
++
+[NOTE]
+====
+Junto con el UUID de clúster y el UUID de volumen, debe introducir un valor para el parámetro size para el cambio de tamaño del volumen. Asegúrese de introducir el valor _in bytes_. Por ejemplo, si desea aumentar el tamaño de un volumen de 100 GB a 120 GB, introduzca el valor para el tamaño del parámetro al final de la consulta: `-d {\"size\": 128849018880}"`
+
+====
++
+*Comando de rizo de muestra*
+
++
+[listing]
+----
+curl -X PATCH "https://<hostname>/api/gateways/1cd8a442-86d1-11e0-ae1c-9876567890123/storage/volumes/028baa66-41bd-11e9-81d5-00a0986138f7" -H
+    "accept: application/hal+json" -H "Authorization: Basic <Base64EncodedCredentials>" -d
+    {\"size\": 128849018880}"
+----
++
+La salida JSON devuelve un UUID de trabajo.
+
+. Compruebe si el trabajo se ha ejecutado correctamente mediante el UUID de trabajo. Utilice el UUID de clúster y el UUID de trabajo para ejecutar la siguiente API ONTAP a través de la puerta de enlace API. Para obtener información acerca de los parámetros de entrada de la puerta de enlace y las API ONTAP, consulte el paso 5.
++
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+Unified Manager: Puerta de enlace
+
+ONTAP: Cluster
+ a| 
+OBTENGA
+ a| 
+API de puerta de enlace: `/gateways/\{uuid}/\{path}`
+
+API de ONTAP: `/cluster/jobs/\{uuid}`
+
+|===
++
+Los códigos HTTP devueltos son los mismos que los códigos de estado HTTP de la API DE REST de ONTAP.
+
+. Ejecute la siguiente API de ONTAP para consultar los detalles del volumen cuyo tamaño ha cambiado. Para obtener información acerca de los parámetros de entrada de la puerta de enlace y las API ONTAP, consulte el paso 5.
++
+[cols="3*"]
+|===
+| Categoría | Verbo HTTP | Ruta 
+
+
+ a| 
+Unified Manager: Puerta de enlace
+
+ONTAP: Almacenamiento
+ a| 
+OBTENGA
+ a| 
+API de puerta de enlace: `/gateways/\{uuid}/\{path}`
+
+API de ONTAP: `/storage/volumes/\{uuid}`
+
+|===
++
+La salida muestra un mayor tamaño de volumen de 120 GB.
+
+

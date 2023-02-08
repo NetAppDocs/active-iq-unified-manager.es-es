@@ -1,0 +1,59 @@
+---
+permalink: api-automation/concept_rest_services_offered_in_unified_manager_apis.html 
+sidebar: sidebar 
+keywords: rest, services, offer, active iq, unified, manager 
+summary: Debe conocer los servicios DE REST y las operaciones ofrecidas, antes de empezar a usar las API Active IQ Unified Manager. 
+---
+= Servicios DE REST ofrecidos en Active IQ Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Debe conocer los servicios DE REST y las operaciones ofrecidas, antes de empezar a usar las API Active IQ Unified Manager.
+
+Las API de aprovisionamiento y administración que se usan para configurar el servidor API admiten las operaciones de lectura (GET) o escritura (POST, REVISIÓN, ELIMINACIÓN). A continuación se muestran algunos ejemplos de las operaciones GET, PATCH, POST y DELETE compatibles con las API:
+
+* Ejemplo de OBTENER: `GET /datacenter/cluster/clusters` recupera los datos del clúster en el centro de datos. El número máximo de registros que devuelve el `GET` la operación es 1000.
++
+[NOTE]
+====
+Las API permiten filtrar, ordenar y ordenar los registros por atributos admitidos.
+
+====
+* Ejemplo de PUBLICACIÓN: `POST /datacenter/svm/svms` Crea una máquina virtual de almacenamiento (SVM) personalizada.
+* Ejemplo de PARCHE: `PATCH /datacenter/svm/svms/{key}` Modifica las propiedades de una SVM mediante su clave única.
+* Ejemplo de ELIMINACIÓN: `DELETE /storage-provider/access-endpoints/{key}` Elimina un extremo de acceso de un LUN, una SVM o un recurso compartido de archivos mediante su clave única.
+
+
+Las operaciones DE REST que se pueden realizar usando las API dependen de la función del usuario operador, administrador de almacenamiento o administrador de aplicaciones.
+
+[cols="2*"]
+|===
+| Rol de usuario | Método REST compatible 
+
+
+ a| 
+Operador
+ a| 
+Acceso de solo lectura a los datos. Los usuarios con este rol pueden ejecutar todas las solicitudes GET.
+
+
+
+ a| 
+Administrador de almacenamiento
+ a| 
+Acceso de lectura a todos los datos. Los usuarios con este rol pueden ejecutar todas las solicitudes GET.
+
+Además, cuentan con acceso de escritura (para ejecutar solicitudes DE REVISIONES, TAREAS DE PUBLICACIÓN y ELIMINACIÓN) para realizar actividades específicas, como gestionar, objetos de servicio de almacenamiento y opciones de gestión del almacenamiento.
+
+
+
+ a| 
+Administrador de aplicaciones
+ a| 
+Acceso de lectura y escritura a todos los datos. Los usuarios con esta función pueden ejecutar solicitudes GET, PATCH, POST y DELETE para todas las funciones.
+
+|===
+Para obtener más información sobre todas las operaciones DE REST, consulte la _Online API Documentage_.

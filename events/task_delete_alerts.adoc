@@ -1,0 +1,24 @@
+---
+permalink: events/task_delete_alerts.html 
+sidebar: sidebar 
+keywords: delete, alerts 
+summary: Es posible eliminar una alerta cuando ya no se necesita. Por ejemplo, puede eliminar una alerta que se creó para un recurso particular cuando Unified Manager ya no supervisa ese recurso. 
+---
+= Eliminar alertas
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Es posible eliminar una alerta cuando ya no se necesita. Por ejemplo, puede eliminar una alerta que se creó para un recurso particular cuando Unified Manager ya no supervisa ese recurso.
+
+*Lo que necesitará*
+
+Debe tener la función Administrador de aplicaciones.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *Administración de almacenamiento* > *Configuración de alertas*.
+. En la página *Configuración de alertas*, seleccione las alertas que desea eliminar y haga clic en *Eliminar*.
+. Haga clic en *Sí* para confirmar la solicitud de eliminación.
+

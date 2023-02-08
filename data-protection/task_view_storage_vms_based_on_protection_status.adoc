@@ -1,0 +1,63 @@
+---
+permalink: data-protection/task_view_storage_vms_based_on_protection_status.html 
+sidebar: sidebar 
+keywords: storage vm, view protection status 
+summary: Puede usar la página Storage VMs del inventario para ver todas las máquinas virtuales de almacenamiento en Active IQ Unified Manager y filtrar las máquinas virtuales de almacenamiento en función de su estado de protección. 
+---
+= Ver las máquinas virtuales de almacenamiento en función del estado de protección
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede usar la página Storage VMs del inventario para ver todas las máquinas virtuales de almacenamiento en Active IQ Unified Manager y filtrar las máquinas virtuales de almacenamiento en función de su estado de protección.
+
+*Lo que necesitará*
+
+Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
+Se añade un nuevo rol de protección de columnas a la vista de máquinas virtuales de almacenamiento que proporciona información sobre si la máquina virtual de almacenamiento está protegida o sin protección.
+
+[NOTE]
+====
+Si un clúster de origen no se añade a Active IQ Unified Manager, en los grids toda la información relacionada con ese clúster no estará disponible.
+
+====
+.Pasos
+. En el panel de navegación de la izquierda, haga clic en *STORAGE* > *Storage VMs*.
+. En el menú *VIEW*, seleccione *Health* > *All Storage VMs*.
++
+Se muestra el estado: Todas las máquinas virtuales de almacenamiento.
+
+. Haga clic en *filtro* para ver uno de los siguientes equipos virtuales de almacenamiento.
++
+[cols="2*"]
+|===
+| Para ver | Valor de filtro 
+
+
+ a| 
+*VMs de almacenamiento protegido*
+ a| 
+*La función de protección* está *protegida*
+
+
+
+ a| 
+*VMs de almacenamiento sin protección*
+ a| 
+*La función de protección* está *desprotegida*
+
+|===
++
+[NOTE]
+====
+No se pueden ver las máquinas virtuales de almacenamiento protegidas y sin protección al mismo tiempo. Deberá borrar el filtro existente para volver a aplicar una nueva opción de filtro.
+
+====
+. Haga clic en *aplicar filtro*.
++
+La vista sin guardar muestra todas las máquinas virtuales de almacenamiento protegidas o desprotegidas por la recuperación ante desastres de las máquinas virtuales de almacenamiento en función de las selecciones de filtro.
+
+

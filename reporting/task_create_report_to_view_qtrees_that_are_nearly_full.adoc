@@ -1,0 +1,42 @@
+---
+permalink: reporting/task_create_report_to_view_qtrees_that_are_nearly_full.html 
+sidebar: sidebar 
+keywords: create, report, view, qtrees, full 
+summary: Puede crear un informe para analizar la capacidad de almacenamiento y el uso de qtrees, y ver qtrees que están casi llenos. 
+---
+= Creación de un informe para ver qtrees que están casi llenos
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede crear un informe para analizar la capacidad de almacenamiento y el uso de qtrees, y ver qtrees que están casi llenos.
+
+*Lo que necesitará*
+
+* Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
+
+Siga los pasos siguientes para crear una vista personalizada que muestre qtrees que están casi llenos y, a continuación, programar un informe que se generará para esa vista.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *almacenamiento* > *Qtrees*.
+. Seleccione *Mostrar/Ocultar* para eliminar las columnas que no desee del informe.
+. Arrastre la columna "% utilizado" cerca de la columna "Qtrees".
+. Haga clic en el icono de filtro, agregue los siguientes filtros y, a continuación, haga clic en *aplicar filtro*:
++
+** El % del disco utilizado es superior al 75 %
+
+
+. Haga clic en la parte superior de la columna "disco utilizado %" para ordenar los resultados por porcentaje de capacidad.
+. Guarde la vista con un nombre específico que refleje lo que se muestra en la vista, por ejemplo, "'Qtrees está casi lleno'" y haga clic en la Marca de verificación (image:../media/blue_check.gif[""]).
+. Haga clic en el botón *Informes programados* de la página de inventario.
+. Haga clic en *Agregar programación* para agregar una nueva fila a la página *programas de informes* para poder definir las características de programación para el nuevo informe.
+. Introduzca un nombre para el programa de informes y complete los otros campos de informe y, a continuación, haga clic en la Marca de verificación (image:../media/blue_check.gif[""]) al final de la fila.
++
+El informe se envía inmediatamente como prueba. Después de esto, el informe genera y se envía por correo electrónico a los destinatarios enumerados utilizando la frecuencia especificada.
+
+
+
+En función de los resultados mostrados en el informe, es posible que desee ajustar los límites estrictos y flexibles del disco (si se ha establecido) o equilibrar los datos en los qtrees.

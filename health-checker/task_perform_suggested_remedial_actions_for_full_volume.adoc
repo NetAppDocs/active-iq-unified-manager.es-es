@@ -1,0 +1,45 @@
+---
+permalink: health-checker/task_perform_suggested_remedial_actions_for_full_volume.html 
+sidebar: sidebar 
+keywords: perform, suggested, remedial actions, volume 
+summary: 'Después de recibir un evento de error “Volume Space Full” (espacio de volumen lleno), revise las acciones correctivas sugeridas en la página de detalles Event (Detalles del evento) y decida realizar una de las acciones sugeridas.' 
+---
+= Ejecución de acciones correctivas sugeridas para un volumen completo
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Después de recibir un evento de error «'espacio de volumen completo'», revise las acciones correctivas sugeridas en la página de detalles del evento y decida realizar una de las acciones sugeridas.
+
+*Lo que necesitará*
+
+Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
+Un usuario con cualquier rol puede realizar todas las tareas en este flujo de trabajo que utiliza Unified Manager.
+
+En este ejemplo, ha visto un evento de error de espacio de volumen completo en la página del inventario de Unified Manager Event Management y ha hecho clic en el nombre del evento.
+
+Entre las posibles acciones para solucionarlos que se pueden llevar a cabo en un volumen completo se encuentran las siguientes:
+
+* Habilitar el crecimiento automático, la deduplicación o la compresión en el volumen
+* Cambiar el tamaño o mover el volumen
+* Eliminar o mover datos del volumen
+
+
+Si bien todas estas acciones deben realizarse desde ONTAP System Manager o desde la interfaz de línea de comandos de ONTAP, puede usar Unified Manager para buscar información que pueda ser necesario determinar qué acciones deben realizarse.
+
+.Pasos
+. En la página de detalles *evento*, haga clic en el nombre del volumen en el campo origen para ver detalles sobre el volumen afectado.
+. En la página de detalles *Volume / Health*, haga clic en *Configuration* y compruebe que la deduplicación y la compresión ya están activadas en el volumen.
++
+Decide cambiar el tamaño del volumen.
+
+. En el panel *dispositivos relacionados*, haga clic en el nombre del agregado de alojamiento para ver si el agregado puede acomodar un volumen mayor.
+. En la página de detalles *Aggregate / Health*, puede ver que el agregado que aloja el volumen completo tiene suficiente capacidad disponible, por lo que utiliza System Manager de ONTAP para cambiar el tamaño del volumen, por lo que aumenta la capacidad.
+
+
+*Información relacionada*
+
+link:../events/reference_event_details_page.html["Página de detalles Event"]

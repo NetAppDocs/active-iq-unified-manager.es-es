@@ -1,0 +1,89 @@
+---
+permalink: reporting/task_create_report_to_view_available_volume_capacity_charts.html 
+sidebar: sidebar 
+keywords: create, report, view, available, volume, capacity, charts 
+summary: Puede crear un informe para analizar la capacidad de volumen disponible en un gráfico de Excel. 
+---
+= Creación de un informe para ver los gráficos de capacidad de los volúmenes disponibles
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede crear un informe para analizar la capacidad de volumen disponible en un gráfico de Excel.
+
+*Lo que necesitará*
+
+* Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
+
+Utilice los pasos siguientes para abrir una vista Estado: Todos los volúmenes, descargar la vista en Excel, crear un gráfico de capacidad disponible, cargar el archivo de Excel personalizado y programar el informe final.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *almacenamiento* > *volúmenes*.
+. Seleccione *Informes* > *Descargar Excel*.
++
+image::../media/download_excel_menu.png[descargar menú de excel]
+
++
+Según el explorador, es posible que tenga que hacer clic en *Aceptar* para guardar el archivo.
+
+. Si es necesario, haga clic en *Activar edición*.
+. En Excel, abra el archivo descargado.
+. En la `data` hoja, seleccione los datos que desea utilizar en `Volume` y.. `Available Data` % columnas.
+. En el menú *Insertar*, seleccione un `3-D piechart.`
++
+El gráfico muestra qué volúmenes tienen el mayor espacio disponible. El gráfico aparece en la hoja de datos.
+
++
+[NOTE]
+====
+En función de la configuración de red, la selección de columnas completas o de demasiadas filas de datos puede hacer que el gráfico circular no sea legible. Este ejemplo utiliza el gráfico circular 3-D, pero puede utilizar cualquier tipo de gráfico. Utilice el gráfico que mejor muestra los datos que desea capturar.
+
+====
+. Nombre el título del gráfico *capacidad disponible*.
+. Haga clic con el botón derecho del ratón en el gráfico y seleccione *mover gráfico*.
+. Seleccione *Nueva hoja* y asigne un nombre a la hoja *gráficos de volumen de almacenamiento*.
++
+[NOTE]
+====
+Asegúrese de que la nueva hoja aparece después de las hojas de información y datos.
+
+====
++
+image::../media/move_chart.png[mover la carta]
+
+. Con los menús *Diseño* y *Formato*, disponibles cuando se selecciona el gráfico, puede personalizar el aspecto del gráfico.
+. Cuando esté satisfecho, guarde el archivo con los cambios.
+. En Unified Manager, seleccione *Informes* > *cargar Excel*.
++
+[NOTE]
+====
+Asegúrese de que se encuentra en la misma vista en la que descargó el archivo de Excel.
+
+====
+. Seleccione el archivo de Excel que ha modificado.
+. Haga clic en *Abrir*.
+. Haga clic en *Enviar*.
++
+Aparece una Marca de verificación junto al elemento de menú *Informes* > *cargar Excel*.
+
++
+image::../media/upload_excel.png[cargar excel]
+
+. Haga clic en *Informes programados*.
+. Haga clic en *Agregar programación* para agregar una nueva fila a la página *programas de informes* de modo que pueda definir las características de programación para el nuevo informe.
+. Introduzca un nombre para el programa de informes y complete los otros campos de informe y, a continuación, haga clic en la Marca de verificación (image:../media/blue_check.gif[""]) al final de la fila.
++
+[NOTE]
+====
+Seleccione el formato *XLSX* para el informe.
+
+====
++
+El informe se envía inmediatamente como prueba. Después de esto, el informe genera y se envía por correo electrónico a los destinatarios enumerados utilizando la frecuencia especificada.
+
+
+
+Según los resultados mostrados en el informe, se recomienda equilibrar la carga en los volúmenes.

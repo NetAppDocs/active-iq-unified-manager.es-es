@@ -1,0 +1,57 @@
+---
+permalink: api-automation/concept_api_logs.html 
+sidebar: sidebar 
+keywords: logs, troubleshooting 
+summary: Los registros del sistema le permiten analizar las causas de los errores y solucionar los problemas que pueden surgir al ejecutar las API. 
+---
+= Registros para solución de problemas
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Los registros del sistema le permiten analizar las causas de los errores y solucionar los problemas que pueden surgir al ejecutar las API.
+
+Recupere los registros de la siguiente ubicación para solucionar problemas relacionados con las llamadas API.
+
+[cols="2*"]
+|===
+| Ubicación del registro | Uso 
+
+
+ a| 
+`/var/log/ocie/access_log.log`
+ a| 
+Contiene todos los detalles de llamada de la API, como el nombre de usuario del usuario que invoca la API, la hora de inicio, la hora de ejecución, el estado y la URL.
+
+Puede usar este archivo de registro para comprobar las API que se usan con frecuencia o solucionar los problemas de cualquier flujo de trabajo de la interfaz gráfica de usuario. También se puede utilizar para ampliar el análisis en función del tiempo de ejecución.
+
+
+
+ a| 
+`/var/log/ocum/ocumserver.log`
+ a| 
+Contiene todos los registros de ejecución de la API.
+
+Es posible usar este archivo de registro para solucionar problemas y depurar las llamadas API.
+
+
+
+ a| 
+`/var/log/ocie/server.log`
+ a| 
+Contiene todas las implementaciones de servidores Wildfly y registros relacionados con el servicio de inicio y parada.
+
+Puede utilizar este archivo de registro para encontrar la causa raíz de cualquier problema que se produzca durante el inicio, la detención o la implementación del servidor Wildfly.
+
+
+
+ a| 
+`/var/log/ocie/au.log`
+ a| 
+Contiene registros relacionados con la unidad de adquisición.
+
+Puede utilizar este archivo de registro cuando ha creado, modificado o eliminado cualquier objeto de la ONTAP, pero no se reflejan para las API de REST de Active IQ Unified Manager.
+
+|===

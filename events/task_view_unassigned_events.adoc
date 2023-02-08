@@ -1,0 +1,26 @@
+---
+permalink: events/task_view_unassigned_events.html 
+sidebar: sidebar 
+keywords: view, unassigned, events 
+summary: Puede ver los eventos no asignados y, a continuación, asignar cada uno de ellos a un usuario que pueda resolverlos. 
+---
+= Visualización de eventos sin asignar
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede ver los eventos no asignados y, a continuación, asignar cada uno de ellos a un usuario que pueda resolverlos.
+
+*Lo que necesitará*
+
+Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *Gestión de eventos*.
++
+De forma predeterminada, los eventos nuevos y reconocidos se muestran en la página de inventario Gestión de eventos.
+
+. En el panel *Filtros*, seleccione la opción de filtro *sin asignar* en el área *asignado a*.
+

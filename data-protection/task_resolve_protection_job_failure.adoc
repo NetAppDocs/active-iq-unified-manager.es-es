@@ -1,0 +1,37 @@
+---
+permalink: data-protection/task_resolve_protection_job_failure.html 
+sidebar: sidebar 
+keywords: resolve, protection, job failure 
+summary: Este flujo de trabajo proporciona un ejemplo de cómo se puede identificar y resolver un error de trabajo de protección en la consola de Unified Manager. 
+---
+= Solucionar un error de un trabajo de protección
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Este flujo de trabajo proporciona un ejemplo de cómo se puede identificar y resolver un error de trabajo de protección en la consola de Unified Manager.
+
+*Lo que necesitará*
+
+Debido a que algunas tareas de este flujo de trabajo requieren que inicie sesión utilizando la función Administrador, debe estar familiarizado con las funciones necesarias para utilizar varias funciones.
+
+En este caso, debe acceder a la página Dashboard para ver si hay algún problema con los trabajos de protección. En el área incidente de protección, se observa que hay un incidente de trabajo terminado, mostrando un error de trabajo de protección en un volumen. Investiga este error para determinar la causa posible y la resolución potencial.
+
+.Pasos
+. En el panel Protection Incidents del área Dashboard Unresolved Incidents and Risks, haga clic en el evento *Protection job failed*.
++
+[TIP]
+====
+El texto vinculado para el evento se escribe en el formulario `object_name:/object_name - Error Name`, por ejemplo `cluster2_src_svm:/cluster2_src_vol2 - Protection Job Failed`.
+
+====
++
+Se muestra la página de detalles Event del trabajo de protección con errores.
+
+. Revise el mensaje de error en el campo causa del área *Resumen* para determinar el problema y evaluar las posibles acciones correctivas.
++
+Consulte link:task_identify_problem_for_failed_protection_job.html["Identificar el problema y realizar acciones correctivas para un trabajo de protección con errores"].
+
+

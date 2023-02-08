@@ -1,0 +1,97 @@
+---
+permalink: performance-checker/reference_what_objects_can_be_used_in_threshold_policies.html 
+sidebar: sidebar 
+keywords: objects, counters, combination, threshold, policies 
+summary: Sólo algunos contadores de rendimiento se pueden utilizar juntos en políticas de combinación. Cuando se especifican contadores de rendimiento primario y secundario, ambos contadores de rendimiento deben superar sus límites máximos antes de que se genere un evento. 
+---
+= Qué objetos y contadores pueden utilizarse en políticas de umbral de combinación
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Sólo algunos contadores de rendimiento se pueden utilizar juntos en políticas de combinación. Cuando se especifican contadores de rendimiento primario y secundario, ambos contadores de rendimiento deben superar sus límites máximos antes de que se genere un evento.
+
+|===
+| Objeto y contador de almacenamiento principal | Objeto de almacenamiento secundario y contador 
+
+
+ a| 
+Latencia del volumen
+ a| 
+IOPS de volumen
+
+
+
+ a| 
+Volumen MB/s
+
+
+
+ a| 
+Utilización de agregados
+
+
+
+ a| 
+Capacidad de rendimiento de agregados utilizada
+
+
+
+ a| 
+Uso de nodos
+
+
+
+ a| 
+Capacidad de rendimiento de nodo utilizada
+
+
+
+ a| 
+Capacidad de rendimiento del nodo utilizada: Respaldo
+
+
+
+ a| 
+Latencia de LUN
+ a| 
+IOPS DE LUN
+
+
+
+ a| 
+LUN MB/s
+
+
+
+ a| 
+Utilización de agregados
+
+
+
+ a| 
+Capacidad de rendimiento de agregados utilizada
+
+
+
+ a| 
+Uso de nodos
+
+
+
+ a| 
+Capacidad de rendimiento de nodo utilizada
+
+
+
+ a| 
+Capacidad de rendimiento del nodo utilizada: Respaldo
+
+|===
+[NOTE]
+====
+Cuando se aplica una política de combinación de volúmenes a un volumen FlexGroup, en lugar de a un volumen FlexVol, solo pueden seleccionarse como contador secundario los atributos «'IOPS de volumen» y «'MB/s» de volumen. Si la política de umbral contiene uno de los atributos del nodo o de agregado, la política no se aplicará al volumen de FlexGroup y recibirá un mensaje de error en el que se describe este caso. Esto se debe a que los volúmenes FlexGroup pueden existir en más de un nodo o agregado.
+
+====

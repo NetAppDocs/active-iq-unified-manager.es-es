@@ -1,0 +1,452 @@
+---
+permalink: events/reference_storage_vm_events.html 
+sidebar: sidebar 
+keywords: storage, vm events, impact area, availability, configuration, performance, security 
+summary: 'Los eventos de máquina virtual de almacenamiento le proporcionan información sobre el estado de las máquinas virtuales de almacenamiento (SVM) para poder supervisar posibles problemas. Los eventos se agrupan por área de impacto e incluyen el nombre del evento y de captura, el nivel de impacto, el tipo de origen y la gravedad.' 
+---
+= Eventos de máquinas virtuales de almacenamiento
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Los eventos de máquina virtual de almacenamiento (también conocidos como SVM) le proporcionan información sobre el estado de sus máquinas virtuales de almacenamiento (SVM) para poder supervisar posibles problemas. Los eventos se agrupan por área de impacto e incluyen el nombre del evento y de captura, el nivel de impacto, el tipo de origen y la gravedad.
+
+Un asterisco (*) identifica los eventos de EMS que se han convertido a eventos de Unified Manager.
+
+
+
+== Área de impacto: Disponibilidad
+
+|===
+| Nombre del evento (nombre de la captura) | Nivel de impacto | Tipo de origen | Gravedad 
+
+
+ a| 
+Service Down de SVM (ocumEvtVserverCifsServiceStatusDown)
+ a| 
+Incidente
+ a| 
+SVM
+ a| 
+Crítico
+
+
+
+ a| 
+Servicio CIFS SVM no configurado (no aplicable)
+ a| 
+Evento
+ a| 
+SVM
+ a| 
+Información
+
+
+
+ a| 
+Intentos de conectar recursos compartidos CIFS no existentes *(nbladeCifsNoPrivShare)
+ a| 
+Incidente
+ a| 
+SVM
+ a| 
+Crítico
+
+
+
+ a| 
+Conflicto de nombres NetBIOS CIFS *(nbladeCifsNbNameConflict)
+ a| 
+Riesgo
+ a| 
+SVM
+ a| 
+Error
+
+
+
+ a| 
+Error en la operación de copia de volúmenes redundantes de CIFS *(cifsShadowCopyFailure)
+ a| 
+Riesgo
+ a| 
+SVM
+ a| 
+Error
+
+
+
+ a| 
+Muchas conexiones CIFS *(nbladeCifsManyAuths)
+ a| 
+Riesgo
+ a| 
+SVM
+ a| 
+Error
+
+
+
+ a| 
+Se superó la conexión CIFS máxima *(nbladeCifsMaxOpenSametime)
+ a| 
+Riesgo
+ a| 
+SVM
+ a| 
+Error
+
+
+
+ a| 
+Se ha superado el máximo número de conexiones CIFS por usuario *(nbladeCiffsMaxSessPerUsrConn)
+ a| 
+Riesgo
+ a| 
+SVM
+ a| 
+Error
+
+
+
+ a| 
+Servicio FC/FCoE de SVM inactivo (ocumEvtVserverFcServiceStatusDown)
+ a| 
+Incidente
+ a| 
+SVM
+ a| 
+Crítico
+
+
+
+ a| 
+Servicio iSCSI de SVM inactivo (ocumEvtVserverIscsiServiceStatusDown)
+ a| 
+Incidente
+ a| 
+SVM
+ a| 
+Crítico
+
+
+
+ a| 
+Servicio NFS de SVM inactivo (ocumEvtVserverNfsServiceStatusDown)
+ a| 
+Incidente
+ a| 
+SVM
+ a| 
+Crítico
+
+
+
+ a| 
+Servicio SVM FC/FCoE no configurado (no aplicable)
+ a| 
+Evento
+ a| 
+SVM
+ a| 
+Información
+
+
+
+ a| 
+Servicio iSCSI de SVM no configurado (no aplicable)
+ a| 
+Evento
+ a| 
+SVM
+ a| 
+Información
+
+
+
+ a| 
+Servicio SVM NFS no configurado (no aplicable)
+ a| 
+Evento
+ a| 
+SVM
+ a| 
+Información
+
+
+
+ a| 
+SVM detenido (ocumEvtVserverDown)
+ a| 
+Riesgo
+ a| 
+SVM
+ a| 
+Advertencia
+
+
+
+ a| 
+El servidor AV está demasiado ocupado como para aceptar una nueva solicitud de análisis *(nbladeVscanConnBackPressure)
+ a| 
+Riesgo
+ a| 
+SVM
+ a| 
+Error
+
+
+
+ a| 
+No hay conexión de servidor AV para virus Scan *(nbladebvscanNoScannerConn)
+ a| 
+Incidente
+ a| 
+SVM
+ a| 
+Crítico
+
+
+
+ a| 
+No hay ningún servidor AV registrado *(nbladeVscanNoRegdScanner)
+ a| 
+Riesgo
+ a| 
+SVM
+ a| 
+Error
+
+
+
+ a| 
+Conexión de servidor AV * sin respuesta (nbladeVscanConnInactive)
+ a| 
+Evento
+ a| 
+SVM
+ a| 
+Información
+
+
+
+ a| 
+Intento de usuario no autorizado de AV Server *(nbladeVscanBadUserPrivAccess)
+ a| 
+Riesgo
+ a| 
+SVM
+ a| 
+Error
+
+
+
+ a| 
+Virus encontrado por AV Server *(nbladeVscanVirusDetected)
+ a| 
+Riesgo
+ a| 
+SVM
+ a| 
+Error
+
+|===
+
+
+== Área de impacto: Configuración
+
+|===
+| Nombre del evento (nombre de la captura) | Nivel de impacto | Tipo de origen | Gravedad 
+
+
+ a| 
+SVM detectada (no aplicable)
+ a| 
+Evento
+ a| 
+SVM
+ a| 
+Información
+
+
+
+ a| 
+SVM eliminada (no aplicable)
+ a| 
+Evento
+ a| 
+Clúster
+ a| 
+Información
+
+
+
+ a| 
+SVM cuyo nombre ha cambiado (no corresponde)
+ a| 
+Evento
+ a| 
+SVM
+ a| 
+Información
+
+|===
+
+
+== Área de impacto: Rendimiento
+
+|===
+| Nombre del evento (nombre de la captura) | Nivel de impacto | Tipo de origen | Gravedad 
+
+
+ a| 
+Se superó el umbral crítico de IOPS de SVM (ocumSvmIopsIncident)
+ a| 
+Incidente
+ a| 
+SVM
+ a| 
+Crítico
+
+
+
+ a| 
+Se superó el umbral de advertencia de IOPS de SVM (ocumSvmIopsWarning)
+ a| 
+Riesgo
+ a| 
+SVM
+ a| 
+Advertencia
+
+
+
+ a| 
+Se ha incumplido el umbral crítico de SVM MB/s (ocumSvmMbpsIncident)
+ a| 
+Incidente
+ a| 
+SVM
+ a| 
+Crítico
+
+
+
+ a| 
+Se ha incumplido el umbral de advertencia de SVM MB/s (ocumSvmMbpsWarning)
+ a| 
+Riesgo
+ a| 
+SVM
+ a| 
+Advertencia
+
+
+
+ a| 
+Se superó el umbral crucial de latencia de SVM (ocumSvmLatencyIncident)
+ a| 
+Incidente
+ a| 
+SVM
+ a| 
+Crítico
+
+
+
+ a| 
+Se superó el umbral de advertencia de latencia de SVM (ocumSvmLatencyWarning)
+ a| 
+Riesgo
+ a| 
+SVM
+ a| 
+Advertencia
+
+|===
+
+
+== Área de impacto: Seguridad
+
+|===
+| Nombre del evento (nombre de la captura) | Nivel de impacto | Tipo de origen | Gravedad 
+
+
+ a| 
+Registro de auditoría desactivado (ocumVserverAuditLogdeshabilitado)
+ a| 
+Riesgo
+ a| 
+SVM
+ a| 
+Advertencia
+
+
+
+ a| 
+Banner de inicio de sesión deshabilitado (ocumVserverLoginBannerDisabled)
+ a| 
+Riesgo
+ a| 
+SVM
+ a| 
+Advertencia
+
+
+
+ a| 
+SSH está utilizando Ciphers no seguros(ocumVserverSSHInsecure)
+ a| 
+Riesgo
+ a| 
+SVM
+ a| 
+Advertencia
+
+
+
+ a| 
+Banner de inicio de sesión cambiado (ocumVserverLoginBannerChanged)
+ a| 
+Riesgo
+ a| 
+SVM
+ a| 
+Advertencia
+
+
+
+ a| 
+La supervisión antiransomware de la máquina virtual de almacenamiento está deshabilitada (antireomwareSvmStateDisabled).
+ a| 
+Riesgo
+ a| 
+SVM
+ a| 
+Advertencia
+
+
+
+ a| 
+La supervisión antiransomware de la máquina virtual de almacenamiento está habilitada (modo de aprendizaje) (antiRansomwareSvmStateDryrun)
+ a| 
+Evento
+ a| 
+SVM
+ a| 
+Información
+
+
+
+ a| 
+Storage VM es adecuado para la supervisión antiransomware (modo de aprendizaje) (ocumEvtSvmArwCandidate)
+ a| 
+Evento
+ a| 
+SVM
+ a| 
+Información
+
+|===

@@ -1,0 +1,25 @@
+---
+permalink: data-protection/task_view_resource_pool_inventory.html 
+sidebar: sidebar 
+keywords: view, resource pools, inventory 
+summary: Es posible usar la página Resource Pools para ver el inventario del pool de recursos y supervisar la capacidad restante de cada pool de recursos. 
+---
+= Ver el inventario de pools de recursos
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Es posible usar la página Resource Pools para ver el inventario del pool de recursos y supervisar la capacidad restante de cada pool de recursos.
+
+*Lo que necesitará*
+
+Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
+.Paso
+. En el panel de navegación izquierdo, haga clic en *Protección* > *agrupaciones de recursos*.
++
+Se mostrará el inventario del pool de recursos.
+
+

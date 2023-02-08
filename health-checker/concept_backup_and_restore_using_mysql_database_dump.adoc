@@ -1,0 +1,34 @@
+---
+permalink: health-checker/concept_backup_and_restore_using_mysql_database_dump.html 
+sidebar: sidebar 
+keywords: backup, restore, using, mysql, database, dump, snapshot copy, copies 
+summary: Un backup de volcado de base de datos de MySQL es una copia de la base de datos de Active IQ Unified Manager y los archivos de configuración que puede utilizar en caso de fallo del sistema o pérdida de datos. Se puede programar la escritura de una copia de seguridad en un destino local o en un destino remoto. Es muy recomendable definir una ubicación remota externa al sistema host Active IQ Unified Manager. 
+---
+= Realizar backups y restauraciones con un volcado de base de datos de MySQL
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Un backup de volcado de base de datos de MySQL es una copia de la base de datos de Active IQ Unified Manager y los archivos de configuración que puede utilizar en caso de fallo del sistema o pérdida de datos. Se puede programar la escritura de una copia de seguridad en un destino local o en un destino remoto. Es muy recomendable definir una ubicación remota externa al sistema host Active IQ Unified Manager.
+
+[NOTE]
+====
+El volcado de bases de datos de MySQL es el mecanismo de backup predeterminado cuando Unified Manager se instala en un servidor Linux y Windows. Sin embargo, si Unified Manager está gestionando una gran cantidad de clústeres y nodos, o si sus backups de MySQL tardan muchas horas en completarse, puede realizar el backup con copias de Snapshot. Esta funcionalidad está disponible en Red Hat Enterprise Linux, sistemas CentOS Linux y Windows.
+
+====
+Una copia de seguridad de volcado de la base de datos consta de un solo archivo en el directorio de copia de seguridad y uno o varios archivos en el directorio de repositorio de la base de datos. El archivo del directorio de copia de seguridad es muy pequeño porque sólo contiene un puntero a los archivos ubicados en el directorio de repositorio de la base de datos que se necesitan para volver a crear la copia de seguridad.
+
+La primera vez que se genera una copia de seguridad de la base de datos se crea un solo archivo en el directorio de copia de seguridad y se crea un archivo de copia de seguridad completa en el directorio de repositorio de la base de datos. La próxima vez que genere una copia de seguridad, se creará un solo archivo en el directorio de copia de seguridad y se creará un archivo de copia de seguridad incremental en el directorio del repositorio de la base de datos que contenga las diferencias con respecto al archivo de copia de seguridad completa. Este proceso continúa mientras se crean backups adicionales, hasta la configuración de retención máxima, como se muestra en la siguiente figura.
+
+image::../media/database_backup.gif[backup de base de datos]
+
+[NOTE]
+====
+No cambie el nombre ni elimine ninguno de los archivos de copia de seguridad de estos dos directorios o se producirá un error en ninguna operación de restauración posterior.
+
+====
+Si escribe los archivos de copia de seguridad en el sistema local, debe iniciar un proceso para copiar los archivos de copia de seguridad en una ubicación remota para que estén disponibles en caso de que tenga un problema con el sistema que requiera una restauración completa.
+
+Antes de iniciar una operación de backup, Active IQ Unified Manager realiza una comprobación de integridad para verificar que existen y pueden escribirse todos los archivos de backup y directorios de backup necesarios. También comprueba que hay suficiente espacio en el sistema para crear el archivo de copia de seguridad.

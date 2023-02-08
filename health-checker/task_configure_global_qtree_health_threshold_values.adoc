@@ -1,0 +1,28 @@
+---
+permalink: health-checker/task_configure_global_qtree_health_threshold_values.html 
+sidebar: sidebar 
+keywords: configure, global, qtree, health, threshold values 
+summary: Puede configurar los valores de umbral de estado global de todos los qtrees para realizar un seguimiento de cualquier incumplimiento de umbral. Se generan eventos apropiados para las infracciones de los umbrales de salud y puede tomar medidas preventivas basadas en estos eventos. Puede configurar los valores globales basándose en la configuración de mejores prácticas para los umbrales que se aplican a todos los qtrees supervisados. 
+---
+= Configuración de los valores de umbral de estado globales para qtrees
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede configurar los valores de umbral de estado global de todos los qtrees para realizar un seguimiento de cualquier incumplimiento de umbral. Se generan eventos apropiados para las infracciones de los umbrales de salud y puede tomar medidas preventivas basadas en estos eventos. Puede configurar los valores globales basándose en la configuración de mejores prácticas para los umbrales que se aplican a todos los qtrees supervisados.
+
+*Lo que necesitará*
+
+Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
+Las opciones de umbral tienen valores predeterminados para una mejor supervisión, sin embargo, puede cambiar los valores para adaptarlos a los requisitos de su entorno.
+
+Los eventos se generan para un qtree solo cuando se ha establecido una cuota de Qtree o una cuota predeterminada en él. Los eventos no se generan si el espacio definido en una cuota de usuario o cuota de grupo ha superado el umbral.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *umbrales de evento* > *Qtree*.
+. Configure los valores de umbral de capacidad adecuados.
+. Haga clic en *Guardar*.
+

@@ -1,0 +1,24 @@
+---
+permalink: events/concept_what_active_iq_platform_events_are.html 
+sidebar: sidebar 
+keywords: active iq, platform, events 
+summary: Unified Manager puede mostrar eventos detectados por la plataforma Active IQ. Estos eventos se crean ejecutando un conjunto de reglas contra los mensajes de AutoSupport generados desde todos los sistemas de almacenamiento que supervisa Unified Manager. 
+---
+= ¿Qué son los eventos de la plataforma Active IQ
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager puede mostrar eventos detectados por la plataforma Active IQ. Estos eventos se crean ejecutando un conjunto de reglas contra los mensajes de AutoSupport generados desde todos los sistemas de almacenamiento que supervisa Unified Manager.
+
+Para obtener más información, consulte link:../events/concept_how_active_iq_platform_events_are_generated.html["Cómo se generan los eventos de la plataforma Active IQ"].
+
+Unified Manager comprueba si hay un nuevo archivo de reglas automáticamente y solo descarga un archivo nuevo cuando haya reglas más recientes. En los sitios sin acceso a la red externa, deberá cargar las reglas manualmente desde *Storage Management* > *Event Setup* > *Upload Rules*.
+
+Estos eventos de Active IQ no se superponen con los eventos existentes de Unified Manager e identifican incidentes o riesgos relacionados con la configuración, el cableado, las mejores prácticas y los problemas de disponibilidad del sistema.
+
+Para obtener más información acerca de cómo habilitar eventos de plataforma, consulte link:../config/concept_active_iq_platform_events.html["Habilitar los eventos del portal de Active IQ"]. Para obtener más información sobre cómo cargar el archivo de reglas, consulte link:../events/task_upload_new_active_iq_rules_file.html["Carga de un nuevo archivo de reglas de Active IQ"].
+
+Active IQ de NetApp es un servicio basado en cloud que proporciona análisis predictivos y soporte proactivo para optimizar las operaciones de los sistemas de almacenamiento en el cloud híbrido de NetApp. Consulte https://www.netapp.com/us/products/data-infrastructure-management/active-iq.aspx["Active IQ de NetApp"] si quiere más información.

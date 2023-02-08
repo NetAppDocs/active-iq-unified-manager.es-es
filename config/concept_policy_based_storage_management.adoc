@@ -1,0 +1,31 @@
+---
+permalink: config/concept_policy_based_storage_management.html 
+sidebar: sidebar 
+keywords: slo, storage efficiency policy, storage workloads 
+summary: 'La opción de gestión del almacenamiento basada en políticas permite la gestión del almacenamiento en función de los objetivos de nivel de servicio (SLO). Esta opción está habilitada de forma predeterminada.' 
+---
+= Permitir la gestión del almacenamiento basada en políticas
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+La opción *Gestión de almacenamiento basada en normativas* permite la administración del almacenamiento en función de los objetivos de nivel de servicio (SLO). Esta opción está habilitada de forma predeterminada.
+
+Al activar esta función, puede aprovisionar cargas de trabajo de almacenamiento en los clústeres de ONTAP añadidos a la instancia de Active IQ Unified Manager y gestionar estas cargas de trabajo en función de los niveles de servicio de rendimiento y las políticas de eficiencia del almacenamiento asignados.
+
+Puede activar o desactivar esta función en *General* > *Configuración de funciones* > *Administración de almacenamiento basada en directivas*. Al activar esta función, están disponibles las siguientes páginas para su funcionamiento y supervisión:
+
+* Aprovisionamiento (aprovisionamiento de carga de trabajo de almacenamiento)
+* *Políticas* > *niveles de servicio de rendimiento*
+* *Políticas* > *eficiencia del almacenamiento*
+* Columna Workloads by Performance Service Level en la página Clusters Setup
+* Panel de rendimiento de la carga de trabajo en *Dashboard*
+
+
+Puede utilizar las pantallas para crear niveles de servicio de rendimiento y políticas de eficiencia del almacenamiento, así como para aprovisionar las cargas de trabajo de almacenamiento. También puede supervisar las cargas de trabajo de almacenamiento que cumplen los niveles de servicio de rendimiento asignados, así como las no conformes. El panel IOPS de carga de trabajo y rendimiento de cargas de trabajo también le permite evaluar la capacidad y el rendimiento (IOPS) totales, disponibles y utilizados de los clústeres en todo el centro de datos en función de las cargas de trabajo de almacenamiento que se aprovisionen en ellos.
+
+Después de activar esta función, puede ejecutar las API REST de Unified Manager para realizar algunas de estas funciones desde *barra de menús* > *botón de ayuda* > *Documentación de API* > *proveedor de almacenamiento*. También puede introducir el nombre de host o la dirección IP y la URL para acceder a la página API DE REST en el formato +https://<hostname>/docs/api/+
+
+Para obtener más información sobre las API, consulte link:../api-automation/concept_get_started_with_um_apis.html["Primeros pasos con API de REST de Active IQ Unified Manager"].

@@ -1,0 +1,51 @@
+---
+permalink: config/concept_security_dashboard.html 
+sidebar: sidebar 
+keywords: security compliance settings, security feature settings, ONTAP hardening guide, AutoSupport settings, authentication settings 
+summary: Puede habilitar o deshabilitar los parámetros de seguridad para supervisar el cumplimiento de normativas en Unified Manager. 
+---
+= Activación y desactivación de la configuración de seguridad para cumplir las normativas
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Mediante el botón *Personalizar* del panel *Panel de seguridad* de la página Configuración de características, puede habilitar o deshabilitar los parámetros de seguridad para la supervisión de cumplimiento en Unified Manager.
+
+La configuración que se habilita o se deshabilita en esta página rige el estado de cumplimiento general de los clústeres y las máquinas virtuales de almacenamiento en Unified Manager. Según las selecciones, las columnas correspondientes se pueden ver en la vista *Seguridad: Todos los clústeres* de la página de inventario Clusters y la vista *Seguridad: Todos los equipos virtuales de almacenamiento* de la página de inventario de máquinas virtuales de almacenamiento.
+
+[NOTE]
+====
+Solo los usuarios con rol de administrador pueden editar esta configuración.
+
+====
+Los criterios de seguridad para los clústeres de ONTAP, las máquinas virtuales de almacenamiento y los volúmenes se evalúan con respecto a las recomendaciones definidas en la link:https://www.netapp.com/pdf.html?item=/media/10674-tr4569pdf.pdf["Guía de fortalecimiento de la seguridad para NetApp ONTAP 9"]. El panel Seguridad de la consola y la página Seguridad muestran el estado de cumplimiento de normativas de seguridad predeterminado de los clústeres, las máquinas virtuales de almacenamiento y los volúmenes. Asimismo, se generan eventos de seguridad y se habilitan las acciones de gestión para los clústeres y las máquinas virtuales de almacenamiento que tienen infracciones de seguridad.
+
+
+
+== Personalización de los ajustes de seguridad
+
+Para personalizar la configuración para fines de supervisión de cumplimiento según corresponda a su entorno de ONTAP, siga estos pasos:
+
+.Pasos
+. Haga clic en *General > Configuración de características > Panel de seguridad > Personalizar*. Aparece la ventana emergente *Personalizar configuración del panel de seguridad*.
++
+[NOTE]
+====
+Los parámetros de cumplimiento de normativas de seguridad que se habilitan o deshabilitar pueden afectar directamente a las vistas de seguridad predeterminadas, los informes y los informes programados en las pantallas Clusters and Storage VMs. Si ha cargado un informe de Excel desde estas pantallas antes de modificar los parámetros de seguridad, es posible que los informes de Excel descargados estén defectuosos.
+
+====
+. Para activar o desactivar la configuración personalizada de los clústeres de ONTAP, seleccione la configuración general necesaria en *clúster*. Para obtener información sobre las opciones para personalizar el cumplimiento de normativas de clústeres, consulte link:../health-checker/reference_cluster_compliance_categories.html["Categorías de cumplimiento de clusters"].
+. Para activar o desactivar la configuración personalizada de los equipos virtuales de almacenamiento, seleccione la configuración general necesaria en *Storage VM*. Para obtener información acerca de las opciones para personalizar el cumplimiento de normativas de equipos virtuales de almacenamiento, consulte link:../health-checker/reference_svm_compliance_categories.html["Categorías de cumplimiento de normativas para máquinas virtuales de almacenamiento"].
+
+
+
+
+== Personalización de los ajustes de AutoSupport y autenticación
+
+En la sección *Configuración de AutoSupport*, puede especificar si se va a utilizar el transporte HTTPS para enviar mensajes AutoSupport desde ONTAP.
+
+En la sección *Configuración de autenticación*, puede habilitar alertas de Unified Manager que se elevarán para el usuario administrador de ONTAP predeterminado.
+
+'''

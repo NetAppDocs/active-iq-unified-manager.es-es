@@ -1,0 +1,99 @@
+---
+permalink: reporting/concept_unified_manager_databases_accessible_for_reporting.html 
+sidebar: sidebar 
+keywords: unified manager, databases, access, custom, reporting 
+summary: Unified Manager utiliza una base de datos de MySQL para almacenar datos de los clústeres que se están supervisando. Los datos se mantienen en varios esquemas en la base de datos de MySQL. 
+---
+= Bases de datos de Unified Manager accesibles para la generación de informes personalizados
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager utiliza una base de datos de MySQL para almacenar datos de los clústeres que se están supervisando. Los datos se mantienen en varios esquemas en la base de datos de MySQL.
+
+Todos los datos de las tablas de las siguientes bases de datos están disponibles:
+
+[cols="2*"]
+|===
+| Base de datos | Descripción 
+
+
+ a| 
+modelo_netapp
+ a| 
+Datos acerca de los objetos en controladoras ONTAP.
+
+
+
+ a| 
+vista_modelo_netapp
+ a| 
+Datos acerca de los objetos en controladoras ONTAP, adecuados para consumo de herramientas de informes.
+
+
+
+ a| 
+rendimiento_netapp
+ a| 
+Contadores de rendimiento específicos del clúster.
+
+
+
+ a| 
+ocum
+ a| 
+Datos e información de aplicaciones de Unified Manager para admitir el filtrado, la ordenación y el cálculo de algunos campos derivados de la interfaz de usuario.
+
+
+
+ a| 
+ocum_report
+ a| 
+Datos para obtener información relacionada con la capacidad y la configuración de inventario.
+
+
+
+ a| 
+ocum_report_birt
+ a| 
+Vistas para la configuración de inventario y los datos relacionados con la capacidad, adecuados para el consumo de la herramienta de informes.
+
+
+
+ a| 
+opm
+ a| 
+Información del umbral y de la configuración del rendimiento.
+
+
+
+ a| 
+escalemador
+ a| 
+Datos sobre los problemas de estado y rendimiento de las aplicaciones de Unified Manager.
+
+
+
+ a| 
+modelo_vmware
+ a| 
+Datos de objetos de VMware para almacenes de datos alojados en almacenamiento de NetApp.
+
+
+
+ a| 
+vista_modelo_vmware
+ a| 
+Vistas de los datos de objetos de VMware para almacenes de datos alojados en el almacenamiento de NetApp, adecuado para el consumo de la herramienta de informes.
+
+
+
+ a| 
+rendimiento_de_vmware
+ a| 
+Datos de contadores de rendimiento de VMware para almacenes de datos alojados en almacenamiento de NetApp.
+
+|===
+Un usuario de informes -- un usuario de base de datos con el rol de esquema de informes -- puede tener acceso a los datos de estas tablas. Este usuario tiene acceso de solo lectura a las vistas de informes y otras bases de datos directamente desde la base de datos de Unified Manager. Tenga en cuenta que este usuario no tiene permiso para acceder a ninguna tabla que contenga datos de usuario o información de credenciales de clúster.

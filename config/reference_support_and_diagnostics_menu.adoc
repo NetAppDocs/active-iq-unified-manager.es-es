@@ -1,0 +1,29 @@
+---
+permalink: config/reference_support_and_diagnostics_menu.html 
+sidebar: sidebar 
+keywords: support and diagnostics, menu 
+summary: El menú Soporte y diagnóstico permite generar un bundle de soporte que puede enviar al soporte técnico para la ayuda de solución de problemas. 
+---
+= Menú de soporte y diagnóstico
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+El menú Soporte y diagnóstico permite generar un bundle de soporte que puede enviar al soporte técnico para la ayuda de solución de problemas.
+
+Están disponibles las siguientes opciones de menú:
+
+* *Generar paquete de soporte ligero*
++
+Permite producir un paquete de soporte ligero que contiene sólo 30 días de registros y registros de la base de datos de configuración, lo que excluye datos de rendimiento, archivos de registro de adquisición y volcado de pila del servidor.
+
+* *Generar paquete de soporte*
++
+Permite crear un bundle de soporte completo (archivo 7-Zip) que contiene información de diagnóstico en el directorio inicial del usuario de diagnóstico. Si el sistema está conectado a Internet, también puede cargar el paquete de soporte a NetApp.
+
++
+El archivo incluye información generada por un mensaje de AutoSupport, el contenido de la base de datos de Unified Manager, los datos detallados sobre las redes internas del servidor de Unified Manager y los registros a nivel detallado que normalmente no se incluyen en los mensajes de AutoSupport o en el paquete de soporte ligero.
+
+

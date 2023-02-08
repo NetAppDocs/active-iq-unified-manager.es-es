@@ -1,0 +1,100 @@
+---
+permalink: reporting/task_create_report_to_view_aggregate_capacity_charts.html 
+sidebar: sidebar 
+keywords: create, report, show, aggregate, total, available, capacity, charts 
+summary: Puede crear un informe para analizar el total de almacenamiento y la capacidad comprometida en un formato de gráfico de Excel. 
+---
+= Creación de un informe para mostrar los gráficos de capacidad total agregado frente a los disponibles
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede crear un informe para analizar el total de almacenamiento y la capacidad comprometida en un formato de gráfico de Excel.
+
+*Lo que necesitará*
+
+* Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
+
+Siga estos pasos para abrir una vista Estado: Todos los agregados, descargar la vista en Excel, crear un gráfico de capacidad total y comprometida, cargar el archivo de Excel personalizado y programar el informe final.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *almacenamiento* > *agregados*.
+. Seleccione *Informes* > *Descargar Excel*.
++
+image::../media/download_excel_menu.png[descargar menú de excel]
+
++
+Según el explorador, es posible que tenga que hacer clic en *Aceptar* para guardar el archivo.
+
+. En Excel, abra el archivo descargado.
+. Si es necesario, haga clic en *Activar edición*.
+. En la hoja de datos, haga clic con el botón derecho del ratón en la columna Tipo y seleccione *Ordenar* > *Ordenar De La A a la Z*.
++
+image::../media/sort_01.png[ordenar 01]
+
++
+Esto organizará sus datos por tipo de almacenamiento, como:
+
++
+** HDD
+** Híbrido
+** SSD
+** SSD (FabricPool)
+
+
+. Seleccione la `Type, Total Data Capacity,` y.. `Available Data Capacity` columnas.
+. En el menú *Insertar*, seleccione un `3-D column` carta.
++
+El gráfico aparece en la hoja de datos.
+
++
+image::../media/3d_column_01.png[columna 3d 01]
+
+. Haga clic con el botón derecho del ratón en el gráfico y seleccione *mover gráfico*.
+. Seleccione *Nueva hoja* y asigne un nombre a la hoja *total Storage Charts*.
++
+[NOTE]
+====
+Asegúrese de que la nueva hoja aparece después de las hojas de información y datos.
+
+====
+. Nombre el título del gráfico *total frente a la capacidad disponible*.
+. Con los menús *Diseño* y *Formato*, disponibles cuando se selecciona el gráfico, puede personalizar el aspecto del gráfico.
+. Cuando esté satisfecho, guarde el archivo con los cambios. No cambie el nombre ni la ubicación del archivo.
++
+image::../media/total_vs_available_capacity.png[total frente a la capacidad disponible]
+
+. En Unified Manager, seleccione *Informes* > *cargar Excel*.
++
+[NOTE]
+====
+Asegúrese de que se encuentra en la misma vista en la que descargó el archivo de Excel.
+
+====
+. Seleccione el archivo de Excel que ha modificado.
+. Haga clic en *Abrir*.
+. Haga clic en *Enviar*.
++
+Aparece una Marca de verificación junto al elemento de menú *Informes* > *cargar Excel*.
+
++
+image::../media/upload_excel.png[cargar excel]
+
+. Haga clic en *Informes programados*.
+. Haga clic en *Agregar programación* para agregar una nueva fila a la página *programas de informes* de modo que pueda definir las características de programación para el nuevo informe.
++
+[NOTE]
+====
+Seleccione el formato *XLSX* para el informe.
+
+====
+. Introduzca un nombre para el programa de informes y complete los otros campos de informe y, a continuación, haga clic en la Marca de verificación (image:../media/blue_check.gif[""]) al final de la fila.
++
+El informe se envía inmediatamente como prueba. Después de esto, el informe genera y se envía por correo electrónico a los destinatarios enumerados utilizando la frecuencia especificada.
+
+
+
+Según los resultados mostrados en el informe, quizás desee equilibrar la carga en los agregados.

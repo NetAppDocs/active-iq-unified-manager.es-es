@@ -1,0 +1,18 @@
+---
+permalink: install-vapp/concept_overview_of_installation_sequence_um.html 
+sidebar: sidebar 
+keywords: overview, installation, sequence 
+summary: El flujo de trabajo de instalación describe las tareas que deben realizarse para poder usar Unified Manager. 
+---
+= Descripción general de la secuencia de instalación
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+El flujo de trabajo de instalación describe las tareas que deben realizarse para poder usar Unified Manager.
+
+Estas secciones describen cada uno de los elementos mostrados en el flujo de trabajo siguiente.
+
+image::../media/overall_um_install_flow.png[flujo total de instalación de um]

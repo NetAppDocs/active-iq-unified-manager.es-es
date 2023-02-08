@@ -1,0 +1,25 @@
+---
+permalink: reporting/concept_understand_reports.html 
+sidebar: sidebar 
+keywords: understanding, reports 
+summary: Los informes muestran información detallada sobre el almacenamiento, la red, la calidad del servicio y las relaciones de protección, lo que ayuda a identificar y solucionar los problemas potenciales antes de que se produzcan. 
+---
+= Informes
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Los informes muestran información detallada sobre el almacenamiento, la red, la calidad del servicio y las relaciones de protección, lo que ayuda a identificar y solucionar los problemas potenciales antes de que se produzcan.
+
+Al personalizar una vista, puede guardarla con un nombre único para utilizarla en el futuro. Puede programar un informe basado en esa vista para que se ejecute con regularidad y lo comparta con otras personas. También puede descargar la vista en Excel para personalizarla mediante características avanzadas de Excel y, a continuación, volver a cargarla en Unified Manager . Si programa un informe con esa vista, utilizará el archivo de Excel que ha cargado para crear informes sólidos que pueda compartir.
+
+Es posible gestionar todos los informes programados desde la página Report Schedules.
+
+[NOTE]
+====
+Para administrar informes, debe tener la función Administrador de aplicaciones o Administrador de almacenamiento.
+
+====
+Puede descargar informes como archivos de valores separados por comas (CSV), Excel o PDF.

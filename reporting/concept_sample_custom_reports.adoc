@@ -1,0 +1,22 @@
+---
+permalink: reporting/concept_sample_custom_reports.html 
+sidebar: sidebar 
+keywords: sample, custom, reports 
+summary: Estos informes personalizados de ejemplo se utilizan normalmente para ayudar a identificar problemas potenciales y responder a problemas potenciales antes de que se produzcan problemas. 
+---
+= Informes personalizados de muestra
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Estos informes personalizados de ejemplo se utilizan normalmente para ayudar a identificar problemas potenciales y responder a problemas potenciales antes de que se produzcan problemas.
+
+La lista de informes de esta sección no es exhaustiva y aumentará con el tiempo. Puede sugerir informes personalizados para añadir a esta sección mediante comentarios en la documentación.
+
+[NOTE]
+====
+Para administrar informes, debe tener la función Administrador de aplicaciones o Administrador de almacenamiento.
+
+====

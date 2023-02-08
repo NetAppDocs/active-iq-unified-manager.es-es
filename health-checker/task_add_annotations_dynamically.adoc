@@ -1,0 +1,26 @@
+---
+permalink: health-checker/task_add_annotations_dynamically.html 
+sidebar: sidebar 
+keywords: add, annotations, dynamically 
+summary: 'Cuando se crean anotaciones personalizadas, Unified Manager asocia de forma dinámica clústeres, máquinas virtuales de almacenamiento (SVM) y volúmenes con las anotaciones usando reglas. Estas reglas asignan automáticamente las anotaciones a objetos de almacenamiento.' 
+---
+= Adición dinámica de anotaciones
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Cuando se crean anotaciones personalizadas, Unified Manager asocia de forma dinámica clústeres, máquinas virtuales de almacenamiento (SVM) y volúmenes con las anotaciones usando reglas. Estas reglas asignan automáticamente las anotaciones a objetos de almacenamiento.
+
+*Lo que necesitará*
+
+Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
+.Pasos
+. En el panel de navegación izquierdo, haga clic en *Administración de almacenamiento* > *Anotaciones*.
+. En la página *Anotaciones*, haga clic en *Agregar anotación*.
+. En el cuadro de diálogo *Agregar anotación*, escriba un nombre y una descripción para la anotación.
+. Opcional: En la sección *valores de anotación*, haga clic en *Agregar* para agregar valores a la anotación.
+. Haga clic en *Guardar*.
+
