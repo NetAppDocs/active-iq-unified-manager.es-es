@@ -83,7 +83,7 @@ entries:
     - title: Creación de un informe para ver los agregados que alcanzan la capacidad
         completa
       url: "/reporting/task_create_report_to_view_aggregates_reaching_full_capacity.html"
-    - title: Creación de un informe para ver agregados del 80 % o más completos
+    - title: Creación de un informe para ver agregados casi completos
       url: "/reporting/task_create_report_to_view_aggregates_that_are_nearly_full.html"
     - title: Creación de un informe para ver los agregados que están sobrecomprometidos
       url: "/reporting/task_create_report_to_view_aggregates_that_are_overcommitted.html"

@@ -44,7 +44,7 @@ entries:
     url: "/health-checker/task_view_volume_list_and_details.html"
   - title: Ver detalles acerca de los recursos compartidos de NFS
     url: "/health-checker/task_view_details_about_nfs_shares.html"
-  - title: Ver detalles sobre los recursos compartidos de SMB/CIFS
+  - title: Ver detalles de los recursos compartidos de SMB o CIFS
     url: "/health-checker/task_view_details_about_cifs_shares.html"
   - title: Ver la lista de copias Snapshot
     url: "/health-checker/task_view_list_of_snapshot_copies.html"
@@ -298,11 +298,11 @@ entries:
     entries:
     - title: Los componentes del clúster y el motivo por los que pueden estar en contención
       url: "/health-checker/concept_cluster_components_and_why_they_can_be_in_contention.html"
-    - title: Página de detalles Volume / Health
+    - title: Detalles del estado del volumen
       url: "/health-checker/reference_health_volume_details_page.html"
-    - title: Página de detalles Storage VM / Health
+    - title: Detalles del estado de la máquina virtual de almacenamiento
       url: "/health-checker/reference_health_svm_details_page.html"
-    - title: Página de detalles Cluster / Health
+    - title: Detalles de estado del clúster
       url: "/health-checker/reference_health_cluster_details_page.html"
-    - title: Página de detalles Aggregate / Health
+    - title: Detalles de estado agregados
       url: "/health-checker/reference_health_aggregate_details_page.html"

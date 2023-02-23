@@ -1005,7 +1005,6 @@
   <block id="104a1be9b608b9811079821557c10622" category="paragraph">Si se produce un error en la implementación con su entorno habilitado para alta disponibilidad debido a recursos insuficientes, es posible que deba modificar las Opciones de máquina virtual de las características de clúster desactivando la prioridad de reinicio de la máquina virtual y dejando encendida la respuesta de aislamiento del host.</block>
   <block id="56466fb38a8235d1a8a3c89e0bdc5bf8" category="admonition">Durante la instalación o actualización de Unified Manager, las revisiones de seguridad y software de terceros necesarias se instalan o actualizan automáticamente en un sistema VMware vSphere. Dado que los procesos de instalación y actualización de Unified Manager controlan estos componentes, no debe intentar una instalación o actualización independientes de ningún componente de terceros.</block>
   <block id="32e5c16a2c1109e106990eafe2e5051a" category="summary">Guía de inicio rápido para Unified Manager en plataforma VMware vSphere.</block>
-  <block id="745f57af3dedfc4d30afa6ced1d0df52" category="doc">Instrucciones de inicio rápido para instalaciones de VMware</block>
   <block id="15c3f03e689b85ca140fd9ea6f34f7d9" category="list-text">Sistema operativo: VMware ESXi 6.5, 6.7 y 7.0.x</block>
   <block id="a2d94c8de89a700634c79d7c9d4fc2c0" category="list-text">RAM: 12 GB</block>
   <block id="a2992f349299086d8d17ee3b7a471aa7" category="list-text">CPU: 9572 MHz en total</block>
@@ -11864,20 +11863,44 @@
   <block id="d74069c8854de78bc74ebbb6f3a7d046" category="sidebar">Gestionar eventos y alertas</block>
   <block id="d549fcac9e4340e7fb3d154a339f9c13" category="sidebar">Proteja y restaure sus datos</block>
   <block id="7daa41760e1a8fba65d06a1a254f35d9" category="sidebar">Crear y solucionar problemas de relaciones de protección</block>
-  <block id="7518ca1d997947cafeacfe6e7557df98" category="sidebar">Crear una relación de protección SnapVault desde la vista Estado/todos los volúmenes</block>
-  <block id="7c35d6a9594204995ca67f76b440f42c" category="sidebar">Crear una relación de protección SnapMirror desde la vista Estado/todos los volúmenes</block>
   <block id="934295d1ea6542a74e859da73b8634ee" category="sidebar">Comprender las asociaciones de máquinas virtuales de almacenamiento</block>
-  <block id="55c616fb8df8d2d739c5a910d9f3e8cc" category="sidebar">Relación / todas las relaciones</block>
-  <block id="917d12d3945843e955409b6049824fe7" category="sidebar">Relación / última vista Estado de transferencia de 1 mes</block>
-  <block id="b0dea192fed54c3271d44f1043df906f" category="sidebar">Relación / última vista de tarifa de transferencia de 1 mes</block>
   <block id="6f047d4c177cc734ed65cb347cf6bd42" category="sidebar">Supervise y gestione el rendimiento de los clústeres</block>
   <block id="13ea07d85e49bbdae7a2c0414691f416" category="sidebar">Supervisar y gestionar el almacenamiento</block>
   <block id="2d00b9d7d66bb4524df569339f8a571c" category="sidebar">Corrección o gestión de problemas de ONTAP directamente desde Unified Manager</block>
   <block id="9578fa84ff359de78da764edb1c96f57" category="sidebar">Definiciones de estado de conectividad de clúster</block>
   <block id="baf5d44e1d7facdf126425b9dacabd71" category="sidebar">Definiciones de estado de mirroring de datos</block>
   <block id="1d6677925b878ba927adf44f615f75db" category="sidebar">Instale Unified Manager en sistemas Linux</block>
-  <block id="2c3b76077caf066bc2963e52113e2e78" category="sidebar">Requisitos de SELinux para montar /opt/netapp o /opt/netapp/data en un recurso compartido de NFS o CIFS</block>
   <block id="c1a9193a29dc40ec352c6691d67ab578" category="sidebar">Instale Unified Manager en sistemas Windows</block>
   <block id="09d454f0bf432593d99fbfd84c9f9293" category="sidebar">Realizar tareas administrativas y de configuración</block>
   <block id="8b00815fc5298212e3dc28a279ed4a10" category="sidebar">Generar informes personalizados</block>
+  <block id="6e9d444f5a98d00ae31eff389dc819fa" category="doc">Instrucciones de inicio rápido para instalaciones de VMware</block>
+  <block id="d92bb0fdb003a277ed75c5c3745b9f31" category="paragraph">Puede descargar la<block ref="58963a595c988dc6f693cb3238dc907a" prefix=" " category="inline-code"></block> archivo que contiene un certificado raíz, un<block ref="c47c7c7383225ab55ff591cb59c41e6b" prefix=" " category="inline-code"></block> archivo, y una<block ref="586ba478b7ebec665f3df120799b6c2e" prefix=" " category="inline-code"></block> Archivar y poner en marcha Unified Manager como dispositivo virtual.</block>
+  <block id="d37bfa9087091a2643ebb8f003e74798" category="paragraph">Puede descargar el paquete de instalación e instalar Unified Manager en una plataforma física o virtual Red Hat Enterprise Linux o CentOS.</block>
+  <block id="ceede60a933cbfe9cb6ef21f0b1f0e00" category="summary">Guía de inicio rápido para Unified Manager en plataforma Windows.</block>
+  <block id="74eaa85433946affb1737b2598fcdd35" category="paragraph">Puede descargar el paquete de instalación e instalar Unified Manager para supervisar y solucionar problemas de capacidad de almacenamiento de datos, disponibilidad, rendimiento y protección.</block>
+  <block id="a6d6cdd1e4eb84a93808203243318dd0" category="sidebar">Ver detalles de los recursos compartidos de SMB o CIFS</block>
+  <block id="721115a56e25cbc2949dce662727ea1a" category="sidebar">Detalles del estado del volumen</block>
+  <block id="d2136c0320bc784ec5e976cc7c71f93d" category="sidebar">Detalles del estado de la máquina virtual de almacenamiento</block>
+  <block id="fbf5dae3b577d533c0b3785c65a5e93f" category="sidebar">Detalles de estado del clúster</block>
+  <block id="3a63c6b863ef9b4f54c6281b5910c2f9" category="sidebar">Detalles de estado agregados</block>
+  <block id="f667431c76a047fbe92c5ea4f107f5be" category="sidebar">Interrumpir una relación de SnapMirror en la página de detalles Volume Health</block>
+  <block id="825540d2e356a2301d8157e67a70b20a" category="sidebar">Inversión de las relaciones de protección desde la página de detalles Volume Health</block>
+  <block id="9e602f9b4f36392b1a1428c981e37711" category="sidebar">Quitar una relación de protección de la página de detalles Volume Health</block>
+  <block id="a1b4c0ddea6f9c40fd2cd596b4f7b018" category="sidebar">Resincronización de las relaciones de protección desde la página de detalles de estado del volumen</block>
+  <block id="884392bffbe4579f85c30e1e54b015d3" category="sidebar">Crear una relación de protección SnapVault desde la vista todos los volúmenes</block>
+  <block id="6e05686f2b2c07b3c6c6117873668333" category="sidebar">Crear una relación de protección SnapVault desde la página de detalles Volume Health</block>
+  <block id="e9469afe9efe59fc810579b52fb8fc93" category="sidebar">Crear una relación de protección SnapMirror desde la vista All Volumes</block>
+  <block id="7b8c66535079341892aef1a493ce88c4" category="sidebar">Crear una relación de protección SnapMirror desde la página de detalles Volume Health</block>
+  <block id="7e583f9e2b84b24680ccacedb923f893" category="sidebar">Editar las relaciones de protección en la página de detalles Volume Health</block>
+  <block id="2f73e4b880758398d71cbda6956e4261" category="sidebar">Cancelar una transferencia de protección de datos activa desde la página de detalles Volume Health</block>
+  <block id="1a332e4345b7b166cc346094f426d59b" category="sidebar">Desactivación de una relación de protección desde la página de detalles Volume Health</block>
+  <block id="0a7e2554ab5f606db9e7cd3f955d6876" category="sidebar">Reanude las transferencias programadas en una relación en modo inactivo en la página de detalles Volume Health</block>
+  <block id="6b8b5e644fe51ebdbf59ca41a2e0bd5d" category="sidebar">Inicializar o actualizar las relaciones de protección en la página de detalles Volume Health</block>
+  <block id="4854bf8d6304b20e8a8e266470ff2f5a" category="sidebar">Restaurar datos mediante la página de detalles Volume Health</block>
+  <block id="54ad2ceecf79def094226d610fbf9cdf" category="sidebar">Cuadro de diálogo Initialize o Update</block>
+  <block id="ad1e91efa1709ebf1317182df97e21ac" category="sidebar">Vista todas las relaciones</block>
+  <block id="a1aa3dc0c225c91968f0c1b9e0426594" category="sidebar">Vista Estado de transferencia de último 1 mes</block>
+  <block id="97bf8a808bd60b6f18cb0036fc0fa04f" category="sidebar">Vista de tarifa de transferencia de 1 mes pasado</block>
+  <block id="9210be7b581b8db7551fb777e02a3edb" category="sidebar">Requisitos de SELinux en recursos compartidos NFS o CIFS</block>
+  <block id="9304b0fee761c30cb0f91f15de511efc" category="sidebar">Creación de un informe para ver agregados casi completos</block>
 </blocks>

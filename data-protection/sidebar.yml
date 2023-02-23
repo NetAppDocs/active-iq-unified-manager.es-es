@@ -24,16 +24,16 @@ entries:
   - title: Recuperación tras fallos y recuperación de una relación de protección
     url: "/data-protection/task_perform_protection_relationship_failover_and_failback.html"
     entries:
-    - title: Romper una relación de SnapMirror en la página de detalles Volume/Health
+    - title: Interrumpir una relación de SnapMirror en la página de detalles Volume
+        Health
       url: "/data-protection/task_break_snapmirror_relationship_from_health_volume_details.html"
     - title: Inversión de las relaciones de protección desde la página de detalles
-        volumen / Estado
+        Volume Health
       url: "/data-protection/task_reverse_protection_relationships_from_health_volume_details.html"
-    - title: Eliminación de una relación de protección de la página de detalles Volume
-        / Health
+    - title: Quitar una relación de protección de la página de detalles Volume Health
       url: "/data-protection/task_remove_protection_relationship_voldtls.html"
-    - title: Resincronizando las relaciones de protección desde la página de detalles
-        Volume / Health
+    - title: Resincronización de las relaciones de protección desde la página de detalles
+        de estado del volumen
       url: "/data-protection/task_resynchronize_protection_relationships_voldtls.html"
   - title: Solucionar un error de un trabajo de protección
     url: "/data-protection/task_resolve_protection_job_failure.html"
@@ -52,17 +52,15 @@ entries:
     url: "/data-protection/task_view_volume_protection_relationships.html"
   - title: Supervisar las LUN en una relación de grupo de consistencia
     url: "/data-protection/view-lun-relationships.html"
-  - title: Crear una relación de protección SnapVault desde la vista Estado/todos
-      los volúmenes
+  - title: Crear una relación de protección SnapVault desde la vista todos los volúmenes
     url: "/data-protection/task_create_snapvault_protection_relationship.html"
   - title: Crear una relación de protección SnapVault desde la página de detalles
-      Volume/Health
+      Volume Health
     url: "/data-protection/task_create_snapvault_protection_relationship_from_health_volume_details.html"
-  - title: Crear una relación de protección SnapMirror desde la vista Estado/todos
-      los volúmenes
+  - title: Crear una relación de protección SnapMirror desde la vista All Volumes
     url: "/data-protection/task_create_snapmirror_relationship_from_health_volumes.html"
   - title: Crear una relación de protección SnapMirror desde la página de detalles
-      Volume/Health
+      Volume Health
     url: "/data-protection/task_create_snapmirror_relationship_from_health_volume.html"
   - title: Crear una relación de SnapMirror con una replicación de versión flexible
     url: "/data-protection/task_create_snapmirror_relationship_with_version_flexible_replication.html"
@@ -78,8 +76,7 @@ entries:
     url: "/data-protection/task_create_cascade_or_fanout_relationships_to_extend_protection.html"
   - title: Editar las relaciones de protección en la página Volume Relationships
     url: "/data-protection/task_edit_protection_relationships_from_protection_volume.html"
-  - title: Editar las relaciones de protección desde la página de detalles volumen
-      / Estado
+  - title: Editar las relaciones de protección en la página de detalles Volume Health
     url: "/data-protection/task_edit_protection_relationships_from_health_volume.html"
   - title: Creación de una política de SnapMirror para maximizar la eficiencia de
       transferencia
@@ -89,14 +86,14 @@ entries:
   - title: Cancelar una transferencia de protección de datos activa desde la página
       Relaciones de volumen
     url: "/data-protection/task_abort_an_active_data_protection_transfer.html"
-  - title: Cancelación de una transferencia de protección de datos activa desde la
-      página de detalles volumen / Salud
+  - title: Cancelar una transferencia de protección de datos activa desde la página
+      de detalles Volume Health
     url: "/data-protection/task_abort_active_data_protection_transfer_from_health_volume.html"
   - title: Desactivación de una relación de protección en la página Relaciones de
       volumen
     url: "/data-protection/task_quiesce_protection_relationship_from_volume_relationships.html"
   - title: Desactivación de una relación de protección desde la página de detalles
-      volumen / Salud
+      Volume Health
     url: "/data-protection/task_quiesce_protection_relationship_from_health_volume_details.html"
   - title: Interrumpir una relación de SnapMirror en la página Volume Relationships
     url: "/data-protection/task_break_snapmirror_relationship.html"
@@ -106,19 +103,19 @@ entries:
       en la página Relaciones de volumen
     url: "/data-protection/task_resume_scheduled_transfers_on_quiesced_relationship.html"
   - title: Reanude las transferencias programadas en una relación en modo inactivo
-      en la página de detalles Volume/Health
+      en la página de detalles Volume Health
     url: "/data-protection/task_resume_scheduled_transfers_voldtls_page.html"
   - title: Inicializando o actualizando relaciones de protección en la página Volume
       Relationships
     url: "/data-protection/task_initialize_or_update_protection_relationships.html"
   - title: Inicializar o actualizar las relaciones de protección en la página de detalles
-      Volume / Health
+      Volume Health
     url: "/data-protection/task_update_protection_voldtls_page.html"
   - title: Resincronizando las relaciones de protección desde la página Volume Relationships
     url: "/data-protection/task_resynchronize_protection_relationships.html"
   - title: Inversión de las relaciones de protección en la página Volume Relationships
     url: "/data-protection/task_reverse_protection_relationships.html"
-  - title: Restaurar datos mediante la página de detalles Volume / Health
+  - title: Restaurar datos mediante la página de detalles Volume Health
     url: "/data-protection/task_restore_data_use_health_volume_details_page.html"
   - title: Qué pools de recursos son
     url: "/data-protection/concept_what_resource_pools_are.html"
@@ -193,7 +190,7 @@ entries:
       url: "/data-protection/reference_create_snapvault_policy_dialog_box.html"
     - title: Cuadro de diálogo Edit Relationship
       url: "/data-protection/reference_edit_relationship_dialog_box.html"
-    - title: Cuadro de diálogo Initialize/Update
+    - title: Cuadro de diálogo Initialize o Update
       url: "/data-protection/reference_initialize_update_relationship_dialog_box.html"
     - title: Cuadro de diálogo Resynchronize
       url: "/data-protection/reference_resynchronize_dialog_box.html"
@@ -201,9 +198,9 @@ entries:
       url: "/data-protection/reference_select_source_snapshot_copy_dialog_box.html"
     - title: Cuadro de diálogo Reverse Resync
       url: "/data-protection/reference_reverse_resync_dialog_box.html"
-    - title: Relación / todas las relaciones
+    - title: Vista todas las relaciones
       url: "/data-protection/reference_relationship_all_relationships_view.html"
-    - title: Relación / última vista Estado de transferencia de 1 mes
+    - title: Vista Estado de transferencia de último 1 mes
       url: "/data-protection/reference_relationship_last_1_month_transfer_status_view.html"
-    - title: Relación / última vista de tarifa de transferencia de 1 mes
+    - title: Vista de tarifa de transferencia de 1 mes pasado
       url: "/data-protection/reference_relationship_last_1_month_transfer_rate_view.html"
