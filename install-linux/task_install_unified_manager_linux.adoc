@@ -97,16 +97,12 @@ En el caso del sistema Red Hat Enterprise Linux 8, si tiene repositorios interno
 ----
 . *Opcional:* debe realizar el paso 7 sólo si su sistema no está conectado a Internet y tiene que descargar manualmente los paquetes necesarios para su instalación. Si su sistema tiene acceso a Internet y todos los paquetes necesarios están disponibles, vaya al paso 8. Para los sistemas que no están conectados a Internet o que no utilizan los repositorios de Red Hat Enterprise Linux, realice los siguientes pasos para determinar si falta algún paquete necesario y, a continuación, descargue dichos paquetes:
 +
-.. En el sistema en el que está instalando Unified Manager, consulte la lista de paquetes disponibles y no disponibles:
-
-
-
-
+.. En el sistema en el que está instalando Unified Manager, consulte la lista de paquetes disponibles y no disponibles: +
 `yum install netapp-um<version>.x86_64.rpm --assumeno`
-
++
 Los elementos de la sección «'instalación:'» son los paquetes que están disponibles en el directorio actual, y los elementos de la sección «'instalación de dependencias:'» son los paquetes que faltan en su sistema.
 
-. En un sistema que tenga acceso a Internet, descargue los paquetes que faltan:
+.. En un sistema que tenga acceso a Internet, descargue los paquetes que faltan:
 +
 `yum install <package_name> --downloadonly --downloaddir=.`
 
@@ -117,9 +113,10 @@ Puesto que el complemento "'yum-plugin-downloadonly'" no siempre está activado 
 `yum install yum-plugin-downloadonly`
 
 ====
-. Copie los paquetes que faltan del sistema conectado a Internet en el sistema de instalación.
-+
-.. Como usuario raíz, o usando `sudo`, ejecute el siguiente comando para instalar el software:
+.. Copie los paquetes que faltan del sistema conectado a Internet en el sistema de instalación.
+
+
+. Como usuario raíz, o usando `sudo`, ejecute el siguiente comando para instalar el software:
 +
 `yum install netapp-um<version>.x86_64.rpm`
 
@@ -132,11 +129,11 @@ Este comando instala los paquetes .rpm, todo el software de soporte necesario y 
 No intente la instalación utilizando comandos alternativos (como `rpm -ivh`). Una instalación correcta de Unified Manager en un sistema Red Hat Enterprise Linux o CentOS requiere que todos los archivos de Unified Manager y los archivos relacionados se instalen en un orden específico en una estructura de directorio específica que el aplique automáticamente `yum install netapp-um<version>.x86_64.rpm` comando.
 
 ====
-.. Ignore la notificación de correo electrónico que se muestra inmediatamente después de los mensajes de instalación.
+. Ignore la notificación de correo electrónico que se muestra inmediatamente después de los mensajes de instalación.
 +
 El correo electrónico notifica al usuario raíz de un error inicial en la tarea de cron, que no tiene ningún efecto adverso en la instalación.
 
-.. Una vez hayan completado los mensajes de instalación, desplácese hacia atrás por los mensajes hasta ver el mensaje en el que el sistema muestra una dirección IP o una URL para la interfaz de usuario web de Unified Manager, el nombre de usuario de mantenimiento (umadmin) y una contraseña predeterminada.
+. Una vez hayan completado los mensajes de instalación, desplácese hacia atrás por los mensajes hasta ver el mensaje en el que el sistema muestra una dirección IP o una URL para la interfaz de usuario web de Unified Manager, el nombre de usuario de mantenimiento (umadmin) y una contraseña predeterminada.
 +
 El mensaje es similar al siguiente:
 
@@ -153,12 +150,10 @@ Log in to Unified Manager in a web browser by using following details:
   username: umadmin
   password: admin
 ----
-.. Registre la dirección IP o URL, el nombre de usuario asignado (umadmin) y la contraseña actual.
-.. Si ha creado una cuenta de usuario umadmin con un directorio inicial personalizado antes de instalar Unified Manager, debe especificar el shell de inicio de sesión de usuario umadmin:
+. Registre la dirección IP o URL, el nombre de usuario asignado (umadmin) y la contraseña actual.
+. Si ha creado una cuenta de usuario umadmin con un directorio inicial personalizado antes de instalar Unified Manager, debe especificar el shell de inicio de sesión de usuario umadmin:
 +
 `usermod -s /bin/maintenance-user-shell.sh umadmin`
-
-
 
 
 

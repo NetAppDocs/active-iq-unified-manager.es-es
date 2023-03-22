@@ -28,4 +28,4 @@ Consulte los temas sobre categorías de cumplimiento y la http://www.netapp.com/
 Los eventos de actualización notificados desde la plataforma Active IQ también se consideran eventos de seguridad. Estos eventos identifican problemas en los que la resolución requiere actualizar el software ONTAP, el firmware del nodo o el software del sistema operativo (para avisos de seguridad). Estos eventos no se muestran en el panel Seguridad, pero están disponibles en la página de inventario de Event Management.
 
 ====
-Para obtener más información, consulte link:..health-checker/concept_manage_cluster_security_objectives.html["Gestión de los objetivos de seguridad del clúster"].
+Para obtener más información, consulte link:../health-checker/concept_manage_cluster_security_objectives.html["Gestión de los objetivos de seguridad del clúster"].
