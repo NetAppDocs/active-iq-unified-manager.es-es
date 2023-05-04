@@ -19,7 +19,7 @@ Debe tener acceso de usuario raíz al servidor Red Hat Enterprise Linux o CentOS
 
 .Pasos
 . Inicie sesión como usuario raíz en el servidor en el que desea reiniciar el servicio Unified Manager.
-. Detenga el servicio Unified Manager y el software MySQL asociado en el orden que se muestra:
+. Detenga el servicio Unified Manager y el servicio MySQL asociado en este orden:
 +
 `systemctl stop ocieau`
 
@@ -29,7 +29,7 @@ Debe tener acceso de usuario raíz al servidor Red Hat Enterprise Linux o CentOS
 +
 `systemctl stop mysqld`
 
-. Inicie Unified Manager en el orden mostrado:
+. Inicie los servicios de MySQL y Unified Manager en el siguiente orden:
 +
 `systemctl start mysqld`
 
@@ -40,3 +40,9 @@ Debe tener acceso de usuario raíz al servidor Red Hat Enterprise Linux o CentOS
 `systemctl start ocieau`
 
 
+
+[NOTE]
+====
+`mysqld` Es un programa daemon requerido para iniciar y detener el servidor MySQL.
+
+====

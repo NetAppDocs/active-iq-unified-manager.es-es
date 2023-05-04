@@ -83,7 +83,11 @@ Muestra el gráfico de capacidad de datos sobre la capacidad utilizada y la capa
 
 * Espacio lógico utilizado
 +
-El tamaño real de los datos que se almacenan en todos los agregados de este clúster sin aplicar el ahorro derivado del uso de las tecnologías de eficiencia del almacenamiento de ONTAP.
+El tamaño real de los datos que se almacenan en todos los agregados de este clúster sin aplicar el ahorro derivado del uso de las tecnologías de eficiencia del almacenamiento de ONTAP. Esto no incluye copias Snapshot.
+
+* Reducción de datos
++
+Muestra la relación sin copias Snapshot y con dos dígitos significativos, por ejemplo, de 1,8 a 1. Esta proporción se basa en la configuración de la eficiencia del almacenamiento de ONTAP.
 
 * Utilizado
 +

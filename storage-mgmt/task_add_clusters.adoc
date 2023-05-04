@@ -16,37 +16,45 @@ Puede añadir un clúster a la Active IQ Unified Manager para poder supervisar e
 *Lo que necesitará*
 
 * Debe tener el rol de administrador de aplicaciones o de administrador de almacenamiento.
-* Debe tener el nombre de host o la dirección IP de administración del clúster (IPv4 o IPv6) para el clúster.
+* Debe tener la siguiente información:
++
+** Unified Manager admite clústeres de ONTAP en las instalaciones, ONTAP Select, Cloud Volumes ONTAP.
+** Debe tener el nombre de host o la dirección IP de administración del clúster (IPv4 o IPv6) para el clúster.
 +
 Cuando se utiliza el nombre de host, debe resolver la dirección IP de administración del clúster para la LIF de gestión del clúster. Si utiliza un LIF de gestión de nodos, la operación da error.
 
-* Debe tener el nombre de usuario y la contraseña para acceder al clúster.
+** Debe tener el nombre de usuario y la contraseña para acceder al clúster.
 +
 Esta cuenta debe tener el rol _admin_ con acceso a aplicaciones establecido en _ontapi_, _Console_ y _http_.
 
-* Debe conocer el número de puerto para conectarse al clúster mediante el protocolo HTTPS (por lo general, el puerto 443).
-* El clúster de debe ejecutar el software ONTAP versión 9.1 o posterior.
-* Debe tener espacio suficiente en el servidor de Unified Manager. Se le impide agregar un clúster al servidor cuando más del 90 % del espacio ya está consumido.
-* Tiene los certificados necesarios. Unified Manager instala certificados de seguridad al añadir un clúster:
+** Debe conocer el número de puerto para conectarse al clúster mediante el protocolo HTTPS (por lo general, el puerto 443).
+** El clúster de debe ejecutar el software ONTAP versión 9.1 o posterior.
+** Debe tener espacio suficiente en el servidor de Unified Manager. Se le impide agregar un clúster al servidor cuando más del 90 % del espacio ya está consumido.
+** Tiene los certificados necesarios:
 +
-*Certificados de servidor*: Este certificado es propiedad de Unified Manager. Se genera un certificado SSL (HTTPS) autofirmado predeterminado con una instalación nueva de Unified Manager. NetApp recomienda actualizarlo a certificado firmado por CA para mejorar la seguridad. Si el certificado de servidor caduca, debe volver a regenerarlo y reiniciar Unified Manager para que los servicios incorporen el nuevo certificado. Para obtener más información acerca de la regeneración del certificado SSL, consulte link:../config/task_generate_an_https_security_certificate_ocf.html["Generar un certificado de seguridad HTTPS"].
+*Certificado SSL (HTTPS)*: Este certificado es propiedad de Unified Manager. Se genera un certificado SSL (HTTPS) autofirmado predeterminado con una instalación nueva de Unified Manager. NetApp recomienda actualizarlo a certificado firmado por CA para mejorar la seguridad. Si el certificado de servidor caduca, debe volver a regenerarlo y reiniciar Unified Manager para que los servicios incorporen el nuevo certificado. Para obtener más información acerca de la regeneración del certificado SSL, consulte link:../config/task_generate_an_https_security_certificate_ocf.html["Generar un certificado de seguridad HTTPS"].
+
++
+*Certificado EMS*: Este certificado es propiedad de Unified Manager. Se usa durante la autenticación de notificaciones EMS que se reciben de ONTAP.
 
 +
 *Certificados para la comunicación mutua con TLS*: Se utiliza durante la comunicación mutua con TLS entre Unified Manager y ONTAP. La autenticación basada en certificados está habilitada para un clúster de acuerdo con la versión de ONTAP. Si el clúster que ejecuta la versión de ONTAP es inferior a la versión 9.5, la autenticación basada en certificados no está habilitada.
 
 +
-La autenticación basada en certificados no se habilita automáticamente para un clúster, si va a actualizar una versión anterior de Unified Manager a Unified Manager 9.12. Sin embargo, puede habilitarla mediante la modificación y el guardado de los detalles del clúster. Si el certificado caduca, debe regenerarlo para incorporar el nuevo certificado. Para obtener más información sobre la visualización y regeneración del certificado, consulte link:../storage-mgmt/task_edit_clusters.html["Editar clústeres"].
+La autenticación basada en certificado no se habilita automáticamente para un clúster, si va a actualizar una versión anterior de Unified Manager. Sin embargo, puede habilitarla mediante la modificación y el guardado de los detalles del clúster. Si el certificado caduca, debe regenerarlo para incorporar el nuevo certificado. Para obtener más información sobre la visualización y regeneración del certificado, consulte link:../storage-mgmt/task_edit_clusters.html["Editar clústeres"].
 
 +
 [NOTE]
 ====
-** La autenticación basada en certificados se habilita automáticamente si se añade un clúster de la interfaz de usuario web de. Si agrega un clúster desde la consola de mantenimiento, la autenticación basada en certificados no está habilitada.
-** Si la autenticación basada en certificados está habilitada para un clúster, y realiza el backup de Unified Manager desde un servidor y la restauración a otro servidor de Unified Manager donde se cambia el nombre de host o la dirección IP, la supervisión del clúster puede fallar. Para evitar el error, edite y guarde los detalles del clúster. Para obtener más información sobre cómo editar detalles del clúster, consulte link:../storage-mgmt/task_edit_clusters.html["Editar clústeres"].
+*** La autenticación basada en certificados se habilita automáticamente si se añade un clúster de la interfaz de usuario web de. Si agrega un clúster desde la consola de mantenimiento, la autenticación basada en certificados no está habilitada.
+*** Si la autenticación basada en certificados está habilitada para un clúster, y realiza el backup de Unified Manager desde un servidor y la restauración a otro servidor de Unified Manager donde se cambia el nombre de host o la dirección IP, la supervisión del clúster puede fallar. Para evitar el error, edite y guarde los detalles del clúster. Para obtener más información sobre cómo editar detalles del clúster, consulte link:../storage-mgmt/task_edit_clusters.html["Editar clústeres"].
 
 
 ====
 +
-*Certificados de cliente*: Se utiliza durante la autenticación de mensajes EMS recibidos de ONTAP. Este certificado es propiedad de ONTAP y es obligatorio cuando se añade un clúster de ONTAP a Unified Manager. No puede agregar un clúster a Unified Manager con un certificado caducado y si el certificado de cliente ya ha caducado, debe volver a regenerarlo antes de agregar el clúster. Sin embargo, si este certificado caduca en un clúster que ya se ha añadido y está siendo utilizado por Unified Manager, la mensajería de EMS sigue funcionando con el certificado caducado. Para obtener información acerca de la generación de certificados, consulte el artículo de la base de conocimientos (KB) https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_renew_an_SSL_certificate_in_ONTAP_9["Cómo renovar un certificado autofirmado de ONTAP en la interfaz de usuario de System Manager"^].
+*Certificados de clúster*: Este certificado es propiedad de ONTAP. No es posible añadir un clúster a Unified Manager con un certificado caducado y si el certificado ya ha caducado, debe volver a generarlo antes de añadir el clúster. Para obtener información acerca de la generación de certificados, consulte el artículo de la base de conocimientos (KB) https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_renew_an_SSL_certificate_in_ONTAP_9["Cómo renovar un certificado autofirmado de ONTAP en la interfaz de usuario de System Manager"^].
+
+
 
 * Una única instancia de Unified Manager puede admitir un número determinado de nodos. Si necesita supervisar un entorno que supere el número de nodos admitidos, debe instalar una instancia adicional de Unified Manager para supervisar algunos de los clústeres. Para ver la lista del número de nodos admitidos, consulte https://www.netapp.com/media/13504-tr4621.pdf["Guía de prácticas recomendadas de Unified Manager"^].
 
@@ -58,7 +66,7 @@ La autenticación basada en certificados no se habilita automáticamente para un
 . En el cuadro de diálogo autorizar host, haga clic en *Ver certificado* para ver la información del certificado sobre el clúster.
 . Haga clic en *Sí*.
 +
-En Unified Manager 9.12, después de guardar los detalles del clúster, puede ver el certificado para comunicación mutua TLS para un clúster.
+Después de guardar los detalles del clúster, puede ver el certificado para la comunicación TLS mutua para un clúster.
 
 +
 Si la autenticación basada en certificados no está habilitada, Unified Manager comprueba el certificado solo cuando se añade el clúster inicialmente. Unified Manager no comprueba el certificado para cada llamada API a ONTAP.

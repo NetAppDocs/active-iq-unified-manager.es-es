@@ -163,6 +163,17 @@ Advertencia
 
 
  a| 
+Error de operación de eficiencia de volumen (ocumEvtVolumeEfficiencyOperationError)
+ a| 
+Riesgo
+ a| 
+Volumen
+ a| 
+Error
+
+
+
+ a| 
 Espacio de volumen completo (ocumEvtVolumeFull)
  a| 
 Riesgo

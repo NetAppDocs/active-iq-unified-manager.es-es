@@ -47,7 +47,7 @@ OpenJDK versión 11.0.17
 
 
  a| 
-Edición comunitaria de MySQL 8.0.30
+MySQL 8.0.32 Community Edition
  a| 
 `rpm -qa | grep -i mysql`
 
@@ -59,7 +59,7 @@ p7zip 16.02
 `rpm -qa | grep p7zip`
 
 |===
-. Si la versión instalada de MySQL es anterior a MySQL 8.0.30 Community Edition, introduzca el siguiente comando para desinstalarla:
+. Si la versión instalada de MySQL es anterior a MySQL 8.0.32 Community Edition, introduzca el siguiente comando para desinstalarlo:
 +
 `rpm -e <mysql_package_name>`
 
@@ -122,6 +122,12 @@ Puesto que el complemento "'yum-plugin-downloadonly'" no siempre está activado 
 
 +
 Este comando instala los paquetes .rpm, todo el software de soporte necesario y el software Unified Manager.
+
++
+Si la instalación falla con el error GPG NOKEY , utilice `rpm --import` Para importar las claves desde una URL:
+
++
+`rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022`
 
 +
 [NOTE]

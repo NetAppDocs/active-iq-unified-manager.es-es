@@ -20,6 +20,10 @@ Antes de añadir o ver vCenter Server, asegúrese de lo siguiente:
 * Conoce los nombres de vCenter Server.
 * Conoce la dirección IP de vCenter Server y tiene las credenciales requeridas. Las credenciales deben ser de un administrador de vCenter Server o de un usuario raíz con acceso de solo lectura a vCenter Server.
 * La instancia de vCenter Server que desea añadir ejecuta vSphere 6.5 o una versión posterior.
++
+
+NOTE: La compatibilidad con Unified Manager para VMware ESXi y vCenter Server está disponible en idiomas inglés y japonés.
+
 * La configuración de recogida de datos en vCenter Server se establece en el nivel de estadísticas de `_Level 3_`, garantizar el nivel requerido de recopilación de métricas para todos los objetos supervisados. La duración del intervalo debe ser `_5 minutes_`, y el período de ahorro debe ser `_1 day_`.
 +
 Para obtener más información, consulte la sección "niveles de recopilación de datos" de _vSphere Monitoring and Performance Guide_ en la documentación de VMware.

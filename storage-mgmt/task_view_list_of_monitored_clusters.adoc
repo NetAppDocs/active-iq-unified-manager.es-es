@@ -17,12 +17,9 @@ Puede usar la página Cluster Setup para ver el inventario de clústeres. Es pos
 
 Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
 
-La lista de clústeres se ordena según la columna Collection state Severity Level. Puede hacer clic en un encabezado de columna para ordenar los clústeres por columnas diferentes.
-
 .Paso
 . En el panel de navegación izquierdo, haga clic en *Storage Management* > *Cluster Setup*.
++
+Se muestran todos los clústeres del entorno de almacenamiento gestionados por Unified Manager.La lista de clústeres se ordena por la columna de nivel de gravedad de estado de recogida. Puede hacer clic en un encabezado de columna para ordenar los clústeres por columnas diferentes.
 
 
-*Información relacionada*
-
-link:["Página Configuration/Cluster Data Sources"]

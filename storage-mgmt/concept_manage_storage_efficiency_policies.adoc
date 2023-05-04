@@ -82,4 +82,4 @@ Número de cargas de trabajo de almacenamiento a LAS que SE asignó SEP
 
 Si los Sep existentes no cumplen los requisitos de las normativas para las cargas de trabajo de almacenamiento, puede crear UN SEP personalizado. Sin embargo, se recomienda intentar utilizar los SEP definidos por el sistema para las cargas de trabajo de almacenamiento, y solo crear SEP personalizados si es necesario.
 
-Puede ver EL SEP asignado a las cargas de trabajo en la página todas las cargas de trabajo y en la página de detalles Volume / Health. Es posible ver la tasa de reducción de datos a nivel de clúster según estas eficiencias del almacenamiento en el panel capacidad de la consola y en la vista capacidad: All Clusters.
+Puede ver EL SEP asignado a las cargas de trabajo en la página todas las cargas de trabajo y en la página de detalles Volume / Health. Es posible ver la ratio de reducción de datos en el nivel de clúster (sin copias Snapshot) en función de estas eficiencias del almacenamiento en el panel Capacidad de la consola y en la vista Capacidad: Todos los clústeres.

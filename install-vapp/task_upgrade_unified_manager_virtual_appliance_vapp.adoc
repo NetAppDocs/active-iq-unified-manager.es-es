@@ -11,7 +11,7 @@ summary: Puede actualizar el dispositivo virtual de Unified Manager
 
 
 [role="lead"]
-Puede actualizar el dispositivo virtual Active IQ Unified Manager de las versiones 9.10 o 9.11 a 9.12.
+Puede actualizar el dispositivo virtual Active IQ Unified Manager de las versiones 9,11 o 9,12 a la 9,13.
 
 *Lo que necesitará*
 

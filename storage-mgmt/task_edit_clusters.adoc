@@ -25,7 +25,7 @@ A partir de Unified Manager 9.7, los clústeres se pueden añadir solo mediante 
 .Pasos
 . En el panel de navegación izquierdo, haga clic en *Storage Management* > *Cluster Setup*.
 . En la página *Cluster Setup*, seleccione el clúster que desea editar y, a continuación, haga clic en *Edit*.
-. En el cuadro de diálogo *Editar clúster*, modifique los valores según sea necesario. + Si ha modificado los detalles de un clúster agregado a Unified Manager 9.12, puede ver los detalles del certificado para la comunicación Mutual TLS, según la versión de ONTAP. Para obtener más información sobre la versión de ONTAP, consulte link:../storage-mgmt/task_add_clusters.html["Certificados para comunicación mutua TLS"]. + para ver los detalles del certificado, haga clic en *Detalles del certificado*. Si el certificado ha caducado, haga clic en el botón *Regenerate* para incorporar el nuevo certificado.
+. En el cuadro de diálogo *Editar clúster*, modifique los valores según sea necesario. + Si ha modificado los detalles de un clúster añadido a Unified Manager, puede ver los detalles del certificado para la comunicación mutua con TLS, según la versión de ONTAP. Para obtener más información sobre la versión de ONTAP, consulte link:../storage-mgmt/task_add_clusters.html["Certificados para comunicación mutua TLS"]. + para ver los detalles del certificado, haga clic en *Detalles del certificado*. Si el certificado ha caducado, haga clic en el botón *Regenerate* para incorporar el nuevo certificado.
 . Haga clic en *Enviar*.
 . En el cuadro de diálogo autorizar host, haga clic en *Ver certificado* para ver la información del certificado sobre el clúster.
 . Haga clic en *Sí*.
