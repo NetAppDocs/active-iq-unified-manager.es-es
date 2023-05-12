@@ -13,7 +13,7 @@ summary: La página Security muestra el estado de seguridad de alto nivel para t
 [role="lead"]
 Active IQ Unified Manager le permite ver el estado de seguridad de los objetos de almacenamiento en su entorno desde diferentes puntos de la interfaz. Puede recopilar y analizar información e informes a partir de parámetros definidos, y detectar comportamientos sospechosos o cambios del sistema no autorizados en los clústeres supervisados y las máquinas virtuales de almacenamiento.
 
-Para conocer las recomendaciones de seguridad, consulte http://www.netapp.com/us/media/tr-4569.pdf["Guía de fortalecimiento de la seguridad de NetApp para ONTAP 9"]
+Para conocer las recomendaciones de seguridad, consulte http://["Guía de fortalecimiento de la seguridad de NetApp para ONTAP 9"]
 
 
 

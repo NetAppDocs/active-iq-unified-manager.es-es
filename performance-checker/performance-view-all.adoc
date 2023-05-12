@@ -214,7 +214,7 @@ A continuación, se muestran algunos campos importantes en la vista Performance:
 * Asignación mínima: Se utiliza si el "espacio asignado" o el "espacio utilizado" para determinar el rendimiento máximo de IOPS (pico).
 * Latencia esperada: La latencia media esperada para operaciones de entrada/salida de almacenamiento.
 * Compartido: Para las políticas de calidad de servicio tradicionales, si los valores de rendimiento definidos en el grupo de políticas se comparten entre varios objetos.
-* Associated Objects: La cantidad de cargas de trabajo que se asignan al grupo de políticas de calidad de servicio. Puede hacer clic en el botón expandir ( ) junto al nombre del grupo de políticas de QoS para ver más detalles sobre el grupo de políticas.
+* Associated Objects: La cantidad de cargas de trabajo que se asignan al grupo de políticas de calidad de servicio. Puede hacer clic en el botón expandir (image:../media/chevron_down.gif[""]) Junto al Nombre del grupo de políticas QoS para ver más detalles acerca del grupo de políticas.
 * Capacidad asignada: La cantidad de espacio que usan los objetos del grupo de políticas de calidad de servicio actualmente.
 * Asociados Objects: El número de cargas de trabajo que se asignan al grupo de políticas de calidad de servicio, separadas en volúmenes y LUN. Puede hacer clic en el número para desplazarse a una página que proporciona más detalles sobre los volúmenes o LUN seleccionados.
 

@@ -17,8 +17,8 @@ NetApp no admite ninguna modificación del código de aplicación de Unified Man
 
 Para obtener más información sobre la aplicación de medidas de seguridad en Unified Manager Server, consulte el artículo de la base de conocimientos.
 
-https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/Supportability_for_Security_Measures_applied_to_Active_IQ_Unified_Manager_for_Clustered_Data_ONTAP["Compatibilidad con las medidas de seguridad aplicadas a Active IQ Unified Manager para Clustered Data ONTAP"]
+https://["Compatibilidad con las medidas de seguridad aplicadas a Active IQ Unified Manager para Clustered Data ONTAP"]
 
 *Información relacionada*
 
-https://mysupport.netapp.com/matrix["Herramienta de matriz de interoperabilidad de NetApp"]
+https://["Herramienta de matriz de interoperabilidad de NetApp"]

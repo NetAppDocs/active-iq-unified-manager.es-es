@@ -54,7 +54,7 @@ La autenticación basada en certificado no se habilita automáticamente para un 
 
 ====
 +
-*Certificados de clúster*: Este certificado es propiedad de ONTAP. No es posible añadir un clúster a Unified Manager con un certificado caducado y si el certificado ya ha caducado, debe volver a generarlo antes de añadir el clúster. Para obtener información acerca de la generación de certificados, consulte el artículo de la base de conocimientos (KB) https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_renew_an_SSL_certificate_in_ONTAP_9["Cómo renovar un certificado autofirmado de ONTAP en la interfaz de usuario de System Manager"^].
+*Certificados de clúster*: Este certificado es propiedad de ONTAP. No es posible añadir un clúster a Unified Manager con un certificado caducado y si el certificado ya ha caducado, debe volver a generarlo antes de añadir el clúster. Para obtener información acerca de la generación de certificados, consulte el artículo de la base de conocimientos (KB) https://["Cómo renovar un certificado autofirmado de ONTAP en la interfaz de usuario de System Manager"^].
 
 
 

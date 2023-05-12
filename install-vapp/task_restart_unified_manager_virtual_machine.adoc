@@ -28,4 +28,4 @@ También puede reiniciar la máquina virtual desde vSphere mediante la opción V
 
 *Información relacionada*
 
-https://www.vmware.com/support/developer/PowerCLI/PowerCLI41/html/Restart-VMGuest.html["Referencia de cmdlets de VMware vSphere PowerCLI: Restart-VMGuest"]
+https://["Referencia de cmdlets de VMware vSphere PowerCLI: Restart-VMGuest"]

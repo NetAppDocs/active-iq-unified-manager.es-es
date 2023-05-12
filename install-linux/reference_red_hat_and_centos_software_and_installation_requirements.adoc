@@ -25,7 +25,7 @@ El sistema Linux debe tener instaladas las siguientes versiones del sistema oper
 
 Consulte la matriz de interoperabilidad para ver la lista completa y más actualizada de las versiones compatibles de Red Hat Enterprise Linux y CentOS.
 
-http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"]
+http://["mysupport.netapp.com/matrix"]
 
 
 

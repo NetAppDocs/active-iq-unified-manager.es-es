@@ -15,7 +15,7 @@ Unified Manager proporciona un panel que identifica la seguridad de los clúster
 
 El objetivo de la consola de seguridad es mostrar las áreas en las que los clústeres de ONTAP no estén alineados con las directrices recomendadas por NetApp para poder resolver estos problemas potenciales. En la mayoría de los casos, se solucionarán los problemas con ONTAP System Manager o la CLI de ONTAP. Es posible que su organización no siga todas las recomendaciones, por lo que en algunos casos no necesitará hacer ningún cambio.
 
-Consulte http://www.netapp.com/us/media/tr-4569.pdf["Guía de fortalecimiento de la seguridad de NetApp para ONTAP 9"] (TR-4569) para obtener recomendaciones y resoluciones detalladas.
+Consulte http://["Guía de fortalecimiento de la seguridad de NetApp para ONTAP 9"] (TR-4569) para obtener recomendaciones y resoluciones detalladas.
 
 Además de informar del estado de seguridad, Unified Manager también genera eventos de seguridad para cualquier clúster o SVM que tenga infracciones de seguridad. Puede realizar un seguimiento de estos problemas en la página del inventario Event Management y configurar alertas para dichos eventos de manera que el administrador de almacenamiento reciba una notificación cuando se produzcan nuevos eventos de seguridad.
 

@@ -21,7 +21,7 @@ Algunas de las comprobaciones de seguridad incluyen:
 * si sus volúmenes tienen activado el cifrado de software o hardware
 
 
-Consulte los temas sobre categorías de cumplimiento y la http://www.netapp.com/us/media/tr-4569.pdf["Guía de fortalecimiento de la seguridad de NetApp para ONTAP 9"] para obtener información detallada.
+Consulte los temas sobre categorías de cumplimiento y la http://["Guía de fortalecimiento de la seguridad de NetApp para ONTAP 9"] para obtener información detallada.
 
 [NOTE]
 ====

@@ -13,9 +13,9 @@ summary: Puede evitar problemas de rendimiento en las cargas de trabajo reflejad
 [role="lead"]
 Puede evitar problemas de rendimiento para cargas de trabajo duplicadas en una configuración de MetroCluster over FC e IP, garantizando que la configuración de MetroCluster se configure correctamente. También puede mejorar el rendimiento de la carga de trabajo cambiando la configuración o actualizando componentes de software o hardware.
 
-Consulte https://docs.netapp.com/us-en/ontap-metrocluster/index.html["Documentación de MetroCluster"] Para obtener las instrucciones de configurar los clústeres en la configuración de MetroCluster, incluidos los switches Fibre Channel (FC), los cables y los enlaces entre switches (ISL). También es útil configurar el software MetroCluster para que los clústeres local y remoto puedan comunicarse con los datos de volúmenes reflejados. Para obtener información específica sobre la configuración de MetroCluster over IP, consulte https://docs.netapp.com/us-en/ontap-metrocluster/install-ip/index.html["Instale una configuración de IP de MetroCluster"].
+Consulte https://["Documentación de MetroCluster"] Para obtener las instrucciones de configurar los clústeres en la configuración de MetroCluster, incluidos los switches Fibre Channel (FC), los cables y los enlaces entre switches (ISL). También es útil configurar el software MetroCluster para que los clústeres local y remoto puedan comunicarse con los datos de volúmenes reflejados. Para obtener información específica sobre la configuración de MetroCluster over IP, consulte https://["Instale una configuración de IP de MetroCluster"].
 
-Es posible comparar la configuración de MetroCluster con los requisitos en https://docs.netapp.com/us-en/ontap-metrocluster/index.html["Documentación de MetroCluster"] Para determinar si cambiar o actualizar componentes de su configuración de MetroCluster puede mejorar el rendimiento de la carga de trabajo. Esta comparación puede ayudarle a responder a las siguientes preguntas:
+Es posible comparar la configuración de MetroCluster con los requisitos en https://["Documentación de MetroCluster"] Para determinar si cambiar o actualizar componentes de su configuración de MetroCluster puede mejorar el rendimiento de la carga de trabajo. Esta comparación puede ayudarle a responder a las siguientes preguntas:
 
 * ¿Las controladoras son adecuadas para sus cargas de trabajo?
 * ¿Necesita actualizar sus paquetes ISL a un ancho de banda mayor para poder gestionar más rendimiento?
@@ -25,6 +25,6 @@ Es posible comparar la configuración de MetroCluster con los requisitos en http
 
 *Información relacionada*
 
-* Para obtener información acerca de cómo reemplazar o actualizar componentes de MetroCluster, consulte https://docs.netapp.com/us-en/ontap-metrocluster/index.html["Documentación de MetroCluster"].
-* Para obtener información sobre la actualización de las controladoras, consulte https://docs.netapp.com/us-en/ontap-metrocluster/upgrade/task_upgrade_controllers_in_a_four_node_fc_mcc_us_switchover_and_switchback_mcc_fc_4n_cu.html["Actualización de controladoras en una configuración MetroCluster FC mediante conmutación de sitios y conmutación de estado"] y.. https://docs.netapp.com/us-en/ontap-metrocluster/upgrade/task_upgrade_controllers_in_a_four_node_ip_mcc_us_switchover_and_switchback_mcc_ip.html["Actualización de controladoras en una configuración IP de MetroCluster mediante conmutación de sitios y conmutación de estado"]
+* Para obtener información acerca de cómo reemplazar o actualizar componentes de MetroCluster, consulte https://["Documentación de MetroCluster"].
+* Para obtener información sobre la actualización de las controladoras, consulte https://["Actualización de controladoras en una configuración MetroCluster FC mediante conmutación de sitios y conmutación de estado"] y.. https://["Actualización de controladoras en una configuración IP de MetroCluster mediante conmutación de sitios y conmutación de estado"]
 

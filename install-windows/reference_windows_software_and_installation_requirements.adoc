@@ -33,7 +33,7 @@ Unified Manager es compatible con el sistema operativo Windows de 64 bits para l
 
 Consulte la matriz de interoperabilidad para ver la lista completa y más actual de versiones de Windows compatibles.
 
-http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"^]
+http://["mysupport.netapp.com/matrix"^]
 
 
 NOTE: NetApp no admite la instalación de Unified Manager con herramientas de terceros, como Microsoft System Center Configuration Manager (SCCM).

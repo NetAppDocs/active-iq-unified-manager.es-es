@@ -48,7 +48,7 @@ La topología de la configuración de MetroCluster que se va a replicar se muest
 
 
 
-Puede utilizar la información que se muestra en el para rectificar cualquier problema de replicación. Si detecta problemas de mirroring en la configuración de MetroCluster, debe iniciar sesión en System Manager o acceder a la CLI de ONTAP para resolver los problemas.
+Puede utilizar la información que se muestra en la página de detalles Cluster / Health para corregir cualquier problema de replicación. Si detecta problemas de mirroring en la configuración de MetroCluster, debe iniciar sesión en System Manager o acceder a la CLI de ONTAP para resolver los problemas.
 
 *Información relacionada*
 

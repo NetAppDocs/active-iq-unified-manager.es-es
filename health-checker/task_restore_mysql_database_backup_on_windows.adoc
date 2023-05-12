@@ -33,7 +33,7 @@ Si los nombres de carpeta contienen un espacio, debe incluir la ruta absoluta o 
 .Pasos
 . Si va a realizar una restauración en un servidor nuevo, después de instalar Unified Manager no inicia la interfaz de usuario ni configura ninguna configuración de clústeres, usuarios o autenticación cuando se haya completado la instalación. El archivo de backup rellena esta información durante el proceso de restauración.
 . Inicie sesión en el sistema Unified Manager con credenciales de administrador.
-. Inicie PowerShell como administrador de Windows.
+. Inicie PowerShell o el símbolo del sistema como administrador de Windows.
 . Introduzca el comando `maintenance_console` Y pulse Intro.
 . En la consola de mantenimiento *Menú principal*, introduzca el número de la opción *Restauración de copia de seguridad*.
 . Introduzca el número para *Restaurar copia de seguridad MySQL*.

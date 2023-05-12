@@ -71,4 +71,4 @@ La pantalla muestra el nombre de la política de organización en niveles de Fab
 . En la página *Análisis de carga de trabajo* puede seleccionar «'Vista de nivel de cloud» en el área *tendencias de capacidad* para ver la capacidad que se utiliza en el nivel de rendimiento local y en el nivel de cloud durante el mes anterior.
 
 
-Para obtener más información sobre los agregados de FabricPool, consulte https://docs.netapp.com/us-en/ontap/disks-aggregates/index.html["Descripción general de discos y agregados"].
+Para obtener más información sobre los agregados de FabricPool, consulte https://["Descripción general de discos y agregados"].

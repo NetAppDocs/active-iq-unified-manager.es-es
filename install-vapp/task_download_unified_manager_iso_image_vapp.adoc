@@ -20,7 +20,7 @@ Debe tener credenciales de inicio de sesión en el sitio de soporte de NetApp.
 .Pasos
 . Inicie sesión en el sitio de soporte de NetApp:
 +
-https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab["Sitio de soporte de NetApp"]
+https://["Sitio de soporte de NetApp"]
 
 . Vaya a la página de descarga para actualizar Unified Manager en VMware vSphere.
 . Descargue el `.iso` Imagen para la actualización y guárdelo en un directorio local o un directorio de red al que se pueda acceder vSphere Client.

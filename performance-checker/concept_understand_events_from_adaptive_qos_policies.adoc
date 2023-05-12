@@ -66,4 +66,4 @@ Si el volumen utiliza 2 TB del espacio disponible, y la tasa de IOPS es 4,000, y
 
 Por esta razón, cuando se activa un evento basado en una infracción MB/s de una directiva de QoS adaptativa que incluye el tamaño de bloque, se muestra un gráfico MB/s en la sección Diagnóstico del sistema de la página de detalles evento. Si el evento se activa en función de una filtración de IOPS para la política de calidad de servicio adaptativa, se muestra un gráfico de IOPS en la sección System Diagnosis. Si se produce una infracción tanto para IOPS como para MB/s, recibirá dos eventos.
 
-Para obtener más información sobre el ajuste de la configuración de QoS, consulte https://docs.netapp.com/us-en/ontap/performance-admin/index.html["Información general sobre gestión del rendimiento"].
+Para obtener más información sobre el ajuste de la configuración de QoS, consulte https://["Información general sobre gestión del rendimiento"].

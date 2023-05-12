@@ -13,4 +13,4 @@ summary: Proporciona un resumen de las nuevas funciones, las limitaciones y los 
 [role="lead"]
 Proporciona un resumen de las nuevas funciones, las limitaciones y los problemas conocidos de Active IQ Unified Manager 9,13.
 
-Para obtener más información, consulte https://library.netapp.com/ecm/ecm_download_file/ECMLP2885771["Notas de la versión de Active IQ Unified Manager"].
+Para obtener más información, consulte https://["Notas de la versión de Active IQ Unified Manager"].

@@ -27,7 +27,7 @@ Tenga en cuenta los siguientes requisitos previos antes de ver almacenes de dato
 * Los clústeres primario y secundario del par de alta disponibilidad y las instancias de vCenter Server deben gestionarse mediante Unified Manager.
 * La configuración necesaria debe completarse en ONTAP y vCenter Server. Para obtener información, consulte la documentación de ONTAP y vCenter.
 +
-https://docs.netapp.com/ontap-9/index.jsp["Centro de documentación de ONTAP 9"]
+https://["Centro de documentación de ONTAP 9"]
 
 
 
@@ -60,7 +60,7 @@ En caso de recuperación, es necesario sincronizar los datos entre los volúmene
 Para obtener información sobre la configuración, consulte la documentación de ONTAP y vCenter Server.
 
 +
-https://docs.netapp.com/ontap-9/index.jsp["Centro de documentación de ONTAP 9"]
+https://["Centro de documentación de ONTAP 9"]
 
 
 
