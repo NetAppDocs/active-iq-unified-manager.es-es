@@ -17,4 +17,4 @@ Después de completar la instalación y añadir los clústeres que desea gestion
 
 *Información relacionada*
 
-https://["Herramienta de matriz de interoperabilidad de NetApp"]
+https://mysupport.netapp.com/matrix["Herramienta de matriz de interoperabilidad de NetApp"]

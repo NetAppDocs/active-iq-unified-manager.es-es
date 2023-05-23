@@ -23,7 +23,7 @@ Cuando se instala Unified Manager o se actualiza a una versión específica de u
 * La generación de informes de eventos del portal de Active IQ debe estar habilitada. Esta función está habilitada de forma predeterminada. Para obtener más información, consulte link:../config/concept_active_iq_platform_events.html["Habilitar los eventos del portal de Active IQ"].
 * Debe descargar el archivo de reglas del sitio de soporte de NetApp.
 +
-El archivo de reglas está ubicado en el directorio: https://[]
+El archivo de reglas está ubicado en el directorio: https://mysupport.netapp.com/api/content-service/staticcontents/content/public/tools/unifiedmanager/ca/secure_rules.zip[]
 
 
 
@@ -47,4 +47,4 @@ Este proceso puede tardar varios minutos.
 
 El archivo de reglas se descomprime en el servidor de Unified Manager. Después de que los clústeres gestionados generen un archivo AutoSupport después de la medianoche, Unified Manager comprueba los clústeres con respecto al archivo de reglas y genera nuevos eventos de riesgo e incidentes según sea necesario.
 
-Para obtener más información, consulte este artículo de la base de conocimientos (KB): https://["Cómo actualizar manualmente las reglas de AIQUASecure en Active IQ Unified Manager"].
+Para obtener más información, consulte este artículo de la base de conocimientos (KB): https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/How_to_update_AIQCASecure_rules_manually_in_Active_IQ_Unified_Manager["Cómo actualizar manualmente las reglas de AIQUASecure en Active IQ Unified Manager"].

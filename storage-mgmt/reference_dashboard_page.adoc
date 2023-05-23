@@ -71,7 +71,7 @@ El panel Seguridad presenta el estado de seguridad de alto nivel para todos los 
 
 Puede hacer clic en los gráficos de barras de los clústeres conformes a la normativa y no conformes a la normativa, VM de almacenamiento, volúmenes cifrados y estado del antivirus de volúmenes, para acceder a las páginas respectivas y ver los detalles de seguridad de los clústeres filtrados, las máquinas virtuales de almacenamiento y los volúmenes.
 
-El cumplimiento se basa en la http://["Guía de fortalecimiento de la seguridad de NetApp para ONTAP 9"]. Haga clic en la flecha derecha de la parte superior del panel para ver los detalles de seguridad de todos los clústeres de la página Seguridad. Para obtener más información, consultelink:../health-checker/task_view_detailed_security_status_for_clusters_and_svms.html["Visualización detallada del estado de seguridad para clústeres y máquinas virtuales de almacenamiento"].
+El cumplimiento se basa en la http://www.netapp.com/us/media/tr-4569.pdf["Guía de fortalecimiento de la seguridad de NetApp para ONTAP 9"]. Haga clic en la flecha derecha de la parte superior del panel para ver los detalles de seguridad de todos los clústeres de la página Seguridad. Para obtener más información, consultelink:../health-checker/task_view_detailed_security_status_for_clusters_and_svms.html["Visualización detallada del estado de seguridad para clústeres y máquinas virtuales de almacenamiento"].
 
 
 

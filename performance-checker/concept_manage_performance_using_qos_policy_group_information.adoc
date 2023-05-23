@@ -13,4 +13,4 @@ summary: 'Unified Manager permite ver los grupos de políticas de calidad de ser
 [role="lead"]
 Unified Manager permite ver los grupos de políticas de calidad de servicio (QoS) disponibles en todos los clústeres que supervisa. Las políticas pueden haberse definido mediante el software ONTAP (System Manager o la CLI de ONTAP) o mediante políticas de nivel de servicio de rendimiento de Unified Manager. Unified Manager también muestra qué volúmenes y LUN tienen asignado un grupo de políticas de calidad de servicio.
 
-Para obtener más información sobre el ajuste de la configuración de QoS, consulte https://["Información general sobre gestión del rendimiento"]
+Para obtener más información sobre el ajuste de la configuración de QoS, consulte https://docs.netapp.com/us-en/ontap/performance-admin/index.html["Información general sobre gestión del rendimiento"]

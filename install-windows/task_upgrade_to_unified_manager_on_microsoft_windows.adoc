@@ -54,7 +54,7 @@ Si Unified Manager se empareja con una instancia de OnCommand Workflow Automatio
 .Pasos
 . Inicie sesión en el sitio de soporte de NetApp y desplácese hasta la página de descarga de Unified Manager:
 +
-https://["Sitio de soporte de NetApp"^].
+https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab["Sitio de soporte de NetApp"^].
 
 . Seleccione la versión requerida de Unified Manager y acepte el contrato de licencia para usuarios finales (CLUF).
 . Descargue el archivo de instalación de Unified Manager Windows en un directorio de destino en el sistema Windows.

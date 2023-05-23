@@ -74,7 +74,7 @@ urn:oid:1.3.6.1.4.1.5923.1.5.1.1
 +
 ** Siga las instrucciones identificadas en el vínculo para deshabilitar la comprobación de revocación en el servidor ADFS para la parte de confianza asociada al certificado de CA encadenada:
 +
-http://["Desactive el control de revocación por confianza de parte de confianza"]
+http://www.torivar.com/2016/03/22/adfs-3-0-disable-revocation-check-windows-2012-r2/["Desactive el control de revocación por confianza de parte de confianza"]
 
 ** Haga que el servidor de CA resida en el servidor ADFS para firmar la solicitud de certificado del servidor Unified Manager.
 

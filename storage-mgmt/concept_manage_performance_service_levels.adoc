@@ -132,7 +132,7 @@ Cargas de trabajo
 Cantidad de cargas de trabajo de almacenamiento a las que se asigna PSL.
 
 |===
-Para obtener más información sobre cómo ayudan las IOPS máximas y los IOPS esperados en lograr un rendimiento diferenciado constante en los clústeres de ONTAP, consulte el siguiente artículo de la base de conocimientos:https://["¿Qué es la gestión presupuestaria del rendimiento?"]
+Para obtener más información sobre cómo ayudan las IOPS máximas y los IOPS esperados en lograr un rendimiento diferenciado constante en los clústeres de ONTAP, consulte el siguiente artículo de la base de conocimientos:https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/What_is_Performance_Budgeting%3F["¿Qué es la gestión presupuestaria del rendimiento?"]
 
 
 

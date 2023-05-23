@@ -20,7 +20,7 @@ Este flujo de trabajo requiere un caso de uso de muestra en el que se genera un 
 Antes de ejecutar los pasos del flujo de trabajo, asegúrese de lo siguiente:
 
 * Conoce las API de puerta de enlace y cómo se utilizan. Para obtener más información, consulte link:concept_gateway_apis.html["Acceso a API de ONTAP a través de acceso de proxy"].
-* Conoce el uso de las API de REST de ONTAP. Para obtener información sobre el uso de las API de REST de ONTAP, consultehttps://["Documentación de automatización de ONTAP"].
+* Conoce el uso de las API de REST de ONTAP. Para obtener información sobre el uso de las API de REST de ONTAP, consultehttps://docs.netapp.com/us-en/ontap-automation/index.html["Documentación de automatización de ONTAP"].
 * Es administrador de aplicaciones.
 * El clúster en el cual desea ejecutar las operaciones de API REST es compatible con ONTAP 9.5 o una versión posterior, y el clúster se añade a Unified Manager a HTTPS.
 

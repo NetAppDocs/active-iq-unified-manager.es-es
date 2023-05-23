@@ -49,4 +49,4 @@ Utilice el comando du -sh /opt/netapp/data/ para comprobar el tamaño actual.
 
 
 
-Para obtener los pasos detallados para crear el volumen NFS, consulte https://["Cómo configurar NFSv4 en ONTAP 9"] y la http://["Guía exprés de configuración de NFS de ONTAP 9"].
+Para obtener los pasos detallados para crear el volumen NFS, consulte https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_configure_NFSv4_in_Cluster-Mode["Cómo configurar NFSv4 en ONTAP 9"] y la http://docs.netapp.com/ontap-9/topic/com.netapp.doc.exp-nfsv3-cg/home.html["Guía exprés de configuración de NFS de ONTAP 9"].

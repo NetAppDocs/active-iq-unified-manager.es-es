@@ -15,7 +15,7 @@ Para acceder a la interfaz de usuario web de Unified Manager, utilice un explora
 
 La matriz de interoperabilidad tiene la lista de versiones de exploradores compatibles.
 
-http://["mysupport.netapp.com/matrix"^]
+http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"^]
 
 En todos los navegadores, la desactivación de los bloqueadores de ventanas emergentes garantiza que las funciones de software se muestren correctamente.
 

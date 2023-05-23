@@ -35,7 +35,7 @@ Los eventos de protección le notifican los incidentes o riesgos que implican la
 
 * *Seguridad*
 +
-Los eventos de seguridad le notifican la seguridad de los clústeres de ONTAP, las máquinas virtuales de almacenamiento (SVM) y los volúmenes en función de los parámetros definidos en el http://["Guía de fortalecimiento de la seguridad de NetApp para ONTAP 9"].
+Los eventos de seguridad le notifican la seguridad de los clústeres de ONTAP, las máquinas virtuales de almacenamiento (SVM) y los volúmenes en función de los parámetros definidos en el http://www.netapp.com/us/media/tr-4569.pdf["Guía de fortalecimiento de la seguridad de NetApp para ONTAP 9"].
 
 +
 Además, esta área incluye los eventos de actualización notificados desde la plataforma Active IQ.
