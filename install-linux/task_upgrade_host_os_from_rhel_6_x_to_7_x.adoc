@@ -11,15 +11,13 @@ summary: Si anteriormente instaló Unified Manager en un sistema Red Hat Enterpr
 
 
 [role="lead"]
-Si anteriormente instaló Unified Manager en un sistema Red Hat Enterprise Linux 7.x y debe actualizar a Red Hat Enterprise Linux 8.x, debe seguir uno de los procedimientos enumerados en este tema. En ambos casos, debe crear una copia de seguridad de Unified Manager en el sistema Red Hat Enterprise Linux 7.x y, a continuación, restaurar el backup en un sistema Red Hat Enterprise Linux 8.x.
+Si anteriormente instaló Unified Manager en un sistema Red Hat Enterprise Linux 7.x y debe actualizar a Red Hat Enterprise Linux 8.x, debe seguir uno de los procedimientos enumerados en este tema. En ambos casos, debe crear una copia de seguridad de Unified Manager en el sistema Red Hat Enterprise Linux 7.x y, a continuación, restaurar el backup en un sistema Red Hat Enterprise Linux 8.x. Tenga en cuenta que las versiones compatibles de Red Hat Enterprise Linux van del 8,0 al 8,7.
 
 La diferencia entre las dos opciones que se muestran a continuación es que, en un caso, se está ejecutando la restauración de Unified Manager en un nuevo servidor 8.x y, en el otro caso, se está realizando la operación de restauración en el mismo servidor.
 
 Dado que esta tarea requiere que se cree un backup de Unified Manager en el sistema Red Hat Enterprise Linux 7.x, debe crear el backup solo cuando esté preparado para completar todo el proceso de actualización de modo que Unified Manager no tenga conexión durante el menor período de tiempo posible. Las brechas en los datos recopilados se muestran en la interfaz de usuario de Unified Manager durante el periodo de tiempo durante el cual se apaga el sistema Red Hat Enterprise Linux 7.x y antes de que se inicie la nueva versión de Red Hat Enterprise Linux 8.x.
 
-Consulte la Ayuda en línea de _Active IQ Unified Manager_ si necesita revisar instrucciones detalladas para los procesos de copia de seguridad y restauración.
-
-*Actualización del sistema operativo host mediante un nuevo servidor*
+Consulte link:../health-checker/concept_manage_backup_and_restore_operations.html["Gestión de operaciones de backup y restauración"] si necesita revisar instrucciones detalladas para los procesos de copia de seguridad y restauración.
 
 Siga estos pasos si tiene un sistema de repuesto en el que puede instalar el software Red Hat Enterprise Linux 8.x para poder realizar la restauración de Unified Manager en ese sistema mientras el sistema Red Hat Enterprise Linux 7.x sigue estando disponible.
 
