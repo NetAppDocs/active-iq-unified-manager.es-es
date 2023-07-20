@@ -41,7 +41,7 @@ El área Seleccionar elementos para restaurar permite seleccionar el volumen com
 
 * *Campo Ruta*
 +
-Muestra la ruta a los datos que desea restaurar. Es posible desplazarse a la carpeta y los archivos que desea restaurar o escribir la ruta. Este campo está vacío hasta que seleccione o escriba una ruta. Haga clic en image:../media/icon_upfolder.gif[""] una vez que haya elegido una ruta de acceso, sube un nivel en la estructura de directorios.
+Muestra la ruta a los datos que desea restaurar. Es posible desplazarse a la carpeta y los archivos que desea restaurar o escribir la ruta. Este campo está vacío hasta que seleccione o escriba una ruta. Haga clic en image:../media/icon_upfolder.gif["icono upfolder"] una vez que haya elegido una ruta de acceso, sube un nivel en la estructura de directorios.
 
 * *Lista de carpetas y archivos*
 +

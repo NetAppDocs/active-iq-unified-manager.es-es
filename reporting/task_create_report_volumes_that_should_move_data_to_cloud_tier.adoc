@@ -33,11 +33,12 @@ Agregue o elimine otras columnas para crear una vista que sea importante para el
 +
 ** El tipo de disco contiene FabricPool
 ** Las recomendaciones de cloud contienen nivel
-** Datos fríos superiores a 10 GBimage:../media/filter_cold_data.gif[""]
+** Datos fríos superiores a 10 GB
+image:../media/filter_cold_data.gif["Una captura de pantalla de la interfaz de usuario que muestra cómo puede agregar y aplicar un filtro."]
 
 
 . Haga clic en la parte superior de la columna datos fríos para que los volúmenes con más datos fríos aparezcan en la parte superior de la vista.
-. Guarde la vista con un nombre para reflejar lo que muestra la vista, por ejemplo «'Política de cambio de Vols».image:../media/report_vol_cold_data.gif[""]
+. Guarde la vista con un nombre para reflejar lo que muestra la vista, por ejemplo «'Política de cambio de Vols».image:../media/report_vol_cold_data.gif["Una captura de pantalla de la interfaz de usuario que muestra la página de política de organización en niveles de cambio de Vols con las columnas necesarias en el orden correcto."]
 . Haga clic en el botón *Informes programados* de la página de inventario.
 . Haga clic en *Agregar programación* para agregar una nueva fila a la página programas de informes de modo que pueda definir las características de programación para el nuevo informe.
 . Introduzca un nombre para el programa de informes y complete los otros campos de informe y, a continuación, haga clic en la Marca de verificación (image:../media/blue_check.gif[""]) al final de la fila.

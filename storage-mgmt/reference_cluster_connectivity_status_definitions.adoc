@@ -22,7 +22,7 @@ La conectividad entre los clústeres de una configuración MetroCluster over FC 
  a| 
 La conectividad entre los clústeres de la configuración de MetroCluster es normal.
  a| 
-image:../media/metrocluster_connectivity_optimal.gif[""]
+image:../media/metrocluster_connectivity_optimal.gif["icono de conectividad MetroCluster óptima"]
 
 
 
@@ -31,7 +31,7 @@ Afectados
  a| 
 Uno o varios errores comprometen el estado de disponibilidad de conmutación al nodo de respaldo; sin embargo, ambos clústeres de la configuración de MetroCluster siguen en funcionamiento. Por ejemplo, cuando el enlace ISL está inactivo, cuando el enlace IP del interconexión de clústeres está inactivo o cuando no se puede acceder al clúster asociado.
  a| 
-image:../media/metrocluster_connectivity_impacted.gif[""]
+image:../media/metrocluster_connectivity_impacted.gif["icono de conectividad de MetroCluster afectada"]
 
 
 
@@ -42,10 +42,10 @@ La conectividad entre los clústeres de la configuración de MetroCluster está 
  a| 
 Conmutación de sitios con errores:
 
-image::../media/metrocluster_connectivity_down.gif[conectividad MetroCluster inactiva]
+image::../media/metrocluster_connectivity_down.gif[icono de conectividad de MetroCluster abajo]
 
 Conmutación de sitios correcta:
 
-image::../media/metrocluster_connectivity_failover.gif[recuperación tras fallos en la conectividad MetroCluster]
+image::../media/metrocluster_connectivity_failover.gif[icono de conmutación por error de conectividad de MetroCluster]
 
 |===

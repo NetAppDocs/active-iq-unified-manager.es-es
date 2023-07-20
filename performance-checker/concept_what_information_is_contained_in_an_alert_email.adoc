@@ -19,4 +19,4 @@ Si un contador de rendimiento o un valor de capacidad tiene un cambio grande dur
 
 A continuación se muestra un ejemplo de correo electrónico de alerta:
 
-image::../media/um_email_alert.gif[alerta de correo electrónico de um]
+image::../media/um_email_alert.gif[Una captura de pantalla de la interfaz de usuario que muestra un correo electrónico de alerta de ejemplo.]

@@ -52,14 +52,14 @@ La casilla de verificación situada a la izquierda de cada objeto.
  a| 
 Todos los objetos de la página
  a| 
-La image:../media/select_dropdown_65_png.gif[""] Y seleccione *Seleccionar todos los objetos de esta página*.
+La image:../media/select_dropdown_65_png.gif["seleccione el icono desplegable"] Y seleccione *Seleccionar todos los objetos de esta página*.
 
 
 
  a| 
 Todos los objetos del mismo tipo
  a| 
-La image:../media/select_dropdown_65_png.gif[""] Y seleccione *Seleccionar todos los objetos*.
+La image:../media/select_dropdown_65_png.gif["seleccione el icono desplegable"] Y seleccione *Seleccionar todos los objetos*.
 
 |===
 +

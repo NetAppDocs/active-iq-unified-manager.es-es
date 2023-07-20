@@ -33,7 +33,7 @@ Se muestran los gráficos de contadores con estadísticas del nodo principal, no
 El gráfico detallado de rendimiento. Se muestra la capacidad utilizada.
 
 +
-image::../media/headroom_advanced_zoom_chart.gif[gráfico de zoom avanzado de margen adicional]
+image::../media/headroom_advanced_zoom_chart.gif[Una captura de pantalla de la interfaz de usuario que muestra el gráfico detallado de Perf. Capacidad utilizada.]
 
 . Mueva el cursor por el gráfico detallado para ver la información sobre capacidad de rendimiento utilizada en la ventana emergente.
 +

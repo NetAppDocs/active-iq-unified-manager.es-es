@@ -25,4 +25,4 @@ Las estadísticas de ambos objetos aparecerán en los gráficos de contadores pa
 . En el panel de comparación situado a la derecha de la página del explorador, haga clic en *Zoom View* en uno de los gráficos de contadores para ver detalles sobre el historial de rendimiento de ese agregado.
 
 
-image::../media/monitor_cluster_performance.png[supervise el rendimiento del clúster]
+image::../media/monitor_cluster_performance.png[Una captura de pantalla de la interfaz de usuario que muestra cómo se puede investigar un agregado determinado.]

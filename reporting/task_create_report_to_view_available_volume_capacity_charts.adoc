@@ -24,7 +24,7 @@ Utilice los pasos siguientes para abrir una vista Estado: Todos los volúmenes, 
 . En el panel de navegación izquierdo, haga clic en *almacenamiento* > *volúmenes*.
 . Seleccione *Informes* > *Descargar Excel*.
 +
-image::../media/download_excel_menu.png[descargar menú de excel]
+image::../media/download_excel_menu.png[Una captura de pantalla de la interfaz de usuario que muestra cómo descargar excel de los informes.]
 
 +
 Según el explorador, es posible que tenga que hacer clic en *Aceptar* para guardar el archivo.
@@ -52,7 +52,7 @@ Asegúrese de que la nueva hoja aparece después de las hojas de información y 
 
 ====
 +
-image::../media/move_chart.png[mover la carta]
+image::../media/move_chart.png[Una captura de pantalla de la interfaz de usuario que muestra cómo asignar un nombre a la nueva hoja.]
 
 . Con los menús *Diseño* y *Formato*, disponibles cuando se selecciona el gráfico, puede personalizar el aspecto del gráfico.
 . Cuando esté satisfecho, guarde el archivo con los cambios.
@@ -70,7 +70,7 @@ Asegúrese de que se encuentra en la misma vista en la que descargó el archivo 
 Aparece una Marca de verificación junto al elemento de menú *Informes* > *cargar Excel*.
 
 +
-image::../media/upload_excel.png[cargar excel]
+image::../media/upload_excel.png[Una captura de pantalla de la interfaz de usuario que muestra cómo cargar excel en los informes.]
 
 . Haga clic en *Informes programados*.
 . Haga clic en *Agregar programación* para agregar una nueva fila a la página *programas de informes* de modo que pueda definir las características de programación para el nuevo informe.

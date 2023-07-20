@@ -27,4 +27,4 @@ Este es un ejemplo de una navegación de investigación de eventos.
 . Vea la Descripción del evento y revise las acciones sugeridas (si están disponibles) para ver más detalles sobre el evento que puede ayudarle a resolver el problema. Puede hacer clic en el botón *analizar carga de trabajo* para mostrar gráficos de rendimiento detallados que le ayudarán a analizar el problema.
 
 
-image::../media/event_flow.png[flujo de eventos]
+image::../media/event_flow.png[Captura de pantalla de la interfaz de usuario que muestra una navegación de investigación de eventos.]

@@ -35,7 +35,7 @@ Se muestra el gráfico latencia - componentes del clúster.
 
 . Para ver una versión más grande del gráfico, seleccione *Zoom View*.
 +
-Se muestra el gráfico comparativo de componentes del clúster. Puede restringir la comparación anulando o seleccionando la image:../media/eye_icon.gif[""] que se asocia con cada componente del clúster.
+Se muestra el gráfico comparativo de componentes del clúster. Puede restringir la comparación anulando o seleccionando la image:../media/eye_icon.gif["icono de ojo"] que se asocia con cada componente del clúster.
 
 . Para ver los valores específicos, mueva el cursor hacia el área del gráfico para ver la ventana emergente.
 

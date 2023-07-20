@@ -22,7 +22,7 @@ Normal
  a| 
 La duplicación de datos entre los clústeres de la configuración de MetroCluster es normal.
  a| 
-image:../media/metrocluster_connectivity_optimal.gif[""]
+image:../media/metrocluster_connectivity_optimal.gif["icono de conectividad MetroCluster óptima"]
 
 
 
@@ -33,10 +33,10 @@ El mirroring de datos entre los clústeres de la configuración de MetroCluster 
  a| 
 Conmutación de sitios con errores:
 
-image::../media/metrocluster_connectivity_down.gif[conectividad MetroCluster inactiva]
+image::../media/metrocluster_connectivity_down.gif[icono de conectividad de MetroCluster abajo]
 
 Conmutación de sitios correcta:
 
-image::../media/metrocluster_connectivity_failover.gif[recuperación tras fallos en la conectividad MetroCluster]
+image::../media/metrocluster_connectivity_failover.gif[icono de conmutación por error de conectividad de MetroCluster]
 
 |===

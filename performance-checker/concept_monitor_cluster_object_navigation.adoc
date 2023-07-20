@@ -25,4 +25,4 @@ Este es un ejemplo de muchas posibles navegaciones de objetos de clúster:
 
 Debe investigar estos volúmenes para ver si debe aplicar una política de calidad de servicio o una política de nivel de servicio de rendimiento, o cambiar la configuración de la política, de modo que esos volúmenes no usen un porcentaje de IOPS tan grande en el clúster.
 
-image::../media/monitor_cluster_object.png[supervise el objeto de clúster]
+image::../media/monitor_cluster_object.png[Una captura de pantalla de la interfaz de usuario que muestra un ejemplo de muchas posibles navegaciones de objetos de cluster.]

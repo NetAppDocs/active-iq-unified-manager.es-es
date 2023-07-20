@@ -21,7 +21,7 @@ Hay tres filtros disponibles en la página Management Actions:
 
 
 .Pasos
-. Haga clic en *acciones de administración* en el panel de navegación izquierdo. Como alternativa, haga clic en image:../media/more_icon.gif[""] En la parte superior del panel *acciones de administración* del *Panel* y seleccione la vista que desee ver.
+. Haga clic en *acciones de administración* en el panel de navegación izquierdo. Como alternativa, haga clic en image:../media/more_icon.gif["icono más"] En la parte superior del panel *acciones de administración* del *Panel* y seleccione la vista que desee ver.
 +
 Se muestra la página Management Actions.
 

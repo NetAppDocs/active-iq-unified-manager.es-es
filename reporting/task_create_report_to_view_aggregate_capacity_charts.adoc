@@ -24,7 +24,7 @@ Siga estos pasos para abrir una vista Estado: Todos los agregados, descargar la 
 . En el panel de navegación izquierdo, haga clic en *almacenamiento* > *agregados*.
 . Seleccione *Informes* > *Descargar Excel*.
 +
-image::../media/download_excel_menu.png[descargar menú de excel]
+image::../media/download_excel_menu.png[Una captura de pantalla de la interfaz de usuario que muestra cómo descargar excel de los informes.]
 
 +
 Según el explorador, es posible que tenga que hacer clic en *Aceptar* para guardar el archivo.
@@ -33,7 +33,7 @@ Según el explorador, es posible que tenga que hacer clic en *Aceptar* para guar
 . Si es necesario, haga clic en *Activar edición*.
 . En la hoja de datos, haga clic con el botón derecho del ratón en la columna Tipo y seleccione *Ordenar* > *Ordenar De La A a la Z*.
 +
-image::../media/sort_01.png[ordenar 01]
+image::../media/sort_01.png[Una captura de pantalla de la interfaz de usuario que muestra cómo seleccionar Ordenar en la columna de tipo.]
 
 +
 Esto organizará sus datos por tipo de almacenamiento, como:
@@ -51,7 +51,7 @@ Esto organizará sus datos por tipo de almacenamiento, como:
 El gráfico aparece en la hoja de datos.
 
 +
-image::../media/3d_column_01.png[columna 3d 01]
+image::../media/3d_column_01.png[Una captura de pantalla de la interfaz de usuario que muestra el gráfico de columnas 3D.]
 
 . Haga clic con el botón derecho del ratón en el gráfico y seleccione *mover gráfico*.
 . Seleccione *Nueva hoja* y asigne un nombre a la hoja *total Storage Charts*.
@@ -65,7 +65,7 @@ Asegúrese de que la nueva hoja aparece después de las hojas de información y 
 . Con los menús *Diseño* y *Formato*, disponibles cuando se selecciona el gráfico, puede personalizar el aspecto del gráfico.
 . Cuando esté satisfecho, guarde el archivo con los cambios. No cambie el nombre ni la ubicación del archivo.
 +
-image::../media/total_vs_available_capacity.png[total frente a la capacidad disponible]
+image::../media/total_vs_available_capacity.png[Una captura de pantalla de la interfaz de usuario que muestra un gráfico de capacidad total versus disponible.]
 
 . En Unified Manager, seleccione *Informes* > *cargar Excel*.
 +
@@ -81,7 +81,7 @@ Asegúrese de que se encuentra en la misma vista en la que descargó el archivo 
 Aparece una Marca de verificación junto al elemento de menú *Informes* > *cargar Excel*.
 
 +
-image::../media/upload_excel.png[cargar excel]
+image::../media/upload_excel.png[Una captura de pantalla de la interfaz de usuario que muestra cómo cargar excel en los informes.]
 
 . Haga clic en *Informes programados*.
 . Haga clic en *Agregar programación* para agregar una nueva fila a la página *programas de informes* de modo que pueda definir las características de programación para el nuevo informe.

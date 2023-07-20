@@ -18,7 +18,7 @@ La mayoría de los eventos tienen diversas resoluciones posibles que se muestran
 .Pasos
 . Para ver los eventos que se pueden solucionar desde *Panel*, haga clic en *Panel*.
 +
-image::../media/management_actions.png[acciones de gestión]
+image::../media/management_actions.png[Una captura de pantalla de la interfaz de usuario que muestra cómo ver y corregir eventos desde el panel.]
 
 . Para resolver cualquiera de los problemas que Unified Manager puede solucionar, haga clic en el botón *Fix it*. Para solucionar un problema que existe en varios objetos, haga clic en el botón *solucionar todo*.
 

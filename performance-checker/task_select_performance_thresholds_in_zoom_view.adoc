@@ -18,7 +18,7 @@ La selección de umbrales en la vista de zoom de gráficos de contador permite v
 Sólo se puede aplicar una directiva cada vez al objeto en la vista Zoom de los gráficos de contador.
 
 .Paso
-. Seleccione o anule la selección de image:../media/eye_icon.gif[""] esto está asociado a una política.
+. Seleccione o anule la selección de image:../media/eye_icon.gif["icono de ojo"] esto está asociado a una política.
 +
 El umbral seleccionado se aplica a la vista de zoom de Counter Charts. Los umbrales críticos se muestran como una línea roja; los umbrales de advertencia se muestran como una línea amarilla.
 

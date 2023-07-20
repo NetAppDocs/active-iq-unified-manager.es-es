@@ -45,7 +45,7 @@ Seleccione la casilla de verificación situada a la izquierda de cada objeto.
  a| 
 Todos los objetos de la página
  a| 
-Haga clic en image:../media/select_dropdown_65_png.gif[""] en el encabezado de la columna.
+Haga clic en image:../media/select_dropdown_65_png.gif["seleccione el icono desplegable"] en el encabezado de la columna.
 
 |===
 . Haga clic en *Borrar Directiva de umbral de rendimiento*.

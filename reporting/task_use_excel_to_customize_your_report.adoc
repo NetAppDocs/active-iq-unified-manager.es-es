@@ -40,7 +40,7 @@ Por ejemplo, algunas de las características avanzadas de Excel que puede utiliz
 ** No asigne un nombre a una nueva hoja de datos o información.
 
 
-* Si existe un archivo de Excel personalizado, hay una Marca de verificación junto al elemento de menú *Informes* > *cargar Excel*. Al descargar el archivo de Excel, se utiliza la versión con las personalizaciones.image:../media/upload_excel.png[""]
+* Si existe un archivo de Excel personalizado, hay una Marca de verificación junto al elemento de menú *Informes* > *cargar Excel*. Al descargar el archivo de Excel, se utiliza la versión con las personalizaciones.image:../media/upload_excel.png["Una captura de pantalla de la interfaz de usuario que muestra cómo cargar excel en los informes."]
 
 
 ====

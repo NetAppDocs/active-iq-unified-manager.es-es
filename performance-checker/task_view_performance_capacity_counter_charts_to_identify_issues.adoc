@@ -28,7 +28,7 @@ Dado que algunas actividades en segundo plano asociadas a la gestión de datos y
 Los colores del gráfico estándar muestran cuando el objeto está en el rango óptimo (amarillo), cuando el objeto está subutilizado (verde) y cuando el objeto está sobreutilizado (rojo). El gráfico detallado muestra detalles detallados de capacidad de rendimiento solo para el objeto raíz.
 
 +
-image::../media/headroom_counter_charts.gif[gráficos de contadores de margen adicional]
+image::../media/headroom_counter_charts.gif[Una captura de pantalla de la interfaz de usuario que muestra el gráfico de desglose con capacidad de rendimiento detallada solo para el objeto raíz.]
 
 . Si desea ver cualquiera de los gráficos en formato de tamaño completo, haga clic en *Zoom View*.
 +

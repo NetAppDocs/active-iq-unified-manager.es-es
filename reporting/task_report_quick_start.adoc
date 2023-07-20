@@ -32,7 +32,7 @@ Siga estos pasos para:
 . En el menú Ver, seleccione *rendimiento* > *todos los volúmenes*.
 . Haga clic en *Mostrar/Ocultar* para asegurarse de que la columna "tipos de disco" aparece en la vista.
 +
-image::../media/show_hide_3.png[mostrar ocultar 3]
+image::../media/show_hide_3.png[Una captura de pantalla de la interfaz de usuario que muestra la lista desplegable del menú Mostrar/Ocultar.]
 
 +
 Agregue o elimine otras columnas para crear una vista que contenga los campos que son importantes para el informe.
@@ -42,7 +42,8 @@ Agregue o elimine otras columnas para crear una vista que contenga los campos qu
 +
 ** Los tipos de disco contienen FabricPool
 ** Las recomendaciones de cloud contienen nivel
-** Datos fríos superiores a 10 GBimage:../media/filter_cold_data_2.png[""]
+** Datos fríos superiores a 10 GB
+image:../media/filter_cold_data_2.png["Una captura de pantalla de la interfaz de usuario que muestra cómo aplicar el filtro desde la opción de filtro."]
 
 
 +
@@ -51,7 +52,7 @@ Tenga en cuenta que cada filtro está Unido a un valor lógico Y que todos los v
 . Haga clic en la parte superior de la columna datos fríos para ordenar los resultados de modo que los volúmenes con datos más fríos aparezcan en la parte superior de la vista.
 . Cuando la vista está personalizada, el nombre de la vista es Vista no guardada. Nombre la vista para reflejar lo que muestra la vista, por ejemplo «'Vols change Tiering policy»». Cuando haya terminado, haga clic en la Marca de verificación o pulse *Intro* para guardar la vista con el nuevo nombre.
 +
-image::../media/report_vol_code_data_2.png[informe de datos de códigos vol. 2]
+image::../media/report_vol_code_data_2.png[Una captura de pantalla de la interfaz de usuario que muestra la página de política de organización en niveles de cambio de Vols con las columnas necesarias en el orden correcto.]
 
 . Descargue el informe como un archivo *CSV*, *Excel* o *PDF* para ver el resultado antes de programarlo o compartirlo.
 +
@@ -68,7 +69,7 @@ Para obtener más información acerca de cómo personalizar informes con Excel, 
 
 . Haga clic en el botón *Informes programados* de la página de inventario. Todos los informes programados relacionados con el objeto, en este caso volúmenes, aparecen en la lista.
 +
-image::../media/scheduled_reports_3.gif[informes programados 3]
+image::../media/scheduled_reports_3.gif[Una captura de pantalla de la interfaz de usuario que muestra todos los informes programados relacionados con el objeto.]
 
 . Haga clic en *Agregar programación* para agregar una nueva fila a la página programas de informes de modo que pueda definir las características de programación para el nuevo informe.
 . Introduzca un nombre para el informe y complete los demás campos de informe y, a continuación, haga clic en la Marca de verificación (image:../media/blue_check.gif[""]) al final de la fila.
@@ -79,13 +80,13 @@ El informe se envía inmediatamente como prueba. Después de esto, el informe ge
 El siguiente informe de ejemplo tiene el formato CSV:
 
 +
-image::../media/csv_sample_report.gif[informe de ejemplo csv]
+image::../media/csv_sample_report.gif[Una captura de pantalla de la interfaz de usuario que muestra un informe de muestra en formato CSV.]
 
 +
 El siguiente informe de ejemplo está en formato PDF:
 
 +
-image::../media/pdf_sample_report.gif[ejemplo de informe en pdf]
+image::../media/pdf_sample_report.gif[Una captura de pantalla de la interfaz de usuario que muestra un informe de ejemplo en formato PDF.]
 
 
 

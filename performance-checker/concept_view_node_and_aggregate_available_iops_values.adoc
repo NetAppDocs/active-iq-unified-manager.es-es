@@ -15,7 +15,7 @@ Puede supervisar los valores de IOPS disponibles para todos los nodos o todos lo
 
 Los valores de IOPS disponibles se muestran en las páginas Performance Inventory y en los gráficos de página Performance Explorer para nodos y agregados. Por ejemplo, al ver un nodo en la página Node/Performance Explorer, puede seleccionar el gráfico de contadores «'Available IOPS'» de la lista para poder comparar los valores de IOPS disponibles para el nodo y varios agregados de ese nodo.
 
-image::../media/available_iops_zoom.gif[disponible con zoom de iops]
+image::../media/available_iops_zoom.gif[Una captura de pantalla de la interfaz de usuario que muestra cómo puede ver un nodo en la página del Explorador de Nodos/Rendimiento y seleccionar la “IOPS disponibles” de la lista.]
 
 La supervisión del contador de IOPS disponible le permite identificar:
 

@@ -28,4 +28,4 @@ Los recursos de almacenamiento lógico incluyen volúmenes de todos los tipos y 
 
 En la siguiente ilustración, se muestran los recursos de almacenamiento en un clúster de 2 nodos:
 
-image::../media/storage_resource_model.gif[modelo de recursos de almacenamiento]
+image::../media/storage_resource_model.gif[Una captura de pantalla de la interfaz de usuario que muestra los recursos de almacenamiento en un clúster de 2 nodos.]

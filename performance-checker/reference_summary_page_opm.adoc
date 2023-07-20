@@ -64,7 +64,7 @@ Al colocar el cursor sobre el número de eventos de eventos activos, se muestra 
 
 El número situado en la parte superior derecha del gráfico en la barra gris es el valor medio del último período de 72 horas. Los números que se muestran en la parte inferior y superior del gráfico de líneas de tendencia son los valores mínimo y máximo del último período de 72 horas. La barra gris debajo del gráfico contiene el recuento de eventos activos (nuevos y reconocidos) y eventos obsoletos del último período de 72 horas.
 
-image::../media/iops_graph.gif[gráfico iops]
+image::../media/iops_graph.gif[Una captura de pantalla de interfaz de usuario que muestra el gráfico IOPS.]
 
 * *Tabla de contadores de latencia*
 +

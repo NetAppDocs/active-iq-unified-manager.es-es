@@ -15,7 +15,7 @@ La página de destino de Performance Cluster proporciona una descripción genera
 
 La página de destino de clúster de rendimiento proporciona una descripción general de todos los clústeres que gestiona una instancia de Unified Manager. Esta página proporciona información sobre eventos y rendimiento, y permite supervisar y solucionar problemas de los clústeres. En la siguiente imagen, se muestra un ejemplo de la página de destino de Performance Cluster para el clúster denominado opm-motion:
 
-image::../media/opm_cluster_landing_page_draft.gif[borrador de página de destino de clústeres de opm]
+image::../media/opm_cluster_landing_page_draft.gif[Una captura de pantalla de interfaz de usuario que muestra un ejemplo de la página de destino del clúster de rendimiento denominada opm-mobility.]
 
 El recuento de eventos en la página Cluster Summary puede no coincidir con el recuento de eventos en la página Performance Event Inventory. Esto se debe a que la página Cluster Summary puede mostrar un evento cada una de las barras de latencia y uso cuando se han incumplido las políticas de umbral de combinación, mientras que la página Performance Event Inventory muestra solo un evento cuando se ha incumplido una política de combinación.
 

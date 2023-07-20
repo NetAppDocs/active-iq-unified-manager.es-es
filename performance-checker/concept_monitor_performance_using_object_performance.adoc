@@ -15,7 +15,7 @@ Las páginas de rendimiento del inventario de objetos muestran información de r
 
 Las páginas de rendimiento del inventario de objetos proporcionan una descripción general de alto nivel del estado del objeto, lo que permite evaluar el rendimiento general de todos los objetos y comparar los datos de rendimiento del objeto. Para refinar el contenido de páginas de inventario de objetos, realice búsquedas, ordenaciones y filtros. Esto resulta beneficioso para la supervisión y la gestión del rendimiento de objetos, ya que permite localizar rápidamente objetos con problemas de rendimiento y comenzar el proceso de solución de problemas.
 
-image::../media/perf_node_inventory.gif[inventario del nodo de rendimiento]
+image::../media/perf_node_inventory.gif[Una captura de pantalla de la interfaz de usuario que muestra los detalles del objeto en la página de inventario Performance/All Nodes.]
 
 De forma predeterminada, los objetos de las páginas del inventario de rendimiento se ordenan en función del nivel de importancia del rendimiento del objeto. Los objetos con nuevos eventos críticos de rendimiento se enumeran primero y los objetos con eventos de advertencia se muestran en segundo lugar. Esto proporciona una indicación visual inmediata de los problemas que deben abordarse. Todos los datos de rendimiento se basan en un promedio de 72 horas.
 

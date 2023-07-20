@@ -15,7 +15,7 @@ La capacidad de rendimiento utilizada contador ayuda a identificar si el rendimi
 
 La capacidad de rendimiento óptima utilizada es el punto en el que un nodo o un agregado tienen una utilización y una latencia óptimas (tiempo de respuesta) y se utiliza con eficiencia. En la siguiente figura, se muestra una muestra de latencia frente a utilización de un agregado.
 
-image::../media/headroom_chart.gif[gráfico margen adicional]
+image::../media/headroom_chart.gif[Una captura de pantalla de la interfaz de usuario que muestra una latencia de ejemplo en comparación con la curva de uso de un agregado.]
 
 En este ejemplo, el _operational point_ identifica que el agregado está funcionando actualmente con una utilización del 50% con una latencia de 1.0 ms/op. A partir de las estadísticas extraídas del agregado, Unified Manager determina que se dispone de capacidad de rendimiento adicional para este agregado. En este ejemplo, el _optimal point_ se identifica como el punto en el que el agregado está a 80% de utilización con una latencia de 2.0 ms/op. Por tanto, puede añadir más volúmenes y LUN a este agregado para que sus sistemas se utilicen de forma más eficiente.
 

@@ -24,6 +24,6 @@ En el menú desplegable de la vista, los elementos con el icono de eliminación 
 
 
 ====
-image::../media/view_drop_down_3.png[vista desplegable 3]
+image::../media/view_drop_down_3.png[Una captura de pantalla de la interfaz de usuario de la lista desplegable Ver.]
 
 Sólo los usuarios con la función Administrador de aplicaciones o Administrador de almacenamiento pueden ver el icono de eliminar, cambiar o eliminar una vista, o cambiar o eliminar un informe programado.

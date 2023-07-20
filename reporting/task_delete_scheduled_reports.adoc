@@ -21,7 +21,7 @@ Una vez programados los informes, puede eliminarlos de la página programas de i
 .Pasos
 . En el panel de navegación izquierdo, haga clic en *Administración de almacenamiento* > *programas de informes*.
 +
-image::../media/scheduled_reports_2.gif[informes programados 2]
+image::../media/scheduled_reports_2.gif[Una captura de pantalla de la interfaz de usuario que muestra informes programados.]
 
 +
 [NOTE]

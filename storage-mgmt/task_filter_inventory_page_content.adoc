@@ -61,6 +61,6 @@ Puede agregar filtros mediante el panel filtrado.
 
 La ilustración muestra el panel filtrado con tres filtros. El botón *+Add Filter* aparece cuando tiene menos de cuatro filtros como máximo.
 
-image::../media/opm_filtering_panel_draft_3.gif[borrador del panel de filtrado de opm 3]
+image::../media/opm_filtering_panel_draft_3.gif[Una captura de pantalla de la interfaz de usuario que muestra el panel de filtrado con tres filtros.]
 
 Después de hacer clic en *aplicar filtro*, el panel filtrado se cierra, aplica los filtros y muestra el número de filtros aplicados (image:../media/opm_filters_applied.gif[""]).

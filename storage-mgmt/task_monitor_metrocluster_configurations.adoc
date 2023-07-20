@@ -49,7 +49,7 @@ La topología de la configuración de MetroCluster se muestra en el área de obj
 
 
 
-image::../media/node_switch_connectivity.gif[conectividad del switch de nodo]
+image::../media/node_switch_connectivity.gif[icono de conectividad de switch de nodo]
 
 Si mueve el puntero sobre el icono, puede ver información detallada sobre el evento generado.
 
@@ -86,7 +86,7 @@ NOTE: Se informa de los siguientes Estados: Crítico (image:sev_critical_um60.pn
 En el siguiente diagrama, puede ver que la conectividad entre sitios entre los clústeres de origen y destino no está disponible y que el Mediator entre ellos no está configurado.
 
 +
-image:mcc-ip-conn-status.png[""]
+image:mcc-ip-conn-status.png["Una captura de pantalla de la interfaz de usuario que muestra la topología de los sitios de origen y reflejo, así como el Mediator."]
 
 
 

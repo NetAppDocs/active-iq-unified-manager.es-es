@@ -15,7 +15,7 @@ Los eventos que activan una conmutación de sitios o una conmutación de estado 
 
 Dado que los volúmenes se mueven de un clúster a otro, se recomienda supervisar ambos clústeres. Una única instancia de Unified Manager puede supervisar ambos clústeres en una configuración de MetroCluster, pero en ocasiones la distancia entre las dos ubicaciones requiere el uso de dos instancias de Unified Manager para supervisar ambos clústeres. En la siguiente figura, se muestra una sola instancia de Unified Manager:
 
-image::../media/opm_mcc_switchover.gif[switchover de opm mcc]
+image::../media/opm_mcc_switchover.gif[Una captura de pantalla de la interfaz de usuario que muestra una única instancia de Unified Manager.]
 
 Los volúmenes con p en sus nombres indican los volúmenes primarios, y los volúmenes con b en sus nombres son volúmenes de backup reflejados creados por SnapMirror.
 
@@ -45,7 +45,7 @@ Tenga en cuenta que Vol3p y Vol3b no son los mismos volúmenes, ya que se encuen
 
 Cuando se repara el clúster B y se realiza una conmutación de regreso, Vol3p vuelve a estar activo en el clúster B, con las estadísticas históricas y una brecha de estadísticas para el período durante el cambio. Vol3b no se puede ver desde el clúster A hasta que se produzca otra conmutación:
 
-image::../media/opm_mcc_volumes.gif[volúmenes de mcc de opm]
+image::../media/opm_mcc_volumes.gif[Una captura de pantalla de la interfaz de usuario que muestra el comportamiento del volumen durante la conmutación de sitios.]
 
 [NOTE]
 ====

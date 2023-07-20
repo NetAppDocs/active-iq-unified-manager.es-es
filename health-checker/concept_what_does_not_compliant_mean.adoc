@@ -15,9 +15,9 @@ Los clústeres y las máquinas virtuales de almacenamiento (SVM) no se considera
 
 Los iconos de estado de las tarjetas de seguridad tienen los siguientes significados en relación con su cumplimiento:
 
-* image:../media/sev_normal_um60.png[""] - El parámetro está configurado como se recomienda.
-* image:../media/sev_warning_um60.png[""] - El parámetro no está configurado como se recomienda.
-* image:../media/sev_information_um60.gif[""] - O bien la funcionalidad no está habilitada en el clúster, o bien el parámetro no está configurado como recomendado, pero este parámetro no contribuye al cumplimiento del objeto.
+* image:../media/sev_normal_um60.png["icono de marca de verificación verde normal"] - El parámetro está configurado como se recomienda.
+* image:../media/sev_warning_um60.png["icono de advertencia"] - El parámetro no está configurado como se recomienda.
+* image:../media/sev_information_um60.gif["icono de información"] - O bien la funcionalidad no está habilitada en el clúster, o bien el parámetro no está configurado como recomendado, pero este parámetro no contribuye al cumplimiento del objeto.
 
 
 Tenga en cuenta que el estado del cifrado de volúmenes no contribuye a si el clúster o SVM se consideran conformes.

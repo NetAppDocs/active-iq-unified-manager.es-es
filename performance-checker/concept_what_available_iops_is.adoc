@@ -23,7 +23,7 @@ Por ejemplo, si se utiliza un par de sistemas de almacenamiento FAS2520 y FAS806
 
 En la siguiente figura, se muestra una muestra de latencia frente a curva de IOPS de un nodo.
 
-image::../media/available_iops.gif[iops disponible]
+image::../media/available_iops.gif[Una captura de pantalla de interfaz de usuario que muestra una latencia de ejemplo frente a la curva de IOPS para un nodo.]
 
 El número máximo de IOPS que puede proporcionar un recurso es el número de IOPS cuando la capacidad de rendimiento utilizada es del 100 % (el punto óptimo). El punto operativo identifica que el nodo funciona actualmente a 100 000 IOPS con una latencia de 1.0 ms/op. Según las estadísticas capturadas del nodo, Unified Manager determina que la tasa de IOPS máxima para el nodo es de 160K, lo que significa que hay 60K de IOPS libre o disponible. Por lo tanto, puede añadir más cargas de trabajo a este nodo para que sus sistemas se usen con mayor eficiencia.
 

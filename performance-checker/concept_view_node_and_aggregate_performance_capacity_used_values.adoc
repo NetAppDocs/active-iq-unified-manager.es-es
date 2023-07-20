@@ -15,7 +15,7 @@ Puede supervisar los valores de capacidad de rendimiento usada para todos los no
 
 Los valores de capacidad utilizada de rendimiento se muestran en las páginas Dashboard, Performance Inventory, Top Performers, la página Create Threshold Policy, las páginas Performance Explorer y los gráficos detallados. Por ejemplo, la página Performance: All Aggregates proporciona una columna Performance capacidad utilizada para ver el valor de capacidad de rendimiento utilizada para todos los agregados.
 
-image::../media/node_inventory_used_headroom.gif[el inventario de nodos utilizado tiene un margen adicional]
+image::../media/node_inventory_used_headroom.gif[Una captura de pantalla de interfaz de usuario de la página Performance: All Aggregates]
 
 La supervisión de la capacidad de rendimiento utilizada contador permite identificar los siguientes aspectos:
 

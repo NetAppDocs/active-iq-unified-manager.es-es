@@ -24,11 +24,11 @@ Después de actualizar a Unified Manager 9.6 GA o una versión posterior, la pá
 .Pasos
 . Abra la página programas de informes. Si ha importado informes, aparece un mensaje.
 +
-image::../media/message_non_scehduled_reports.png[mensajes no scehdulled informes]
+image::../media/message_non_scehduled_reports.png[Aparece una captura de pantalla de la interfaz de usuario que muestra el mensaje si hay informes importados.]
 
 . Haga clic en el nombre *View* para mostrar la consulta SQL que se utiliza para generar el informe.
 +
-image::../media/importedreport1.png[importedinforme1]
+image::../media/importedreport1.png[Una captura de pantalla de la interfaz de usuario que muestra la consulta SQL utilizada para generar el informe.]
 
 . Haga clic en el icono más image:../media/more_icon.gif[""], Haga clic en *Editar*, defina los detalles de la programación del informe y guarde el informe.
 +

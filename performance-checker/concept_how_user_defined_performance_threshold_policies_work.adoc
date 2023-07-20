@@ -30,7 +30,7 @@ La versión actual proporciona umbrales que envían eventos cuando un valor de c
 ====
 Se muestra un gráfico de contadores de ejemplo aquí, lo que indica que se incumplido un umbral de advertencia (icono amarillo) a las 1:00, y que se violó un umbral crítico (icono rojo) a las 12:10, 12:30 y 1:10:
 
-image::../media/opm2_threshold_breach.gif[incumplimiento del umbral de opm2]
+image::../media/opm2_threshold_breach.gif[Captura de pantalla de la interfaz de usuario que muestra un gráfico de contador de ejemplo.]
 
 Se debe producir una infracción de umbral continuamente durante la duración especificada. Si el umbral cae por debajo de los valores límite por cualquier motivo, una infracción posterior se considera el inicio de una nueva duración.
 

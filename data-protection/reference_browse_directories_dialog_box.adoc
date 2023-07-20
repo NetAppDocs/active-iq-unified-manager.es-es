@@ -33,7 +33,7 @@ Permite escribir la ruta del archivo en el que desea restaurar los datos. La rut
 
 * *Nombre*
 +
-Muestra los nombres de las carpetas disponibles para el volumen seleccionado. Al hacer clic en una carpeta de la lista Nombre se muestran las subcarpetas, si existen. Los archivos contenidos en las carpetas no se muestran. Haga clic en image:../media/icon_upfolder.gif[""] después de seleccionar una carpeta, sube un nivel en la estructura de directorios.
+Muestra los nombres de las carpetas disponibles para el volumen seleccionado. Al hacer clic en una carpeta de la lista Nombre se muestran las subcarpetas, si existen. Los archivos contenidos en las carpetas no se muestran. Haga clic en image:../media/icon_upfolder.gif["icono upfolder"] después de seleccionar una carpeta, sube un nivel en la estructura de directorios.
 
 
 

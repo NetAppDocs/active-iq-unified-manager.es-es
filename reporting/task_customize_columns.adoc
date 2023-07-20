@@ -16,7 +16,7 @@ Utilice *Mostrar/Ocultar* para seleccionar las columnas que desea utilizar en el
 .Pasos
 . Haga clic en *Mostrar/Ocultar* para añadir o eliminar columnas.
 +
-image::../media/show_hide_3.png[mostrar ocultar 3]
+image::../media/show_hide_3.png[Una captura de pantalla de la interfaz de usuario que muestra cómo agregar o eliminar columnas.]
 
 . En la página de inventario, arrastre columnas para reorganizarlas en el orden que desee del informe.
 . Asigne un nombre a la vista sin guardar para guardar los cambios.

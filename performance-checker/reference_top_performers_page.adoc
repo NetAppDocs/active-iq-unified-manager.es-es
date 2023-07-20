@@ -50,7 +50,7 @@ Haga clic en el menú *Ordenar* para seleccionar un orden ascendente o descenden
 La barra de contador del gráfico muestra las estadísticas de rendimiento de cada objeto, representada como una barra para ese elemento. Los gráficos de barras están codificados con colores. Si el contador no está violando un umbral de rendimiento, la barra de contador se muestra en azul. Si una infracción de umbral está activa (un evento nuevo o confirmado), la barra se muestra en color para el evento: Los sucesos de advertencia se muestran en amarillo (image:../media/treemapstatus_warning_png.gif["Icono para TreeMap: Estado de advertencia"]) y los sucesos críticos se muestran en rojo (image:../media/treemapred_png.gif["Icono para TreeMap: Color rojo"]). Las infracciones de umbral se indican aún más mediante iconos de indicadores de eventos de gravedad para los eventos de advertencia y críticos.
 
 +
-image::../media/top_10_example.gif[ejemplo de los 10 primeros]
+image::../media/top_10_example.gif[Una captura de pantalla de la interfaz de usuario que muestra las estadísticas de rendimiento de cada objeto representado como barra de contador en el gráfico.]
 
 +
 Para cada gráfico, el eje X muestra los ejecutantes superiores del tipo de objeto seleccionado. El eje y muestra las unidades aplicables al contador seleccionado. Al hacer clic en el enlace del nombre del objeto debajo de cada elemento de gráfico de barras vertical, se desplaza hasta la página de inicio de rendimiento del objeto seleccionado.

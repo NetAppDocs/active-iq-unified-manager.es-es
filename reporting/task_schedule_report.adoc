@@ -27,7 +27,7 @@ Utilice los pasos siguientes para probar y programar un informe que se generará
 . Personalice la vista según sea necesario con las funciones integradas de Unified Manager.
 . Después de personalizar la vista, puede proporcionar un nombre único en el campo *Ver* y hacer clic en la Marca de verificación para guardarla.
 +
-image::../media/view_save.gif[ver guardar]
+image::../media/view_save.gif[Una captura de pantalla de la interfaz de usuario que muestra cómo guardar una vista.]
 
 . Puede utilizar las características avanzadas de Microsoft® Excel para personalizar el informe. Para obtener más información, consulte link:task_use_excel_to_customize_your_report.html["Uso de Excel para personalizar el informe"].
 . Para ver el resultado antes de programarlo o compartirlo:
@@ -67,7 +67,7 @@ Para los informes en los que utilizó Excel para personalizar el contenido, sele
 ====
 . Haga clic en la Marca de verificación (image:../media/blue_check.gif[""]) para guardar la programación del informe.
 +
-image::../media/scheduled_reports.gif[informes programados]
+image::../media/scheduled_reports.gif[Una captura de pantalla de la interfaz de usuario que muestra cómo guardar la programación del informe.]
 
 +
 El informe se envía inmediatamente como prueba. Después de esto, el informe genera y se envía por correo electrónico a los destinatarios enumerados utilizando la frecuencia programada.

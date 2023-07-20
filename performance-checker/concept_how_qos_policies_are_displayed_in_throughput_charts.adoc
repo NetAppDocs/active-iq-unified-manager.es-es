@@ -51,7 +51,7 @@ Muestra «»(QoS adaptativo)».
 |===
 En la siguiente figura, se muestra un ejemplo de cómo se muestran las tres opciones en los gráficos de contadores.
 
-image::../media/3_qos_policy_charts.gif[3 gráficos de políticas de calidad de servicio]
+image::../media/3_qos_policy_charts.gif[Una captura de pantalla de la interfaz de usuario que muestra un ejemplo de cómo se muestran las tres opciones en los gráficos de contadores.]
 
 Cuando se muestra una política de calidad de servicio normal definida en IOPS en el gráfico IOPS/TB para una carga de trabajo, ONTAP convierte el valor de IOPS en un valor de IOPS/TB y Unified Manager muestra esa política en el gráfico IOPS/TB junto con el texto «"QoS, definida en IOPS».
 

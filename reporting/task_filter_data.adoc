@@ -16,7 +16,7 @@ Filtre los datos para asegurarse de que los resultados coinciden con los requisi
 .Pasos
 . Haga clic en el icono de filtro para agregar filtros para enfocar los resultados que desea ver y, a continuación, haga clic en *aplicar filtro*.
 +
-image::../media/filter_cold_data_2.png[filtrar datos fríos 2]
+image::../media/filter_cold_data_2.png[Una captura de pantalla de la interfaz de usuario que muestra cómo puede agregar y aplicar un filtro.]
 
 . Asigne un nombre a la vista sin guardar para guardar los cambios.
 

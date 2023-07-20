@@ -15,7 +15,7 @@ El valor de capacidad de rendimiento utilizada le ayuda a identificar los nodos 
 
 En la siguiente figura, se muestra la curva de latencia frente a utilización de un recurso e se identifican, con puntos de color, tres áreas en las que se podría ubicar el punto operativo actual.
 
-image::../media/headroom_chart_over_under.gif[gráfico de margen adicional encima de]
+image::../media/headroom_chart_over_under.gif[Una captura de pantalla de la interfaz de usuario que muestra la latencia en comparación con la curva de utilización de un recurso.]
 
 * Un porcentaje de capacidad de rendimiento utilizada igual a 100 se encuentra en el punto óptimo.
 +
