@@ -17,13 +17,17 @@ Puede realizar una actualización a una versión más reciente de OpenJDK en el 
 
 Debe tener privilegios de administrador de Windows en el sistema en el que está instalado Unified Manager.
 
-Puede actualizar versiones de OpenJDK dentro de las familias de versiones. Por ejemplo, puede actualizar de OpenJDK 11.0.14 a OpenJDK 11.0.16, pero no puede actualizar directamente de OpenJDK 11 a OpenJDK 12.
+Puede actualizar versiones de OpenJDK dentro de las familias de versiones. Por ejemplo, puede actualizar de OpenJDK 11.0.16 a OpenJDK 11,0.18, pero no puede actualizar directamente de OpenJDK 11 a OpenJDK 12.
 
 .Pasos
 . Inicie sesión como usuario administrador en la máquina host de Unified Manager.
 . Descargue la versión adecuada de OpenJDK (64 bits) del sitio OpenJDK en el sistema de destino.
 +
-Por ejemplo, descargar `openjdk-11_windows-x64_bin.zip from http://jdk.java.net/11/`.
+Por ejemplo, descargar `jdk-11.0.18_windows-x64_bin.zip from https://www.oracle.com/in/java/technologies/javase/jdk11-archive-downloads.html`.
+
++
+
+NOTE:  Se necesita una cuenta de Oracle para descargar el archivo. Si no tiene una cuenta de Oracle, vaya a. link:https://login.oracle.com/mysso/signon.jsp?request_id=007["Inicio de sesión de la cuenta de Oracle"] página para crear una.
 
 . Utilice la consola de servicios de Windows para detener los siguientes servicios de Unified Manager:
 +
@@ -32,7 +36,7 @@ Por ejemplo, descargar `openjdk-11_windows-x64_bin.zip from http://jdk.java.net/
 
 
 . Expanda el `zip` archivo.
-. Copie los directorios y archivos del resultado `jdk` directorio (por ejemplo, `jdk-11.0.16` A la ubicación donde está instalado Java. Ejemplo: `C:\Program Files\NetApp\JDK\`
+. Copie los directorios y archivos del resultado `jdk` directorio (por ejemplo, `jdk-11.0.18` A la ubicación donde está instalado Java. Ejemplo: `C:\Program Files\NetApp\JDK\`
 . Inicie los servicios de Unified Manager mediante la consola de servicios de Windows:
 +
 ** Servicio de servidores de gestión de Active IQ de NetApp (Oncommandsvc)

@@ -31,7 +31,7 @@ http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"]
 
 == Software de terceros
 
-Unified Manager se ha puesto en marcha en un servidor web de WildFly. WildFly 19.0.0 se incluye y configura con Unified Manager.
+Unified Manager se ha puesto en marcha en un servidor web de WildFly. WildFly 26.1.3 se incluye y configura con Unified Manager.
 
 Se requieren los siguientes paquetes de terceros, pero no se incluyen con Unified Manager. Estos paquetes son instalados automáticamente por el `yum` instalador durante la instalación, siempre que haya configurado los repositorios como se menciona en las siguientes secciones.
 

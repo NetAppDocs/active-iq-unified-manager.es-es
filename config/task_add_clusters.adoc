@@ -48,7 +48,8 @@ La autenticación basada en certificado no se habilita automáticamente para un 
 +
 [NOTE]
 ====
-*** La autenticación basada en certificados se habilita automáticamente si se añade un clúster de la interfaz de usuario web de. Si agrega un clúster desde la consola de mantenimiento, la autenticación basada en certificados no está habilitada.
+*** Puede añadir un clúster desde la interfaz de usuario web y la autenticación basada en certificado se habilita automáticamente.
+*** Puede añadir un clúster mediante la CLI de Unified Manager, la autenticación basada en certificado no está habilitada de forma predeterminada. Si se añade un clúster mediante la CLI de Unified Manager, se deberá editar el clúster mediante la interfaz de usuario de Unified Manager. Puede ver link:https://docs.netapp.com/us-en/active-iq-unified-manager/events/reference_supported_unified_manager_cli_commands.html["Comandos de CLI de Unified Manager compatibles"] Para añadir un clúster mediante la interfaz de línea de comandos de Unified Manager.
 *** Si la autenticación basada en certificados está habilitada para un clúster, y realiza el backup de Unified Manager desde un servidor y la restauración a otro servidor de Unified Manager donde se cambia el nombre de host o la dirección IP, la supervisión del clúster puede fallar. Para evitar el error, edite y guarde los detalles del clúster. Para obtener más información sobre cómo editar detalles del clúster, consulte link:../storage-mgmt/task_edit_clusters.html["Editar clústeres"].
 
 

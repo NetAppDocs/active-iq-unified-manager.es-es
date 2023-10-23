@@ -71,6 +71,8 @@ entries:
   entries:
   - title: Ver y añadir vCenter Server
     url: "/storage-mgmt/task_view_and_add_vcenter_servers.html"
+  - title: Quitando vCenter Server
+    url: "/storage-mgmt/task_remove_vcenter_server.html"
   - title: Supervisar máquinas virtuales
     url: "/storage-mgmt/concept_monitor_vms.html"
   - title: Visualización de la infraestructura virtual en una configuración de recuperación

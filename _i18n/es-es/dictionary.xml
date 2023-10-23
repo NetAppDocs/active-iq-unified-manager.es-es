@@ -8924,7 +8924,6 @@
   <block id="81bd0e8291ca755124cc9a7da825fd2f" category="list-text">El clúster de debe ejecutar el software ONTAP versión 9.1 o posterior.</block>
   <block id="4432ef294245e78969b35d0bd52c2262" category="list-text">Debe tener espacio suficiente en el servidor de Unified Manager. Se le impide agregar un clúster al servidor cuando más del 90 % del espacio ya está consumido.</block>
   <block id="311a59e5248a2e51a6267bb49a15ab0e" category="paragraph">*Certificados para la comunicación mutua con TLS*: Se utiliza durante la comunicación mutua con TLS entre Unified Manager y ONTAP. La autenticación basada en certificados está habilitada para un clúster de acuerdo con la versión de ONTAP. Si el clúster que ejecuta la versión de ONTAP es inferior a la versión 9.5, la autenticación basada en certificados no está habilitada.</block>
-  <block id="9e1d78fcecc3350c4ecf08cec0b298a1" category="list-text">La autenticación basada en certificados se habilita automáticamente si se añade un clúster de la interfaz de usuario web de. Si agrega un clúster desde la consola de mantenimiento, la autenticación basada en certificados no está habilitada.</block>
   <block id="75d2b5faa0992c7cda340e5d43fc46b2" category="list-text">Si la autenticación basada en certificados está habilitada para un clúster, y realiza el backup de Unified Manager desde un servidor y la restauración a otro servidor de Unified Manager donde se cambia el nombre de host o la dirección IP, la supervisión del clúster puede fallar. Para evitar el error, edite y guarde los detalles del clúster. Para obtener más información sobre cómo editar detalles del clúster, consulte <block ref="8ec52359a26ce2693e51a81c43bbb7b7" category="inline-link-macro-rx"></block>.</block>
   <block id="222b0f66c06702de8b7c2340008972c3" category="inline-link">Cómo renovar un certificado autofirmado de ONTAP en la interfaz de usuario de System Manager</block>
   <block id="3a8f6d8e81e46780cae8b01ced2c6f30" category="list-text">Una única instancia de Unified Manager puede admitir un número determinado de nodos. Si necesita supervisar un entorno que supere el número de nodos admitidos, debe instalar una instancia adicional de Unified Manager para supervisar algunos de los clústeres. Para ver la lista del número de nodos admitidos, consulte<block ref="e93befa6e2a73cbce07a13aa25f57433" category="inline-link-rx"></block>.</block>
@@ -9982,7 +9981,6 @@
   <block id="c103e3707bdc04abe684cb4ef4e84763" category="list-text">CentOS versión 7.x basado en arquitectura x86_64 CentOS Stream no es compatible.</block>
   <block id="65f0429f6a80d2b534cf7c4fe5215206" category="paragraph">Consulte la matriz de interoperabilidad para ver la lista completa y más actualizada de las versiones compatibles de Red Hat Enterprise Linux y CentOS.</block>
   <block id="f7e4f466dd93f7fcac14a9d6f34be286" category="section-title">Software de terceros</block>
-  <block id="dcfc709b0268fc59e78dee65c4b3d005" category="paragraph">Unified Manager se ha puesto en marcha en un servidor web de WildFly. WildFly 19.0.0 se incluye y configura con Unified Manager.</block>
   <block id="7357f7d7e3e2aa8fbcd5222429988b84" category="paragraph">Se requieren los siguientes paquetes de terceros, pero no se incluyen con Unified Manager. Estos paquetes son instalados automáticamente por el<block ref="1de0b4f0d139f781b3b4de87edb4de70" prefix=" " category="inline-code"></block> instalador durante la instalación, siempre que haya configurado los repositorios como se menciona en las siguientes secciones.</block>
   <block id="f2238d96fe29373ff3726e2b77321ab3" category="list-text">Python 3.6.x</block>
   <block id="d1e7aabda60322abe75bf0db2ca50764" category="list-text">P7zip versión 16.02 o posterior (del repositorio de Red Hat Extra Packages para Enterprise Linux)</block>
@@ -10105,15 +10103,12 @@
   <block id="9520854478b675c31f0555786a67f9b4" category="summary">Puede realizar una actualización a una versión más reciente de OpenJDK en el servidor Windows en el que está instalado Unified Manager para obtener correcciones de vulnerabilidades de seguridad.</block>
   <block id="b70d1d0a2a88ed730b8d7e854c93fdbe" category="doc">Actualización de OpenJDK</block>
   <block id="27a27fa27099c3dd7d2e0cb3d56381f0" category="paragraph">Debe tener privilegios de administrador de Windows en el sistema en el que está instalado Unified Manager.</block>
-  <block id="c25a026897caa6b556a4ed073ea3eab4" category="paragraph">Puede actualizar versiones de OpenJDK dentro de las familias de versiones. Por ejemplo, puede actualizar de OpenJDK 11.0.14 a OpenJDK 11.0.16, pero no puede actualizar directamente de OpenJDK 11 a OpenJDK 12.</block>
   <block id="b38dd1119d43581dc92fe29ccecf4465" category="list-text">Inicie sesión como usuario administrador en la máquina host de Unified Manager.</block>
   <block id="13e3592e5e441ee49815c64ebd90f10f" category="list-text">Descargue la versión adecuada de OpenJDK (64 bits) del sitio OpenJDK en el sistema de destino.</block>
-  <block id="db7fdcdf000c603674beba9fdd7c8075" category="paragraph">Por ejemplo, descargar<block ref="a72e1839eb349ce7db2404ba2ea30d6f" prefix=" " category="inline-code"></block>.</block>
   <block id="11de7b3c75301534d4163a29dd7de95f" category="list-text">Utilice la consola de servicios de Windows para detener los siguientes servicios de Unified Manager:</block>
   <block id="b3283b13ea0e99f0362b1f750fa713fd" category="list-text">Servicio de adquisición de NetApp Active IQ (OCIE-au)</block>
   <block id="bfe841ff2bfd5d2e42d569c810284fd8" category="list-text">Servicio de servidores de gestión de Active IQ de NetApp (Oncommandsvc)</block>
   <block id="7d7f701fa4b6dfcc4812f34ebd909b72" category="list-text">Expanda el<block ref="adcdbd79a8d84175c229b192aadc02f2" prefix=" " category="inline-code"></block> archivo.</block>
-  <block id="83120bcddc0b0db19b2984cc0524dcb9" category="list-text">Copie los directorios y archivos del resultado<block ref="30c81266c64bb09194fbb76d80c99fc1" prefix=" " category="inline-code"></block> directorio (por ejemplo,<block ref="7b12015226b2c68810e719dd47d11964" prefix=" " category="inline-code"></block> A la ubicación donde está instalado Java. Ejemplo:<block ref="b7373e296aa12e5caf1e84edf230028c" prefix=" " category="inline-code"></block></block>
   <block id="4ce60e4b06ffbfa5ed76fd9dbdcbe958" category="list-text">Inicie los servicios de Unified Manager mediante la consola de servicios de Windows:</block>
   <block id="9a30e35d319f7a5e040049aab8ce3563" category="list-text">100 GB de espacio en disco para el directorio de instalación</block>
   <block id="8717a81d4dc90139130ed5a3e6d56b94" category="list-text">50 GB de espacio en disco para el directorio de datos de MySQL</block>
@@ -11701,7 +11696,6 @@
   <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">Más recursos</block>
   <block id="aa193eacf5a35a85044e44de3fa9c91a" category="sidebar">Vídeos de Unified Manager</block>
   <block id="197833bfff97d501603036a0febb7a95" category="sidebar">Blogs de Unified Manager</block>
-  <block id="85f73dd16ea214346164b0deea26773b" category="sidebar">Unified Manager</block>
   <block id="77d7ce66941e6a8a53f84f813d2b2bf1" category="sidebar">Gestión del almacenamiento usando API de REST</block>
   <block id="97fe658caa11a827b1561a6db6e7b2f0" category="sidebar">Primeros pasos con Active IQ Unified Manager</block>
   <block id="bd4ee34a212cad4c3967a916d3b5b99c" category="sidebar">Gestionar objetos de almacenamiento en un centro de datos</block>
@@ -11935,4 +11929,22 @@
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="863843d0337c17ec7301aee27dad4298" category="paragraph">Puede actualizar versiones de OpenJDK dentro de las familias de versiones. Por ejemplo, puede actualizar de OpenJDK 11.0.16 a OpenJDK 11,0.18, pero no puede actualizar directamente de OpenJDK 11 a OpenJDK 12.</block>
+  <block id="4e6cb3b05eb2ca0baeb29eb6344e5432" category="paragraph">Por ejemplo, descargar<block ref="3ea5e0fd12073d79066798f485ea1222" prefix=" " category="inline-code"></block>.</block>
+  <block id="e3ea195a19318267cdc1d27ad9b8642c" category="inline-link-macro">Inicio de sesión de la cuenta de Oracle</block>
+  <block id="4f4395612db3fd87fa732ad4576c0447" category="admonition"> Se necesita una cuenta de Oracle para descargar el archivo. Si no tiene una cuenta de Oracle, vaya a. <block ref="f286dce8bc3d39b38609ac0c11f4f840" category="inline-link-macro-rx"></block> página para crear una.</block>
+  <block id="aa2b11ad1dd4cd77a6434da6fa1398a2" category="list-text">Copie los directorios y archivos del resultado<block ref="30c81266c64bb09194fbb76d80c99fc1" prefix=" " category="inline-code"></block> directorio (por ejemplo,<block ref="20ea71c4664ee137228518ed973e20e3" prefix=" " category="inline-code"></block> A la ubicación donde está instalado Java. Ejemplo:<block ref="b7373e296aa12e5caf1e84edf230028c" prefix=" " category="inline-code"></block></block>
+  <block id="b39eb8b293aab19c862c53f0897b4ab2" category="paragraph">Unified Manager se ha puesto en marcha en un servidor web de WildFly. WildFly 26.1.3 se incluye y configura con Unified Manager.</block>
+  <block id="cda5e923848265fa933cb0a9b4e6bbd4" category="summary">Es posible quitar vCenter Server de su instancia de Active IQ Unified Manager cuando ya no es necesario.</block>
+  <block id="53155d7df50328d5a08c60b81e95d3ef" category="doc">Quitando vCenter Server</block>
+  <block id="376e03ef3aadcc01297e928d6cef623c" category="paragraph">Es posible quitar instancias de vCenter Server de la instancia de Active IQ Unified Manager. Por ejemplo, puede quitar una instancia de vCenter Server si se produce un error de detección de vCenter Server o cuando ya no se necesita.</block>
+  <block id="ea11a696566494f3e2f7f7bfc07d792d" category="paragraph">Al quitar una instancia de vCenter Server también se eliminan todas las máquinas virtuales (VM) alojadas en ese vCenter y sus datos de configuración. Una vez que se elimine el vCenter Server, ya no se supervisará, junto con sus objetos asociados y datos históricos. Estos cambios se reflejarán en las páginas de inventario de máquinas virtuales y de vCenter.</block>
+  <block id="fa5dfe737cfc44ab0b5ac99d7503f49c" category="paragraph">Antes de quitar vCenter Server, asegúrese de lo siguiente:</block>
+  <block id="ac765ea92fedd534778babee969fa772" category="list-text">Tiene el rol de administrador de aplicaciones o de administrador del almacenamiento.</block>
+  <block id="1e79b2ec9bdad2cd8583a73a17b2515b" category="list-text">Debe conocer los nombres de vCenter Server y las direcciones IP respectivas que están asociadas con ellos.</block>
+  <block id="98bc0bd3bb75ed59617996abbbe8aa44" category="list-text">En el panel de navegación de la izquierda, haga clic en *VMWARE&gt;vCenter*.</block>
+  <block id="4cf3a43b5cd40be9479e914697ccc1b0" category="list-text">En la página vCenters, seleccione la instancia de vCenter Server que desea quitar y haga clic en *Quitar*.</block>
+  <block id="ed2b47ce4d6fcfacbe77e96d5e7bf8fb" category="list-text">En el cuadro de diálogo de mensaje de *Remove vCenter*, haga clic en *OK* para confirmar la solicitud de eliminación.</block>
+  <block id="adb5482d172346e58675bd3dae5bf089" category="list-text">Puede añadir un clúster desde la interfaz de usuario web y la autenticación basada en certificado se habilita automáticamente.</block>
+  <block id="c237abf2822b92e4b37cfd364eb99eaf" category="list-text">Puede añadir un clúster mediante la CLI de Unified Manager, la autenticación basada en certificado no está habilitada de forma predeterminada. Si se añade un clúster mediante la CLI de Unified Manager, se deberá editar el clúster mediante la interfaz de usuario de Unified Manager. Puede ver <block ref="33f0770b98ea7c465f6e58d1466ad24f" category="inline-link-macro-rx"></block> Para añadir un clúster mediante la interfaz de línea de comandos de Unified Manager.</block>
 </blocks>
