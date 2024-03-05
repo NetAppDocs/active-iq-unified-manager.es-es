@@ -19,10 +19,10 @@ Puede crear reglas para especificar la dirección de correo electrónico según 
 * Debe haber revisado las directrices de la página Reglas para generar Dirección de correo electrónico de cuota de usuario y grupo.
 
 
-Debe definir las reglas para las direcciones de correo electrónico de cuota e introducirlas en el orden en el que desea ejecutarlas. Por ejemplo, si desea utilizar la dirección de correo electrónico qtree1@xyz.com para recibir notificaciones acerca de las brechas de cuotas para qtre1 y utilizar la dirección de correo electrónico admin@xyz.com para todos los demás qtrees, las reglas deben aparecer en el siguiente orden:
+Debe definir las reglas para las direcciones de correo electrónico de cuota e introducirlas en el orden en el que desea ejecutarlas. Por ejemplo, si desea utilizar la dirección de correo electrónico abc@xyz.com para recibir notificaciones sobre infracciones de cuotas para abc y utilizar la dirección de correo electrónico dl-$GROUP@$DOMAIN para todos los demás grupos, las reglas deben enumerarse en el siguiente orden:
 
-* Si ( $QTREE == 'qtre1' ) entonces qtree1@xyz.com
-* Si ( $QTREE == * ) entonces admin@xyz.com
+* Si ( $USER == 'abc' ) entonces abc@xyz.com
+* Si ( $GROUP == * ), dl-$GROUP@$DOMAIN
 
 
 Si no se cumple ninguno de los criterios para las reglas especificadas, se utiliza la regla predeterminada:
