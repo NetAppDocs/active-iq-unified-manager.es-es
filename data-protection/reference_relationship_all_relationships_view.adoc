@@ -230,7 +230,7 @@ Muestra el estado del mediador.
 +
 ** No aplicable
 +
-Si el clúster no es compatible con la continuidad empresarial de SnapMirror.
+Si el clúster no admite la sincronización activa de SnapMirror.
 
 ** No configurado
 +
@@ -286,7 +286,7 @@ Muestra el nombre del enlace de nombre del nodo de origen de la relación de Sna
 
 
 
-En la vista personalizada, al hacer clic en el enlace del nombre del nodo, puede ver y extender la protección de objetos de almacenamiento en los que los volúmenes de esos grupos de coherencia pertenecen a una relación SM-BC.
+En la vista personalizada, al hacer clic en el enlace del nombre del nodo, puede ver y ampliar la protección de los objetos de almacenamiento donde los volúmenes de esos grupos de consistencia pertenecen a una relación de sincronización activa de SnapMirror.
 
 Cuando hace clic en el enlace del recuento de nodos, llega a la página del nodo con los respectivos nodos asociados a dicha relación. Cuando el número de nodos es 0, no se muestra ningún valor, ya que no hay nodos asociados con la relación.
 

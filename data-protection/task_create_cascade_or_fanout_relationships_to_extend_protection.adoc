@@ -13,7 +13,7 @@ summary: Puede ampliar la protección a partir de una relación existente creand
 [role="lead"]
 Puede ampliar la protección a partir de una relación existente creando fanout a partir del volumen de origen o una cascada a partir del volumen de destino de una relación existente. Puede hacerlo cuando necesite copiar datos de un sitio a muchos sitios o para proporcionar protección adicional mediante la creación de más backups.
 
-Es posible ampliar la protección a los volúmenes mediante el grupo de coherencia, que es un contenedor donde se contienen varios volúmenes para que se puedan gestionar todos los volúmenes como una entidad. Puede ver el grupo de coherencia de continuidad del negocio de SnapMirror (SM-BC) y la relación de grupo de coherencia síncrono en la página Relationships de Unified Manager.
+Es posible ampliar la protección a los volúmenes mediante el grupo de coherencia, que es un contenedor donde se contienen varios volúmenes para que se puedan gestionar todos los volúmenes como una entidad. Puede ver el grupo de consistencia de sincronización activa de SnapMirror y la relación del grupo de coherencia síncrono en la página de relaciones de Unified Manager.
 
 *Lo que necesitará*
 

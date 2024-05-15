@@ -72,7 +72,7 @@ Al hacer clic en los eventos de esta página, se abre la página de detalles Eve
 
 * Eventos individuales planteados para las relaciones de SnapMirror, incluidos los eventos de las últimas 24 horas
 * El número de volúmenes protegidos por cada tipo de política de SnapMirror.
-* La cantidad de relaciones protegidas por los tipos de relación de SnapMirror, como Asynchronous Mirror, Asynchronous Vault, Asynchronous MirrorVault, StricxtSync, SnapMirror Business Continuity (SMBC) y Sync.
+* El número de relaciones protegidas por los tipos de relaciones de SnapMirror, como Asynchronous Mirror, Asynchronous Vault, Asynchronous MirrorVault, StricxtSync, el grupo de consistencia de sincronización activa de SnapMirror y Sync.
 * El número de relaciones saludables y poco saludables.
 * Desglose del número de relaciones de volumen. Puede cambiar los gráficos por el estado y el tiempo de retraso de RPO.
 * Umbrales de desfase para una relación no gestionada. Puede hacer clic en el icono de configuración (image:../media/Settings.PNG["Icono para la configuración del umbral de desfase"]) para configurar los ajustes del umbral de demora. Para obtener más información, consulte link:../health-checker/task_configure_lag_threshold_settings_for_unmanaged_protection.html["Configuración de la configuración del umbral de desfase para relaciones de protección no administradas"].

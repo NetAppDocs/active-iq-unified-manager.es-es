@@ -571,7 +571,7 @@ Muestra el tipo de protección utilizada para el volumen seleccionado. Por ejemp
 
 ** Grupo de consistencia
 +
-Si el volumen está protegido por relaciones de continuidad de negocio de SnapMirror (SM-BC), esta columna muestra el grupo de coherencia del volumen.
+En los volúmenes protegidos por relaciones de sincronización activa de SnapMirror, esta columna muestra el grupo de consistencia del volumen.
 
 
 
