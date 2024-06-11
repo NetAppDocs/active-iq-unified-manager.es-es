@@ -19,7 +19,7 @@ Además, en el gráfico IOPS - Protocolos se muestra una comparación detallada 
 * NFS
 * FCP
 * ISCSI
-* NVMe
+* NVMe-FC
 
 
 .Pasos
