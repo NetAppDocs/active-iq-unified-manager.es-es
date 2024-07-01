@@ -44,7 +44,7 @@ Si cambia el nombre de host en Unified Manager, debe actualizar manualmente el n
 
 . Reinicie el servicio de red:
 +
-`service network restart`
+`systemctl restart NetworkManager.service`
 
 . Después de reiniciar el servicio, compruebe si el nuevo nombre de host puede hacer ping a sí mismo:
 +
