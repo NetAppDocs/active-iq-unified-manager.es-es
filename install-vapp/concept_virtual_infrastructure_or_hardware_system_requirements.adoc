@@ -51,7 +51,7 @@ Libere espacio en disco
 |===
 Unified Manager se puede instalar en sistemas con una pequeña cantidad de memoria, pero los 12 GB de RAM recomendados garantizan que haya suficiente memoria disponible para un rendimiento óptimo, por lo que el sistema puede acomodar clústeres y objetos de almacenamiento adicionales a medida que crezca su configuración. No debe establecer ningún límite de memoria en la máquina virtual donde se haya puesto en marcha Unified Manager y no debe habilitar ninguna función (por ejemplo, una configuración en globo) que impida que el software utilice la memoria asignada en el sistema.
 
-Asimismo, existe un límite en cuanto al número de nodos que puede supervisar una única instancia de Unified Manager antes de instalar una segunda instancia de Unified Manager. Para obtener más información, consulte link:http://www.netapp.com/us/media/tr-4621.pdf["Guía de prácticas recomendadas de Unified Manager"].
+Asimismo, existe un límite en cuanto al número de nodos que puede supervisar una única instancia de Unified Manager antes de instalar una segunda instancia de Unified Manager. Para obtener más información, consulte link:https://www.netapp.com/pdf.html?item=/media/13504-tr4621pdf.pdf["Guía de prácticas recomendadas de Unified Manager"^].
 
 El intercambio de la memoria por página afecta negativamente al rendimiento del sistema y de la aplicación de gestión. Competir por recursos CPU que no están disponibles debido al uso general del host puede degradar el rendimiento.
 
