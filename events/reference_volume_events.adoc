@@ -595,7 +595,7 @@ Advertencia
 
 
  a| 
-Se ha incumplido el umbral crítico de latencia de volumen ms/op (ocumVolumeLatencyIncident).
+Umbral crítico de latencia del volumen superado (ocumVolumeLatencyIncident)
  a| 
 Incidente
  a| 
@@ -606,7 +606,7 @@ Crítico
 
 
  a| 
-Umbral de advertencia de latencia de volumen ms/op incumplido (ocumVolumeLatencyWarning)
+Umbral de advertencia de latencia del volumen infringido (ocumVolumeLatencyWarning)
  a| 
 Riesgo
  a| 

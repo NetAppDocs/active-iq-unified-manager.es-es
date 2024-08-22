@@ -196,7 +196,7 @@ Error
 
 
  a| 
-LIF de interconexión de clústeres por niveles en el cloud inactivo
+Interfaz de red de interconexión de clúster de nivel cloud inactiva
  a| 
 objstore.interclusterlifDown
  a| 

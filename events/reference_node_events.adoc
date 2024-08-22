@@ -123,7 +123,7 @@ Error
 
 
  a| 
-LIF de interconexión de clústeres en el cloud Down *(ocumObjstoreInterClusterLifDown)
+Interfaz de red intercluster de nivel cloud abajo *(ocumObjstoreInterClusterLifDown)
  a| 
 Riesgo
  a| 

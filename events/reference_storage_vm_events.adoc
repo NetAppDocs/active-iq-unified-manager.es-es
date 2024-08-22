@@ -24,7 +24,7 @@ Un asterisco (*) identifica los eventos de EMS que se han convertido a eventos d
 
 
  a| 
-Service Down de SVM (ocumEvtVserverCifsServiceStatusDown)
+Servicio CIFS de Storage VM(ocumEvtVserverCifsServiceStatusDown)
  a| 
 Incidente
  a| 
@@ -134,7 +134,7 @@ Crítico
 
 
  a| 
-Servicio NFS de SVM inactivo (ocumEvtVserverNfsServiceStatusDown)
+Storage VM NFS Service Down (ocumEvtVserverNfsServiceStatusDown)
  a| 
 Incidente
  a| 
@@ -178,7 +178,7 @@ Información
 
 
  a| 
-SVM detenido (ocumEvtVserverDown)
+VM de almacenamiento detenida (ocumEvtVserverDown)
  a| 
 Riesgo
  a| 
