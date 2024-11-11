@@ -20,4 +20,4 @@ Por ejemplo, el directorio de base de datos se puede llenarse si Unified Manager
 No se recopilan datos adicionales de los clústeres después de que el directorio se encuentra lleno al 95 %.
 
 ====
-Los pasos necesarios para añadir capacidad al directorio de datos son distintos en función de si Unified Manager se ejecuta en un servidor VMware ESXi, en un servidor Red Hat o CentOS Linux o en un servidor Microsoft Windows.
+Los pasos necesarios para añadir capacidad al directorio de datos son distintos en función de si Unified Manager se está ejecutando en un servidor ESXi de VMware, en un servidor Red Hat o en un servidor Microsoft Windows.

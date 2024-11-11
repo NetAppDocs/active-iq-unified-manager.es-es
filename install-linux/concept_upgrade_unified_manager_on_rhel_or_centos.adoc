@@ -1,10 +1,10 @@
 ---
 permalink: install-linux/concept_upgrade_unified_manager_on_rhel_or_centos.html 
 sidebar: sidebar 
-keywords: upgrade, unified manager, red hat enterprise, linux, centOS 
+keywords: upgrade, unified manager, red hat enterprise, linux 
 summary: Es posible actualizar Unified Manager cuando hay una nueva versión de software disponible. 
 ---
-= Actualización de Unified Manager en Red Hat Enterprise Linux o CentOS
+= Actualización de Unified Manager en Red Hat Enterprise Linux
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

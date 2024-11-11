@@ -13,7 +13,7 @@ summary: 'Si el sistema en el que está instalando Unified Manager no tiene acce
 [role="lead"]
 Si el sistema en el que está instalando Unified Manager no tiene acceso al repositorio de paquetes extra para Enterprise Linux (EPEL), debe descargar y configurar manualmente el repositorio para una instalación correcta.
 
-El repositorio de EPEL proporciona acceso a las utilidades de terceros necesarias que deben instalarse en el sistema. Puede utilizar el repositorio de EPEL tanto si está instalando Unified Manager en un sistema Red Hat Enterprise Linux o CentOS.
+El repositorio de EPEL proporciona acceso a las utilidades de terceros necesarias que deben instalarse en el sistema. El repositorio de EPEL se utiliza para instalar Unified Manager en un sistema Red Hat Enterprise Linux.
 
 .Pasos
 . Descargue el repositorio de EPEL para su instalación. Para Red Hat Enterprise Linux 7, descárguelo de:

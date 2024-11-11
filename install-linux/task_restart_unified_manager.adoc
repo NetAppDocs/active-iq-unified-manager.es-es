@@ -15,7 +15,7 @@ Es posible que tenga que reiniciar Unified Manager después de realizar cambios 
 
 *Lo que necesitará*
 
-Debe tener acceso de usuario raíz al servidor Red Hat Enterprise Linux o CentOS en el que está instalado Unified Manager.
+Debe tener acceso de usuario raíz al servidor de Red Hat Enterprise Linux en el que se haya instalado Unified Manager.
 
 .Pasos
 . Inicie sesión como usuario raíz en el servidor en el que desea reiniciar el servicio Unified Manager.

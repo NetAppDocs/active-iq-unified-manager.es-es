@@ -15,7 +15,7 @@ El menú Configuración de red le permite administrar los ajustes de red. Debe u
 
 [NOTE]
 ====
-Este menú no está disponible si Unified Manager está instalado en Red Hat Enterprise Linux, CentOS o Microsoft Windows.
+Este menú no está disponible si Unified Manager está instalado en Red Hat Enterprise Linux o en Microsoft Windows.
 
 ====
 Están disponibles las siguientes opciones de menú.

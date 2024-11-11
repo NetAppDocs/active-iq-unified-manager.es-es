@@ -11,7 +11,7 @@ summary: Puede actualizar Unified Manager descargando y ejecutando el archivo de
 
 
 [role="lead"]
-Para actualizar Unified Manager 9,12 o 9,13 a la versión 9,14, descargue y ejecute el archivo de instalación en la plataforma Windows.
+Para actualizar Unified Manager 9,13 o 9,14 a la versión 9,16, descargue y ejecute el archivo de instalación en la plataforma Windows.
 
 *Lo que necesitará*
 
@@ -35,6 +35,7 @@ Asegúrese de que Microsoft .NET 4.5.2 o superior esté instalado en el sistema 
 
 ====
 * MySQL Community Edition se actualiza automáticamente durante la actualización de Unified Manager. Si la versión instalada de MySQL en el sistema es anterior a 8,0.34, el proceso de actualización de Unified Manager actualiza automáticamente MySQL a 8,0.34. No debe ejecutar una actualización independiente de una versión anterior de MySQL a la versión 8,0.34.
+* Todos los clústeres son compatibles, excepto los sistemas ASA R2.
 * Debe tener privilegios de administrador de Windows. Asegúrese de que su nombre de usuario no comience con un signo de exclamación "'!`". Installation of Unified Manager might fail if the user name of user running the installation begins with "`!''.
 * Debe tener credenciales válidas para iniciar sesión en el sitio de soporte de NetApp.
 * Para evitar la pérdida de datos, debe haber creado un backup de la máquina de Unified Manager en caso de que haya un problema durante la actualización.
@@ -57,8 +58,7 @@ Si Unified Manager se empareja con una instancia de OnCommand Workflow Automatio
 https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab["Sitio de soporte de NetApp"^].
 
 . Seleccione la versión requerida de Unified Manager y acepte el contrato de licencia para usuarios finales (CLUF).
-. Descargue el archivo de instalación de Unified Manager Windows en un directorio de destino en el sistema Windows.
-. Haga clic con el botón derecho en y ejecute el archivo ejecutable (.exe) del instalador de Unified Manager como administrador.
+. Descargue el archivo de instalación o zip de Unified Manager Windows en un directorio de destino en el sistema Windows. Extraiga el archivo zip, si es necesario, y navegue hasta el directorio donde se encuentra el archivo de instalación. Haga clic con el botón derecho en y ejecute el archivo ejecutable (.exe) del instalador de Unified Manager como administrador.
 +
 Unified Manager le solicita el siguiente mensaje:
 

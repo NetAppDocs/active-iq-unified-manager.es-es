@@ -16,7 +16,7 @@ Puede crear un directorio inicial personalizado y definir su propia contraseña 
 *Lo que necesitará*
 
 * El sistema debe cumplir los requisitos descritos en link:concept_virtual_infrastructure_or_hardware_system_requirements.html["Requisitos del sistema de hardware"].
-* Debe poder iniciar sesión como usuario root en el sistema Red Hat Enterprise Linux o CentOS.
+* Debe poder iniciar sesión como usuario raíz en el sistema Red Hat Enterprise Linux.
 
 
 La instalación predeterminada de Unified Manager realiza las siguientes tareas:

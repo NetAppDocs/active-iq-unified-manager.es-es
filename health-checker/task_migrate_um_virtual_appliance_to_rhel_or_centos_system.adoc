@@ -2,7 +2,7 @@
 permalink: health-checker/task_migrate_um_virtual_appliance_to_rhel_or_centos_system.html 
 sidebar: sidebar 
 keywords: unified manager, migrate, virtual, appliance, linux system 
-summary: Puede restaurar un backup de volcado de base de datos de MySQL de Unified Manager desde un dispositivo virtual a un sistema Red Hat Enterprise Linux o CentOS Linux si desea cambiar el sistema operativo del host en el que se ejecuta Unified Manager. 
+summary: Puede restaurar un backup de volcado de base de datos MySQL de Unified Manager desde un dispositivo virtual a un sistema Red Hat Enterprise Linux si desea cambiar el sistema operativo del host donde se ejecuta Unified Manager. 
 ---
 = Migración de un dispositivo virtual de Unified Manager a un sistema Linux
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: Puede restaurar un backup de volcado de base de datos de MySQL de Unifi
 
 
 [role="lead"]
-Puede restaurar un backup de volcado de base de datos de MySQL de Unified Manager desde un dispositivo virtual a un sistema Red Hat Enterprise Linux o CentOS Linux si desea cambiar el sistema operativo del host en el que se ejecuta Unified Manager.
+Puede restaurar un backup de volcado de base de datos MySQL de Unified Manager desde un dispositivo virtual a un sistema Red Hat Enterprise Linux si desea cambiar el sistema operativo del host donde se ejecuta Unified Manager.
 
 *Lo que necesitará*
 
@@ -31,7 +31,7 @@ Puede restaurar un backup de volcado de base de datos de MySQL de Unified Manage
 
 
 
-Estos pasos describen cómo crear un archivo de copia de seguridad en el dispositivo virtual, copiar los archivos de copia de seguridad en el sistema Red Hat Enterprise Linux o CentOS y, a continuación, restaurar la copia de seguridad de la base de datos en el nuevo sistema.
+Estos pasos describen cómo crear un archivo de copia de seguridad en el dispositivo virtual, copiar los archivos de copia de seguridad en Red Hat Enterprise Linux y, a continuación, restaurar la copia de seguridad de la base de datos en el nuevo sistema.
 
 .Pasos
 . En el dispositivo virtual, haga clic en *Administración* > *copia de seguridad de la base de datos*.

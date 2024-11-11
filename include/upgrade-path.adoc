@@ -13,16 +13,16 @@ summary: Ruta de actualización admitida
 [role="lead"]
 Active IQ Unified Manager admite una ruta de actualización específica para cada versión.
 
-No todas las versiones de Unified Manager pueden realizar una actualización sin movimiento a versiones posteriores. Las actualizaciones de Unified Manager se limitan a un modelo N-2, lo que significa que la actualización solo se puede realizar en las próximas dos versiones de todas las plataformas. Por ejemplo, puede realizar una actualización a Unified Manager 9,14 desde Unified Manager 9,12 y 9,13 solo.
+No todas las versiones de Unified Manager pueden realizar una actualización sin movimiento a versiones posteriores. Las actualizaciones de Unified Manager se limitan a un modelo N-2, lo que significa que la actualización solo se puede realizar en las próximas dos versiones de todas las plataformas. Por ejemplo, puede realizar una actualización a Unified Manager 9,16 desde Unified Manager 9,13 y 9,14 solo.
 
 Si ejecuta una versión anterior a las versiones compatibles, primero deberá actualizar la instancia de Unified Manager con una de las versiones compatibles y, a continuación, actualizarla a la versión actual.
 
 Por ejemplo, si la versión instalada es Unified Manager 9,9 y desea actualizar a Unified Manager 9,14, debe seguir una secuencia de actualizaciones.
 
 .Ruta de actualización de ejemplo:
-. Actualización 9,9 -> 9,11
 . Actualización 9,11 -> 9,13
 . Actualización 9,13 -> 9,14
+. Actualización 9,14 -> 9,16
 
 
 Para obtener más información acerca de la matriz de rutas de actualización, consulte este tema https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/What_is_the_upgrade_path_for_Active_IQ_Unified_Manager_versions["Artículo de la base de conocimientos (KB)"].

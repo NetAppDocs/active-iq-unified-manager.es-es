@@ -29,7 +29,7 @@ Copia Snapshot de VMware del dispositivo virtual de Unified Manager
 
 
 
-.2+| Red Hat Enterprise Linux o CentOS de Linux  a| 
+.2+| Red Hat Enterprise Linux  a| 
 Pequeño
  a| 
 Volcado de base de datos MySQL de Unified Manager

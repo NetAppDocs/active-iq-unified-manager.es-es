@@ -15,7 +15,7 @@ Un backup de volcado de base de datos de MySQL es una copia de la base de datos 
 
 [NOTE]
 ====
-El volcado de bases de datos de MySQL es el mecanismo de backup predeterminado cuando Unified Manager se instala en un servidor Linux y Windows. Sin embargo, si Unified Manager está gestionando una gran cantidad de clústeres y nodos, o si sus backups de MySQL tardan muchas horas en completarse, puede realizar el backup con copias de Snapshot. Esta funcionalidad está disponible en Red Hat Enterprise Linux, sistemas CentOS Linux y Windows.
+El volcado de bases de datos de MySQL es el mecanismo de backup predeterminado cuando Unified Manager se instala en un servidor Linux y Windows. Sin embargo, si Unified Manager está gestionando una gran cantidad de clústeres y nodos, o si sus backups de MySQL tardan muchas horas en completarse, puede realizar el backup con copias de Snapshot. Esta funcionalidad está disponible en Red Hat Enterprise Linux y Windows.
 
 ====
 Una copia de seguridad de volcado de la base de datos consta de un solo archivo en el directorio de copia de seguridad y uno o varios archivos en el directorio de repositorio de la base de datos. El archivo del directorio de copia de seguridad es muy pequeño porque sólo contiene un puntero a los archivos ubicados en el directorio de repositorio de la base de datos que se necesitan para volver a crear la copia de seguridad.
