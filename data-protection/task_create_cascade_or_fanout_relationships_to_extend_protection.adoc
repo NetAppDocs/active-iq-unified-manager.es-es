@@ -15,8 +15,7 @@ Puede ampliar la protección a partir de una relación existente creando fanout 
 
 Es posible ampliar la protección a los volúmenes mediante el grupo de coherencia, que es un contenedor donde se contienen varios volúmenes para que se puedan gestionar todos los volúmenes como una entidad. Puede ver el grupo de consistencia de sincronización activa de SnapMirror y la relación del grupo de coherencia síncrono en la página de relaciones de Unified Manager.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 * Debe haber configurado Workflow Automation.
 

@@ -13,8 +13,7 @@ summary: Es posible usar la página Resource Pools para ver el inventario del po
 [role="lead"]
 Es posible usar la página Resource Pools para ver el inventario del pool de recursos y supervisar la capacidad restante de cada pool de recursos.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 .Paso

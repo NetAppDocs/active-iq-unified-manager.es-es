@@ -13,8 +13,7 @@ summary: Es posible editar las relaciones de protección existentes para cambiar
 [role="lead"]
 Es posible editar las relaciones de protección existentes para cambiar la tasa de transferencia máxima actual, la política de protección o la programación de protección. Se puede editar una relación para reducir el ancho de banda que se usa para las transferencias o aumentar la frecuencia de las transferencias programadas, ya que los datos cambian con frecuencia.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 * Debe haber instalado y configurado Workflow Automation.
 

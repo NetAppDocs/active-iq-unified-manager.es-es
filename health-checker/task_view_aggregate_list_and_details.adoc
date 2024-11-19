@@ -13,8 +13,7 @@ summary: 'En la vista Health: All Aggregates, puede supervisar su inventario de 
 [role="lead"]
 En la vista Health: All Aggregates, puede supervisar su inventario de agregados. La vista capacidad: Todos los agregados le permite ver información sobre la capacidad y la utilización de los agregados en todos los clústeres.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
 
 Puede ver detalles como la capacidad y la configuración del agregado, y la información sobre el disco en la página de detalles Aggregate / Health. Puede utilizar estos detalles antes de configurar los ajustes del umbral si es necesario.

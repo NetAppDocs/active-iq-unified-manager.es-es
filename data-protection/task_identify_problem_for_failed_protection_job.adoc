@@ -13,8 +13,7 @@ summary: Revisa el mensaje de error de error de trabajo en el campo CAUSE de la 
 [role="lead"]
 Revisa el mensaje de error de error de trabajo en el campo CAUSE de la página de detalles Event y determina que el trabajo ha fallado debido a un error de copia de Snapshot. Luego continúa a la página de detalles Volume / Health para recopilar más información.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener la función Administrador de aplicaciones.
 
 El mensaje de error proporcionado en el campo causa de la página de detalles Event contiene el siguiente texto sobre el trabajo con errores:

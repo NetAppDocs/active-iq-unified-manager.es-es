@@ -13,8 +13,7 @@ summary: 'Es posible generar un informe que contenga una lista completa de infor
 [role="lead"]
 Es posible generar un informe que contenga una lista completa de información de clústeres y nodos; por ejemplo, números de modelo del hardware y números de serie, tipos y números de disco, licencias instaladas, etc. Este informe resulta útil para la renovación de contratos en sitios seguros (sitios "seguros") que no están conectados a la plataforma Active IQ de NetApp.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
 
 .Pasos

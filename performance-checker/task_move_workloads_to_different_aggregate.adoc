@@ -13,8 +13,7 @@ summary: Puede usar Unified Manager para ayudar a identificar un agregado con un
 [role="lead"]
 Puede usar Unified Manager para ayudar a identificar un agregado con un menor nivel de actividad que el agregado en el que residen actualmente las cargas de trabajo y, a continuación, puede mover volúmenes o LUN seleccionados a ese agregado. Mover las cargas de trabajo de alto rendimiento a un agregado menos ocupado o a un agregado con almacenamiento flash habilitado permite que la carga de trabajo tenga un rendimiento más eficiente.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
 * Debe haber registrado el nombre del agregado que está teniendo un problema de rendimiento.
 * Debe haber registrado la fecha y la hora en que el agregado recibió el evento.

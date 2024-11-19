@@ -13,8 +13,7 @@ summary: Todos los eventos están habilitados de forma predeterminada. Puede des
 [role="lead"]
 Todos los eventos están habilitados de forma predeterminada. Puede deshabilitar eventos específicos para evitar la generación de notificaciones para los eventos que no son importantes en el entorno. Puede habilitar eventos deshabilitados si desea reanudar la recepción de notificaciones.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 Si deshabilita eventos, los eventos generados previamente en el sistema se marcan como obsoletos, y no se activan las alertas configuradas para estos eventos. Cuando se habilitan eventos que están deshabilitados, las notificaciones para estos eventos se generan a partir del próximo ciclo de supervisión.

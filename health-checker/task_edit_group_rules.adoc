@@ -13,8 +13,7 @@ summary: Puede editar las reglas de grupo para modificar los grupos de condicion
 [role="lead"]
 Puede editar las reglas de grupo para modificar los grupos de condiciones y las condiciones de un grupo de condiciones para agregar o quitar objetos de almacenamiento a un grupo específico o desde él.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 .Pasos

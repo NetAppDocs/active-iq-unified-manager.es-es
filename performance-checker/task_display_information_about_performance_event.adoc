@@ -13,8 +13,7 @@ summary: La página del inventario Event Management se puede usar para ver una l
 [role="lead"]
 La página del inventario Event Management se puede usar para ver una lista de todos los eventos de rendimiento en los clústeres que se supervisan Unified Manager. Al ver esta información, puede determinar los eventos más críticos y, a continuación, profundizar en información detallada para determinar la causa del evento.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
 
 

@@ -13,8 +13,7 @@ summary: En la página Volume Relationships, es posible volver a sincronizar una
 [role="lead"]
 En la página Volume Relationships, es posible volver a sincronizar una relación para recuperarse de un evento que deshabilitó el volumen de origen o cuando desea cambiar el origen actual a otro volumen.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 * Debe haber configurado Workflow Automation.
 

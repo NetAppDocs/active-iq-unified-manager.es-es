@@ -13,8 +13,7 @@ summary: 'Es posible modificar un recurso compartido de archivos NFS para admiti
 [role="lead"]
 Es posible modificar un recurso compartido de archivos NFS para admitir el protocolo CIFS. Durante la creación de archivos compartidos, es posible especificar tanto los parámetros de la lista de control de acceso (ACL) como las reglas de política de exportación para el mismo recurso compartido de archivos. No obstante, si desea habilitar CIFS en el mismo volumen en el que se creó un recurso compartido de archivos NFS, es posible actualizar los parámetros de ACL en ese recurso compartido de archivos para admitir CIFS.
 
-*Lo que necesitará*
-
+.Antes de empezar
 . Se debe haber creado un recurso compartido de archivos NFS con únicamente los detalles de la política de exportación. Para obtener información, consulte _Administrar recursos compartidos de archivos_ y _Modificar las cargas de trabajo de almacenamiento_.
 . Debe tener la clave para compartir archivos para ejecutar esta operación. Para obtener información acerca de cómo ver los detalles de los recursos compartidos de archivos y recuperar la clave de uso compartido de archivos mediante el identificador de trabajo, consulte _Provisioning CIFS and NFS file shares_.
 

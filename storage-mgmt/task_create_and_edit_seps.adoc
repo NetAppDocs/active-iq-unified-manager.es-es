@@ -13,8 +13,7 @@ summary: Cuando las políticas de eficiencia del almacenamiento definidas por el
 [role="lead"]
 Cuando las políticas de eficiencia del almacenamiento definidas por el sistema no coinciden con los requisitos de carga de trabajo, puede crear sus propias políticas de eficiencia del almacenamiento optimizadas para sus cargas de trabajo.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener la función Administrador de aplicaciones.
 * El nombre de la política de eficiencia de almacenamiento debe ser único y no se pueden utilizar las siguientes palabras clave reservadas:
 +

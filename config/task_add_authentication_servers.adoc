@@ -13,8 +13,7 @@ summary: Puede añadir servidores de autenticación y habilitar la autenticació
 [role="lead"]
 Puede añadir servidores de autenticación y habilitar la autenticación remota en el servidor de gestión para que los usuarios remotos dentro del servidor de autenticación puedan acceder a Unified Manager.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe estar disponible la siguiente información:
 +
 ** Nombre de host o dirección IP del servidor de autenticación

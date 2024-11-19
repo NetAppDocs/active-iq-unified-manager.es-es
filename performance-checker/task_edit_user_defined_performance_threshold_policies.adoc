@@ -13,8 +13,7 @@ summary: La configuración del umbral se puede editar para las políticas de umb
 [role="lead"]
 La configuración del umbral se puede editar para las políticas de umbral de rendimiento existentes. Esto puede ser útil si descubre que está recibiendo demasiadas alertas o muy pocas para ciertas condiciones de umbral.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener la función Administrador de aplicaciones.
 
 No es posible cambiar el nombre de la política ni el tipo de objeto de almacenamiento que se supervisa para las políticas de umbral existentes.

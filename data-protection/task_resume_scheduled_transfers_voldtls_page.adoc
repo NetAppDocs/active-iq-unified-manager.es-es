@@ -13,8 +13,7 @@ summary: Después de poner en modo inactivo una relación para detener las trans
 [role="lead"]
 Después de poner en modo inactivo una relación para detener las transferencias programadas, puede usar *Reanudar* en la página de detalles volumen / Estado para volver a habilitar las transferencias programadas de modo que los datos en el volumen de origen o primario estén protegidos. Las transferencias se reanudan desde un punto de comprobación, si existe alguno, en el siguiente intervalo de transferencia programada.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 * Debe haber configurado Workflow Automation.
 

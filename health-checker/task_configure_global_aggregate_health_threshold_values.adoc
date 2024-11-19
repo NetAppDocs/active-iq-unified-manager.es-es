@@ -13,8 +13,7 @@ summary: Puede configurar valores de umbral de estado global para todos los agre
 [role="lead"]
 Puede configurar valores de umbral de estado global para todos los agregados para realizar un seguimiento de cualquier incumplimiento de umbral. Se generan los eventos adecuados para incumplimiento de umbrales y puede tomar medidas preventivas basadas en estos eventos. Puede configurar los valores globales basándose en la configuración de prácticas recomendadas para los umbrales que se aplican a todos los agregados supervisados.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 Al configurar las opciones globalmente, se modifican los valores predeterminados de los objetos. Sin embargo, si los valores predeterminados se han cambiado a nivel de objeto, los valores globales no se modifican.

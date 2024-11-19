@@ -13,8 +13,7 @@ summary: Cuando no hay thin provisioning, un volumen ocupa toda la cantidad de e
 [role="lead"]
 Cuando no hay thin provisioning, un volumen ocupa toda la cantidad de espacio en el disco, tal y como se define cuando se creó el volumen. La identificación de volúmenes con thin provisioning deshabilitado ayuda a decidir si se desea habilitar el aprovisionamiento ligero en ciertos volúmenes.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 

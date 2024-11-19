@@ -13,8 +13,7 @@ summary: Puede crear un informe para analizar la capacidad de almacenamiento y l
 [role="lead"]
 Puede crear un informe para analizar la capacidad de almacenamiento y la utilización de los clústeres según el modelo del sistema de almacenamiento.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 

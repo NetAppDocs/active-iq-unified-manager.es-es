@@ -13,8 +13,7 @@ summary: Puede volver a sincronizar los datos de una relación de SnapMirror o S
 [role="lead"]
 Puede volver a sincronizar los datos de una relación de SnapMirror o SnapVault que se rompió y, a continuación, el destino se hizo de lectura/escritura para que los datos del origen coincidan con los del destino. También es posible resincronizar cuando se elimina una copia Snapshot común requerida en el volumen de origen, y esto provoca errores en las actualizaciones de SnapMirror o SnapVault.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 * Debe haber configurado OnCommand Workflow Automation.
 

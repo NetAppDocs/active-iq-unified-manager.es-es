@@ -13,8 +13,7 @@ summary: Los puertos predeterminados que Unified Manager utiliza para los protoc
 [role="lead"]
 Los puertos predeterminados que Unified Manager utiliza para los protocolos HTTP y HTTPS se pueden cambiar después de la instalación si es necesario para la seguridad. Los puertos predeterminados son 80 para HTTP y 443 para HTTPS.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener un ID de usuario y una contraseña autorizados para iniciar sesión en la consola de mantenimiento del servidor de Unified Manager.
 
 [NOTE]

@@ -13,8 +13,7 @@ summary: Puede configurar opciones de eficiencia de destino como la deduplicaci�
 [role="lead"]
 Puede configurar opciones de eficiencia de destino como la deduplicación, la compresión, el crecimiento automático y la garantía de espacio en un destino de protección con el cuadro de diálogo Advanced Destination Settings. Esta configuración se usa cuando se desea maximizar el uso de espacio en un volumen de destino o secundario.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 De forma predeterminada, la configuración de eficiencia coincide con la del volumen de origen, excepto la configuración de compresión de una relación SnapVault, que se deshabilita de forma predeterminada.

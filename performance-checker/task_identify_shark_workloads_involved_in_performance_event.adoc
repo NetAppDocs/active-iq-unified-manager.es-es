@@ -13,8 +13,7 @@ summary: En Unified Manager, es posible identificar qué cargas de trabajo tiene
 [role="lead"]
 En Unified Manager, es posible identificar qué cargas de trabajo tienen la mayor desviación de uso para un componente de almacenamiento en contención. La identificación de estas cargas de trabajo le ayuda a determinar si estas cargas de trabajo se deben mover a un clúster menos utilizado.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
 * Hay un evento dinámico de rendimiento nuevo, reconocido o obsoleto.
 

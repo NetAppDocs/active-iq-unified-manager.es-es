@@ -13,8 +13,7 @@ summary: Puede crear un informe para mostrar volúmenes con una gran cantidad de
 [role="lead"]
 Puede crear un informe para mostrar volúmenes con una gran cantidad de datos fríos en un agregado que no pertenece a FabricPool. Esto puede ayudarle a identificar los volúmenes que se deben mover a un agregado de FabricPool.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 

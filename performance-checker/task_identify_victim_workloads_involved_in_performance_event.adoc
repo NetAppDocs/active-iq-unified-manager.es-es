@@ -13,8 +13,7 @@ summary: 'En Unified Manager, es posible identificar qué cargas de trabajo de v
 [role="lead"]
 En Unified Manager, es posible identificar qué cargas de trabajo de volumen tienen la mayor desviación en tiempo de respuesta (latencia) provocada por un componente de almacenamiento en disputa. La identificación de estas cargas de trabajo le ayuda a comprender por qué las aplicaciones cliente que acceden a ellas han tenido un rendimiento más lento de lo habitual.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
 * Debe haber eventos de rendimiento dinámicos nuevos, reconocidos o obsoletos.
 

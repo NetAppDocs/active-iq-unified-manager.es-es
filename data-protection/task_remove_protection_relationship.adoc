@@ -13,8 +13,7 @@ summary: 'En la página Volume Relationships, puede quitar una relación de prot
 [role="lead"]
 En la página Volume Relationships, puede quitar una relación de protección para eliminar de forma permanente una relación existente entre el origen y el destino seleccionados: Por ejemplo, cuando desea crear una relación con otro destino. Esta operación elimina todos los metadatos y no puede deshacerse.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 * Debe haber configurado Workflow Automation.
 

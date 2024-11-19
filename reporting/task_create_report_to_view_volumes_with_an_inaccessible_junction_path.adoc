@@ -13,8 +13,7 @@ summary: Es posible crear un informe para encontrar volúmenes con una ruta de m
 [role="lead"]
 Es posible crear un informe para encontrar volúmenes con una ruta de montaje inaccesible.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 

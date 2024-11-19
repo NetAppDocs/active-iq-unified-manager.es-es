@@ -13,8 +13,7 @@ summary: Puede configurar la programación en la que se crean las copias de Snap
 [role="lead"]
 Puede configurar la programación en la que se crean las copias de Snapshot de Unified Manager mediante la interfaz de usuario de Unified Manager.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
 * Configuró los ajustes para crear copias Snapshot desde la consola de mantenimiento para identificar el destino donde se crearán las snapshots.
 

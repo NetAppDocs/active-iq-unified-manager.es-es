@@ -13,8 +13,7 @@ summary: Puede configurar los valores de umbral de estado global para todos los 
 [role="lead"]
 Puede configurar los valores de umbral de estado global para todos los volúmenes para realizar un seguimiento de cualquier incumplimiento de umbral. Se generan eventos apropiados para las infracciones de los umbrales de salud y puede tomar medidas preventivas basadas en estos eventos. Puede configurar los valores globales a partir de la configuración de prácticas recomendadas para los umbrales que se aplican a todos los volúmenes supervisados.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 La mayoría de las opciones de umbral tienen valores predeterminados para una mejor supervisión. Sin embargo, puede cambiar los valores para adaptarlos a los requisitos de su entorno.

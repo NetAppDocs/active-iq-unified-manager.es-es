@@ -15,8 +15,7 @@ Es posible quitar instancias de vCenter Server de la instancia de Active IQ Unif
 
 Al quitar una instancia de vCenter Server también se eliminan todas las máquinas virtuales (VM) alojadas en ese vCenter y sus datos de configuración. Una vez que se elimine el vCenter Server, ya no se supervisará, junto con sus objetos asociados y datos históricos. Estos cambios se reflejarán en las páginas de inventario de máquinas virtuales y de vCenter.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Antes de quitar vCenter Server, asegúrese de lo siguiente:
 
 * Tiene el rol de administrador de aplicaciones o de administrador del almacenamiento.

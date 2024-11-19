@@ -13,8 +13,7 @@ summary: Puede ver los eventos no asignados y, a continuación, asignar cada uno
 [role="lead"]
 Puede ver los eventos no asignados y, a continuación, asignar cada uno de ellos a un usuario que pueda resolverlos.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
 
 .Pasos

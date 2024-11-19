@@ -13,8 +13,7 @@ summary: 'Puede crear reglas para especificar la dirección de correo electróni
 [role="lead"]
 Puede crear reglas para especificar la dirección de correo electrónico según la cuota de usuario asociada con los clústeres, las máquinas virtuales de almacenamiento (SVM), los volúmenes, qtrees, los usuarios o los grupos de usuarios. Se envía una notificación a la dirección de correo electrónico especificada cuando hay una infracción de cuota.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 * Debe haber revisado las directrices de la página Reglas para generar Dirección de correo electrónico de cuota de usuario y grupo.
 

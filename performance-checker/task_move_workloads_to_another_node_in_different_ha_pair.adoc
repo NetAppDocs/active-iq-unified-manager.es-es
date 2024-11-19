@@ -13,8 +13,7 @@ summary: Puede usar Unified Manager para ayudar a identificar un agregado en un 
 [role="lead"]
 Puede usar Unified Manager para ayudar a identificar un agregado en un nodo en un par de alta disponibilidad diferente que está menos ocupado que el par de alta disponibilidad en el que se están ejecutando las cargas de trabajo en ese momento. A continuación, puede mover los volúmenes seleccionados a agregados en la nueva pareja de ha. Mover cargas de trabajo de alto rendimiento a un agregado en un nodo menos ocupado permite que las cargas de trabajo de ambos nodos funcionen de forma más eficiente.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
 * Su clúster debe constar de un mínimo de dos parejas de alta disponibilidad. No puede utilizar este proceso de corrección si solo tiene un par de alta disponibilidad en su clúster.
 * Debe haber registrado los nombres de los dos nodos de la pareja de ha que están teniendo el problema de rendimiento.

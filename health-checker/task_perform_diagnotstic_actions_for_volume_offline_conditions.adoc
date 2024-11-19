@@ -13,8 +13,7 @@ summary: Después de navegar a la página de detalles Volume/Health de un volume
 [role="lead"]
 Después de navegar a la página de detalles Volume/Health de un volumen al que se informa que está sin conexión, puede buscar información adicional útil para diagnosticar la condición de volumen sin conexión.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
 
 Si el volumen que se informa sin conexión no se desconecta deliberadamente, ese volumen puede estar sin conexión por varios motivos.

@@ -13,8 +13,7 @@ summary: Puede ver la lista de copias Snapshot de un volumen seleccionado. Puede
 [role="lead"]
 Puede ver la lista de copias Snapshot de un volumen seleccionado. Puede usar la lista de copias Snapshot para calcular la cantidad de espacio en disco que puede recuperarse si se eliminan una o más copias Snapshot y puede eliminar las copias Snapshot si fuera necesario.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
 * El volumen que contiene las copias Snapshot debe estar en línea.
 

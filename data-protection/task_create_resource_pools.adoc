@@ -13,8 +13,7 @@ summary: Puede utilizar el cuadro de diálogo Crear pool de recursos para agrupa
 [role="lead"]
 Puede utilizar el cuadro de diálogo Crear pool de recursos para agrupar agregados con fines de aprovisionamiento.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 .Pasos

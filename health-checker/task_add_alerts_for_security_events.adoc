@@ -13,8 +13,7 @@ summary: Es posible configurar alertas para eventos de seguridad individuales, c
 [role="lead"]
 Es posible configurar alertas para eventos de seguridad individuales, como cualquier otro evento recibido por Unified Manager. Además, si desea tratar todos los eventos de seguridad por igual y enviar correo electrónico a la misma persona, puede crear una única alerta para notificarle cuando se desencadenen eventos de seguridad.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 En el siguiente ejemplo se muestra cómo crear una alerta para el evento de seguridad "'Protocolo Telnet habilitado'". Esto enviará una alerta si el acceso Telnet está configurado para el acceso administrativo remoto al clúster. Puede utilizar esta misma metodología para crear alertas para todos los eventos de seguridad.

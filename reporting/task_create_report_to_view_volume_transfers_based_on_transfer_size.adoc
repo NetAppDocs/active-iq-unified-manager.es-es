@@ -13,8 +13,7 @@ summary: Es posible crear un informe para ver las transferencias de volumen en f
 [role="lead"]
 Es posible crear un informe para ver las transferencias de volumen en función del tamaño de la transferencia.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 

@@ -13,8 +13,7 @@ summary: 'Puede suscribirse para recibir eventos del sistema de gestión de even
 [role="lead"]
 Puede suscribirse para recibir eventos del sistema de gestión de eventos (EMS) generados por sistemas instalados con el software ONTAP. Un subconjunto de eventos de EMS se informa automáticamente a Unified Manager, pero solo se informan eventos de EMS adicionales si se ha suscrito a estos eventos.
 
-*Lo que necesitará*
-
+.Antes de empezar
 No suscribirse a eventos de EMS que ya se hayan añadido a Unified Manager automáticamente, ya que esto puede provocar confusión al recibir dos eventos por el mismo problema.
 
 Puede suscribirse a cualquier número de eventos de EMS. Todos los eventos a los que se suscribe están validados y solo se aplican los eventos validados a los clústeres que supervisa en Unified Manager. El _ONTAP 9 Catálogo de eventos EMS_ proporciona información detallada para todos los mensajes EMS de la versión especificada del software ONTAP 9. Busque la versión adecuada del _Catálogo de eventos EMS_ en la página Documentación del producto de ONTAP 9 para obtener una lista de los eventos aplicables.

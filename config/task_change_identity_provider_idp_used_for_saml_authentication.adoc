@@ -13,8 +13,7 @@ summary: 'Es posible cambiar el proveedor de identidades (IDP) que Unified Manag
 [role="lead"]
 Es posible cambiar el proveedor de identidades (IDP) que Unified Manager utiliza para autenticar usuarios remotos.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener la URL y los metadatos de IDP.
 * Debe tener acceso al IDP.
 

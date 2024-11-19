@@ -16,8 +16,7 @@ Desde la página Volume Relationships, puede realizar una primera transferencia 
 
 NOTE: No se pueden inicializar o actualizar volúmenes protegidos por grupos de coherencia.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 * Debe haber configurado OnCommand Workflow Automation.
 

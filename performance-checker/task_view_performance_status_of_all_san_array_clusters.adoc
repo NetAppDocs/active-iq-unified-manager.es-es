@@ -13,8 +13,7 @@ summary: 'Es posible usar la vista Performance: All Clusters para mostrar el est
 [role="lead"]
 Es posible usar la vista Performance: All Clusters para mostrar el estado de rendimiento de los clústeres de cabina All SAN.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
 
 Se puede ver información general de todos los clústeres de cabina SAN en la vista Performance: All Clusters y detalles en la página Cluster / Performance Explorer.

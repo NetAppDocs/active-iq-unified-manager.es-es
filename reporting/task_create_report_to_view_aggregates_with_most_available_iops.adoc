@@ -13,8 +13,7 @@ summary: Este informe muestra los agregados con la tasa de IOPS más disponible 
 [role="lead"]
 Este informe muestra los agregados con la tasa de IOPS más disponible por tipo de agregado en los que se pueden aprovisionar nuevas cargas de trabajo.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 

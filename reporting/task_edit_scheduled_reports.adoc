@@ -13,8 +13,7 @@ summary: Después de programar los informes, puede editarlos en la página progr
 [role="lead"]
 Después de programar los informes, puede editarlos en la página programas de informes.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 

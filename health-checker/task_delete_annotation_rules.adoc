@@ -13,8 +13,7 @@ summary: Puede eliminar reglas de anotación de Active IQ Unified Manager cuando
 [role="lead"]
 Puede eliminar reglas de anotación de Active IQ Unified Manager cuando las reglas ya no sean necesarias.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 Al eliminar una regla de anotación, la anotación se desasocia y se elimina de los objetos de almacenamiento.

@@ -13,8 +13,7 @@ summary: Puede crear un directorio inicial personalizado y definir su propia con
 [role="lead"]
 Puede crear un directorio inicial personalizado y definir su propia contraseña de usuario umadmin antes de instalar Unified Manager. Esta tarea es opcional, pero es posible que algunos sitios necesiten la flexibilidad para anular la configuración predeterminada de la instalación de Unified Manager.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * El sistema debe cumplir los requisitos descritos en link:concept_virtual_infrastructure_or_hardware_system_requirements.html["Requisitos del sistema de hardware"].
 * Debe poder iniciar sesión como usuario raíz en el sistema Red Hat Enterprise Linux.
 

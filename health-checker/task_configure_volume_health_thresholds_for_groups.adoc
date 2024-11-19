@@ -13,8 +13,7 @@ summary: Puede configurar umbrales de estado del volumen a nivel de grupo para l
 [role="lead"]
 Puede configurar umbrales de estado del volumen a nivel de grupo para la capacidad, las copias Snapshot, las cuotas de qtree, el crecimiento y los inodos.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 El tipo de umbral de estado del volumen de la acción del grupo se aplica solo a los volúmenes de un grupo.

@@ -13,8 +13,7 @@ summary: Puede utilizar el ratón para reducir el intervalo de tiempo para centr
 [role="lead"]
 Puede utilizar el ratón para reducir el intervalo de tiempo para centrarse en un período de tiempo específico en el panel Diagrama de contador o en la ventana Vista de zoom de gráficos de contador. Esto permite ver una vista más granular y microscópica de cualquier parte de la línea de tiempo de los datos de rendimiento, los eventos y los umbrales.
 
-*Lo que necesitará*
-
+.Antes de empezar
 El cursor debe haber cambiado a una lupa para indicar que esta funcionalidad está activa.
 
 [NOTE]

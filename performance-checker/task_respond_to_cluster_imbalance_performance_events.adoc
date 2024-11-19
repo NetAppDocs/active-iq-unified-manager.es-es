@@ -13,8 +13,7 @@ summary: Unified Manager genera eventos de advertencia de desequilibrio en el cl
 [role="lead"]
 Unified Manager genera eventos de advertencia de desequilibrio en el clúster cuando un nodo de un clúster está funcionando con una carga mucho más alta que otros nodos y, por lo tanto, afecta potencialmente a las latencias de las cargas de trabajo. Estos eventos definidos por el sistema proporcionan la oportunidad para corregir posibles problemas de rendimiento antes de que muchas cargas de trabajo se vean afectadas por la latencia.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
 
 Unified Manager genera eventos de advertencia para incumplimiento de políticas de umbral de desequilibrio de clúster mediante la comparación del valor de capacidad de rendimiento utilizada para todos los nodos del clúster para ver si hay una diferencia de carga del 30 % entre cualquier nodo.

@@ -13,8 +13,7 @@ summary: Puede crear un informe para analizar la capacidad de un archivo de Exce
 [role="lead"]
 Puede crear un informe para analizar la capacidad de un archivo de Excel utilizando totales sumados y el formato de gráfico de columnas agrupadas.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 

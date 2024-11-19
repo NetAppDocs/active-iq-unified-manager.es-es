@@ -13,8 +13,7 @@ summary: Puede crear programaciones básicas o avanzadas de SnapMirror y SnapVau
 [role="lead"]
 Puede crear programaciones básicas o avanzadas de SnapMirror y SnapVault para habilitar las transferencias automáticas de protección de datos en un volumen primario o de origen, de modo que las transferencias se realicen con mayor frecuencia o menos frecuencia, según la frecuencia de los cambios de datos en los volúmenes.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 * Ya debe completar el área Destination Information en el cuadro de diálogo Configure Protection.
 * Debe haber configurado Workflow Automation para que lleve a cabo esta tarea.

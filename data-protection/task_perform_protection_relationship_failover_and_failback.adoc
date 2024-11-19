@@ -13,8 +13,7 @@ summary: Cuando se deshabilita un volumen de origen en la relación de protecci�
 [role="lead"]
 Cuando se deshabilita un volumen de origen en la relación de protección debido a un error de hardware o un desastre, se pueden usar las funciones de relaciones de protección en Unified Manager para que el destino de la protección sea accesible de lectura/escritura y se pueda conmutar por error a ese volumen hasta que el origen vuelva a estar en línea; a continuación, puede volver a la fuente original cuando esté disponible para servir datos.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 * Debe haber configurado OnCommand Workflow Automation para realizar esta operación.
 

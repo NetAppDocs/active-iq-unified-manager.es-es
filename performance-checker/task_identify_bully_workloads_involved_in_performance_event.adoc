@@ -13,8 +13,7 @@ summary: 'En Unified Manager, es posible identificar qué cargas de trabajo tien
 [role="lead"]
 En Unified Manager, es posible identificar qué cargas de trabajo tienen la mayor desviación en uso para un componente de clúster en disputa. Al identificar estas cargas de trabajo, entiende por qué algunos volúmenes del clúster tienen tiempos de respuesta lentos (latencia).
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
 * Debe haber eventos de rendimiento dinámicos nuevos, reconocidos o obsoletos.
 

@@ -13,8 +13,7 @@ summary: Este flujo de trabajo proporciona un ejemplo de cómo se puede identifi
 [role="lead"]
 Este flujo de trabajo proporciona un ejemplo de cómo se puede identificar y resolver un error de trabajo de protección en la consola de Unified Manager.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debido a que algunas tareas de este flujo de trabajo requieren que inicie sesión utilizando la función Administrador, debe estar familiarizado con las funciones necesarias para utilizar varias funciones.
 
 En este caso, debe acceder a la página Dashboard para ver si hay algún problema con los trabajos de protección. En el área incidente de protección, se observa que hay un incidente de trabajo terminado, mostrando un error de trabajo de protección en un volumen. Investiga este error para determinar la causa posible y la resolución potencial.

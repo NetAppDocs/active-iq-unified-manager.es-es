@@ -13,8 +13,7 @@ summary: 'Puede crear un informe para resaltar los agregados que estén un 80 % 
 [role="lead"]
 Puede crear un informe para resaltar los agregados que estén un 80 % o más completos.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 

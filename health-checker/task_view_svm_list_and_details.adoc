@@ -13,8 +13,7 @@ summary: 'En la vista Health: All Storage VMs, puede supervisar el inventario de
 [role="lead"]
 En la vista Health: All Storage VMs, puede supervisar el inventario de máquinas virtuales de almacenamiento (SVM). Puede usar la página de detalles Storage VM / Health para ver información detallada sobre las SVM que se supervisan.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
 
 Puede ver detalles de SVM, como la capacidad, la eficiencia y la configuración de una SVM. También se puede ver información sobre los dispositivos relacionados y las alertas relacionadas de esa SVM.

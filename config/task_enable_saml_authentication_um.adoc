@@ -13,8 +13,7 @@ summary: 'Puede habilitar la autenticación del lenguaje de marcado de aserción
 [role="lead"]
 Puede habilitar la autenticación del lenguaje de marcado de aserción de seguridad (SAML) para que los usuarios remotos se autentiquen mediante un proveedor de identidad seguro (IDP) antes de poder acceder a la interfaz de usuario web de Unified Manager.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe haber configurado la autenticación remota y verificado que la autenticación se ha realizado correctamente.
 * Debe haber creado al menos un usuario remoto, o un grupo remoto, con la función Administrador de aplicaciones.
 * El proveedor de identidades (IDP) debe ser compatible con Unified Manager y debe configurarse.

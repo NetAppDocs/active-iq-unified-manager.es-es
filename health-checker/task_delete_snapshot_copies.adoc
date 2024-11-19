@@ -13,8 +13,7 @@ summary: Puede eliminar una copia Snapshot para conservar espacio o a liberar es
 [role="lead"]
 Puede eliminar una copia Snapshot para conservar espacio o a liberar espacio en disco, o bien puede eliminar la copia Snapshot si ya no se necesita.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 El volumen debe estar en línea.

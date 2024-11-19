@@ -13,8 +13,7 @@ summary: Es posible eliminar una acción de grupo de Unified Manager cuando ya n
 [role="lead"]
 Es posible eliminar una acción de grupo de Unified Manager cuando ya no se necesita la acción de grupo.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 Cuando se elimina la acción de grupo para el umbral de estado del volumen, se aplican umbrales globales a los objetos de almacenamiento de ese grupo. Cualquier umbral de estado a nivel de objeto que se establezca en el objeto de almacenamiento no se ve afectado.

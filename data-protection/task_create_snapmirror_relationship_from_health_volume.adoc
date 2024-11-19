@@ -13,8 +13,7 @@ summary: Puede usar la página de detalles Volume / Health para crear una relaci
 [role="lead"]
 Puede usar la página de detalles Volume / Health para crear una relación de SnapMirror de modo que la replicación de datos esté habilitada para fines de protección. La replicación de SnapMirror permite restaurar datos del volumen de destino en caso de que se pierdan datos en el origen.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 * Debe haber configurado Workflow Automation.
 

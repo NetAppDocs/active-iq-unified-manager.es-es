@@ -13,8 +13,7 @@ summary: Puede eliminar uno o varios usuarios de la base de datos del servidor d
 [role="lead"]
 Puede eliminar uno o varios usuarios de la base de datos del servidor de gestión para evitar que usuarios específicos accedan a Unified Manager. También puede eliminar grupos para que todos los usuarios del grupo ya no puedan acceder al servidor de administración.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Cuando se eliminan grupos remotos, debe haber reasignado los eventos que se asignan a los usuarios de los grupos remotos.
 +
 Si va a eliminar usuarios locales o usuarios remotos, los eventos asignados a estos usuarios se asignarán automáticamente.

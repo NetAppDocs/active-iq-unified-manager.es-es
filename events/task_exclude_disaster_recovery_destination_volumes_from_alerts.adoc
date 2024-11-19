@@ -13,8 +13,7 @@ summary: Al configurar alertas de volumen, es posible especificar una cadena en 
 [role="lead"]
 Al configurar alertas de volumen, es posible especificar una cadena en el cuadro de diálogo Alert que identifica un volumen o un grupo de volúmenes. Si configuró la recuperación ante desastres para las SVM, sin embargo, los volúmenes de origen y destino tienen el mismo nombre, por lo que recibirá alertas para ambos volúmenes.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 Si desea deshabilitar alertas para los volúmenes de destino de recuperación ante desastres, se deben excluir los volúmenes que tienen el nombre de la SVM de destino. Esto es posible porque el identificador de los eventos del volumen contiene el nombre de SVM y el nombre del volumen con el formato "<svm_name>:/<volume_name>".

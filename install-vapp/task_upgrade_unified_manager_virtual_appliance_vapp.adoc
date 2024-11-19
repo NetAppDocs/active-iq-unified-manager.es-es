@@ -11,10 +11,9 @@ summary: Puede actualizar el dispositivo virtual de Unified Manager
 
 
 [role="lead"]
-Puede actualizar el dispositivo virtual Active IQ Unified Manager de las versiones 9,12 o 9,13 a la 9,14.
+Puede actualizar el dispositivo virtual Active IQ Unified Manager de las versiones 9,13 o 9,14 a la 9,16.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Asegúrese de lo siguiente:
 
 * Ha descargado el archivo de actualización, la imagen ISO del sitio de soporte de NetApp.

@@ -13,8 +13,7 @@ summary: Puede ver una lista de todos los volúmenes y su estado de cifrado actu
 [role="lead"]
 Puede ver una lista de todos los volúmenes y su estado de cifrado actual para poder determinar si los datos de los volúmenes están protegidos correctamente para que otros usuarios no autorizados puedan acceder a ellos.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
 
 Los tipos de cifrado que se pueden aplicar a un volumen son los siguientes:

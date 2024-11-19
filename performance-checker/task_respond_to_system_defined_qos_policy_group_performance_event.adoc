@@ -13,8 +13,7 @@ summary: 'Unified Manager genera eventos de advertencia sobre las políticas de 
 [role="lead"]
 Unified Manager genera eventos de advertencia sobre las políticas de calidad de servicio cuando el rendimiento de las cargas de trabajo (IOPS, IOPS/TB o Mbps) superó la configuración de la política de calidad de servicio de ONTAP definida y la latencia de las cargas de trabajo se ve cada vez más afectada. Estos eventos definidos por el sistema proporcionan la oportunidad para corregir posibles problemas de rendimiento antes de que muchas cargas de trabajo se vean afectadas por la latencia.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
 * Debe haber eventos de rendimiento nuevos, reconocidos o obsoletos.
 

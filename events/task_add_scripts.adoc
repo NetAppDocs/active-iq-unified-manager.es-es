@@ -13,8 +13,7 @@ summary: Puede añadir scripts en Unified Manager y asociarlos con alertas. Esto
 [role="lead"]
 Puede añadir scripts en Unified Manager y asociarlos con alertas. Estos scripts se ejecutan automáticamente cuando se genera una alerta, y le permiten obtener información sobre los objetos de almacenamiento para los que se genera el evento.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe haber creado y guardado los scripts que desea añadir al servidor de Unified Manager.
 * Los formatos de archivo compatibles con scripts son Perl, Shell, PowerShell, Python y. `.bat` archivos.
 +

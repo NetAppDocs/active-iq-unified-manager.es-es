@@ -13,8 +13,7 @@ summary: Puede anotar manualmente volúmenes, clústeres y SVM seleccionados sin
 [role="lead"]
 Puede anotar manualmente volúmenes, clústeres y SVM seleccionados sin usar reglas de anotación. Puede anotar un único objeto de almacenamiento o varios objetos de almacenamiento y especificar la combinación de par nombre-valor necesaria para la anotación.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 .Pasos

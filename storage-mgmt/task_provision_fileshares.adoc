@@ -13,8 +13,7 @@ summary: 'Es posible crear volúmenes de recursos compartidos de archivos compat
 [role="lead"]
 Es posible crear volúmenes de recursos compartidos de archivos compatibles con los protocolos CIFS/SMB y NFS en un clúster existente y Storage Virtual Machine (VM de almacenamiento) desde la página de carga de trabajo de aprovisionamiento.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * El equipo virtual de almacenamiento debe tener espacio para aprovisionar el volumen compartido de archivos.
 * Debe habilitarse uno de los servicios de SMB y NFS en el equipo virtual de almacenamiento.
 * Para seleccionar y asignar el nivel de servicio de rendimiento (PSL) y la política de eficiencia de almacenamiento (SEP) en la carga de trabajo, es necesario crear las políticas antes de comenzar a crear la carga de trabajo.

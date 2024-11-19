@@ -13,8 +13,7 @@ summary: Puede editar los parámetros de acción del grupo que configuró en Uni
 [role="lead"]
 Puede editar los parámetros de acción del grupo que configuró en Unified Manager, como el nombre de la acción del grupo, la descripción, el nombre del grupo asociado y los parámetros del tipo de acción.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 .Pasos

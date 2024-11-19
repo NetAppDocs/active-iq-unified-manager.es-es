@@ -13,8 +13,7 @@ summary: Si es un usuario de Windows, puede descargar e instalar una herramienta
 [role="lead"]
 Si es un usuario de Windows, puede descargar e instalar una herramienta para recuperar el paquete de soporte desde el servidor de Unified Manager. Es posible enviar el bundle de soporte al soporte técnico para un diagnóstico más detallado de un problema. FileZilla o WinSCP son ejemplos de herramientas que puede utilizar.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe ser el usuario de mantenimiento para realizar esta tarea.
 
 Debe usar una herramienta que admita SCP o SFTP.

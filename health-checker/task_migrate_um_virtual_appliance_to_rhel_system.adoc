@@ -1,5 +1,5 @@
 ---
-permalink: health-checker/task_migrate_um_virtual_appliance_to_rhel_or_centos_system.html 
+permalink: health-checker/task_migrate_um_virtual_appliance_to_rhel_system.html 
 sidebar: sidebar 
 keywords: unified manager, migrate, virtual, appliance, linux system 
 summary: Puede restaurar un backup de volcado de base de datos MySQL de Unified Manager desde un dispositivo virtual a un sistema Red Hat Enterprise Linux si desea cambiar el sistema operativo del host donde se ejecuta Unified Manager. 
@@ -13,8 +13,7 @@ summary: Puede restaurar un backup de volcado de base de datos MySQL de Unified 
 [role="lead"]
 Puede restaurar un backup de volcado de base de datos MySQL de Unified Manager desde un dispositivo virtual a un sistema Red Hat Enterprise Linux si desea cambiar el sistema operativo del host donde se ejecuta Unified Manager.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * En el dispositivo virtual:
 +
 ** Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
@@ -23,7 +22,7 @@ Puede restaurar un backup de volcado de base de datos MySQL de Unified Manager d
 
 * En el sistema Linux:
 +
-** Debe haber instalado Unified Manager en un servidor Linux según las instrucciones descritas en link:../install-linux/concept_install_unified_manager_on_rhel_or_centos.html["Instalación de Unified Manager en sistemas Linux"].
+** Debe haber instalado Unified Manager en un servidor Linux siguiendo las instrucciones de link:../install-linux/concept_install_unified_manager_on_rhel.html["Instalación de Unified Manager en sistemas Linux"].
 ** La versión de Unified Manager en este servidor debe ser la misma que la versión del dispositivo virtual desde el que se utiliza el archivo de backup.
 ** No inicie la interfaz de usuario ni configure ningún clúster, usuario ni configuración de autenticación en el sistema Linux después de la instalación. El archivo de backup rellena esta información durante el proceso de restauración.
 ** Debe tener las credenciales de usuario raíz para el host Linux.

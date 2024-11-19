@@ -13,8 +13,7 @@ summary: Puede eliminar anotaciones personalizadas y sus valores cuando ya no se
 [role="lead"]
 Puede eliminar anotaciones personalizadas y sus valores cuando ya no sean necesarias.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 * Los valores de anotación no deben utilizarse en otras anotaciones ni en otras reglas de grupo.
 

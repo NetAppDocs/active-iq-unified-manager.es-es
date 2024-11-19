@@ -13,8 +13,7 @@ summary: En caso de pérdida de datos o corrupción de datos, es posible usar la
 [role="lead"]
 En caso de pérdida de datos o corrupción de datos, es posible usar la función de restauración para restaurar Unified Manager al estado estable anterior con una pérdida mínima. Puede restaurar la base de datos de MySQL de Unified Manager a un sistema Windows local o a un sistema Windows remoto mediante la consola de mantenimiento de Unified Manager.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener privilegios de administrador de Windows.
 * Debe haber copiado el archivo de backup de Unified Manager y el contenido del directorio de repositorio de la base de datos en el sistema donde se ejecutará la operación de restauración.
 +

@@ -13,8 +13,7 @@ summary: 'Puede usar la vista Health: All Nodes para ver la lista de nodos en lo
 [role="lead"]
 Puede usar la vista Health: All Nodes para ver la lista de nodos en los clústeres. Puede usar la página de detalles Cluster / Health para ver información detallada acerca de los nodos que forman parte del clúster que se supervisa.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
 
 Es posible ver detalles como el estado del nodo, el clúster que contiene el nodo, detalles de capacidad del agregado (usado y total) y detalles de capacidad bruta (utilizable, de reserva y total). También puede obtener información acerca de las parejas de alta disponibilidad, bandejas de discos y puertos.

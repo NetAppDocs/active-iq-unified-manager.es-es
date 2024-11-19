@@ -13,8 +13,7 @@ summary: Si configuró una ventana de mantenimiento de Unified Manager para que 
 [role="lead"]
 Si configuró una ventana de mantenimiento de Unified Manager para que se produzca en el futuro, puede cambiar las horas de inicio y de finalización o cancelar la ventana de mantenimiento.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 Cancelar una ventana de mantenimiento que se está ejecutando actualmente es útil si ha completado el mantenimiento del clúster antes de la hora de finalización de la ventana de mantenimiento programada, y desea volver a recibir eventos y alertas del clúster.

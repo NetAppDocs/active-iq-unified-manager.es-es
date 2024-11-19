@@ -13,8 +13,7 @@ summary: Puede crear un informe para mostrar una lista de todas las SVM detenida
 [role="lead"]
 Puede crear un informe para mostrar una lista de todas las SVM detenidas.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 

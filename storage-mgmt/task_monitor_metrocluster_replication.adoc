@@ -15,8 +15,7 @@ Puede supervisar y diagnosticar la condición de estado general de las conexione
 
 Unified Manager utiliza alertas de estado del sistema para supervisar el estado de los componentes y la conectividad en la configuración de MetroCluster.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Tanto el clúster local como el remoto de la configuración de MetroCluster se deben añadir a Unified Manager
 
 

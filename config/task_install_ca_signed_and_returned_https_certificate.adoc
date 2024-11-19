@@ -13,7 +13,7 @@ summary: 'Puede cargar e instalar un certificado de seguridad después de que un
 [role="lead"]
 Puede cargar e instalar un certificado de seguridad después de que una entidad de certificación lo haya firmado y devuelto. El archivo que cargue e instale debe ser una versión firmada del certificado autofirmado existente. Un certificado firmado por CA ayuda a evitar los ataques de tipo "man in the middle" y ofrece una mejor protección de seguridad que un certificado autofirmado.
 
-*Lo que necesitará*
+* Qué .Antes de empezar
 
 Debe haber completado las siguientes acciones:
 

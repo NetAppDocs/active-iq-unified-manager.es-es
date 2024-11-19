@@ -13,8 +13,7 @@ summary: Puede crear una nueva política de SnapVault para configurar la priorid
 [role="lead"]
 Puede crear una nueva política de SnapVault para configurar la prioridad para una transferencia de SnapVault. Las políticas se usan para maximizar la eficiencia de las transferencias del almacenamiento primario al secundario en una relación de protección.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 * Debe haber configurado Workflow Automation.
 * Ya debe haber completado el área Destination Information en el cuadro de diálogo Configure Protection.

@@ -13,8 +13,7 @@ summary: Debe configurar el volumen para almacenar copias de Snapshot después d
 [role="lead"]
 Debe configurar el volumen para almacenar copias de Snapshot después de realizar un backup de Unified Manager en Windows.
 
-*Lo que necesitará*
-
+.Antes de empezar
 El clúster, la máquina virtual de almacenamiento y el volumen deben cumplir los siguientes requisitos:
 
 * Requisitos del clúster:

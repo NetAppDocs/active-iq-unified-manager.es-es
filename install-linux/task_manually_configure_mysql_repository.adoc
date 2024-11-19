@@ -21,15 +21,15 @@ Esta tarea podría fallar si el sistema no tiene conectividad a Internet. Consul
 
 ====
 .Pasos
-. Descargue el repositorio de MySQL adecuado para su instalación. Para Red Hat Enterprise Linux 7, descárguelo de:
+. Descargue el repositorio de MySQL adecuado para su instalación. Para la versión 8, descárguela de:
 +
-`+wget http://repo.mysql.com/yum/mysql-8.0-community/el/7/x86_64/mysql80-community-release-el7-3.noarch.rpm+`
+`wget http://repo.mysql.com/yum/mysql-8.0-community/el/8/x86_64/mysql80-community-release-el8-1.noarch.rpm`
 
 +
-Para la versión 8, descárguela de:
+Para la versión 9, descárguela de:
 
 +
-`+wget http://repo.mysql.com/yum/mysql-8.0-community/el/8/x86_64/mysql80-community-release-el8-1.noarch.rpm+`
+`wget http://repo.mysql.com/yum/mysql-8.0-community/el/9/x86_64/mysql80-community-release-el9-1.noarch.rpm`
 
 . Configure el repositorio de MySQL:
 +

@@ -13,8 +13,7 @@ summary: Puede configurar el volumen donde se almacenarán las copias Snapshot e
 [role="lead"]
 Puede configurar el volumen donde se almacenarán las copias Snapshot en uno de los clústeres de ONTAP mediante System Manager de ONTAP o mediante la interfaz de línea de comandos de ONTAP.
 
-*Lo que necesitará*
-
+.Antes de empezar
 El clúster, la máquina virtual de almacenamiento y el volumen deben cumplir los siguientes requisitos:
 
 * Requisitos del clúster:

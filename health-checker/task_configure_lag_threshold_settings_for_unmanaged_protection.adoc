@@ -13,8 +13,7 @@ summary: Puede editar la configuración global predeterminada de umbral de adver
 [role="lead"]
 Puede editar la configuración global predeterminada de umbral de advertencia de desfase y de estado de error para relaciones de protección no administradas, de modo que los eventos se generen a intervalos apropiados para sus necesidades.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 El tiempo de desfase no debe superar el intervalo de programación de transferencia definido. Por ejemplo, si la programación de transferencia es por hora, el intervalo de demora no debe ser superior a una hora. El umbral de desfase especifica un porcentaje que no debe superar el tiempo de desfase. Con el ejemplo de una hora, si el umbral de desfase se define como 150%, recibirá un evento cuando el tiempo de retraso sea superior a 1.5 horas.

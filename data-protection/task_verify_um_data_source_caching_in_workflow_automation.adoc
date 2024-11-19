@@ -13,8 +13,7 @@ summary: Puede determinar si el almacenamiento en caché de origen de datos de U
 [role="lead"]
 Puede determinar si el almacenamiento en caché de origen de datos de Unified Manager funciona correctamente comprobando si la adquisición del origen de datos se ha realizado correctamente en Workflow Automation. Puede hacerlo cuando se integre Workflow Automation con Unified Manager para garantizar que la funcionalidad Workflow Automation esté disponible después de la integración.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Para realizar esta tarea, debe tener asignado la función Administrador o la función Arquitecto de Workflow Automation.
 
 .Pasos

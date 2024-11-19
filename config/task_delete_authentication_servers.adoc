@@ -13,8 +13,7 @@ summary: Puede eliminar un servidor de autenticación si desea impedir que Unifi
 [role="lead"]
 Puede eliminar un servidor de autenticación si desea impedir que Unified Manager Server se comunique con el servidor de autenticación. Por ejemplo, si desea cambiar un servidor de autenticación con el que el servidor de administración está comunicando, puede eliminar el servidor de autenticación y agregar un nuevo servidor de autenticación.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener la función Administrador de aplicaciones.
 
 Cuando se elimina un servidor de autenticación, los usuarios remotos o grupos del servidor de autenticación ya no pueden acceder a Unified Manager.

@@ -13,8 +13,7 @@ summary: Puede utilizar la página trabajos para cancelar un trabajo si tarda de
 [role="lead"]
 Puede utilizar la página trabajos para cancelar un trabajo si tarda demasiado en finalizarlo, si encuentra demasiados errores o si ya no es necesario. Sólo puede cancelar un trabajo si su estado y el tipo permitir. Puede anular cualquier trabajo en ejecución.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 .Pasos

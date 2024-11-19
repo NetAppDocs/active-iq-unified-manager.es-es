@@ -13,8 +13,7 @@ summary: Puede crear una relación de SnapVault mediante la página de detalles 
 [role="lead"]
 Puede crear una relación de SnapVault mediante la página de detalles Volume/Health para que los backups de datos estén habilitados para la protección en los volúmenes.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 * Debe haber configurado Workflow Automation para que lleve a cabo esta tarea.
 

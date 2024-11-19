@@ -13,8 +13,7 @@ summary: Puede ver una lista de todos los volúmenes y máquinas virtuales de al
 [role="lead"]
 Puede ver una lista de todos los volúmenes y máquinas virtuales de almacenamiento (SVM) y su estado actual antiransomware para poder determinar si los datos de sus volúmenes y SVM están protegidos adecuadamente de ataques de ransomware.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
 
 Para obtener más información sobre los diferentes Estados del antiransomware, consulte link:https://docs.netapp.com/us-en/ontap/anti-ransomware/enable-task.html#system-manager-procedure["ONTAP: Habilite el antiransomware"].

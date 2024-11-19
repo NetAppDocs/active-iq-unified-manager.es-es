@@ -13,8 +13,7 @@ summary: La capacidad de cargar scripts en Unified Manager y ejecutarlas está h
 [role="lead"]
 La capacidad de cargar scripts en Unified Manager y ejecutarlas está habilitada de forma predeterminada. Si la organización no desea permitir esta actividad debido a motivos de seguridad, puede desactivar esta funcionalidad.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener la función Administrador de aplicaciones.
 
 .Pasos

@@ -13,8 +13,7 @@ summary: Mediante la página Storage VMs, puede ver el estado de las relaciones 
 [role="lead"]
 Mediante la página Storage VMs, puede ver el estado de las relaciones de recuperación ante desastres de los equipos virtuales de almacenamiento existentes.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 También puede examinar los detalles de las relaciones de protección, incluidos el estado de transferencia y desfase, los detalles de origen y destino. Puede programar informes o descargar informes existentes en el formato que necesite. El botón *Mostrar/Ocultar* permite agregar las columnas necesarias a los informes, ya que no se muestran de forma predeterminada.

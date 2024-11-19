@@ -13,8 +13,7 @@ summary: Puede editar propiedades de alerta como el recurso con el que está aso
 [role="lead"]
 Puede editar propiedades de alerta como el recurso con el que está asociada la alerta, eventos, destinatarios, opciones de notificación, frecuencia de notificación, y los scripts asociados.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener la función Administrador de aplicaciones.
 
 .Pasos

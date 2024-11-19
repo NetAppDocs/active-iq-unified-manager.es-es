@@ -13,8 +13,7 @@ summary: 'Puede crear grupos para combinar clústeres, volúmenes y máquinas vi
 [role="lead"]
 Puede crear grupos para combinar clústeres, volúmenes y máquinas virtuales de almacenamiento (SVM) con el fin de simplificar la gestión.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 Puede definir reglas de grupo para agregar o quitar miembros del grupo y modificar acciones de grupo para el grupo.

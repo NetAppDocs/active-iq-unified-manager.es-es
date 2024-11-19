@@ -13,8 +13,7 @@ summary: Es posible utilizar Unified Manager para investigar los eventos de rend
 [role="lead"]
 Es posible utilizar Unified Manager para investigar los eventos de rendimiento provocados por un contador de rendimiento que cruce un umbral de advertencia definido por el sistema. También puede usar Unified Manager para comprobar el estado del componente del clúster a fin de ver si los eventos recientes detectados en el componente contribuyeron al evento de rendimiento.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
 * Debe haber eventos de rendimiento nuevos o obsoletos.
 

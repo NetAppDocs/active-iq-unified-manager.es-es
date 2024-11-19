@@ -13,8 +13,7 @@ summary: 'Una vez guardada la vista, puede descargarla en formato de libro de Ex
 [role="lead"]
 Una vez guardada la vista, puede descargarla en formato de libro de Excel (.xlsx). Al abrir el archivo de Excel, puede utilizar características avanzadas de Excel para personalizar el informe.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Solo puede cargar un archivo de libro de Excel con la extensión .xlsx.
 
 Por ejemplo, algunas de las características avanzadas de Excel que puede utilizar en el informe incluyen:

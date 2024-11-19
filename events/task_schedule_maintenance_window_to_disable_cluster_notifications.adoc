@@ -13,8 +13,7 @@ summary: Si tiene un tiempo de inactividad planificado para un clúster, por eje
 [role="lead"]
 Si tiene un tiempo de inactividad planificado para un clúster, por ejemplo, para actualizar el clúster o mover uno de los nodos, puede eliminar los eventos y alertas que normalmente se generan durante ese periodo de tiempo mediante la programación de una ventana de mantenimiento de Unified Manager.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 Durante una ventana de mantenimiento, aún se generan los eventos relacionados con todos los objetos de ese clúster, pero no aparecen en la página de eventos y no se envían alertas ni otros tipos de notificaciones para estos eventos.

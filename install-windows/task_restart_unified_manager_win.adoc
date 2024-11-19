@@ -13,8 +13,7 @@ summary: Es posible que tenga que reiniciar Unified Manager después de realizar
 [role="lead"]
 Es posible que tenga que reiniciar Unified Manager después de realizar cambios de configuración.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener privilegios de administrador de Windows.
 
 .Pasos

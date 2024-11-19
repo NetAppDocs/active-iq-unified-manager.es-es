@@ -13,8 +13,7 @@ summary: Cuando un desastre deshabilita el volumen de origen en la relación de 
 [role="lead"]
 Cuando un desastre deshabilita el volumen de origen en la relación de protección, es posible utilizar el volumen de destino para suministrar datos mediante la conversión a un volumen de lectura/escritura mientras se repara o sustituye el origen. Cuando el origen vuelve a estar disponible para recibir datos, puede utilizar la operación de resincronización inversa para establecer la relación en la dirección inversa y sincronizar los datos del origen con los datos en el destino de lectura/escritura.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 * Debe haber configurado Workflow Automation.
 * La relación no debe ser una relación de SnapVault.

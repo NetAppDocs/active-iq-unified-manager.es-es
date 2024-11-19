@@ -13,8 +13,7 @@ summary: Puede usar Unified Manager para comprobar el estado operativo de los cl
 [role="lead"]
 Puede usar Active IQ Unified Manager (Unified Manager) para comprobar el estado operativo de los clústeres y sus componentes, en configuraciones de MetroCluster over FC e MetroCluster over IP. Si los clústeres estaban implicados en un evento de rendimiento detectado por Unified Manager, el estado puede ayudarle a determinar si un problema de hardware o software ha contribuido al evento.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
 * Debe haber analizado un evento de rendimiento de una configuración de MetroCluster y obtener el nombre del clúster involucrado.
 * Ambos clústeres de la configuración de MetroCluster mediante FC e IP deben supervisarse con la misma instancia de Unified Manager.

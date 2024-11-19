@@ -13,8 +13,7 @@ summary: Puede ver detalles sobre un evento que ha activado Unified Manager para
 [role="lead"]
 Puede ver detalles sobre un evento que ha activado Unified Manager para realizar acciones correctivas. Por ejemplo, si hay un volumen de evento de estado sin conexión, puede hacer clic en ese evento para ver los detalles y ejecutar acciones correctivas.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
 
 Los detalles del evento incluyen información como el origen del evento, la causa del evento y cualquier nota relacionada con el evento.

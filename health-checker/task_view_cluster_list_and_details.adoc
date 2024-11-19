@@ -13,8 +13,7 @@ summary: 'La vista Health: All Clusters se puede usar para ver el inventario de 
 [role="lead"]
 La vista Health: All Clusters se puede usar para ver el inventario de clústeres. La vista Capacity: All Clusters permite ver información resumida sobre la capacidad de almacenamiento y la utilización en todos los clústeres.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
 
 También puede ver detalles de cada clúster, como el estado del clúster, la capacidad, la configuración, las LIF, los nodos, Y los discos en ese clúster mediante la página de detalles Cluster / Health.

@@ -13,8 +13,7 @@ summary: 'Es posible quitar agregados de un pool de recursos existente: Por ejem
 [role="lead"]
 Es posible quitar agregados de un pool de recursos existente: Por ejemplo, cuando se desea usar un agregado con otro fin.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 Los miembros del pool de recursos solo se muestran cuando se selecciona un pool de recursos.

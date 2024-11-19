@@ -13,8 +13,7 @@ summary: La página de detalles Storage VM / Health muestra información sobre l
 [role="lead"]
 La página de detalles Storage VM / Health muestra información sobre las cuotas de grupos de usuarios y usuarios que están configuradas en la SVM. Puede ver el nombre del usuario o grupo de usuarios, los límites establecidos en los discos y archivos, el espacio utilizado en disco y archivo y la dirección de correo electrónico para la notificación.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
 
 .Pasos

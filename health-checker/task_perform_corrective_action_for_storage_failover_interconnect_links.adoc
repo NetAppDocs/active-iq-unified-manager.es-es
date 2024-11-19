@@ -13,8 +13,7 @@ summary: Cuando se muestra la página de detalles Event de un evento de almacena
 [role="lead"]
 Cuando se muestra la página de detalles Event de un evento de almacenamiento relacionado con conmutación al nodo de respaldo, puede revisar la información de resumen de la página para determinar la urgencia del evento, la posible causa del problema y la posible resolución del problema.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
 
 En este ejemplo, el resumen de eventos que se proporciona en la página de detalles Event contiene la siguiente información sobre la condición de enlace inactivo de la interconexión de conmutación por error de almacenamiento:

@@ -13,8 +13,7 @@ summary: Este flujo de trabajo proporciona un ejemplo de cómo puede resolver un
 [role="lead"]
 Este flujo de trabajo proporciona un ejemplo de cómo puede resolver un problema de desfase. En esta situación, usted es administrador o operador que accede a la página Unified Manager Dashboard para ver si hay algún problema en las relaciones de protección y, si existen, para buscar soluciones.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 En la página Dashboard, se puede ver el área Unresolved Incidents and Risks y se muestra un error de desfase de SnapMirror en el panel Protection Risks.

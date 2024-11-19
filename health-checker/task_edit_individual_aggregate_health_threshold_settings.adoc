@@ -13,8 +13,7 @@ summary: Puede editar la configuración del umbral de estado para la capacidad d
 [role="lead"]
 Puede editar la configuración del umbral de estado para la capacidad del agregado, el crecimiento y las copias Snapshot de uno o más agregados. Cuando se supera un umbral, se generan alertas y se reciben notificaciones. Estas notificaciones le ayudan a tomar medidas preventivas basadas en el evento generado.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 Basándose en los cambios de los valores de umbral, los eventos se generan o se vuelven obsoletos en el siguiente ciclo de supervisión.

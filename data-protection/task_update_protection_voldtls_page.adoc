@@ -15,8 +15,7 @@ Puede realizar una primera transferencia de referencia en una nueva relación de
 
 *NOTA*: No puede inicializar ni actualizar volúmenes protegidos por grupos de consistencia.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 * Debe haber configurado OnCommand Workflow Automation.
 

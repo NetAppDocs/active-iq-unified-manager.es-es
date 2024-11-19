@@ -13,8 +13,7 @@ summary: Puede reiniciar el equipo virtual desde la consola de mantenimiento de 
 [role="lead"]
 Puede reiniciar el equipo virtual desde la consola de mantenimiento de Unified Manager. Debe reiniciar después de generar un nuevo certificado de seguridad o si hay un problema con la máquina virtual.
 
-*Lo que necesitará*
-
+.Antes de empezar
 El dispositivo virtual está encendido.
 
 Ha iniciado sesión en la consola de mantenimiento como usuario de mantenimiento.

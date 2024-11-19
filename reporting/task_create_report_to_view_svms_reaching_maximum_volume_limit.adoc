@@ -13,8 +13,7 @@ summary: Puede crear un informe para encontrar las SVM que alcanzan el límite m
 [role="lead"]
 Puede crear un informe para encontrar las SVM que alcanzan el límite máximo de volumen.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 

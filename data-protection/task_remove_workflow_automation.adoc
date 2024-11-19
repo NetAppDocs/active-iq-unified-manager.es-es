@@ -13,8 +13,7 @@ summary: Puede eliminar la configuración de OnCommand Workflow Automation de Un
 [role="lead"]
 Puede eliminar la configuración de OnCommand Workflow Automation de Unified Manager cuando ya no desee usar Workflow Automation.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 .Pasos

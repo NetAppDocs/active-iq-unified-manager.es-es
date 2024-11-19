@@ -13,8 +13,7 @@ summary: Puede calcular la cantidad de espacio en disco que se puede recuperar s
 [role="lead"]
 Puede calcular la cantidad de espacio en disco que se puede recuperar si se eliminan una o más copias Snapshot.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
 * El volumen debe estar en línea.
 * El volumen debe ser un volumen de FlexVol, pero esta funcionalidad no es compatible con FlexGroup Volumes.

@@ -13,8 +13,7 @@ summary: 'Puede ver detalles sobre todos los recursos compartidos SMB/CIFS, como
 [role="lead"]
 Puede ver detalles sobre todos los recursos compartidos SMB/CIFS, como el nombre del recurso compartido, la ruta de unión, que contiene objetos, la configuración de seguridad y las políticas de exportación definidas para el recurso compartido. Use la vista Health: Todos los recursos compartidos de SMB para ver todos los recursos compartidos de SMB en todos los clústeres supervisados y use la página de detalles Storage VM / Health para ver todos los recursos compartidos de SMB en una máquina virtual de almacenamiento (SVM) específica.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * La licencia de CIFS debe estar habilitada en el clúster.
 * Se deben configurar las interfaces de red que sirven a los recursos compartidos de SMB/CIFS.
 * Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.

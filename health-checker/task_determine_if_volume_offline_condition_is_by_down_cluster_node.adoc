@@ -13,8 +13,7 @@ summary: Puede utilizar la interfaz de usuario web de Unified Manager para confi
 [role="lead"]
 Puede utilizar la interfaz de usuario web de Unified Manager para confirmar o eliminar la posibilidad de que un volumen esté sin conexión debido a que su nodo de host está inactivo y que la conmutación por error del almacenamiento a su partner de pareja de alta disponibilidad no se puede realizar correctamente.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
 
 Para determinar si la condición de volumen sin conexión se debe a un fallo en el nodo de host y a una conmutación por error del almacenamiento posterior a una conmutación por error, realice las siguientes acciones:

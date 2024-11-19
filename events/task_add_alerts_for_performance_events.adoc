@@ -13,8 +13,7 @@ summary: Es posible configurar alertas para eventos de rendimiento individuales,
 [role="lead"]
 Es posible configurar alertas para eventos de rendimiento individuales, como cualquier otro evento que reciba Unified Manager. Además, si desea tratar todos los eventos de rendimiento por igual y enviar correo electrónico a la misma persona, puede crear una única alerta para notificarle cuando se active cualquier evento de rendimiento crítico o de advertencia.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 El siguiente ejemplo muestra cómo crear un evento para todos los eventos de latencia crítica, IOPS y Mbps. Puede utilizar esta misma metodología para seleccionar eventos de todos los contadores de rendimiento y de todos los eventos de advertencia.

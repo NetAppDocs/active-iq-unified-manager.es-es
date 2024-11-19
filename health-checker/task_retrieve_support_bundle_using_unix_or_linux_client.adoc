@@ -13,8 +13,7 @@ summary: 'Si es usuario de UNIX o Linux, puede recuperar el bundle de soporte de
 [role="lead"]
 Si es usuario de UNIX o Linux, puede recuperar el bundle de soporte desde el vApp a través de la interfaz de línea de comandos (CLI) en el servidor cliente Linux. Puede usar SCP o SFTP para recuperar el paquete de soporte.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe ser el usuario de mantenimiento para realizar esta tarea.
 
 Debe haber generado un bundle de soporte con la consola de mantenimiento y tener disponible el nombre del bundle de soporte.

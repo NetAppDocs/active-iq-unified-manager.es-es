@@ -13,8 +13,7 @@ summary: Después de tener una vista o un archivo de Excel que desee programar p
 [role="lead"]
 Después de tener una vista o un archivo de Excel que desee programar para la generación y distribución regulares, puede programar el informe.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 * Debe haber configurado la configuración del servidor SMTP en la página *General* > *Notificaciones* para que el motor de informes pueda enviar informes como adjuntos de correo electrónico a la lista de destinatarios desde el servidor de Unified Manager.
 * El servidor de correo electrónico debe configurarse para permitir el envío de archivos adjuntos con los correos electrónicos generados.

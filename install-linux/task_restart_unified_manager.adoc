@@ -13,8 +13,7 @@ summary: Es posible que tenga que reiniciar Unified Manager después de realizar
 [role="lead"]
 Es posible que tenga que reiniciar Unified Manager después de realizar cambios de configuración.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener acceso de usuario raíz al servidor de Red Hat Enterprise Linux en el que se haya instalado Unified Manager.
 
 .Pasos

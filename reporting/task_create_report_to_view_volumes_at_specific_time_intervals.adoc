@@ -13,8 +13,7 @@ summary: Se puede crear un informe que muestre las tendencias de transferencia d
 [role="lead"]
 Se puede crear un informe que muestre las tendencias de transferencia de volumen en intervalos de tiempo específicos.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 

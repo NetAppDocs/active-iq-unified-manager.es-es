@@ -13,8 +13,7 @@ summary: Cuando los niveles de servicio de rendimiento definidos por el sistema 
 [role="lead"]
 Cuando los niveles de servicio de rendimiento definidos por el sistema no coinciden con los requisitos de la carga de trabajo, puede crear sus propios niveles de servicio de rendimiento optimizados para sus cargas de trabajo.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener la función Administrador de aplicaciones.
 * El nombre de nivel de servicio de rendimiento debe ser único y no se pueden utilizar las siguientes palabras clave reservadas:
 +

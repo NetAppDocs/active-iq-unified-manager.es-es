@@ -13,8 +13,7 @@ summary: Puede utilizar la página Jobs para supervisar el estado del trabajo y 
 [role="lead"]
 Puede utilizar la página Jobs para supervisar el estado del trabajo y ver propiedades del trabajo, como el tipo de servicio de almacenamiento, el estado, la hora de envío y la hora de finalización, a fin de determinar si un trabajo se ha completado correctamente o no.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 .Pasos

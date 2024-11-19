@@ -13,8 +13,7 @@ summary: Un pool de recursos consta de un número de agregados miembros. Puede a
 [role="lead"]
 Un pool de recursos consta de un número de agregados miembros. Puede añadir agregados a pools de recursos existentes para aumentar la cantidad de espacio disponible para el aprovisionamiento de volúmenes secundarios.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 No puede añadir más de 200 agregados a un pool de recursos a la vez. Los agregados que se muestran en el cuadro de diálogo agregados no pertenecen a ningún otro pool de recursos.

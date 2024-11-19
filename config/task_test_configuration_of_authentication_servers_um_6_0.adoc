@@ -13,8 +13,7 @@ summary: Puede validar la configuración de los servidores de autenticación par
 [role="lead"]
 Puede validar la configuración de los servidores de autenticación para garantizar que el servidor de gestión pueda comunicarse con ellos. Puede validar la configuración buscando un usuario remoto o un grupo remoto desde los servidores de autenticación y autentificándolos con la configuración configurada.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Usted debe haber habilitado la autenticación remota y configurado el servicio de autenticación para que el servidor de Unified Manager pueda autenticar el usuario remoto o el grupo remoto.
 * Debe haber agregado los servidores de autenticación para que el servidor de administración pueda buscar el usuario remoto o el grupo remoto desde estos servidores y autentificarlos.
 * Debe tener la función Administrador de aplicaciones.

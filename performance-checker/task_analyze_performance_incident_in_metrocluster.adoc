@@ -13,8 +13,7 @@ summary: Es posible utilizar Unified Manager para analizar eventos dinámicos de
 [role="lead"]
 Es posible utilizar Unified Manager para analizar eventos dinámicos de rendimiento en un clúster remoto en una configuración de MetroCluster. El análisis le ayuda a determinar si un evento en el clúster remoto provocó un evento en su clúster de partners.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
 * Es necesario haber analizado un evento de rendimiento en un clúster local en una configuración de MetroCluster y obtenido la hora de detección del evento.
 * Debe haber comprobado el estado del clúster local y de su clúster de partners implicados en el evento de rendimiento y que ha obtenido el nombre del clúster de partners.

@@ -13,8 +13,7 @@ summary: Después de iniciar un trabajo, puede realizar un seguimiento de su pro
 [role="lead"]
 Después de iniciar un trabajo, puede realizar un seguimiento de su progreso desde la página de detalles Job y supervisar las tareas asociadas para detectar posibles errores.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 .Pasos

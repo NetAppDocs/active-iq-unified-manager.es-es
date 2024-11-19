@@ -13,8 +13,7 @@ summary: 'Con la vista Estado: Todos los volúmenes, es posible crear varias rel
 [role="lead"]
 Con la vista Estado: Todos los volúmenes, es posible crear varias relaciones de protección de SnapMirror a la vez. Para ello, se seleccionan más de un volumen en la misma máquina virtual de almacenamiento.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 * Debe haber configurado Workflow Automation.
 

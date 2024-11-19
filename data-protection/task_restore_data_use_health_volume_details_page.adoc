@@ -13,8 +13,7 @@ summary: Es posible restaurar archivos, directorios o un volumen entero sobrescr
 [role="lead"]
 Es posible restaurar archivos, directorios o un volumen entero sobrescritos o eliminados de una copia Snapshot con la función de restauración en las páginas de detalles Volume and Volume/Health.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 

@@ -13,8 +13,7 @@ summary: Es posible eliminar una alerta cuando ya no se necesita. Por ejemplo, p
 [role="lead"]
 Es posible eliminar una alerta cuando ya no se necesita. Por ejemplo, puede eliminar una alerta que se creó para un recurso particular cuando Unified Manager ya no supervisa ese recurso.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener la función Administrador de aplicaciones.
 
 .Pasos

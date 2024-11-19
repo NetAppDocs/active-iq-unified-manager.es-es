@@ -13,7 +13,9 @@ summary: Puede crear un informe para encontrar los clústeres con la capacidad L
 [role="lead"]
 Puede crear un informe para encontrar los clústeres con la capacidad LUN más sin asignar, mayor de 0,5 TB, para ayudar a identificar dónde puede añadir cargas de trabajo adicionales.
 
-*Lo que necesitará* * debe tener la función Administrador de aplicaciones o Administrador de almacenamiento.
+.Antes de empezar
+* Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+
 
 Utilice los siguientes pasos para crear una vista personalizada que muestra los clústeres con la capacidad de LUN más sin asignar y, a continuación, programe un informe que se genere para esa vista.
 

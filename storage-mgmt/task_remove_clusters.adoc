@@ -13,8 +13,7 @@ summary: Puede quitar un clúster de Unified Manager mediante la página Cluster
 [role="lead"]
 Puede quitar un clúster de Unified Manager mediante la página Cluster Setup. Por ejemplo, puede quitar un clúster si la detección del clúster falla o cuando desea retirar un sistema de almacenamiento.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de administrador de aplicaciones o de administrador de almacenamiento.
 
 Esta tarea elimina el clúster seleccionado de Unified Manager. Después de eliminar un clúster, este ya no se supervisa. La instancia de Unified Manager registrada en el clúster eliminado también se elimina del clúster.

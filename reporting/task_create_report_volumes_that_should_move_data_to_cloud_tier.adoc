@@ -13,8 +13,7 @@ summary: 'Puede crear un informe que contenga la lista de volúmenes que residen
 [role="lead"]
 Puede crear un informe que contenga la lista de volúmenes que residen actualmente en agregados de FabricPool, que tienen una recomendación de nivel cloud y que tienen una gran cantidad de datos inactivos. Este informe puede ayudarle a decidir si debería cambiar la política de organización en niveles de determinados volúmenes a «auto» o «all» para descargar más datos inactivos (inactivos) al nivel cloud.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 * Debe haber configurado agregados de FabricPool y tener volúmenes en esos agregados.
 

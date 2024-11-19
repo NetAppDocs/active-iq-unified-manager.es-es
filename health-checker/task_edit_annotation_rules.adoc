@@ -13,8 +13,7 @@ summary: Puede editar las reglas de anotación para modificar los grupos de cond
 [role="lead"]
 Puede editar las reglas de anotación para modificar los grupos de condiciones y las condiciones del grupo de condiciones para agregar anotaciones o eliminar anotaciones de los objetos de almacenamiento.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 Las anotaciones se disocian de los objetos de almacenamiento al editar las reglas de anotación asociadas.

@@ -13,8 +13,7 @@ summary: De forma predeterminada, Unified Manager almacena datos de eventos y da
 [role="lead"]
 De forma predeterminada, Unified Manager almacena datos de eventos y datos de rendimiento durante 6 meses en todos los clústeres supervisados. Una vez transcurrido este tiempo, los datos más antiguos se eliminan automáticamente para dar lugar a los nuevos datos. Este período de tiempo predeterminado funciona bien en la mayoría de las configuraciones, pero es posible que las configuraciones de gran tamaño con muchos clústeres y nodos deban reducir el período de retención para que Unified Manager funcione de forma óptima.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener la función Administrador de aplicaciones.
 
 Puede cambiar los períodos de retención de estos dos tipos de datos en la página Data Retention. Esta configuración afecta la retención de datos de todos los clústeres que está supervisando esta instancia de Unified Manager.

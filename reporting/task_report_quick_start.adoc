@@ -13,8 +13,7 @@ summary: 'Cree un informe personalizado de ejemplo para disfrutar de la explorac
 [role="lead"]
 Cree un informe personalizado de ejemplo para disfrutar de la exploración de vistas e informes de programación. Este informe de inicio rápido encuentra una lista de volúmenes que es posible que desee mover al nivel de cloud porque hay una cantidad justa de datos inactivos (fríos). Se abrirá la vista rendimiento: Todos los volúmenes, se personalizará la vista con filtros y columnas, se guardará la vista personalizada como informe y se programará el informe para que se comparta una vez por semana.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 * Debe haber configurado agregados de FabricPool y tener volúmenes en esos agregados.
 

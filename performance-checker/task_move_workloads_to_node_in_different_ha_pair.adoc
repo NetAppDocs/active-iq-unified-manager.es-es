@@ -13,8 +13,7 @@ summary: 'Puede usar Unified Manager para ayudar a identificar un agregado en un
 [role="lead"]
 Puede usar Unified Manager para ayudar a identificar un agregado en un nodo en una pareja de alta disponibilidad (ha) diferente con más capacidad de rendimiento libre que la pareja de alta disponibilidad en la que se ejecutan actualmente las cargas de trabajo. A continuación, puede mover los volúmenes seleccionados a agregados en la nueva pareja de ha.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
 * Su clúster debe estar formado por un mínimo de dos parejas de alta disponibilidad
 +

@@ -13,8 +13,7 @@ summary: Debe reconocer un evento antes de empezar a trabajar en el problema que
 [role="lead"]
 Debe reconocer un evento antes de empezar a trabajar en el problema que generó el evento para que no siga recibiendo notificaciones de alerta de repetición. Después de realizar una acción correctiva para un evento determinado, debe marcar el evento como resuelto.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
 
 Puede reconocer y resolver varios eventos al mismo tiempo.

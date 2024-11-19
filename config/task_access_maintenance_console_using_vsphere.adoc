@@ -13,8 +13,7 @@ summary: Si la interfaz de usuario de Unified Manager no está en funcionamiento
 [role="lead"]
 Si la interfaz de usuario de Unified Manager no está en funcionamiento o si necesita realizar funciones que no están disponibles en la interfaz de usuario, puede acceder a la consola de mantenimiento para volver a configurar el dispositivo virtual.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe ser el usuario de mantenimiento.
 * El dispositivo virtual debe estar encendido para acceder a la consola de mantenimiento.
 

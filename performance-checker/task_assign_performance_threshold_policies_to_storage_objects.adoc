@@ -13,8 +13,7 @@ summary: Se asigna una política de umbral de rendimiento definida por el usuari
 [role="lead"]
 Se asigna una política de umbral de rendimiento definida por el usuario a un objeto de almacenamiento de modo que Unified Manager informe un evento si el valor del contador de rendimiento supera el valor de la política.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener la función Administrador de aplicaciones.
 
 Debe existir la política de umbral de rendimiento, o las políticas, que desea aplicar al objeto.

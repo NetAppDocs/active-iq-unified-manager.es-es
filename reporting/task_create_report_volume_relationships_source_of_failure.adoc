@@ -13,8 +13,7 @@ summary: Es posible crear un informe que agrupa volúmenes por el motivo que la 
 [role="lead"]
 Es posible crear un informe que agrupa volúmenes por el motivo que la relación está en estado incorrecto.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 

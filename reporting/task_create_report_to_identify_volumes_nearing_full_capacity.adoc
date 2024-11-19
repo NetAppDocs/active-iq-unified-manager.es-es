@@ -13,8 +13,7 @@ summary: Puede crear un informe que contenga la lista de volúmenes que se esté
 [role="lead"]
 Puede crear un informe que contenga la lista de volúmenes que se esté acercando a su capacidad completa con la función Snapshot Autodelete deshabilitada. Los resultados pueden ayudar a identificar volúmenes en los que se podría configurar la eliminación automática de instantánea.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 

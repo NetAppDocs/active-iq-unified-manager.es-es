@@ -13,8 +13,7 @@ summary: Puede asignar eventos sin asignar a usted mismo o a otros usuarios, inc
 [role="lead"]
 Puede asignar eventos sin asignar a usted mismo o a otros usuarios, incluidos los usuarios remotos. Puede reasignar eventos asignados a otro usuario, si es necesario. Por ejemplo, cuando ocurren problemas frecuentes en un objeto de almacenamiento, puede asignar los eventos para estos problemas al usuario que gestiona ese objeto.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * El nombre del usuario y el ID de correo electrónico deben estar configurados correctamente.
 * Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
 

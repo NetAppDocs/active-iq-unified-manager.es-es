@@ -13,8 +13,7 @@ summary: Unified Manager puede enviar datos de rendimiento de clúster a un serv
 [role="lead"]
 Unified Manager puede enviar datos de rendimiento de clúster a un servidor externo. Puede especificar el tipo de datos estadísticos que se envían y el intervalo en el que se envían los datos.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener un ID de usuario autorizado para iniciar sesión en la consola de mantenimiento del servidor de Unified Manager.
 * Debe tener la siguiente información acerca del proveedor de datos externo:
 +

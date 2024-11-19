@@ -13,8 +13,7 @@ summary: 'Puede usar la interfaz de usuario web de Unified Manager para confirma
 [role="lead"]
 Puede usar la interfaz de usuario web de Unified Manager para confirmar o eliminar la posibilidad de que un volumen esté sin conexión debido a que su máquina virtual de almacenamiento (SVM) de host se detiene debido a que el nodo que aloja el volumen raíz de esa SVM está inactivo.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
 
 Para determinar si la condición del volumen sin conexión fue causada por que la SVM de host se detuvo porque el nodo donde se aloja el volumen raíz de esa SVM está inactivo, debe realizar las siguientes acciones:

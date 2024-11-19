@@ -13,8 +13,7 @@ summary: 'Puede usar la vista Estado: Todos los volúmenes para crear relaciones
 [role="lead"]
 Puede usar la vista Estado: Todos los volúmenes para crear relaciones de SnapVault para uno o más volúmenes en la misma máquina virtual de almacenamiento a fin de habilitar backups de datos para fines de protección.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 * Debe haber configurado Workflow Automation.
 

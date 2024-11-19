@@ -13,8 +13,7 @@ summary: Puede utilizar la interfaz de usuario web de Unified Manager para confi
 [role="lead"]
 Puede utilizar la interfaz de usuario web de Unified Manager para confirmar o eliminar la posibilidad de que un volumen esté sin conexión debido a que los problemas de disco RAID han desconectado su agregado de host.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
 
 Para determinar si la condición del volumen sin conexión está provocada por problemas de disco RAID que desconectan el agregado de alojamiento, realice las siguientes acciones:

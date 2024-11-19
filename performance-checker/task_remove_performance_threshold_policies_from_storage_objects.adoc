@@ -13,8 +13,7 @@ summary: Es posible quitar una política de umbral de rendimiento definida por e
 [role="lead"]
 Es posible quitar una política de umbral de rendimiento definida por el usuario de un objeto de almacenamiento cuando ya no se desea que Unified Manager supervise el valor del contador de rendimiento.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener la función Administrador de aplicaciones.
 
 Solo puede eliminar una política cada vez de un objeto seleccionado.

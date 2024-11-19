@@ -13,8 +13,7 @@ summary: Puede iniciar sesión en la interfaz de usuario de Unified Manager medi
 [role="lead"]
 Puede iniciar sesión en la interfaz de usuario de Unified Manager mediante un explorador web compatible.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * El navegador web debe cumplir los requisitos mínimos.
 +
 Consulte la matriz de interoperabilidad en http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"] para ver la lista completa de versiones compatibles del navegador.

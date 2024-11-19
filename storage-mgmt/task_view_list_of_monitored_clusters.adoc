@@ -13,8 +13,7 @@ summary: Puede usar la página Cluster Setup para ver el inventario de clústere
 [role="lead"]
 Puede usar la página Cluster Setup para ver el inventario de clústeres. Es posible ver detalles sobre los clústeres, como su nombre, dirección IP y estado de comunicación.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
 
 .Paso

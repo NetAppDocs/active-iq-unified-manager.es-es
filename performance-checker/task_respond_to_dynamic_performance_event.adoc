@@ -13,8 +13,7 @@ summary: 'Puede utilizar Unified Manager para investigar un evento de rendimient
 [role="lead"]
 Puede utilizar Unified Manager para investigar un evento de rendimiento provocado por un grupo de políticas de calidad de servicio (QoS) que regula el rendimiento de la carga de trabajo (MB/s). La aceleración aumentó los tiempos de respuesta (latencia) de las cargas de trabajo de volúmenes en el grupo de políticas. Puede utilizar la información de eventos para determinar si son necesarios nuevos límites en los grupos de políticas para detener la limitación.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
 * Debe haber eventos de rendimiento nuevos, reconocidos o obsoletos.
 

@@ -13,8 +13,7 @@ summary: Si es necesario, puede ver los eventos generados para todos los objetos
 [role="lead"]
 Si es necesario, puede ver los eventos generados para todos los objetos de almacenamiento durante una ventana de mantenimiento de Unified Manager. La mayoría de los eventos aparecerán en el estado Obsoleto una vez que se haya completado la ventana de mantenimiento y todos los recursos del sistema estén de respaldo y en ejecución.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe haber al menos una ventana de mantenimiento completada antes de que haya algún evento disponible.
 
 Los eventos que se produjeron durante una ventana de mantenimiento no aparecen de forma predeterminada en la página del inventario Event Management.

@@ -13,8 +13,7 @@ summary: Este flujo de trabajo proporciona un ejemplo de cómo se puede evaluar 
 [role="lead"]
 Este flujo de trabajo proporciona un ejemplo de cómo se puede evaluar y resolver un evento de volumen sin conexión que Unified Manager podría mostrar en la página del inventario Event Management. En esta situación, es un administrador que utiliza Unified Manager para solucionar uno o varios eventos sin conexión de volúmenes.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
 
 Es posible que los volúmenes se informen sin conexión por varios motivos:

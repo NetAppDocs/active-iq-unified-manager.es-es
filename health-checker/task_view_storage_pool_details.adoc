@@ -13,8 +13,7 @@ summary: Es posible ver los detalles del pool de almacenamiento para supervisar 
 [role="lead"]
 Es posible ver los detalles del pool de almacenamiento para supervisar el estado del pool de almacenamiento, la caché total y disponible, y las asignaciones usadas y disponibles.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
 
 .Pasos

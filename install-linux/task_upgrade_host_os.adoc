@@ -1,5 +1,5 @@
 ---
-permalink: install-linux/task_upgrade_host_os_from_rhel_6_x_to_7_x.html 
+permalink: install-linux/task_upgrade_host_os.html 
 sidebar: sidebar 
 keywords: upgrade, host OS, red hat enterprise, linux 7.x, 8.x 
 summary: Si anteriormente instaló Unified Manager en un sistema Red Hat Enterprise Linux 7.x y debe actualizar a Red Hat Enterprise Linux 8.x, debe seguir uno de los procedimientos enumerados en este tema. En ambos casos, debe crear una copia de seguridad de Unified Manager en el sistema Red Hat Enterprise Linux 7.x y, a continuación, restaurar el backup en un sistema Red Hat Enterprise Linux 8.x. 
@@ -11,7 +11,7 @@ summary: Si anteriormente instaló Unified Manager en un sistema Red Hat Enterpr
 
 
 [role="lead"]
-Si anteriormente instaló Unified Manager en un sistema Red Hat Enterprise Linux 7.x y debe actualizar a Red Hat Enterprise Linux 8.x, debe seguir uno de los procedimientos enumerados en este tema. En ambos casos, debe crear una copia de seguridad de Unified Manager en el sistema Red Hat Enterprise Linux 7.x y, a continuación, restaurar el backup en un sistema Red Hat Enterprise Linux 8.x. Tenga en cuenta que las versiones compatibles de Red Hat Enterprise Linux van del 8,0 al 8,9.
+Si anteriormente instaló Unified Manager en un sistema Red Hat Enterprise Linux 7.x y debe actualizar a Red Hat Enterprise Linux 8.x, debe seguir uno de los procedimientos enumerados en este tema. En ambos casos, debe crear una copia de seguridad de Unified Manager en el sistema Red Hat Enterprise Linux 7.x y, a continuación, restaurar el backup en un sistema Red Hat Enterprise Linux 8.x. Tenga en cuenta que las versiones compatibles de Red Hat Enterprise Linux van del 8,0 al 8,10.
 
 La diferencia entre las dos opciones que se muestran a continuación es que, en un caso, se está ejecutando la restauración de Unified Manager en un nuevo servidor 8.x y, en el otro caso, se está realizando la operación de restauración en el mismo servidor.
 
@@ -23,11 +23,11 @@ Siga estos pasos si tiene un sistema de repuesto en el que puede instalar el sof
 
 . Instale y configure un servidor nuevo con el software Red Hat Enterprise Linux 8.x.
 +
-Consulte link:reference_red_hat_and_centos_software_and_installation_requirements.html["Requisitos de instalación y software Linux"].
+Consulte link:reference_red_hat_software_and_installation_requirements.html["Requisitos de instalación y software Linux"].
 
 . En el sistema Red Hat Enterprise Linux 8.x, instale la misma versión del software Unified Manager que tiene en el sistema Red Hat Enterprise Linux 7.x.
 +
-Consulte link:concept_install_unified_manager_on_rhel_or_centos.html["Instalación de Unified Manager en Linux"].
+Consulte link:concept_install_unified_manager_on_rhel.html["Instalación de Unified Manager en Linux"].
 
 +
 No inicie la interfaz de usuario ni configure ningún clúster, usuario ni configuración de autenticación cuando se complete la instalación. El archivo de backup rellena esta información durante el proceso de restauración.
@@ -52,11 +52,11 @@ Siga estos pasos si no dispone de un sistema de repuesto en el que puede instala
 . Retire la imagen de Red Hat Enterprise Linux 7.x del sistema y límpiela por completo.
 . Instale y configure el software Red Hat Enterprise Linux 8.x en el mismo sistema.
 +
-Consulte link:reference_red_hat_and_centos_software_and_installation_requirements.html["Requisitos de instalación y software Linux"].
+Consulte link:reference_red_hat_software_and_installation_requirements.html["Requisitos de instalación y software Linux"].
 
 . En el sistema Red Hat Enterprise Linux 8.x, instale la misma versión del software Unified Manager que tenía en el sistema Red Hat Enterprise Linux 7.x.
 +
-Consulte link:concept_install_unified_manager_on_rhel_or_centos.html["Instalación de Unified Manager en Linux"].
+Consulte link:concept_install_unified_manager_on_rhel.html["Instalación de Unified Manager en Linux"].
 
 +
 No inicie la interfaz de usuario ni configure ningún clúster, usuario ni configuración de autenticación cuando se complete la instalación. El archivo de backup rellena esta información durante el proceso de restauración.

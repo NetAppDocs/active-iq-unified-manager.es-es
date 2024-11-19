@@ -13,8 +13,7 @@ summary: 'Puede crear un formato de notificación para los mensajes de correo el
 [role="lead"]
 Puede crear un formato de notificación para los mensajes de correo electrónico que se envían a un usuario o a un grupo de usuarios cuando hay un problema relacionado con las cuotas (límite de software incumplido o límite rígido alcanzado).
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 .Pasos

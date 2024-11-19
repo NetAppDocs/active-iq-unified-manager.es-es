@@ -13,8 +13,7 @@ summary: Puede editar la configuración de usuario, como la dirección de correo
 [role="lead"]
 Puede editar la configuración de usuario, como la dirección de correo electrónico y el rol, que se especifican a cada usuario. Por ejemplo, se recomienda cambiar el rol de un usuario que es un operador de almacenamiento y asignar privilegios de administrador de almacenamiento al usuario.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener la función Administrador de aplicaciones.
 
 Cuando se modifica el rol asignado a un usuario, los cambios se aplican cuando se produce cualquiera de las siguientes acciones:

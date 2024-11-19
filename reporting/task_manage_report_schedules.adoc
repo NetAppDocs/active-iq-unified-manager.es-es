@@ -13,9 +13,8 @@ summary: Las programaciones de informes se pueden gestionar desde la página Rep
 [role="lead"]
 Las programaciones de informes se pueden gestionar desde la página Report Schedules. Es posible ver, modificar o eliminar programaciones existentes.
 
-*Lo que necesitará*
-
 [NOTE]
+.Antes de empezar
 ====
 No es posible programar nuevos informes desde la página Report Schedules. Sólo puede agregar informes programados desde las páginas de inventario de objetos.
 

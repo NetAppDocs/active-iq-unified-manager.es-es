@@ -13,8 +13,7 @@ summary: Se pueden usar las páginas del inventario de clústeres para mostrar e
 [role="lead"]
 Se pueden usar las páginas del inventario de clústeres para mostrar el estado y la capacidad de los clústeres de la cabina All SAN.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
 
 Se puede ver información general de todos los clústeres de cabina SAN en la vista Estado: Todos los clústeres y su capacidad: Todos los clústeres. Además, puede ver detalles en la página de detalles Cluster / Health.

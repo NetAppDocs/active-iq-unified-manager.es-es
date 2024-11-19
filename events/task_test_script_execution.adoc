@@ -13,8 +13,7 @@ summary: Puede verificar que el script se ejecute correctamente cuando se genera
 [role="lead"]
 Puede verificar que el script se ejecute correctamente cuando se genera una alerta para un objeto de almacenamiento.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 * Debe haber cargado un script en el formato de archivo compatible a Unified Manager.
 

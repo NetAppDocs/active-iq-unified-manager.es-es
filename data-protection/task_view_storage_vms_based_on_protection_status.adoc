@@ -13,8 +13,7 @@ summary: Puede usar la página Storage VMs del inventario para ver todas las má
 [role="lead"]
 Puede usar la página Storage VMs del inventario para ver todas las máquinas virtuales de almacenamiento en Active IQ Unified Manager y filtrar las máquinas virtuales de almacenamiento en función de su estado de protección.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 Se añade un nuevo rol de protección de columnas a la vista de máquinas virtuales de almacenamiento que proporciona información sobre si la máquina virtual de almacenamiento está protegida o sin protección.

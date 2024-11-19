@@ -13,8 +13,7 @@ summary: Puede utilizar Unified Manager para investigar un evento de rendimiento
 [role="lead"]
 Puede utilizar Unified Manager para investigar un evento de rendimiento provocado por cargas de trabajo que utilizan en exceso un agregado. También puede usar Unified Manager para comprobar el estado del agregado a fin de ver si los eventos de estado recientes detectados en el agregado contribuyeron al evento de rendimiento.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
 * Debe haber eventos de rendimiento nuevos, reconocidos o obsoletos.
 

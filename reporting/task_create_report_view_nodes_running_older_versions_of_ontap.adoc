@@ -13,8 +13,7 @@ summary: Puede crear un informe para mostrar la versión del software ONTAP que 
 [role="lead"]
 Puede crear un informe para mostrar la versión del software ONTAP que está instalada en todos los nodos del clúster de modo que pueda ver qué nodos debe actualizar.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 

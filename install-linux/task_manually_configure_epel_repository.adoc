@@ -16,15 +16,15 @@ Si el sistema en el que está instalando Unified Manager no tiene acceso al repo
 El repositorio de EPEL proporciona acceso a las utilidades de terceros necesarias que deben instalarse en el sistema. El repositorio de EPEL se utiliza para instalar Unified Manager en un sistema Red Hat Enterprise Linux.
 
 .Pasos
-. Descargue el repositorio de EPEL para su instalación. Para Red Hat Enterprise Linux 7, descárguelo de:
-+
-`+wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm+`
-
-+
-Para la versión 8, descárguela de:
-
+. Descargue el repositorio de EPEL para su instalación. Para la versión 8, descárguela de:
 +
 `+wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm+`
+
++
+Para la versión 9, descárguela de:
+
++
+`wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-9.noarch.rpm`
 
 . Configurar el repositorio de EPEL:
 +

@@ -13,8 +13,7 @@ summary: Para acceder rápidamente a un objeto específico, puede utilizar el ca
 [role="lead"]
 Para acceder rápidamente a un objeto específico, puede utilizar el campo *Buscar todos los objetos de almacenamiento* situado en la parte superior de la barra de menús. Este método de búsqueda global en todos los objetos le permite localizar rápidamente objetos específicos por tipo. Los resultados de búsqueda se ordenan por tipo de objeto de almacenamiento y puede filtrarlos aún más por objeto mediante el menú desplegable.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener una de las siguientes funciones para realizar esta tarea: Operador, Administrador de aplicaciones o Administrador de almacenamiento.
 * Una búsqueda válida debe contener al menos tres caracteres.
 

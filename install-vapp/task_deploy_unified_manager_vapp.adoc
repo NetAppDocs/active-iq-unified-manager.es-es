@@ -13,8 +13,7 @@ summary: La puesta en marcha de Unified Manager incluye la descarga de software,
 [role="lead"]
 La puesta en marcha de Unified Manager incluye la descarga de software, la puesta en marcha de dispositivos virtuales, la creación de un nombre de usuario y una contraseña de mantenimiento, y la realización de la configuración inicial en la interfaz de usuario web.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe verificar y completar los requisitos del sistema para la puesta en marcha.
 +
 Consulte link:concept_requirements_for_installing_unified_manager.html["Requisitos del sistema"].

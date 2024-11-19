@@ -13,8 +13,7 @@ summary: Puede crear un informe para encontrar los agregados que están alcanzan
 [role="lead"]
 Puede crear un informe para encontrar los agregados que están alcanzando toda su capacidad, de tal modo que pueda añadir más capacidad o mover cargas de trabajo a otros agregados.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 

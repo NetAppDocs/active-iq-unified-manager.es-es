@@ -13,8 +13,7 @@ summary: Es posible crear un informe para ver las transferencias de volúmenes a
 [role="lead"]
 Es posible crear un informe para ver las transferencias de volúmenes agrupadas por día.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 

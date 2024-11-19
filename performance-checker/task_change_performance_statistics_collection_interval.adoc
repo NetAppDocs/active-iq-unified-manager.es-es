@@ -13,8 +13,7 @@ summary: El intervalo de recogida predeterminado para las estadísticas de rendi
 [role="lead"]
 El intervalo de recogida predeterminado para las estadísticas de rendimiento es de 5 minutos. Puede cambiar este intervalo a 10 o 15 minutos si descubre que las colecciones de clústeres grandes no están finalizando dentro del tiempo predeterminado. Esta configuración afecta la recogida de estadísticas de todos los clústeres que está supervisando esta instancia de Unified Manager.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener un ID de usuario y una contraseña autorizados para iniciar sesión en la consola de mantenimiento del servidor de Unified Manager.
 
 La emisión de colecciones de estadísticas de rendimiento no terminado a tiempo se indica mediante los mensajes de mensaje de cabecera `Unable to consistently collect from cluster <cluster_name>` o. `Data collection is taking too long on cluster <cluster_name>`.

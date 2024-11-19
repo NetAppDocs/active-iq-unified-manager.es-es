@@ -13,8 +13,7 @@ summary: Si desea cambiar el tipo de backup del sistema Active IQ Unified Manage
 [role="lead"]
 Si desea cambiar el tipo de backup del sistema Active IQ Unified Manager, puede usar las opciones de la consola de mantenimiento. La opción *Desactivar copia de seguridad Snapshot* de NetApp le permite recuperar el backup basado en MySQL.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener un ID de usuario y una contraseña autorizados para iniciar sesión en la consola de mantenimiento del servidor de Unified Manager.
 
 .Pasos

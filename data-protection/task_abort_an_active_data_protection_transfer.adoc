@@ -16,8 +16,7 @@ Puede anular una transferencia de protección de datos activa cuando desee deten
 
 NOTE: No se pueden cancelar relaciones de volúmenes protegidas por el grupo de coherencia.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 * Debe haber configurado Workflow Automation.
 

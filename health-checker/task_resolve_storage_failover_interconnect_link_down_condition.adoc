@@ -13,8 +13,7 @@ summary: Este flujo de trabajo proporciona un ejemplo de cómo puede analizar, e
 [role="lead"]
 Este flujo de trabajo proporciona un ejemplo de cómo puede analizar, evaluar y resolver las condiciones de los enlaces de interconexión de conmutación por error del almacenamiento desactivado. En esta situación, es un administrador que utiliza Unified Manager para analizar los riesgos de la conmutación por error del almacenamiento antes de iniciar una actualización de la versión de ONTAP en los nodos.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
 
 Si se producen errores en las interconexiones de conmutación por error del almacenamiento entre nodos de parejas de alta disponibilidad durante un intento de actualización no disruptivo, la actualización falla. Por lo tanto, una práctica común es que el administrador supervise y confirme la fiabilidad de la conmutación por error del almacenamiento en los nodos del clúster que desea actualizar antes del inicio de una actualización.

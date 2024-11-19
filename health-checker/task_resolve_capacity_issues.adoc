@@ -13,8 +13,7 @@ summary: Este flujo de trabajo proporciona un ejemplo de cómo puede resolver un
 [role="lead"]
 Este flujo de trabajo proporciona un ejemplo de cómo puede resolver un problema de capacidad. En esta situación, usted es administrador o operador y accede a la página Unified Manager Dashboard para ver si alguno de los objetos de almacenamiento supervisados tiene problemas de capacidad. Desea determinar la posible causa del problema y su resolución.
 
-*Lo que necesitará*
-
+.Antes de empezar
 Debe tener el rol de operador, administrador de aplicaciones o administrador de almacenamiento.
 
 En la página Panel, busque un evento de error "'espacio de volumen lleno'" en el panel capacidad de la lista desplegable eventos.

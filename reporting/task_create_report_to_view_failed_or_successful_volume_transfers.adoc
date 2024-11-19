@@ -13,8 +13,7 @@ summary: Es posible crear un informe que muestre el estado de las transferencias
 [role="lead"]
 Es posible crear un informe que muestre el estado de las transferencias de volúmenes. En este informe se pueden ver tanto las transferencias de volúmenes con errores como las correctas.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 
 

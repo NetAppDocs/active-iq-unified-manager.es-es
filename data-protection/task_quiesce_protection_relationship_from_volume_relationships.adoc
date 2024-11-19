@@ -13,8 +13,7 @@ summary: En la página Volume Relationships, es posible desactivar una relación
 [role="lead"]
 En la página Volume Relationships, es posible desactivar una relación de protección para evitar temporalmente las transferencias de datos. Puede desactivar una relación cuando desea crear una copia Snapshot de un volumen de destino de SnapMirror que contiene una base de datos, y desea garantizar que su contenido sea estable durante la operación de copia de Snapshot.
 
-*Lo que necesitará*
-
+.Antes de empezar
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
 * Debe haber configurado Workflow Automation.
 
