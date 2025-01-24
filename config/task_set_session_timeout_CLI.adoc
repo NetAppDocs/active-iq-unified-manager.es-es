@@ -1,0 +1,24 @@
+---
+permalink: config/task_set_session_timeout_CLI.html 
+sidebar: sidebar 
+keywords: session timeout, CLI, maximum 
+summary: Puede configurar un valor de tiempo de espera máximo de sesión para Unified Manager mediante la CLI, de modo que la sesión se finalice automáticamente después de un cierto periodo de tiempo. 
+---
+= Configure el tiempo de espera de la sesión a través de la CLI
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede configurar un valor de tiempo de espera máximo de sesión para Unified Manager mediante la CLI, de modo que la sesión se finalice automáticamente después de un cierto periodo de tiempo. De forma predeterminada, el tiempo de espera de la sesión se establece en el valor máximo, que es de 4.320 minutos (72 horas). Esto significa que su sesión finalizará automáticamente tras 72 horas, aunque haya iniciado sesión y utilice Unified Manager de forma activa.
+
+.Acerca de esta tarea
+Debe tener la función Administrador de aplicaciones.
+
+La configuración de timeout de sesión afecta a todas las sesiones de usuario que han iniciado sesión.
+
+.Pasos
+. Inicie sesión en la CLI de Unified Manager introduciendo `um cli login` el comando. Use un nombre de usuario y una contraseña válidos para la autenticación.
+. Introduzca el `um option set max.session.timeout.value=<in mins>` para modificar el valor de tiempo de espera de la sesión.
+

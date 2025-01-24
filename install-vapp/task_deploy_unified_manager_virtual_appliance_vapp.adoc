@@ -55,12 +55,9 @@ En la página revisar detalles:
 
 +
 ** Compruebe los detalles de la sección Publisher. El mensaje *firma de código de confianza - OVCS2 (certificado de confianza)* confirma la integridad de la descarga `OVA` archivo. + Si aparece el mensaje *firma de código de Entrust - OVCS2 (certificado no válido)*, actualice VMware vCenter Server a la versión 7.0U3E o superior.
-
-
 +
 En la página Personalizar plantilla:
 
-+
 ** Deje todos los campos en blanco cuando utilice direcciones DHCP y IPv4.
 ** Active la casilla "'Habilitar direccionamiento IPv6 automático'" y deje todos los demás campos en blanco al utilizar direcciones DHCP e IPv6.
 ** Si desea utilizar una configuración de red estática, puede completar los campos de esta página y estas opciones se aplican durante la implementación. Asegúrese de que la dirección IP sea única para el host en el que está implementada, que no está en uso y que tiene una entrada DNS válida.

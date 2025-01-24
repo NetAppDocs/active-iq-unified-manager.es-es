@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: inactivity, timeout 
 summary: 'Es posible especificar el valor de tiempo de espera de inactividad para Unified Manager a fin de que la sesión se finalice automáticamente después de un cierto periodo de tiempo. De manera predeterminada, el tiempo de espera está configurado en 4,320 minutos (72 horas).' 
 ---
-= Configurar el tiempo de espera de inactividad de la sesión
+= Defina el tiempo de espera de inactividad de la sesión
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-Es posible especificar el valor de tiempo de espera de inactividad para Unified Manager a fin de que la sesión se finalice automáticamente después de un cierto periodo de tiempo. De manera predeterminada, el tiempo de espera está configurado en 4,320 minutos (72 horas).
+Puede especificar el valor de tiempo de espera de inactividad en Unified Manager para que la sesión se finalice automáticamente después de un cierto periodo de inactividad. De manera predeterminada, el tiempo de espera está configurado en 4,320 minutos (72 horas).
 
 .Antes de empezar
 Debe tener la función Administrador de aplicaciones.
