@@ -20,5 +20,5 @@ La configuración de timeout de sesión afecta a todas las sesiones de usuario q
 
 .Pasos
 . Inicie sesión en la CLI de Unified Manager introduciendo `um cli login` el comando. Use un nombre de usuario y una contraseña válidos para la autenticación.
-. Introduzca el `um option set max.session.timeout.value=<in mins>` para modificar el valor de tiempo de espera de la sesión.
+. Introduzca `um option set max.session.timeout.value=<in mins>` el comando para modificar el valor de tiempo de espera de la sesión.
 

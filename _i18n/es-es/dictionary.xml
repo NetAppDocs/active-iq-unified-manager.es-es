@@ -11993,5 +11993,5 @@ Proteger aplicaciones con LUN, puede ver y supervisar esas LUN en Active IQ Unif
   <block id="bbe48fb854ea022537208eeeff822f91" category="paragraph-title">Acerca de esta tarea</block>
   <block id="87f28bb3e003a131724329ce1f8b7e35" category="paragraph">La configuración de timeout de sesión afecta a todas las sesiones de usuario que han iniciado sesión.</block>
   <block id="9a50289207c5c1a11d0959e0985b20cf" category="list-text">Inicie sesión en la CLI de Unified Manager introduciendo<block ref="e9fa1c3ff424bc99b177f43b6ac2844b" prefix=" " category="inline-code"></block> el comando. Use un nombre de usuario y una contraseña válidos para la autenticación.</block>
-  <block id="7cf68cd50e40cef61b48f361084dfac2" category="list-text">Introduzca el<block ref="29b975f43a92ea73b14f0ce29e1eb6b3" prefix=" " category="inline-code"></block> para modificar el valor de tiempo de espera de la sesión.</block>
+  <block id="d0613f9dacd2054b89ab7de88b10e711" category="list-text">Introduzca<block ref="29b975f43a92ea73b14f0ce29e1eb6b3" prefix=" " category="inline-code"></block> el comando para modificar el valor de tiempo de espera de la sesión.</block>
 </blocks>
