@@ -50,7 +50,7 @@ Los siguientes paquetes de terceros se incluyen en Unified Manager. Si estos paq
 * MySQL Community Edition versión 8.0.37
 * Python 3.12.4
 * OpenJDK versión 11.0.23
-* p7zip versión 23,01 o posterior
+* 7-zip versión 23,01 o posterior
 
 
 [NOTE]
