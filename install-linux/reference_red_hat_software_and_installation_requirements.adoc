@@ -56,6 +56,8 @@ Debe apagar una instancia en ejecución de Unified Manager antes de actualizar c
 
 La instalación de Unified Manager en un sistema Linux puede realizarlo el usuario raíz o los usuarios no raíz mediante el `sudo` comando.
 
+Además, la instalación predeterminada de Unified Manager incluye el usuario umadmin (usuario de mantenimiento predeterminado) y el usuario jboss en los archivos sudoers y `ocie_sudoers`) `/etc/sudoers.d/` en (`ocum_sudoers`el directorio. Si elimina este contenido del entorno debido a políticas de seguridad o debido a una herramienta de supervisión de seguridad, debe volver a agregarlo. Debe conservar la configuración de sudoers porque algunas operaciones de Unified Manager requieren estos privilegios sudo.
+
 
 
 == Requisitos de instalación
