@@ -84,6 +84,7 @@ Si el repositorio de MySQL no está configurado en el sistema, debe descargar y 
 +
 Consulte link:task_manually_configure_mysql_repository.html["Configurar manualmente el repositorio de MySQL"].
 
+* Debe instalar solo una versión de Java en el host de Unified Manager. De lo contrario, es posible que el sistema no pueda determinar qué versión debe usar. Consulte https://kb.netapp.com/data-mgmt/AIQUM/AIQUM_Kbs/After_updating_Java_on_the_Active_IQ_Unified_Manager_host_services_will_not_start["Después de actualizar Java en el host de Active IQ Unified Manager, los servicios no se iniciarán"].
 
 
 Si su sistema no tiene acceso a Internet y los repositorios no se duplican desde un sistema conectado a Internet al sistema no conectado, siga las instrucciones de instalación para determinar las dependencias de software externo de su sistema. A continuación, puede descargar el software que necesite en el sistema conectado a Internet y copiar `.rpm` los archivos en el sistema en el que tenga pensado instalar Unified Manager. Para descargar los artefactos y paquetes, debe usar `yum install` el comando. Debe asegurarse de que los dos sistemas ejecutan la misma versión del sistema operativo y de que la licencia de suscripción es para Red Hat Enterprise Linux correspondiente.
