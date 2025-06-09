@@ -29,7 +29,7 @@ Consulte link:task_upgrade_openjdk_on_linux_ocum.html["Actualizar JRE en Linux"]
 * Para evitar la pérdida de datos, debe haber creado un backup de la base de datos de Unified Manager en caso de que haya un problema durante la actualización. NetApp recomienda mover el archivo de backup desde la `/opt/netapp/data` directorio a una ubicación externa.
 * Durante la actualización, es posible que se le solicite que confirme si desea mantener la configuración predeterminada anterior para conservar los datos de rendimiento durante 13 meses o si desea cambiarla a 6 meses. Al confirmar, los datos de rendimiento históricos se purgan al cabo de 6 meses.
 * Debe haber completado todas las operaciones en ejecución, ya que Unified Manager no está disponible durante el proceso de actualización.
-* MySQL Community Edition se actualiza automáticamente durante la actualización de Unified Manager. Si la versión instalada de MySQL en el sistema es anterior a 8,0.37, el proceso de actualización de Unified Manager actualiza automáticamente MySQL a 8,0.37.
+* MySQL Community Edition se actualiza automáticamente durante la actualización de Unified Manager. Si la versión instalada de MySQL en el sistema es anterior a 8,4.4, el proceso de actualización de Unified Manager actualiza automáticamente MySQL a 8,4.4.
 
 
 .Pasos

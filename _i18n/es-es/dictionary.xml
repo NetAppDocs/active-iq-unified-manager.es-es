@@ -981,7 +981,6 @@
   <block id="8b938ebd5a735fe9f035c2df4274494f" category="doc">Requisitos de instalación y software de VMware</block>
   <block id="00b445c51af4d8484e4707ea89f09276" category="section-title">Software del sistema operativo</block>
   <block id="c1fb97df43f8780895ba7cc4ed9916c5" category="paragraph">Se admiten las siguientes versiones de VMware ESXi:</block>
-  <block id="7799421ecdfd8246db1f771c680ae1eb" category="paragraph">El OVA de Unified Manager en sistemas VMware vSphere ejecuta Debian OS 11 (bullseye) internamente. Para obtener información sobre las versiones del hardware de la máquina virtual que pueden admitir las versiones compatibles de los servidores ESXi, consulte la documentación de VMware.</block>
   <block id="cc52616bf744b78f139542e4d55938e0" category="paragraph">Se admiten las siguientes versiones de vSphere:</block>
   <block id="0ad9e3bfb76fe781c444c61d823d6ca3" category="paragraph">Consulte la matriz de interoperabilidad para ver la lista completa y más actual de versiones ESXi compatibles.</block>
   <block id="3a20156be64baec963131ed545d9b005" category="paragraph">La hora del servidor VMware ESXi debe ser la misma que la del servidor NTP para que el dispositivo virtual funcione correctamente. La sincronización de la hora del servidor VMware ESXi con la hora del servidor NTP evita un fallo del tiempo.</block>
@@ -9645,7 +9644,6 @@
   <block id="1280efb9a67a71e035f91cd7b1662539" category="paragraph">El repositorio de MySQL proporciona acceso al software MySQL necesario que debe instalarse en el sistema.</block>
   <block id="0dbce45650f6db4b7a7e6b92ba42d860" category="paragraph">Esta tarea podría fallar si el sistema no tiene conectividad a Internet. Consulte la documentación de MySQL si el sistema en el que va a instalar Unified Manager no tiene acceso a Internet.</block>
   <block id="8a8d5bafdb90b3cda57938d0d26c03a1" category="list-text">Configure el repositorio de MySQL:</block>
-  <block id="7b0a79edda9356e21983ac726ae1823a" category="paragraph"><block ref="b974ed96f6ced2857369f6ce67ae0082" prefix="" category="inline-code"></block></block>
   <block id="ced6d1a53e1edd338f03b11a9bc5603d" category="paragraph">Para el sistema Red Hat Enterprise Linux 8, si tiene repositorios internos con java-11-openjdk, p7zip y otros paquetes de software proporcionados por el repositorio AppStream, debe deshabilitar el repositorio de AppStream e instalar MySQL Community Server. Ejecute el siguiente comando:</block>
   <block id="870f5ef7bd12dc2c56965bfcd2ec62f2" category="paragraph">Si recibe un error cuando falta una clave o falta de coincidencia de claves y la instalación falla, intente realizar los siguientes pasos:</block>
   <block id="3066589d00db39c012813cfbdb5ac98f" category="list-text">En un sistema conectado, importe la clave MySQL actualizada ejecutando el siguiente comando:</block>
@@ -11625,7 +11623,6 @@
   <block id="77dcd5af6b77edb26e9280a48b0c170c" category="paragraph">Muestra la relación sin copias Snapshot y con dos dígitos significativos, por ejemplo, de 1,8 a 1. Esta proporción se basa en la configuración de la eficiencia del almacenamiento de ONTAP.</block>
   <block id="14f31e529433a86f46aed481c5e34cbf" category="list-text">Capacidad lógica: El espacio lógico se refiere al espacio utilizable (los bloques lógicos) de un volumen. El espacio lógico hace referencia a cómo se puede utilizar el espacio teórico, sin tener en cuenta los resultados de la deduplicación o la compresión. El “espacio lógico utilizado” es el espacio físico utilizado más el ahorro que se obtiene gracias a las funciones de eficiencia del almacenamiento (como la deduplicación y compresión) que se han configurado. Esta medición suele ser mayor que la capacidad utilizada física, ya que no refleja la compresión de datos y otras reducciones del espacio físico. Por lo tanto, la capacidad lógica total podría ser mayor que el espacio aprovisionado.</block>
   <block id="57dba854945c4f6c2493e98f1c90027e" category="paragraph">Si la instalación falla con el error GPG NOKEY , utilice<block ref="c2d160102b722accd9f40f1124d1f94b" prefix=" " category="inline-code"></block> Para importar las claves desde una URL:</block>
-  <block id="a4bbe0d9f37b7122f2ff77a225c697fb" category="paragraph"><block ref="185370afde35f5963c46b7aee9beab40" prefix="" category="inline-code"></block></block>
   <block id="d2a94210021c8b039ff02205332050d6" category="list-text">Detenga el servicio Unified Manager y el servicio MySQL asociado en este orden:</block>
   <block id="bc3bdda2dda9f3fd07e80e72f7823d5c" category="list-text">Inicie los servicios de MySQL y Unified Manager en el siguiente orden:</block>
   <block id="228689b16f6e524fb9ed06d81f33db6b" category="paragraph"><block ref="7e3bc202e89677c6d62e218685393bf5" prefix="" category="inline-code"></block> Es un programa daemon requerido para iniciar y detener el servidor MySQL.</block>
@@ -11910,8 +11907,6 @@ Proteger aplicaciones con LUN, puede ver y supervisar esas LUN en Active IQ Unif
   <block id="23cfeac52480309971264aa09fff1e5c" category="paragraph">Se utiliza para acceder a la línea de comandos de Red Hat Enterprise Linux y recuperar paquetes de soporte.</block>
   <block id="8ecbdb958fb5010c6b8554b89ef94c91" category="list-text">Red Hat Enterprise Linux versiones 8.x y 9,4, basado en la arquitectura x86_64.</block>
   <block id="8116d13be18a3c1985b5ec2bcca6e6b8" category="paragraph">Consulte la matriz de interoperabilidad para ver la lista completa y más actual de versiones compatibles de Red Hat Enterprise Linux.</block>
-  <block id="5d27f8ee1e7345d6c9fcd7f45e35839a" category="list-text">MySQL Community Edition versión 8.0.37 (desde el repositorio de MySQL).</block>
-  <block id="4f42ca7978769985956ce6013be764fa" category="list-text">OpenJDK versión 11.0.23 (del repositorio de Red Hat Extra Enterprise Linux Server)</block>
   <block id="c9d7b9477eeb41734247c3ab76f43612" category="paragraph">A continuación se enumeran las mejores prácticas para instalar Red Hat Enterprise Linux y los repositorios asociados en el sistema. Los sistemas instalados o configurados de manera diferente, o puestos en marcha fuera de las instalaciones (en el cloud), pueden requerir pasos adicionales y es posible que Unified Manager no se ejecute correctamente en dichas puestas en marcha.</block>
   <block id="144af2f694100b11aacfba86176c84c6" category="list-text">Debe instalar Red Hat Enterprise Linux de acuerdo con las mejores prácticas de Red Hat y debe seleccionar las siguientes opciones predeterminadas, que requieren la selección del entorno base de servidor con GUI.</block>
   <block id="72d3491b5c272221309ab01fddcf95e5" category="list-text">Al instalar Unified Manager en Red Hat Enterprise Linux, el sistema debe tener acceso al repositorio adecuado para que el programa de instalación pueda acceder e instalar todas las dependencias de software necesarias.</block>
@@ -11956,8 +11951,6 @@ Proteger aplicaciones con LUN, puede ver y supervisar esas LUN en Active IQ Unif
   <block id="4312f256415ac9316c181d6509543043" category="paragraph"><block ref="4312f256415ac9316c181d6509543043" category="inline-link-rx"></block></block>
   <block id="fba32ed5ef4b0254843c57fba4656cfe" category="paragraph">Para obtener más información, consulte la<block ref="2392cb263ac956dff7e4bed674b7b943" category="inline-link-rx"></block>.</block>
   <block id="54ff3f05b478604e2dbd1f521328559d" category="list-text">Microsoft Visual C&amp;#43;&amp;#43; Paquetes redistribuibles para Visual Studio 2015 versión 14.26.28720.3</block>
-  <block id="0f70ab196de9d7142f2acb96c17e5f25" category="list-text">MySQL Community Edition versión 8.0.37</block>
-  <block id="08759e76d989173a95ffac75dd374ef2" category="list-text">OpenJDK versión 11.0.23</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">Antes de empezar</block>
   <block id="403384bc7be1a7f4e22bd05d0f8b3ec8" category="paragraph">* Qué .Antes de empezar</block>
   <block id="1b377a56a4ae0b95c40511aa64336c41" category="list-text">La versión instalada de Workflow Automation debe ser la 5,1.1P6 o posterior.</block>
@@ -11967,20 +11960,14 @@ Proteger aplicaciones con LUN, puede ver y supervisar esas LUN en Active IQ Unif
   <block id="42d484bbae102dea7d1c196c19650d97" category="list-text">Python 3,9.x (del repositorio Red Hat Extra Enterprise Linux Server)</block>
   <block id="8ed8853f67b146f3f04807d3865ef602" category="list-text">Asegúrese de descargar la versión correcta del archivo de instalación del sistema Red Hat Enterprise Linux. En función de si tiene instalado Red Hat Enterprise Linux 8 o 9, asegúrese de descargar la versión adecuada del archivo de Unified Manager<block ref="daf4de58883c030f033f07e61debf025" prefix=" " category="inline-code"></block>.</block>
   <block id="19c4a5941b195c20d40b06f049672572" category="paragraph">Consulte <block ref="cf70fd654b04a0c92e5d4b7fed50b3d9" category="inline-link-macro-rx"></block>.</block>
-  <block id="f371311f67ec0ffdeb5ced3f80e41abe" category="paragraph">MySQL 8.0.37 Community Edition</block>
-  <block id="032d6aa526b2a66bca2107e1cbba42ed" category="list-text">Si la versión instalada de MySQL es anterior a MySQL 8.0.37 Community Edition, introduzca el siguiente comando para desinstalarlo:</block>
   <block id="7da05941ded0fa57ef6c010185beac49" category="list-text">Descargue el repositorio de EPEL para su instalación. Para la versión 8, descárguela de:</block>
   <block id="8438f6d12a356f1a5ccd9509764a0247" category="paragraph">Para la versión 9, descárguela de:</block>
   <block id="732f8b59fb176e61ded542460f2b84e0" category="paragraph"><block ref="bf806cbb1cb8f7651ccd8a97025996a8" prefix="" category="inline-code"></block></block>
   <block id="3717278eaf7b770b8c5c946fe5b23f12" category="list-text">Descargue el repositorio de MySQL adecuado para su instalación. Para la versión 8, descárguela de:</block>
-  <block id="e1ab3176e1f35c85617b22c751088884" category="paragraph"><block ref="a2116e3b6157ded4a26b7aaf0c8cbec5" prefix="" category="inline-code"></block></block>
-  <block id="637069b8db2ac9aba2b726c3f23849a6" category="paragraph"><block ref="3adc1545db352c2c64fa34c07fafea99" prefix="" category="inline-code"></block></block>
   <block id="5c17ea3e79e1636d2840d1f9fab25337" category="paragraph">Si anteriormente instaló Unified Manager en un sistema Red Hat Enterprise Linux 7.x y debe actualizar a Red Hat Enterprise Linux 8.x, debe seguir uno de los procedimientos enumerados en este tema. En ambos casos, debe crear una copia de seguridad de Unified Manager en el sistema Red Hat Enterprise Linux 7.x y, a continuación, restaurar el backup en un sistema Red Hat Enterprise Linux 8.x. Tenga en cuenta que las versiones compatibles de Red Hat Enterprise Linux van del 8,0 al 8,10.</block>
   <block id="c6e74cf56812c87ccc3bc2f6640b0b6f" category="paragraph">Consulte <block ref="f09744d7bd837929fda35b3531c47312" category="inline-link-macro-rx"></block>.</block>
-  <block id="cb97f1f86b65ce1a485ab484433bcd54" category="list-text">MySQL Community Edition se actualiza automáticamente durante la actualización de Unified Manager. Si la versión instalada de MySQL en el sistema es anterior a 8,0.37, el proceso de actualización de Unified Manager actualiza automáticamente MySQL a 8,0.37.</block>
   <block id="3c476f11a2cc5c761bb84165398bdfa1" category="paragraph">Puede actualizar el dispositivo virtual Active IQ Unified Manager de las versiones 9,13 o 9,14 a la 9,16.</block>
   <block id="bc069991265524f0102a945c2cdc4178" category="list-text">Python 3.12.4</block>
-  <block id="e382152aa599731ca30f5f2ff671bc43" category="list-text">MySQL Community Edition se actualiza automáticamente durante la actualización de Unified Manager. Si la versión instalada de MySQL en el sistema es anterior a 8,0.37, el proceso de actualización de Unified Manager actualiza automáticamente MySQL a 8,0.37. No debe ejecutar una actualización independiente de una versión anterior de MySQL a la versión 8,0.37.</block>
   <block id="a788801886ad9ba3f0d1aa6f0272e0aa" category="doc">Defina el tiempo de espera de inactividad de la sesión</block>
   <block id="5b864f90874a257a247b735985d967ca" category="paragraph">Puede especificar el valor de tiempo de espera de inactividad en Unified Manager para que la sesión se finalice automáticamente después de un cierto periodo de inactividad. De manera predeterminada, el tiempo de espera está configurado en 4,320 minutos (72 horas).</block>
   <block id="bc684223e8f110b5631ba7afdab7edf8" category="summary">Puede configurar un valor de tiempo de espera máximo de sesión para Unified Manager mediante la CLI, de modo que la sesión se finalice automáticamente después de un cierto periodo de tiempo.</block>
@@ -11997,4 +11984,27 @@ Proteger aplicaciones con LUN, puede ver y supervisar esas LUN en Active IQ Unif
   <block id="57149177e572f9b5329f85c287861767" category="paragraph">Utilizado por Unified Manager para enviar registros de auditoría a un servidor de syslog remoto.</block>
   <block id="a683cc8dbb0bb0e6b1793e6ba834ff32" category="inline-link">Después de actualizar Java en el host de Active IQ Unified Manager, los servicios no se iniciarán</block>
   <block id="09baf90eb42ecfec3f212db12b09fe09" category="list-text">Debe instalar solo una versión de Java en el host de Unified Manager. De lo contrario, es posible que el sistema no pueda determinar qué versión debe usar. Consulte<block ref="c8da8190d4ab26608407458b2e410255" category="inline-link-rx"></block>.</block>
+  <block id="3e0906413eedf8b016028a08671c72cf" category="list-text">MySQL Community Edition versión 8.4.4 (del repositorio MySQL)</block>
+  <block id="a2e936af545ecbea6c8eee227afddcd6" category="list-text">OpenJDK versión 11.0.25 (del repositorio de Red Hat Extra Enterprise Linux Server)</block>
+  <block id="c6e03671790b21aa5876d21988481dc1" category="doc">Cambiar la contraseña de JBoss</block>
+  <block id="78905ac5717ae4dcc36e0ec4b4ac810f" category="paragraph">OpenJDK versión 11.0.25</block>
+  <block id="bd4a61bec4ddf1fbfa9ff823fe338a7f" category="paragraph">MySQL 8.4.4 Community Edition</block>
+  <block id="e0b87bd877fb05ad9598493d9e9618f7" category="list-text">Si la versión instalada de MySQL es anterior a MySQL 8.4.4 Community Edition, introduzca el siguiente comando para desinstalarlo:</block>
+  <block id="892bed2d06f89704c4604de031dae65b" category="paragraph">rpm --import <block ref="0f882f512220ee48fb3a2d37bf184d7b" category="inline-link-rx"></block></block>
+  <block id="649100e0f61e7b197f0fa124dfd04ad0" category="doc">Configurar manualmente el repositorio MySQL</block>
+  <block id="7364abf9a3cfe2b121a7cea83050498f" category="paragraph"><block ref="e4721391d8c98496e77286760a370cbd" prefix="" category="inline-code"></block></block>
+  <block id="a241a6b1d78a908e027ae227ba4afac8" category="paragraph"><block ref="ab96ce67a2bc362f79a7dc9a5d898d60" prefix="" category="inline-code"></block></block>
+  <block id="ae96596167d0d8d8e2ef4039fbef6053" category="paragraph"><block ref="2cc661b5745d2b0218deba4ff43b2854" prefix="" category="inline-code"></block></block>
+  <block id="9ab7720d6cb446ae235fa693146b2a7f" category="list-text">MySQL Community Edition se actualiza automáticamente durante la actualización de Unified Manager. Si la versión instalada de MySQL en el sistema es anterior a 8,4.4, el proceso de actualización de Unified Manager actualiza automáticamente MySQL a 8,4.4.</block>
+  <block id="8cfa73f7b5a63cd662382021f2aaef95" category="paragraph">Unified Manager OVA en sistemas VMware vSphere ejecuta Debian OS 12 (bookworm) internamente. Para obtener información sobre las versiones del hardware de la máquina virtual que pueden admitir las versiones compatibles de los servidores ESXi, consulte la documentación de VMware.</block>
+  <block id="46f31bcfb93fcb60053430763035aa12" category="list-text">MySQL Community Edition versión 8.4.4</block>
+  <block id="cd50fb2ed09ac3c33e778054edb9cc6a" category="list-text">MySQL Community Edition se actualiza automáticamente durante la actualización de Unified Manager. Si la versión instalada de MySQL en el sistema es anterior a 8,4.4, el proceso de actualización de Unified Manager actualiza automáticamente MySQL a 8,4.4. No debe ejecutar una actualización independiente de una versión anterior de MySQL a la versión 8,4.4.</block>
+  <block id="0d36f8c0424fdbfdd6f9a12cbba4ee8d" category="summary">Solución de problemas: siga estos pasos para resolver el problema de rotación de registros</block>
+  <block id="a8bfd2afda4e15a2a1e73c27bdc332e8" category="doc">Problema de rotación de registros del SDK de administración de NetApp en sistemas Windows</block>
+  <block id="5aeab31ef19d5a368133d1cbd8bd66be" category="paragraph">Después de agregar un clúster basado en API de ONTAPI a Unified Manager en un sistema operativo Windows, <block ref="dbc60675af8648f05c2a3d903b31f558" prefix=" " category="inline-code"></block> El tamaño del archivo aumenta y supera el límite de tamaño de 10 MB.</block>
+  <block id="45e4d43f3921d93a4b17af11a66a4dea" category="paragraph">Este problema puede ocurrir si no se realiza la rotación del registro.</block>
+  <block id="48386553efdab622d0188984717ac098" category="list-text">Detener Unified Manager.</block>
+  <block id="a0e6619df3d203259475fb9e2836a790" category="inline-link-macro">Guía de refuerzo de seguridad para el informe técnico del SDK de administración de NetApp</block>
+  <block id="e7f66239d2584f7db44917f4b82c3d75" category="list-text">Cuando instale Unified Manager en Windows, instale Logrotate versión 0.0.0.18. Para obtener más información, consulte la <block ref="613e5c3b9e425f3372aa73a0b93d00d2" category="inline-link-macro-rx"></block>.</block>
+  <block id="ba4a3eda92613705933538adb5a397dd" category="list-text">Inicie Unified Manager.</block>
 </blocks>
