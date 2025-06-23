@@ -67,7 +67,7 @@ Unified Manager le solicita el siguiente mensaje:
 This setup will perform an upgrade of Unified Manager. Do you want to continue?
 ----
 . Haga clic en *Sí* y, a continuación, haga clic en *Siguiente*.
-. Introduzca la contraseña de root MySQL8 que se estableció durante la instalación y, a continuación, haga clic en *Siguiente*.
+. Introduzca la contraseña de root MySQL84 que se estableció durante la instalación y, a continuación, haga clic en *Siguiente*.
 . Inicie la interfaz de usuario web en una nueva ventana en un explorador web compatible e inicie sesión para utilizar la versión actualizada de Unified Manager.
 . Si tiene instalado un software antivirus activo en el sistema Windows, asegúrese de excluir manualmente las siguientes rutas del análisis antivirus una vez completada la actualización:
 +
