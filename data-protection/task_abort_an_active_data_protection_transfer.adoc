@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: abort, active data protection, transfer, volume relationships page, SnapMirror active sync 
 summary: Puede anular una transferencia de protección de datos activa cuando desee detener una replicación de SnapMirror en curso. También puede borrar el punto de comprobación de reinicio para las transferencias posteriores a la transferencia de línea de base. Puede cancelar una transferencia cuando entra en conflicto con otra operación, como un movimiento de volumen. 
 ---
-= Cancelar una transferencia de protección de datos activa desde la página Relaciones de volumen
+= Anular una transferencia de protección de datos activa desde la página Relaciones de volumen
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

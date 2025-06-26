@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, root, object 
 summary: El objeto raíz es la línea de base con la que se realizan otras comparaciones de objetos. Esto permite ver y comparar los datos de otros objetos con el objeto raíz, lo cual proporciona análisis de datos de rendimiento que le ayudan a resolver problemas y mejorar el rendimiento de los objetos. 
 ---
-= Descripción del objeto raíz
+= Comprender el objeto raíz
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

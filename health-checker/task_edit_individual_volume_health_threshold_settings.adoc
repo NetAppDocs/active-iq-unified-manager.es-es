@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, individual, volume, health, threshold, settings 
 summary: Es posible editar la configuración del umbral de estado para la capacidad de volumen, el crecimiento, la cuota y la reserva de espacio de uno o más volúmenes. Cuando se supera un umbral, se generan alertas y se reciben notificaciones. Estas notificaciones le ayudan a tomar medidas preventivas basadas en el evento generado. 
 ---
-= Editar la configuración de umbral de estado de cada volumen
+= Editar la configuración del umbral de salud del volumen individual
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

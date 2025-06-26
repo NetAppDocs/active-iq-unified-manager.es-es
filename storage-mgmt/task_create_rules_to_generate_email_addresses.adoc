@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, rules, generate, email, addresses 
 summary: 'Puede crear reglas para especificar la dirección de correo electrónico según la cuota de usuario asociada con los clústeres, las máquinas virtuales de almacenamiento (SVM), los volúmenes, qtrees, los usuarios o los grupos de usuarios. Se envía una notificación a la dirección de correo electrónico especificada cuando hay una infracción de cuota.' 
 ---
-= Creación de reglas para generar direcciones de correo electrónico
+= Crear reglas para generar direcciones de correo electrónico
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, events, adaptive, qos, policies, defined, block, size 
 summary: Los grupos de políticas de calidad de servicio adaptativos escalan automáticamente el techo o el piso de rendimiento según el tamaño del volumen y mantienen la ratio de IOPS en TB a medida que cambie el tamaño del volumen. A partir de ONTAP 9.5 puede especificar el tamaño de bloque en la política de calidad de servicio para aplicar eficazmente un umbral de MB/s al mismo tiempo. 
 ---
-= Eventos de políticas de calidad de servicio adaptativas que tienen un tamaño de bloque definido
+= Comprender eventos de políticas de QoS adaptativas que tienen un tamaño de bloque definido
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

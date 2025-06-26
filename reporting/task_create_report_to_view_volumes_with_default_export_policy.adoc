@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, volumes, default, export, policy 
 summary: Puede crear un informe para buscar volúmenes con la política de exportación predeterminada. 
 ---
-= Creación de un informe para ver los volúmenes que utilizan la política de exportación predeterminada
+= Cree un informe para ver los volúmenes que utilizan la política de exportación predeterminada
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

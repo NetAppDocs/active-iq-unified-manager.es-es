@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, protection, relationships, volume, relationships, page 
 summary: Las relaciones de protección existentes se pueden editar para cambiar la tasa de transferencia máxima, la política de protección o la programación de protección. Se puede editar una relación para reducir el ancho de banda que se usa para las transferencias o aumentar la frecuencia de las transferencias programadas, ya que los datos cambian con frecuencia. 
 ---
-= Editar las relaciones de protección en la página Volume Relationships
+= Editar relaciones de protección desde la página Relaciones de volumen
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

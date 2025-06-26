@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapvault, protection, relationship, volume, health details page 
 summary: Puede crear una relación de SnapVault mediante la página de detalles Volume/Health para que los backups de datos estén habilitados para la protección en los volúmenes. 
 ---
-= Crear una relación de protección SnapVault desde la página de detalles Volume/Health
+= Cree una relación de protección de SnapVault desde la página de detalles de Volumen/Estado
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

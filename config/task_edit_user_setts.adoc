@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, user, settings 
 summary: Puede editar la configuración de usuario, como la dirección de correo electrónico y el rol, que se especifican a cada usuario. Por ejemplo, se recomienda cambiar el rol de un usuario que es un operador de almacenamiento y asignar privilegios de administrador de almacenamiento al usuario. 
 ---
-= Edición de la configuración de usuario
+= Editar la configuración del usuario
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

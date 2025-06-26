@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: modify, storage, workloads 
 summary: La modificación de las cargas de trabajo de almacenamiento consiste en actualizar las LUN o recursos compartidos de archivos con los parámetros que faltan o cambiar los parámetros existentes. 
 ---
-= Modificación de las cargas de trabajo de almacenamiento mediante API
+= Modificar las cargas de trabajo de almacenamiento mediante API
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -22,7 +22,7 @@ El flujo de trabajo supone que el LUN o el recurso compartido de archivos se han
 ====
 
 
-== Modificación de los recursos compartidos de archivos
+== Modificar recursos compartidos de archivos
 
 Al modificar un recurso compartido de archivos, puede actualizar los siguientes parámetros:
 
@@ -191,7 +191,7 @@ Vea los detalles del recurso compartido de archivos en el resultado.
 
 
 
-== Actualizando las LUN
+== Actualizar LUN
 
 Al actualizar una LUN, puede modificar los siguientes parámetros:
 

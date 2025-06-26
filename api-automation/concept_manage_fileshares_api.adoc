@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, file, share 
 summary: Puede utilizar la API /Storage-provider/file-shares para ver, añadir, modificar y eliminar los volúmenes de recursos compartidos de archivos CIFS y NFS en el entorno de su centro de datos. 
 ---
-= Gestionar recursos compartidos de archivos mediante API
+= Administrar recursos compartidos de archivos mediante API
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

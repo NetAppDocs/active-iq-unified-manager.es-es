@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: bookmark, favorite, help topics 
 summary: En la ficha Favoritos de ayuda, puede marcar los temas de Ayuda que utiliza con frecuencia. Ayude a los marcadores a proporcionar un acceso rápido a sus temas favoritos. 
 ---
-= Guardado de marcadores de sus temas favoritos de la Ayuda
+= Marque sus temas de ayuda favoritos
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

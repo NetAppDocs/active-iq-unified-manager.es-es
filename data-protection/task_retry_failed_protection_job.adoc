@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: retry, failed, protection job 
 summary: Una vez que haya tomado medidas para corregir un trabajo de protección fallido, puede utilizar Reintentar para volver a ejecutar el trabajo. Al volver a intentar un trabajo, se crea un trabajo nuevo con el ID de trabajo original. 
 ---
-= Volver a intentar un trabajo de protección con errores
+= Reintentar un trabajo de protección fallido
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -22,7 +22,7 @@ Un usuario con el rol de administrador de almacenamiento puede generar y enviar 
 ====
 
 
-== Envío de mensajes de AutoSupport bajo demanda
+== Enviar mensajes de AutoSupport a pedido
 
 Puede generar y enviar un mensaje bajo demanda al soporte técnico, a un destinatario de correo electrónico especificado o a ambos.
 
@@ -36,7 +36,7 @@ Puede generar y enviar un mensaje bajo demanda al soporte técnico, a un destina
 
 
 
-== Habilitar AutoSupport periódica
+== Habilitar el soporte automático periódico
 
 Puede enviar mensajes específicos y predefinidos al soporte técnico para el diagnóstico y la resolución periódica de los problemas. Esta funcionalidad está habilitada de forma predeterminada. Si está desactivada, un administrador o un usuario de mantenimiento pueden activar la configuración.
 
@@ -49,7 +49,7 @@ Puede enviar mensajes específicos y predefinidos al soporte técnico para el di
 
 
 
-== Carga del bundle de soporte bajo demanda
+== Cargar paquete de soporte a pedido
 
 Es posible generar y enviar un bundle de soporte al soporte técnico en función de los requisitos para la solución de problemas. Unified Manager almacena solo los dos paquetes de soporte generados más recientemente. Los paquetes de soporte más antiguos se eliminan del sistema.
 
@@ -72,7 +72,7 @@ Aunque no seleccione ningún tipo de datos, el bundle de soporte sigue generado 
 
 
 
-== Configuración del servidor proxy HTTP
+== Configurar un servidor proxy HTTP
 
 Puede designar un proxy para proporcionar el acceso a Internet a fin de enviar contenido AutoSupport a soporte si su entorno no proporciona acceso directo desde el servidor de Unified Manager. Esta sección sólo está disponible para usuarios de administrador y mantenimiento.
 

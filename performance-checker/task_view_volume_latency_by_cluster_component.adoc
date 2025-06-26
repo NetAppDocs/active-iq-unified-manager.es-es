@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, volume, latency, cluster, component 
 summary: Puede ver información detallada sobre la latencia de un volumen mediante la página Volume Performance Explorer. El gráfico de contadores Latency - total muestra la latencia total en el volumen, y el gráfico de contadores Latency - Breakdown es útil para determinar el impacto de la latencia de lectura y escritura en el volumen. 
 ---
-= Ver la latencia de volumen por componente del clúster
+= Ver la latencia del volumen por componente del clúster
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

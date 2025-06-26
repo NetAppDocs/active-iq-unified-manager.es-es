@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: slo, storage efficiency policy, storage workloads 
 summary: 'La opción de gestión del almacenamiento basada en políticas permite la gestión del almacenamiento en función de los objetivos de nivel de servicio (SLO). Esta opción está habilitada de forma predeterminada.' 
 ---
-= Permitir la gestión del almacenamiento basada en políticas
+= Gestión del almacenamiento basada en normativas
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

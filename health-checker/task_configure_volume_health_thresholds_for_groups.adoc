@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, volume, health, thresholds, groups 
 summary: Puede configurar umbrales de estado del volumen a nivel de grupo para la capacidad, las copias Snapshot, las cuotas de qtree, el crecimiento y los inodos. 
 ---
-= Configurar los umbrales de estado de volúmenes para grupos
+= Configurar umbrales de estado del volumen para grupos
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

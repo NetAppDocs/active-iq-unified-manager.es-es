@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, monitor, metrocluster, configurations 
 summary: La supervisión de la compatibilidad con las configuraciones de MetroCluster en la interfaz de usuario web de Unified Manager permite comprobar si existen problemas de conectividad en la configuración de MetroCluster. Al detectar un problema de conectividad en las primeras etapas, es posible gestionar las configuraciones de MetroCluster de forma eficaz. 
 ---
-= Gestionar y supervisar configuraciones de MetroCluster
+= Administrar y supervisar las configuraciones de MetroCluster
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

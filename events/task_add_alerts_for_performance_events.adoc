@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, alerts, performance, events 
 summary: Es posible configurar alertas para eventos de rendimiento individuales, como cualquier otro evento que reciba Unified Manager. Además, si desea tratar todos los eventos de rendimiento por igual y enviar correo electrónico a la misma persona, puede crear una única alerta para notificarle cuando se active cualquier evento de rendimiento crítico o de advertencia. 
 ---
-= Adición de alertas para eventos de rendimiento
+= Agregar alertas para eventos de rendimiento
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

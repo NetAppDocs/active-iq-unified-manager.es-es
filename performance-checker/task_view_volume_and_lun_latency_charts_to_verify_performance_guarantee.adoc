@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, volume, lun, latency, charts, verify, performance, guarantee 
 summary: 'Puede ver los volúmenes y LUN que ha suscrito al programa "Garantía de rendimiento" para verificar que la latencia no ha superado el nivel que se le ha garantizado.' 
 ---
-= Vea los gráficos de latencia de volúmenes y LUN para verificar la garantía de rendimiento
+= Vea los gráficos de volumen y latencia de LUN para verificar la garantía de rendimiento
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, annotation rules 
 summary: Puede eliminar reglas de anotación de Active IQ Unified Manager cuando las reglas ya no sean necesarias. 
 ---
-= Eliminación de reglas de anotación
+= Eliminar reglas de anotación
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

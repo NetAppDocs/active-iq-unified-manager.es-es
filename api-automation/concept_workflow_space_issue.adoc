@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: determine, space, issue, aggregate 
 summary: Puede utilizar las API de centro de datos de Active IQ Unified Manager para supervisar la disponibilidad y el uso del espacio en los volúmenes. Puede determinar problemas de espacio de su volumen e identificar recursos de almacenamiento que estén desaprovechados o sobrecargados. 
 ---
-= Determinar problemas de espacio en agregados mediante las API
+= Determinar problemas de espacio en agregados mediante el uso de API
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

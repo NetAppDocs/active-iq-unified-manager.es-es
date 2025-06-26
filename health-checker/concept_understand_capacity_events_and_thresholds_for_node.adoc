@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, events, thresholds, node, root, aggregates 
 summary: Puede supervisar el agregado raíz del nodo mediante Unified Manager. La práctica recomendada es aprovisionar considerablemente el volumen raíz en el agregado raíz para evitar que se detenga el nodo. 
 ---
-= Eventos y umbrales para agregados raíz de nodos
+= Comprender eventos y umbrales para agregados de raíz de nodo
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

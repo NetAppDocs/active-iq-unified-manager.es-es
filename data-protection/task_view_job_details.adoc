@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, job, details 
 summary: Después de iniciar un trabajo, puede realizar un seguimiento de su progreso desde la página de detalles Job y supervisar las tareas asociadas para detectar posibles errores. 
 ---
-= Ver los detalles del trabajo
+= Ver detalles del trabajo
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

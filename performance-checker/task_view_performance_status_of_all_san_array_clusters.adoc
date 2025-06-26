@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: all san, array, performance, clusters 
 summary: 'Es posible usar la vista Performance: All Clusters para mostrar el estado de rendimiento de los clústeres de cabina All SAN.' 
 ---
-= Visualización del rendimiento de los clústeres de cabinas All SAN
+= Ver el rendimiento de todos los clústeres de matriz SAN
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

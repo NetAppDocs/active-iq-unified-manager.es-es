@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, storage, efficiency, policy 
 summary: Puede ver, crear, modificar y eliminar políticas de eficiencia del almacenamiento usando las API del proveedor de almacenamiento. 
 ---
-= Gestión de políticas de eficiencia del almacenamiento mediante API
+= Administrar políticas de eficiencia de almacenamiento mediante API
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remove, aggregates, resource pools 
 summary: 'Es posible quitar agregados de un pool de recursos existente: Por ejemplo, cuando se desea usar un agregado con otro fin.' 
 ---
-= Eliminación de agregados de pools de recursos
+= Eliminar agregados de los grupos de recursos
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

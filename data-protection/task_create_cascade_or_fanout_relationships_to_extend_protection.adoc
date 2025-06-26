@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, cascade fanout, relationships, extend protection, existing protection relationship 
 summary: Puede ampliar la protección a partir de una relación existente creando fanout a partir del volumen de origen o una cascada a partir del volumen de destino de una relación existente. Puede hacerlo cuando necesite copiar datos de un sitio a muchos sitios o para proporcionar protección adicional mediante la creación de más backups. 
 ---
-= Crear relaciones en cascada o con ventilador para ampliar la protección a partir de una relación de protección existente
+= Cree relaciones en cascada o en abanico para ampliar la protección de una relación de protección existente
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

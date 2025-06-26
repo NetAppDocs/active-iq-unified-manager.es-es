@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: active iq, unified manager 
 summary: Active IQ Unified Manager proporciona un conjunto de API para gestionar sus recursos de almacenamiento en los sistemas de almacenamiento compatibles mediante una interfaz de servicio web RESTful para cualquier integración de terceros. 
 ---
-= Primeros pasos con API de REST de Active IQ Unified Manager
+= Comience a utilizar las API REST de Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

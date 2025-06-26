@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, active, directory, mapping 
 summary: Puede utilizar las API que aparecen aquí para gestionar las asignaciones de Active Directory en la SVM que se necesitan para aprovisionar recursos compartidos de CIFS en las SVM. Es necesario configurar las asignaciones de Active Directory para asignar las SVM con ONTAP. 
 ---
-= Gestión de la asignación de Active Directory mediante API
+= Administrar la asignación de Active Directory mediante API
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

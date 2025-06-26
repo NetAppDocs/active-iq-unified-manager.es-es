@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remove unified manager 
 summary: 'Puede desinstalar Unified Manager si elimina la máquina virtual (VM) en la que está instalado el software Unified Manager.' 
 ---
-= Se quita Unified Manager
+= Eliminar Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, audit logs 
 summary: Puede usar el botón Configure de la sección Audit Logs para configurar la política de implementación de los archivos de registro de auditoría y también para habilitar el registro remoto de los registros de auditoría. 
 ---
-= Configuración de registros de auditoría
+= Configurar registros de auditoría
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -19,6 +19,6 @@ Puede establecer los valores en *MAX FILE SIZE* y *AUDIT LOG RETENTION PERID* se
 . Haga clic en *registros de auditoría* > > *Configurar*.
 . Introduzca los valores en *MAX FILE SIZE*, *TOTAL AUDIT LOG SIZE* y *DÍAS DE RETENCIÓN DEL REGISTRO de AUDITORÍA*.
 +
-Si desea activar el registro remoto, debe seleccionar *Activar registro remoto*.
+Si desea activar el registro remoto, debe seleccionar *Activar registro remoto*. /// 2025-6-11, OTHERDOC-133
 
 

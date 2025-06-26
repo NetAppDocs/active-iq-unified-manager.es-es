@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: clusters, unallocated, LUN, capacity, indentify, additional, workloads 
 summary: Puede crear un informe para encontrar los clústeres con la capacidad LUN más sin asignar, mayor de 0,5 TB, para ayudar a identificar dónde puede añadir cargas de trabajo adicionales. 
 ---
-= Cree un informe para identificar los clústeres con la capacidad de LUN más sin asignar
+= Cree un informe para identificar los clústeres con la mayor capacidad de LUN sin asignar
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

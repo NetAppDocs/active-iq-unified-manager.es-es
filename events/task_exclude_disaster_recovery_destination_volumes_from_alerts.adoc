@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: exclude, disaster, recovery, destination, volumes, generate, alerts 
 summary: Al configurar alertas de volumen, es posible especificar una cadena en el cuadro de diálogo Alert que identifica un volumen o un grupo de volúmenes. Si configuró la recuperación ante desastres para las SVM, sin embargo, los volúmenes de origen y destino tienen el mismo nombre, por lo que recibirá alertas para ambos volúmenes. 
 ---
-= No se incluye el hecho de que los volúmenes de destino de recuperación ante desastres generen alertas
+= Excluir volúmenes de destino de recuperación ante desastres de la generación de alertas
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, performance, threshold, policies 
 summary: Es posible ver todas las políticas de umbral de rendimiento definidas actualmente en la página Performance Thresholds. 
 ---
-= Ver las políticas de umbral de rendimiento
+= Ver políticas de umbral de rendimiento
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

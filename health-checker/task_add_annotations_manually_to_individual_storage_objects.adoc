@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, annotations, manually, individual, storage objects 
 summary: Puede anotar manualmente volúmenes, clústeres y SVM seleccionados sin usar reglas de anotación. Puede anotar un único objeto de almacenamiento o varios objetos de almacenamiento y especificar la combinación de par nombre-valor necesaria para la anotación. 
 ---
-= Añadir anotaciones manualmente a objetos de almacenamiento individuales
+= Agregar anotaciones manualmente a objetos de almacenamiento individuales
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

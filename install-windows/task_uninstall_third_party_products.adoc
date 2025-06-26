@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: MS Visual C++, python, uninstall, uninstalling, 9.16 
 summary: Cómo desinstalar productos de terceros, incluidos Python y Microsoft Visual C++. 
 ---
-= Desinstalación de productos de terceros
+= Desinstalar productos de terceros
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

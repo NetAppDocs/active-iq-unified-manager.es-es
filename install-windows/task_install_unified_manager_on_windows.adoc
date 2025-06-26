@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: install, unified manager 
 summary: Puede instalar Unified Manager para supervisar y solucionar problemas de capacidad de almacenamiento de datos, disponibilidad, rendimiento y protección. 
 ---
-= Instalación de Unified Manager
+= Instale Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

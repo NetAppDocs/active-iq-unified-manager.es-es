@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, quorum, epsilon 
 summary: El quórum y el épsilon son medidas importantes para el estado y la función de los clusters, que, en su conjunto, indican cómo abordan los clusters los desafíos potenciales de comunicaciones y conectividad. 
 ---
-= Comprensión del quórum y del épsilon
+= Comprender el quórum y épsilon
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

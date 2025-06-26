@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, volumes, luns, same. qos, policy, group 
 summary: Puede mostrar una lista de los volúmenes y LUN que se hayan asignado al mismo grupo de políticas de calidad de servicio. 
 ---
-= Ver volúmenes o LUN que estén en el mismo grupo de políticas de calidad de servicio
+= Ver volúmenes o LUN que están en el mismo grupo de políticas de QoS
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

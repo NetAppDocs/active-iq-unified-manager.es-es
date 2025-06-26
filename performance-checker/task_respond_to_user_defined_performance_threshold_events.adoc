@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: user-defined, performance, threshold, events 
 summary: Puede utilizar Unified Manager para investigar los eventos de rendimiento causados por un contador de rendimiento que cruza un umbral crítico o de advertencia definido por el usuario. También puede usar Unified Manager para comprobar el estado del componente del clúster a fin de ver si los eventos de estado recientes detectados en el componente contribuyeron al evento de rendimiento. 
 ---
-= Respuesta a eventos de umbral de rendimiento definidos por el usuario
+= Responder a eventos de umbral de rendimiento definidos por el usuario
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

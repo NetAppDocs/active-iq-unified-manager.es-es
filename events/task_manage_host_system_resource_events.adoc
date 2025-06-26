@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, host, system, resource, events 
 summary: Unified Manager incluye un servicio que supervisa problemas de recursos en el sistema host en el que está instalado Unified Manager. Problemas como falta de espacio en disco disponible o falta de memoria en el sistema host pueden desencadenar eventos de estación de gestión que se muestran como mensajes de banner en toda la parte superior de la interfaz de usuario. 
 ---
-= Gestionar eventos de recursos del sistema host
+= Administrar eventos de recursos del sistema host
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

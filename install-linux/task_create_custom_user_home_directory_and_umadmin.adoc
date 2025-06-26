@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, custom, user, home, directory, umadmin, password, prior, installation 
 summary: Puede crear un directorio inicial personalizado y definir su propia contraseña de usuario umadmin antes de instalar Unified Manager. Esta tarea es opcional, pero es posible que algunos sitios necesiten la flexibilidad para anular la configuración predeterminada de la instalación de Unified Manager. 
 ---
-= Creación de un directorio inicial de usuario personalizado y una contraseña umadmin antes de la instalación
+= Cree un directorio de inicio de usuario personalizado y una contraseña umadmin antes de la instalación
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

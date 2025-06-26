@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understanding, node, failover, planning page 
 summary: 'La página Performance/Node Failover Planning calcula el impacto en el rendimiento de un nodo si falla el nodo asociado de alta disponibilidad (ha) del nodo. Unified Manager basa las estimaciones en el rendimiento histórico de los nodos en la pareja de alta disponibilidad.' 
 ---
-= Comprender y utilizar la página Node Failover Planning
+= Comprender y utilizar la página de planificación de conmutación por error de nodo
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, individual, qtree, health, threshold, settings 
 summary: Es posible editar la configuración del umbral de estado para la capacidad de qtrees de uno o varios qtrees. Cuando se supera un umbral, se generan alertas y se reciben notificaciones. Estas notificaciones le ayudan a tomar medidas preventivas basadas en el evento generado. 
 ---
-= Editar la configuración de umbral de estado de qtree individual
+= Editar la configuración del umbral de salud de cada qtree
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

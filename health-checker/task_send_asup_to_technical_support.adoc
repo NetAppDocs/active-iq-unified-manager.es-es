@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: support bundle, web ui, maintenance console 
 summary: Debe enviar un bundle de soporte cuando el problema requiere un diagnóstico y una solución de problemas más detallados de los que proporciona un mensaje AutoSupport. Puede enviar un paquete de soporte al soporte técnico mediante la consola de mantenimiento y la interfaz de usuario web de Unified Manager. 
 ---
-= Enviar un paquete de soporte a través de la interfaz de usuario web y la consola de mantenimiento
+= Envíe un paquete de soporte a través de la interfaz web y la consola de mantenimiento
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

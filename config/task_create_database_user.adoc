@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, database, user 
 summary: Para admitir una conexión entre Workflow Automation y Unified Manager, o bien para acceder a las vistas de la base de datos, primero debe crear un usuario de base de datos con los roles Integration Schema o Report Schema en la interfaz de usuario web de Unified Manager. 
 ---
-= Creación de un usuario de base de datos
+= Crear un usuario de base de datos
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, node list, details 
 summary: 'Puede usar la vista Health: All Nodes para ver la lista de nodos en los clústeres. Puede usar la página de detalles Cluster / Health para ver información detallada acerca de los nodos que forman parte del clúster que se supervisa.' 
 ---
-= Ver la lista y los detalles del nodo
+= Ver la lista de nodos y los detalles
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, events, occurred, maintenance, window 
 summary: Si es necesario, puede ver los eventos generados para todos los objetos de almacenamiento durante una ventana de mantenimiento de Unified Manager. La mayoría de los eventos aparecerán en el estado Obsoleto una vez que se haya completado la ventana de mantenimiento y todos los recursos del sistema estén de respaldo y en ejecución. 
 ---
-= Ver los eventos que se produjeron durante una ventana de mantenimiento
+= Ver eventos que ocurrieron durante una ventana de mantenimiento
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

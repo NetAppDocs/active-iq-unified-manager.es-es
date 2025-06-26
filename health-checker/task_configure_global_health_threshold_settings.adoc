@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, global health, threshold settings 
 summary: Puede configurar las condiciones de umbral de estado global para la capacidad, el crecimiento, la reserva de Snapshot, las cuotas y los inodos para supervisar de manera eficaz el agregado, el volumen y el tamaño de qtree. También se puede editar la configuración para generar eventos que superen los umbrales de desfase. 
 ---
-= Configuración de los valores del umbral de estado global
+= Configurar los ajustes del umbral de salud global
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

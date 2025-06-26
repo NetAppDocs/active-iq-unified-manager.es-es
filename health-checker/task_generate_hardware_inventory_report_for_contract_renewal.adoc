@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: contract, renewal, cluster, inventory report, hardware, generate 
 summary: 'Es posible generar un informe que contenga una lista completa de información de clústeres y nodos; por ejemplo, números de modelo del hardware y números de serie, tipos y números de disco, licencias instaladas, etc. Este informe resulta útil para la renovación de contratos en sitios seguros (sitios «oscuros») que no están conectados a la plataforma Active IQ de NetApp.' 
 ---
-= Generar un informe de inventario de hardware para la renovación de contrato
+= Generar un informe de inventario de hardware para la renovación del contrato
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

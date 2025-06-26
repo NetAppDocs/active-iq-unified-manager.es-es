@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, storage VMs, volume, limit 
 summary: Puede crear un informe para encontrar las SVM que alcanzan el límite máximo de volumen. 
 ---
-= Creación de un informe para ver las máquinas virtuales de almacenamiento que alcanzan el límite máximo de volumen
+= Cree un informe para ver las máquinas virtuales de almacenamiento que alcanzan el límite máximo de volumen
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remove, cluster 
 summary: Puede quitar un clúster de Unified Manager mediante la página Cluster Setup. Por ejemplo, puede quitar un clúster si la detección del clúster falla o cuando desea retirar un sistema de almacenamiento. 
 ---
-= Quitar clústeres
+= Quite los clústeres
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

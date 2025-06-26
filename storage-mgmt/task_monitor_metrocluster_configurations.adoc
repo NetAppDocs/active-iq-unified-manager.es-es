@@ -54,7 +54,7 @@ Si mueve el puntero sobre el icono, puede ver información detallada sobre el ev
 
 Si detecta problemas de conectividad en la configuración de MetroCluster, debe iniciar sesión en System Manager o acceder a la CLI de ONTAP para resolver los problemas.
 
-Para obtener más información sobre cómo determinar el estado del clúster, consulte link:../health-checker/task_check_health_of_clusters_in_metrocluster_configuration.html#determining-cluster-health-in-metrocluster-over-fc-configuration["Determinar el estado del clúster en la configuración de MetroCluster over FC"].
+Para obtener más información sobre cómo determinar el estado del clúster, consulte link:../health-checker/task_check_health_of_clusters_in_metrocluster_configuration.html#determine-cluster-health-in-metrocluster-over-fc-configuration["Determinar el estado del clúster en MetroCluster mediante la configuración de FC"].
 
 
 
@@ -99,7 +99,7 @@ NOTE: Sólo para una configuración de MetroCluster sobre IP, puede ver la topol
 *Información relacionada*
 
 * link:../health-checker/reference_health_cluster_details_page.html["Página de detalles Cluster / Health"]
-* Para obtener información acerca de la vista *relación:MetroCluster*, consulte link:../storage-mgmt/task_monitor_metrocluster_configurations.html["Supervisar las configuraciones de MetroCluster"].
+* Para obtener más información sobre la vista *Relationship:MetroCluster*, consulte link:../storage-mgmt/task_monitor_metrocluster_configurations.html["Supervisar las configuraciones de MetroCluster"].
 * Para obtener información acerca de *relación: Vista Estado de transferencia de último 1 mes*, consulte link:../data-protection/reference_relationship_last_1_month_transfer_status_view.html["Relación: Vista Estado de transferencia de último 1 mes"].
 * Para obtener información acerca de *relación: La vista velocidad de transferencia* de último 1 mes, consulte link:../data-protection/reference_relationship_last_1_month_transfer_rate_view.html["Relación: Última vista de tarifa de transferencia de 1 mes"].
 * Para obtener información acerca de la vista *relación: Todas las relaciones*, consulte link:../data-protection/reference_relationship_all_relationships_view.html["Relación: Vista todas las relaciones"].

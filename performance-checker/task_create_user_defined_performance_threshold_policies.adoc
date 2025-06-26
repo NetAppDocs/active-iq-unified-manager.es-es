@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, user-defined, performance, threshold, policies 
 summary: Es posible crear políticas de umbral de rendimiento para los objetos de almacenamiento, de manera tal que se envíen notificaciones cuando un contador de rendimiento supere un valor específico. La notificación de eventos identifica que el clúster está experimentando un problema de rendimiento. 
 ---
-= Creación de políticas de umbral de rendimiento definidas por el usuario
+= Crear políticas de umbral de rendimiento definidas por el usuario
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

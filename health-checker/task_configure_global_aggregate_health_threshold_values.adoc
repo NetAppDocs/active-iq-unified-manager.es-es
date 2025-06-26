@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, global, aggregate, health, threshold values 
 summary: Puede configurar valores de umbral de estado global para todos los agregados para realizar un seguimiento de cualquier incumplimiento de umbral. Se generan los eventos adecuados para incumplimiento de umbrales y puede tomar medidas preventivas basadas en estos eventos. Puede configurar los valores globales basándose en la configuración de prácticas recomendadas para los umbrales que se aplican a todos los agregados supervisados. 
 ---
-= Configuración de los valores de umbral de estado globales del agregado
+= Configurar valores de umbral de salud agregados globales
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

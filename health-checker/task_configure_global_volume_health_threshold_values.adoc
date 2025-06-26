@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, global, volume, health, threshold values 
 summary: Puede configurar los valores de umbral de estado global para todos los volúmenes para realizar un seguimiento de cualquier incumplimiento de umbral. Se generan eventos apropiados para las infracciones de los umbrales de salud y puede tomar medidas preventivas basadas en estos eventos. Puede configurar los valores globales a partir de la configuración de prácticas recomendadas para los umbrales que se aplican a todos los volúmenes supervisados. 
 ---
-= Configurar los valores de umbral de estado de volúmenes globales
+= Configurar valores de umbral de estado del volumen global
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

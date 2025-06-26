@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, snapshot copies 
 summary: Puede eliminar una copia Snapshot para conservar espacio o a liberar espacio en disco, o bien puede eliminar la copia Snapshot si ya no se necesita. 
 ---
-= Eliminar copias Snapshot
+= Elimine las copias Snapshot
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

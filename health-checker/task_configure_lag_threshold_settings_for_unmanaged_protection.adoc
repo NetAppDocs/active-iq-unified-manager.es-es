@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, lag, threshold settings, unmanaged, protection, relationships 
 summary: Puede editar la configuración global predeterminada de umbral de advertencia de desfase y de estado de error para relaciones de protección no administradas, de modo que los eventos se generen a intervalos apropiados para sus necesidades. 
 ---
-= Configuración de la configuración del umbral de desfase para relaciones de protección no administradas
+= Configurar los ajustes del umbral de retraso para las relaciones de protección no administradas
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

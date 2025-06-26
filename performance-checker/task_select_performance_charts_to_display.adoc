@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: select, performance, charts, display 
 summary: La lista desplegable Choose Chart permite seleccionar los tipos de gráficos de contadores de rendimiento para mostrar en el panel Counter Charts. Esto le permite ver datos y contadores específicos según sus requisitos de rendimiento. 
 ---
-= Selección de gráficos de rendimiento para mostrar
+= Seleccione gráficos de rendimiento para mostrar
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

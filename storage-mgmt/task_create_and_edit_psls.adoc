@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, edit, performance, service, Levels 
 summary: Cuando los niveles de servicio de rendimiento definidos por el sistema no coinciden con los requisitos de la carga de trabajo, puede crear sus propios niveles de servicio de rendimiento optimizados para sus cargas de trabajo. 
 ---
-= Creación y edición de niveles de servicio de rendimiento
+= Crear y editar niveles de servicio de rendimiento
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

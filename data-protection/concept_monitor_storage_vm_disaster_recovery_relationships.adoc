@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: disaster recovery, monitor, storage vm protection, relationships 
 summary: Active IQ Unified Manager admite la supervisión de las relaciones de recuperación ante desastres de máquinas virtuales de almacenamiento, lo que proporciona recuperación ante desastres a la granularidad de un nivel de equipo virtual de almacenamiento. La recuperación ante desastres del equipo virtual de almacenamiento permite la recuperación de los datos presentes en los volúmenes constituyentes del equipo virtual de almacenamiento y la recuperación de la configuración del equipo virtual de almacenamiento. 
 ---
-= Supervisar las relaciones de protección de recuperación ante desastres de las máquinas virtuales de almacenamiento
+= Supervisar las relaciones de protección de recuperación ante desastres de máquinas virtuales de almacenamiento
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

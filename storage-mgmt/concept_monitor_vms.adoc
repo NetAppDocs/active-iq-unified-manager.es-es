@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, virtual, machines, view, summary, topology, expand 
 summary: 'Para cualquier problema de latencia en las aplicaciones de máquinas virtuales (VM), es posible que deba supervisar las VM para analizar la causa y solucionar los problemas de ella. Las máquinas virtuales están disponibles cuando sus clústeres de vCenter Server y ONTAP que alojan el almacenamiento de máquinas virtuales se añaden a Unified Manager.' 
 ---
-= Supervisar máquinas virtuales
+= Monitorear máquinas virtuales
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -26,7 +26,7 @@ Puede determinar la ruta de I/o y las latencias de los componentes desde un aspe
 
 
 
-== Visualización de la topología de resumen
+== Ver topología resumida
 
 Para determinar los problemas de rendimiento, vea las máquinas virtuales en una topología de resumen:
 
@@ -53,7 +53,7 @@ Los servidores vCenter permiten caracteres especiales (como %, &, *, $, #, @, !,
 
 
 
-== Visualización de topología expandida
+== Ver topología expandida
 
 Es posible desglosar cada componente por separado para ver la topología expandida de la máquina virtual.
 

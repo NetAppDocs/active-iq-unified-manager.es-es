@@ -26,7 +26,7 @@ Algunos de los paneles que se enumeran a continuación aparecen en el panel de c
 
 == Panel de acciones de gestión
 
-Hay ciertos problemas que Unified Manager puede diagnosticar a fondo y proporcionar una única resolución. Si están disponibles, estas resoluciones se muestran en este panel con un botón *Fix it* o *Fix All*. Es posible solucionar estos problemas inmediatamente desde Unified Manager, en lugar de tener que utilizar ONTAP System Manager o la CLI de ONTAP. Para ver todos los problemas, haga clic en Ver link:concept_fix_ontap_issues_directly_from_unified_manager.html["Solución de problemas de ONTAP directamente desde Unified Manager"] si quiere más información.
+Hay ciertos problemas que Unified Manager puede diagnosticar a fondo y proporcionar una única resolución. Si están disponibles, estas resoluciones se muestran en este panel con un botón *Fix it* o *Fix All*. Es posible solucionar estos problemas inmediatamente desde Unified Manager, en lugar de tener que utilizar ONTAP System Manager o la CLI de ONTAP. Para ver todos los problemas, haga clic en Ver link:concept_fix_ontap_issues_directly_from_unified_manager.html["Solucione problemas de ONTAP directamente desde Unified Manager"] para obtener más información.
 
 
 
@@ -118,8 +118,8 @@ link:../events/reference_description_of_event_severity_types.html["Descripción 
 
 link:../performance-checker/concept_sources_of_performance_events.html["Fuentes de eventos de rendimiento"]
 
-link:../health-checker/concept_manage_cluster_security_objectives.html["Gestión de los objetivos de seguridad del clúster"]
+link:../health-checker/concept_manage_cluster_security_objectives.html["Administrar los objetivos de seguridad del clúster"]
 
-link:../performance-checker/concept_monitor_cluster_performance_from_cluster_landing_page.html["Supervisar el rendimiento del clúster en la página Performance Cluster Landing"]
+link:../performance-checker/concept_monitor_cluster_performance_from_cluster_landing_page.html["Supervise el rendimiento del clúster desde la página de inicio del clúster de rendimiento"]
 
-link:../performance-checker/concept_monitor_performance_using_object_performance.html["Supervisión del rendimiento mediante las páginas Performance Inventory"]
+link:../performance-checker/concept_monitor_performance_using_object_performance.html["Supervise el rendimiento mediante las páginas de Inventario de rendimiento"]

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, identity, provider, used, saml, authentication 
 summary: 'Es posible cambiar el proveedor de identidades (IDP) que Unified Manager utiliza para autenticar usuarios remotos.' 
 ---
-= Cambiar el proveedor de identidades utilizado para la autenticación SAML
+= Cambiar el proveedor de identidad utilizado para la autenticación SAML
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

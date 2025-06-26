@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapmirror, protection, relationship, health, volumes view 
 summary: 'Con la vista Estado: Todos los volúmenes, es posible crear varias relaciones de protección de SnapMirror a la vez. Para ello, se seleccionan más de un volumen en la misma máquina virtual de almacenamiento.' 
 ---
-= Crear una relación de protección de SnapMirror desde la vista Estado: Todos los volúmenes
+= Cree una relación de protección SnapMirror desde la vista Estado: Todos los volúmenes
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: specify, custom, time range 
 summary: La página Performance Explorer permite especificar el intervalo de fecha y hora para los datos de rendimiento. Especificar un rango de tiempo personalizado proporciona mayor flexibilidad que el uso de intervalos de tiempo predefinidos al afinar los datos de objetos del clúster. 
 ---
-= Especificación de un intervalo de tiempo personalizado
+= Especifique un rango de tiempo personalizado
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapvault, protection, relationship, health, volumes view 
 summary: 'Puede usar la vista Estado: Todos los volúmenes para crear relaciones de SnapVault para uno o más volúmenes en la misma máquina virtual de almacenamiento a fin de habilitar backups de datos para fines de protección.' 
 ---
-= Crear una relación de protección SnapVault desde la vista Estado: Todos los volúmenes
+= Cree una relación de protección de SnapVault desde la vista Estado: Todos los volúmenes
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, identify, volumes, full capacity, snapshot, autodelete, turned off 
 summary: Puede crear un informe que contenga la lista de volúmenes que se esté acercando a su capacidad completa con la función Snapshot Autodelete deshabilitada. Los resultados pueden ayudar a identificar volúmenes en los que se podría configurar la eliminación automática de instantánea. 
 ---
-= Creación de un informe para identificar volúmenes que están casi por completo y que tienen desactivada la eliminación automática de Snapshot
+= Cree un informe para identificar los volúmenes que se acercan a su capacidad máxima y que tienen la eliminación automática de instantáneas desactivada
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

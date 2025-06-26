@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: reorder, group actions 
 summary: Puede cambiar el orden de las acciones de grupo que se aplicarán a los objetos de almacenamiento de un grupo. Las acciones de grupo se aplican secuencialmente a objetos de almacenamiento en función de su rango. La clasificación más baja se asigna a la acción de grupo que configuró en último lugar. Puede cambiar el rango de la acción de grupo en función de sus necesidades. 
 ---
-= Reordenación de acciones de grupo
+= Reordenar acciones de grupo
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

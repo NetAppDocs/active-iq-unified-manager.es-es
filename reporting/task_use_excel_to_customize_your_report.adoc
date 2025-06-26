@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: excel, customize, report 
 summary: 'Una vez guardada la vista, puede descargarla en formato de libro de Excel (.xlsx). Al abrir el archivo de Excel, puede utilizar características avanzadas de Excel para personalizar el informe.' 
 ---
-= Uso de Excel para personalizar el informe
+= Utilice Excel para personalizar su informe
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

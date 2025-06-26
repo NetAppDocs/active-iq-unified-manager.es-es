@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: login banner, feature settings 
 summary: Esta función permite a la empresa mostrar cualquier información, como, por ejemplo, quién puede acceder al sistema y los términos y condiciones de uso durante el inicio de sesión y el cierre de sesión. 
 ---
-= Adición de un banner de inicio de sesión
+= Añadir banner de inicio de sesión
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

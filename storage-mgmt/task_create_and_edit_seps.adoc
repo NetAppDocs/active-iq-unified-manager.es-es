@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, edit, storage, efficiency, policies 
 summary: Cuando las políticas de eficiencia del almacenamiento definidas por el sistema no coinciden con los requisitos de carga de trabajo, puede crear sus propias políticas de eficiencia del almacenamiento optimizadas para sus cargas de trabajo. 
 ---
-= Crear y editar políticas de eficiencia del almacenamiento
+= Crear y editar políticas de eficiencia de almacenamiento
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

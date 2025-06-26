@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: use, maintenance, console 
 summary: Puede utilizar la consola de mantenimiento para configurar los ajustes de red, configurar y gestionar el sistema donde está instalado Unified Manager y realizar otras tareas de mantenimiento que le ayuden a evitar y solucionar los posibles problemas. 
 ---
-= Mediante la consola de mantenimiento
+= Utilice la consola de mantenimiento
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

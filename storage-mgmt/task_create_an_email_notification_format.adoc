@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, email, notification, format, user, group, quotas 
 summary: 'Puede crear un formato de notificación para los mensajes de correo electrónico que se envían a un usuario o a un grupo de usuarios cuando hay un problema relacionado con las cuotas (límite de software incumplido o límite rígido alcanzado).' 
 ---
-= Creación de un formato de notificación por correo electrónico para cuotas de usuarios y grupos de usuarios
+= Crear un formato de notificación por correo electrónico para cuotas de usuarios y grupos de usuarios
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

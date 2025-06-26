@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: inactivity timeout, feature settings 
 summary: Puede especificar el valor de tiempo de espera de inactividad para Active IQ Unified Manager. Tras una inactividad de la hora especificada, la aplicación se cierra automáticamente. Esta opción está habilitada de forma predeterminada. 
 ---
-= Especificación del tiempo de espera de inactividad
+= Especificar el tiempo de espera por inactividad
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

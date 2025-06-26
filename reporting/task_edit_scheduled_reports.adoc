@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: editing, schedule, reports 
 summary: Después de programar los informes, puede editarlos en la página programas de informes. 
 ---
-= Edición de informes programados
+= Editar informes programados
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, user, user, group, quotas 
 summary: La página de detalles Storage VM / Health muestra información sobre las cuotas de grupos de usuarios y usuarios que están configuradas en la SVM. Puede ver el nombre del usuario o grupo de usuarios, los límites establecidos en los discos y archivos, el espacio utilizado en disco y archivo y la dirección de correo electrónico para la notificación. 
 ---
-= Visualización de cuotas de usuarios y grupos de usuarios
+= Ver cuotas de usuarios y grupos de usuarios
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

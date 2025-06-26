@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: backup, types, manage, restore, operations 
 summary: 'Es posible crear backups de Active IQ Unified Manager y usar la función de restauración para restaurar el backup en el mismo sistema (local) o un nuevo sistema (remoto) en caso de un fallo del sistema o pérdida de datos.' 
 ---
-= Gestión de operaciones de backup y restauración
+= Administrar operaciones de copia de seguridad y restauración
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

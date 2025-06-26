@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, cluster, performance, dashboard 
 summary: La consola de Unified Manager proporciona algunos paneles que muestran el estado de rendimiento de alto nivel de todos los clústeres que supervisa esta instancia de Unified Manager. Le permite evaluar el rendimiento general de los clústeres gestionados y anotar, localizar o asignar rápidamente para solucionar cualquier evento específico identificado. 
 ---
-= Supervisar el rendimiento del clúster en la consola de
+= Supervisar el rendimiento del clúster desde el Panel de Control
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

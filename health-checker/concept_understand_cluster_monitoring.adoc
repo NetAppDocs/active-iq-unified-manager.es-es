@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, cluster, monitor 
 summary: Puede añadir clústeres a la base de datos de Unified Manager para supervisar los clústeres en busca de disponibilidad, capacidad y otros detalles, como el uso de CPU, las estadísticas de la interfaz, el espacio en disco libre, el uso de qtrees y el entorno del chasis. 
 ---
-= Supervisión del clúster
+= Comprender la monitorización de clústeres
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

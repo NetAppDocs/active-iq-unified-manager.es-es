@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: feature settings, active iq, portal, events 
 summary: Puede especificar si desea habilitar o deshabilitar los eventos del portal Active IQ. Este ajuste permite al portal de Active IQ detectar y mostrar eventos adicionales sobre la configuración del sistema, el cableado, etc. Esta opción está habilitada de forma predeterminada. 
 ---
-= Habilitar los eventos del portal de Active IQ
+= Habilitar eventos del portal Active IQ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: disable, specific, security events 
 summary: Todos los eventos están habilitados de forma predeterminada. Puede deshabilitar eventos específicos para evitar la generación de notificaciones para los eventos que no son importantes en el entorno. Puede habilitar eventos deshabilitados si desea reanudar la recepción de notificaciones. 
 ---
-= Desactivación de eventos de seguridad específicos
+= Deshabilitar eventos de seguridad específicos
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

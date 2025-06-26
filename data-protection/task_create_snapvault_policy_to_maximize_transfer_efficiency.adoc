@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapvault, policy,  maximize, transfer, efficiency 
 summary: Puede crear una nueva política de SnapVault para configurar la prioridad para una transferencia de SnapVault. Las políticas se usan para maximizar la eficiencia de las transferencias del almacenamiento primario al secundario en una relación de protección. 
 ---
-= Creación de una política de SnapVault para maximizar la eficiencia de transferencia
+= Cree una política de SnapVault para maximizar la eficiencia de la transferencia
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

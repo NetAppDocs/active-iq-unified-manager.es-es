@@ -26,7 +26,7 @@ Para obtener información detallada sobre los requisitos del sistema y sobre có
 
 
 
-== Instalando Active IQ Unified Manager
+== Instale Active IQ Unified Manager
 
 
 

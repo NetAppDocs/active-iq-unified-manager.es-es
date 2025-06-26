@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, capacity, used, breakdown, chart, failover, planning 
 summary: El gráfico detallado capacidad de rendimiento utilizada - desglose muestra la capacidad de rendimiento utilizada para el nodo principal y el nodo del partner. También muestra la cantidad de capacidad de rendimiento libre en el nodo de toma de control estimado. Esta información le ayuda a determinar si podría tener un problema de rendimiento si falla el nodo del partner. 
 ---
-= Usar el gráfico de desglose de capacidad de rendimiento utilizada para la planificación de conmutación por error
+= Utilice el gráfico de desglose de la capacidad de rendimiento utilizada para la planificación de la conmutación por error
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

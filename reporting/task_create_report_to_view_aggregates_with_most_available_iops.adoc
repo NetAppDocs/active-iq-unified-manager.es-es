@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, aggregates, available, IOPS 
 summary: Este informe muestra los agregados con la tasa de IOPS más disponible por tipo de agregado en los que se pueden aprovisionar nuevas cargas de trabajo. 
 ---
-= Crear un informe para ver los agregados con la tasa de IOPS más disponible
+= Cree un informe para ver los agregados que tienen la mayor cantidad de IOPS disponibles
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resynchronize, protection, relationships, volume, health details page 
 summary: Puede volver a sincronizar los datos de una relación de SnapMirror o SnapVault que se rompió y, a continuación, el destino se hizo de lectura/escritura para que los datos del origen coincidan con los del destino. También es posible resincronizar cuando se elimina una copia Snapshot común requerida en el volumen de origen, y esto provoca errores en las actualizaciones de SnapMirror o SnapVault. 
 ---
-= Resincronizando las relaciones de protección desde la página de detalles Volume / Health
+= Resincronizar las relaciones de protección desde la página de detalles de Volumen/Estado
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

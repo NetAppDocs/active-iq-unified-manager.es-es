@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, unified manager, recommendations, tier, data, cloud 
 summary: 'El rendimiento: Todos los volúmenes muestran información relacionada con el tamaño de los datos de usuario almacenados en el volumen que está inactivo (frío). En algunos casos, Unified Manager identifica ciertos volúmenes que se beneficiarían mediante la organización en niveles de los datos inactivos en el nivel de cloud (proveedor de cloud o StorageGRID) de un agregado habilitado para FabricPool.' 
 ---
-= Descripción de las recomendaciones de Unified Manager para organizar los datos en niveles en el cloud
+= Comprenda las recomendaciones de Unified Manager para organizar los datos en niveles en la nube
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, identify, volumes, FabricPool, aggregates, data, cloud tier 
 summary: 'Puede crear un informe que contenga la lista de volúmenes que residen actualmente en agregados de FabricPool, que tienen una recomendación de nivel cloud y que tienen una gran cantidad de datos inactivos. Este informe puede ayudarle a decidir si debe cambiar la política de organización en niveles de ciertos volúmenes a “auto” o “all” para descargar más datos inactivos (inactivos) al nivel de cloud.' 
 ---
-= Creación de un informe para identificar volúmenes en agregados de FabricPool que deben mover datos al nivel de cloud
+= Cree un informe para identificar los volúmenes en los agregados de FabricPool que deberían trasladar datos al nivel de nube
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

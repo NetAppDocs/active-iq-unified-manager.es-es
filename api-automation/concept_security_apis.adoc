@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, user 
 summary: Puede utilizar las API de la categoría de seguridad para controlar el acceso del usuario a los objetos del clúster seleccionados en Active IQ Unified Manager. Es posible añadir usuarios locales o usuarios de la base de datos. También puede agregar usuarios o grupos remotos que pertenecen a un servidor de autenticación. Según los privilegios de los roles que se asignan a los usuarios, pueden gestionar los objetos de almacenamiento o ver los datos en Unified Manager. 
 ---
-= Gestionar usuarios mediante API
+= Administrar usuarios mediante API
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

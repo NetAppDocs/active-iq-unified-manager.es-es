@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, show, aggregate, total, available, capacity, charts 
 summary: Puede crear un informe para analizar el total de almacenamiento y la capacidad comprometida en un formato de gráfico de Excel. 
 ---
-= Creación de un informe para mostrar los gráficos de capacidad total agregado frente a los disponibles
+= Cree un informe para mostrar gráficos de capacidad total agregada versus capacidad disponible
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

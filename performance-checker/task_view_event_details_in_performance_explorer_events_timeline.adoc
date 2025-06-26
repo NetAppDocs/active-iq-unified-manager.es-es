@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, event, details, timeline 
 summary: Puede ver todos los eventos y sus detalles relacionados en el panel línea de tiempo de eventos del Explorador de rendimiento. Se trata de un método rápido y eficiente para ver todos los eventos de estado y rendimiento que se produjeron en el objeto raíz durante un intervalo de tiempo especificado, lo que puede ser útil para solucionar problemas de rendimiento. 
 ---
-= Visualización de detalles de eventos en la línea de tiempo de eventos
+= Ver detalles del evento en la Cronología de eventos
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

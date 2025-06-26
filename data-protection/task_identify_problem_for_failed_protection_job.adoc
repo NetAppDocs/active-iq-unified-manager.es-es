@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: identify, problem, perform, corrective actions, failed, protection job 
 summary: Revisa el mensaje de error de error de trabajo en el campo CAUSE de la página de detalles Event y determina que el trabajo ha fallado debido a un error de copia de Snapshot. Luego continúa a la página de detalles Volume / Health para recopilar más información. 
 ---
-= Identificar el problema y realizar acciones correctivas para un trabajo de protección con errores
+= Identificar el problema y realizar acciones correctivas para un trabajo de protección fallido
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, configure, conditions, annotation rules 
 summary: Puede configurar una o más condiciones para crear reglas de anotación que Unified Manager aplica en los objetos de almacenamiento. Los objetos de almacenamiento que cumplen la regla de anotación se anotan con el valor especificado en la regla. 
 ---
-= Configuración de condiciones para reglas de anotación
+= Configurar condiciones para las reglas de anotación
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

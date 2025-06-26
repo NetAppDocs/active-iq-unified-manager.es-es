@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: move, workloads, different, aggregate 
 summary: Puede usar Unified Manager para ayudar a identificar un agregado con un menor nivel de actividad que el agregado en el que residen actualmente las cargas de trabajo y, a continuación, puede mover volúmenes o LUN seleccionados a ese agregado. Mover las cargas de trabajo de alto rendimiento a un agregado menos ocupado o a un agregado con almacenamiento flash habilitado permite que la carga de trabajo tenga un rendimiento más eficiente. 
 ---
-= Mover las cargas de trabajo a otro agregado
+= Mover cargas de trabajo a un agregado diferente
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

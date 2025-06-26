@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, volume, protection relationships 
 summary: 'En la vista Relationship: All Relationships y, en la página Volume Relationships, puede ver el estado de las relaciones de SnapMirror y SnapVault para volúmenes existentes. También puede examinar detalles sobre las relaciones de protección, como el estado de transferencia y desfase, los detalles de origen y destino, la información sobre la programación y las políticas, etc.' 
 ---
-= Visualización de las relaciones de protección de volúmenes
+= Ver relaciones de protección de volumen
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

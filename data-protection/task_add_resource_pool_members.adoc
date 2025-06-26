@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, resource, pool, members 
 summary: Un pool de recursos consta de un número de agregados miembros. Puede añadir agregados a pools de recursos existentes para aumentar la cantidad de espacio disponible para el aprovisionamiento de volúmenes secundarios. 
 ---
-= Agregar miembros del pool de recursos
+= Agregar miembros al grupo de recursos
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

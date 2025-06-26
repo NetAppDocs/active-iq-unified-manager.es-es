@@ -31,57 +31,57 @@ entries:
 - title: API de REST de Unified Manager
   url: "/api-automation/concept_um_apis_list_intro.html"
   entries:
-  - title: Gestionar objetos de almacenamiento en un centro de datos
+  - title: Administrar objetos de almacenamiento en un centro de datos
     url: "/api-automation/concept_data_center_apis.html"
-  - title: Acceso a API de ONTAP a través de acceso de proxy
+  - title: Acceda a las API de ONTAP a través del acceso proxy
     url: "/api-automation/concept_gateway_apis.html"
-  - title: Realizando tareas administrativas
+  - title: Realizar tareas administrativas
     url: "/api-automation/concept_administration_apis.html"
-  - title: Gestión de usuarios
+  - title: Gestionar usuarios
     url: "/api-automation/concept_security_apis.html"
-  - title: Ver las métricas de rendimiento
+  - title: Ver métricas de rendimiento
     url: "/api-automation/concept_metrics_apis.html"
   - title: Ver trabajos y detalles del sistema
     url: "/api-automation/concept_job_api.html"
-  - title: Gestión de eventos y alertas
+  - title: Gestionar eventos y alertas
     url: "/api-automation/concept_events_api.html"
   - title: Gestionar cargas de trabajo
     url: "/api-automation/concept_manage_storage_workloads.html"
     entries:
     - title: Ver cargas de trabajo de almacenamiento
       url: "/api-automation/concept_view_workloads.html"
-    - title: Gestión de extremos de acceso
+    - title: Administrar puntos finales de acceso
       url: "/api-automation/concept_manage_access_endpoint.html"
-    - title: Administración de la asignación de Active Directory
+    - title: Administrar la asignación de Active Directory
       url: "/api-automation/concept_manage_active_directory.html"
     - title: Administrar recursos compartidos de archivos
       url: "/api-automation/concept_manage_fileshares_api.html"
     - title: Gestionar las LUN
       url: "/api-automation/concept_manage_lun.html"
-    - title: Gestión de niveles de servicio de rendimiento
+    - title: Gestionar los niveles de servicio de rendimiento
       url: "/api-automation/concept_manage_psl.html"
-    - title: Gestión de políticas de eficiencia del almacenamiento
+    - title: Administrar políticas de eficiencia de almacenamiento
       url: "/api-automation/concept_manage_sep.html"
 - title: Flujos de trabajo comunes para la gestión del almacenamiento
   url: "/api-automation/concept_workflow_intro.html"
   entries:
-  - title: Determinar problemas de espacio en los agregados
+  - title: Determinar problemas de espacio en agregados
     url: "/api-automation/concept_workflow_space_issue.html"
   - title: Determinar problemas en objetos de almacenamiento mediante eventos
     url: "/api-automation/concept_events_workflows.html"
-  - title: Solución de problemas de volúmenes de ONTAP mediante API de puerta de enlace
+  - title: Solucionar problemas de volúmenes ONTAP mediante API de puerta de enlace
     url: "/api-automation/concept_ontap_troubleshooting_workflow.html"
   - title: Flujos de trabajo para la gestión de cargas de trabajo
     url: "/api-automation/concept_provision_workflow.html"
     entries:
-    - title: Verificación de las SVM en clústeres
+    - title: Verificar SVM en clústeres
       url: "/api-automation/concept_verify_svm_workflow.html"
     - title: Aprovisionamiento de recursos compartidos de archivos CIFS y NFS
       url: "/api-automation/concept_provision_file_share.html"
     - title: Aprovisionar las LUN
       url: "/api-automation/concept_provision_luns.html"
-    - title: Modificación de cargas de trabajo de almacenamiento
+    - title: Modificar las cargas de trabajo de almacenamiento
       url: "/api-automation/concept_modify_workloads_workflow.html"
       entries:
-      - title: Modificar un recurso compartido de archivos NFS para admitir CIFS
+      - title: Modificar un recurso compartido de archivos NFS para que admita CIFS
         url: "/api-automation/task_modify_fileshare_to_include_cifs_and_nfs.html"

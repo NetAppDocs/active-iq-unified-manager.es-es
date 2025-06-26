@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, volumes, inaccessible, mount, path 
 summary: Es posible crear un informe para encontrar volúmenes con una ruta de montaje inaccesible. 
 ---
-= Creación de un informe para ver los volúmenes con una ruta de montaje inaccesible
+= Cree un informe para ver los volúmenes que tienen una ruta de montaje inaccesible
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

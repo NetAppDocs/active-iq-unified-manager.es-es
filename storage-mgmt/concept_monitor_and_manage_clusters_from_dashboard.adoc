@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, manage, clusters, dashboard 
 summary: La consola ofrece información acumulativa de un vistazo sobre el estado actual de los sistemas de ONTAP supervisados. El panel proporciona “paneles” que le permiten evaluar la capacidad general, el rendimiento y el estado de seguridad de los clústeres que está supervisando. 
 ---
-= Supervisar y gestionar clústeres desde la consola
+= Supervisar y administrar clústeres desde el panel de control
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

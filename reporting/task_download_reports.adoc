@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: download, reports 
 summary: 'Puede descargar informes y guardar los datos en una unidad local o de red como un archivo de valores separados por comas (CSV), un archivo de Microsoft Excel (.XLSX) o un archivo PDF. Puede abrir archivos CSV y XLSX con aplicaciones de hoja de cálculo, como Microsoft Excel, y archivos PDF con lectores como Adobe Acrobat.' 
 ---
-= Descargando informes
+= Descargar informes
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

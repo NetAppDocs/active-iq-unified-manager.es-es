@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, storage, objects, data center 
 summary: Las API DE REST en la categoría de centro de datos le permiten gestionar los objetos de almacenamiento en el centro de datos, como clústeres, nodos, agregados, máquinas virtuales de almacenamiento, Volúmenes, LUN, recursos compartidos de archivos y espacios de nombres. Estas API están disponibles para consultar la configuración de los objetos, mientras que algunas de ellas permiten realizar las operaciones de adición, eliminación o modificación de estos objetos. 
 ---
-= Gestionar objetos de almacenamiento en un centro de datos mediante API
+= Administrar objetos de almacenamiento en un centro de datos mediante API
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

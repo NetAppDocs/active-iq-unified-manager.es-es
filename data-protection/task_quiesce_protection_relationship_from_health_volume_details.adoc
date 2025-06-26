@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: quiesce, protection, relationship, volume, health details page 
 summary: Es posible poner en modo inactivo una relación de protección para evitar temporalmente las transferencias de datos. Puede desactivar una relación cuando desea crear una copia Snapshot de un volumen de destino de SnapMirror que contiene una base de datos, y desea garantizar que su contenido sea estable durante la copia Snapshot. 
 ---
-= Desactivación de una relación de protección desde la página de detalles volumen / Salud
+= Desactivar una relación de protección desde la página de detalles de Volumen/Salud
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

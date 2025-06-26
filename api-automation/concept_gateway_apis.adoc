@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: access, ONTAP, APIs, proxy, access 
 summary: Las API de puerta de enlace le ofrecen la ventaja de usar las credenciales de Active IQ Unified Manager para ejecutar API DE REST de ONTAP y gestionar objetos de almacenamiento. Estas API están disponibles cuando se habilita la función API Gateway en la interfaz de usuario web de Unified Manager. 
 ---
-= Acceso a API de ONTAP a través de acceso de proxy
+= Acceda a las API de ONTAP a través del acceso proxy
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -70,7 +70,7 @@ La `OPTIONS` método determina si un recurso está disponible. Esta operación s
 |===
 
 
-== Descripción del túnel de puerta de enlace API
+== Comprender la tunelización de API Gateway
 
 Las API de puerta de enlace le permiten gestionar objetos ONTAP mediante Unified Manager. Unified Manager gestiona los clústeres y los detalles de autenticación, y redirige las solicitudes al extremo DE REST de ONTAP. La API de la puerta de enlace transforma la URL e Hypermedia como el Motor de Estado de aplicación (HATEOAS) enlaces en el encabezado y el cuerpo de respuesta con la URL base de la puerta de enlace API. La API de puerta de enlace actúa como la URL base del proxy a la cual se anexa la URL DE REST de ONTAP y se ejecuta el extremo de REST de ONTAP requerido.
 
@@ -102,7 +102,7 @@ La API muestra la lista de volúmenes de almacenamiento que contiene ese clúste
 
 
 
-== Configuración del alcance de la API
+== Establecer el alcance de la API
 
 Todas las API tienen un contexto dentro del ámbito del clúster. Las API que operan sobre la base de máquinas virtuales de almacenamiento también tienen el clúster como el alcance, es decir, las operaciones de API se realizan en una máquina virtual de almacenamiento particular dentro de un clúster gestionado. Cuando ejecute el `/gateways/\{uuid}/\{path}` API, asegúrese de introducir el UUID de clúster (UUID de origen de datos de Unified Manager) para el clúster en el que se ejecuta la operación. Para establecer el contexto de una máquina virtual de almacenamiento determinada dentro de ese clúster, introduzca la clave de la máquina virtual de almacenamiento como el parámetro X-Dot-SVM-UUID o el nombre de la máquina virtual de almacenamiento como el parámetro X-Dot-SVM-Name. El parámetro se añade como filtro del encabezado de cadena y la operación se ejecuta dentro del ámbito de ese equipo virtual de almacenamiento dentro de ese clúster.
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cluster, security, manage, objectives 
 summary: 'Unified Manager proporciona una consola que identifica la seguridad de los clústeres de ONTAP, las máquinas virtuales de almacenamiento (SVM) y los volúmenes en función de las recomendaciones definidas en la Guía de fortalecimiento de seguridad de NetApp para ONTAP 9.' 
 ---
-= Gestión de los objetivos de seguridad del clúster
+= Administrar los objetivos de seguridad del clúster
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

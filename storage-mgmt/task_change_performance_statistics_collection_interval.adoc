@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, performance, statistics, collection, interval 
 summary: El intervalo de recogida predeterminado para las estadísticas de rendimiento es de 5 minutos. Puede cambiar este intervalo a 10 o 15 minutos si descubre que las colecciones de clústeres grandes no están finalizando dentro del tiempo predeterminado. Esta configuración afecta la recogida de estadísticas de todos los clústeres que está supervisando esta instancia de Unified Manager. 
 ---
-= Cambiar el intervalo de recogida de estadísticas de rendimiento
+= Cambiar el intervalo de recopilación de estadísticas de rendimiento
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

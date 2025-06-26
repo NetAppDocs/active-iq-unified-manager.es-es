@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, performance, capacity, counter charts, identify, issues 
 summary: En la página Performance Explorer, se pueden ver los gráficos de capacidad de rendimiento utilizados para nodos y agregados. Esto permite ver datos detallados de capacidad de rendimiento de los nodos y los agregados seleccionados para un periodo específico. 
 ---
-= Ver los gráficos de contadores de capacidad de rendimiento para identificar los problemas
+= Vea los gráficos del contador de capacidad de rendimiento para identificar problemas
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remove, performance, threshold, policies, storage, objects 
 summary: Es posible quitar una política de umbral de rendimiento definida por el usuario de un objeto de almacenamiento cuando ya no se desea que Unified Manager supervise el valor del contador de rendimiento. 
 ---
-= Eliminación de políticas de umbral de rendimiento de objetos de almacenamiento
+= Eliminar políticas de umbral de rendimiento de los objetos de almacenamiento
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

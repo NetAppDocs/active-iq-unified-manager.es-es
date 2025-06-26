@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: install, unified manager, linux systems 
 summary: Es importante comprender que la secuencia de pasos para descargar e instalar Unified Manager varía en función de su situación de instalación. 
 ---
-= Instalación de Unified Manager en sistemas Linux
+= Instale Unified Manager en sistemas Linux
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

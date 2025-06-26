@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, list, Snapshot copies 
 summary: Puede ver la lista de copias Snapshot de un volumen seleccionado. Puede usar la lista de copias Snapshot para calcular la cantidad de espacio en disco que puede recuperarse si se eliminan una o más copias Snapshot y puede eliminar las copias Snapshot si fuera necesario. 
 ---
-= Ver la lista de copias Snapshot
+= Ver la lista de copias de instantáneas
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

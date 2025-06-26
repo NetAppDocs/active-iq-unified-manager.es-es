@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remove, protection, relationship,  volume, health details page 
 summary: 'Puede quitar una relación de protección para eliminar de forma permanente una relación existente entre el origen y el destino seleccionados: Por ejemplo, cuando desea crear una relación con otro destino. Esta operación elimina todos los metadatos y no puede deshacerse.' 
 ---
-= Eliminación de una relación de protección de la página de detalles Volume / Health
+= Eliminar una relación de protección de la página de detalles de Volumen/Salud
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

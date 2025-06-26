@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: netapp, snapshot copy, copies windows, configure, windows host machine 
 summary: Es necesario configurar el equipo host de Windows antes de poder usar Snapshot de NetApp para realizar backup y restaurar Active IQ Unified Manager. Para iniciar el iniciador iSCSI de Microsoft en un equipo host de Windows, escriba “iscsi” en la barra de búsqueda y haga clic en Iniciador iSCSI. 
 ---
-= Configuración de máquina host de Windows
+= Configurar el equipo host de Windows
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

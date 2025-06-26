@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: generate, upload, support bundle 
 summary: Es posible generar un bundle de soporte, que contiene información de diagnóstico, de modo que se pueda enviar al soporte técnico para la ayuda de solución de problemas. También puede cargar el paquete de soporte en NetApp desde la consola de mantenimiento. 
 ---
-= Generar y cargar un bundle de soporte
+= Generar y cargar un paquete de soporte
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, node, aggregate, performance, capacity, used, values 
 summary: Puede supervisar los valores de capacidad de rendimiento usada para todos los nodos o todos los agregados de un clúster, o bien puede ver detalles de un solo nodo o de un agregado. 
 ---
-= Ver los valores de capacidad de rendimiento de los nodos y los agregados
+= Ver nodo y valores de capacidad de rendimiento agregados utilizados
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -17,7 +17,7 @@ Los valores de capacidad utilizada de rendimiento se muestran en las páginas Da
 
 image::../media/node_inventory_used_headroom.gif[Una captura de pantalla de interfaz de usuario de la página Performance: All Aggregates]
 
-La supervisión de la capacidad de rendimiento utilizada contador permite identificar los siguientes aspectos:
+Monitorear el contador de capacidad de rendimiento utilizada le permite identificar lo siguiente:
 
 * Si algún nodo o agregado de algún clúster tiene un valor de capacidad de alto rendimiento utilizado
 * Si algún nodo o agregado de algún clúster tiene eventos de capacidad de rendimiento activos

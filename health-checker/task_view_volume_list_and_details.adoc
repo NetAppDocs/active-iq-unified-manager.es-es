@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, volume list, details 
 summary: 'En la vista Health: Todos los volúmenes, es posible supervisar el inventario de volúmenes. La capacidad: Todos los volúmenes de la vista le permite ver información sobre la capacidad y la utilización de los volúmenes de un clúster.' 
 ---
-= Ver la lista de volúmenes y los detalles
+= Ver la lista de volúmenes y detalles
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

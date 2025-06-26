@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fix, issues, use, unified manager, automatic, remediations 
 summary: Hay ciertos eventos que Unified Manager puede diagnosticar a fondo y proporcionar una sola resolución mediante el botón Fix it. Cuando están disponibles, estas resoluciones se muestran en el Panel , en la página Detalles de eventos y en la selección Análisis de carga de trabajo del menú de navegación izquierdo. 
 ---
-= Solución de problemas mediante la solución automática de Unified Manager
+= Solucione problemas mediante la remediación automática de Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

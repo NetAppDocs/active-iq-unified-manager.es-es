@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, more, quotas 
 summary: Comprender los conceptos de cuotas le ayuda a gestionar de forma eficiente las cuotas de usuario y las cuotas de grupos de usuarios. 
 ---
-= Más información acerca de las cuotas
+= Conozca más sobre las cuotas
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

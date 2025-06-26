@@ -21,7 +21,7 @@ Puede usar Active IQ Unified Manager (Unified Manager) para comprobar el estado 
 
 
 
-== Determinar el estado del clúster en la configuración de MetroCluster over FC
+== Determinar el estado del clúster en MetroCluster mediante la configuración de FC
 
 Siga estos pasos para determinar el estado del clúster en una configuración de MetroCluster over FC.
 
@@ -59,7 +59,7 @@ En este ejemplo, si el icono NVRAM del clúster local o del partner es amarillo 
 
 
 
-== Determinación del estado del clúster en la configuración de MetroCluster over IP
+== Determinar el estado del clúster en MetroCluster mediante la configuración de IP
 
 Siga estos pasos para determinar el estado del clúster en una configuración de MetroCluster over IP.
 

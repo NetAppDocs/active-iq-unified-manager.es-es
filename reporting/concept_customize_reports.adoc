@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: customize, reports 
 summary: Existen muchas maneras de personalizar las vistas para que se pueda crear un informe que contenga toda la información necesaria para gestionar los clústeres de ONTAP. 
 ---
-= Personalización de informes
+= Personalizar informes
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: troubleshoot, ontap, volumes, gateway, api 
 summary: Las API de puerta de enlace actúan como puerta de enlace para invocar las API ONTAP para consultar información sobre los objetos de almacenamiento ONTAP y tomar medidas correctivas para abordar los problemas notificados. 
 ---
-= Solución de problemas de volúmenes de ONTAP mediante API de puerta de enlace
+= Solucionar problemas de volúmenes ONTAP mediante API de puerta de enlace
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, event, notification, settings 
 summary: Es posible configurar Unified Manager para que envíe notificaciones de alerta cuando se genera un evento o cuando se asigna un evento a un usuario. Es posible configurar el servidor SMTP que se utiliza para enviar la alerta y se pueden configurar varios mecanismos de notificación; por ejemplo, las notificaciones de alerta se pueden enviar como correos electrónicos o capturas SNMP. 
 ---
-= Configuración de los ajustes de notificación de eventos
+= Configure los ajustes de notificación de eventos
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

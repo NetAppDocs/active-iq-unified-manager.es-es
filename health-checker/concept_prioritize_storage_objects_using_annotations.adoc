@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: prioritize, storage, object, events, annotations 
 summary: Puede crear y aplicar reglas de anotación a los objetos de almacenamiento para poder identificar y filtrar esos objetos en función del tipo de anotación aplicada y su prioridad. 
 ---
-= Priorizando eventos de objetos de almacenamiento mediante anotaciones
+= Priorizar eventos de objetos de almacenamiento mediante anotaciones
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords:  
 summary: Las programaciones de informes se pueden gestionar desde la página Report Schedules. Es posible ver, modificar o eliminar programaciones existentes. 
 ---
-= Gestión de programas de informes
+= Administrar programaciones de informes
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

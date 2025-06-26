@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: customize, aggregate, capacity, reports 
 summary: Estos informes personalizados de muestra se utilizan para ayudarle a identificar y responder a problemas potenciales relacionados con la capacidad de almacenamiento agregada. 
 ---
-= Personalizar los informes de capacidad de agregados
+= Personalizar informes de capacidad agregada
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

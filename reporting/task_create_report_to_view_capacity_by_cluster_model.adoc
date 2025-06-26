@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, capacity, cluster, model 
 summary: Puede crear un informe para analizar la capacidad de almacenamiento y la utilización de los clústeres según el modelo del sistema de almacenamiento. 
 ---
-= Creación de un informe para ver la capacidad por modelo de clúster
+= Cree un informe para ver la capacidad por modelo de clúster
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

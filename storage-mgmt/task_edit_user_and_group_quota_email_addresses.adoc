@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, user, group, quota, email, addresses 
 summary: 'Las direcciones de correo electrónico se pueden modificar según la cuota de usuario asociada con los clústeres, las máquinas virtuales de almacenamiento (SVM), los volúmenes, los qtrees, los usuarios o los grupos de usuarios. Puede modificar la dirección de correo electrónico cuando desee reemplazar la dirección de correo electrónico generada por las reglas especificadas en el cuadro de diálogo Reglas para generar Dirección de correo electrónico de usuario y cuota de grupo.' 
 ---
-= Edición de direcciones de correo electrónico de cuotas de usuarios y grupos
+= Editar direcciones de correo electrónico de cuotas de usuarios y grupos
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

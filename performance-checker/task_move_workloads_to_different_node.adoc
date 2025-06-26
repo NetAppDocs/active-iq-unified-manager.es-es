@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: move, workloads, different, node 
 summary: Puede usar Unified Manager para ayudar a identificar un agregado en un nodo diferente que esté menos ocupado que el nodo en el que se están ejecutando las cargas de trabajo en ese momento y, a continuación, puede mover los volúmenes seleccionados a ese agregado. Mover cargas de trabajo de alto rendimiento a un agregado en un nodo menos ocupado permite que las cargas de trabajo de ambos nodos tengan un rendimiento más eficiente. 
 ---
-= Mover las cargas de trabajo a un nodo diferente
+= Mover cargas de trabajo a un nodo diferente
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

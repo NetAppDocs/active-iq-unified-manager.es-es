@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: log in, ui, unified manager 
 summary: Puede iniciar sesión en la interfaz de usuario de Unified Manager mediante un explorador web compatible. 
 ---
-= Iniciar sesión en la interfaz de usuario de
+= Iniciar sesión en la interfaz de usuario
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

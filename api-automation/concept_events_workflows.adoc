@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: determine, issues, storage, objects, events 
 summary: Cuando un objeto de almacenamiento de su centro de datos cruza un umbral, se obtiene una notificación de ese evento. Con esta notificación, puede analizar el problema y tomar medidas correctivas mediante las API de eventos. 
 ---
-= Determinar problemas en objetos de almacenamiento mediante las API de eventos
+= Determinar problemas en objetos de almacenamiento mediante API de eventos
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

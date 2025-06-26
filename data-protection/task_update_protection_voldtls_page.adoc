@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: initialize, update, protection, relationships, volume, health details page 
 summary: Puede realizar una primera transferencia de referencia en una nueva relación de protección o actualizar una relación si ya está inicializada y desea realizar una actualización incremental manual no programada para transferir datos de inmediato. 
 ---
-= Inicializar o actualizar las relaciones de protección en la página de detalles Volume / Health
+= Inicializar o actualizar las relaciones de protección desde la página de detalles de Volumen/Estado
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

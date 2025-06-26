@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: specify, time range, correlated objects 
 summary: El selector de intervalo de tiempo de la página Performance Explorer permite especificar el intervalo de tiempo para la comparación de datos de objetos. Si se especifica un intervalo de tiempo, se refina el contenido de las páginas Performance Explorer para mostrar solo los datos del objeto dentro del intervalo de tiempo especificado. 
 ---
-= Especificación de un intervalo de tiempo para objetos correlacionados
+= Especifique un rango de tiempo para los objetos correlacionados
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

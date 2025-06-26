@@ -15,7 +15,7 @@ Puede asignar políticas de eficiencia del almacenamiento (ASP) y niveles de ser
 
 
 
-== Asignación de políticas a una sola carga de trabajo
+== Asignar políticas a una única carga de trabajo
 
 Es posible asignar un PSL, UN SEP o ambos, a una sola carga de trabajo. Siga estos pasos:
 
@@ -35,7 +35,7 @@ También puede seleccionar una carga de trabajo y hacer clic en *más acciones* 
 ====
 
 
-== Asignar políticas a varias cargas de trabajo de almacenamiento
+== Asignar políticas a múltiples cargas de trabajo de almacenamiento
 
 Es posible asignar un PSL o UN SEP a varias cargas de trabajo de almacenamiento juntas. Siga estos pasos:
 
@@ -53,7 +53,7 @@ La aplicación de políticas en cargas de trabajo de forma masiva puede tardar a
 
 
 
-== Asignación de PSU recomendados por el sistema a cargas de trabajo
+== Asignar PSL recomendados por el sistema a las cargas de trabajo
 
 Puede asignar LSP recomendadas por el sistema a estas cargas de trabajo de almacenamiento en un centro de datos que no tiene LSP asignadas o los LSP asignados no coinciden con las recomendaciones del sistema. Para utilizar esta funcionalidad, haga clic en el botón *asignar archivos PSL* recomendados por el sistema. No es necesario seleccionar cargas de trabajo específicas.
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, destination, schedule, database dump, backups, snapshot copy, copies 
 summary: Es posible configurar los ajustes de backup de volcado de la base de datos de Unified Manager para configurar la ruta de backup, el número de retención y la programación de backups. Se pueden habilitar backups programados diarios o semanales. De forma predeterminada, las copias de seguridad programadas están deshabilitadas, pero debe configurar una programación de copia de seguridad. 
 ---
-= Configurar el destino y la programación para backups de volcado de base de datos
+= Configurar el destino y programar las copias de seguridad del volcado de base de datos
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

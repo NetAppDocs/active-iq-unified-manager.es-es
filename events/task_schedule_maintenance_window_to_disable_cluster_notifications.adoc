@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: schedule, maintenance, window, disable, cluster, event, notifications 
 summary: Si tiene un tiempo de inactividad planificado para un clúster, por ejemplo, para actualizar el clúster o mover uno de los nodos, puede eliminar los eventos y alertas que normalmente se generan durante ese periodo de tiempo mediante la programación de una ventana de mantenimiento de Unified Manager. 
 ---
-= Programar una ventana de mantenimiento para deshabilitar las notificaciones de eventos del clúster
+= Programe una ventana de mantenimiento para deshabilitar las notificaciones de eventos del clúster
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: scheduling, reports 
 summary: Una vez que tenga la vista que desea reutilizar y compartir como un informe, puede programarla mediante Active IQ Unified Manager. Puede gestionar informes programados, cambiando los destinatarios y la frecuencia de distribución de cada programación de informes. 
 ---
-= Programación de informes
+= Programar informes
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, event, retention, settings 
 summary: Es posible especificar el número de meses que se conserva un evento en el servidor de Unified Manager antes de eliminarlo automáticamente. 
 ---
-= Configuración de los ajustes de retención de eventos
+= Configurar los ajustes de retención de eventos
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

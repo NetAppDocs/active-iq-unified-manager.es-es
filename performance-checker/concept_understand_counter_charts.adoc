@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, counter, charts 
 summary: Los gráficos del panel gráficos de contador permiten ver y comparar los datos de rendimiento del objeto raíz y de los objetos agregados a partir de la cuadrícula de objetos correlacionados. Esto puede ayudarle a comprender las tendencias de rendimiento y aislar y resolver problemas de rendimiento. 
 ---
-= Gráficos de contadores
+= Comprender los gráficos de contador
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

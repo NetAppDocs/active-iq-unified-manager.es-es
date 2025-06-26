@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: provision, file, share, volumes 
 summary: 'Es posible crear volúmenes de recursos compartidos de archivos compatibles con los protocolos CIFS/SMB y NFS en un clúster existente y Storage Virtual Machine (VM de almacenamiento) desde la página de carga de trabajo de aprovisionamiento.' 
 ---
-= Aprovisionar los volúmenes compartidos de archivos
+= Aprovisionar volúmenes de recursos compartidos de archivos
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

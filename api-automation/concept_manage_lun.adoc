@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, lun 
 summary: Puede usar la API /Storage-provider/lun para ver, agregar, modificar y eliminar las LUN en su entorno de centro de datos. 
 ---
-= Gestionar las LUN mediante API
+= Administrar LUN mediante API
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: analyze, events, dynamic, performance, thresholds 
 summary: 'Los eventos generados a partir de los umbrales dinámicos indican que el tiempo de respuesta real (latencia) de una carga de trabajo es demasiado alto o demasiado bajo, en comparación con el intervalo de tiempo de respuesta esperado. La página de detalles Event se utiliza para analizar el evento de rendimiento y realizar las acciones correctivas necesarias para devolver el rendimiento a la normalidad.' 
 ---
-= Analizar eventos de umbrales dinámicos de rendimiento
+= Analizar eventos desde umbrales de rendimiento dinámicos
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

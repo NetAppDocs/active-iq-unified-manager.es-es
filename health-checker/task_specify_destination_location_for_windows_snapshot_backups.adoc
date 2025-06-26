@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: specify, destination location, windows, snapshot copy, copies 
 summary: Debe configurar la ubicación de destino para las copias Snapshot de Active IQ Unified Manager en un volumen que ya se haya configurado en uno de los clústeres de ONTAP. Debe utilizar la consola de mantenimiento para definir la ubicación. 
 ---
-= Especificar la ubicación de destino para las copias de Snapshot en Windows
+= Especifique la ubicación de destino para las copias de instantáneas en Windows
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

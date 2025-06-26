@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, workload, qos, minimum, maximum, settings, performance, explorer 
 summary: 'Puede ver la configuración de la política de calidad de servicio (QoS) definida por ONTAP en un volumen o LUN en los gráficos Performance Explorer. Un ajuste máximo del rendimiento limita el impacto de las cargas de trabajo concurrentes en los recursos del sistema. Un ajuste mínimo de rendimiento garantiza que una carga de trabajo crítica cumpla los objetivos de rendimiento mínimos, sin importar la demanda de otras cargas de trabajo en competencia.' 
 ---
-= Ver la configuración mínima y máxima de calidad de servicio de la carga de trabajo en el Explorador de rendimiento
+= Ver la configuración mínima y máxima de QoS de la carga de trabajo en el Explorador de rendimiento
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, ports, unified manager, uses, http, https, protocols 
 summary: Los puertos predeterminados que Unified Manager utiliza para los protocolos HTTP y HTTPS se pueden cambiar después de la instalación si es necesario para la seguridad. Los puertos predeterminados son 80 para HTTP y 443 para HTTPS. 
 ---
-= Cambiar los puertos Unified Manager utiliza para los protocolos HTTP y HTTPS
+= Cambiar los puertos que Unified Manager utiliza para los protocolos HTTP y HTTPS
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

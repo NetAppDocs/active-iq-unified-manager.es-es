@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: smb, cifs, view, shares, details 
 summary: 'Puede ver detalles sobre todos los recursos compartidos SMB/CIFS, como el nombre del recurso compartido, la ruta de unión, que contiene objetos, la configuración de seguridad y las políticas de exportación definidas para el recurso compartido. Use la vista Health: Todos los recursos compartidos de SMB para ver todos los recursos compartidos de SMB en todos los clústeres supervisados y use la página de detalles Storage VM / Health para ver todos los recursos compartidos de SMB en una máquina virtual de almacenamiento (SVM) específica.' 
 ---
-= Ver detalles sobre los recursos compartidos de SMB/CIFS
+= Ver detalles sobre las acciones SMB/CIFS
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

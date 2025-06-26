@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, cluster list, details 
 summary: 'La vista Health: All Clusters se puede usar para ver el inventario de clústeres. La vista Capacity: All Clusters permite ver información resumida sobre la capacidad de almacenamiento y la utilización en todos los clústeres.' 
 ---
-= Ver la lista del clúster y sus detalles
+= Ver la lista de clústeres y los detalles
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: restore, linux system, mysql, database, backup 
 summary: Si se produce la pérdida de datos o daños en los datos, es posible restaurar Unified Manager al estado estable anterior con la pérdida mínima de datos. Puede restaurar la base de datos de Unified Manager en un sistema Red Hat Enterprise Linux local o remoto mediante la consola de mantenimiento de Unified Manager. 
 ---
-= Restaurar un backup de base de datos de MySQL en un sistema Linux
+= Restaurar una copia de seguridad de una base de datos MySQL en un sistema Linux
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

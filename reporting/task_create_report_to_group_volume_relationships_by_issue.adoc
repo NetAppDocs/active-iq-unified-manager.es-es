@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, group, volume, relationships, issue 
 summary: Es posible crear un informe que agrupa las relaciones de volumen por problema. 
 ---
-= Creación de un informe para agrupar relaciones de volumen por problema
+= Crear un informe para agrupar las relaciones de volumen por problema
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

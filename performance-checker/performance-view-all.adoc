@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance view 
 summary: vista de rendimiento de todos los objetos de almacenamiento 
 ---
-= Ver las páginas de inventario de rendimiento para todos los objetos de almacenamiento
+= Ver páginas de inventario de rendimiento para todos los objetos de almacenamiento
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

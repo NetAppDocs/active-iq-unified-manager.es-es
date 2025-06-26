@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, storage, workloads 
 summary: 'Las API que se enumeran aquí le permiten ver una lista consolidada de cargas de trabajo de almacenamiento para todos los clústeres ONTAP en su centro de datos. Las API también proporcionan una vista de resumen del número de cargas de trabajo de almacenamiento aprovisionadas en el entorno de Active IQ Unified Manager, y sus estadísticas de capacidad y rendimiento (IOPS).' 
 ---
-= Ver cargas de trabajo de almacenamiento mediante API
+= Visualizar cargas de trabajo de almacenamiento mediante API
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

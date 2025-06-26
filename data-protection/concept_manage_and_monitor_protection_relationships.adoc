@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, monitor, protection, relationships 
 summary: Active IQ Unified Manager permite crear relaciones de protección, supervisar y solucionar problemas de relaciones de SnapMirror y SnapVault en clústeres gestionados, y restaurar datos cuando se sobrescriben o se pierden. 
 ---
-= Gestión y supervisión de relaciones de protección
+= Gestionar y supervisar las relaciones de protección
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

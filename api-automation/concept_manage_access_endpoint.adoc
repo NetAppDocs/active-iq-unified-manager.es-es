@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, endpoints, access 
 summary: 'Necesita crear extremos de acceso o interfaces lógicas (LIF), que se necesitan para aprovisionar las máquinas virtuales de almacenamiento (SVM), las LUN y los recursos compartidos de archivos. Puede ver, crear, modificar y eliminar los extremos de acceso de las SVM, las LUN o los recursos compartidos de archivos en el entorno de Active IQ Unified Manager.' 
 ---
-= Gestión de extremos de acceso mediante API
+= Administrar puntos finales de acceso mediante API
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resume, schedule, transfers, quiesce, relationship, volume relationships page 
 summary: Después de poner en modo inactivo una relación para detener las transferencias programadas, es posible usar Reanudar para volver a habilitar las transferencias programadas de modo que se protejan los datos en el volumen de origen o primario. Las transferencias se reanudan desde un punto de comprobación, si existe alguno, en el siguiente intervalo de transferencia programada. 
 ---
-= Reanude las transferencias programadas en una relación de modo inactivo en la página Relaciones de volumen
+= Reanudar transferencias programadas en una relación inactiva desde la página Relaciones de volumen
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: threshold, policy, node, failover, planning page 
 summary: Puede crear una política de umbral de nodo para que se le notifique en la página Performance/Node Failover Planning cuando una posible recuperación tras fallos degradara el rendimiento del nodo de respaldo a un nivel inaceptable. 
 ---
-= Uso de una directiva de umbral con la página Planificación de conmutación por error de nodos
+= Utilice una política de umbral con la página Planificación de conmutación por error de nodo
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

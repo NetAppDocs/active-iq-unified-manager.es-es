@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: provision, luns 
 summary: 'Puede crear LUN que sean compatibles con los protocolos CIFS/SMB y NFS en un clúster existente y Storage Virtual Machine (Storage VM) desde la página de carga de trabajo de aprovisionamiento.' 
 ---
-= Aprovisionar las LUN
+= LUN de provisión
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

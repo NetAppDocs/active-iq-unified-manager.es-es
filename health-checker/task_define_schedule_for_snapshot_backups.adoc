@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: define, backup, schedule, linux, windows, snapshot copy, copies 
 summary: Puede configurar la programación en la que se crean las copias de Snapshot de Unified Manager mediante la interfaz de usuario de Unified Manager. 
 ---
-= Definición de una programación de backup para Linux y Windows
+= Definir un programa de copias de seguridad para Linux y Windows
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

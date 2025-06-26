@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: display, volumes, cold, data, non-fabricpool, aggregate, identify 
 summary: Puede crear un informe para mostrar volúmenes con una gran cantidad de datos fríos en un agregado que no pertenece a FabricPool. Esto puede ayudarle a identificar los volúmenes que se deben mover a un agregado de FabricPool. 
 ---
-= Crear un informe para ver volúmenes con una gran cantidad de datos fríos en un agregado que no está habilitado para FabricPool
+= Cree un informe para ver volúmenes con una gran cantidad de datos fríos en un agregado que no esté habilitado para FabricPool
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

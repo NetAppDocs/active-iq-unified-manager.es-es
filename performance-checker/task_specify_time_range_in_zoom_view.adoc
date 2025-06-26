@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: specify, time range, zoom view 
 summary: El control de intervalo de tiempo de la ventana de vista de zoom de Counter Charts le permite especificar un intervalo de fecha y hora para el gráfico seleccionado. Esto le permite localizar rápidamente datos específicos según un intervalo de tiempo preestablecido o bien su propio intervalo de tiempo personalizado. 
 ---
-= Especificación del intervalo de tiempo en la vista Zoom
+= Especifique el rango de tiempo en la Vista de Zoom
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

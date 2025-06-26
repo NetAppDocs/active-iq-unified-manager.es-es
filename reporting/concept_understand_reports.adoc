@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understanding, reports 
 summary: Los informes muestran información detallada sobre el almacenamiento, la red, la calidad del servicio y las relaciones de protección, lo que ayuda a identificar y solucionar los problemas potenciales antes de que se produzcan. 
 ---
-= Informes
+= Comprender los informes
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

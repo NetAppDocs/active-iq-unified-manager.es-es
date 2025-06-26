@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, storage, efficiency, policies, guidelines, create, custom 
 summary: 'UNA Política de eficiencia del almacenamiento (SEP) permite definir las características de eficiencia del almacenamiento de una carga de trabajo. Se puede asignar UNA SEP a una carga de trabajo al crear inicialmente la carga de trabajo, o después editar la carga de trabajo.' 
 ---
-= Gestión de políticas de eficiencia del almacenamiento
+= Administrar políticas de eficiencia de almacenamiento
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

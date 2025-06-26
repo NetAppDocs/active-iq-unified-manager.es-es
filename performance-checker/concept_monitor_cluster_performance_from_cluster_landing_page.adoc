@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, cluster, performance, performance, cluster, landing, page 
 summary: La página Performance Cluster Landing muestra el estado de alto nivel de rendimiento de un clúster seleccionado que está supervisando por una instancia de Unified Manager. Esta página le permite evaluar el rendimiento general de un clúster específico y anotar, localizar o asignar con rapidez para solucionar cualquier evento específico del clúster identificado. 
 ---
-= Supervisar el rendimiento del clúster en la página Performance Cluster Landing
+= Supervise el rendimiento del clúster desde la página de inicio del clúster de rendimiento
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

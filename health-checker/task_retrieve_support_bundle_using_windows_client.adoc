@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: retrieve, support bundle, windows client 
 summary: Si es un usuario de Windows, puede descargar e instalar una herramienta para recuperar el paquete de soporte desde el servidor de Unified Manager. Es posible enviar el bundle de soporte al soporte técnico para un diagnóstico más detallado de un problema. FileZilla o WinSCP son ejemplos de herramientas que puede utilizar. 
 ---
-= La recuperación del paquete de soporte con un cliente Windows
+= Recupere el paquete de soporte mediante un cliente de Windows
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

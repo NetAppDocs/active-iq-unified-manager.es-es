@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: scan, resolve, storage, failover, interconnect link, conditions 
 summary: Este flujo de trabajo proporciona un ejemplo de cómo puede analizar, evaluar y resolver las condiciones de los enlaces de interconexión de conmutación por error del almacenamiento desactivado. En esta situación, es un administrador que utiliza Unified Manager para analizar los riesgos de la conmutación por error del almacenamiento antes de iniciar una actualización de la versión de ONTAP en los nodos. 
 ---
-= Buscar y solucionar las condiciones de enlace inactivo de interconexión de conmutación por error de almacenamiento
+= Analizar y resolver condiciones de inactividad del enlace de interconexión de conmutación por error de almacenamiento
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

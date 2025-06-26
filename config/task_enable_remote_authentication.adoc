@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: enable, remote, authentication 
 summary: Puede habilitar la autenticación remota para que el servidor de Unified Manager pueda comunicarse con los servidores de autenticación. Los usuarios del servidor de autenticación pueden acceder a la interfaz gráfica de Unified Manager para gestionar los objetos de almacenamiento y los datos. 
 ---
-= Habilitación de la autenticación remota
+= Habilite la autenticación remota
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

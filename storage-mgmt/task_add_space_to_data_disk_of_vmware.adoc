@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add space, data, disk, vmware, virtual, machine 
 summary: Si necesita aumentar la cantidad de espacio en el disco de datos de la base de datos de Unified Manager, puede añadir capacidad después de la instalación aumentando el espacio en disco mediante la consola de mantenimiento de Unified Manager. 
 ---
-= Adición de espacio al disco de datos de la máquina virtual de VMware
+= Agregar espacio al disco de datos de la máquina virtual VMware
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

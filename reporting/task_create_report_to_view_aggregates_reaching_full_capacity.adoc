@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, aggregates, reaching, full capacity 
 summary: Puede crear un informe para encontrar los agregados que están alcanzando toda su capacidad, de tal modo que pueda añadir más capacidad o mover cargas de trabajo a otros agregados. 
 ---
-= Creación de un informe para ver los agregados que alcanzan la capacidad completa
+= Cree un informe para ver los agregados que alcanzan su capacidad máxima
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

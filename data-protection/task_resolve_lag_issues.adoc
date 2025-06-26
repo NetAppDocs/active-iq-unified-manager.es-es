@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resolve, lag, issues 
 summary: Este flujo de trabajo proporciona un ejemplo de cómo puede resolver un problema de desfase. En esta situación, usted es administrador o operador que accede a la página de la consola de Unified Manager para ver si existen problemas con las relaciones de protección y, si existen, para encontrar soluciones. 
 ---
-= Resolución de problemas de desfase
+= Resolver problemas de retraso
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

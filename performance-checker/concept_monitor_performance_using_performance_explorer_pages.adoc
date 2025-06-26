@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitoring, performance, explorer, pages 
 summary: Las páginas Performance Explorer muestran información detallada sobre el rendimiento de cada objeto de un clúster. La página proporciona una vista detallada del rendimiento de todos los objetos del clúster, lo que permite seleccionar y comparar los datos de rendimiento de objetos específicos durante varios periodos de tiempo. 
 ---
-= Supervisión del rendimiento mediante las páginas Performance Explorer
+= Supervisar el rendimiento mediante las páginas del Explorador de rendimiento
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

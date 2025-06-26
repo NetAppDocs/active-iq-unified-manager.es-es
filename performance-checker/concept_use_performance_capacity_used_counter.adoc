@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, capacity, counter, manage, performance 
 summary: Por lo general, las organizaciones quieren operar con una capacidad de rendimiento utilizada por debajo de 100 para que los recursos se utilicen de forma eficiente al tiempo que se reserva cierta capacidad de rendimiento adicional para acomodar las demandas de periodo pico. Se pueden utilizar políticas de umbral para personalizar la fecha de envío de alertas de valores de capacidad utilizada de alto rendimiento. 
 ---
-= Uso del contador de capacidad de rendimiento utilizada para gestionar el rendimiento
+= Utilice el contador de capacidad de rendimiento utilizada para gestionar el rendimiento
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

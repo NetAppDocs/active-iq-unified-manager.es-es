@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: analyze, events, system-defined, performance, thresholds 
 summary: Los eventos generados a partir de umbrales de rendimiento definidos por el sistema indican que un contador de rendimiento, o un conjunto de contadores de rendimiento, para un determinado objeto de almacenamiento ha superado el umbral de una política definida por el sistema. Esto indica que el objeto de almacenamiento, por ejemplo, un agregado o nodo, está experimentando un problema de rendimiento. 
 ---
-= Analizar eventos de umbrales de rendimiento definidos por el sistema
+= Analizar eventos a partir de umbrales de rendimiento definidos por el sistema
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

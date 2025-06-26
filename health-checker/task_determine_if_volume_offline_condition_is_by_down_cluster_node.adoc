@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: determine, volume, offline, host, node 
 summary: Puede utilizar la interfaz de usuario web de Unified Manager para confirmar o eliminar la posibilidad de que un volumen esté sin conexión debido a que su nodo de host está inactivo y que la conmutación por error del almacenamiento a su partner de pareja de alta disponibilidad no se puede realizar correctamente. 
 ---
-= Determinar si un volumen está sin conexión debido a que su nodo de host está inactivo
+= Determinar si un volumen está fuera de línea porque su nodo host está inactivo
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

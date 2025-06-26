@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, performance, service, level 
 summary: Puede ver, crear, modificar y eliminar niveles de servicio de rendimiento usando las API del proveedor de almacenamiento para su Active IQ Unified Manager. 
 ---
-= Gestión de niveles de servicio de rendimiento mediante API
+= Gestionar los niveles de servicio de rendimiento mediante API
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -93,7 +93,7 @@ PARCHE
 |===
 
 
-== Ver las capacidades de agregado en función de los niveles de servicio de rendimiento
+== Ver capacidades agregadas según los niveles de servicio de rendimiento
 
 Puede utilizar el siguiente método para consultar las funcionalidades de agregado en función de los niveles de servicio de rendimiento. Esta API muestra la lista de agregados disponibles en el centro de datos e indica las funcionalidades en cuanto a los niveles de servicio de rendimiento que pueden admitir estos agregados. Al aprovisionar cargas de trabajo en un volumen, puede ver la funcionalidad de un agregado para admitir un nivel de servicio de rendimiento en particular y aprovisionar cargas de trabajo en función de esa funcionalidad. Su capacidad para especificar el agregado solo está disponible cuando se aprovisiona una carga de trabajo mediante API. Esta funcionalidad no está disponible en la interfaz de usuario web de Unified Manager.
 

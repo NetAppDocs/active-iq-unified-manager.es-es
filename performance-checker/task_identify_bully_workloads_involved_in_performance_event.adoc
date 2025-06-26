@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: identify, bully workloads, dynamic, performance, event 
 summary: 'En Unified Manager, es posible identificar qué cargas de trabajo tienen la mayor desviación en uso para un componente de clúster en disputa. Al identificar estas cargas de trabajo, entiende por qué algunos volúmenes del clúster tienen tiempos de respuesta lentos (latencia).' 
 ---
-= Identificar las cargas de trabajo abusivas involucradas en un evento de rendimiento dinámico
+= Identificar las cargas de trabajo de acoso involucradas en un evento de desempeño dinámico
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

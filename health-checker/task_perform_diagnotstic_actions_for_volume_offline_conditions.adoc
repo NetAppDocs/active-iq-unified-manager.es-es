@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: perform, diagnostic actions, volume, offline, conditions 
 summary: Después de navegar a la página de detalles Volume/Health de un volumen al que se informa que está sin conexión, puede buscar información adicional útil para diagnosticar la condición de volumen sin conexión. 
 ---
-= Realización de acciones de diagnóstico para condiciones de sin conexión de un volumen
+= Realizar acciones de diagnóstico para condiciones de volumen fuera de línea
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

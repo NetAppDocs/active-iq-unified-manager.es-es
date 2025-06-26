@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, failed, successful, volume, transfer 
 summary: Es posible crear un informe que muestre el estado de las transferencias de volúmenes. En este informe se pueden ver tanto las transferencias de volúmenes con errores como las correctas. 
 ---
-= Creación de un informe para ver una transferencia de volumen con errores o correctamente
+= Crear un informe para ver una transferencia de volumen fallida o exitosa
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

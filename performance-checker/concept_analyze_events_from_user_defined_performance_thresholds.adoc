@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: analyze, events, user-defined, performance, thresholds 
 summary: Los eventos generados a partir de umbrales definidos por el usuario indican que un contador de rendimiento de un determinado objeto de almacenamiento, por ejemplo, un agregado o un volumen, ha superado el umbral definido en la política. Esto indica que el objeto del clúster está experimentando un problema de rendimiento. 
 ---
-= Análisis de eventos de umbrales de rendimiento definidos por el usuario
+= Analizar eventos a partir de umbrales de rendimiento definidos por el usuario
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

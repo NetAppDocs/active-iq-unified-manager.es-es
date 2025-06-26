@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: perform, protection, relationship, failover, failback 
 summary: Cuando se deshabilita un volumen de origen en la relación de protección debido a un error de hardware o un desastre, se pueden usar las funciones de relaciones de protección en Unified Manager para que el destino de la protección sea accesible de lectura/escritura y se pueda conmutar por error a ese volumen hasta que el origen vuelva a estar en línea; a continuación, puede volver a la fuente original cuando esté disponible para servir datos. 
 ---
-= Recuperación tras fallos y recuperación de una relación de protección
+= Realizar una conmutación por error y una recuperación de la relación de protección
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

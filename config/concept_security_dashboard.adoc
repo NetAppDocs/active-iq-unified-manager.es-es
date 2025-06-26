@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: security compliance settings, security feature settings, ONTAP hardening guide, AutoSupport settings, authentication settings 
 summary: Puede habilitar o deshabilitar los parámetros de seguridad para supervisar el cumplimiento de normativas en Unified Manager. 
 ---
-= Activación y desactivación de la configuración de seguridad para cumplir las normativas
+= Habilitar y deshabilitar configuraciones de seguridad para el cumplimiento
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -24,7 +24,7 @@ Los criterios de seguridad para los clústeres de ONTAP, las máquinas virtuales
 
 
 
-== Personalización de los ajustes de seguridad
+== Personalizar la configuración de seguridad
 
 Para personalizar la configuración para fines de supervisión de cumplimiento según corresponda a su entorno de ONTAP, siga estos pasos:
 
@@ -42,7 +42,7 @@ Los parámetros de cumplimiento de normativas de seguridad que se habilitan o de
 
 
 
-== Personalización de los ajustes de AutoSupport y autenticación
+== Personalizar la configuración de AutoSupport y autenticación
 
 En la sección *Configuración de AutoSupport*, puede especificar si se va a utilizar el transporte HTTPS para enviar mensajes AutoSupport desde ONTAP.
 

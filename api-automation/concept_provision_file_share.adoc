@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: provision, cifs, nfs, file, shares 
 summary: 'Puede aprovisionar recursos compartidos de CIFS y recursos compartidos de archivos NFS en las máquinas virtuales de almacenamiento (SVM) mediante las API de aprovisionamiento proporcionadas como parte de Active IQ Unified Manager. Este flujo de trabajo de aprovisionamiento detalla los pasos para recuperar las claves de las SVM, los niveles de servicio de rendimiento y las políticas de eficiencia del almacenamiento antes de crear los recursos compartidos de archivos.' 
 ---
-= Aprovisionamiento de recursos compartidos de archivos CIFS y NFS mediante API
+= Aprovisionar recursos compartidos de archivos CIFS y NFS mediante API
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

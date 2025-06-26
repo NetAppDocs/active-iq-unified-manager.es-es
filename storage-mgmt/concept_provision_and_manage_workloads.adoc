@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: provision, manage, workloads 
 summary: La función de gestión activa de Active IQ Unified Manager proporciona niveles de servicio de rendimiento, políticas de eficiencia del almacenamiento y API de proveedores de almacenamiento para aprovisionar, supervisar y gestionar cargas de trabajo de almacenamiento en un centro de datos. 
 ---
-= Aprovisionamiento y gestión de cargas de trabajo
+= Aprovisionar y gestionar cargas de trabajo
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

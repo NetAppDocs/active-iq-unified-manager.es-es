@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: enable, remote, logging, audit, logs 
 summary: Puede seleccionar la casilla de verificación Habilitar registro remoto en el cuadro de diálogo Configurar registros de auditoría para habilitar el registro de auditoría remoto. Es posible usar esta función para transferir registros de auditoría a un servidor de syslog remoto. Esto le permitirá gestionar los registros de auditoría cuando haya restricciones de espacio. 
 ---
-= Habilitación de registro remoto de registros de auditoría
+= Habilitar el registro remoto de registros de auditoría
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

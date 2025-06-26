@@ -2,7 +2,7 @@
 section: events
 title: Gestionar eventos y alertas
 entries:
-- title: Gestión de eventos
+- title: Gestionar eventos
   url: "/events/concept_manage_events.html"
   entries:
   - title: "¿Qué son los eventos de la plataforma Active IQ"
@@ -18,7 +18,7 @@ entries:
     url: "/events/concept_what_happens_when_an_event_is_received.html"
   - title: Ver eventos y detalles de eventos
     url: "/events/task_view_event_details.html"
-  - title: Visualización de eventos sin asignar
+  - title: Ver eventos no asignados
     url: "/events/task_view_unassigned_events.html"
   - title: Reconocer y resolver eventos
     url: "/events/task_acknowledge_and_resolve_events.html"
@@ -26,32 +26,31 @@ entries:
     url: "/events/task_assign_events_to_specific_users.html"
   - title: Deshabilitar eventos no deseados
     url: "/events/task_disable_unwanted_events.html"
-  - title: Solución de problemas mediante soluciones automáticas de Unified Manager
+  - title: Solucione problemas mediante las remediaciones automáticas de Unified Manager
     url: "/events/task_fix_issues_using_um_automatic_remediations.html"
-  - title: Habilitar y deshabilitar la generación de informes de eventos de Active
-      IQ
+  - title: Habilitar y deshabilitar los informes de eventos de Active IQ
     url: "/events/task_enable_and_disable_active_iq_event_reporting.html"
-  - title: Carga de un nuevo archivo de reglas de Active IQ
+  - title: Subir un nuevo archivo de reglas de Active IQ
     url: "/events/task_upload_new_active_iq_rules_file.html"
   - title: Cómo se generan los eventos de la plataforma Active IQ
     url: "/events/concept_how_active_iq_platform_events_are_generated.html"
   - title: Resolver eventos de la plataforma Active IQ
     url: "/events/concept_resolve_active_iq_platform_events.html"
-  - title: Configuración de los ajustes de retención de eventos
+  - title: Configurar los ajustes de retención de eventos
     url: "/events/task_configure_event_retention_settings.html"
   - title: Qué es una ventana de mantenimiento de Unified Manager
     url: "/events/concept_what_um_maintenance_window_is.html"
     entries:
-    - title: Programar una ventana de mantenimiento para deshabilitar las notificaciones
+    - title: Programe una ventana de mantenimiento para deshabilitar las notificaciones
         de eventos del clúster
       url: "/events/task_schedule_maintenance_window_to_disable_cluster_notifications.html"
-    - title: Cambiar o cancelar una ventana de mantenimiento programado
+    - title: Cambiar o cancelar una ventana de mantenimiento programada
       url: "/events/task_change_or_cancel_scheduled_maintenance_window.html"
-    - title: Ver los eventos que se produjeron durante una ventana de mantenimiento
+    - title: Ver eventos que ocurrieron durante una ventana de mantenimiento
       url: "/events/task_view_events_that_occurred_during_maintenance_window.html"
-  - title: Gestionar eventos de recursos del sistema host
+  - title: Administrar eventos de recursos del sistema host
     url: "/events/task_manage_host_system_resource_events.html"
-  - title: Más información acerca de los eventos
+  - title: Entender más sobre los eventos
     url: "/events/concept_understand_more_about_events.html"
     entries:
     - title: Definiciones de estado de eventos
@@ -155,28 +154,28 @@ entries:
       url: "/events/reference_event_setup_page.html"
     - title: Cuadro de diálogo Disable Events
       url: "/events/reference_disable_events_dialog_box.html"
-- title: Gestión de alertas
+- title: Gestionar alertas
   url: "/events/concept_manage_alerts.html"
   entries:
   - title: "¿Qué alertas son"
     url: "/events/concept_what_alerts_are.html"
   - title: Qué información se incluye en un correo electrónico de alerta
     url: "/events/concept_what_information_is_contained_in_an_alert_email.html"
-  - title: Adición de alertas
+  - title: Añadir alertas
     url: "/events/task_add_alerts.html"
     entries:
     - title: Directrices para añadir alertas
       url: "/events/concept_guidelines_for_adding_alerts.html"
-  - title: Adición de alertas para eventos de rendimiento
+  - title: Agregar alertas para eventos de rendimiento
     url: "/events/task_add_alerts_for_performance_events.html"
   - title: Probar alertas
     url: "/events/task_test_alerts.html"
-  - title: Habilitar y deshabilitar alertas para eventos resueltos y obsoletos
+  - title: Habilitar y deshabilitar alertas para eventos Resueltos y Obsoletos
     url: "/events/task_disable_alerts_for_resolved_and_obsolete_events.html"
-  - title: No se incluye el hecho de que los volúmenes de destino de recuperación
-      ante desastres generen alertas
+  - title: Excluir volúmenes de destino de recuperación ante desastres de la generación
+      de alertas
     url: "/events/task_exclude_disaster_recovery_destination_volumes_from_alerts.html"
-  - title: Visualizar alertas
+  - title: Ver las alertas
     url: "/events/task_view_alerts.html"
   - title: Editar alertas
     url: "/events/task_edit_alerts.html"
@@ -196,11 +195,11 @@ entries:
   entries:
   - title: Cómo funcionan los scripts con alertas
     url: "/events/concept_how_scripts_work_with_alerts.html"
-  - title: Añadiendo scripts
+  - title: Agregar scripts
     url: "/events/task_add_scripts.html"
   - title: Eliminar scripts
     url: "/events/task_delete_scripts.html"
-  - title: Prueba de la ejecución de scripts
+  - title: Ejecución del script de prueba
     url: "/events/task_test_script_execution.html"
   - title: Comandos de CLI de Unified Manager compatibles
     url: "/events/reference_supported_unified_manager_cli_commands.html"

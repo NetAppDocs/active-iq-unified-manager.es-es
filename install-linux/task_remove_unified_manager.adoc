@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remove, unified manager 
 summary: Puede detener y desinstalar Unified Manager desde el host de Red Hat Enterprise Linux con un único comando. 
 ---
-= Se quita Unified Manager
+= Eliminar Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

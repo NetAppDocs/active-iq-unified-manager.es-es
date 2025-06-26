@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, jobs 
 summary: Puede utilizar la página Jobs para supervisar el estado del trabajo y ver propiedades del trabajo, como el tipo de servicio de almacenamiento, el estado, la hora de envío y la hora de finalización, a fin de determinar si un trabajo se ha completado correctamente o no. 
 ---
-= Supervisar trabajos de
+= Supervisar trabajos
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

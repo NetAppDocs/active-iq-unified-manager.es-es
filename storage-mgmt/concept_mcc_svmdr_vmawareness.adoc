@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, virtual, infrastructure, disaster, recovery, setup, datastores, metrocluster configuration 
 summary: 'Es posible ver las métricas de configuración y rendimiento de los almacenes de datos alojados en una configuración de MetroCluster o la configuración de la máquina virtual de almacenamiento (VM de almacenamiento) para la recuperación ante desastres (SVM DR).' 
 ---
-= Visualización de la infraestructura virtual en una configuración de recuperación ante desastres
+= Ver la infraestructura virtual en una configuración de recuperación ante desastres
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

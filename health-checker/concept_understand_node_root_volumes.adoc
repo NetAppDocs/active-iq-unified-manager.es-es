@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, node, root, volumes 
 summary: Puede supervisar el volumen raíz del nodo mediante Unified Manager. La práctica recomendada es que el volumen raíz del nodo debe tener capacidad suficiente para evitar que el nodo se apague. 
 ---
-= Volúmenes raíz de nodos
+= Comprender los volúmenes raíz del nodo
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

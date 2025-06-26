@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: assign, performance, threshold, policies, storage, objects 
 summary: Se asigna una política de umbral de rendimiento definida por el usuario a un objeto de almacenamiento de modo que Unified Manager informe un evento si el valor del contador de rendimiento supera el valor de la política. 
 ---
-= Asignación de políticas de umbral de rendimiento a objetos de almacenamiento
+= Asignar políticas de umbral de rendimiento a objetos de almacenamiento
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

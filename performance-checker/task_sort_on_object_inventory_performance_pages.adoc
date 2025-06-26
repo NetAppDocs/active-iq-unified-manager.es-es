@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: sort, object, inventory, performance, pages 
 summary: Puede ordenar todos los datos de las páginas rendimiento de inventario de objetos por cualquier columna en orden ascendente o descendente. Esto permite localizar rápidamente datos de inventario de objetos, lo cual resulta útil para examinar el rendimiento o iniciar un proceso de resolución de problemas. 
 ---
-= Ordenar en las páginas rendimiento de inventario de objetos
+= Ordenar en las páginas de Rendimiento del inventario de objetos
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

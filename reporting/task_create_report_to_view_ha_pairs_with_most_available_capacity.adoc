@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, HA pairs, available, capacity 
 summary: Puede crear un informe para encontrar los pares de alta disponibilidad con la mayor capacidad para aprovisionar nuevos volúmenes y LUN. 
 ---
-= Crear un informe para ver los pares de alta disponibilidad con la capacidad más disponible
+= Cree un informe para ver los pares de alta disponibilidad con mayor capacidad disponible
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: volume, provision, disk, volume, thin-provisioning 
 summary: Cuando no hay thin provisioning, un volumen ocupa toda la cantidad de espacio en el disco, tal y como se define cuando se creó el volumen. La identificación de volúmenes con thin provisioning deshabilitado ayuda a decidir si se desea habilitar el aprovisionamiento ligero en ciertos volúmenes. 
 ---
-= Creación de un informe para identificar el espacio utilizado por los volúmenes con thin provisioning deshabilitado
+= Cree un informe para identificar el espacio utilizado por los volúmenes con el aprovisionamiento fino deshabilitado
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

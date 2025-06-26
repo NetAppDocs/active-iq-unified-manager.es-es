@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: set up, required, software, repositories 
 summary: El sistema debe tener acceso a ciertos repositorios para que el programa de instalación pueda acceder e instalar todas las dependencias de software necesarias. 
 ---
-= Configurar repositorios de software necesarios
+= Configurar los repositorios de software necesarios
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

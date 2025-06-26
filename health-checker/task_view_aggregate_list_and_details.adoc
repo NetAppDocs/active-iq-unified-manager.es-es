@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, aggregate list, details 
 summary: 'En la vista Health: All Aggregates, puede supervisar su inventario de agregados. La vista capacidad: Todos los agregados le permite ver información sobre la capacidad y la utilización de los agregados en todos los clústeres.' 
 ---
-= Consulte la lista de agregados y los detalles
+= Ver la lista agregada y los detalles
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

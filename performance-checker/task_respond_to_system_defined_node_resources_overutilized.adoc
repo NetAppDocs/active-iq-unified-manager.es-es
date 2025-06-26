@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: node, resources, overutilized, performance, events 
 summary: Unified Manager genera eventos de advertencia sobreutilizados de los recursos de nodos cuando un único nodo está funcionando por encima de los límites de su eficiencia operativa y, por lo tanto, afecta potencialmente a las latencias de las cargas de trabajo. Estos eventos definidos por el sistema proporcionan la oportunidad para corregir posibles problemas de rendimiento antes de que muchas cargas de trabajo se vean afectadas por la latencia. 
 ---
-= Respuesta a eventos de rendimiento sobreutilizados de recursos de nodos
+= Responder a eventos de rendimiento sobreutilizados de recursos de nodo
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

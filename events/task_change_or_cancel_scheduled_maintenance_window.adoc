@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, cancel, scheduled, maintenance, window 
 summary: Si configuró una ventana de mantenimiento de Unified Manager para que se produzca en el futuro, puede cambiar las horas de inicio y de finalización o cancelar la ventana de mantenimiento. 
 ---
-= Cambiar o cancelar una ventana de mantenimiento programado
+= Cambiar o cancelar una ventana de mantenimiento programada
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

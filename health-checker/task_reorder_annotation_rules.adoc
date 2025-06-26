@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: reorder, annotation rules 
 summary: Es posible cambiar el orden en que Unified Manager aplica reglas de anotación a los objetos de almacenamiento. Las reglas de anotación se aplican secuencialmente a los objetos de almacenamiento en función de su rango. Al configurar una regla de anotación, la clasificación es mínima. Pero puede cambiar la clasificación de la regla de anotación en función de sus requisitos. 
 ---
-= Reordenación de las reglas de anotación
+= Reordenar las reglas de anotación
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, active, events, notification, bell 
 summary: El timbre de notificación de la barra de menús proporciona un modo rápido de ver los eventos activos más importantes de los que está realizando un seguimiento Unified Manager. 
 ---
-= Ver eventos activos desde el timbre de notificación
+= Ver eventos activos desde la campana de notificaciones
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

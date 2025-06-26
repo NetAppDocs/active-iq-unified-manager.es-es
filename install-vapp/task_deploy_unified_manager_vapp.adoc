@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: deploy, unified manager 
 summary: La puesta en marcha de Unified Manager incluye la descarga de software, la puesta en marcha de dispositivos virtuales, la creación de un nombre de usuario y una contraseña de mantenimiento, y la realización de la configuración inicial en la interfaz de usuario web. 
 ---
-= Ponga en marcha Unified Manager
+= Implementar Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

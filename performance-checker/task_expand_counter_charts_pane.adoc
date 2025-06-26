@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: expand, counter, charts, pane 
 summary: Puede expandir el panel de gráficos de contador para que los gráficos sean más grandes y más legibles. 
 ---
-= Ampliación del panel Contador de gráficos
+= Expandir el panel Gráficos de contadores
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

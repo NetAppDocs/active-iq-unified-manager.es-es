@@ -17,7 +17,7 @@ Los flujos de trabajo describen algunos de los casos de uso de gestión del alma
 
 
 
-== Llamadas API que se usan en los flujos de trabajo
+== Comprender las llamadas API utilizadas en los flujos de trabajo
 
 Es posible ver la página de documentación en línea desde la instancia de Unified Manager que incluye los detalles de cada llamada de API DE REST. Este documento no repite los detalles de la documentación en línea. Cada llamada API utilizada en los ejemplos de flujo de trabajo de este documento incluye solo la información necesaria para localizar la llamada en la página de documentación. Después de localizar una llamada API específica, puede revisar los detalles completos de la llamada, incluidos los parámetros de entrada, formatos de salida, códigos de estado HTTP y tipo de procesamiento de solicitudes.
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: upgrade, unified manager 
 summary: Puede actualizar a Unified Manager en VMware vSphere 
 ---
-= Actualizar Unified Manager
+= Actualice Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

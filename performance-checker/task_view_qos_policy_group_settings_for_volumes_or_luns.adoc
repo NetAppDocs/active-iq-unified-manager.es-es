@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, qos, policy, group, settings, applied, specific, volumes, luns 
 summary: Puede ver los grupos de políticas de calidad de servicio que se aplican a sus volúmenes y LUN y puede vincular a la vista Performance/QoS Policy Groups para mostrar las opciones de configuración detalladas para cada política de calidad de servicio. 
 ---
-= Ver la configuración del grupo de políticas de calidad de servicio aplicable a volúmenes o LUN específicos
+= Ver la configuración del grupo de políticas de QoS aplicada a volúmenes o LUN específicos
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

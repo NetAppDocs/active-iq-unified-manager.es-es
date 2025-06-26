@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: display, information, performance, events 
 summary: La página del inventario Event Management se puede usar para ver una lista de todos los eventos de rendimiento en los clústeres que se supervisan Unified Manager. Al ver esta información, puede determinar los eventos más críticos y, a continuación, profundizar en información detallada para determinar la causa del evento. 
 ---
-= Mostrar información acerca de los eventos de rendimiento
+= Mostrar información sobre eventos de rendimiento
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
