@@ -134,17 +134,6 @@ WebSocket sobre TCP
  a| 
 Se utiliza para escuchar en este puerto los mensajes recibidos de ONTAP (agente en la nube). La comunicación a través de este puerto admite el cifrado proporcionado por TLS o SSL.
 
-
-
- a| 
-Agente QPID AMQP
- a| 
-HTTP
- a| 
-9000
- a| 
-Se utiliza para iniciar la interfaz de interfaz de usuario de gestión de AMQP en esta página.
-
 |===
 [NOTE]
 ====
