@@ -27,7 +27,7 @@ Cuando se utiliza el nombre de host, debe resolver la dirección IP de administr
 Esta cuenta debe tener el rol _admin_ con acceso a aplicaciones establecido en _ontapi_, _Console_ y _http_.
 
 ** Debe conocer el número de puerto para conectarse al clúster mediante el protocolo HTTPS (por lo general, el puerto 443).
-** El clúster de debe ejecutar el software ONTAP versión 9.1 o posterior.
+** El clúster debe ejecutar el software ONTAP versión 9.9 o superior.
 ** Debe tener espacio suficiente en el servidor de Unified Manager. Se le impide agregar un clúster al servidor cuando más del 90 % del espacio ya está consumido.
 ** Tiene los certificados necesarios:
 +
