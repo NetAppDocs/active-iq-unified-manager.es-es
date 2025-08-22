@@ -78,7 +78,9 @@ Después de detectar todos los objetos de un clúster nuevo, Unified Manager com
 
 [NOTE]
 ====
-Dado que la recogida de 15 días de datos de rendimiento requiere un uso intensivo de la CPU, se sugiere escalonar la adición de nuevos clústeres de manera que las encuestas de recogida de continuidad de datos no se ejecuten en demasiados clústeres al mismo tiempo. Además, si reinicia Unified Manager durante el período de recogida de continuidad de datos, la recogida se detiene y verá vacíos en los gráficos de rendimiento correspondientes al periodo que falta.
+* La recopilación de 15 días de datos de rendimiento consume muchos recursos de la CPU.  NetApp recomienda escalonar la incorporación de nuevos clústeres para que las encuestas de recopilación de continuidad de datos no se ejecuten en demasiados clústeres al mismo tiempo.  Además, si reinicia Unified Manager durante el período de recopilación de continuidad de datos, la recopilación se detiene y verá brechas en los gráficos de rendimiento correspondientes al período de tiempo faltante.
+* Cuando agrega un clúster ONTAP con la versión 9.14.1 o posterior, la comunicación se produce a través de la función de agente de nube.  ONTAP crea automáticamente un usuario de cuenta de servicio interno con privilegios de solo lectura (por ejemplo, clus-agent-xxxx).  Unified Manager deja de recopilar datos de esos clústeres si `clus-agent` El usuario ha sido eliminado.
+
 
 ====
 [TIP]
