@@ -21,6 +21,7 @@ Según el sistema operativo en el que instaló Unified Manager, la consola de ma
 +
 .. Soporte/Diagnóstico
 .. Restablecer certificado de servidor
+.. Regenerar certificado de cliente
 .. Proveedor de datos externos
 .. Restaurar copia de seguridad
 .. Configuración del intervalo de sondeo de rendimiento

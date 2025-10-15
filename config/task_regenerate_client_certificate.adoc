@@ -1,0 +1,23 @@
+---
+permalink: config/task_regenerate_client_certificate.html 
+sidebar: sidebar 
+keywords: client certificate, regenerate, validity, maintenance console 
+summary: Puede utilizar la consola de mantenimiento para regenerar su certificado de cliente de Unified Manager. 
+---
+= Regenerar el certificado del cliente
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puede utilizar la consola de mantenimiento para regenerar su certificado de cliente de Unified Manager.  Su certificado tiene un período de validez extendido de cinco años.
+
+.Pasos
+. Inicie sesión como usuario de mantenimiento.
+. Seleccione *Regenerar certificado de cliente* y presione *Enter*.
+. Si el sistema solicita autenticación, ingrese las credenciales requeridas.
+. Seleccione *Confirmar regeneración* y presione *Enter*.
+. Una vez regenerado el certificado, reinicie el servicio Unified Manager para aplicar los cambios.
+. Para verificar el certificado actualizado, inicie sesión en ONTAP.  Ver el estado del certificado del cliente y el estado de validez.
+

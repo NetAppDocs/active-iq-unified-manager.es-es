@@ -1,7 +1,7 @@
 ---
 permalink: install-windows/task_uninstall_third_party_products.html 
 sidebar: sidebar 
-keywords: MS Visual C++, python, uninstall, uninstalling, 9.16 
+keywords: MS Visual C++, python, uninstall, uninstalling, 9.18 
 summary: Cómo desinstalar productos de terceros, incluidos Python y Microsoft Visual C++. 
 ---
 = Desinstalar productos de terceros
@@ -20,7 +20,7 @@ Después de actualizar Unified Manager, puede desinstalar productos de terceros,
 .Pasos
 . Desde el *Panel de control* selecciona *Programas* > *Programas y características*.
 . Seleccione Python de la lista de programas.
-. Seleccione *Desinstalar este programa*. Desinstale cualquier versión de Python excepto 3,12. Asegúrese de conservar Python versión 3,12.
+. Seleccione *Desinstalar este programa*.  Desinstale cualquier versión de Python excepto 3.13.3.  Asegúrese de conservar la versión 3.13.3 de Python.
 
 
 

@@ -11,7 +11,7 @@ summary: Puede actualizar a Unified Manager en VMware vSphere
 
 
 [role="lead"]
-Puede actualizar Active IQ Unified Manager solo a la versión 9,16 desde la versión 9,13 o 9,14.
+Puede actualizar Active IQ Unified Manager a la versión 9.18 desde la versión 9.14 o 9.16 únicamente.
 
 Durante el proceso de actualización, Unified Manager no está disponible. Debe completar todas las operaciones en ejecución antes de actualizar Unified Manager.
 

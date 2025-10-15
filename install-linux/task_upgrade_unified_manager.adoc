@@ -11,7 +11,7 @@ summary: Puede actualizar Unified Manager descargando y ejecutando el archivo de
 
 
 [role="lead"]
-Para actualizar desde Unified Manager 9,13 o 9,14 a la versión 9,16, descargue y ejecute el archivo de instalación en la plataforma Linux.
+Puede actualizar de Unified Manager 9.14 o 9.16 a 9.18 descargando y ejecutando el archivo de instalación en la plataforma Linux.
 
 .Antes de empezar
 * El sistema donde se actualiza Unified Manager debe cumplir con los requisitos del sistema y del software.

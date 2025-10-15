@@ -37,7 +37,7 @@ Para la versión 9, descárguela de:
 
 
 
-Para el sistema Red Hat Enterprise Linux 8, si tiene repositorios internos con java-11-openjdk, p7zip y otros paquetes de software proporcionados por el repositorio AppStream, debe deshabilitar el repositorio de AppStream e instalar MySQL Community Server. Ejecute el siguiente comando:
+Para un sistema Red Hat Enterprise Linux 8, si tiene repositorios internos con java-17-openjdk, p7zip y otros paquetes de software proporcionados por el repositorio AppStream, debe deshabilitar su repositorio AppStream e instalar MySQL Community Server. Ejecute el siguiente comando:
 
 [listing]
 ----
