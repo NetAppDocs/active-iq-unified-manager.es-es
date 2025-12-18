@@ -18,6 +18,7 @@ Puede configurar alertas para que le notifiquen un evento determinado. Es posibl
 * Debe conocer los recursos y los eventos sobre los que desea activar la alerta, así como los nombres de usuario o las direcciones de correo electrónico de los usuarios a los que desea notificar.
 * Si desea que un script se ejecute según el evento, debe haber añadido el script a Unified Manager mediante la página Scripts.
 * Debe tener el rol de administrador de aplicaciones o de administrador del almacenamiento.
+* Tenga en cuenta que si agrega una máquina virtual de almacenamiento (SVM) o un clúster a los recursos de una alerta, los objetos secundarios no se agregan automáticamente. Por ejemplo, si agrega un clúster a los recursos de una alerta, la alerta no agrega automáticamente los nodos o LUN.
 
 
 Puede crear una alerta directamente desde la página de detalles Event después de recibir un evento además de crear una alerta desde la página Alert Setup, tal y como se describe aquí.
