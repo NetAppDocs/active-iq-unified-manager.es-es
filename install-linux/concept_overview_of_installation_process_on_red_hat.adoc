@@ -13,4 +13,4 @@ summary: El flujo de trabajo de instalación describe las tareas que deben reali
 [role="lead"]
 El flujo de trabajo de instalación describe las tareas que deben realizarse para poder usar Unified Manager.
 
-image::../media/install_flow_on_rhel.gif[instale el flujo en el rhel]
+image::../media/install_flow_on_rhel_2026.png[Instalar flujo en RHEL 2026]

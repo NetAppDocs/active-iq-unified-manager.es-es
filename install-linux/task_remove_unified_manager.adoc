@@ -27,11 +27,11 @@ Puede detener y desinstalar Unified Manager desde el host de Red Hat Enterprise 
 `rpm -e netapp-um`
 
 +
-Este paso elimina todos los paquetes de RPM de NetApp asociados. No elimina los módulos de software previos, como Java, MySQL y p7zip.
+Este paso elimina todos los paquetes RPM de NetApp asociados. No elimina los módulos de software necesarios, como Java, MySQL y 7zip.
 
-. *Opcional:* Si procede, retire los módulos de software compatibles, como Java, MySQL y p7zip:
+. *Opcional:* Si corresponde, elimine los módulos de software de soporte, como Java, MySQL y 7zip:
 +
-`rpm -e p7zip mysql-community-client mysql-community-server mysql-community-common mysql-community-libs java-x.y`
+`rpm -e mysql-community-client mysql-community-server mysql-community-common mysql-community-libs java-x.y`
 
 
 

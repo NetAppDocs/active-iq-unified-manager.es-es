@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: client certificate, regenerate, validity, maintenance console 
 summary: Puede utilizar la consola de mantenimiento para regenerar su certificado de cliente de Unified Manager. 
 ---
-= Regenerar el certificado del cliente
+= Regenerar el certificado de cliente de Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -21,3 +21,5 @@ Puede utilizar la consola de mantenimiento para regenerar su certificado de clie
 . Una vez regenerado el certificado, reinicie el servicio Unified Manager para aplicar los cambios.
 . Para verificar el certificado actualizado, inicie sesión en ONTAP.  Ver el estado del certificado del cliente y el estado de validez.
 
+
+*Información relacionada*  https://docs.netapp.com/us-en/ontap/authentication/manage-certificates-sm-task.html["Administrar certificados ONTAP con el Administrador del sistema"^]
