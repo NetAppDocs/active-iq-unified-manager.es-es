@@ -12105,4 +12105,13 @@ Proteger aplicaciones con LUN, puede ver y supervisar esas LUN en Active IQ Unif
   <block id="1e4ae16efa77dcf7b5345478d2ccb141" category="list-text">MySQL Community Edition versión 8.4.7</block>
   <block id="7e32873dbcea7d787665ade5210a7e5e" category="list-text">MySQL Community Edition se actualiza automáticamente durante la actualización de Unified Manager. Si la versión instalada de MySQL en su sistema es anterior a 8.4.7, el proceso de actualización de Unified Manager actualiza automáticamente MySQL a 8.4.7. No debe ejecutar una actualización independiente de una versión anterior de MySQL a 8.4.7.</block>
   <block id="3fdc1149ca052bb0caeb62195f6366e2" category="sidebar">Configurar el software necesario</block>
+  <block id="ef7e8c761b3774b5f1be9fac2702eee1" category="list-text">No puedes restaurar un directorio o un volumen desde una instantánea en ninguno de los siguientes escenarios:</block>
+  <block id="1682df86d53dde8a42b648d552487863" category="list-text">La opción *Yes, preserve all snapshot copies* está seleccionada.</block>
+  <block id="6737224bf6ac1c0fa305a05c30cf30ae" category="list-text">Estás usando una cuenta LDAP para monitorear el clúster.</block>
+  <block id="5c41c459cb69f39c6ee999eecd9a022b" category="list-text">Has iniciado sesión como usuario de dominio.</block>
+  <block id="0b5a178a62e7dfff5f75538a04745433" category="list-text">Tu cuenta está configurada para la autenticación SAML.</block>
+  <block id="d31f432ad0e4242b6b670e30b3081931" category="list-text">Estás usando el protocolo NDMP.</block>
+  <block id="2aa02eda0e86d78eb7e7937d93415606" category="inline-link">Cómo configurar la autenticación NDMP en modo 'SVM-scope'</block>
+  <block id="10c63a870bc95c46a742e43842ec8048" category="paragraph">Para más detalles, consulta el artículo de base de conocimientos<block ref="b3c8348c93a87962cb210001996297e2" category="inline-link-rx"></block>.</block>
+  <block id="8da4b54a11c14f3b7f3fc9138371f1c0" category="list-text">No puedes restaurar flujos de archivos NTFS.</block>
 </blocks>

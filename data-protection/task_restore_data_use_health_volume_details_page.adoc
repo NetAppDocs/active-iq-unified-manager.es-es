@@ -19,7 +19,19 @@ Debe tener el rol de administrador de aplicaciones o de administrador del almace
 
 NOTE: Tenga en cuenta lo siguiente:
 
-* No puede restaurar flujos de archivos NTFS.
+* No puedes restaurar un directorio o un volumen desde una instantánea en ninguno de los siguientes escenarios:
++
+** La opción *Yes, preserve all snapshot copies* está seleccionada.
+** Estás usando una cuenta LDAP para monitorear el clúster.
+** Has iniciado sesión como usuario de dominio.
+** Tu cuenta está configurada para la autenticación SAML.
+** Estás usando el protocolo NDMP.
++
+Para más detalles, consulta el artículo de base de conocimientos https://kb.netapp.com/on-prem/ontap/DP/NDMP/NDMP-KBs/How_to_configure_NDMP_authentication_in_the_SVM-scope_previously_known_as_Vserver-scope_mode["Cómo configurar la autenticación NDMP en modo 'SVM-scope'"^].
+
+
+
+* No puedes restaurar flujos de archivos NTFS.
 * La opción de restauración no está disponible si:
 +
 ** El ID de volumen es desconocido: Por ejemplo, cuando se mantiene una relación de interconexión de clústeres y el clúster de destino todavía no se detectó.
