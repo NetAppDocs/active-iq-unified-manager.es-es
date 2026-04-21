@@ -91,7 +91,7 @@ A continuación se muestran algunos campos importantes en la vista Performance: 
 ** Unidad de disco duro (FabricPool). Combina HDD y un nivel de cloud
 ** VMDisk (SDS). Discos virtuales en una máquina virtual
 ** Disco de VMware (FabricPool). Combina discos virtuales y un nivel de cloud
-** LUN (FlexArray)
+** LUN
 
 
 * Generación de informes de datos inactivos: Si la funcionalidad de generación de informes de datos inactivos está habilitada o deshabilitada en este agregado. Cuando se encuentra habilitada, los volúmenes de este agregado muestran la cantidad de datos inactivos en la vista rendimiento: Todos los volúmenes. El valor de este campo es "N/A" cuando la versión de ONTAP no admite la generación de informes de datos inactivos.
