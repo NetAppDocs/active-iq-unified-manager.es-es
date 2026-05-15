@@ -3451,9 +3451,6 @@
   <block id="076790dbfc4444ac90e62b970a3c9217" category="list-text">Anotaciones para objetos de almacenamiento</block>
   <block id="53715e24fcf7438bf8bb2d96e3d34de8" category="list-text">Creación de informes y gestión de información de objetos de almacenamiento como capacidad física y lógica, utilización, ahorro de espacio, rendimiento y eventos relacionados</block>
   <block id="42c75971e03568e6221b99dd63d98865" category="list-text">Integración con OnCommand Workflow Automation para ejecutar flujos de trabajo</block>
-  <block id="6750b5b2c975d66813d2ea8952f0bae1" category="paragraph">El almacén de automatización del almacenamiento contiene paquetes de flujos de trabajo de almacenamiento automatizados y certificados de NetApp, desarrollados para su uso con OnCommand Workflow Automation (WFA). Puede descargar los paquetes e importarlos a WFA para ejecutarlos. Los flujos de trabajo automatizados están disponibles aquí:</block>
-  <block id="0479c8cefca250b39d519545313f1b42" category="inline-link">Almacén de automatización del almacenamiento</block>
-  <block id="63f4e00d9f003710efd37fe0fad569e9" category="paragraph"><block ref="63f4e00d9f003710efd37fe0fad569e9" category="inline-link-rx"></block></block>
   <block id="0a5bee083e5c2bf4276c97fc2a7886ee" category="summary">En esta tabla se describen los criterios de cumplimiento de la seguridad de la máquina virtual de almacenamiento (SVM) que evalúa Unified Manager, la recomendación de NetApp y si el parámetro afecta a la determinación general de la SVM que se está quejando o no.</block>
   <block id="1b384d589c8bfd9a5acdde4674d71d8b" category="doc">Categorías de cumplimiento de normativas para máquinas virtuales de almacenamiento</block>
   <block id="51719bf29ed5e31a642a4afb8ef64c09" category="cell">Afecta a SVM Compliance</block>
@@ -6131,7 +6128,6 @@
   <block id="2f0eec6ab9cc9e91d12e272bb672a463" category="list-text">En la lista de trabajos, seleccione un trabajo y, a continuación, haga clic en *Anular*.</block>
   <block id="b53e8a2e3899ebd71319169255fa8733" category="list-text">En el mensaje de confirmación, haga clic en *Sí* para anular el trabajo seleccionado.</block>
   <block id="d1de0a7d7acb6c1e6d558f461b1c08b0" category="summary">Puede configurar una conexión segura entre OnCommand Workflow Automation (WFA) y Unified Manager. La conexión a Workflow Automation le permite usar funciones de protección como flujos de trabajo de configuración de SnapMirror y SnapVault, así como comandos para gestionar las relaciones de SnapMirror.</block>
-  <block id="0c6e4a96f43d5868275a60909a3a24fc" category="inline-link">PAQUETE WFA para gestionar ONTAP</block>
   <block id="5b7d25b9e226028347921818ce714ea3" category="list-text">Debe tener el nombre del usuario de la base de datos que ha creado en Unified Manager para admitir conexiones de WFA y Unified Manager.</block>
   <block id="0baffa2d6dab374e8ae870aa23680370" category="paragraph">Este usuario de la base de datos debe haber sido asignado el rol de usuario del Esquema de integración.</block>
   <block id="209a170f4735b61e63946462f4cc839b" category="list-text">Debe tener asignado la función de administrador o de arquitecto en Workflow Automation.</block>
@@ -8492,14 +8488,11 @@
   <block id="a3ec58cb7e9bf89ef726ec0d99330264" category="paragraph">En un servidor físico, añada capacidad a la unidad lógica en la que se ha instalado el servidor de Unified Manager.</block>
   <block id="58e7b60f294b271a4bc9c01cccff27e5" category="paragraph">Siga los pasos del tema de Microsoft:</block>
   <block id="97424b0770e65ad13c37e9c4e0bf64e7" category="inline-link">Extender un volumen básico</block>
-  <block id="3771c84b1045d5ccd8689f90b09f9ac1" category="paragraph"><block ref="3771c84b1045d5ccd8689f90b09f9ac1" category="inline-link-rx"></block></block>
   <block id="bc78f8459cc3f99966ec858559866c73" category="paragraph">En un servidor físico, agregue una unidad de disco duro.</block>
   <block id="ccdf2f614d8c68d046e904c7e5c8f784" category="inline-link">Agregar unidades de disco duro</block>
-  <block id="6f7d162b9b4778023baeb8b3f6e0072c" category="paragraph"><block ref="6f7d162b9b4778023baeb8b3f6e0072c" category="inline-link-rx"></block></block>
   <block id="6c4f6491c1007de757c7587546b655d2" category="paragraph">En un equipo virtual, aumente el tamaño de una partición de disco.</block>
   <block id="1c9690b8244451e91730c655ec71a542" category="paragraph">Siga los pasos del tema de VMware:</block>
   <block id="5254296818aa13c00d8252c86b324630" category="inline-link">Aumentar el tamaño de una partición de disco</block>
-  <block id="301c0a1773cbd034466e002644e3ab94" category="paragraph"><block ref="7d192e27a5a594f0b284619bff944ea7" category="inline-link-rx"></block></block>
   <block id="337930ae0771c912aef51058b393b6af" category="summary">La conectividad entre los clústeres de una configuración MetroCluster puede ser uno de los siguientes Estados: Optimal, impacted o Down. Comprender los Estados de conectividad permite gestionar las configuraciones de MetroCluster de forma efectiva.</block>
   <block id="cdfca02373cd4eba37b347e9cdaab218" category="doc">Definiciones de estado de conectividad de clúster para la configuración de MetroCluster over FC</block>
   <block id="45a153fd0ead31ffde063c1f449b0d5b" category="paragraph">La conectividad entre los clústeres de una configuración MetroCluster over FC puede ser uno de los siguientes Estados: Optimal, impacted o Down. Comprender los Estados de conectividad permite gestionar las configuraciones de MetroCluster de forma efectiva.</block>
@@ -11417,7 +11410,6 @@ Proteger aplicaciones con LUN, puede ver y supervisar esas LUN en Active IQ Unif
   <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">Antes de empezar</block>
   <block id="403384bc7be1a7f4e22bd05d0f8b3ec8" category="paragraph">* Qué .Antes de empezar</block>
   <block id="1b377a56a4ae0b95c40511aa64336c41" category="list-text">La versión instalada de Workflow Automation debe ser la 5,1.1P6 o posterior.</block>
-  <block id="9e24238c9686e244d38d02ad1f557aca" category="paragraph">WFA 5,1.1P6 incluye el ««paquete WFA para gestionar Clustered Data ONTAP», por lo que no hay necesidad de descargar este paquete desde el Almacén de automatización del almacenamiento de NetApp e instalarlo por separado en su servidor WFA, tal y como era necesario en el pasado.<block ref="33bb079f56da49206dfe05941d30882d" category="inline-link-rx"></block></block>
   <block id="c8fd24815f6093e46c1cb75855be5d43" category="list-text">Debe haber instalado Unified Manager en un servidor Linux siguiendo las instrucciones de <block ref="55b3ec865696a24c30e5b2e799e3e5eb" category="inline-link-macro-rx"></block>.</block>
   <block id="eb0a89add4cd78412c29a6c06287ca71" category="paragraph">Unified Manager utiliza<block ref="1de0b4f0d139f781b3b4de87edb4de70" prefix=" " category="inline-code"></block> la utilidad para instalar el software y cualquier software dependiente. Debido a que existen diferentes imágenes de Red Hat Enterprise Linux, los paquetes instalados dependen del software presente en las imágenes. <block ref="1de0b4f0d139f781b3b4de87edb4de70" prefix=" " category="inline-code"></block>La utilidad determina los paquetes de software dependientes para la instalación. Si necesita más información sobre los paquetes de software dependientes, consulte la <block ref="f1a81936de546e8d25edd5d0aa76c791" category="inline-link-macro-rx"></block>.</block>
   <block id="8ed8853f67b146f3f04807d3865ef602" category="list-text">Asegúrese de descargar la versión correcta del archivo de instalación del sistema Red Hat Enterprise Linux. En función de si tiene instalado Red Hat Enterprise Linux 8 o 9, asegúrese de descargar la versión adecuada del archivo de Unified Manager<block ref="daf4de58883c030f033f07e61debf025" prefix=" " category="inline-code"></block>.</block>
@@ -12114,4 +12106,10 @@ Proteger aplicaciones con LUN, puede ver y supervisar esas LUN en Active IQ Unif
   <block id="10c63a870bc95c46a742e43842ec8048" category="paragraph">Para más detalles, consulta el artículo de base de conocimientos<block ref="b3c8348c93a87962cb210001996297e2" category="inline-link-rx"></block>.</block>
   <block id="8da4b54a11c14f3b7f3fc9138371f1c0" category="list-text">No puedes restaurar flujos de archivos NTFS.</block>
   <block id="c6655c77ef7f9737d998381c1db5e05b" category="paragraph">Para todos los eventos que has configurado para enviar alertas, se envía un mensaje de alerta cuando esos eventos pasan por todos los estados disponibles: Nuevo, Resuelto y Obsoleto. Si no quieres recibir alertas para eventos cuando pasan a los estados Resuelto y Obsoleto, puedes configurar un ajuste global para suprimir esas alertas.</block>
+  <block id="42429633f87d83134a274916f6a034c2" category="paragraph"><block ref="42429633f87d83134a274916f6a034c2" category="inline-link-rx"></block></block>
+  <block id="7735c39e24fb37c1d079ba9e3a91c264" category="paragraph"><block ref="7735c39e24fb37c1d079ba9e3a91c264" category="inline-link-rx"></block></block>
+  <block id="7c84ac4946087f09b4a17998f1e830e8" category="paragraph"><block ref="7c84ac4946087f09b4a17998f1e830e8" category="inline-link-rx"></block></block>
+  <block id="af050e52c447cd52b4b2f1ffdc032f19" category="inline-link">Descarga de WFA</block>
+  <block id="94d13f29f9fba88b1b0d477b50fbcb23" category="paragraph">El "`WFA pack for managing Clustered Data ONTAP`" está incluido en WFA 5.1.1P6, así que no necesitas descargar este pack de la NetAppStorage Automation Store ni instalarlo por separado en tu servidor WFA como se requería antes.<block ref="205df40c4c09810da80912824982d64d" category="inline-link-rx"></block></block>
+  <block id="b51ca7d8abeeddcb10f579ebf26d482d" category="paragraph"><block ref="b51ca7d8abeeddcb10f579ebf26d482d" category="inline-link-rx"></block></block>
 </blocks>
