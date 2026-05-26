@@ -24,7 +24,7 @@ Cuando se utiliza el nombre de host, debe resolver la dirección IP de administr
 
 ** Debe tener el nombre de usuario y la contraseña para acceder al clúster.
 +
-Esta cuenta debe tener el rol _admin_ con acceso a aplicaciones establecido en _ontapi_, _Console_ y _http_.
+Esta cuenta debe tener el rol _admin_ con acceso a aplicación configurado en _ontapi_, _amqp_, _console_ y _http_.
 
 ** Debe conocer el número de puerto para conectarse al clúster mediante el protocolo HTTPS (por lo general, el puerto 443).
 ** El clúster debe ejecutar el software ONTAP versión 9.9 o superior.

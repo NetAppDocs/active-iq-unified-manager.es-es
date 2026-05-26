@@ -28,7 +28,7 @@ La dirección IP de administración del clúster debe ser el LIF de gestión del
 ** El clúster de debe ejecutar el software ONTAP versión 9.1 o posterior.
 ** Nombre de usuario y contraseña del administrador de ONTAP
 +
-Esta cuenta debe tener el rol _admin_ con acceso a aplicaciones establecido en _ontapi_, _Console_ y _http_.
+Esta cuenta debe tener el rol _admin_ con acceso a aplicación configurado en _ontapi_, _amqp_, _console_ y _http_.
 
 ** El número de puerto para conectarse al clúster mediante el protocolo HTTPS (por lo general, puerto 443)
 ** Tiene los certificados necesarios:
