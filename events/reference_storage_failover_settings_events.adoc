@@ -15,6 +15,7 @@ Los eventos de configuración de conmutación por error del almacenamiento (SFO)
 
 
 
+[[impact-area-availability]]
 == Área de impacto: Disponibilidad
 
 |===

@@ -15,6 +15,7 @@ Los eventos de protección le indican si un trabajo se ha producido un error o s
 
 
 
+[[impact-area-protection]]
 == Zona de impacto: Protección
 
 |===

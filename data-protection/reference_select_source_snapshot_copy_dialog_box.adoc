@@ -15,6 +15,7 @@ Utilice el cuadro de diálogo Seleccionar copia Snapshot de origen para seleccio
 
 
 
+[[default]]
 == Predeterminado
 
 Permite seleccionar el comportamiento predeterminado para determinar qué copia Snapshot se utiliza para inicializar, actualizar y resincronizar transferencias para relaciones de SnapVault y SnapMirror.
@@ -87,6 +88,7 @@ Transfiere todas las copias Snapshot del volumen secundario al volumen terciario
 |===
 
 
+[[existing-snapshot-copy]]
 == Copia Snapshot existente
 
 Permite seleccionar una copia de Snapshot existente de la lista si se permite la selección de una copia de Snapshot para esa operación.
@@ -169,6 +171,7 @@ No se admite la selección de copias Snapshot de origen para los volúmenes de p
 |===
 
 
+[[command-buttons]]
 == Botones de comando
 
 Los botones de comando le permiten realizar las siguientes tareas:

@@ -15,6 +15,7 @@ Existen algunas limitaciones con la nueva funcionalidad de generación de inform
 
 
 
+[[existing-reports-from-previous-versions-of-unified-manager]]
 == Informes existentes de versiones anteriores de Unified Manager
 
 Solo es posible editar la programación y los destinatarios de los informes existentes que se hayan creado e importado (como archivos .rptdesign) en Unified Manager 9.5 y versiones anteriores. Si ha personalizado alguno de los informes estándar proporcionados en Unified Manager 9.5 o una versión anterior, estos informes personalizados no se importan en la nueva herramienta de generación de informes.
@@ -29,24 +30,28 @@ Las vistas predeterminadas se pueden generar como informes sin necesidad de ning
 
 
 
+[[schedule-and-report-relationship]]
 == Relación de programación e informes
 
 Puede crear muchas programaciones diferentes con cualquier combinación de destinatarios para cada informe guardado. Sin embargo, no puede reutilizar la programación para varios informes.
 
 
 
+[[report-protection]]
 == Protección de informes
 
 Cualquier usuario con los permisos adecuados puede editar o eliminar informes. No hay forma de impedir que otros usuarios eliminen o realicen cambios en las vistas o horarios guardados.
 
 
 
+[[event-reports]]
 == Informes de eventos
 
 Aunque puede personalizar la vista de eventos y descargar el informe resultante en formato CSV, no puede programar informes de eventos recurrentes para generación y distribución.
 
 
 
+[[report-attachments]]
 == Archivos adjuntos de informes
 
 Los informes no se pueden enviar en el cuerpo de un correo electrónico. En su lugar, los informes sólo se envían como archivos PDF, Excel o CSV.

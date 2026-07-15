@@ -25,6 +25,7 @@ Tenga en cuenta lo siguiente:
 ====
 
 
+[[view-storage-efficiency-policies]]
 == Consulte las políticas de eficiencia del almacenamiento
 
 Puede utilizar el siguiente método para ver las políticas de eficiencia del almacenamiento antes de asignarles cargas de trabajo de almacenamiento. Esta API enumera todas las políticas de eficiencia del almacenamiento definidas por el sistema y creadas por el usuario, y recupera los atributos de todas las políticas de eficiencia del almacenamiento. Si desea consultar una Política de eficiencia de almacenamiento específica, debe introducir el ID único de la política para recuperar sus detalles.
@@ -46,6 +47,7 @@ OBTENGA
 |===
 
 
+[[add-storage-efficiency-policies]]
 == Añada políticas de eficiencia del almacenamiento
 
 Puede utilizar el siguiente método para crear políticas de eficiencia del almacenamiento personalizadas y asignarlas a sus cargas de trabajo de almacenamiento si las políticas definidas por el sistema no cumplen los requisitos de aprovisionamiento para las cargas de trabajo de almacenamiento. Introduzca los detalles de la Política de eficiencia del almacenamiento que desea crear como parámetros de entrada.
@@ -65,6 +67,7 @@ PUBLICAR
 |===
 
 
+[[delete-storage-efficiency-policies]]
 == Eliminar políticas de eficiencia del almacenamiento
 
 Puede utilizar el siguiente método para eliminar una directiva de eficiencia del almacenamiento específica. No puede eliminar una Política de eficiencia del almacenamiento si se asigna a una carga de trabajo o si es la única Política de eficiencia del almacenamiento disponible. Debe proporcionar el ID único de la Política de eficiencia del almacenamiento como parámetro de entrada para eliminar una determinada Política de eficiencia del almacenamiento.
@@ -84,6 +87,7 @@ ELIMINAR
 |===
 
 
+[[modify-storage-efficiency-policies]]
 == Modificar las políticas de eficiencia del almacenamiento
 
 Puede utilizar el método siguiente para modificar una Política de eficiencia del almacenamiento y actualizar sus propiedades. No es posible modificar una Política de eficiencia del almacenamiento que esté definida por el sistema o que se asigne a una carga de trabajo. Debe proporcionar el ID exclusivo de la normativa de eficiencia del almacenamiento para modificar una determinada política de eficiencia del almacenamiento. Además, debe proporcionar la propiedad que desea actualizar, junto con su valor.

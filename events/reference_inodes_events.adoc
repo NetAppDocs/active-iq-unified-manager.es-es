@@ -15,6 +15,7 @@ Los eventos de inodo proporcionan información cuando el inodo está lleno o cas
 
 
 
+[[impact-area-capacity]]
 == Área de impacto: Capacidad
 
 |===

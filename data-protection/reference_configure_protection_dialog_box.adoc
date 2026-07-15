@@ -15,6 +15,7 @@ Puede utilizar el cuadro de diálogo Configurar protección para crear relacione
 
 
 
+[[source-tab]]
 == Pestaña Source
 
 * *Vista de topología*
@@ -65,6 +66,7 @@ Muestra la copia Snapshot que se usa para la transferencia básica. Si el volume
 
 
 
+[[snapmirror-tab]]
 == Pestaña SnapMirror
 
 Permite especificar un clúster de destino, una máquina virtual de almacenamiento (SVM) y un agregado para una relación de protección, así como una convención de nomenclatura para los destinos a la vez que se crea una relación de SnapMirror. También puede especificar una política y una programación de SnapMirror.
@@ -157,6 +159,7 @@ Abre el cuadro de diálogo Create Schedule, que permite crear una nueva programa
 
 
 
+[[snapvault-tab]]
 == Pestaña SnapVault
 
 Permite especificar un clúster secundario, una SVM y un agregado para una relación de protección, así como una convención de nomenclatura para los volúmenes secundarios al crear una relación de SnapVault. También puede especificar una política y una programación de SnapVault.
@@ -249,6 +252,7 @@ Abre el cuadro de diálogo Crear programación, que permite crear una programaci
 
 
 
+[[command-buttons]]
 == Botones de comando
 
 Los botones de comando le permiten realizar las siguientes tareas:

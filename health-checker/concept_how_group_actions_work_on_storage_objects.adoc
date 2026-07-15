@@ -17,6 +17,7 @@ Los grupos admiten tipos de acciones de grupo únicos. Es posible tener un grupo
 
 
 
+[[example-of-unique-group-actions]]
 == Ejemplo de acciones de grupo únicas
 
 Considere un volumen A que pertenece a los grupos G1 y G2, y las siguientes acciones de grupo de umbral de estado de volumen están configuradas para estos grupos:

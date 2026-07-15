@@ -15,6 +15,7 @@ Los eventos de puerto le ofrecen el estado acerca de los puertos del clúster pa
 
 
 
+[[impact-area-availability]]
 == Área de impacto: Disponibilidad
 
 |===
@@ -33,6 +34,7 @@ Crítico
 |===
 
 
+[[impact-area-performance]]
 == Área de impacto: Rendimiento
 
 |===

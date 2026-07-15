@@ -17,6 +17,7 @@ Un asterisco (*) identifica los eventos de EMS que se han convertido a eventos d
 
 
 
+[[impact-area-availability]]
 == Área de impacto: Disponibilidad
 
 |===
@@ -255,6 +256,7 @@ Error
 |===
 
 
+[[impact-area-configuration]]
 == Área de impacto: Configuración
 
 |===
@@ -295,6 +297,7 @@ Información
 |===
 
 
+[[impact-area-performance]]
 == Área de impacto: Rendimiento
 
 |===
@@ -368,6 +371,7 @@ Advertencia
 |===
 
 
+[[impact-area-security]]
 == Área de impacto: Seguridad
 
 |===

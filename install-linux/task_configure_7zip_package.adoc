@@ -20,12 +20,14 @@ Alternativamente, puede preinstalar 7-zip.
 
 
 
+[[pre-install-the-7-zip-package]]
 == Preinstale el paquete 7-zip
 
 Puedes preinstalar 7-zip descargándolo manualmente o usando un script incluido. Elija uno de los dos métodos siguientes:
 
 
 
+[[download-using-a-bundled-script]]
 === Descargar usando un script incluido
 
 .Paso
@@ -34,6 +36,7 @@ Puedes preinstalar 7-zip descargándolo manualmente o usando un script incluido.
 
 
 
+[[download-manually]]
 === Descargar manualmente
 
 Asegúrese de descargar el paquete 7-zip solo desde el sitio web oficial.
@@ -71,6 +74,7 @@ sudo chmod 755 /usr/bin/7zz
 
 
 
+[[verify-the-installation]]
 == Verificar la instalación
 
 Verifique que el paquete 7-zip se haya instalado correctamente en su sistema:

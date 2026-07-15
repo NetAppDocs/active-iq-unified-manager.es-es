@@ -15,6 +15,7 @@ Es posible editar una relación de protección existente para cambiar la tasa de
 
 
 
+[[destination-information]]
 == Información de destino
 
 * *Cluster de destino*
@@ -56,6 +57,7 @@ Abre el cuadro de diálogo Create Schedule, que permite crear una nueva programa
 
 
 
+[[command-buttons]]
 == Botones de comando
 
 Los botones de comando le permiten realizar las siguientes tareas:

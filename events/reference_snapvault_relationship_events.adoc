@@ -15,6 +15,7 @@ Los eventos de relaciones con SnapVault le proporcionan información sobre el es
 
 
 
+[[impact-area-protection]]
 == Zona de impacto: Protección
 
 |===

@@ -28,6 +28,7 @@ Los comandos CURL, ejemplos, solicitudes y respuestas a las API están disponibl
 ====
 
 
+[[apis-for-storage-objects-in-your-data-center]]
 == API para los objetos de almacenamiento en el centro de datos
 
 [cols="3*"]
@@ -203,6 +204,7 @@ Si ha habilitado el aprovisionamiento de carga de trabajo basado en SLO en su en
 
 
 
+[[apis-for-network-elements-in-your-data-center]]
 == API para los elementos de red en su centro de datos
 
 Las siguientes API de la categoría de centro de datos recuperan información acerca de los puertos y las interfaces de red del entorno, específicamente los puertos FC, las interfaces FC, los puertos ethernet y las interfaces IP.

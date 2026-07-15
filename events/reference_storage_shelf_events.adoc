@@ -15,6 +15,7 @@ Los eventos de la bandeja de almacenamiento le indican si su bandeja de almacena
 
 
 
+[[impact-area-availability]]
 == Área de impacto: Disponibilidad
 
 |===

@@ -43,6 +43,7 @@ image::../media/vm_workflow.gif[flujo de trabajo del equipo virtual]
 
 
 
+[[what-is-not-supported]]
 == Qué no se admite
 
 * Los almacenes de datos que no son de ONTAP y se asignan a las instancias de vCenter Server no son compatibles con Unified Manager. Tampoco se admite cualquier máquina virtual con discos virtuales en esos almacenes de datos.

@@ -15,6 +15,7 @@ La página de detalles Job permite ver el estado y otra información sobre tarea
 
 
 
+[[job-summary]]
 == Resumen de tareas
 
 El resumen de trabajos muestra la siguiente información:
@@ -29,6 +30,7 @@ El resumen de trabajos muestra la siguiente información:
 
 
 
+[[command-buttons]]
 == Botones de comando
 
 Los botones de comando le permiten realizar las siguientes tareas:
@@ -45,6 +47,7 @@ Regresa a la página Jobs.
 
 
 
+[[job-tasks-list]]
 == Lista de tareas de trabajo
 
 La lista tareas de trabajo muestra en una tabla todas las tareas asociadas a un trabajo específico y las propiedades relacionadas con cada tarea.

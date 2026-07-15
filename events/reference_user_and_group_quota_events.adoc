@@ -15,6 +15,7 @@ Los eventos de cuota de usuario y grupo le proporcionan información acerca de l
 
 
 
+[[impact-area-capacity]]
 == Área de impacto: Capacidad
 
 |===

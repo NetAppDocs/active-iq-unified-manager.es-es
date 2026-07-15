@@ -26,6 +26,7 @@ Puede determinar la ruta de I/o y las latencias de los componentes desde un aspe
 
 
 
+[[view-summary-topology]]
 == Ver topología resumida
 
 Para determinar los problemas de rendimiento, vea las máquinas virtuales en una topología de resumen:
@@ -53,6 +54,7 @@ Los servidores vCenter permiten caracteres especiales (como %, &, *, $, #, @, !,
 
 
 
+[[view-expanded-topology]]
 == Ver topología expandida
 
 Es posible desglosar cada componente por separado para ver la topología expandida de la máquina virtual.

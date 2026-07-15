@@ -36,6 +36,7 @@ Puede utilizar los argumentos de las secuencias de comandos y recopilar informac
 
 
 
+[[example-for-obtaining-arguments-from-scripts]]
 == Ejemplo para obtener argumentos de scripts
 
 [listing]

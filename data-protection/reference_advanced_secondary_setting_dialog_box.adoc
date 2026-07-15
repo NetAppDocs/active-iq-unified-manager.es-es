@@ -72,6 +72,7 @@ De manera predeterminada, la garantía de espacio se establece en volumen.
 
 
 
+[[command-buttons]]
 == Botones de comando
 
 Los botones de comando le permiten realizar las siguientes tareas:

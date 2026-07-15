@@ -52,6 +52,7 @@ Especifica que las transferencias interrumpidas nunca se reinician.
 
 
 
+[[command-buttons]]
 == Botones de comando
 
 Los botones de comando le permiten realizar las siguientes tareas:

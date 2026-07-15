@@ -15,6 +15,7 @@ El sistema Linux en el que instala Unified Manager requiere versiones específic
 
 
 
+[[operating-system-software]]
 == Software del sistema operativo
 
 El sistema Linux debe tener instaladas las siguientes versiones del sistema operativo y el software de soporte:
@@ -33,6 +34,7 @@ NOTE: Los análisis de vulnerabilidades (como Qualys) pueden hacer que el uso de
 
 
 
+[[third-party-software]]
 == Software de terceros
 
 Unified Manager se ha puesto en marcha en un servidor web de WildFly. WildFly 26.1.3 se incluye y configura con Unified Manager.
@@ -52,6 +54,7 @@ Debe apagar una instancia en ejecución de Unified Manager antes de actualizar c
 ====
 
 
+[[user-authorization-requirements]]
 == Requisitos de autorización de usuarios
 
 La instalación de Unified Manager en un sistema Linux puede realizarlo el usuario raíz o los usuarios no raíz mediante el `sudo` comando.
@@ -60,6 +63,7 @@ Además, la instalación predeterminada de Unified Manager incluye el usuario um
 
 
 
+[[installation-requirements]]
 == Requisitos de instalación
 
 A continuación se enumeran las mejores prácticas para instalar Red Hat Enterprise Linux y los repositorios asociados en el sistema. Los sistemas instalados o configurados de manera diferente, o puestos en marcha fuera de las instalaciones (en el cloud), pueden requerir pasos adicionales y es posible que Unified Manager no se ejecute correctamente en dichas puestas en marcha.
@@ -96,6 +100,7 @@ No debe instalar el software de terceros necesario desde repositorios distintos 
 ====
 
 
+[[port-443-requirement]]
 == Requisito del puerto 443
 
 Las imágenes genéricas de Red Hat Enterprise Linux podrían bloquear el acceso externo al puerto 443. Debido a esta restricción, es posible que no se pueda conectar a la interfaz de usuario web del administrador después de instalar Unified Manager. La ejecución del siguiente comando permite el acceso al puerto 443 para todos los usuarios y aplicaciones externos en un Red Hat Enterprise Linux genérico.

@@ -56,6 +56,7 @@ También puede optar por notificar a los usuarios a través de las capturas SNMP
 
 
 
+[[example-of-adding-an-alert]]
 == Ejemplo de añadir una alerta
 
 Este ejemplo muestra cómo crear una alerta que cumpla con los siguientes requisitos:

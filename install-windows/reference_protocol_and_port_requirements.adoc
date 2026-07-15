@@ -15,6 +15,7 @@ Los puertos y protocolos necesarios permiten la comunicación entre el servidor 
 
 
 
+[[connections-to-the-unified-manager-server]]
 == Conexiones con el servidor de Unified Manager
 
 En instalaciones típicas no es necesario especificar números de puerto al conectarse a la interfaz de usuario web de Unified Manager, ya que siempre se utilizan los puertos predeterminados. Por ejemplo, como Unified Manager siempre intenta ejecutar en su puerto predeterminado, puede introducir `+https://<host>+` en lugar de `+https://<host>:443+`.
@@ -142,6 +143,7 @@ El puerto predeterminado de MySQL, 3306, está restringido solo a localhost mien
 ====
 
 
+[[connections-from-the-unified-manager-server]]
 == Conexiones desde el servidor de Unified Manager
 
 Debe configurar el firewall para que abra puertos que permitan la comunicación entre el servidor de Unified Manager y los sistemas de almacenamiento gestionados, los servidores y otros componentes. Si un puerto no está abierto, la comunicación falla.

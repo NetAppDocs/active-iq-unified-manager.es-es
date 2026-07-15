@@ -17,6 +17,7 @@ Debe tener el rol de administrador de aplicaciones o de administrador del almace
 
 
 
+[[event-properties-area]]
 == Área Event Properties
 
 El área Propiedades de evento especifica las siguientes propiedades de evento:
@@ -44,6 +45,7 @@ La gravedad del evento también se muestra junto con el nombre del evento.
 
 
 
+[[command-buttons]]
 == Botones de comando
 
 Los botones de comando le permiten realizar las siguientes tareas para los eventos seleccionados:

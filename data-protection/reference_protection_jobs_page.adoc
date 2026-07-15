@@ -15,6 +15,7 @@ La página Jobs permite ver el estado actual y otra información acerca de todos
 
 
 
+[[command-buttons]]
 == Botones de comando
 
 Los botones de comando le permiten realizar las siguientes tareas:
@@ -35,6 +36,7 @@ Actualiza la lista de trabajos y la información asociada a ellos.
 
 
 
+[[jobs-list]]
 == Lista trabajos
 
 La lista trabajos muestra, en una tabla de resultados, una lista de los trabajos en curso. De forma predeterminada, la lista muestra sólo los trabajos generados durante la semana pasada. Puede utilizar la ordenación y el filtrado de columnas para personalizar qué trabajos se muestran.

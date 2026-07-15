@@ -15,12 +15,14 @@ La página Reglas para generar Dirección de correo electrónico de cuota de usu
 
 
 
+[[rules-area]]
 == Área Rules
 
 Debe definir las reglas para una dirección de correo electrónico de cuota. También puede agregar comentarios para explicar las reglas.
 
 
 
+[[how-you-define-rules]]
 == Cómo se definen las reglas
 
 Debe introducir las reglas en el orden en el que desea ejecutarlas. Si se cumple el criterio de la primera regla, se generará la dirección de correo electrónico según esta regla. Si no se cumple el criterio, se considerará el criterio para la siguiente regla, etc. Cada línea enumera una regla independiente. La regla predeterminada es la última regla de la lista. Es posible cambiar el orden de prioridad de las reglas. Sin embargo, no puede cambiar el orden de la regla predeterminada.
@@ -39,12 +41,14 @@ Si más de un usuario tiene la misma cuota, los nombres de los usuarios se muest
 
 
 
+[[how-you-add-comments]]
 == Cómo se añaden comentarios
 
 Puede agregar comentarios para explicar las reglas. Debe usar # al principio de cada comentario y cada línea enumera un comentario separado.
 
 
 
+[[rules-syntax]]
 == Sintaxis de reglas
 
 La sintaxis de la regla debe ser una de las siguientes:
@@ -61,6 +65,7 @@ si es una palabra clave y es minúscula. El operador puede contener o ==. El ID 
 
 
 
+[[command-buttons]]
 == Botones de comando
 
 Los botones de comando permiten guardar, validar o cancelar las reglas creadas:

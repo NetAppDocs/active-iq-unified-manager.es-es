@@ -31,6 +31,7 @@ Al hacer clic en los eventos de esta página, se abre la página de detalles Eve
 
 
 
+[[view-protection-status-of-volumes-protected-by-snapshot-copies]]
 == Consulte el estado de protección de volúmenes protegidos por copias de Snapshot
 
 *Descripción general de las copias Snapshot*: Descripción general de los volúmenes protegidos por copias Snapshot, como:
@@ -49,6 +50,7 @@ Al hacer clic en los eventos de esta página, se abre la página de detalles Eve
 
 
 
+[[points-to-note-for-snapshot-copies]]
 === Puntos que tener en cuenta para las copias Snapshot
 
 * Para el recuento de los volúmenes protegidos por copias Snapshot, se consideran los volúmenes de origen y destino.
@@ -60,6 +62,7 @@ Al hacer clic en los eventos de esta página, se abre la página de detalles Eve
 
 
 
+[[view-protection-status-for-snapmirror-relationships]]
 == Consulte el estado de protección de las relaciones de SnapMirror
 
 *Descripción general de SnapMirror*: Descripción general de los volúmenes protegidos por políticas de SnapMirror, como:
@@ -80,6 +83,7 @@ Al hacer clic en los eventos de esta página, se abre la página de detalles Eve
 
 
 
+[[points-to-note-for-snapmirror-relationships]]
 === Puntos que tener en cuenta sobre las relaciones de SnapMirror
 
 * Para tener en cuenta las relaciones de SnapMirror, se cuentan los volúmenes de origen, que están habilitados para lectura y escritura. Los volúmenes de destino y raíz no se consideran.
@@ -92,6 +96,7 @@ Al hacer clic en los eventos de esta página, se abre la página de detalles Eve
 
 
 
+[[view-clusters-protected-by-metrocluster-configuration]]
 == Ver clústeres protegidos por la configuración de MetroCluster
 
 El panel *Protección MetroCluster* de la página *Protección de datos* muestra el número de clústeres protegidos o no protegidos por la configuración de MetroCluster sobre FC o IP en su sitio. Al hacer clic en los gráficos de barras de este panel, se desplaza a la página Clusters donde los detalles del clúster se filtran en función de los clústeres protegidos o no protegidos. Para obtener información acerca de cómo supervisar la configuración de MetroCluster, consulte link:../storage-mgmt/task_monitor_metrocluster_configurations.html["Supervisar las configuraciones de MetroCluster"].

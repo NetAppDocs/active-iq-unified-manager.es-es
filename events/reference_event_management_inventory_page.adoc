@@ -17,6 +17,7 @@ La información de esta página se actualiza automáticamente cada 5 minutos par
 
 
 
+[[filter-components]]
 == Componentes del filtro
 
 Le permite personalizar la información que aparece en la lista de eventos. Puede refinar la lista de eventos que se muestran utilizando los siguientes componentes:
@@ -31,6 +32,7 @@ Esto incluye elementos como todos los eventos activos (nuevos y reconocidos), ev
 
 
 
+[[command-buttons]]
 == Botones de comando
 
 Los botones de comando le permiten realizar las siguientes tareas:
@@ -86,6 +88,7 @@ Permite elegir las columnas que se muestran en la página y seleccionar el orden
 
 
 
+[[events-list]]
 == Lista Events
 
 Muestra detalles de todos los eventos ordenados por tiempo activado.

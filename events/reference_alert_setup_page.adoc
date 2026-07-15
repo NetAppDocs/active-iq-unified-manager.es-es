@@ -17,6 +17,7 @@ Debe tener el rol de administrador de aplicaciones o de administrador del almace
 
 
 
+[[command-buttons]]
 == Botones de comando
 
 * *Agregar*
@@ -51,6 +52,7 @@ Permite habilitar o deshabilitar el envío de alertas cuando los eventos se muev
 
 
 
+[[list-view]]
 == Vista de lista
 
 La vista de lista muestra, en formato de tabla, información sobre las alertas que se crean. Puede utilizar los filtros de columnas para personalizar los datos que se muestran. También puede seleccionar una alerta para ver más información sobre ella en el área de detalles.
@@ -79,6 +81,7 @@ Especifica la frecuencia (en minutos) con la que el servidor de administración 
 
 
 
+[[details-area]]
 == El área Detalles
 
 El área de detalles proporciona más información sobre la alerta seleccionada.

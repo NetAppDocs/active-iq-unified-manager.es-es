@@ -22,6 +22,7 @@ Una regla de grupo es un criterio que se define para habilitar los objetos de al
 
 
 
+[[conditions]]
 == Condiciones
 
 Puede crear varios grupos de condiciones y cada grupo de condiciones puede tener una o más condiciones. Puede aplicar todos los grupos de condiciones definidos en una regla de grupo para los grupos con el fin de especificar qué objetos de almacenamiento se incluyen en el grupo.
@@ -93,6 +94,7 @@ El campo valor cambia según el operando seleccionado.
 
 
 
+[[example-of-a-group-rule-with-conditions]]
 == Ejemplo de una regla de grupo con condiciones
 
 Considere un grupo de condiciones para un volumen con las dos condiciones siguientes:
@@ -105,12 +107,14 @@ Este grupo de condiciones selecciona todos los volúmenes que incluyen «'vol'»
 
 
 
+[[condition-groups]]
 == Grupos de condiciones
 
 Los grupos de condiciones se ejecutan mediante lógico O y, a continuación, se aplican a los objetos de almacenamiento. Los objetos de almacenamiento deben satisfacer uno de los grupos de condición que se incluirán en un grupo. Se combinan los objetos de almacenamiento de todos los grupos de condiciones. Puede utilizar grupos de condiciones para aumentar el alcance de los objetos de almacenamiento que se incluirán en un grupo.
 
 
 
+[[example-of-a-group-rule-with-condition-groups]]
 == Ejemplo de una regla de grupo con grupos de condiciones
 
 Debe tener en cuenta dos grupos de condiciones para un volumen, con cada grupo que contiene las dos condiciones siguientes:

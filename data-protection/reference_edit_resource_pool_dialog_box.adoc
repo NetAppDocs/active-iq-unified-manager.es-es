@@ -15,6 +15,7 @@ Puede utilizar el cuadro de diálogo Editar pool de recursos para cambiar el nom
 
 
 
+[[text-boxes]]
 == Cuadros de texto
 
 Los cuadros de texto permiten cambiar la siguiente información para el conjunto de recursos seleccionado:
@@ -31,6 +32,7 @@ Permite introducir una nueva descripción.
 
 
 
+[[command-buttons]]
 == Botones de comando
 
 Los botones de comando le permiten realizar las siguientes tareas:

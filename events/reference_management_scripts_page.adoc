@@ -17,6 +17,7 @@ La página Scripts permite añadir o eliminar scripts de Unified Manager.
 
 
 
+[[command-buttons]]
 == Botones de comando
 
 * *Agregar*
@@ -31,6 +32,7 @@ Elimina la secuencia de comandos seleccionada.
 
 
 
+[[list-view]]
 == Vista de lista
 
 La vista de lista muestra, en formato de tabla, los scripts que se añadieron a Unified Manager.

@@ -24,6 +24,7 @@ Los criterios de seguridad para los clústeres de ONTAP, las máquinas virtuales
 
 
 
+[[customize-security-settings]]
 == Personalizar la configuración de seguridad
 
 Para personalizar la configuración para fines de supervisión de cumplimiento según corresponda a su entorno de ONTAP, siga estos pasos:
@@ -42,6 +43,7 @@ Los parámetros de cumplimiento de normativas de seguridad que se habilitan o de
 
 
 
+[[customize-autosupport-and-authentication-settings]]
 == Personalizar la configuración de AutoSupport y autenticación
 
 En la sección *Configuración de AutoSupport*, puede especificar si se va a utilizar el transporte HTTPS para enviar mensajes AutoSupport desde ONTAP.

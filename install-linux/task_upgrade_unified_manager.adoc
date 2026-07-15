@@ -90,6 +90,7 @@ Introduzca la dirección IP o URL especificada en una nueva ventana de un explor
 
 
 
+[[additional-steps-to-perform-for-missing-packages]]
 == Pasos adicionales que se deben realizar para los paquetes que faltan
 
 Si hay algún paquete que falte en su sitio durante la actualización, o si su sistema no está conectado a Internet, o si no está utilizando los repositorios de Red Hat Enterprise Linux, realice los pasos siguientes para determinar si falta algún paquete necesario y descargue esos paquetes.

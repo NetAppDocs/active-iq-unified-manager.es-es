@@ -22,6 +22,7 @@ El flujo de trabajo supone que el LUN o el recurso compartido de archivos se han
 ====
 
 
+[[modify-file-shares]]
 == Modificar recursos compartidos de archivos
 
 Al modificar un recurso compartido de archivos, puede actualizar los siguientes parámetros:
@@ -191,6 +192,7 @@ Vea los detalles del recurso compartido de archivos en el resultado.
 
 
 
+[[update-luns]]
 == Actualizar LUN
 
 Al actualizar una LUN, puede modificar los siguientes parámetros:

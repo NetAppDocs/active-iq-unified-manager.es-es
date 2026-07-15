@@ -15,6 +15,7 @@ Puede usar la página de detalles Aggregate / Health para ver información detal
 
 
 
+[[command-buttons]]
 == Botones de comando
 
 [NOTE]
@@ -48,6 +49,7 @@ Le permite ir a la vista Estado: Todos los agregados.
 
 
 
+[[capacity-tab]]
 == Pestaña Capacity
 
 En la pestaña capacidad, se muestra información detallada sobre el agregado seleccionado, como la capacidad, los umbrales y la tasa de crecimiento diario.
@@ -204,6 +206,7 @@ Puede seleccionar el gráfico que desea ver en las listas desplegables. Puede or
 
 
 
+[[disk-information-tab]]
 == Pestaña Disk Information
 
 Muestra información detallada sobre los discos del agregado seleccionado, incluido el tipo y el tamaño de RAID y el tipo de discos utilizados en el agregado. La ficha también muestra gráficamente los grupos RAID y los tipos de discos utilizados (como SAS, ATA, FCAL, SSD o VMDISK). Es posible ver más información, como la bahía de disco, la bandeja y la velocidad de rotación, colocando el cursor sobre los discos de paridad y los discos de datos.
@@ -385,6 +388,7 @@ Muestra el nombre del nivel de cloud, si ha configurado un agregado habilitado p
 
 
 
+[[configuration-tab]]
 == Pestaña Configuration
 
 En la pestaña Configuration, se muestran detalles sobre el agregado seleccionado, como el nodo del clúster, el tipo de bloque, el tipo de RAID, el tamaño de RAID y el número de grupos RAID:
@@ -456,6 +460,7 @@ Muestra si el cifrado SSL está activado para el nivel de nube.
 
 
 
+[[history-area]]
 == Historial
 
 El área History muestra gráficos que proporcionan información sobre la capacidad del agregado seleccionado. Además, puede hacer clic en el botón *Exportar* para crear un informe en formato CSV para el gráfico que está viendo.
@@ -480,6 +485,7 @@ Muestra la tendencia en la forma en que se utiliza la capacidad agregada en func
 
 
 
+[[events-list]]
 == Lista Events
 
 En la lista Eventos se muestran detalles sobre eventos nuevos y reconocidos:
@@ -500,6 +506,7 @@ Muestra el tiempo transcurrido desde que se generó el evento. Si el tiempo tran
 
 
 
+[[related-devices-pane]]
 == Panel Related Devices
 
 El panel Related Devices permite ver el nodo del clúster, los volúmenes y los discos relacionados con el agregado:
@@ -528,6 +535,7 @@ Muestra el número de discos del agregado seleccionado.
 
 
 
+[[related-alerts-pane]]
 == Panel Related Alerts
 
 El panel Related Alerts permite ver la lista de alertas creadas para el agregado seleccionado. También es posible añadir una alerta si se hace clic en el enlace Add Alert o editar una alerta existente haciendo clic en el nombre de la alerta.

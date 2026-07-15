@@ -15,6 +15,7 @@ Los eventos de tarjeta Flash le proporcionan información sobre el estado de las
 
 
 
+[[impact-area-availability]]
 == Área de impacto: Disponibilidad
 
 |===

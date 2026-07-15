@@ -49,6 +49,7 @@ El nombre del paquete de soporte se proporciona al generarlo mediante la consola
 
 
 
+[[examples]]
 == Ejemplos
 
 En el ejemplo siguiente se utiliza SCP para recuperar el paquete de soporte:

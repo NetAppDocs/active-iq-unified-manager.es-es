@@ -15,6 +15,7 @@ Los eventos de suministros de alimentación le proporcionan información sobre e
 
 
 
+[[impact-area-availability]]
 == Área de impacto: Disponibilidad
 
 |===

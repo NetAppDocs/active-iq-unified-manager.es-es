@@ -27,6 +27,7 @@ Debe tener el rol de administrador de aplicaciones o de administrador del almace
 
 
 
+[[example-of-configuring-a-condition-for-an-annotation-rule]]
 == Ejemplo de configuración de una condición para una regla de anotación
 
 Considere una condición para el tipo de objeto SVM, donde el nombre del objeto contiene «mvm_data».

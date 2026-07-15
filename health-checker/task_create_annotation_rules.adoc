@@ -57,6 +57,7 @@ Un grupo de condiciones
 
 
 
+[[example-of-creating-an-annotation-rule]]
 == Ejemplo de creación de una regla de anotación
 
 Realice los siguientes pasos en el cuadro de diálogo Agregar regla de anotación para crear una regla de anotación, incluida la configuración de una condición y la adición de un grupo de condiciones:

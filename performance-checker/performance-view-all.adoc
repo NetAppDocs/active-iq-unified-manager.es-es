@@ -21,6 +21,7 @@ Todos los campos de estas páginas se pueden utilizar en vistas personalizadas y
 
 
 
+[[performance-all-clusters-view]]
 == Rendimiento: Vista All Clusters
 
 La vista Performance: All Clusters muestra una descripción general de los eventos de rendimiento, los datos y la información de configuración para cada clúster supervisado por una instancia de Unified Manager. Esta página permite supervisar el rendimiento de los clústeres y solucionar problemas de rendimiento y eventos de umbral.
@@ -44,6 +45,7 @@ NOTE: Si se instalan diferentes versiones del software ONTAP en los nodos del cl
 
 
 
+[[performance-all-volumes-view]]
 == Rendimiento: Vista de todos los volúmenes
 
 Performance: All Volumes View muestra información general de los eventos de rendimiento, los datos de contador y la información de configuración de cada volumen FlexVol y volumen FlexGroup que supervisa una instancia de Unified Manager. Esto permite supervisar rápidamente el rendimiento de los volúmenes y solucionar problemas de rendimiento y eventos de umbral.
@@ -75,6 +77,7 @@ Consulte los siguientes enlaces para obtener más información:
 
 
 
+[[performance-all-aggregates-view]]
 == Rendimiento: Vista de todos los agregados
 
 La vista rendimiento: Todos los agregados muestra una descripción general de los eventos de rendimiento, los datos y la información de configuración de cada agregado supervisado por una instancia de Unified Manager. Esta página le permite supervisar el rendimiento de los agregados y solucionar problemas de rendimiento y eventos de umbral.
@@ -102,6 +105,7 @@ A continuación se muestran algunos campos importantes en la vista Performance: 
 
 
 
+[[performance-all-nodes-view]]
 == Rendimiento: Vista de todos los nodos
 
 La vista rendimiento: Todos los nodos muestra información general de los eventos de rendimiento, los datos y la información de configuración de cada nodo que supervisa una instancia de Unified Manager. Esto permite supervisar rápidamente el rendimiento de los nodos y solucionar problemas de rendimiento y eventos de umbral.
@@ -120,6 +124,7 @@ Consulte los siguientes enlaces para obtener más información:
 
 
 
+[[performance-all-storage-vms-view]]
 == Rendimiento: Vista de todas las máquinas virtuales de almacenamiento
 
 La vista rendimiento: All Storage VMs muestra información general sobre los eventos de rendimiento, los datos y la información de configuración para cada máquina virtual de almacenamiento (SVM) que supervisa una instancia de Unified Manager. Esto le permite supervisar rápidamente el rendimiento de las SVM y solucionar problemas de rendimiento y eventos de umbral. En el campo latencia de esta página, se informa del tiempo de respuesta medio de todas las solicitudes de I/o, expresadas en milisegundos por operación.
@@ -135,6 +140,7 @@ Consulte los siguientes enlaces para obtener más información:
 
 
 
+[[performance-all-luns-view]]
 == Rendimiento: Vista de todas las LUN
 
 La vista rendimiento: Todas las LUN muestra información general de los eventos de rendimiento, los datos y la información de configuración de cada LUN que supervisa una instancia de Unified Manager. Esto le permite supervisar rápidamente el rendimiento de sus LUN y solucionar problemas de rendimiento y eventos de umbral.
@@ -154,6 +160,7 @@ Consulte los siguientes enlaces para obtener más información:
 
 
 
+[[performance-all-nvme-namespaces-view]]
 == Performance: Toda la vista NVMe Namespaces
 
 La vista Performance: All NVMe Namespaces muestra información general sobre los eventos de rendimiento, los datos y la información de configuración de cada espacio de nombres de NVMe que se supervisa mediante una instancia de Unified Manager. Esto permite supervisar rápidamente el rendimiento y el estado de los espacios de nombres, así como resolver problemas y eventos de umbral.
@@ -168,6 +175,7 @@ Consulte los siguientes enlaces para obtener más información:
 
 
 
+[[performance-all-network-interfaces-view]]
 == Performance: Vista de todas las interfaces de red
 
 La vista Performance: All Network interfaces muestra una descripción general de los eventos de rendimiento, los datos y la información de configuración de cada interfaz de red (LIF) que está supervisando mediante esta instancia de Unified Manager. Esta página le permite supervisar rápidamente el rendimiento de las interfaces y solucionar problemas de rendimiento y eventos de umbral. A continuación se muestran algunos campos importantes en la vista Performance: All Network interfaces.
@@ -184,6 +192,7 @@ NOTE: Las interfaces que se enumeran en esta página incluyen LIF de datos, LIF 
 
 
 
+[[performance-all-ports-view]]
 == Rendimiento: Vista de todos los puertos
 
 La vista rendimiento: Todos los puertos muestra una descripción general de los eventos de rendimiento, los datos y la información de configuración de cada puerto que supervisa una instancia de Unified Manager. Esto permite supervisar rápidamente el rendimiento de los puertos y solucionar problemas de rendimiento y eventos de umbral. Para un rol de puerto, se muestra la función de puerto de red, ya sea Data o Cluster. Los puertos FCP no pueden tener un rol y el rol se muestra como N/A.
@@ -199,6 +208,7 @@ Consulte los siguientes enlaces para obtener más información:
 
 
 
+[[performance-qos-policy-groups-view]]
 == Rendimiento: Vista QoS Policy Groups
 
 La vista QoS Policy Groups muestra los grupos de políticas de calidad de servicio disponibles en los clústeres que supervisa Unified Manager. Esto incluye las políticas de calidad de servicio tradicionales, las políticas de calidad de servicio adaptativas y las políticas de calidad de servicio asignadas mediante los niveles de servicio de rendimiento.

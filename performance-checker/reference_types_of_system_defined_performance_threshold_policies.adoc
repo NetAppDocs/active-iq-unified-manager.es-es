@@ -22,6 +22,7 @@ Si recibe eventos innecesarios de cualquier política de umbral de rendimiento d
 
 
 
+[[cluster-threshold-policies]]
 == Políticas de umbral de clúster
 
 Las políticas de umbral de rendimiento del clúster definidas por el sistema se asignan, de forma predeterminada, a cada clúster que supervisa Unified Manager:
@@ -44,6 +45,7 @@ Para ello, compara el valor de capacidad utilizada de todos los agregados del cl
 
 
 
+[[node-threshold-policies]]
 == Políticas de umbral de nodo
 
 Las políticas de umbral de rendimiento de nodo definidas por el sistema se asignan, de forma predeterminada, a cada nodo en los clústeres que supervisa Unified Manager:
@@ -79,6 +81,7 @@ La política de «fragmentación de disco de nodo» analiza agregados de solo HD
 
 
 
+[[aggregate-threshold-policies]]
 == Políticas de umbral de agregado
 
 La política de umbral de rendimiento de agregado definida por el sistema se asigna de forma predeterminada a cada agregado de los clústeres que supervisa Unified Manager:
@@ -105,6 +108,7 @@ La política de «discos agregados agregados «sobreutilizados» analiza agregad
 ====
 
 
+[[workload-latency-threshold-policies]]
 == Políticas de umbral de latencia de carga de trabajo
 
 Las políticas de umbral de latencia de carga de trabajo definidas por el sistema se asignan a cualquier carga de trabajo que tenga una política de nivel de servicio de rendimiento configurada que tenga un valor definido de «latencia esperada»:
@@ -120,6 +124,7 @@ Para ello, se buscan cargas de trabajo que hayan superado el valor de latencia e
 
 
 
+[[qos-threshold-policies]]
 == Políticas de umbral de calidad de servicio
 
 Las políticas de umbral de rendimiento de calidad de servicio definidas por el sistema se asignan a cualquier carga de trabajo que tenga una política de rendimiento máximo de calidad de servicio de ONTAP configurada (IOPS, IOPS/TB o MB/s). Unified Manager activa un evento cuando el valor de rendimiento de la carga de trabajo es un 15 % menor que el valor de calidad de servicio configurado:

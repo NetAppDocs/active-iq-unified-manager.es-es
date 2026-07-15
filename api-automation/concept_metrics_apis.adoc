@@ -89,6 +89,7 @@ Más de 72 horas. La duración sobre la que se calcula esta muestra se represent
 |===
 
 
+[[output-sample-for-metrics-apis]]
 == Ejemplo de salida para API de métricas
 
 Por ejemplo, la `/datacenter/cluster/nodes/\{key}/metrics` API recupera los siguientes detalles (entre otros) de un nodo:
@@ -166,6 +167,7 @@ NOTE: El percentil 95 del valor resumido indica que el 95% de las muestras recog
 ----
 
 
+[[output-sample-for-analytics-apis]]
 == Muestra de salida para las API de análisis
 
 Por ejemplo, la `/datacenter/cluster/nodes/analytics` API recupera los siguientes valores (entre otros) de todos los nodos:
@@ -208,6 +210,7 @@ Por ejemplo, la `/datacenter/cluster/nodes/analytics` API recupera los siguiente
 ----
 
 
+[[list-of-the-available-apis]]
 == Lista de las API disponibles
 
 En la siguiente tabla se describe el `/metrics` y.. `/analytics` API más detalles.

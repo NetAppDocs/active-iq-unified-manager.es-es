@@ -15,6 +15,7 @@ El cuadro de diálogo Resynchronize permite volver a sincronizar los datos de un
 
 
 
+[[resynchronization-options-tab]]
 == Pestaña Resynchronization Options
 
 La pestaña Opciones de resincronización permite configurar la prioridad de transferencia y la tasa de transferencia máxima para la relación de protección que se está resincronizando.
@@ -31,6 +32,7 @@ Especifica la tasa máxima a la que se transfieren los datos entre los clústere
 
 
 
+[[source-snapshot-copies-tab]]
 == Pestaña Source Snapshot Copies
 
 La pestaña Source Snapshot Copies muestra la siguiente información sobre la copia Snapshot de origen que se utiliza para la transferencia básica:
@@ -55,6 +57,7 @@ Muestra la copia Snapshot que se usa para la transferencia de datos. Al hacer cl
 
 
 
+[[command-buttons]]
 == Botones de comando
 
 * *Enviar*

@@ -15,6 +15,7 @@ Los eventos de relaciones de mirroring y almacén asíncronos le proporcionan in
 
 
 
+[[impact-area-protection]]
 == Zona de impacto: Protección
 
 [NOTE]

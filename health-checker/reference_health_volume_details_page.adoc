@@ -17,6 +17,7 @@ Debe tener el rol de administrador de aplicaciones o de administrador del almace
 
 
 
+[[command-buttons]]
 == Botones de comando
 
 Los botones de comando permiten realizar las siguientes tareas para el volumen seleccionado:
@@ -106,6 +107,7 @@ Permite navegar hasta la vista Estado: Todos los volúmenes.
 
 
 
+[[capacity-tab]]
 == Pestaña Capacity
 
 En la pestaña capacidad, se muestran detalles sobre el volumen seleccionado, como la capacidad física, la capacidad lógica, la configuración de umbral, la capacidad de cuota y información sobre cualquier operación de movimiento de volúmenes:
@@ -308,6 +310,7 @@ También muestra la cantidad de operaciones de movimiento de volúmenes que se r
 
 
 
+[[configuration-tab]]
 == Pestaña Configuration
 
 En la pestaña Configuration, se muestran detalles sobre el volumen seleccionado, como la política de exportación, el tipo de RAID, la capacidad y las funciones relacionadas con la eficiencia del almacenamiento del volumen:
@@ -422,6 +425,7 @@ Especifica si las copias Snapshot automáticas están habilitadas o deshabilitad
 
 
 
+[[protection-tab]]
 == Ficha Protección
 
 En la pestaña Protection, se muestran detalles de protección sobre el volumen seleccionado, como información de desfase, tipo de relación y topología de la relación.
@@ -659,6 +663,7 @@ Este gráfico no está disponible para los volúmenes que tienen relaciones de p
 
 
 
+[[history-area]]
 == Historial
 
 En el área Historial, se muestran gráficos que ofrecen información sobre las reservas de capacidad y espacio del volumen seleccionado. Además, puede hacer clic en el botón *Exportar* para crear un informe en formato CSV para el gráfico que está viendo.
@@ -689,6 +694,7 @@ Muestra el umbral de advertencia de Snapshot y de reserva como gráficos de lín
 
 
 
+[[events-list]]
 == Lista Events
 
 En la lista Eventos se muestran detalles sobre eventos nuevos y reconocidos:
@@ -709,12 +715,14 @@ Muestra el tiempo transcurrido desde que se generó el evento. Si el tiempo tran
 
 
 
+[[related-annotations-pane]]
 == Panel Anotaciones relacionadas
 
 El panel Anotaciones relacionadas permite ver detalles de anotaciones asociadas al volumen seleccionado. Los detalles incluyen el nombre de la anotación y los valores de anotación que se aplican al volumen. También puede eliminar anotaciones manuales del panel Anotaciones relacionadas.
 
 
 
+[[related-devices-pane]]
 == Panel Related Devices
 
 El panel Related Devices permite ver y desplazarse a las SVM, los agregados, los qtrees, las LUN y las copias Snapshot relacionadas con el volumen:
@@ -763,12 +771,14 @@ Muestra el nombre y la capacidad del volumen principal de un volumen FlexClone s
 
 
 
+[[related-groups-pane]]
 == Panel Related Groups
 
 El panel Related Groups permite ver la lista de grupos asociados con el volumen seleccionado.
 
 
 
+[[related-alerts-pane]]
 == Panel Related Alerts
 
 El panel Related Alerts permite ver la lista de alertas creadas para el volumen seleccionado. También es posible añadir una alerta si se hace clic en el enlace Add Alert o editar una alerta existente haciendo clic en el nombre de la alerta.

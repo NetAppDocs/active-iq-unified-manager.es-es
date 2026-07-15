@@ -17,6 +17,7 @@ Antes de aprovisionar los volúmenes de recursos compartidos de archivos, asegú
 
 
 
+[[view-file-shares]]
 == Ver recursos compartidos de archivos
 
 Puede usar el siguiente método para ver los volúmenes para compartir archivos disponibles en el entorno de Unified Manager. Cuando añadió un clúster ONTAP como origen de datos en Active IQ Unified Manager, las cargas de trabajo de almacenamiento para esos clústeres se añaden automáticamente a la instancia de Unified Manager. Esta API recupera los recursos compartidos de archivos de forma automática y manual se añaden a la instancia de Unified Manager. Para ver los detalles de un recurso compartido de archivos específico, ejecute esta API con la clave de recurso compartido de archivos.
@@ -38,6 +39,7 @@ OBTENGA
 |===
 
 
+[[add-file-shares]]
 == Agregar recursos compartidos de archivos
 
 Puede utilizar el siguiente método para añadir recursos compartidos de archivos CIFS y NFS en la SVM. Debe introducir los detalles del recurso compartido de archivos que desea crear como parámetros de entrada. No se puede usar esta API para añadir volúmenes de FlexGroup.
@@ -64,6 +66,7 @@ En función de si se proporcionan los parámetros de la lista de control de acce
 
 
 
+[[delete-file-shares]]
 == Eliminar recursos compartidos de archivos
 
 Puede utilizar el siguiente método para eliminar un recurso compartido de archivos específico. Es necesario introducir la clave de recurso compartido de archivos como parámetro de entrada para eliminar un recurso compartido de archivos concreto.
@@ -83,6 +86,7 @@ ELIMINAR
 |===
 
 
+[[modify-file-shares]]
 == Modificar recursos compartidos de archivos
 
 Puede utilizar el método siguiente para modificar un recurso compartido de archivos y actualizar sus propiedades.

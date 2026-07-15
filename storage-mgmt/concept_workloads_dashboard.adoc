@@ -28,6 +28,7 @@ La página Workloads tiene las siguientes dos secciones:
 
 
 
+[[workloads-overview-section]]
 == Sección general de las cargas de trabajo
 
 La sección de información general de las cargas de trabajo ofrece información acumulativa de un vistazo de las cargas de trabajo de almacenamiento. El estado de las cargas de trabajo de almacenamiento se muestra en función de los niveles de servicio de rendimiento asignados y sin asignar.
@@ -54,6 +55,7 @@ La subsección conformidad por niveles de servicio de rendimiento muestra el nú
 
 
 
+[[data-center-overview-section]]
 == Sección de información general del centro de datos
 
 En la sección de información general del centro de datos se representa gráficamente la capacidad disponible y utilizada, además de las IOPS para todos los clústeres del centro de datos. Con estos datos, debe gestionar la capacidad y las IOPS de las cargas de trabajo de almacenamiento. En la sección también se muestra la siguiente información de las cargas de trabajo de almacenamiento en todos los clústeres:

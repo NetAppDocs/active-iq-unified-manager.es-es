@@ -15,6 +15,7 @@ Necesita crear extremos de acceso o interfaces lógicas (LIF), que se necesitan 
 
 
 
+[[view-access-endpoints]]
 == Ver extremos de acceso
 
 Se puede ver una lista de extremos de acceso en el entorno de Unified Manager mediante el siguiente método. Para consultar una lista de extremos de acceso de una SVM, una LUN o un recurso compartido de archivos concretos, debe introducir el identificador único de la SVM, la LUN o el recurso compartido de archivos. También es posible introducir la clave de extremo de acceso única para recuperar los detalles del extremo de acceso en particular.
@@ -36,6 +37,7 @@ OBTENGA
 |===
 
 
+[[add-access-endpoints]]
 == Agregar extremos de acceso
 
 Puede crear extremos de acceso personalizados y asignarle propiedades necesarias. Debe introducir los detalles del extremo de acceso que desea crear como parámetros de entrada. Puede usar esta API, o la interfaz de línea de comandos de System Manager o ONTAP para crear un extremo de acceso en cada nodo. Tanto las direcciones IPv4 como IPv6 son compatibles con la creación de extremos de acceso.
@@ -60,6 +62,7 @@ PUBLICAR
 |===
 
 
+[[delete-access-endpoints]]
 == Eliminar extremos de acceso
 
 Puede eliminar un extremo de acceso específico mediante el siguiente método. Debe proporcionar la clave de extremo de acceso como parámetro de entrada para eliminar un extremo de acceso determinado.
@@ -79,6 +82,7 @@ ELIMINAR
 |===
 
 
+[[modify-access-endpoints]]
 == Modificar los extremos de acceso
 
 Puede modificar un extremo de acceso y actualizar sus propiedades mediante el método siguiente. Debe proporcionar la clave de extremo de acceso para modificar un extremo de acceso determinado. También debe introducir la propiedad que desea actualizar junto con su valor.

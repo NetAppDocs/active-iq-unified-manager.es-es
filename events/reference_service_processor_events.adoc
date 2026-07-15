@@ -15,6 +15,7 @@ Los eventos de procesador de servicios le proporcionan información sobre el est
 
 
 
+[[impact-area-availability]]
 == Área de impacto: Disponibilidad
 
 |===

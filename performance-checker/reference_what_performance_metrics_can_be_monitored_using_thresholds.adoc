@@ -15,6 +15,7 @@ Algunos contadores de rendimiento comunes, como IOPS y MB/s, pueden tener umbral
 
 
 
+[[available-performance-counters]]
 == Contadores de rendimiento disponibles
 
 |===

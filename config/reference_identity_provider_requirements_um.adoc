@@ -17,6 +17,7 @@ Debe introducir el URI y los metadatos de Unified Manager en el servidor IDP. Pu
 
 
 
+[[supported-encryption-standards]]
 == Estándares de cifrado compatibles
 
 * Estándar de cifrado avanzado (AES): AES-128 y AES-256
@@ -25,6 +26,7 @@ Debe introducir el URI y los metadatos de Unified Manager en el servidor IDP. Pu
 
 
 
+[[validated-identity-providers]]
 == Proveedores de identidades validados
 
 * Shibboleth
@@ -33,6 +35,7 @@ Debe introducir el URI y los metadatos de Unified Manager en el servidor IDP. Pu
 
 
 
+[[adfs-configuration-requirements]]
 == Requisitos de configuración de ADFS
 
 * Debe definir tres reglas de reclamación en el siguiente orden que se requieren para que Unified Manager analice las respuestas SAML de ADFS para esta entrada de confianza de parte confiable.
@@ -83,6 +86,7 @@ http://www.torivar.com/2016/03/22/adfs-3-0-disable-revocation-check-windows-2012
 
 
 
+[[other-configuration-requirements]]
 == Otros requisitos de configuración
 
 * La desviación del reloj de Unified Manager se establece en 5 minutos, por lo que la diferencia de hora entre el servidor IDP y el servidor Unified Manager no puede ser superior a 5 minutos o se producirá un error en la autenticación.

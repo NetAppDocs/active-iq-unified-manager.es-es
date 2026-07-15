@@ -15,6 +15,7 @@ La página Summary muestra gráficos de contadores que contienen detalles sobre 
 
 
 
+[[charts-and-counter-statistics]]
 == Gráficos y estadísticas de contadores
 
 Los gráficos resumidos proporcionan una visión general rápida de alto nivel para el último período de 72 horas y le ayudan a identificar posibles problemas que requieren una investigación adicional.
@@ -135,6 +136,7 @@ El gráfico de contadores de uso muestra el porcentaje de utilización del objet
 
 
 
+[[events]]
 == Eventos
 
 En la tabla del historial de eventos, donde corresponda, se enumeran los eventos más recientes que se han producido en ese objeto. Al hacer clic en el nombre del evento se muestran los detalles del evento en la página Event Details.

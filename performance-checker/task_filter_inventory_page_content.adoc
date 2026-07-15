@@ -57,6 +57,7 @@ Puede agregar filtros mediante el panel filtrado.
 
 
 
+[[filtering-example]]
 == Ejemplo de filtrado
 
 La ilustración muestra el panel filtrado con tres filtros. El botón *+Add Filter* aparece cuando tiene menos de cuatro filtros como máximo.

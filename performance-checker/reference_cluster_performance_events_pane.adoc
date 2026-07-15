@@ -15,6 +15,7 @@ El panel Cluster Performance Events muestra estadísticas de rendimiento y todos
 
 
 
+[[all-events-on-this-cluster-pane]]
 == Todos los eventos en este panel Cluster
 
 En el panel todos los eventos de este clúster se muestran todos los eventos de rendimiento de clúster activos durante las 72 horas anteriores. El total de eventos activos se muestra en el extremo izquierdo; este número representa el total de todos los eventos nuevos y reconocidos para todos los objetos de almacenamiento de este clúster. Puede hacer clic en el enlace total Active Events para ir a la página Events Inventory, que se ha filtrado para mostrar estos eventos.
@@ -37,6 +38,7 @@ Puede mostrar u ocultar eventos críticos y de advertencia en el gráfico de ren
 
 
 
+[[counter-panels]]
 == Paneles de contadores
 
 Los paneles de contadores muestran eventos de actividad y rendimiento del clúster de las 72 horas anteriores e incluyen los siguientes contadores:

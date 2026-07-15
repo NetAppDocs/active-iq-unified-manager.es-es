@@ -42,6 +42,7 @@ Los parámetros de IOPS para las cargas de trabajo se generan de forma dinámica
 
 
 
+[[manage-workloads-by-assigning-psls]]
 == Gestionar cargas de trabajo mediante la asignación de PSL
 
 Puede acceder a los archivos DLL desde la página *políticas* > *niveles de servicio de rendimiento* y utilizando las API del proveedor de almacenamiento. La gestión de las cargas de trabajo de almacenamiento mediante la asignación de PSU a ellas resulta práctica, ya que no tiene que gestionar de forma individual las cargas de trabajo de almacenamiento. Cualquier modificación también se puede gestionar reasignando otro PSL en lugar de administrarlas individualmente. Unified Manager le ayuda a asignar CAL en sus cargas de trabajo en función de la evaluación interna y las recomendaciones.
@@ -136,6 +137,7 @@ Para obtener más información sobre cómo ayudan las IOPS máximas y los IOPS e
 
 
 
+[[events-generated-for-workloads-breaching-the-threshold-defined-by-psls]]
 === Los eventos generados para cargas de trabajo que traspasa el umbral definido por los archivos DLL
 
 Tenga en cuenta que si las cargas de trabajo superan el valor de latencia esperado durante el 30 % del tiempo durante la hora anterior, Unified Manager genera uno de los siguientes eventos para notificarle un posible problema de rendimiento:
@@ -156,6 +158,7 @@ Para más información, consulte los siguientes enlaces:
 
 
 
+[[system-defined-psls]]
 === PSU definidos por el sistema
 
 En la siguiente tabla se proporciona información acerca de las DLL definidas por el sistema:

@@ -15,6 +15,7 @@ Puede utilizar el cuadro de diálogo Aggregates para seleccionar los agregados q
 
 
 
+[[command-buttons]]
 == Botones de comando
 
 Los botones de comando le permiten realizar las siguientes tareas:
@@ -31,6 +32,7 @@ Descarta los cambios y cierra el cuadro de diálogo agregados.
 
 
 
+[[aggregates-list]]
 == Lista Aggregates
 
 La lista Aggregates muestra (en formato de tabla) los nombres y las propiedades de los agregados supervisados.

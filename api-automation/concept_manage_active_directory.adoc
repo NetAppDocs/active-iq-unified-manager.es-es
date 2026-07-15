@@ -15,6 +15,7 @@ Puede utilizar las API que aparecen aquí para gestionar las asignaciones de Act
 
 
 
+[[view-active-directory-mappings]]
 == Ver las asignaciones de Active Directory
 
 Puede ver los detalles de configuración de las asignaciones de Active Directory para una SVM mediante el siguiente método. Para ver las asignaciones de Active Directory en una SVM, debe introducir la clave de SVM. Para consultar los detalles de una asignación concreta, debe introducir la clave de asignación.
@@ -36,6 +37,7 @@ OBTENGA
 |===
 
 
+[[add-active-directory-mapping]]
 == Agregue la asignación de Active Directory
 
 Puede crear asignaciones de Active Directory en una SVM mediante el método siguiente. Como parámetros de entrada, debe introducir los detalles de asignación.

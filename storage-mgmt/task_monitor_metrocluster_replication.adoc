@@ -20,6 +20,7 @@ Tanto el clúster local como el remoto de la configuración de MetroCluster se d
 
 
 
+[[view-replication-for-metrocluster-over-ip-configurations]]
 == Ver replicación para configuraciones de MetroCluster sobre IP
 
 En el caso de las configuraciones de MetroCluster over IP, el estado de replicación de datos se muestra en la vista de topología de un clúster protegido por MetroCluster mediante IP desde las siguientes vistas del panel de navegación izquierdo de Unified Manager:
@@ -32,6 +33,7 @@ Para obtener más información, consulte link:../storage-mgmt/task_monitor_metro
 
 
 
+[[view-replication-for-metrocluster-over-fc-configurations]]
 == Ver replicación para MetroCluster sobre configuraciones FC
 
 Siga estos pasos para determinar si hay problemas en la replicación de datos para la configuración de MetroCluster over FC.

@@ -15,6 +15,7 @@ Los eventos de batería de NVRAM le ofrecen información acerca del estado de la
 
 
 
+[[impact-area-availability]]
 == Área de impacto: Disponibilidad
 
 |===

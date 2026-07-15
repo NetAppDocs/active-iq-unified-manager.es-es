@@ -39,6 +39,7 @@ Muestra los nombres de las carpetas disponibles para el volumen seleccionado. Al
 
 
 
+[[command-buttons]]
 == Botones de comando
 
 Los botones de comando le permiten realizar las siguientes tareas:

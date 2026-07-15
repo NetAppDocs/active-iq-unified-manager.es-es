@@ -15,6 +15,7 @@ Los componentes de la página Performance/Node Failover Planning se muestran en 
 
 
 
+[[performance-statistics-grid]]
 == Cuadrícula de estadísticas de rendimiento
 
 La página Performance/Node Failover Planning muestra un grid que contiene estadísticas de latencia, IOPS, utilización y capacidad de rendimiento utilizadas.
@@ -49,6 +50,7 @@ Puede hacer clic en el nombre del nodo Partner si desea que se convierta en el o
 
 
 
+[[comparing-pane]]
 == Panel de comparación
 
 La siguiente lista describe los componentes que se muestran en el panel comparar de forma predeterminada:

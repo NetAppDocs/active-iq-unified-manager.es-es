@@ -22,6 +22,7 @@ Una regla de anotación es un criterio que se define para anotar los objetos de 
 
 
 
+[[conditions]]
 == Condiciones
 
 Puede crear varios grupos de condiciones y cada grupo de condiciones puede tener una o más condiciones. Puede aplicar todos los grupos de condiciones definidos en una regla de anotación de una anotación para anotar los objetos de almacenamiento.
@@ -72,6 +73,7 @@ Cuando se selecciona anotación como operando para cualquier objeto de almacenam
 
 
 
+[[example-of-an-annotation-rule-with-conditions]]
 == Ejemplo de regla de anotación con condiciones
 
 Considere una regla de anotación con un grupo de condiciones para un volumen con las dos condiciones siguientes:
@@ -84,12 +86,14 @@ Esta regla de anotación anota todos los volúmenes que incluyen «'vol» en sus
 
 
 
+[[condition-groups]]
 == Grupos de condiciones
 
 Los grupos de condiciones se ejecutan mediante lógico O y, a continuación, se aplican a los objetos de almacenamiento. Los objetos de almacenamiento deben cumplir los requisitos de uno de los grupos de condiciones que se van a anotar. Se anotan los objetos de almacenamiento que cumplen las condiciones de todos los grupos de condiciones. Puede utilizar grupos de condiciones para aumentar el alcance de los objetos de almacenamiento que desea anotar.
 
 
 
+[[example-of-an-annotation-rule-with-condition-groups]]
 == Ejemplo de regla de anotación con grupos de condiciones
 
 Considere una regla de anotación con dos grupos de condiciones para un volumen; cada grupo contiene las dos condiciones siguientes:

@@ -15,6 +15,7 @@ Los eventos de ventiladores le ofrecen información acerca de los ventiladores d
 
 
 
+[[impact-area-availability]]
 == Área de impacto: Disponibilidad
 
 |===

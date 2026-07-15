@@ -17,6 +17,7 @@ Cuando un desastre deshabilita el volumen de origen en la relación de protecci�
 
 
 
+[[before-reverse-resync]]
 == Antes de realizar una resincronización inversa
 
 Muestra el origen y el destino de una relación antes de una operación de resincronización inversa.
@@ -33,6 +34,7 @@ El nombre y la ubicación del volumen de destino antes de una operación de resi
 
 
 
+[[after-reverse-resync]]
 == Tras realizar una resincronización inversa
 
 Muestra el origen y el destino de una relación después de una operación de resincronización de reserva.
@@ -49,6 +51,7 @@ El nombre y la ubicación del volumen de destino después de una operación de r
 
 
 
+[[command-buttons]]
 == Botones de comando
 
 Los botones de comando le permiten realizar las siguientes acciones:

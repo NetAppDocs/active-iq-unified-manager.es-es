@@ -22,6 +22,7 @@ Debe cargar la clave privada junto con la cadena de certificados porque estos ce
 
 
 
+[[format-for-loading-a-certificate-with-an-ec-key-pair]]
 == Formato para cargar un certificado con un par de claves EC
 
 Las curvas permitidas son «'prime256v1» y «slecp384r1». Ejemplo de certificado con un par de EC generado externamente:
@@ -49,6 +50,7 @@ Las curvas permitidas son «'prime256v1» y «slecp384r1». Ejemplo de certifica
 ----
 
 
+[[format-for-loading-a-certificate-with-an-rsa-key-pair]]
 == Formato para cargar un certificado con un par de claves RSA
 
 Los tamaños de claves permitidos del par de claves RSA que pertenece al certificado de host son 2048, 3072 y 4096. Certificado con un par de claves *RSA* generado externamente:
@@ -75,6 +77,7 @@ Una vez cargado el certificado, debe reiniciar la instancia de Active IQ Unified
 
 
 
+[[checks-while-uploading-externally-generated-certificates]]
 == Comprueba la carga de certificados generados externamente
 
 El sistema realiza comprobaciones mientras carga un certificado generado mediante herramientas externas. Si alguna de las comprobaciones falla, se rechaza el certificado. También se incluye una validación para los certificados generados a partir de la CSR dentro del producto y para los certificados generados mediante herramientas externas.

@@ -20,6 +20,7 @@ Solo puede supervisar máquinas virtuales de almacenamiento de datos.
 ====
 
 
+[[command-buttons]]
 == Botones de comando
 
 Los botones de comando le permiten realizar las siguientes tareas para la máquina virtual de almacenamiento seleccionada:
@@ -48,6 +49,7 @@ Permite desplazarse a la vista Estado: Todas las máquinas virtuales de almacena
 
 
 
+[[health-tab]]
 == Estado
 
 La pestaña Estado muestra información detallada sobre los problemas de disponibilidad de datos, capacidad de datos y protección de diversos objetos, como volúmenes, agregados, LIF NAS, LIF SAN, LUN, Protocolos, servicios, recursos compartidos NFS y recursos compartidos CIFS.
@@ -73,6 +75,7 @@ Proporciona una descripción rápida del estado relacionado con la protección d
 
 
 
+[[capacity-tab]]
 == Pestaña Capacity
 
 La pestaña capacidad muestra información detallada sobre la capacidad de datos de la SVM seleccionada.
@@ -152,6 +155,7 @@ Para FlexVol Volumes, se muestra el nombre del agregado que contiene el volumen.
 
 
 
+[[configuration-tab]]
 == Pestaña Configuration
 
 En la pestaña Configuration, se muestran detalles de configuración sobre la máquina virtual de almacenamiento seleccionada, como el clúster, el volumen raíz, el tipo de volúmenes que contiene (volúmenes FlexVol), las políticas y la protección creada en la máquina virtual de almacenamiento:
@@ -252,6 +256,7 @@ Muestra las direcciones IP del servidor DNS o NIS. Cuando el servidor NIS está 
 
 
 
+[[network-interfaces-tab]]
 == Pestaña Network interfaces
 
 La pestaña Network interfaces muestra detalles sobre las interfaces de red de datos (LIF) creadas en la máquina virtual de almacenamiento seleccionada:
@@ -311,6 +316,7 @@ Muestra el nombre del grupo de conmutación por error.
 
 
 
+[[qtrees-tab]]
 == Pestaña Qtrees
 
 La pestaña Qtrees muestra detalles sobre qtrees y sus cuotas. Puede hacer clic en el botón *Editar umbrales* si desea editar la configuración del umbral de estado de la capacidad de qtree para uno o más qtrees.
@@ -399,6 +405,7 @@ Muestra el límite soft del número de archivos permitidos en los qtrees. El val
 
 
 
+[[user-and-group-quotas-tab]]
 == Pestaña User and Group Quotas
 
 Muestra detalles sobre las cuotas de usuario y grupo de usuarios para la máquina virtual de almacenamiento seleccionada. Puede ver información como el estado de la cuota, el nombre del usuario o del grupo de usuarios, los límites de software y de disco duro establecidos en los discos y archivos, la cantidad de espacio en disco y el número de archivos utilizados y el valor de umbral del disco. También puede cambiar la dirección de correo electrónico asociada a un usuario o grupo de usuarios.
@@ -487,6 +494,7 @@ Muestra la dirección de correo electrónico del usuario o grupo de usuarios al 
 
 
 
+[[nfs-shares-tab]]
 == Pestaña NFS Shares
 
 En la pestaña NFS Shares, se muestra información sobre los recursos compartidos de NFS, como su estado, la ruta asociada con el volumen (volúmenes de FlexGroup o volúmenes de FlexVol), los niveles de acceso de los clientes a los recursos compartidos de NFS y la política de exportación definida para los volúmenes que se exportan. Los recursos compartidos de NFS no se mostrarán en las siguientes condiciones: Si el volumen no está montado o si los protocolos asociados con la política de exportación del volumen no contienen recursos compartidos NFS.
@@ -568,6 +576,7 @@ Muestra las reglas que definen el permiso de acceso para los volúmenes que se e
 
 
 
+[[smb-shares-tab]]
 == Pestaña SMB Shares
 
 Muestra información sobre los recursos compartidos de SMB en la máquina virtual de almacenamiento seleccionada. Puede ver información como el estado del recurso compartido de SMB, el nombre del recurso compartido, la ruta asociada con la máquina virtual de almacenamiento, el estado de la ruta de unión del recurso compartido, que contiene el objeto, el estado del volumen que contiene, los datos de seguridad del recurso compartido y las políticas de exportación definidas para el recurso compartido. También puede determinar si existe una ruta NFS equivalente para el recurso compartido de SMB.
@@ -675,6 +684,7 @@ Especifica si hay un equivalente de NFS para el recurso compartido.
 
 
 
+[[san-tab]]
 == Pestaña SAN
 
 Muestra detalles sobre las LUN, los iGroups y los iniciadores de la máquina virtual de almacenamiento seleccionada. De forma predeterminada, se muestra la vista de LUN. Puede ver detalles sobre los iGroups en la pestaña iGroups y detalles sobre los iniciadores en la pestaña iniciadores.
@@ -721,12 +731,14 @@ Muestra el nombre y el tipo del iniciador y la cantidad total de iGroups asignad
 
 
 
+[[related-annotations-pane]]
 == Panel Anotaciones relacionadas
 
 El panel Anotaciones relacionadas permite ver los detalles de anotaciones asociadas a la VM de almacenamiento seleccionada. Los detalles incluyen el nombre de anotación y los valores de anotación que se aplican a la VM de almacenamiento. También puede eliminar anotaciones manuales del panel Anotaciones relacionadas.
 
 
 
+[[related-devices-pane]]
 == Panel Related Devices
 
 El panel Related Devices permite ver el clúster, los agregados y los volúmenes relacionados con la máquina virtual de almacenamiento:
@@ -751,12 +763,14 @@ Muestra la cantidad y la capacidad de los volúmenes que pertenecen a la máquin
 
 
 
+[[related-groups-pane]]
 == Panel Related Groups
 
 El panel Related Groups le permite ver la lista de grupos asociados a la máquina virtual de almacenamiento seleccionada.
 
 
 
+[[related-alerts-pane]]
 == Panel Related Alerts
 
 El panel Related Alerts permite ver la lista de alertas creadas para la máquina virtual de almacenamiento seleccionada. También puede agregar una alerta haciendo clic en el enlace *Agregar alerta* o editar una alerta existente haciendo clic en el nombre de la alerta.

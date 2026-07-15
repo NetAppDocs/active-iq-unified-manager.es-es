@@ -15,6 +15,7 @@ Puede descargar el paquete de instalación e instalar Unified Manager para super
 
 
 
+[[system-requirements]]
 == Requisitos del sistema
 
 * Sistemas operativos
@@ -38,10 +39,12 @@ Para ver los requisitos detallados del sistema, consulte link:../install-windows
 
 
 
+[[install-active-iq-unified-manager]]
 == Instale Active IQ Unified Manager
 
 
 
+[[download-the-installer]]
 === Descargue el instalador
 
 . Descargue el `ActiveIQUnifiedManager-<version>.exe` paquete de instalación.
@@ -50,6 +53,7 @@ Para ver los requisitos detallados del sistema, consulte link:../install-windows
 
 
 
+[[install-unified-manager]]
 === Instale Unified Manager
 
 Para instalar Unified Manager, asegúrese de tener instalado Microsoft .NET 4.5.2 o una versión posterior. Como parte del proceso de instalación, Unified Manager instala otros paquetes de terceros según sea necesario. Para obtener más información acerca de los paquetes de software dependientes, consulte link:../install-windows/reference_windows_software_and_installation_requirements.html["Requisitos de instalación y software de Windows"].

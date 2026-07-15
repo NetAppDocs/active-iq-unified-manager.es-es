@@ -106,6 +106,7 @@ Para emitir solicitudes HTTP desde un explorador web, tiene que utilizar los com
 
 
 
+[[authentication]]
 == Autenticación
 
 Unified Manager admite el esquema de autenticación HTTP básico para las API. Para obtener un flujo de información seguro (solicitud y respuesta), se puede acceder a las API DE REST solo a través de HTTPS. El servidor API proporciona un certificado SSL autofirmado a todos los clientes para la verificación del servidor. Este certificado puede sustituirse por un certificado personalizado (o certificado de CA).

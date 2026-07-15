@@ -24,12 +24,14 @@ Algunos de los paneles que se enumeran a continuación aparecen en el panel de c
 ====
 
 
+[[management-actions-panel]]
 == Panel de acciones de gestión
 
 Hay ciertos problemas que Unified Manager puede diagnosticar a fondo y proporcionar una única resolución. Si están disponibles, estas resoluciones se muestran en este panel con un botón *Fix it* o *Fix All*. Es posible solucionar estos problemas inmediatamente desde Unified Manager, en lugar de tener que utilizar ONTAP System Manager o la CLI de ONTAP. Para ver todos los problemas, haga clic en Ver link:concept_fix_ontap_issues_directly_from_unified_manager.html["Solucione problemas de ONTAP directamente desde Unified Manager"] para obtener más información.
 
 
 
+[[capacity-panel]]
 == Panel capacidad
 
 Al visualizar todos los clústeres, este panel muestra la capacidad física utilizada (tras aplicar el ahorro por la eficiencia del almacenamiento) y la capacidad física disponible (sin incluir el ahorro potencial de la eficiencia del almacenamiento) para cada clúster, el número de días que faltan para que los discos se proyecten que estén llenos, Y la proporción de reducción de datos (sin copias Snapshot) basada en las opciones configuradas de eficiencia del almacenamiento de ONTAP. También incluye la capacidad utilizada para los niveles de cloud que haya configurado. Al hacer clic en el gráfico de barras irá la página del inventario de agregados para ese clúster. Al hacer clic en el texto "Days to Full" se muestra un mensaje que identifica el agregado con la menor cantidad de días de capacidad restantes; haga clic en el nombre del agregado para ver más detalles.
@@ -38,6 +40,7 @@ Al ver un único clúster, este panel muestra la capacidad física utilizada y l
 
 
 
+[[performance-capacity-panel]]
 == Panel rendimiento capacidad
 
 Cuando se visualizan todos los clústeres, este panel muestra el valor de capacidad de rendimiento de cada clúster (promediado en la 1 hora anterior) y el número de días hasta que la capacidad de rendimiento alcance el límite superior (según la tasa de crecimiento diaria). Al hacer clic en el gráfico de barras, irá la página del inventario de nodos de ese clúster. Tenga en cuenta que la página del inventario de nodos muestra la capacidad de rendimiento media de las 72 horas anteriores. Al hacer clic en el texto "Days to Full" se muestra un mensaje que identifica el nodo con la menor cantidad de días de capacidad de rendimiento restantes; haga clic en el nombre del nodo para ver más detalles.
@@ -46,18 +49,21 @@ Al ver un único clúster, este panel muestra los valores de porcentaje de capac
 
 
 
+[[workload-iops-panel]]
 == Panel Workload IOPS
 
 Al ver un solo clúster, este panel muestra el número total de cargas de trabajo que se están ejecutando actualmente en un determinado rango de IOPS e indica el número de cada tipo de disco cuando pasa el cursor por encima del gráfico.
 
 
 
+[[workload-performance-panel]]
 == Panel Workload Performance
 
 Este panel muestra el número total de cargas de trabajo conformes y no conformes que se asignan a cada política de nivel de servicio de rendimiento (PSL). También muestra la cantidad de cargas de trabajo a las que no se asigna una PSL. Al hacer clic en un gráfico de barras, se le llevan a las cargas de trabajo conformes asignadas a esa política en la página de cargas de trabajo. Al hacer clic en el número que sigue al gráfico de barras, se muestran las cargas de trabajo conformes y no conformes asignadas a esa política.
 
 
 
+[[security-panel]]
 == Panel de seguridad
 
 El panel Seguridad presenta el estado de seguridad de alto nivel para todos los clústeres o un único clúster, según la vista actual. Este panel muestra:
@@ -75,6 +81,7 @@ El cumplimiento se basa en https://www.netapp.com/pdf.html?item=/media/10674-tr4
 
 
 
+[[data-protection-panel]]
 == Panel Data Protection
 
 Este panel muestra el resumen de protección de datos de uno o todos los clústeres de un centro de datos. Se muestra el número total de eventos de protección de datos, eventos de MetroCluster y el número de eventos activos generados en las últimas 24 horas en ONTAP. Al hacer clic en el enlace de cada uno de estos eventos, se abre la página de detalles Event. Puede hacer clic en el enlace *Ver todo* para ver todos los eventos de protección activos en la página de inventario de Event Management. El panel muestra:
@@ -96,6 +103,7 @@ Para obtener más información, consulte link:../data-protection/view-protection
 
 
 
+[[usage-overview-panel]]
 == Panel de descripción del uso
 
 Al ver todos los clústeres, puede elegir ver clústeres ordenados por IOPS más alta, mayor rendimiento (MB/s) o mayor capacidad física utilizada.

@@ -17,6 +17,7 @@ Debe tener el rol de administrador de aplicaciones o de administrador del almace
 
 
 
+[[email]]
 == Correo electrónico
 
 Esta área permite configurar las siguientes opciones de correo electrónico para las notificaciones de alertas:
@@ -29,6 +30,7 @@ Especifica la dirección de correo electrónico desde la cual se envía la notif
 
 
 
+[[smtp-server]]
 == Servidor SMTP
 
 Esta área permite configurar los siguientes ajustes del servidor SMTP:
@@ -64,6 +66,7 @@ Si activa esta casilla, se proporciona una comunicación segura entre el servido
 
 
 
+[[snmp]]
 == SNMP
 
 Esta área permite configurar las siguientes opciones de captura SNMP:

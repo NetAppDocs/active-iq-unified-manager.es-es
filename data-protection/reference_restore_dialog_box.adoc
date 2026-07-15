@@ -15,6 +15,7 @@ Puede utilizar el cuadro de diálogo Restore para restaurar datos a un volumen a
 
 
 
+[[restore-from]]
 == Restaurar desde
 
 El área Restore from permite especificar el lugar donde desea restaurar datos.
@@ -35,6 +36,7 @@ De forma predeterminada, se muestra un máximo de 995 objetos en la lista. Puede
 
 
 
+[[select-items-to-restore]]
 == Seleccione los elementos que desea restaurar
 
 El área Seleccionar elementos para restaurar permite seleccionar el volumen completo o los archivos y carpetas específicos que desea restaurar. Puede seleccionar un máximo de 10 archivos, carpetas o una combinación de ambos. Cuando se selecciona el número máximo de elementos, se desactivan las casillas de verificación selección de elementos.
@@ -65,6 +67,7 @@ No puede restaurar flujos de archivos NTFS.
 ====
 
 
+[[restore-to]]
 == Restaurar a.
 
 El área Restore to permite especificar dónde desea restaurar los datos.
@@ -92,6 +95,7 @@ Cuando esta opción está activada, conserva la estructura del archivo o directo
 
 
 
+[[command-buttons]]
 == Botones de comando
 
 Los botones de comando le permiten realizar las siguientes tareas:

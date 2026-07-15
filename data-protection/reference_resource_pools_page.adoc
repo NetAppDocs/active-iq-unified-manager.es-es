@@ -15,6 +15,7 @@ La página Resource Pools muestra los pools de recursos existentes y sus miembro
 
 
 
+[[command-buttons]]
 == Botones de comando
 
 Los botones de comando le permiten realizar las siguientes tareas:
@@ -35,6 +36,7 @@ Permite eliminar uno o varios pools de recursos.
 
 
 
+[[resource-pools-list]]
 == Lista de pools de recursos
 
 La lista Pools de recursos muestra (en formato de tabla) las propiedades de los pools de recursos existentes.
@@ -71,6 +73,7 @@ Muestra el porcentaje de espacio que se utiliza en el pool de recursos.
 
 
 
+[[members-list-command-buttons]]
 == Botones de comando de lista de miembros
 
 Los botones de comando de la lista Miembros le permiten realizar las siguientes tareas:
@@ -87,6 +90,7 @@ Permite eliminar uno o varios miembros del conjunto de recursos.
 
 
 
+[[members-list]]
 == Lista de miembros
 
 La lista Miembros muestra (en formato tabular) los miembros del pool de recursos y sus propiedades cuando se selecciona un pool de recursos.

@@ -15,6 +15,7 @@ Los eventos Snapshot ofrecen información sobre el estado de las copias Snapshot
 
 
 
+[[impact-area-availability]]
 == Área de impacto: Disponibilidad
 
 |===

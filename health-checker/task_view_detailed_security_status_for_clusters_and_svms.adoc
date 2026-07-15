@@ -17,6 +17,7 @@ Para conocer las recomendaciones de seguridad, consulte https://www.netapp.com/p
 
 
 
+[[view-object-level-security-status-on-security-page]]
 == Ver el estado de seguridad a nivel de objeto en la página Seguridad
 
 Como administrador del sistema, puede utilizar la página *Seguridad* para obtener visibilidad sobre la seguridad de los clústeres de ONTAP y los equipos virtuales de almacenamiento en los centros de datos y los sitios. Los objetos admitidos son clúster, máquinas virtuales de almacenamiento y volúmenes. Siga estos pasos:
@@ -40,6 +41,7 @@ La página Seguridad muestra los siguientes paneles:
 
 
 
+[[view-security-details-of-all-clusters-on-the-clusters-page]]
 == Consulte los detalles de seguridad de todos los clústeres en la página Clusters
 
 La página de detalles *Clusters / Security* le permite ver el estado de cumplimiento de seguridad a nivel de clúster.
@@ -58,6 +60,7 @@ NOTE: Si un clúster tiene un certificado caducado, puede hacer clic en `expired
 
 
 
+[[view-security-details-of-all-clusters-from-the-storage-vms-page]]
 == Consulte los detalles de seguridad de todos los clústeres desde la página de máquinas virtuales de almacenamiento
 
 La página de detalles *Storage VMs / Security* le permite ver el estado de cumplimiento de la seguridad a nivel de VM de almacenamiento.

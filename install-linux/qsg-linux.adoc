@@ -15,6 +15,7 @@ Puede descargar el paquete de instalación e instalar Unified Manager en una pla
 
 
 
+[[system-requirements]]
 == Requisitos del sistema
 
 * Sistema operativo: Red Hat Enterprise Linux versiones 8.x y 9,4, basado en la arquitectura x86_64, instalado utilizando el entorno base “Servidor con GUI” de la opción *Selección de software* del instalador del sistema operativo
@@ -26,10 +27,12 @@ Para obtener información detallada sobre los requisitos del sistema y sobre có
 
 
 
+[[install-active-iq-unified-manager]]
 == Instale Active IQ Unified Manager
 
 
 
+[[download-the-installer]]
 === Descargue el instalador
 
 . Descargue el `ActiveIQUnifiedManager-<version>.zip` paquete de instalación junto con certificado de firma de código (`.pem`) y firma digital (`.sig`) .
@@ -41,6 +44,7 @@ Para obtener información detallada sobre los requisitos del sistema y sobre có
 
 
 
+[[verify-integrity]]
 === Verifique la integridad
 
 Ejecute los siguientes comandos para verificar la integridad del paquete del instalador:
@@ -51,6 +55,7 @@ Ejecute los siguientes comandos para verificar la integridad del paquete del ins
 
 
 
+[[verify-repository-configuration]]
 === Verificar la configuración de repositorio
 
 Los procedimientos para configurar un repositorio de Red Hat Enterprise Linux son específicos del sitio. Puede utilizar `pre_install_check.sh` el script incluido en el paquete de instalación para verificar la configuración de su sistema operativo. Si el sistema está conectado a Internet, recibirá automáticamente instrucciones para configurar el repositorio de Red Hat Enterprise Linux.
@@ -59,6 +64,7 @@ Los procedimientos para configurar un repositorio de Red Hat Enterprise Linux so
 
 
 
+[[install-unified-manager]]
 === Instale Unified Manager
 
 Unified Manager utiliza `yum` la utilidad para instalar el software y cualquier software dependiente. Debido a que existen diferentes imágenes de Red Hat Enterprise Linux, los paquetes instalados dependen del software presente en las imágenes.  `yum`La utilidad determina los paquetes de software dependientes para la instalación. Si necesita más información sobre los paquetes de software dependientes, consulte la link:../install-linux/reference_red_hat_software_and_installation_requirements.html["Requisitos de instalación y software Linux"].

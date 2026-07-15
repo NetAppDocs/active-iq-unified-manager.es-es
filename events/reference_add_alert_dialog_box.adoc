@@ -17,6 +17,7 @@ Debe tener el rol de administrador de aplicaciones o de administrador del almace
 
 
 
+[[name]]
 == Nombre
 
 Esta área le permite especificar un nombre y una descripción para la alerta:
@@ -33,6 +34,7 @@ Permite especificar una descripción de la alerta.
 
 
 
+[[resources]]
 == Recursos
 
 Esta área le permite seleccionar un recurso individual o agrupar los recursos en función de una regla dinámica para la que desea activar la alerta. Una _regla dinámica_ es el conjunto de recursos filtrados según la cadena de texto que especifique. Puede buscar recursos seleccionando un tipo de recurso de la lista desplegable o puede especificar el nombre exacto del recurso para mostrar un recurso específico.
@@ -57,6 +59,7 @@ Si un recurso cumple las reglas de inclusión y exclusión especificadas, la reg
 
 
 
+[[events]]
 == Eventos
 
 Este área le permite seleccionar los eventos para los que desea crear las alertas. Puede crear alertas para los eventos según una gravedad determinada o para un conjunto de eventos.
@@ -75,6 +78,7 @@ Permite seleccionar eventos cuyo nombre contenga caracteres especificados.
 
 
 
+[[actions]]
 == Acciones
 
 Esta área le permite especificar los usuarios a los que desea notificar cuando se activa una alerta. También puede especificar el método de notificación y la frecuencia de la notificación.
@@ -117,6 +121,7 @@ Si no ve esta capacidad disponible en la interfaz de usuario, se debe a que el a
 
 
 
+[[command-buttons]]
 == Botones de comando
 
 * *Guardar*

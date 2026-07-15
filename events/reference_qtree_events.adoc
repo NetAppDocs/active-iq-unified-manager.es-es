@@ -15,6 +15,7 @@ Los eventos para qtrees proporcionan información sobre la capacidad para qtrees
 
 
 
+[[impact-area-capacity]]
 == Área de impacto: Capacidad
 
 |===

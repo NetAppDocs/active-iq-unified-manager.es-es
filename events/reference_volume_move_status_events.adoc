@@ -15,6 +15,7 @@ Los eventos de estado del movimiento de volúmenes le indican acerca del estado 
 
 
 
+[[impact-area-capacity]]
 == Área de impacto: Capacidad
 
 |===

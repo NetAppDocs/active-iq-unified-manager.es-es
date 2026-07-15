@@ -15,6 +15,7 @@ Esta tabla proporciona una lista completa de las vistas y páginas de inventario
 
 
 
+[[active-iq-unified-manager-reports]]
 == Informes de Active IQ Unified Manager
 
 [cols="2*"]

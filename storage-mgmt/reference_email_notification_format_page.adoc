@@ -68,6 +68,7 @@ Especifica el nombre del usuario o del grupo de usuarios.
 
 
 
+[[command-buttons]]
 == Botones de comando
 
 Los botones de comando permiten obtener una vista previa, guardar o cancelar los cambios realizados en el formato de notificación por correo electrónico:
