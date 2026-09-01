@@ -7,7 +7,7 @@ summary: Proporciona un resumen de las nuevas características, limitaciones y p
 = Notas de la versión
 :allow-uri-read: 
 :icons: font
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 
 [role="lead"]

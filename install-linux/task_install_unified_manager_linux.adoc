@@ -46,7 +46,7 @@ Versión 17.0.14+6 de OpenJDK
 
 
  a| 
-MySQL 8.4.7 Edición Comunitaria
+MySQL 8.4.10 Community Edition
  a| 
 `rpm -qa | grep -i mysql`
 
@@ -58,7 +58,7 @@ MySQL 8.4.7 Edición Comunitaria
 `7zz -version`
 
 |===
-. Si la versión instalada de MySQL es anterior a MySQL 8.4.7 Community Edition, ingrese el siguiente comando para desinstalarla:
+. Si la versión instalada de MySQL es anterior a MySQL 8.4.10 Community Edition, introduce el siguiente comando para desinstalarla:
 +
 `rpm -e <mysql_package_name>`
 
