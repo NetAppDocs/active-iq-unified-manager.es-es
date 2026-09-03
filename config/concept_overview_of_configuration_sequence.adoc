@@ -13,4 +13,4 @@ summary: En el flujo de trabajo de configuración, se describen las tareas que d
 [role="lead"]
 En el flujo de trabajo de configuración, se describen las tareas que deben realizarse para poder usar Unified Manager.
 
-image::../media/post_install_flow.png[flujo posterior a la instalación]
+image::../media/post_install_flow.png[Un diagrama que muestra el flujo de trabajo de la configuración inicial de Unified Manager y las tareas de configuración administrativa]

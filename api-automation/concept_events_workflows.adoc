@@ -15,7 +15,7 @@ Cuando un objeto de almacenamiento de su centro de datos cruza un umbral, se obt
 
 Este flujo de trabajo toma el ejemplo de un volumen como objeto de recurso. Puede utilizar el `events` Las API para recuperar la lista de eventos relacionados con un volumen, analizar los problemas críticos de ese volumen y, a continuación, tomar medidas correctivas para rectificar el problema.
 
-image::../media/handling_event_related_issues_of_a_storage_object_flowchart.gif[gestionar los problemas relacionados con eventos de un diagrama de flujo de objetos de almacenamiento]
+image::../media/handling_event_related_issues_of_a_storage_object_flowchart.gif[Un diagrama de flujo que muestra el análisis de eventos de volumen, desde la enumeración de eventos hasta la acción correctiva y el final]
 
 Siga estos pasos para determinar los problemas en su volumen antes de seguir los pasos para solucionarlo.
 

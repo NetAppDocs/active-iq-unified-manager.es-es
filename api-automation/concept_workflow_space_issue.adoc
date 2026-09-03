@@ -19,7 +19,7 @@ Un método para determinar cualquier falta de espacio en los agregados es verifi
 
 El siguiente diagrama de flujo ilustra el proceso de recuperación de información acerca de los volúmenes con el modo de ajuste automático activado:
 
-image::../media/space_utilization.gif[uso del espacio]
+image::../media/space_utilization.gif[Un diagrama de flujo para identificar volúmenes con el modo de ajuste automático activado que están sobreutilizados en agregados de clúster]
 
 En este flujo se supone que los clústeres ya se han creado en ONTAP y se han añadido a Unified Manager.
 

@@ -15,4 +15,4 @@ El flujo de trabajo de instalación describe las tareas que deben realizarse par
 
 Estas secciones describen cada uno de los elementos mostrados en el flujo de trabajo siguiente.
 
-image::../media/overall_um_install_flow.png[flujo total de instalación de um]
+image::../media/overall_um_install_flow.png[Un diagrama que muestra los flujos de trabajo de instalación, configuración inicial y ajustes administrativos de Unified Manager]

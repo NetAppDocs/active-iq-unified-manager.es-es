@@ -247,7 +247,6 @@
   <block id="3e0d371dd6a28821e66400a80ae3293e" category="paragraph">Las API del centro de datos para agregados recuperan la información relevante sobre el espacio disponible y el utilizado, y la configuración de eficiencia que permite ahorrar espacio. También puede filtrar la información recuperada en función de los atributos especificados.</block>
   <block id="b9264bc886fe551515446d6838f25b9a" category="paragraph">Un método para determinar cualquier falta de espacio en los agregados es verificar si hay volúmenes en su entorno con el modo autosize habilitado. A continuación, debe identificar qué volúmenes se están utilizando en exceso y realizar cualquier acción correctiva.</block>
   <block id="cc41b5742653a83710790622472b075b" category="paragraph">El siguiente diagrama de flujo ilustra el proceso de recuperación de información acerca de los volúmenes con el modo de ajuste automático activado:</block>
-  <block id="ad39018ca13824e28f2f9a2cce72cc67" category="image-alt">uso del espacio</block>
   <block id="4813b0ff95088b1a2c693a9318f0938d" category="paragraph">En este flujo se supone que los clústeres ya se han creado en ONTAP y se han añadido a Unified Manager.</block>
   <block id="fc534cd4a3c07959344fdc4231e736c7" category="list-text">Obtenga la clave de clúster a menos que conozca el valor:</block>
   <block id="d4d66a02daefdb2f70ff2507a78fd5ec" category="paragraph">centro de datos</block>
@@ -324,7 +323,6 @@
   <block id="a724824e30a799c8ab8ad6d07591372f" category="summary">Puede aprovisionar recursos compartidos de CIFS y recursos compartidos de archivos NFS en las máquinas virtuales de almacenamiento (SVM) mediante las API de aprovisionamiento proporcionadas como parte de Active IQ Unified Manager. Este flujo de trabajo de aprovisionamiento detalla los pasos para recuperar las claves de las SVM, los niveles de servicio de rendimiento y las políticas de eficiencia del almacenamiento antes de crear los recursos compartidos de archivos.</block>
   <block id="a04ca9649d91705a1631f7dedd600667" category="doc">Aprovisionamiento de recursos compartidos de archivos CIFS y NFS mediante API</block>
   <block id="3e1dc833276a15580a0b71db58bdd106" category="paragraph">En el siguiente diagrama se ilustra cada paso de un flujo de trabajo de aprovisionamiento de recursos compartidos de archivos. Incluye aprovisionamiento de recursos compartidos CIFS y recursos compartidos de archivos NFS.</block>
-  <block id="a05f62bb5424e0dbdce8b06a07661d97" category="image-alt">crear compartimientos de archivos</block>
   <block id="a3ba5a3fd33b03f148e52fd833cda7c3" category="paragraph">Asegúrese de lo siguiente:</block>
   <block id="0ee7a846dbd3fbb321e0498c8fec35e0" category="list-text">Los clústeres de ONTAP se añadieron a Unified Manager y se obtuvo la clave de clúster.</block>
   <block id="8e7dd4aa06ca40063b5d0e3de192e4d5" category="list-text">Se han creado las instancias de SVM en los clústeres.</block>
@@ -392,7 +390,6 @@
   <block id="c20a54ace8febd13915bab7ed9c22b2b" category="summary">Puede aprovisionar LUN en las máquinas virtuales de almacenamiento (SVM) mediante las API de aprovisionamiento que se proporcionan como parte de Active IQ Unified Manager. Este flujo de trabajo de aprovisionamiento detalla los pasos para recuperar las claves de las SVM, los niveles de servicio de rendimiento y las políticas de eficiencia del almacenamiento antes de crear la LUN.</block>
   <block id="686de7649ff29618b2533b83f236c1f9" category="doc">Aprovisionamiento de LUN mediante API</block>
   <block id="95ce53c30b31cee49bc8d6de45470e16" category="paragraph">En el siguiente diagrama se muestran los pasos del flujo de trabajo de aprovisionamiento de las LUN.</block>
-  <block id="eb6c9e70579153da1799b8b5852bc08a" category="image-alt">cree las lun</block>
   <block id="ef1400db90d4de5f78f6366f581fba2a" category="paragraph">En este flujo de trabajo se supone que los clústeres de ONTAP se han añadido a Unified Manager y se ha obtenido la clave de clúster. En el flujo de trabajo también se supone que las SVM ya se han creado en los clústeres.</block>
   <block id="f51de5616e6ee7f9e60c306178f36de1" category="list-text">Obtenga la clave de SVM de la SVM en la que desea crear la LUN, como se describe en el tema _verificando SVM en clústeres_ de flujo de trabajo.</block>
   <block id="e5aab0148907d8f1db63d8d841d558c0" category="list-text">Opcionalmente, obtenga la clave de la Política de eficiencia del almacenamiento de la Política de eficiencia del almacenamiento que desea aplicar en la LUN ejecutando la siguiente API y recuperando la clave de la respuesta.</block>
@@ -568,7 +565,6 @@
   <block id="0f95c121d7dad838526a7f651b857814" category="list-text">Es administrador de aplicaciones.</block>
   <block id="82860026803af0cdcc831f5f5030ae00" category="list-text">El clúster en el cual desea ejecutar las operaciones de API REST es compatible con ONTAP 9.5 o una versión posterior, y el clúster se añade a Unified Manager a HTTPS.</block>
   <block id="98c896958cb9f708964fcc3c7173e78d" category="paragraph">En el siguiente diagrama, se muestran cada paso del flujo de trabajo para solucionar el problema del uso de capacidad de volumen de ONTAP.</block>
-  <block id="3a4d571f6dbcd3bcf57d5650a8d35570" category="image-alt">flujo de trabajo ONTAP de puerta de enlace api</block>
   <block id="76b26371e1f301a312db4d2d46c9befe" category="paragraph">El flujo de trabajo abarca los puntos de invocación de las API DE REST de Unified Manager y ONTAP.</block>
   <block id="015fada14012e66a3870b9ed0e2d6370" category="list-text">Observe el nombre del volumen desde el evento que notifica al uso de capacidad del volumen.</block>
   <block id="2217533b12d59ed2edfb6646b767c321" category="list-text">Con el nombre del volumen como valor del parámetro name, consulte el volumen ejecutando la siguiente API de Unified Manager.</block>
@@ -664,7 +660,6 @@
   <block id="9f59891ed7805b3befef9ff1ec1a490c" category="summary">Cuando un objeto de almacenamiento de su centro de datos cruza un umbral, se obtiene una notificación de ese evento. Con esta notificación, puede analizar el problema y tomar medidas correctivas mediante las API de eventos.</block>
   <block id="841c51f97743193567036063bf854b04" category="paragraph">Cuando un objeto de almacenamiento de su centro de datos cruza un umbral, se obtiene una notificación de ese evento. Con esta notificación, puede analizar el problema y adoptar medidas correctivas mediante<block ref="16908b0605f2645dfcb4c3a8d248cef3" prefix=" " category="inline-code"></block> API.</block>
   <block id="97018b0a09f5dff8883bbaab1edaacde" category="paragraph">Este flujo de trabajo toma el ejemplo de un volumen como objeto de recurso. Puede utilizar el<block ref="16908b0605f2645dfcb4c3a8d248cef3" prefix=" " category="inline-code"></block> Las API para recuperar la lista de eventos relacionados con un volumen, analizar los problemas críticos de ese volumen y, a continuación, tomar medidas correctivas para rectificar el problema.</block>
-  <block id="48d9352b608ff2804faa4c081f2c725c" category="image-alt">gestionar los problemas relacionados con eventos de un diagrama de flujo de objetos de almacenamiento</block>
   <block id="730bf6325271b1c0c231fa74b6b0fe8a" category="paragraph">Siga estos pasos para determinar los problemas en su volumen antes de seguir los pasos para solucionarlo.</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">Pasos</block>
   <block id="ba7662ee18a758af81108e87e6f415fd" category="list-text">Analice las notificaciones de eventos críticos de Active IQ Unified Manager para los volúmenes en el centro de datos.</block>
@@ -834,7 +829,6 @@
   <block id="8c9d08852e8e1febedc693013a4f0f93" category="summary">El flujo de trabajo de instalación describe las tareas que deben realizarse para poder usar Unified Manager.</block>
   <block id="bed7b91a2df8076097fedfb7b87f92e7" category="doc">Descripción general de la secuencia de instalación</block>
   <block id="677bb67b43e56c44269810a302788b34" category="paragraph">Estas secciones describen cada uno de los elementos mostrados en el flujo de trabajo siguiente.</block>
-  <block id="322f88fdb47136f0505af3e29d2c5649" category="image-alt">flujo total de instalación de um</block>
   <block id="ec269d35cea219958d7c15c9ba6b33f8" category="summary">La puesta en marcha de Unified Manager incluye la descarga de software, la puesta en marcha de dispositivos virtuales, la creación de un nombre de usuario y una contraseña de mantenimiento, y la realización de la configuración inicial en la interfaz de usuario web.</block>
   <block id="7475bf5a0292d4ec25a6a390aefcf728" category="list-text">Debe verificar y completar los requisitos del sistema para la puesta en marcha.</block>
   <block id="1e496ca2f7a66d863132588473f14de2" category="inline-link-macro">Requisitos del sistema</block>
@@ -994,7 +988,6 @@
   <block id="e9b70b01b68936d5229a5051e4a06db4" category="paragraph">Unified Manager recopila información del clúster, almacena los datos en la base de datos y analiza los datos para ver si hay algún problema con el clúster.</block>
   <block id="2216048a705ad9a52409473a75b4d6ad" category="summary">En el flujo de trabajo de implementación, se describen las tareas que deben realizarse para poder usar Unified Manager.</block>
   <block id="aa6d1a2e27b6e5456d746d62b1002336" category="doc">Información general del proceso de implementación</block>
-  <block id="726763bf5aecf665420de6eeab308805" category="image-alt">secuencia de despliegue oc 6 0</block>
   <block id="8338761d720291f500aed82c16439446" category="summary">Active IQ Unified Manager (anteriormente Unified Manager de OnCommand) le permite supervisar y gestionar el estado y el rendimiento de sus sistemas de almacenamiento de ONTAP desde una única interfaz. Puede implementar Unified Manager en un servidor Linux, en un servidor de Windows o como dispositivo virtual en un host VMware.</block>
   <block id="629c4e4b9e06105de1ee6910b4520fa4" category="doc">Introducción a Active IQ Unified Manager</block>
   <block id="36148bbba4e69b2b6656637bc0aa3336" category="paragraph">Después de completar la instalación y añadir los clústeres que desea gestionar, Unified Manager proporciona una interfaz gráfica que muestra el estado de la capacidad, la disponibilidad, la protección y el rendimiento de los sistemas de almacenamiento supervisados.</block>
@@ -2992,7 +2985,6 @@
   <block id="9e0ca761831fb0f0dabbfe885a87d055" category="doc">Realizar backups y restauraciones con un volcado de base de datos de MySQL</block>
   <block id="33fc247e555720879316017b076f2029" category="paragraph">Una copia de seguridad de volcado de la base de datos consta de un solo archivo en el directorio de copia de seguridad y uno o varios archivos en el directorio de repositorio de la base de datos. El archivo del directorio de copia de seguridad es muy pequeño porque sólo contiene un puntero a los archivos ubicados en el directorio de repositorio de la base de datos que se necesitan para volver a crear la copia de seguridad.</block>
   <block id="2f3b4c9172b561f3e884b4272c129fb6" category="paragraph">La primera vez que se genera una copia de seguridad de la base de datos se crea un solo archivo en el directorio de copia de seguridad y se crea un archivo de copia de seguridad completa en el directorio de repositorio de la base de datos. La próxima vez que genere una copia de seguridad, se creará un solo archivo en el directorio de copia de seguridad y se creará un archivo de copia de seguridad incremental en el directorio del repositorio de la base de datos que contenga las diferencias con respecto al archivo de copia de seguridad completa. Este proceso continúa mientras se crean backups adicionales, hasta la configuración de retención máxima, como se muestra en la siguiente figura.</block>
-  <block id="e7fbcbeb2e1e5f4c9bede03c1fbb8e41" category="image-alt">backup de base de datos</block>
   <block id="efbe49949ffa2f8a16f02f4ea7adc56a" category="paragraph">No cambie el nombre ni elimine ninguno de los archivos de copia de seguridad de estos dos directorios o se producirá un error en ninguna operación de restauración posterior.</block>
   <block id="cb923ec5ab7e1a642e7b3ba98abfc4f1" category="paragraph">Si escribe los archivos de copia de seguridad en el sistema local, debe iniciar un proceso para copiar los archivos de copia de seguridad en una ubicación remota para que estén disponibles en caso de que tenga un problema con el sistema que requiera una restauración completa.</block>
   <block id="c48f8fd51b32d584ba11d9662e34349b" category="paragraph">Antes de iniciar una operación de backup, Active IQ Unified Manager realiza una comprobación de integridad para verificar que existen y pueden escribirse todos los archivos de backup y directorios de backup necesarios. También comprueba que hay suficiente espacio en el sistema para crear el archivo de copia de seguridad.</block>
@@ -5010,7 +5002,6 @@
   <block id="cdf293ee43f03915a3f7f1de53213e71" category="list-text">Se puede enviar una captura SNMP al receptor de capturas.</block>
   <block id="2c19ee2f43897bbfea72b8dc73f92e0c" category="list-text">Se puede ejecutar un script personalizado para realizar una acción.</block>
   <block id="330d4432442808d2f6e07aef3daa80da" category="paragraph">Este flujo de trabajo se muestra en el siguiente diagrama.</block>
-  <block id="bc4368d495f9c35aae14c797a81d5c9e" category="image-alt">flujo de eventos de umbral de um perf</block>
   <block id="b4aeca36e0a9246a5b0651435041cadf" category="summary">Los eventos de puerto le ofrecen el estado acerca de los puertos del clúster para que pueda supervisar los cambios o los problemas en el puerto, como si el puerto está inactivo.</block>
   <block id="0501a1e4086e14f94b32b754fe9d98d2" category="doc">Eventos del puerto</block>
   <block id="12675f3cd64d1c3ce0cc8a5e3da543c2" category="paragraph">Estado del puerto inactivo (ocumEvtPortStatusDown)</block>
@@ -8700,10 +8691,8 @@
   <block id="c513bb45e58fc45e3ec83dab5da7da36" category="list-text">VMDK: Un disco de máquina virtual del almacén de datos que proporciona espacio de almacenamiento para discos virtuales. Por cada disco virtual, hay un VMDK correspondiente.</block>
   <block id="56ebd08e1cbf3f9df816c1f70ba60dff" category="paragraph">Estos objetos se representan en una vista de topología de máquina virtual.</block>
   <block id="8a07986e324a4a34c7cfeb47a2736741" category="paragraph">*Virtualización de VMware en ONTAP*</block>
-  <block id="e8509cc177acaa157f47a7b0164d3a1f" category="image-alt">puesta en marcha de máquinas virtuales</block>
   <block id="375aae8872c43ab2f8538114dccc92c7" category="paragraph">*Flujo de trabajo del usuario*</block>
   <block id="f85ada8d3fc041341df44b187b48d4f1" category="paragraph">El siguiente diagrama muestra un caso de uso típico de la vista de topología de la máquina virtual:</block>
-  <block id="33e759e1731579239486744935dbb489" category="image-alt">flujo de trabajo del equipo virtual</block>
   <block id="ab54009fea66778938a808305a2f0e4d" category="section-title">Qué no se admite</block>
   <block id="71ea79c55d09192e3c60b68484e514d5" category="list-text">Los almacenes de datos que no son de ONTAP y se asignan a las instancias de vCenter Server no son compatibles con Unified Manager. Tampoco se admite cualquier máquina virtual con discos virtuales en esos almacenes de datos.</block>
   <block id="56036578c66036279dbd8f75e9437dc3" category="list-text">No se admite un almacén de datos que abarca varios LUN.</block>
@@ -8776,9 +8765,7 @@
   <block id="998b0f0721a85f1887ad21211d13755d" category="doc">Diseños de ventana típicos</block>
   <block id="f5d0d6012440752411c07b7aee29cd3d" category="paragraph">No todas las ventanas contienen todos los elementos de los diagramas siguientes.</block>
   <block id="16faa1bfdfc3c23fd9c85afc8d128775" category="section-title">Diseño de la ventana de lista de objetos</block>
-  <block id="6eaa6c9903ef182946f5bf66eee73304" category="image-alt">lista de objetos</block>
   <block id="4138fb3a63b46db04d955eab74245d6d" category="section-title">Diseño de la ventana de detalles del objeto</block>
-  <block id="7ce88d49c4ef0cb2d159967d47029a6e" category="image-alt">detalles del objeto</block>
   <block id="9780877bda914c17f18723da82584c25" category="summary">Puede utilizar la opción adecuada en la pestaña cuotas de usuario y de grupo de la vista Estado: Todas las máquinas virtuales de almacenamiento para configurar el formato de la notificación de correo electrónico que se envía cuando se produce un problema relacionado con la cuota y para configurar reglas para especificar direcciones de correo electrónico basadas en la cuota de usuario.</block>
   <block id="21879704494cd9abadd311d2f6dab477" category="doc">Descripción de los cuadros de diálogo cuotas</block>
   <block id="95b5a7670d2f425b4471668d7092564a" category="summary">De forma predeterminada, Unified Manager almacena datos de eventos y datos de rendimiento durante 6 meses en todos los clústeres supervisados. Una vez transcurrido este tiempo, los datos más antiguos se eliminan automáticamente para dar lugar a los nuevos datos. Este período de tiempo predeterminado funciona bien en la mayoría de las configuraciones, pero es posible que las configuraciones de gran tamaño con muchos clústeres y nodos deban reducir el período de retención para que Unified Manager funcione de forma óptima.</block>
@@ -9552,7 +9539,6 @@
   <block id="5cae6de22cb19e23696d6d2a0ecbdf24" category="summary">Es posible actualizar Unified Manager cuando hay una nueva versión de software disponible.</block>
   <block id="ee293a45bfef9c40542881e846277f77" category="paragraph">Es posible actualizar Unified Manager cuando hay una nueva versión disponible.</block>
   <block id="78f7bd17e8dc5c60aabeddc5a7edd6c4" category="paragraph">Los parches del software Unified Manager, que se proporcionan con NetApp, se instalan siguiendo el mismo procedimiento que las versiones nuevas.</block>
-  <block id="3c5dd4e02fb7c5614c57b78a81e01819" category="image-alt">instalar el flujo en las ventanas</block>
   <block id="e3ba6c64064adba107328f731ffc579e" category="summary">Para que la instalación correctamente de Unified Manager en Windows, debe asegurarse de que el sistema en el que se está instalando Unified Manager cumpla los requisitos de software.</block>
   <block id="abbfbdaf21746bca446ca43c755eb8ef" category="doc">Requisitos de instalación y software de Windows</block>
   <block id="35b673088d49c428fe4b71d1fb68ac32" category="paragraph">Puede instalar Unified Manager en las siguientes ediciones de Windows:</block>
@@ -9745,7 +9731,6 @@
   <block id="24dde324c273e6fbdb5e05a5335b2997" category="paragraph">Para obtener información acerca de los pasos de configuración, consulte <block ref="b867a7663a8e0fd154dcc2c6962f7760" category="inline-link-macro-rx"></block>.</block>
   <block id="17468e66f6f6fa8f16ad4f7b18e16de5" category="summary">En el flujo de trabajo de configuración, se describen las tareas que deben realizarse para poder usar Unified Manager.</block>
   <block id="4803eca8e03e70fa406180caf3f66361" category="doc">Descripción general de la secuencia de configuración</block>
-  <block id="ca4d378a679606b42fbb1eeeb71eb25e" category="image-alt">flujo posterior a la instalación</block>
   <block id="166019a1b30f1eef3de504d56cb45235" category="summary">En algún momento, es posible que desee cambiar el nombre de host del sistema en el que instaló Unified Manager. Por ejemplo, quizás desee cambiar el nombre del host para identificar más fácilmente los servidores de Unified Manager por tipo, grupo de trabajo o grupo de clústeres supervisado.</block>
   <block id="9ad6cdbafa6d2afeff6fa8613d36f754" category="paragraph">Debe tener acceso de usuario raíz al sistema Linux en el que está instalado Unified Manager.</block>
   <block id="8fae856b678489b4ce37733b2f2b89e4" category="paragraph">Puede usar el nombre de host (o la dirección IP del host) para acceder a la interfaz de usuario web de Unified Manager. Si configuró una dirección IP estática para la red durante la implementación, debería haber designado un nombre para el host de red. Si configuró la red mediante DHCP, el nombre de host debe tomarse del servidor DNS.</block>
@@ -11049,7 +11034,6 @@
   <block id="b72e7c4189d3ac145b3707a653496cfc" category="paragraph">En función de los resultados mostrados en el informe, tal vez le interese equilibrar los pares de alta disponibilidad en función de la capacidad de los agregados.</block>
   <block id="ed48b981e2bb947abc52be3e3b172706" category="summary">Árbol de decisiones que describe el flujo de trabajo del informe.</block>
   <block id="784fca41cf2612fc0bc6eb124a244bd2" category="doc">Flujo de trabajo de informes</block>
-  <block id="78c9a95829a3975e642126c077b652b2" category="image-alt">flujo de trabajo de vista informes</block>
   <block id="08dafb415fe1b2dd07823e87902c8908" category="summary">Es posible crear un informe para ver las transferencias de volumen en función del tamaño de la transferencia.</block>
   <block id="6e92fda865a64c24d66f973cbfb509fa" category="paragraph">Utilice los siguientes pasos para crear una vista personalizada para las transferencias de volúmenes en función del tamaño de transferencia y, a continuación, programar un informe para que se genere en esa vista.</block>
   <block id="15de0e4f2fddc4474f548555613b028b" category="list-text">Haga clic en la parte superior de la columna "'Tamaño total de transferencia'" para ordenar las transferencias de volumen por tamaño.</block>
@@ -12047,7 +12031,6 @@ Proteger aplicaciones con LUN, puede ver y supervisar esas LUN en Active IQ Unif
   <block id="7d2851cca28635a1e83630f7d2e3fc63" category="inline-link">Administrar certificados ONTAP con el Administrador del sistema</block>
   <block id="86df35e9b1dffd9ed39a46a4d7ffe7a1" category="paragraph">*Información relacionada* <block ref="c4ecef6f58bc214b3174de3e354d0911" category="inline-link-rx"></block></block>
   <block id="3e4eb743748e538f59a50a73d5f8b602" category="doc">Establecer el tiempo de espera de inactividad de la sesión de Unified Manager</block>
-  <block id="e8c80cc36155ada87dc563a78796b92f" category="image-alt">Instalar flujo en RHEL 2026</block>
   <block id="8645dca85b8ac5fc844aa6c266477f4d" category="summary">El sistema debe tener acceso a ciertos repositorios y paquetes para que el programa de instalación pueda acceder e instalar todas las dependencias de software necesarias.</block>
   <block id="f0041b2df6c7d0abc50865b06c257260" category="doc">Configurar el software necesario para Unified Manager</block>
   <block id="2ddfe6c502a2b94b370ca3c37f5b35cc" category="list-text">Python 3.13.3 (del repositorio de Red Hat Extra Enterprise Linux Server)</block>
@@ -12114,4 +12097,21 @@ Proteger aplicaciones con LUN, puede ver y supervisar esas LUN en Active IQ Unif
   <block id="6c400d4faf41f7de8a4c911b51918555" category="list-text">OpenJDK versión 17.0.15+6</block>
   <block id="d99d6f4a4a2deff3d04c76cf2a1ab80a" category="list-text">7-zip versión 25.01 o posterior</block>
   <block id="0906e47b7d8a1a05c090ca9c48a976c3" category="list-text">MySQL Community Edition se actualiza automáticamente durante la actualización de Unified Manager. Si la versión instalada de MySQL en tu sistema es anterior a 8.4.10, el proceso de actualización de Unified Manager actualiza automáticamente MySQL a 8.4.10. No debes realizar una actualización independiente de una versión anterior de MySQL a 8.4.10.</block>
+  <block id="1cc30bff2b84e7dbb26c93008946368f" category="image-alt">Un diagrama de flujo que muestra el análisis de eventos de volumen, desde la enumeración de eventos hasta la acción correctiva y el final</block>
+  <block id="d98ce8622bc7c722fcaa50d67a9cc960" category="image-alt">Un diagrama que muestra los pasos de Unified Manager y la API de ONTAP para solucionar problemas de alertas de capacidad de volúmenes</block>
+  <block id="7ac0c5f50fb7cdf3dbaf55523a74903e" category="image-alt">Un diagrama que muestra un flujo de trabajo para el aprovisionamiento de recursos compartidos de archivos CIFS y NFS, desde la configuración de SVM hasta la creación del recurso compartido</block>
+  <block id="b9754edcea8e7458a4fc4b43059bdbef" category="image-alt">Un diagrama que muestra el flujo de trabajo para crear un LUN, incluyendo Storage VM, nivel de servicio y pasos de igroup</block>
+  <block id="f62942f0e6b5f47ad12ab0f0a5f5a152" category="image-alt">Un diagrama de flujo para identificar volúmenes con el modo de ajuste automático activado que están sobreutilizados en agregados de clúster</block>
+  <block id="94d1891c253fd9543379f72f98b66db2" category="image-alt">Un diagrama que muestra el flujo de trabajo de la configuración inicial de Unified Manager y las tareas de configuración administrativa</block>
+  <block id="164f08e4aee5d801ac4725f2a6956d02" category="image-alt">Un diagrama que muestra el procesamiento de eventos de umbral desde la recopilación de datos del contador hasta la notificación por correo electrónico</block>
+  <block id="2300be0d474b8db24490f2217835c7d6" category="image-alt">Un diagrama que muestra tres archivos de directorio de copia de seguridad que apuntan a archivos completos e incrementales en el repositorio de la base de datos</block>
+  <block id="124e47082818e619d401d9bdfe8d24ff" category="image-alt">Un diagrama que muestra los requisitos previos, la instalación de Unified Manager y los flujos de trabajo de configuración inicial en Red Hat Linux</block>
+  <block id="ef63b242e03a7363693688e53654ba1a" category="image-alt">Un diagrama que muestra los flujos de trabajo de instalación, configuración inicial y ajustes administrativos de Unified Manager</block>
+  <block id="9e937dd680d7be51e4bfb7fcebb49a52" category="image-alt">Un diagrama que muestra los requisitos previos para la implementación de Unified Manager, la implementación del appliance y los pasos de configuración inicial</block>
+  <block id="611e3261f759280b352d61fb660a297c" category="image-alt">Un diagrama que muestra los requisitos previos, la instalación de Unified Manager y los pasos del flujo de trabajo de la configuración inicial</block>
+  <block id="a4f4483ccd93f8d27cc242331a618d06" category="image-alt">Un diagrama que muestra un flujo de trabajo en forma de árbol de decisión para visualizar, personalizar, cargar y descargar informes</block>
+  <block id="76bf2fdea1570becb5b97b7df5f76c5a" category="image-alt">Un diagrama que muestra los hosts de VMware, las máquinas virtuales, los almacenes de datos, los archivos VMDK, la red IP y las conexiones de almacenamiento</block>
+  <block id="e1f09e41d18a2f354b0f54a78d35a0c0" category="image-alt">Un diagrama que muestra un flujo de trabajo para localizar la latencia de las aplicaciones de máquinas virtuales en las capas de computación, red y almacenamiento</block>
+  <block id="090c8104c89a24e16b32214c066c6f21" category="image-alt">Una captura de pantalla de la ventana de la lista de objetos de Active IQ Unified Manager con controles de navegación, búsqueda, filtrado e informes etiquetados</block>
+  <block id="fd5189ced6c908af40fee28d211b4c0a" category="image-alt">Una captura de pantalla que muestra la ventana de detalles de un volumen de Active IQ Unified Manager, con pestañas, detalles de capacidad, objetos relacionados, historial y eventos</block>
 </blocks>

@@ -15,7 +15,7 @@ Puede aprovisionar LUN en las máquinas virtuales de almacenamiento (SVM) median
 
 En el siguiente diagrama se muestran los pasos del flujo de trabajo de aprovisionamiento de las LUN.
 
-image::../media/create_luns.gif[cree las lun]
+image::../media/create_luns.gif[Un diagrama que muestra el flujo de trabajo para crear un LUN, incluyendo Storage VM, nivel de servicio y pasos de igroup]
 
 [NOTE]
 ====

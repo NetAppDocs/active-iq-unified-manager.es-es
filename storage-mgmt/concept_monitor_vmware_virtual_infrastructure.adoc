@@ -33,13 +33,13 @@ Estos objetos se representan en una vista de topología de máquina virtual.
 
 *Virtualización de VMware en ONTAP*
 
-image::../media/vm_deployment.gif[puesta en marcha de máquinas virtuales]
+image::../media/vm_deployment.gif[Un diagrama que muestra los hosts de VMware, las máquinas virtuales, los almacenes de datos, los archivos VMDK, la red IP y las conexiones de almacenamiento]
 
 *Flujo de trabajo del usuario*
 
 El siguiente diagrama muestra un caso de uso típico de la vista de topología de la máquina virtual:
 
-image::../media/vm_workflow.gif[flujo de trabajo del equipo virtual]
+image::../media/vm_workflow.gif[Un diagrama que muestra un flujo de trabajo para localizar la latencia de las aplicaciones de máquinas virtuales en las capas de computación, red y almacenamiento]
 
 
 

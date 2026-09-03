@@ -13,4 +13,4 @@ summary: En el flujo de trabajo de implementación, se describen las tareas que 
 [role="lead"]
 En el flujo de trabajo de implementación, se describen las tareas que deben realizarse para poder usar Unified Manager.
 
-image::../media/deployment_sequence_oc_6_0.gif[secuencia de despliegue oc 6 0]
+image::../media/deployment_sequence_oc_6_0.gif[Un diagrama que muestra los requisitos previos para la implementación de Unified Manager, la implementación del appliance y los pasos de configuración inicial]

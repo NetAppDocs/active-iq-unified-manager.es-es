@@ -28,7 +28,7 @@ Antes de ejecutar los pasos del flujo de trabajo, asegúrese de lo siguiente:
 ====
 En el siguiente diagrama, se muestran cada paso del flujo de trabajo para solucionar el problema del uso de capacidad de volumen de ONTAP.
 
-image::../media/api_gateway_ontap_workflow.gif[flujo de trabajo ONTAP de puerta de enlace api]
+image::../media/api_gateway_ontap_workflow.gif[Un diagrama que muestra los pasos de Unified Manager y la API de ONTAP para solucionar problemas de alertas de capacidad de volúmenes]
 
 El flujo de trabajo abarca los puntos de invocación de las API DE REST de Unified Manager y ONTAP.
 

@@ -25,4 +25,4 @@ En función de la configuración de la página Configuración de alertas, puede 
 
 Este flujo de trabajo se muestra en el siguiente diagrama.
 
-image::../media/um_perf_threshold_event_flow.gif[flujo de eventos de umbral de um perf]
+image::../media/um_perf_threshold_event_flow.gif[Un diagrama que muestra el procesamiento de eventos de umbral desde la recopilación de datos del contador hasta la notificación por correo electrónico]

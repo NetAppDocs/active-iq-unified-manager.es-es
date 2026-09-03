@@ -15,7 +15,7 @@ Puede aprovisionar recursos compartidos de CIFS y recursos compartidos de archiv
 
 En el siguiente diagrama se ilustra cada paso de un flujo de trabajo de aprovisionamiento de recursos compartidos de archivos. Incluye aprovisionamiento de recursos compartidos CIFS y recursos compartidos de archivos NFS.
 
-image::../media/create_fileshares.gif[crear compartimientos de archivos]
+image::../media/create_fileshares.gif[Un diagrama que muestra un flujo de trabajo para el aprovisionamiento de recursos compartidos de archivos CIFS y NFS, desde la configuración de SVM hasta la creación del recurso compartido]
 
 [NOTE]
 ====

@@ -13,4 +13,4 @@ summary: Árbol de decisiones que describe el flujo de trabajo del informe.
 [role="lead"]
 Árbol de decisiones que describe el flujo de trabajo del informe.
 
-image::../media/reports_view_workflow.png[flujo de trabajo de vista informes]
+image::../media/reports_view_workflow.png[Un diagrama que muestra un flujo de trabajo en forma de árbol de decisión para visualizar, personalizar, cargar y descargar informes]

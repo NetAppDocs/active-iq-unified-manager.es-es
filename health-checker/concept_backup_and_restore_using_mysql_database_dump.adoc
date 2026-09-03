@@ -22,7 +22,7 @@ Una copia de seguridad de volcado de la base de datos consta de un solo archivo 
 
 La primera vez que se genera una copia de seguridad de la base de datos se crea un solo archivo en el directorio de copia de seguridad y se crea un archivo de copia de seguridad completa en el directorio de repositorio de la base de datos. La próxima vez que genere una copia de seguridad, se creará un solo archivo en el directorio de copia de seguridad y se creará un archivo de copia de seguridad incremental en el directorio del repositorio de la base de datos que contenga las diferencias con respecto al archivo de copia de seguridad completa. Este proceso continúa mientras se crean backups adicionales, hasta la configuración de retención máxima, como se muestra en la siguiente figura.
 
-image::../media/database_backup.gif[backup de base de datos]
+image::../media/database_backup.gif[Un diagrama que muestra tres archivos de directorio de copia de seguridad que apuntan a archivos completos e incrementales en el repositorio de la base de datos]
 
 [NOTE]
 ====
