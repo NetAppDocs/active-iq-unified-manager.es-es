@@ -20,6 +20,11 @@ Esta tarea elimina el clúster seleccionado de Unified Manager. Después de elim
 
 Al quitar un clúster, también se eliminan todos sus objetos de almacenamiento, datos históricos, servicios de almacenamiento y todos los eventos asociados de Unified Manager. Estos cambios se reflejan en las páginas de inventario y las páginas de detalles después del siguiente ciclo de recopilación de datos.
 
+[NOTE]
+====
+Debes eliminar un clúster de Unified Manager antes de decomisionarlo. Si el clúster ya está fuera de línea o no es accesible cuando intentas eliminarlo, Unified Manager no puede comunicarse con el clúster para eliminar el registro de la aplicación y las suscripciones configuradas al Event Management System (EMS). Esto hará que el proceso de eliminación falle o deje de responder antes de completarse.
+
+====
 .Pasos
 . En el panel de navegación izquierdo, haga clic en *Storage Management* > *Cluster Setup*.
 . En la página Cluster Setup (Configuración del clúster), seleccione el clúster que desea quitar y haga clic en *Remove*.
