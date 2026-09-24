@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: supported upgrade path, upgrade path, n-2, which versions can be upgraded 
 summary: Ruta de actualización admitida 
 ---
-= La ruta de actualización compatible con las versiones de Unified Manager
+= Utiliza la ruta de actualización compatible para las versiones de Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

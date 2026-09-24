@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, show, aggregate, capacity, table, chart 
 summary: Puede crear un informe para analizar la capacidad de un archivo de Excel utilizando totales sumados y el formato de gráfico de columnas agrupadas. 
 ---
-= Cree un informe para mostrar una tabla y un gráfico de capacidad agregada
+= Crear un informe para mostrar una tabla y un gráfico de capacidad de agregado en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: components, performance, explorer, page 
 summary: La página Performance Explorer le permite comparar el rendimiento de objetos similares en un clúster, por ejemplo, todos los volúmenes de un clúster. Esto resulta beneficioso para la solución de problemas de eventos de rendimiento y el ajuste preciso del rendimiento de objetos. También puede comparar objetos con el objeto raíz, que es la línea base con la que se realizan otras comparaciones de objetos. 
 ---
-= Componentes de la página Performance Explorer
+= Consulta la página Performance Explorer en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

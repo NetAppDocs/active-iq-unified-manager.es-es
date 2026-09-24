@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, resource pool, dialog box 
 summary: Puede usar el cuadro de diálogo Crear pool de recursos para asignar un nombre y describir un nuevo pool de recursos, así como para añadir y eliminar agregados de ese pool de recursos. 
 ---
-= Cuadro de diálogo Create Resource Pool
+= Utiliza el cuadro de diálogo «Crear pool de recursos» en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: verify, svms, clusters 
 summary: 'Antes de aprovisionar recursos compartidos de archivos o LUN, debe comprobar si los clústeres tienen máquinas virtuales de almacenamiento (SVM) creadas en ellos.' 
 ---
-= Verificar SVM en clústeres mediante API
+= Verifica los SVM en clústeres ONTAP usando las API de Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

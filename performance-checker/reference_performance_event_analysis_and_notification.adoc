@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, event, analysis, notification 
 summary: Los eventos de rendimiento le notifican problemas de rendimiento de I/o en una carga de trabajo provocada por la contención en un componente de clúster. Unified Manager analiza el evento para identificar todas las cargas de trabajo involucradas, el componente en disputa y si el evento sigue siendo un problema que podría necesitar resolver. 
 ---
-= Análisis y notificación de eventos de rendimiento
+= Analiza los eventos y las notificaciones de rendimiento en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

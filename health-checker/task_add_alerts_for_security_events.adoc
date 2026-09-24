@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, alerts, security events 
 summary: Es posible configurar alertas para eventos de seguridad individuales, como cualquier otro evento recibido por Unified Manager. Además, si desea tratar todos los eventos de seguridad por igual y enviar correo electrónico a la misma persona, puede crear una única alerta para notificarle cuando se desencadenen eventos de seguridad. 
 ---
-= Agregar alertas para eventos de seguridad
+= Agrega alertas para eventos de seguridad en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

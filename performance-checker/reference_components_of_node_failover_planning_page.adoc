@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: components, node, failover, planning page, performance, statistics, grid 
 summary: Los componentes de la página Performance/Node Failover Planning se muestran en una cuadrícula y en el panel comparativo. Estas secciones le permiten evaluar el impacto de la conmutación por error de un nodo en el rendimiento del nodo de respaldo. 
 ---
-= Componentes de la página Node Failover Planning
+= Revisa los componentes de la página «Planificación del rendimiento y la conmutación por error de nodos» en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, events 
 summary: Los eventos de rendimiento son incidentes relacionados con el rendimiento de la carga de trabajo en un clúster. Le ayudan a identificar cargas de trabajo con tiempos de respuesta lentos. Junto con los eventos de salud que ocurrieron al mismo tiempo, usted puede determinar los problemas que podrían haber causado, o contribuido a, los tiempos de respuesta lentos. 
 ---
-= ¿Qué eventos de rendimiento son
+= Infórmate sobre los eventos de rendimiento en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

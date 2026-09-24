@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, individual, aggregate, health, threshold, settings 
 summary: Puede editar la configuración del umbral de estado para la capacidad del agregado, el crecimiento y las copias Snapshot de uno o más agregados. Cuando se supera un umbral, se generan alertas y se reciben notificaciones. Estas notificaciones le ayudan a tomar medidas preventivas basadas en el evento generado. 
 ---
-= Editar la configuración del umbral de salud agregado individual
+= Edita la configuración de los umbrales de estado de salud de agregados individuales en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

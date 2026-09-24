@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: data, continuity, collection, cycle 
 summary: Un ciclo de recopilación de continuidad de datos recupera datos de rendimiento fuera del ciclo de recopilación de rendimiento del clúster en tiempo real que se ejecuta, de forma predeterminada, cada cinco minutos. Las recopilaciones de continuidad de datos permiten a Unified Manager llenar los vacíos de datos estadísticos que se producen cuando no pudo recopilar datos en tiempo real. 
 ---
-= Qué es un ciclo de recopilación de continuidad de datos
+= Entiende los ciclos de recopilación de datos de continuidad en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

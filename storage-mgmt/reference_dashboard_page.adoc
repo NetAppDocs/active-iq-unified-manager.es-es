@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: dashboard page, 
 summary: La página Dashboard tiene “paneles” que muestran el alto nivel de capacidad, rendimiento y estado de seguridad de los clústeres que se están supervisando. Esta página también proporciona un panel Management Actions que enumera las correcciones que Unified Manager puede realizar para resolver ciertos eventos. 
 ---
-= Consola
+= Conoce la página del panel de control de Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

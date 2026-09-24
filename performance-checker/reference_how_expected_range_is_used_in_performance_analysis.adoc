@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: latency, forecast, performance, analysis 
 summary: 'Unified Manager usa el pronóstico de latencia para representar la actividad de latencia de I/o típica (tiempo de respuesta) para las cargas de trabajo supervisadas. Le avisa cuando la latencia real de una carga de trabajo se encuentra por encima de los límites superiores de la previsión de latencia, que activa un evento de rendimiento dinámico, para que pueda analizar el problema de rendimiento y tomar medidas correctivas para resolverlo.' 
 ---
-= Cómo se utiliza el pronóstico de latencia en el análisis de rendimiento
+= Utiliza la previsión de latencia para el análisis del rendimiento en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, aggregates, full 
 summary: 'Puede crear un informe para resaltar los agregados que estén un 80 % o más completos.' 
 ---
-= Cree un informe para ver los agregados que están llenos al 80 % o más
+= Crea un informe para ver los agregados que estén llenos en un 80 % o más en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

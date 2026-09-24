@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, group, volume, relationships, source, failure 
 summary: Es posible crear un informe que agrupa volúmenes por el motivo que la relación está en estado incorrecto. 
 ---
-= Crear un informe para agrupar las relaciones de volumen por origen de falla
+= Crear un informe para agrupar las relaciones de volumen por origen de fallo en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

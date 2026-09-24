@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, failed, successful, volume, transfer 
 summary: Es posible crear un informe que muestre el estado de las transferencias de volúmenes. En este informe se pueden ver tanto las transferencias de volúmenes con errores como las correctas. 
 ---
-= Crear un informe para ver una transferencia de volumen fallida o exitosa
+= Crea un informe para ver las transferencias de volúmenes fallidas o exitosas en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

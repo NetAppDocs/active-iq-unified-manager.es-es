@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, unified manager, host name, linux systems 
 summary: En algún momento, es posible que desee cambiar el nombre de host de la máquina Red Hat Enterprise Linux en la que haya instalado Unified Manager. Por ejemplo, quizás desee cambiar el nombre del host para identificar más fácilmente los servidores de Unified Manager por tipo, grupo de trabajo o grupo de clústeres supervisado cuando enumere las máquinas Linux. 
 ---
-= Cambiar el nombre de host de Unified Manager en sistemas Linux
+= Cambia el nombre de host de Active IQ Unified Manager en sistemas Linux
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

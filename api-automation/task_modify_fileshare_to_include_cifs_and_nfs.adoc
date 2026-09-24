@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: modify, nfs, file, share, support, cifs 
 summary: 'Es posible modificar un recurso compartido de archivos NFS para admitir el protocolo CIFS. Durante la creación de archivos compartidos, es posible especificar tanto los parámetros de la lista de control de acceso (ACL) como las reglas de política de exportación para el mismo recurso compartido de archivos. No obstante, si desea habilitar CIFS en el mismo volumen en el que se creó un recurso compartido de archivos NFS, es posible actualizar los parámetros de ACL en ese recurso compartido de archivos para admitir CIFS.' 
 ---
-= Modificar un recurso compartido de archivos NFS mediante API para admitir CIFS
+= Modificar un recurso compartido de archivos NFS para que sea compatible con CIFS usando las API de Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

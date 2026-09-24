@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: overview, quota, process 
 summary: Las cuotas pueden ser suaves o duras. Las cuotas blandas hacen que ONTAP envíe una notificación cuando se superen los límites especificados y las cuotas rígidas evitan que una operación de escritura tenga éxito cuando se superen los límites especificados. 
 ---
-= Descripción general del proceso de cuotas
+= Infórmate sobre el proceso de cuota de Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

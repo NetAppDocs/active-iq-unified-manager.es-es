@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage, qos, control, workload, throughput 
 summary: 'Puede crear un grupo de políticas de calidad de servicio (QoS) para controlar el límite de I/o por segundo (IOPS) o rendimiento (MB/s) para las cargas de trabajo que contiene. Si las cargas de trabajo se encuentran en un grupo de políticas sin un límite establecido, como el grupo de políticas predeterminado, o el límite establecido no cumple con sus necesidades, puede aumentar el límite o mover las cargas de trabajo a un grupo de políticas nuevo o existente que tenga el límite deseado.' 
 ---
-= Cómo la calidad de servicio de almacenamiento puede controlar el rendimiento de la carga de trabajo
+= Controla el rendimiento de la carga de trabajo con la calidad de servicio (QoS) del almacenamiento en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

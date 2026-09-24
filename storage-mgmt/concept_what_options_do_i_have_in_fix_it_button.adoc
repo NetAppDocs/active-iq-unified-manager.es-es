@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fix it,fix all 
 summary: La página Management Actions proporciona el botón Fix it o Fix All para solucionar los problemas que Unified Manager ha sido notificado de un evento. 
 ---
-= ¿Qué opciones tengo cuando veo el botón reparar o reparar todo
+= Descubre las opciones de los botones Fix It y Fix All en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, monitor, metrocluster, throughput 
 summary: Unified Manager permite supervisar el rendimiento de escritura entre clústeres en una configuración de MetroCluster para identificar cargas de trabajo con un alto nivel de rendimiento de escritura. Si estas cargas de trabajo de alto rendimiento hacen que otros volúmenes en el clúster local tengan tiempos de respuesta de I/o elevados, Unified Manager activa los eventos de rendimiento para notificarle. 
 ---
-= Supervisión del rendimiento de las configuraciones de MetroCluster
+= Supervisa el rendimiento de MetroCluster con Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

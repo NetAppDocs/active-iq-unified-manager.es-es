@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: audit, logging 
 summary: Es posible detectar si los registros de auditoría se ven comprometidos con el uso de registros de auditoría. Todas las actividades realizadas por un usuario se supervisan y registran en los registros de auditoría. Las auditorías se realizan para todas las interfaces de usuario y las funcionalidades de Active IQ Unified Manager de las API expuestas al público. 
 ---
-= Registro de auditoría
+= Conoce los registros de auditoría en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

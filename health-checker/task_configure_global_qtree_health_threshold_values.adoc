@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, global, qtree, health, threshold values 
 summary: Puede configurar los valores de umbral de estado global de todos los qtrees para realizar un seguimiento de cualquier incumplimiento de umbral. Se generan eventos apropiados para las infracciones de los umbrales de salud y puede tomar medidas preventivas basadas en estos eventos. Puede configurar los valores globales basándose en la configuración de mejores prácticas para los umbrales que se aplican a todos los qtrees supervisados. 
 ---
-= Configurar los valores de umbral de salud del qtree global
+= Configura los valores umbral globales de estado de qtree en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

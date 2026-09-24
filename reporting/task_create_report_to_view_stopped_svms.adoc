@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, stopped, storage VMs 
 summary: Puede crear un informe para mostrar una lista de todas las SVM detenidas. 
 ---
-= Crear un informe para ver las máquinas virtuales de almacenamiento detenidas
+= Crear un informe para ver las máquinas virtuales de almacenamiento detenidas en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

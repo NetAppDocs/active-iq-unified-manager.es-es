@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, annotation list, details 
 summary: 'Puede ver la lista de anotaciones que están asociadas dinámicamente a clústeres, volúmenes y máquinas virtuales de almacenamiento (SVM). También puede ver detalles como la descripción, creada por, fecha de creación, valores, reglas, y los objetos asociados a la anotación.' 
 ---
-= Ver la lista de anotaciones y los detalles
+= Consulta la lista de anotaciones y los detalles en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

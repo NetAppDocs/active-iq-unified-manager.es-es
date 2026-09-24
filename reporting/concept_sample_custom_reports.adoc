@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: sample, custom, reports 
 summary: Estos informes personalizados de ejemplo se utilizan normalmente para ayudar a identificar problemas potenciales y responder a problemas potenciales antes de que se produzcan problemas. 
 ---
-= Informes personalizados de muestra
+= Entiende los informes personalizados de ejemplo en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

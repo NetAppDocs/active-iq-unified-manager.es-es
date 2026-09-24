@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resolving, performance, events 
 summary: Puede utilizar las acciones recomendadas para intentar resolver los eventos de rendimiento por su cuenta. Siempre se muestran las tres primeras sugerencias y las acciones de la cuarta sugerencia son específicas del tipo de evento mostrado. 
 ---
-= Resolver eventos de rendimiento
+= Resuelve incidencias de rendimiento en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

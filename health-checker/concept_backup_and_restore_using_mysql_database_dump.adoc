@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: backup, restore, using, mysql, database, dump, snapshot copy, copies 
 summary: Un backup de volcado de base de datos de MySQL es una copia de la base de datos de Active IQ Unified Manager y los archivos de configuración que puede utilizar en caso de fallo del sistema o pérdida de datos. Se puede programar la escritura de una copia de seguridad en un destino local o en un destino remoto. Es muy recomendable definir una ubicación remota externa al sistema host Active IQ Unified Manager. 
 ---
-= Realizar backups y restauraciones con un volcado de base de datos de MySQL
+= Copia de seguridad y restauración mediante un volcado de la base de datos MySQL en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

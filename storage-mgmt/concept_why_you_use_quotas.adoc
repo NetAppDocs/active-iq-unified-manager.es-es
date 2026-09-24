@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: use, quotas 
 summary: Puede utilizar las cuotas para limitar el uso de recursos en volúmenes de FlexVol, para proporcionar una notificación cuando el uso de los recursos alcanza niveles específicos o para realizar un seguimiento del uso de los recursos. 
 ---
-= Por qué se usan cuotas
+= Conoce las cuotas en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

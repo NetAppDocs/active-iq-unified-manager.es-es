@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: test, configuration, authentication servers 
 summary: Puede validar la configuración de los servidores de autenticación para garantizar que el servidor de gestión pueda comunicarse con ellos. Puede validar la configuración buscando un usuario remoto o un grupo remoto desde los servidores de autenticación y autentificándolos con la configuración configurada. 
 ---
-= Probar la configuración de los servidores de autenticación
+= Comprueba la configuración de los servidores de autenticación en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

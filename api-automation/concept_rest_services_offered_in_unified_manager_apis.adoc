@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: rest, services, offer, active iq, unified, manager 
 summary: Debe conocer los servicios DE REST y las operaciones ofrecidas, antes de empezar a usar las API Active IQ Unified Manager. 
 ---
-= Servicios DE REST ofrecidos en Active IQ Unified Manager
+= Entiende los servicios REST que ofrece Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

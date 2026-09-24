@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: graphical, interface, navigational, paths 
 summary: Unified Manager cuenta con una gran flexibilidad y permite realizar varias tareas de distintas formas. Existen muchas rutas de navegación que se detectarán cuando trabaje en Unified Manager. Aunque no se pueden mostrar todas las combinaciones posibles de navegaciones, debería estar familiarizado con algunos de los escenarios más comunes. 
 ---
-= Interfaz gráfica y rutas de navegación
+= Explora la interfaz gráfica y las rutas de navegación en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

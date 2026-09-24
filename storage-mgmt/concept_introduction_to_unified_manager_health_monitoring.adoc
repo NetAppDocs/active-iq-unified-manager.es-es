@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: introduction, active iq unified manager, throughput, Mbps, Kbps, GiB, TiB, logical capacity, PiB, Capacity measurement units 
 summary: Unidades de medida de capacidad capacidad capacidad física y lógica 
 ---
-= Introducción a la supervisión del estado de Active IQ Unified Manager
+= Conoce el monitoreo del estado en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

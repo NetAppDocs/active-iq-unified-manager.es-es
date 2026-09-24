@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: logs, troubleshooting 
 summary: Los registros del sistema le permiten analizar las causas de los errores y solucionar los problemas que pueden surgir al ejecutar las API. 
 ---
-= Registros para solución de problemas
+= Soluciona problemas con los registros del sistema en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

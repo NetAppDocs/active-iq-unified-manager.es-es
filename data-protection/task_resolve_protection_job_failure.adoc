@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resolve, protection, job failure 
 summary: Este flujo de trabajo proporciona un ejemplo de cómo se puede identificar y resolver un error de trabajo de protección en la consola de Unified Manager. 
 ---
-= Resolver un error en un trabajo de protección
+= Soluciona un error en una tarea de protección en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

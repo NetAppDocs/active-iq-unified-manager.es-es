@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, group actions 
 summary: Es posible eliminar una acción de grupo de Unified Manager cuando ya no se necesita la acción de grupo. 
 ---
-= Eliminar acciones de grupo
+= Eliminar acciones de grupo en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

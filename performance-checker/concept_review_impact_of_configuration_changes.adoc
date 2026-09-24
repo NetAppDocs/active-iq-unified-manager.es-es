@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: review, impact, configuration, changes, workload, performance 
 summary: Los cambios de configuración en el clúster, como un disco con fallos, conmutación de alta disponibilidad o un volumen movido, pueden afectar de forma negativa al rendimiento del volumen y provocar un aumento de la latencia. 
 ---
-= Revise el impacto de los cambios de configuración en el rendimiento de la carga de trabajo
+= Evalúa cómo afectan los cambios de configuración al rendimiento de las cargas de trabajo en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

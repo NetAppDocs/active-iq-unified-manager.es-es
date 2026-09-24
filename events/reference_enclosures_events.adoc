@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: enclosures, events, impact area, availability, configuration 
 summary: Los eventos de compartimentos le proporcionan información sobre el estado de los compartimentos de bandejas de discos en el centro de datos para poder supervisar posibles problemas. Los eventos se agrupan por área de impacto e incluyen el nombre del evento y de captura, el nivel de impacto, el tipo de origen y la gravedad. 
 ---
-= Eventos de compartimentos
+= Infórmate sobre los eventos relacionados con los equipos en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

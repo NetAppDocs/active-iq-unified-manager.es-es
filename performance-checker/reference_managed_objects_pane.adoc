@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: managed, objects, pane 
 summary: El panel Managed Objects de la pestaña Performance Summary proporciona una información general de nivel superior sobre los tipos de objetos de almacenamiento y los números para el clúster. Este panel le permite realizar el seguimiento del estado de los objetos de cada clúster. 
 ---
-= Panel Managed Objects
+= Revisa el panel «Objetos gestionados» en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

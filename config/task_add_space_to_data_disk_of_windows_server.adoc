@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, space, logical, drive, microsoft windows server 
 summary: Si necesita aumentar la cantidad de espacio en disco para la base de datos de Unified Manager, puede añadir capacidad a la unidad lógica en la que está instalado Unified Manager. 
 ---
-= Agregar espacio a la unidad lógica del servidor Microsoft Windows
+= Agrega espacio a la unidad lógica en un servidor Windows en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

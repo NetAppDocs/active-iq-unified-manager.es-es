@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cluster events, impact, area, availability, capacity, configuration, performance, security 
 summary: Los eventos del clúster proporcionan información sobre el estado de los clústeres, lo que permite supervisar los clústeres para detectar posibles problemas. Los eventos se agrupan por área de impacto, e incluyen el nombre del evento, el nombre de captura, el nivel de impacto, el tipo de origen y la gravedad. 
 ---
-= Eventos del clúster
+= Conoce los eventos de clúster en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

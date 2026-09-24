@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: select, performance, charts, display 
 summary: La lista desplegable Choose Chart permite seleccionar los tipos de gráficos de contadores de rendimiento para mostrar en el panel Counter Charts. Esto le permite ver datos y contadores específicos según sus requisitos de rendimiento. 
 ---
-= Seleccione gráficos de rendimiento para mostrar
+= Selecciona los gráficos de rendimiento que se mostrarán en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

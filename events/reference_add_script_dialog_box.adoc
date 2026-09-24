@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, script, dialog, box 
 summary: El cuadro de diálogo Add Script permite añadir scripts a Unified Manager. Es posible configurar alertas con los scripts para resolver automáticamente los eventos generados para los objetos de almacenamiento. 
 ---
-= Cuadro de diálogo Add Script
+= Cuadro de diálogo Add Script en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: access, points, generating, reports 
 summary: Puede recopilar información en Unified Manager sobre los clústeres para crear informes desde la interfaz de usuario, consultas de base de datos de MySQL y API DE REST. 
 ---
-= Puntos de acceso para generar informes
+= Descubre tres formas de acceder a las funciones de generación de informes en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

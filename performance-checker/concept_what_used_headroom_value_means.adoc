@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, capacity, value, means 
 summary: El valor de capacidad de rendimiento utilizada le ayuda a identificar los nodos y los agregados que se están utilizando en exceso o están desaprovechados. Esto permite redistribuir las cargas de trabajo para hacer que los recursos de almacenamiento sean más eficientes. 
 ---
-= Qué significa el valor de capacidad de rendimiento utilizada
+= Utiliza el valor de capacidad de rendimiento utilizada en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

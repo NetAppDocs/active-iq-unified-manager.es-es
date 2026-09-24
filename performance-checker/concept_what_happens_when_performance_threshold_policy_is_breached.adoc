@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: happens, performance, threshold, policy, breached 
 summary: Cuando un valor de contador supera su valor de umbral de rendimiento definido para la cantidad de tiempo especificada en la duración, se supera el umbral y se informa de un evento. 
 ---
-= Qué sucede cuando se incumple una política de umbral de rendimiento
+= Responder ante el incumplimiento de las políticas de umbrales de rendimiento en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

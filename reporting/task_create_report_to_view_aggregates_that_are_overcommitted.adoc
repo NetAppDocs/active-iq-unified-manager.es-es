@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, aggregates, overcommitted 
 summary: Puede crear un informe para analizar la capacidad de almacenamiento y el uso de los agregados, así como para ver los agregados comprometidos en exceso. 
 ---
-= Cree un informe para ver los agregados que están sobrecomprometidos
+= Crear un informe para ver los agregados que están en situación de sobrecompromiso en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

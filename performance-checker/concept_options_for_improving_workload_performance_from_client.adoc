@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: options, improving, workload, performance, client-side 
 summary: Puede comprobar sus cargas de trabajo de cliente, como aplicaciones o bases de datos, que envían I/o a volúmenes involucrados en un evento de rendimiento para determinar si un cambio en el cliente puede corregir el evento. 
 ---
-= Opciones para mejorar el rendimiento de las cargas de trabajo desde el cliente
+= Mejora el rendimiento de la carga de trabajo ajustando la configuración del lado del cliente en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

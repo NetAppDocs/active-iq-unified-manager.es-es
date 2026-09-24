@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage, resource, ONTAP 
 summary: Los recursos de almacenamiento de ONTAP se pueden clasificar en recursos de almacenamiento físico y recursos de almacenamiento lógico. Para gestionar de manera eficaz los sistemas de ONTAP mediante las API proporcionadas en Active IQ Unified Manager, debe conocer el modelo de recursos de almacenamiento y la relación entre varios recursos de almacenamiento. 
 ---
-= Recursos de almacenamiento en ONTAP
+= Entiende el modelo de recursos de almacenamiento de ONTAP en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

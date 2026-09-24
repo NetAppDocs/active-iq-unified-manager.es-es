@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage, capacity, health, thresholds 
 summary: Un umbral de estado de la capacidad de almacenamiento es el punto en el que Unified Manager Server genera eventos para informar de cualquier problema de capacidad con los objetos de almacenamiento. Es posible configurar alertas para que envíen notificaciones cuando se produzcan dichos eventos. 
 ---
-= Los umbrales del estado de la capacidad del almacenamiento
+= Infórmate sobre los umbrales de estado de la capacidad de almacenamiento en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: happens, performance, threshold, policies, object, moved 
 summary: Dado que las políticas de umbral de rendimiento se asignan a los objetos de almacenamiento, si se mueve un objeto, todas las políticas de umbral asignadas se conservan asociadas al objeto después de completar el movimiento. Por ejemplo, si mueve un volumen o una LUN a otro agregado, las políticas de umbral seguirán activas para el volumen o LUN del nuevo agregado. 
 ---
-= Qué sucede con las políticas de umbral de rendimiento cuando se mueve un objeto
+= Gestiona las políticas de umbrales al mover objetos en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

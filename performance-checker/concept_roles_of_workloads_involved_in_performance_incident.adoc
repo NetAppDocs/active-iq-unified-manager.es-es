@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: roles, workloads, involved, performance, event 
 summary: Unified Manager utiliza roles para identificar la implicación de una carga de trabajo en un evento de rendimiento. Entre las funciones se encuentran las víctimas, los agresores y los tiburones. Una carga de trabajo definida por el usuario puede ser víctima, abusador o tiburón al mismo tiempo. 
 ---
-= Funciones de las cargas de trabajo involucradas en un evento de rendimiento
+= Identifica los roles de las cargas de trabajo en los eventos de rendimiento de Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

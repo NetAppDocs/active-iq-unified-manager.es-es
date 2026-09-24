@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: report, schedule 
 summary: Después de tener una vista o un archivo de Excel que desee programar para la generación y distribución regulares, puede programar el informe. 
 ---
-= Programar un informe
+= Programa un informe en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

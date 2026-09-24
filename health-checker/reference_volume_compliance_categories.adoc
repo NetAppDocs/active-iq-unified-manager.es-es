@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: volume, encryption, compliance, categories 
 summary: En esta tabla, se describen los parámetros de cifrado de volúmenes que Unified Manager evalúa para determinar si los datos de los volúmenes están protegidos de forma adecuada para que usuarios no autorizados puedan acceder a ellos. 
 ---
-= Categorías de cumplimiento de volúmenes
+= Entiende las categorías de cumplimiento de volumen en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

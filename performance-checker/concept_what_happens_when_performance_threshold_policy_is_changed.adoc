@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: happens, performance, threshold, policy, changed 
 summary: Si ajusta el valor de contador o la duración de una política de umbral de rendimiento existente, el cambio de política se aplica a todos los objetos de almacenamiento que usan la política. El nuevo ajuste se realiza de inmediato y Unified Manager comienza a comparar los valores de contador de rendimiento con la nueva configuración de umbral de todos los datos de rendimiento recientemente recopilados. 
 ---
-= Qué ocurre cuando se cambia una política de umbral de rendimiento
+= Entiende los cambios en la política de umbrales de rendimiento en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

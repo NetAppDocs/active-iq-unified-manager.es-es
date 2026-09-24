@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: audience, api, rest 
 summary: Esta sección está destinada a los desarrolladores que creen aplicaciones que interface con el software Active IQ Unified Manager mediante API REST. 
 ---
-= Destinatarios para este contenido
+= Identifica a los usuarios a los que van dirigidas las REST APIs de Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

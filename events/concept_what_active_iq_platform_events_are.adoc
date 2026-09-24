@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: active iq, platform, events 
 summary: Unified Manager puede mostrar eventos detectados por la plataforma Active IQ. Estos eventos se crean ejecutando un conjunto de reglas contra los mensajes de AutoSupport generados desde todos los sistemas de almacenamiento que supervisa Unified Manager. 
 ---
-= ¿Qué son los eventos de la plataforma Active IQ
+= Infórmate sobre los eventos de la plataforma Active IQ en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

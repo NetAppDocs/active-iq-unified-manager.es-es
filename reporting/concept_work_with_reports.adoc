@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: work, reports 
 summary: Aprenda a buscar y personalizar las vistas de páginas de inventario en informes programados compartibles. 
 ---
-= Trabajar con informes
+= Trabaja con informes en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

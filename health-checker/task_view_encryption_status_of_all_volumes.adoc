@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, encryption status, volumes 
 summary: Puede ver una lista de todos los volúmenes y su estado de cifrado actual para poder determinar si los datos de los volúmenes están protegidos correctamente para que otros usuarios no autorizados puedan acceder a ellos. 
 ---
-= Ver el estado de cifrado de todos los volúmenes
+= Ver el estado de cifrado de todos los volúmenes en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

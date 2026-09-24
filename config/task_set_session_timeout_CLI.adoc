@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: session timeout, CLI, maximum 
 summary: Puede configurar un valor de tiempo de espera máximo de sesión para Unified Manager mediante la CLI, de modo que la sesión se finalice automáticamente después de un cierto periodo de tiempo. 
 ---
-= Configure el tiempo de espera de la sesión a través de la CLI
+= Configura el tiempo de espera de la sesión usando la CLI en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

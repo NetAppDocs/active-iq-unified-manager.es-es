@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, alert, dialog box, name, resources, events, actions 
 summary: Puede editar propiedades de alerta, como el recurso con el que está asociada la alerta, eventos, script y opciones de notificación. 
 ---
-= Cuadro de diálogo Edit Alert
+= Editar las propiedades de las alertas en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

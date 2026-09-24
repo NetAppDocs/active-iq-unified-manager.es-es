@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, schedule, dialog box 
 summary: El cuadro de diálogo Create Schedule permite crear un programa de protección básico o avanzado para las transferencias de relaciones de SnapMirror y SnapVault. Es posible crear una nueva programación para aumentar la frecuencia de las transferencias de datos debido a actualizaciones de datos frecuentes, o bien crear una programación menos frecuente cuando cambian los datos con poca frecuencia. 
 ---
-= Cuadro de diálogo Create Schedule
+= Utiliza el cuadro de diálogo Crear programación en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

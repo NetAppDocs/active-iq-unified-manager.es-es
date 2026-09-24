@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: summary page, charts, counter, statistics 
 summary: La página Summary muestra gráficos de contadores que contienen detalles sobre los eventos y el rendimiento por objeto durante el período de 72 horas anterior. Estos datos no se actualizan automáticamente, pero están actualizados a partir de la última carga de página. Los gráficos de la página Resumen responden a la pregunta ¿Debo mirar más allá? 
 ---
-= Resumen
+= Consulta la página Resumen de rendimiento en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

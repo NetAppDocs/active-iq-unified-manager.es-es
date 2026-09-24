@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: openjdk, jre, linux, upgrade 
 summary: Puede realizar una actualización a una versión más reciente de OpenJDK en el servidor Linux en el que está instalado Unified Manager para obtener correcciones de vulnerabilidades de seguridad. 
 ---
-= Actualizar OpenJDK en Linux
+= Actualizar OpenJDK en Linux para Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

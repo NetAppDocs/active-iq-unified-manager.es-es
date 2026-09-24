@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, node, aggregate, available, iops, values 
 summary: Puede supervisar los valores de IOPS disponibles para todos los nodos o todos los agregados de un clúster, o bien puede ver detalles de un único nodo o agregado. 
 ---
-= Ver nodo y agregar valores de IOPS disponibles
+= Ver los valores de IOPS disponibles para los nodos y los agregados en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

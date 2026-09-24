@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, reports 
 summary: Una vez programados los informes, puede eliminarlos de la página programas de informes. 
 ---
-= Eliminar informes programados
+= Eliminar informes programados en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

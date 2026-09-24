@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: complete, worksheet 
 summary: Antes de instalar y configurar Unified Manager, debe tener disponible información específica acerca de su entorno. Puede registrar la información en la hoja de cálculo. 
 ---
-= Rellene la hoja de trabajo
+= Rellena la hoja de trabajo en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

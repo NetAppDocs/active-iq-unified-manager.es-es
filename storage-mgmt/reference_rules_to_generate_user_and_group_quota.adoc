@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: rules, generate, user, group, quota, email, address, page, area, define, add comments, syntax, command buttons 
 summary: La página Reglas para generar Dirección de correo electrónico de cuota de usuario y de grupo permite crear reglas para especificar direcciones de correo electrónico en función de la cuota de usuario asociada a clústeres, SVM, volúmenes, qtrees, usuarios, o grupos de usuarios. Cuando se incumple una cuota, se envía una notificación a la dirección de correo electrónico especificada. 
 ---
-= Reglas para generar la página Dirección de correo electrónico de cuota de usuario y grupo
+= Infórmate sobre las reglas de direcciones de correo electrónico de cuota en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

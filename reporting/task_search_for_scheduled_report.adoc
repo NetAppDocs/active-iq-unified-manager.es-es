@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: search, schedule, report 
 summary: Puede buscar informes programados por nombre, nombre de vista, tipo de objeto o destinatarios. 
 ---
-= Buscar un informe programado
+= Buscar un informe programado en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

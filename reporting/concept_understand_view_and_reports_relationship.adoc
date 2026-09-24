@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, view, report, relationship 
 summary: Las vistas y las páginas de inventario se convierten en informes cuando las descarga o las programa. 
 ---
-= Comprender la relación entre la vista y el informe
+= Comprende la relación entre las vistas y los informes en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

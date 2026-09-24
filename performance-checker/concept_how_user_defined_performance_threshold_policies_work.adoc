@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: user-defined, performance, threshold, policies, work 
 summary: 'Puede establecer políticas de umbral de rendimiento en objetos de almacenamiento (por ejemplo, en agregados y volúmenes) para que se pueda enviar un evento al administrador de almacenamiento con el fin de informar al administrador de que el clúster está experimentando un problema de rendimiento.' 
 ---
-= Cómo funcionan las políticas de umbral de rendimiento definidas por el usuario
+= Usa políticas de umbrales de rendimiento definidas por el usuario en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: workload analyzer, charts, display, data 
 summary: La página del analizador de cargas de trabajo muestra información sobre los eventos actuales que podrían afectar a la carga de trabajo, recomendaciones para resolver potencialmente el problema que causa el evento y gráficos para analizar el historial de rendimiento y capacidad. 
 ---
-= ¿Qué datos muestra el analizador de cargas de trabajo
+= Entiende los datos del analizador de carga de trabajo en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

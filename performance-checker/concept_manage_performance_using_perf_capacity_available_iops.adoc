@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: managing, performance, performance, capacity, available, iops, information 
 summary: La capacidad de rendimiento indica cuánto rendimiento puede obtener de un recurso sin superar el rendimiento útil de ese recurso. Cuando se visualizan a través de los contadores de rendimiento existentes, la capacidad de rendimiento es el punto en el que se obtiene el uso máximo de un nodo o de un agregado antes de que la latencia empeore. 
 ---
-= Gestionar el rendimiento utilizando la capacidad de rendimiento y la información de IOPS disponible
+= Gestiona la capacidad de rendimiento y las IOPS disponibles en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

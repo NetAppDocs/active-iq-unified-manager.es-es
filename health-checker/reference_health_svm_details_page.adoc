@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage VM, health details page 
 summary: 'Puede utilizar la página de detalles Storage VM / Health para ver información detallada acerca de la máquina virtual de almacenamiento seleccionada, como su estado, capacidad, configuración, políticas de datos, interfaces lógicas (LIF), LUN, qtrees, usuarios, cuotas de grupos de usuarios y detalles de protección . También es posible ver información sobre los objetos relacionados y las alertas relacionadas para la máquina virtual de almacenamiento.' 
 ---
-= Página de detalles Storage VM / Health
+= Accede a la página de detalles de la máquina virtual de almacenamiento y su estado en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

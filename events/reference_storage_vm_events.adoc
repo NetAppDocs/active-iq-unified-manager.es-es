@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage, vm events, impact area, availability, configuration, performance, security 
 summary: 'Los eventos de máquina virtual de almacenamiento le proporcionan información sobre el estado de las máquinas virtuales de almacenamiento (SVM) para poder supervisar posibles problemas. Los eventos se agrupan por área de impacto e incluyen el nombre del evento y de captura, el nivel de impacto, el tipo de origen y la gravedad.' 
 ---
-= Eventos de máquinas virtuales de almacenamiento
+= Conoce los eventos de las Storage VM en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

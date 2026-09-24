@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: definitions, user roles 
 summary: El usuario de mantenimiento o el administrador de aplicaciones asigna una función a todos los usuarios. Cada rol contiene ciertos privilegios. El ámbito de las actividades que se pueden realizar en Unified Manager depende del rol que se tenga asignado y de los privilegios que contiene el rol. 
 ---
-= Definiciones de roles de usuario
+= Conoce los roles de usuario en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

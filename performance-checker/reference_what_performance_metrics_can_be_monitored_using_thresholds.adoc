@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, counters, tracked, thresholds 
 summary: Algunos contadores de rendimiento comunes, como IOPS y MB/s, pueden tener umbrales definidos para todos los objetos de almacenamiento. Hay otros contadores que pueden tener umbrales establecidos para determinados objetos de almacenamiento. 
 ---
-= Se puede realizar un seguimiento de los contadores de rendimiento mediante umbrales
+= Entiende los contadores de rendimiento supervisados mediante umbrales en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

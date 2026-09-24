@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asynchronous, mirror, vault, relationship, events, impact area, protection 
 summary: Los eventos de relaciones de mirroring y almacén asíncronos le proporcionan información sobre el estado de las relaciones de SnapMirror y almacén asíncronas para poder realizar una supervisión de posibles problemas. Los eventos de relación de reflejo asíncrono y almacén se admiten tanto para las relaciones de protección de máquinas virtuales de almacenamiento como de volúmenes. Pero solo no se admiten las relaciones de almacén para la recuperación ante desastres de la máquina virtual de almacenamiento. Los eventos se agrupan por área de impacto e incluyen el nombre del evento y de captura, el nivel de impacto, el tipo de origen y la gravedad. 
 ---
-= Eventos de relaciones de reflejo asíncrono y almacén
+= Conoce los eventos de relación asíncrona de Mirror y Vault en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

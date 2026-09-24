@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: security compliance settings, security feature settings, ONTAP hardening guide, AutoSupport settings, authentication settings 
 summary: Puede habilitar o deshabilitar los parámetros de seguridad para supervisar el cumplimiento de normativas en Unified Manager. 
 ---
-= Habilitar y deshabilitar configuraciones de seguridad para el cumplimiento
+= Activar y desactivar la configuración de seguridad para el cumplimiento en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

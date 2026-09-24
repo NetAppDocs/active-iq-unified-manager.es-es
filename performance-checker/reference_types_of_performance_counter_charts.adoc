@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: types, performance, counter, charts 
 summary: Hay gráficos de rendimiento estándar que muestran los valores de contador para el objeto de almacenamiento seleccionado. Cada uno de los gráficos de contadores de desglose muestra los valores totales separados en categorías de lectura, escritura y otras. Además, algunos gráficos de contadores de desglose muestran detalles adicionales cuando el gráfico se muestra en la vista Zoom. 
 ---
-= Tipos de gráficos de contadores de rendimiento
+= Entiende los tipos de gráficos de contadores de rendimiento en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

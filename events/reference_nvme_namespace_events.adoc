@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: nvme, namespace, events, impact area, availability, performance 
 summary: Los eventos de espacio de nombres de NVMe ofrecen información sobre el estado de los espacios de nombres para poder supervisar si existen problemas potenciales. Los eventos se agrupan por área de impacto e incluyen el nombre del evento y de captura, el nivel de impacto, el tipo de origen y la gravedad. 
 ---
-= Eventos de espacio de nombres de NVMe
+= Conoce los eventos de espacios de nombres NVMe en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, volume, health, thresholds, groups 
 summary: Puede configurar umbrales de estado del volumen a nivel de grupo para la capacidad, las copias Snapshot, las cuotas de qtree, el crecimiento y los inodos. 
 ---
-= Configurar umbrales de estado del volumen para grupos
+= Configura los umbrales de estado de los volúmenes para los grupos en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

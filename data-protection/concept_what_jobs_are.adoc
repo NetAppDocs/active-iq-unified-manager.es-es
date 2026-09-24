@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: jobs 
 summary: Un trabajo es una serie de tareas que se pueden supervisar con Unified Manager. La visualización de trabajos y sus tareas asociadas permite determinar si los trabajos se completaron correctamente. 
 ---
-= Qué trabajos son
+= Infórmate sobre los trabajos en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

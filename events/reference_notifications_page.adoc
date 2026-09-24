@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: notifications page, email, smtp, server, snmp 
 summary: Puede configurar Unified Manager Server para que envíe notificaciones cuando se genera un evento o cuando se asigna a un usuario. También puede configurar los mecanismos de notificación. Por ejemplo, las notificaciones se pueden enviar como correos electrónicos o capturas SNMP. 
 ---
-= Notificaciones
+= Conoce la página de notificaciones en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

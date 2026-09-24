@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, metrocluster, replication 
 summary: Puede supervisar y diagnosticar la condición de estado general de las conexiones lógicas mientras hace mirroring de los datos. Es posible identificar los problemas o cualquier riesgo que interrumpa el mirroring de componentes del clúster, como agregados, nodos y máquinas virtuales de almacenamiento. 
 ---
-= Supervisar la replicación de MetroCluster
+= Supervisa la replicación de MetroCluster en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

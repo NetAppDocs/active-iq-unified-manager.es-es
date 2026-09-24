@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: api gateway 
 summary: La función de puerta de enlace de API permite a Active IQ Unified Manager ser un único plano de control desde el cual puede gestionar varios clústeres de ONTAP sin iniciar sesión de forma individual. 
 ---
-= Habilitar API Gateway
+= Descubre la función API Gateway de Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

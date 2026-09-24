@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: access, ONTAP, APIs, proxy, access 
 summary: Las API de puerta de enlace le ofrecen la ventaja de usar las credenciales de Active IQ Unified Manager para ejecutar API DE REST de ONTAP y gestionar objetos de almacenamiento. Estas API están disponibles cuando se habilita la función API Gateway en la interfaz de usuario web de Unified Manager. 
 ---
-= Acceda a las API de ONTAP a través del acceso proxy
+= Accede a las API de ONTAP mediante el acceso por proxy en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

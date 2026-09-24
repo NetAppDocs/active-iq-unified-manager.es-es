@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, cluster, object, navigation 
 summary: Es posible supervisar el rendimiento de todos los objetos en cualquier clúster gestionado por Unified Manager. La supervisión de objetos de almacenamiento le proporciona una descripción general del rendimiento del clúster y los objetos, e incluye supervisión de eventos de rendimiento. Es posible ver los eventos y el rendimiento a un nivel alto o estudiar aún más detalles sobre los eventos de rendimiento y rendimiento de objetos. 
 ---
-= Supervise la navegación de objetos del clúster
+= Supervisa la navegación por los objetos del clúster en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

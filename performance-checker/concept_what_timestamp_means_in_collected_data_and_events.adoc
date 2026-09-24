@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: timestamp, means, collected, data, events 
 summary: La Marca de hora que aparece en los datos de estado y rendimiento recopilados, o que aparece como hora de detección de un evento, se basa en la hora del clúster de ONTAP, ajustada a la zona horaria establecida en el explorador web. 
 ---
-= Lo que significa la Marca de hora en los datos y eventos recopilados
+= Infórmate sobre las marcas de tiempo en los datos recopilados y los eventos en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

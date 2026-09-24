@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, workloads, add, provision, storage, filter, analyze, performance, capacity, criteria 
 summary: La vista All Workloads muestra la lista de todas las cargas de trabajo disponibles en los clústeres en un centro de datos. 
 ---
-= Ver cargas de trabajo
+= Ver cargas de trabajo en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

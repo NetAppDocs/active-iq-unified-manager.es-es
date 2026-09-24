@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, workload, latency, identify, performance, issues 
 summary: 'La latencia de las cargas de trabajo (tiempo de respuesta) es el tiempo que tarda un volumen en un clúster en responder a las solicitudes de I/o de las aplicaciones cliente. Unified Manager utiliza la latencia para detectar eventos de rendimiento y alertarle de ellos.' 
 ---
-= Cómo Unified Manager utiliza la latencia de carga de trabajo para identificar problemas de rendimiento
+= Utiliza la latencia de las cargas de trabajo para identificar problemas de rendimiento en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

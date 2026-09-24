@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: node, failover, planning page, determine, corrective, actions 
 summary: Basándose en la información que se muestra en la página Performance/Node Failover Planning, puede realizar acciones para garantizar que una conmutación por error no haga que el rendimiento de un par de alta disponibilidad caiga por debajo de un nivel aceptable. 
 ---
-= Utilice la página Planificación de conmutación por error de nodo para determinar acciones correctivas
+= Determina las medidas correctivas desde la página Performance/Node Failover Planning en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

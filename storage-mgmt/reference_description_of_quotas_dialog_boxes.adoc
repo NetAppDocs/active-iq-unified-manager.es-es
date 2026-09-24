@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: description, quotas, dialog, boxes 
 summary: 'Puede utilizar la opción adecuada en la pestaña cuotas de usuario y de grupo de la vista Estado: Todas las máquinas virtuales de almacenamiento para configurar el formato de la notificación de correo electrónico que se envía cuando se produce un problema relacionado con la cuota y para configurar reglas para especificar direcciones de correo electrónico basadas en la cuota de usuario.' 
 ---
-= Descripción de los cuadros de diálogo cuotas
+= Utiliza el cuadro de diálogo «Cuotas» en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: windows, log rotation issue, Netapp Manageability SDK 
 summary: 'Solución de problemas: siga estos pasos para resolver el problema de rotación de registros' 
 ---
-= Problema de rotación de registros del SDK de administración de NetApp en sistemas Windows
+= Soluciona un problema de rotación de registros del SDK de Manageability de NetApp en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

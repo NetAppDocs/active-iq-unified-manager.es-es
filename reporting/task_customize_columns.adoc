@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: customize, columns 
 summary: Utilice Mostrar u ocultar para elegir las columnas que desea utilizar en el informe. Arrastre las columnas de la página de inventario para reorganizarlas. 
 ---
-= Personalizar columnas
+= Personaliza columnas en un informe en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

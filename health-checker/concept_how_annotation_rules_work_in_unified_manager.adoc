@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: annotation rules, work, unified manager 
 summary: 'Una regla de anotación es un criterio que se define para anotar los objetos de almacenamiento (volúmenes, clústeres o máquinas virtuales de almacenamiento (SVM). Puede utilizar grupos de condiciones o condiciones para definir reglas de anotación.' 
 ---
-= Cómo funcionan las reglas de anotación en Unified Manager
+= Entiende cómo funcionan las reglas de anotación en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

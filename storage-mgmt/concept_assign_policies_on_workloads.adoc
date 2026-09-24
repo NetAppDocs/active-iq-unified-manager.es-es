@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: assign, policies, workloads, single, multiple, storage, system-recommended, psls 
 summary: 'Puede asignar políticas de eficiencia del almacenamiento (ASP) y niveles de servicio de rendimiento (PSLs) a cargas de trabajo de almacenamiento desde la página todas las cargas de trabajo mediante las distintas opciones de navegación.' 
 ---
-= Asignar políticas a cargas de trabajo
+= Asignar políticas a las cargas de trabajo en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

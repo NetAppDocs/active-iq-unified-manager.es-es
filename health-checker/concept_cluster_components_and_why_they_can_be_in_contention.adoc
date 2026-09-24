@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cluster, components, contention 
 summary: 'Puede identificar los problemas de rendimiento del clúster cuando un componente del clúster entra en disputa. El rendimiento de las cargas de trabajo que utilizan el componente disminuye y aumenta su tiempo de respuesta (latencia) para las solicitudes de clientes, lo que activa un evento en Unified Manager.' 
 ---
-= Los componentes del clúster y el motivo por los que pueden estar en contención
+= Entiende la contienda entre componentes del clúster en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

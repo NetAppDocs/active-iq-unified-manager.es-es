@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: advanced, secondary, settings, dialog box 
 summary: Puede utilizar el cuadro de diálogo Advanced Secondary Settings para habilitar la replicación con flexibilidad de versiones, backup de varias copias y configuración relacionada con el espacio en un volumen secundario. Puede usar el cuadro de diálogo Configuración secundaria avanzada si desea cambiar la opción Habilitar o deshabilitar la configuración actual. 
 ---
-= Cuadro de diálogo Advanced Secondary Settings
+= Utiliza el cuadro de diálogo Configuración secundaria avanzada en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

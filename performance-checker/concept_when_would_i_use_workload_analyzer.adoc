@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: workload analyzer, use 
 summary: Por lo general, se usaría el analizador de cargas de trabajo para solucionar un problema de latencia notificado por un usuario, para analizar más a fondo un evento o una alerta informados, o para explorar una carga de trabajo que observe que funciona de forma anormal. 
 ---
-= ¿Cuándo se debe utilizar el analizador de cargas de trabajo
+= Entiende cuándo usar el analizador de carga de trabajo en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

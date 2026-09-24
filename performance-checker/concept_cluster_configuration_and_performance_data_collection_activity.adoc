@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cluster, configuration, performance, data, collection, activity 
 summary: El intervalo de recogida de los datos de configuración del clúster es de 15 minutos. Por ejemplo, después de agregar un clúster, tarda 15 minutos en mostrar los detalles del clúster en la interfaz de usuario de Unified Manager. Este intervalo se aplica cuando se realizan cambios también en un clúster. 
 ---
-= Actividad de recogida de datos de rendimiento y configuración del clúster
+= Ver los datos de configuración y rendimiento del clúster en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

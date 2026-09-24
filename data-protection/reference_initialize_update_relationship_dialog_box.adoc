@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: initialize, update, dialog box 
 summary: El cuadro de diálogo inicializar/actualizar le permite realizar una primera transferencia de referencia en una nueva relación de protección o actualizar una relación si ya está inicializada y desea realizar una actualización manual, no programada e incremental. 
 ---
-= Cuadro de diálogo Initialize/Update
+= Utiliza el cuadro de diálogo Inicializar/Actualizar en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

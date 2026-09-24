@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, users 
 summary: Puede utilizar la página Users para ver la lista de usuarios que gestionan objetos de almacenamiento y datos mediante Unified Manager. Es posible ver detalles sobre los usuarios, como el nombre de usuario, el tipo de usuario, la dirección de correo electrónico y el rol asignado a los usuarios. 
 ---
-= Ver usuarios
+= Ver usuarios en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, disk, space, unified manager, database, directory 
 summary: El directorio de bases de datos de Unified Manager contiene todos los datos de estado y rendimiento que se recopilan en los sistemas ONTAP. Algunas circunstancias pueden requerir que aumente el tamaño del directorio de la base de datos. 
 ---
-= Agregar espacio en disco al directorio de la base de datos de Unified Manager
+= Agrega espacio en disco al directorio de la base de datos de Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

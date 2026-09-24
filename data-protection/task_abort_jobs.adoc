@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: abort, jobs 
 summary: Puede utilizar la página trabajos para cancelar un trabajo si tarda demasiado en finalizarlo, si encuentra demasiados errores o si ya no es necesario. Sólo puede cancelar un trabajo si su estado y el tipo permitir. Puede anular cualquier trabajo en ejecución. 
 ---
-= Abortar trabajos
+= Abortar tareas en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

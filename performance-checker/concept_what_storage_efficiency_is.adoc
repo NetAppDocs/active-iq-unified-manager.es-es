@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage, efficiency 
 summary: 'La eficiencia del almacenamiento le permite almacenar la cantidad máxima de datos al menor coste y alberga un rápido crecimiento de datos mientras consume menos espacio. La estrategia de eficiencia del almacenamiento de NetApp se basa en la virtualización del almacenamiento y el almacenamiento unificado que proporciona su sistema operativo ONTAP principal y el sistema de archivos WAFL (Write Anywhere File Layout).' 
 ---
-= Qué es la eficiencia del almacenamiento
+= Comprende la eficiencia del almacenamiento en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

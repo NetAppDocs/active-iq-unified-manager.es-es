@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, user-defined, performance, threshold, policies 
 summary: La configuración del umbral se puede editar para las políticas de umbral de rendimiento existentes. Esto puede ser útil si descubre que está recibiendo demasiadas alertas o muy pocas para ciertas condiciones de umbral. 
 ---
-= Editar políticas de umbral de rendimiento definidas por el usuario
+= Editar políticas de umbrales de rendimiento definidas por el usuario en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

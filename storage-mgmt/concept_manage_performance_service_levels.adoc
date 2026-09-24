@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, performance service level, PSL, User-defined, system-defined PSL, bursty, Database PSL, extreme PSL, beyond extreme PSL 
 summary: Gestión y cálculos de nivel de servicio de rendimiento. 
 ---
-= Niveles de servicio de rendimiento
+= Gestiona los niveles de servicio de rendimiento en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

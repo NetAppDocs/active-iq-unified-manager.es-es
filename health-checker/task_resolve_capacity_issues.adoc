@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resolve, capacity issues 
 summary: Este flujo de trabajo proporciona un ejemplo de cómo puede resolver un problema de capacidad. En esta situación, es un administrador o operador y accede a la página Dashboard de Unified Manager para ver si alguno de los objetos de almacenamiento supervisados tiene problemas de capacidad. Desea determinar la posible causa del problema y su resolución. 
 ---
-= Resolver problemas de capacidad
+= Resuelve problemas de capacidad en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

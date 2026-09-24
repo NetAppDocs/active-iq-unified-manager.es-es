@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: types, workloads, monitored, unified manager 
 summary: 'Es posible utilizar Unified Manager para supervisar el rendimiento de dos tipos de cargas de trabajo: Definidas por el usuario y definidas por el sistema.' 
 ---
-= Tipos de cargas de trabajo supervisadas por Unified Manager
+= Supervisa los tipos de carga de trabajo con Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

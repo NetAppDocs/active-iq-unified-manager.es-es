@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: security criteria, evaluated 
 summary: 'En general, los criterios de seguridad de sus clústeres de ONTAP, las máquinas virtuales de almacenamiento (SVM) y los volúmenes se evalúan con arreglo a las recomendaciones definidas en la Guía de seguridad reforzada de ONTAP 9.' 
 ---
-= Qué criterios de seguridad se están evaluando
+= Entiende cómo Active IQ Unified Manager evalúa los criterios de seguridad
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

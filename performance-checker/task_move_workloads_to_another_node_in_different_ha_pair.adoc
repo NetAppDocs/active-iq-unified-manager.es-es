@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: move, workloads, another, node, different, ha pair 
 summary: Puede usar Unified Manager para ayudar a identificar un agregado en un nodo en un par de alta disponibilidad diferente que está menos ocupado que el par de alta disponibilidad en el que se están ejecutando las cargas de trabajo en ese momento. A continuación, puede mover los volúmenes seleccionados a agregados en la nueva pareja de ha. Mover cargas de trabajo de alto rendimiento a un agregado en un nodo menos ocupado permite que las cargas de trabajo de ambos nodos funcionen de forma más eficiente. 
 ---
-= Mover cargas de trabajo a otro nodo en un par de alta disponibilidad diferente
+= Traslada cargas de trabajo a otro nodo de un par de alta disponibilidad diferente en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

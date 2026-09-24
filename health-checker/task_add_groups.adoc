@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, groups 
 summary: 'Puede crear grupos para combinar clústeres, volúmenes y máquinas virtuales de almacenamiento (SVM) con el fin de simplificar la gestión.' 
 ---
-= Agregar grupos
+= Agrega grupos en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

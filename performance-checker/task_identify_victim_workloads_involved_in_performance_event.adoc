@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: identify, victim workloads, dynamic, performance, event 
 summary: 'En Unified Manager, es posible identificar qué cargas de trabajo de volumen tienen la mayor desviación en tiempo de respuesta (latencia) provocada por un componente de almacenamiento en disputa. La identificación de estas cargas de trabajo le ayuda a comprender por qué las aplicaciones cliente que acceden a ellas han tenido un rendimiento más lento de lo habitual.' 
 ---
-= Identificar las cargas de trabajo de las víctimas involucradas en un evento de rendimiento dinámico
+= Identifica las cargas de trabajo afectadas en eventos de rendimiento dinámicos en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

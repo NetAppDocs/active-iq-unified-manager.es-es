@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: group actions, work, storage, objects 
 summary: Una acción de grupo es una operación que se realiza en todos los objetos de almacenamiento de un grupo. Por ejemplo, es posible configurar la acción del grupo de umbrales de volúmenes para cambiar simultáneamente los valores de umbral de volumen de todos los volúmenes de un grupo. 
 ---
-= Cómo funcionan las acciones de grupo en los objetos de almacenamiento
+= Entiende cómo funcionan las acciones de grupo en los objetos de almacenamiento en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

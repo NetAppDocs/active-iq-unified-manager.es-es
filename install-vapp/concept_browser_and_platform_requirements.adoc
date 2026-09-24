@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: supported browsers 
 summary: Para acceder a la interfaz de usuario web de Unified Manager, utilice un explorador compatible. 
 ---
-= Exploradores compatibles
+= Utiliza los navegadores compatibles con Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

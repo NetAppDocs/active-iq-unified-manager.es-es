@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: system-defined, performance, threshold, policies, cluster, node. aggregate, qos 
 summary: Unified Manager proporciona algunas políticas de umbral estándar que supervisan el rendimiento de un clúster y generan eventos automáticamente. Estas políticas se habilitan de forma predeterminada, por lo que generan eventos de información o advertencia cuando se incumplen los umbrales de rendimiento supervisados. 
 ---
-= Tipos de políticas de umbral de rendimiento definidas por el sistema
+= Comprende las políticas de umbrales de rendimiento definidas por el sistema en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

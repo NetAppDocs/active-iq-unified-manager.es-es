@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: select, predefined, time, range 
 summary: Seleccionar un intervalo de tiempo predefinido es una forma rápida y eficiente de personalizar y centrar el resultado de los datos cuando se ven los datos de rendimiento del objeto del clúster. Al seleccionar un intervalo de tiempo predefinido, se dispone de datos de hasta 13 meses. 
 ---
-= Seleccione un rango de tiempo predefinido
+= Selecciona un intervalo de tiempo predefinido en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: sample, microsoft, excel, reports 
 summary: Estos informes de ejemplo de Microsoft Excel tienen como objetivo introducir opciones de generación de informes disponibles mediante las características avanzadas de Excel. 
 ---
-= Informes de ejemplo de Microsoft Excel
+= Entiende los informes de ejemplo de Microsoft Excel en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

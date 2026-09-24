@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, aggregate, health details page 
 summary: Puede usar la página de detalles Aggregate / Health para ver información detallada sobre el agregado seleccionado, como la capacidad, la información de disco, los detalles de configuración y los eventos generados. También puede ver información sobre los objetos relacionados y las alertas relacionadas de ese agregado. 
 ---
-= Página de detalles Aggregate / Health
+= Ver la página de detalles de Aggregate / Health en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

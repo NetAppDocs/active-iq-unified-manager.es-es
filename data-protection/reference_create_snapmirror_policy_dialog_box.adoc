@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapmirror, policy, dialog box 
 summary: El cuadro de diálogo Create SnapMirror Policy permite crear una política para establecer la prioridad para las transferencias de SnapMirror. Las políticas se usan para maximizar la eficiencia de las transferencias del origen al destino. 
 ---
-= Cuadro de diálogo Create SnapMirror Policy
+= Utiliza el cuadro de diálogo Crear SnapMirror Policy en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: job, details, page 
 summary: La página de detalles Job permite ver el estado y otra información sobre tareas de trabajos de protección específicas en ejecución, que se encuentran en cola o que han finalizado. Es posible usar esta información para supervisar el progreso del trabajo de protección y solucionar problemas de fallos de trabajos. 
 ---
-= Página de detalles Job
+= Infórmate sobre la página de detalles de los trabajos en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

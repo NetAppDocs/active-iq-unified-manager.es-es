@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, scripts 
 summary: Es posible usar scripts para modificar o actualizar automáticamente varios objetos de almacenamiento en Unified Manager. El script está asociado a una alerta. Cuando un evento activa una alerta, se ejecuta el script. Puede cargar scripts personalizados y probar su ejecución cuando se genera una alerta. 
 ---
-= Administrar scripts
+= Administra scripts en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

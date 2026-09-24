@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: description, script, windows, dialog boxes 
 summary: La página Scripts permite añadir scripts a Unified Manager. 
 ---
-= Descripción de ventanas de script y cuadros de diálogo
+= Ventanas de script y cuadros de diálogo en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

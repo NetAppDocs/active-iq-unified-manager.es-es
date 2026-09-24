@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: identify, shark workloads, involved, dynamic, performance, event 
 summary: En Unified Manager, es posible identificar qué cargas de trabajo tienen la mayor desviación de uso para un componente de almacenamiento en contención. La identificación de estas cargas de trabajo le ayuda a determinar si estas cargas de trabajo se deben mover a un clúster menos utilizado. 
 ---
-= Identificar las cargas de trabajo de los tiburones involucradas en un evento de rendimiento dinámico
+= Identifica cargas de trabajo «shark» en un evento de rendimiento dinámico en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, storage pool, details 
 summary: Es posible ver los detalles del pool de almacenamiento para supervisar el estado del pool de almacenamiento, la caché total y disponible, y las asignaciones usadas y disponibles. 
 ---
-= Ver detalles del pool de almacenamiento
+= Ver los detalles del grupo de almacenamiento en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

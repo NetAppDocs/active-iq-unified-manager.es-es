@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: install, unified manager 
 summary: Puede instalar Unified Manager para supervisar y solucionar problemas de capacidad de almacenamiento de datos, disponibilidad, rendimiento y protección. 
 ---
-= Instale Unified Manager
+= Instalar Active IQ Unified Manager en Windows
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

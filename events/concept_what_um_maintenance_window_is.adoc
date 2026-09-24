@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, maintenance, window 
 summary: La ventana de mantenimiento de Unified Manager se define para suprimir eventos y alertas de un plazo específico cuando se ha programado el mantenimiento del clúster y no se desea recibir un gran número de notificaciones no deseadas. 
 ---
-= Qué es una ventana de mantenimiento de Unified Manager
+= Conoce las ventanas de mantenimiento de Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

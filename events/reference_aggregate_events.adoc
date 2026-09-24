@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aggregate events, impact, area, availability, capacity, configuration, performance 
 summary: Los eventos de agregado le proporcionan información sobre el estado de los agregados para poder supervisar posibles problemas. Los eventos se agrupan por área de impacto e incluyen el nombre del evento y de captura, el nivel de impacto, el tipo de origen y la gravedad. 
 ---
-= Eventos agregados
+= Conoce los eventos de agregados en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

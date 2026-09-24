@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage, services, events, impact area, configuration, protection 
 summary: Los eventos de servicios de almacenamiento le proporcionan información sobre la creación y suscripción de servicios de almacenamiento para poder realizar una supervisión de posibles problemas. Los eventos se agrupan por área de impacto e incluyen el nombre del evento y de captura, el nivel de impacto, el tipo de origen y la gravedad. 
 ---
-= Eventos de servicios de almacenamiento
+= Infórmate sobre los eventos de los servicios de almacenamiento en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

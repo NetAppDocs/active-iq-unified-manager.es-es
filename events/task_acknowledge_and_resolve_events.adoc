@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: acknowledge, resolve, events 
 summary: Debe reconocer un evento antes de empezar a trabajar en el problema que generó el evento para que no siga recibiendo notificaciones de alerta de repetición. Después de realizar una acción correctiva para un evento determinado, debe marcar el evento como resuelto. 
 ---
-= Reconocer y resolver eventos
+= Reconoce y resuelve eventos en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, performance, threshold, policies 
 summary: Es posible ver todas las políticas de umbral de rendimiento definidas actualmente en la página Performance Thresholds. 
 ---
-= Ver políticas de umbral de rendimiento
+= Ver las políticas de umbrales de rendimiento en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

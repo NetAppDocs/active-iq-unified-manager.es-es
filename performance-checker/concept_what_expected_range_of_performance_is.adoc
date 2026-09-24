@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: expected, range, performance, latency, forecast, formed 
 summary: La previsión de latencia es una predicción de los valores de rendimiento superior e inferior esperados en un momento determinado. Para la latencia de la carga de trabajo, los valores superiores forman el umbral de rendimiento. Cuando el valor real supera el umbral de rendimiento, Unified Manager activa un evento de rendimiento dinámico. 
 ---
-= Qué rango esperado de rendimiento es
+= Entiende cómo Active IQ Unified Manager calcula el rango de rendimiento esperado
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

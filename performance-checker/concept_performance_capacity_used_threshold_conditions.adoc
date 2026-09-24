@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, capacity, threshold, conditions 
 summary: Es posible crear políticas de umbral de rendimiento definidas por el usuario para que los eventos se activen cuando la capacidad de rendimiento utilizada para un nodo o un agregado supera la configuración de umbral de capacidad de rendimiento utilizada definida por el usuario. 
 ---
-= La capacidad de rendimiento utilizada condiciones de umbral de rendimiento
+= Configura los umbrales de uso de la capacidad de rendimiento en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

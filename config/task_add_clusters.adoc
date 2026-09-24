@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add cluster 
 summary: Puede añadir un clúster a la Active IQ Unified Manager para poder supervisar el clúster. Esto incluye la capacidad de obtener información del clúster, como el estado, la capacidad, el rendimiento y la configuración del clúster, para poder encontrar y resolver cualquier problema que pueda ocurrir. 
 ---
-= Añadir clústeres
+= Agrega clústeres a Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

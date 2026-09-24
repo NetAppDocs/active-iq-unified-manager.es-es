@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: sort, data 
 summary: Para ordenar los resultados, haga clic en una columna e indique el orden ascendente o descendente. Ordenar los datos da prioridad a la información que necesita para elaborar el informe. 
 ---
-= Ordenar datos
+= Ordenar datos en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

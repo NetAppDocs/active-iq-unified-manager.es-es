@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, values, annotations 
 summary: Puede agregar valores a anotaciones y, a continuación, asociar objetos de almacenamiento a un par de nombre y valor de anotación concreto. Añadir valores a anotaciones le ayuda a gestionar los objetos de almacenamiento de forma más eficaz. 
 ---
-= Agregar valores a las anotaciones
+= Agrega valores a las anotaciones en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

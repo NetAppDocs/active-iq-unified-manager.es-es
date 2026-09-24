@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: workflow, workload, management 
 summary: 'Con Active IQ Unified Manager, puede aprovisionar y modificar cargas de trabajo de almacenamiento (LUN, recursos compartidos de archivos NFS y recursos compartidos CIFS). El aprovisionamiento consiste en varios pasos, desde la creación de la máquina virtual de almacenamiento (SVM) hasta la aplicación de políticas de nivel de servicio de rendimiento y eficiencia del almacenamiento en las cargas de trabajo de almacenamiento. La modificación de las cargas de trabajo consta de los pasos necesarios para modificar parámetros específicos y habilitar funciones adicionales en ellos.' 
 ---
-= Flujos de trabajo API para la gestión de cargas de trabajo
+= Configurar y modificar cargas de trabajo de almacenamiento en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

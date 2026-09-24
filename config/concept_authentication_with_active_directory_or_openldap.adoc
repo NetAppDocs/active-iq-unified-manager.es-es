@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: authentication, active directory, openldap 
 summary: Es posible habilitar la autenticación remota en el servidor de gestión y configurar el servidor de gestión para que se comunique con los servidores de autenticación, de modo que los usuarios dentro de los servidores de autenticación puedan acceder a Unified Manager. 
 ---
-= Autenticación con Active Directory u OpenLDAP
+= Autentícate con Active Directory u OpenLDAP en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

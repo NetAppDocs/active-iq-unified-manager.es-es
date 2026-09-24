@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resolve, volume, offline issues 
 summary: Este flujo de trabajo proporciona un ejemplo de cómo se puede evaluar y resolver un evento de volumen sin conexión que Unified Manager podría mostrar en la página del inventario Event Management. En esta situación, es un administrador que utiliza Unified Manager para solucionar uno o varios eventos sin conexión de volúmenes. 
 ---
-= Resolver problemas de volumen sin conexión
+= Resolver problemas de volumen sin conexión en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

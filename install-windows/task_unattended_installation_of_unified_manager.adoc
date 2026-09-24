@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: perform, unattended, installation, unified manager 
 summary: Puede instalar Unified Manager sin intervención del usuario mediante la interfaz de línea de comandos. Puede completar la instalación desatendida pasando los parámetros en pares clave-valor. 
 ---
-= Realizar una instalación desatendida de Unified Manager
+= Realiza una instalación sin intervención del usuario de Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

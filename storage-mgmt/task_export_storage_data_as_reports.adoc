@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: export, storage, data, reports 
 summary: Puede exportar datos de almacenamiento en distintos formatos de salida y, a continuación, utilizar los datos exportados para generar informes. Por ejemplo, si hay 10 eventos críticos que no se han resuelto, puede exportar los datos desde la página del inventario de Event Management para crear un informe y, a continuación, enviar el informe a los administradores que puedan resolver los problemas. 
 ---
-= Exportar datos de almacenamiento como informes
+= Exportar datos de almacenamiento como informes en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

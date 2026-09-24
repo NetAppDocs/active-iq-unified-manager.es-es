@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, cluster, landing page 
 summary: La página Performance Cluster Landing muestra el estado de rendimiento de alto nivel de un clúster seleccionado. La página le permite acceder a detalles completos de cada contador de rendimiento para los objetos de almacenamiento en el clúster seleccionado. 
 ---
-= Página de destino de Cluster de rendimiento
+= Consulta la página de inicio del clúster de rendimiento en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

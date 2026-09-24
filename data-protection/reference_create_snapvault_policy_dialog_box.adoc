@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapvault, policy, dialog box 
 summary: El cuadro de diálogo Crear política de SnapVault permite crear una política para establecer la prioridad para las transferencias de SnapVault. Se usan políticas para maximizar la eficiencia de las transferencias del volumen primario al secundario. 
 ---
-= Cuadro de diálogo Create SnapVault Policy
+= Utiliza el cuadro de diálogo Crear SnapVault Policy en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

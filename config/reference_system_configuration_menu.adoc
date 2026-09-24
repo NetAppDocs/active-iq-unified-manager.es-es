@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: system, configuration, menu 
 summary: El menú Configuración del sistema le permite administrar su dispositivo virtual proporcionando diversas opciones, como ver el estado del servidor y reiniciar y apagar la máquina virtual. 
 ---
-= Menú Configuración del sistema
+= Utiliza el menú Configuración del sistema en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

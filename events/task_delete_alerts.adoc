@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, alerts 
 summary: Es posible eliminar una alerta cuando ya no se necesita. Por ejemplo, puede eliminar una alerta que se creó para un recurso particular cuando Unified Manager ya no supervisa ese recurso. 
 ---
-= Eliminar alertas
+= Eliminar alertas en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

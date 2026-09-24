@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: port, events, impact area, availability, performance 
 summary: Los eventos de puerto le ofrecen el estado acerca de los puertos del clúster para que pueda supervisar los cambios o los problemas en el puerto, como si el puerto está inactivo. 
 ---
-= Eventos del puerto
+= Infórmate sobre los eventos de puertos en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

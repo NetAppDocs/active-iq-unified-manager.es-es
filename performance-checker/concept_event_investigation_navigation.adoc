@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: event, investigation, navigation 
 summary: Las páginas de detalles de eventos de Unified Manager le ofrecen una perspectiva en profundidad de cualquier evento de rendimiento. Esto resulta beneficioso cuando se analizan eventos de rendimiento, cuando se realiza la solución de problemas y cuando se perfecciona el rendimiento del sistema. 
 ---
-= Navegación de investigación de eventos
+= Investiga los eventos de rendimiento en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

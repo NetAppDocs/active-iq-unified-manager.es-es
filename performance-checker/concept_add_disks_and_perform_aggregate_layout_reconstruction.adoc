@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, disks, perform, aggregate, layout, reconstruction 
 summary: Puede añadir discos a un agregado para aumentar la capacidad de almacenamiento y el rendimiento de dicho agregado. Después de añadir los discos, solo se observa una mejora en el rendimiento después de reconstruir el agregado. 
 ---
-= Añada discos y realice la reconstrucción de distribución de agregados
+= Entiende cómo la incorporación de discos afecta la estructura de los agregados en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

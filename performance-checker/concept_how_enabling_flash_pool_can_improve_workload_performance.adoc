@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: enable, flash pool, storage, aggregate, improve, workload, performance 
 summary: Puede mejorar el rendimiento de la carga de trabajo al habilitar la función Flash Pool en un agregado. Un Flash Pool es un agregado que incorpora tanto HDD como SSD. Los HDD se utilizan para almacenamiento principal y las SSD proporcionan una caché de lectura y escritura de alto rendimiento que mejora el rendimiento del agregado. 
 ---
-= Cómo habilitar Flash Pool en un agregado de almacenamiento puede mejorar el rendimiento de la carga de trabajo
+= Mejora el rendimiento de la carga de trabajo activando Flash Pool en un agregado de almacenamiento en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

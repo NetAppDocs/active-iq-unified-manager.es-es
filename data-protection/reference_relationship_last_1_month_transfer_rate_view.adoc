@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: relationship, 1 month, transfer rate, view 
 summary: 'La vista relación: La vista tasa de transferencia de 1 mes pasado permite analizar la cantidad de volumen de datos que se transfiere el día a día para los volúmenes en relaciones asíncronas. En esta página, también se ofrecen detalles sobre las transferencias diarias y el tiempo necesario para completar la operación de transferencia de volúmenes y máquinas virtuales de almacenamiento.' 
 ---
-= Relación: Última vista de tarifa de transferencia de 1 mes
+= Mostrar la relación: vista Tasa de transferencia del último mes en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

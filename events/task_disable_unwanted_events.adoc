@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: disable, unwanted, events 
 summary: Todos los eventos están habilitados de forma predeterminada. Es posible deshabilitar eventos globalmente para evitar la generación de notificaciones para eventos que no tienen importancia en el entorno. Puede habilitar eventos deshabilitados cuando se desea reanudar la recepción de notificaciones. 
 ---
-= Deshabilitar eventos no deseados
+= Desactivar eventos no deseados en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

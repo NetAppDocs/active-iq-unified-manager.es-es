@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: disable, events, dialog box, properties, area, command buttons 
 summary: El cuadro de diálogo Deshabilitar eventos muestra la lista de tipos de eventos para los que puede deshabilitar eventos. Puede deshabilitar eventos para un tipo de evento según una gravedad determinada o para un conjunto de eventos. 
 ---
-= Cuadro de diálogo Disable Events
+= Desactiva el cuadro de diálogo de eventos en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

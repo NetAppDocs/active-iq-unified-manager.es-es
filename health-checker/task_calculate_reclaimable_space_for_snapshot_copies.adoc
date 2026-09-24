@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: calculate, reclaimable space, snapshot copies 
 summary: Puede calcular la cantidad de espacio en disco que se puede recuperar si se eliminan una o más copias Snapshot. 
 ---
-= Calcular espacio recuperable para copias de instantáneas
+= Calcular el espacio recuperable de las copias de Snapshot en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

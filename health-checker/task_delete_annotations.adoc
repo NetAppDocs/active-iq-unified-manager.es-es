@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, annotations 
 summary: Puede eliminar anotaciones personalizadas y sus valores cuando ya no sean necesarias. 
 ---
-= Eliminar anotaciones
+= Eliminar anotaciones en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

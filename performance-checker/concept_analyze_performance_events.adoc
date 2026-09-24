@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: analyze, performance, events 
 summary: 'Puede analizar los eventos de rendimiento para identificar cuándo se detectaron, si están activos (nuevos o reconocidos) o obsoletos, las cargas de trabajo y los componentes del clúster afectados, y las opciones para resolver los eventos por su cuenta.' 
 ---
-= Analizar eventos de rendimiento
+= Analiza los eventos de rendimiento en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

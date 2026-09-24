@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: relationship, 1 month, transfer status, view 
 summary: 'La vista relación: El estado de transferencia de último 1 mes permite analizar las tendencias de transferencia durante un periodo de tiempo para volúmenes y máquinas virtuales de almacenamiento en relaciones asíncronas. En esta página también se muestra si la transferencia ha sido satisfactoria o no.' 
 ---
-= Relación: Vista Estado de transferencia de último 1 mes
+= Mostrar la vista «Estado de transferencia del último mes» en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

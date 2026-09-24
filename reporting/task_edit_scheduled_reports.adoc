@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: editing, schedule, reports 
 summary: Después de programar los informes, puede editarlos en la página programas de informes. 
 ---
-= Editar informes programados
+= Editar informes programados en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

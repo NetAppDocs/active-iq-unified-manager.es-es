@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, banner, messages, descriptions 
 summary: 'Unified Manager puede mostrar mensajes de banner en la página Notificaciones (de la campana de notificación) para alertarle de los problemas de estado de un clúster en particular.' 
 ---
-= Mensajes y descripciones de banner de rendimiento
+= Interpreta los mensajes de los banners de rendimiento en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

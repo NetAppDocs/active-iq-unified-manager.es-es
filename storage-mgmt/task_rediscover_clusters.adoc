@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: rediscover clusters, 
 summary: Es posible volver a detectar manualmente un clúster en la página Cluster Setup para obtener la información más reciente del estado, la supervisión del estado y el estado de rendimiento del clúster. 
 ---
-= Redescubre los clusters
+= Redescubre los clústeres en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, performance, panels, dashboard 
 summary: La consola de Unified Manager proporciona algunos paneles que muestran el estado de rendimiento de alto nivel para todos los clústeres que se supervisan en el entorno. Puede elegir ver el estado de todos los clústeres o de un clúster individual. 
 ---
-= Comprender los paneles de rendimiento en el Dashboard
+= Revisa los paneles de rendimiento en el panel de control de Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

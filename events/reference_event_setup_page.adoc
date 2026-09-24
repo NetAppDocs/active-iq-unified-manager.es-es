@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: event, setup, page, command, buttons, list, view 
 summary: En la página Event Setup, se muestra la lista de eventos deshabilitados y se proporciona información como el tipo de objeto asociado y la gravedad del evento. También es posible realizar tareas como deshabilitar o habilitar eventos de forma global. 
 ---
-= Página Event Setup
+= Conoce la página de configuración de eventos en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: user, group, quota, events, impact area, capacity 
 summary: Los eventos de cuota de usuario y grupo le proporcionan información acerca de la capacidad de la cuota de usuario y grupo de usuarios, así como los límites de archivos y discos para poder supervisar posibles problemas. Los eventos se agrupan por área de impacto e incluyen el nombre del evento y de captura, el nivel de impacto, el tipo de origen y la gravedad. 
 ---
-= Eventos de cuota de usuarios y grupos
+= Infórmate sobre los eventos relacionados con las cuotas de usuario y de grupo en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

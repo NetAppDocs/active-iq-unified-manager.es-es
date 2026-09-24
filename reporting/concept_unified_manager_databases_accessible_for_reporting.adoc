@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, databases, access, custom, reporting 
 summary: Unified Manager utiliza una base de datos de MySQL para almacenar datos de los clústeres que se están supervisando. Los datos se mantienen en varios esquemas en la base de datos de MySQL. 
 ---
-= Bases de datos de Unified Manager accesibles para la generación de informes personalizados
+= Accede a las bases de datos para informes personalizados en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

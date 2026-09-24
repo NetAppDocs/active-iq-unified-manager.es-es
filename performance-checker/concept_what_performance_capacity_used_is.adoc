@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, capacity, used 
 summary: La capacidad de rendimiento utilizada contador ayuda a identificar si el rendimiento de un nodo o de un agregado está llegando a un punto en el que el rendimiento puede degradarse si las cargas de trabajo aumentan. También puede mostrarle si un nodo o agregado se está utilizando en exceso durante periodos de tiempo específicos. La capacidad de rendimiento utilizada es similar al de la utilización, pero el primero proporciona más información acerca de las funcionalidades de rendimiento disponibles en un recurso físico para una carga de trabajo específica. 
 ---
-= La capacidad de rendimiento utilizada
+= Comprende el contador de capacidad de rendimiento utilizada en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

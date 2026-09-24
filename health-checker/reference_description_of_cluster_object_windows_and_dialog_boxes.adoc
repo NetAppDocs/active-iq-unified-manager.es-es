@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: description, cluster, object, windows, dialog boxes 
 summary: Es posible ver todos los clústeres y los objetos del clúster desde la página de objetos de almacenamiento correspondiente. También puede ver los detalles desde la página de detalles del objeto de almacenamiento correspondiente. Ahora se puede iniciar la interfaz de usuario de System Manager desde las siguientes secciones de ALMACENAMIENTO Y PROTECCIÓN del INVENTARIO. 
 ---
-= Descripción de las ventanas y cuadros de diálogo del objeto del clúster
+= Comprende las ventanas y los cuadros de diálogo de los objetos de clúster en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

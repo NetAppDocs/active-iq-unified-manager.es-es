@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords:  
 summary: Las programaciones de informes se pueden gestionar desde la página Report Schedules. Es posible ver, modificar o eliminar programaciones existentes. 
 ---
-= Administrar programaciones de informes
+= Gestiona las programaciones de informes en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

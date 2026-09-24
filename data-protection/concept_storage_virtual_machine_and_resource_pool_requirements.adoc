@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: svm, resource pool requirements, support, storage services 
 summary: 'Puede garantizar mejor que se cumplan las aplicaciones asociadas si observa algunos requisitos de asociación SVM y de pool de recursos específicos de los servicios de almacenamiento: Por ejemplo, cuando asocia una SVM y crea pools de recursos en Unified Manager para admitir una topología de protección en un servicio de almacenamiento proporcionado por una aplicación de partner.' 
 ---
-= Requisitos de SVM y pool de recursos para dar soporte a servicios de almacenamiento
+= Requisitos de SVM y pool de recursos para dar soporte a los servicios de almacenamiento en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

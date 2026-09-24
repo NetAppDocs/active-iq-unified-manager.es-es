@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, cluster, performance, navigation 
 summary: Es posible supervisar el rendimiento de todos los clústeres gestionados por Unified Manager. La supervisión de los clústeres ofrece una descripción general del rendimiento del clúster y el objeto, e incluye supervisión de eventos de rendimiento. Es posible ver los eventos y el rendimiento a un nivel alto o bien investigar más sobre cualquier detalle de los eventos de rendimiento y rendimiento de objetos y clústeres. 
 ---
-= Supervise la navegación del rendimiento del clúster
+= Supervisar el rendimiento del clúster en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

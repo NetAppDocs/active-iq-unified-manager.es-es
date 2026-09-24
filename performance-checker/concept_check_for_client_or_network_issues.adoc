@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: check, client, network, issues 
 summary: Cuando los clientes que están conectados a volúmenes en un clúster aumentan sus solicitudes de I/o, el clúster debe esforzarse más para satisfacer la demanda. La mayor demanda del clúster puede poner un componente en contención, aumentar la latencia de las cargas de trabajo que lo utilizan y activar un evento en Unified Manager. 
 ---
-= Compruebe si existen problemas con los clientes o la red
+= Entiende cómo los problemas de cliente o de red afectan el rendimiento en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

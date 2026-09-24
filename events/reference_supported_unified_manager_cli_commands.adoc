@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: supported, unified manager, cli, commands, cmd, um cli, um run, 
 summary: Como administrador de almacenamiento, puede usar los comandos de la CLI para realizar consultas en los objetos de almacenamiento; por ejemplo, en clústeres, agregados, volúmenes, Qtrees y LUN. 
 ---
-= Comandos de CLI de Unified Manager compatibles
+= Infórmate sobre los comandos compatibles de la interfaz de línea de comandos (CLI) de Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

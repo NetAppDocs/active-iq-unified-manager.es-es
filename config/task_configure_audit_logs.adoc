@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, audit logs 
 summary: Puede usar el botón Configure de la sección Audit Logs para configurar la política de implementación de los archivos de registro de auditoría y también para habilitar el registro remoto de los registros de auditoría. 
 ---
-= Configurar los registros de auditoría de Unified Manager
+= Configura los registros de auditoría de Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

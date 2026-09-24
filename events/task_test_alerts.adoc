@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: test, alerts 
 summary: Puede probar una alerta para verificar que la ha configurado correctamente. Cuando se activa un evento, se genera una alerta y se envía un correo electrónico de alerta a los destinatarios configurados. Puede comprobar si se envía la notificación y si la secuencia de comandos se ejecuta mediante la alerta de prueba. 
 ---
-= Probar alertas
+= Probar alertas en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

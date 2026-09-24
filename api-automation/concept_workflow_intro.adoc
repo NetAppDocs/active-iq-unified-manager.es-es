@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: common, workflows, storage, management 
 summary: Los flujos de trabajo comunes proporcionan a los desarrolladores de aplicaciones cliente ejemplos de cómo puede llamar una aplicación cliente a las API de Active IQ Unified Manager para ejecutar funciones comunes de gestión del almacenamiento. Esta sección contiene algunos de estos flujos de trabajo de ejemplo. 
 ---
-= Flujos de trabajo API comunes para la gestión del almacenamiento
+= Conoce los flujos de trabajo habituales de la API para la gestión del almacenamiento en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

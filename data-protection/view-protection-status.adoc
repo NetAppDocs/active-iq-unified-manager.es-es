@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: volume relationship, protection status, dashboard protection card, protection widget, lag, relationship health, healthy relationship, lag threshold, relationship event, source cluster, snapmirror, snapshot 
 summary: La página Data Protection presenta una vista holística de los detalles de la protección de datos de todos los volúmenes protegidos en su centro de datos. 
 ---
-= Ver el estado de protección del volumen
+= Ver el estado de la protección del volumen en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

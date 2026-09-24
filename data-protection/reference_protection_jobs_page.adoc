@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: jobs, page 
 summary: La página Jobs permite ver el estado actual y otra información acerca de todos los trabajos de protección de aplicaciones asociadas que se están ejecutando en ese momento, así como los trabajos que se completaron. Puede utilizar esta información para ver qué trabajos aún se están ejecutando y si un trabajo se ha realizado correctamente o ha fallado. 
 ---
-= Trabajos
+= Conoce la página de tareas en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

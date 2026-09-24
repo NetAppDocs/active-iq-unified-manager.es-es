@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: information, contained, alert, email 
 summary: Los mensajes de correo electrónico de alertas de Unified Manager proporcionan el tipo de evento, la gravedad del evento, el nombre de la política o umbral que se violó para provocar el evento y una descripción del evento. El mensaje de correo electrónico también proporciona un hipervínculo a cada evento que le permite ver la página de detalles del evento en la interfaz de usuario de. 
 ---
-= Qué información se incluye en un correo electrónico de alerta
+= Revisa la información en un correo electrónico de alerta en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: refining, performance, inventory, page, contents 
 summary: Las páginas de inventario de objetos de rendimiento contienen herramientas que ayudan a refinar el contenido de datos de inventario de objetos, lo que permite localizar datos específicos de forma rápida y sencilla. 
 ---
-= Afinar el contenido de la página del inventario de rendimiento
+= Optimizar el contenido de la página de inventario de rendimiento en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: workloads, overview, data center, sections 
 summary: 'Una carga de trabajo representa las operaciones de entrada/salida (I/o) de un objeto de almacenamiento, como un volumen o LUN. La forma en que se aprovisiona el almacenamiento se basa en los requisitos esperados de la carga de trabajo. Active IQ Unified Manager realiza un seguimiento de las estadísticas de carga de trabajo solo después de que haya tráfico hacia y desde el objeto de almacenamiento. Por ejemplo, los valores de latencia e IOPS de la carga de trabajo están disponibles después de que los usuarios comiencen a utilizar una base de datos o una aplicación de correo electrónico.' 
 ---
-= Información general de cargas de trabajo
+= Infórmate sobre el panel de control de cargas de trabajo en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

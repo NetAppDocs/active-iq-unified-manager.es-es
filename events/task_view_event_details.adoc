@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, events, details 
 summary: Puede ver detalles sobre un evento que ha activado Unified Manager para realizar acciones correctivas. Por ejemplo, si hay un volumen de evento de estado sin conexión, puede hacer clic en ese evento para ver los detalles y ejecutar acciones correctivas. 
 ---
-= Ver eventos y detalles de eventos
+= Ver los detalles del evento en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

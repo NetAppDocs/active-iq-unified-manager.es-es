@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: browse, directories, dialog box 
 summary: Puede utilizar el cuadro de diálogo Browse Directories si desea restaurar los datos en un directorio de un clúster y una SVM que sea diferente del origen original. El clúster y el volumen de origen originales se seleccionan de forma predeterminada. 
 ---
-= Cuadro de diálogo Browse Directories
+= Utiliza el cuadro de diálogo «Explorar directorios» en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

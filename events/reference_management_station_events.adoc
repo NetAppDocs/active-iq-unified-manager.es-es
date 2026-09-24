@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: management, station, events, impact area, configuration, performance 
 summary: Los eventos de la estación de gestión le proporcionan información sobre el estado del servidor en el que está instalado Unified Manager para poder supervisar posibles problemas. Los eventos se agrupan por área de impacto e incluyen el nombre del evento y de captura, el nivel de impacto, el tipo de origen y la gravedad. 
 ---
-= Eventos de la estación de gestión
+= Infórmate sobre los eventos de la estación de gestión en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, individual, qtree, health, threshold, settings 
 summary: Es posible editar la configuración del umbral de estado para la capacidad de qtrees de uno o varios qtrees. Cuando se supera un umbral, se generan alertas y se reciben notificaciones. Estas notificaciones le ayudan a tomar medidas preventivas basadas en el evento generado. 
 ---
-= Editar la configuración del umbral de salud de cada qtree
+= Edita la configuración de los umbrales de estado de cada qtree en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

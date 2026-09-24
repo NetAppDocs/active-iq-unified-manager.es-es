@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: enabling, flash cache, node, improve, workload, performance 
 summary: Puede mejorar el rendimiento de la carga de trabajo activando la caché inteligente de datos Flash Cache™ en cada nodo del clúster. 
 ---
-= Cómo habilitar Flash Cache en un nodo puede mejorar el rendimiento de la carga de trabajo
+= Mejora el rendimiento de la carga de trabajo activando Flash Cache en un nodo de Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

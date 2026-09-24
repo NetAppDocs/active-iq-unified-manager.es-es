@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: typical, window, layouts, object, list, details 
 summary: 'Comprender los diseños de ventana típicos le ayuda a navegar y utilizar Active IQ Unified Manager de forma eficaz. La mayoría de ventanas de Unified Manager son similares a una de dos distribuciones generales: Lista de objetos o detalles. La configuración de visualización recomendada es de al menos 1280 por 1024 píxeles.' 
 ---
-= Diseños de ventana típicos
+= Diseños típicos de ventanas en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

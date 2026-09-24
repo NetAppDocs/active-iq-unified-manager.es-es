@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: search, storage, objects 
 summary: Para acceder rápidamente a un objeto específico, puede utilizar el campo Buscar todos los objetos de almacenamiento situado en la parte superior de la barra de menús. Este método de búsqueda global en todos los objetos le permite localizar rápidamente objetos específicos por tipo. Los resultados de búsqueda se ordenan por tipo de objeto de almacenamiento y se pueden filtrar mediante el menú desplegable. Una búsqueda válida debe contener al menos tres caracteres. 
 ---
-= Buscar objetos de almacenamiento
+= Buscar objetos de almacenamiento en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

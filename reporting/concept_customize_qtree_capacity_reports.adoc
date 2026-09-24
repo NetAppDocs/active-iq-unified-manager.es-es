@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: customize, qtree, capacity, reports 
 summary: Estos informes personalizados de ejemplo se utilizan para ayudarle a identificar y responder a los posibles problemas relacionados con la capacidad de Qtree. 
 ---
-= Personalizar los informes de capacidad de Qtree
+= Personaliza los informes de capacidad de qtree en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

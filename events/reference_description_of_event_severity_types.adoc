@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: description, event, severity, types 
 summary: Cada evento está asociado con un tipo de gravedad para ayudarle a priorizar los eventos que requieren una acción correctiva inmediata. 
 ---
-= Descripción de los tipos de gravedad de los eventos
+= Infórmate sobre los tipos de gravedad de los eventos en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

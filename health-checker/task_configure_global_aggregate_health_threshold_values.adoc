@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, global, aggregate, health, threshold values 
 summary: Puede configurar valores de umbral de estado global para todos los agregados para realizar un seguimiento de cualquier incumplimiento de umbral. Se generan los eventos adecuados para incumplimiento de umbrales y puede tomar medidas preventivas basadas en estos eventos. Puede configurar los valores globales basándose en la configuración de prácticas recomendadas para los umbrales que se aplican a todos los agregados supervisados. 
 ---
-= Configurar valores de umbral de salud agregados globales
+= Configura los valores umbral globales de estado de salud de agregados en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

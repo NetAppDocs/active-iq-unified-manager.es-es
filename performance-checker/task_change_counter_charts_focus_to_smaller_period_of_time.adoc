@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, counter, charts, focus, shorter, period, time 
 summary: Puede utilizar el ratón para reducir el intervalo de tiempo para centrarse en un período de tiempo específico en el panel Diagrama de contador o en la ventana Vista de zoom de gráficos de contador. Esto permite ver una vista más granular y microscópica de cualquier parte de la línea de tiempo de los datos de rendimiento, los eventos y los umbrales. 
 ---
-= Cambiar el enfoque de los gráficos de contador a un período de tiempo más corto
+= Cambia el enfoque de los gráficos de contadores a un periodo más corto en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

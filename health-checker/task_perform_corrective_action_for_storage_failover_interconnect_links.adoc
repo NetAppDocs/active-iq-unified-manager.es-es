@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: perform, corrective action, storage failover, interconnect links 
 summary: Cuando se muestra la página de detalles Event de un evento de almacenamiento relacionado con conmutación al nodo de respaldo, puede revisar la información de resumen de la página para determinar la urgencia del evento, la posible causa del problema y la posible resolución del problema. 
 ---
-= Realizar acciones correctivas para los enlaces de interconexión de conmutación por error de almacenamiento inactivos
+= Aplica medidas correctivas ante un fallo en un enlace de interconexión de conmutación por error del almacenamiento en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

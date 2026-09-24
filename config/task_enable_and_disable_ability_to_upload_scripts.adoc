@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: script upload, enable, disable 
 summary: La capacidad de cargar scripts en Unified Manager y ejecutarlas está habilitada de forma predeterminada. Si la organización no desea permitir esta actividad debido a motivos de seguridad, puede desactivar esta funcionalidad. 
 ---
-= Habilitar y deshabilitar la carga de scripts
+= Activar y desactivar la carga de scripts en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

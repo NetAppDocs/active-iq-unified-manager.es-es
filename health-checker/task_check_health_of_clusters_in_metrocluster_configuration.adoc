@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: check, health, clusters, metrocluster, configuration 
 summary: Puede usar Unified Manager para comprobar el estado operativo de los clústeres y sus componentes en una configuración de MetroCluster. Si los clústeres estaban implicados en un evento de rendimiento detectado por Unified Manager, el estado puede ayudarle a determinar si un problema de hardware o software ha contribuido al evento. 
 ---
-= Comprobar el estado de los clústeres en una configuración de MetroCluster
+= Comprueba el estado de los clústeres en una configuración de MetroCluster en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, health, thresholds 
 summary: Puede configurar valores de umbral de estado global para todos los agregados, volúmenes y qtrees a fin de realizar un seguimiento de cualquier incumplimiento de umbral de estado. 
 ---
-= Gestionar los umbrales de salud
+= Gestiona los umbrales de estado en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

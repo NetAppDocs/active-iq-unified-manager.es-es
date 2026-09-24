@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, active, security events 
 summary: Puede ver todos los eventos de seguridad activos y, a continuación, asignar cada uno de ellos a un usuario que pueda resolver el problema. Además, si hay determinados eventos de seguridad que no desea recibir, esta lista puede ayudarle a identificar los eventos que desea deshabilitar. 
 ---
-= Ver todos los eventos de seguridad activos
+= Ver todos los eventos de seguridad activos en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

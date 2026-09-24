@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: components, object, landing pages 
 summary: Las páginas de destino de objetos proporcionan información sobre todos los eventos críticos, de advertencia e informativos. Proporcionan una vista detallada del rendimiento de todos los objetos del clúster, lo que permite seleccionar y comparar objetos individuales durante varios periodos de tiempo. 
 ---
-= Componentes de las páginas de destino de objetos
+= Revisa los componentes de las páginas de destino de objetos en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

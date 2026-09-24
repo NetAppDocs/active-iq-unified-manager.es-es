@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage, failover, settings, events, impact area, availability 
 summary: 'Los eventos de configuración de conmutación por error del almacenamiento (SFO) le proporcionan información acerca de si su recuperación tras fallos del almacenamiento está deshabilitada o no configurada para que pueda supervisar si existen problemas potenciales. Los eventos se agrupan por área de impacto e incluyen el nombre del evento y de captura, el nivel de impacto, el tipo de origen y la gravedad.' 
 ---
-= Eventos de configuración de conmutación por error de almacenamiento
+= Infórmate sobre los eventos de configuración de la conmutación por error del almacenamiento en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

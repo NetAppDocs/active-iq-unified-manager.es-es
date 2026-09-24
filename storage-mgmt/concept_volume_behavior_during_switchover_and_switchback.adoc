@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: volume, behavior, switchover, switchback 
 summary: Los eventos que activan una conmutación de sitios o una conmutación de estado hacen que los volúmenes activos se muevan de un clúster a otro en el grupo de recuperación ante desastres. Se detienen los volúmenes del clúster activos y sirven datos a los clientes, y los volúmenes del otro clúster se activan y comienzan a servir datos. Unified Manager supervisa solo los volúmenes que están activos y en ejecución. 
 ---
-= Comportamiento del volumen durante la conmutación de sitios y la conmutación de estado
+= Infórmate sobre el comportamiento de los volúmenes durante la conmutación de sitios y el retorno al modo anterior en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

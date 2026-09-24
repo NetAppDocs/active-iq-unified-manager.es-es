@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: customize, nfs, share, reports 
 summary: Puede personalizar los informes de recursos compartidos de NFS para analizar información sobre las reglas y políticas de exportación de NFS para volúmenes en sus sistemas de almacenamiento. Por ejemplo, se pueden personalizar los informes para que se muestren volúmenes con rutas de montaje no accesibles y volúmenes con la política de exportación predeterminada. 
 ---
-= Personalizar informes de recursos compartidos de NFS
+= Personaliza los informes de recursos compartidos NFS en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

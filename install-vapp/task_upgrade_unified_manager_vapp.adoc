@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: upgrade, unified manager 
 summary: Puede actualizar a Unified Manager en VMware vSphere 
 ---
-= Actualice Unified Manager
+= Actualizar Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, annotation rules 
 summary: Puede editar las reglas de anotación para modificar los grupos de condiciones y las condiciones del grupo de condiciones para agregar anotaciones o eliminar anotaciones de los objetos de almacenamiento. 
 ---
-= Editar reglas de anotación
+= Editar reglas de anotación en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: reporting, quick, start 
 summary: 'Cree un informe personalizado de ejemplo para disfrutar de la exploración de vistas e informes de programación. Este informe de inicio rápido encuentra una lista de volúmenes que es posible que desee mover al nivel de cloud porque hay una cantidad justa de datos inactivos (fríos). Se abrirá la vista rendimiento: Todos los volúmenes, se personalizará la vista con filtros y columnas, se guardará la vista personalizada como informe y se programará el informe para que se comparta una vez por semana.' 
 ---
-= Inicio rápido de informes
+= Primeros pasos con la generación de informes en Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
