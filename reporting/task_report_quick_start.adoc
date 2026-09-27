@@ -2,7 +2,7 @@
 permalink: reporting/task_report_quick_start.html 
 sidebar: sidebar 
 keywords: reporting, quick, start 
-summary: 'Cree un informe personalizado de ejemplo para disfrutar de la exploración de vistas e informes de programación. Este informe de inicio rápido encuentra una lista de volúmenes que es posible que desee mover al nivel de cloud porque hay una cantidad justa de datos inactivos (fríos). Se abrirá la vista rendimiento: Todos los volúmenes, se personalizará la vista con filtros y columnas, se guardará la vista personalizada como informe y se programará el informe para que se comparta una vez por semana.' 
+summary: Crea un informe de ejemplo que identifique los volúmenes que deben moverse al nivel de cloud, personaliza la vista, guárdalo como informe y programa su uso compartido semanalmente. 
 ---
 = Primeros pasos con la generación de informes en Active IQ Unified Manager
 :allow-uri-read: 

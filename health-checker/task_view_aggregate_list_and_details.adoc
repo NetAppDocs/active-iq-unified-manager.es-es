@@ -2,7 +2,7 @@
 permalink: health-checker/task_view_aggregate_list_and_details.html 
 sidebar: sidebar 
 keywords: view, aggregate list, details 
-summary: 'En la vista Health: All Aggregates, puede supervisar su inventario de agregados. La vista capacidad: Todos los agregados le permite ver información sobre la capacidad y la utilización de los agregados en todos los clústeres.' 
+summary: Utiliza la vista «Todos los agregados» de la página «Estado» para supervisar tu inventario de agregados y la vista «Todos los agregados» de la página «Capacidad» para consultar los detalles sobre la capacidad y la utilización. 
 ---
 = Consulta la lista de agregados y los detalles en Active IQ Unified Manager
 :allow-uri-read: 
@@ -37,5 +37,5 @@ También puede ver todos los detalles haciendo clic en *Ver detalles* en el cuad
 
 * link:../health-checker/reference_health_aggregate_details_page.html["Página de detalles Aggregate / Health"]
 * link:../performance-checker/performance-view-all.html#performance-all-aggregates-view["Rendimiento: Vista de todos los agregados"]
-* link:../reporting/concept_customize_aggregate_capacity_reports.html["Personalizar los informes de capacidad de agregados"]
+* link:../reporting/task_create_report_to_view_aggregates_reaching_full_capacity.html["Crea un informe para ver los agregados que están llegando a su capacidad máxima en Active IQ Unified Manager"]
 

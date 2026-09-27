@@ -2,7 +2,7 @@
 permalink: data-protection/task_perform_protection_relationship_failover_and_failback.html 
 sidebar: sidebar 
 keywords: perform, protection, relationship, failover, failback 
-summary: Cuando se deshabilita un volumen de origen en la relación de protección debido a un error de hardware o un desastre, se pueden usar las funciones de relaciones de protección en Unified Manager para que el destino de la protección sea accesible de lectura/escritura y se pueda conmutar por error a ese volumen hasta que el origen vuelva a estar en línea; a continuación, puede volver a la fuente original cuando esté disponible para servir datos. 
+summary: Realiza una conmutación por error a un destino de protección cuando un volumen de origen deje de estar disponible y, a continuación, vuelve al origen original una vez que vuelva a estar disponible. 
 ---
 = Realiza una conmutación por error y una conmutación de retorno de una relación de protección en Active IQ Unified Manager
 :allow-uri-read: 

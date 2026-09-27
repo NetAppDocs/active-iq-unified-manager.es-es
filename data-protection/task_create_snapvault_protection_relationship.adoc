@@ -2,7 +2,7 @@
 permalink: data-protection/task_create_snapvault_protection_relationship.html 
 sidebar: sidebar 
 keywords: create, snapvault, protection, relationship, health, volumes view 
-summary: 'Puede usar la vista Estado: Todos los volúmenes para crear relaciones de SnapVault para uno o más volúmenes en la misma máquina virtual de almacenamiento a fin de habilitar backups de datos para fines de protección.' 
+summary: Utiliza la vista «Todos los volúmenes» de la página «Estado» para crear relaciones de SnapVault para uno o varios volúmenes de la misma máquina virtual de almacenamiento para backups de datos. 
 ---
 = Crea una relación de SnapVault desde la vista Health: All Volumes en Active IQ Unified Manager
 :allow-uri-read: 

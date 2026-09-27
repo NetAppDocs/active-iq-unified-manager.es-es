@@ -83,7 +83,7 @@ Restaura los datos seleccionados en una ubicación nueva:
 +
 ** Ruta de restauración
 +
-Especifica una ruta alternativa para restaurar los datos seleccionados. La ruta de acceso ya debe existir. Puede utilizar el botón *Browse* para desplazarse hasta la ubicación en la que desea restaurar los datos o puede introducir la ruta manualmente mediante el clúster de formato://svm/volume/path.
+Especifica una ruta alternativa para restaurar los datos seleccionados. La ruta ya debe existir. Puedes usar el botón *Browse* para ir a la ubicación en la que quieres restaurar los datos, o puedes introducir la ruta manualmente con el formato `cluster://svm/volume/path`.
 
 ** Conservar jerarquía de directorios
 +

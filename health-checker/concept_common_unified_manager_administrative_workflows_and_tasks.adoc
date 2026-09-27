@@ -2,7 +2,7 @@
 permalink: health-checker/concept_common_unified_manager_administrative_workflows_and_tasks.html 
 sidebar: sidebar 
 keywords: Common, unified, manager, health, workflows, tasks 
-summary: 'Algunos flujos de trabajo administrativos y tareas comunes asociados con Unified Manager incluyen la selección de los clústeres de almacenamiento que se van a supervisar; el diagnóstico de condiciones que afectan negativamente a la disponibilidad de los datos, la capacidad y la protección; la restauración de datos perdidos; la configuración y la gestión de volúmenes; y la agrupación y el envío de datos de diagnóstico al soporte técnico (cuando sea necesario).' 
+summary: Infórmate sobre los flujos de trabajo administrativos más habituales, como supervisar clústeres, diagnosticar problemas de disponibilidad y capacidad, y enviar datos de diagnóstico al servicio de asistencia. 
 ---
 = Conoce los flujos de trabajo y tareas habituales de estado en Active IQ Unified Manager
 :allow-uri-read: 
@@ -35,7 +35,7 @@ Si los problemas de capacidad de almacenamiento de volumen se muestran en la pá
 
 * Configuración, supervisión y diagnóstico de problemas en las relaciones de protección
 +
-Después de crear y configurar relaciones de protección, los administradores de almacenamiento pueden ver los posibles problemas relacionados con las relaciones de protección, el estado actual de las relaciones de protección, la información de éxito actual e histórica de las relaciones afectadas y el asesoramiento sobre solución de problemas. Consulte link:../data-protection/concept_create_and_monitor_protection_relationships.html["Creación, supervisión y solución de problemas de relaciones de protección"] si quiere más información.
+Tras crear y configurar las relaciones de protección, los administradores de almacenamiento pueden consultar los posibles problemas relacionados con las relaciones de protección, el estado actual de las relaciones de protección, la información actual e histórica sobre el éxito de los trabajos de protección de las relaciones afectadas y consejos para la resolución de problemas. Consulta la link:../data-protection/concept_manage_and_monitor_protection_relationships.html["Infórmate sobre cómo gestionar y supervisar las relaciones de protección"] para obtener más información.
 
 * Crear archivos de copia de seguridad y restaurar datos a partir de archivos de copia de seguridad.
 * Asociación de objetos de almacenamiento con anotaciones

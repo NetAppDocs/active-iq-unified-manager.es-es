@@ -2,7 +2,7 @@
 permalink: health-checker/task_generate_hardware_inventory_report_for_contract_renewal.html 
 sidebar: sidebar 
 keywords: contract, renewal, cluster, inventory report, hardware, generate 
-summary: 'Es posible generar un informe que contenga una lista completa de información de clústeres y nodos; por ejemplo, números de modelo del hardware y números de serie, tipos y números de disco, licencias instaladas, etc. Este informe resulta útil para la renovación de contratos en sitios seguros (sitios «oscuros») que no están conectados a la plataforma Active IQ de NetApp.' 
+summary: Genera un informe con los detalles del hardware del clúster y de los nodos para la renovación del contrato en sitios seguros que no están conectados a la plataforma Active IQ. 
 ---
 = Genera un informe de inventario de hardware para la renovación del contrato en Active IQ Unified Manager
 :allow-uri-read: 

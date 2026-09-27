@@ -3,8 +3,9 @@ section: config
 title: Realizar tareas administrativas y de configuración
 entries:
 - title: Configurar Active IQ Unified Manager
-  url: "/config/concept_configure_unified_manager.html"
   entries:
+  - title: Infórmate sobre cómo configurar Active IQ Unified Manager
+    url: "/config/concept_configure_unified_manager.html"
   - title: Descripción general de la secuencia de configuración
     url: "/config/concept_overview_of_configuration_sequence.html"
   - title: Acceda a la interfaz web de Unified Manager
@@ -13,9 +14,11 @@ entries:
     url: "/config/task_perform_initial_setup_of_unified_manager_web_ui.html"
   - title: Añadir clústeres
     url: "/config/task_add_clusters.html"
-  - title: Configurar Unified Manager para enviar notificaciones de alerta
-    url: "/config/task_configure_unified_manager_to_send_alert_notifications.html"
+  - title: Configurar notificaciones
     entries:
+    - title: Configura Active IQ Unified Manager para que envíe notificaciones de
+        alerta
+      url: "/config/task_configure_unified_manager_to_send_alert_notifications.html"
     - title: Configure los ajustes de notificación de eventos
       url: "/config/task_configure_event_notification_settings.html"
     - title: Habilite la autenticación remota
@@ -37,15 +40,13 @@ entries:
   - title: Configure el tiempo de espera de la sesión a través de la CLI
     url: "/config/task_set_session_timeout_CLI.html"
   - title: Cambiar el nombre de host de Unified Manager
-    url: "/config/concept_change_unified_manager_host_name.html"
     entries:
-    - title: Cambiar el nombre del host del dispositivo virtual Unified Manager
+    - title: Cambiar el nombre de host de la máquina virtual Active IQ Unified Manager
       url: "/config/task_change_unified_manager_host_name_on_vmware.html"
-      entries:
-      - title: Genere un certificado de seguridad HTTPS
-        url: "/config/task_generate_an_https_security_certificate_ocf.html"
-      - title: Reinicie la máquina virtual de Unified Manager
-        url: "/config/task_restart_unified_manager_virtual_machine.html"
+    - title: Genere un certificado de seguridad HTTPS
+      url: "/config/task_generate_an_https_security_certificate_ocf.html"
+    - title: Reinicie la máquina virtual de Unified Manager
+      url: "/config/task_restart_unified_manager_virtual_machine.html"
     - title: Cambiar el nombre de host de Unified Manager en sistemas Linux
       url: "/config/task_change_um_host_name_on_rhel.html"
   - title: Habilitar y deshabilitar la administración de almacenamiento basada en
@@ -54,8 +55,10 @@ entries:
 - title: Configurar la copia de seguridad de Unified Manager
   url: "/config/concept_configure_um_backup.html"
 - title: Gestionar configuración de funciones
-  url: "/config/concept_manage_feature_settings.html"
   entries:
+  - title: Infórmate sobre la configuración de las funciones en Active IQ Unified
+      Manager
+    url: "/config/concept_manage_feature_settings.html"
   - title: Gestión del almacenamiento basada en normativas
     url: "/config/concept_policy_based_storage_management.html"
   - title: Habilitar API Gateway
@@ -71,7 +74,6 @@ entries:
   - title: Añadir un banner de inicio de sesión
     url: "/config/concept_login_banner.html"
 - title: Utilice la consola de mantenimiento
-  url: "/config/task_use_maintenance_console.html"
   entries:
   - title: Qué funcionalidad proporciona la consola de mantenimiento
     url: "/config/concept_what_functionality_maintenance_console_provides.html"
@@ -84,8 +86,10 @@ entries:
   - title: Acceda a la consola de mantenimiento mediante la consola de vSphere VM
     url: "/config/task_access_maintenance_console_using_vsphere.html"
   - title: Menús de la consola de mantenimiento
-    url: "/config/concept_maintenance_console_menu.html"
     entries:
+    - title: Infórmate sobre los menús de la consola de mantenimiento en Active IQ
+        Unified Manager
+      url: "/config/concept_maintenance_console_menu.html"
     - title: Menú Configuración de red
       url: "/config/reference_network_configuration_menu.html"
     - title: Menú Configuración del sistema
@@ -105,9 +109,11 @@ entries:
     url: "/config/task_add_additional_network_interfaces.html"
   - title: Regenerar el certificado del cliente
     url: "/config/task_regenerate_client_certificate.html"
-  - title: Agregar espacio en disco al directorio de la base de datos de Unified Manager
-    url: "/config/concept_add_disk_space_to_um_database_directory.html"
+  - title: Añade espacio en disco
     entries:
+    - title: Agrega espacio en disco al directorio de la base de datos de Active IQ
+        Unified Manager
+      url: "/config/concept_add_disk_space_to_um_database_directory.html"
     - title: Agregar espacio al directorio de datos del host Linux
       url: "/config/task_add_space_to_data_directory_of_um_linux_host.html"
     - title: Agregar espacio al disco de datos de la máquina virtual VMware
@@ -115,11 +121,11 @@ entries:
     - title: Agregar espacio a la unidad lógica del servidor Microsoft Windows
       url: "/config/task_add_space_to_data_disk_of_windows_server.html"
 - title: Gestione el acceso de los usuarios
-  url: "/config/concept_manage_user_access.html"
   entries:
   - title: Añadir usuarios
-    url: "/config/task_add_users.html"
     entries:
+    - title: Agregar usuarios en Active IQ Unified Manager
+      url: "/config/task_add_users.html"
     - title: Crear un usuario de base de datos
       url: "/config/task_create_database_user.html"
   - title: Editar la configuración del usuario
@@ -128,8 +134,6 @@ entries:
     url: "/config/task_view_users.html"
   - title: Eliminar usuarios o grupos
     url: "/config/task_delete_users_or_groups.html"
-  - title: Qué es RBAC
-    url: "/config/concept_what_rbac_is.html"
   - title: Qué hace el control de acceso basado en roles
     url: "/config/concept_what_role_based_access_control_does.html"
   - title: Definiciones de tipos de usuario
@@ -139,8 +143,9 @@ entries:
   - title: Roles y funcionalidades de usuario de Unified Manager
     url: "/config/reference_unified_manager_roles_and_capabilities.html"
 - title: Administrar la configuración de autenticación SAML
-  url: "/config/concept_manage_saml_authentication_settings_um.html"
   entries:
+  - title: Habilita la autenticación SAML en Active IQ Unified Manager
+    url: "/config/concept_manage_saml_authentication_settings_um.html"
   - title: Requisitos del proveedor de identidades
     url: "/config/reference_identity_provider_requirements_um.html"
   - title: Habilite la autenticación SAML
@@ -157,7 +162,6 @@ entries:
   - title: Página autenticación SAML
     url: "/config/reference_saml_authentication_page_um.html"
 - title: Administrar la autenticación
-  url: "/config/concept_manage_authentication.html"
   entries:
   - title: Editar servidores de autenticación
     url: "/config/task_edit_authentication_servers.html"
@@ -166,8 +170,9 @@ entries:
   - title: Autenticación con Active Directory u OpenLDAP
     url: "/config/concept_authentication_with_active_directory_or_openldap.html"
   - title: Registro de auditoría
-    url: "/config/concept_audit_logging.html"
     entries:
+    - title: Conoce los registros de auditoría en Active IQ Unified Manager
+      url: "/config/concept_audit_logging.html"
     - title: Configurar registros de auditoría
       url: "/config/task_configure_audit_logs.html"
     - title: Habilitar el registro remoto de registros de auditoría
@@ -175,7 +180,6 @@ entries:
   - title: Autenticación remota
     url: "/config/reference_remote_authentication_page.html"
 - title: Gestionar certificados de seguridad
-  url: "/config/concept_manage_security_certificates_ocf.html"
   entries:
   - title: Ver el certificado de seguridad HTTPS
     url: "/config/task_view_https_security_certificate_ocf.html"
@@ -186,7 +190,6 @@ entries:
   - title: Instalar un certificado HTTPS generado mediante herramientas externas
     url: "/config/concept_install_https_certificate_generated_using_external_tools.html"
   - title: Descripciones de página para la gestión de certificados
-    url: "/config/concept_page_descriptions_for_certificate_management.html"
     entries:
     - title: Página HTTPS Certificate
       url: "/config/reference_https_dialog_box_ocf.html"

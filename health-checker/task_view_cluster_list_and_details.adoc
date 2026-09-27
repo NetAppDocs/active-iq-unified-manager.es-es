@@ -2,7 +2,7 @@
 permalink: health-checker/task_view_cluster_list_and_details.html 
 sidebar: sidebar 
 keywords: view, cluster list, details 
-summary: 'La vista Health: All Clusters se puede usar para ver el inventario de clústeres. La vista Capacity: All Clusters permite ver información resumida sobre la capacidad de almacenamiento y la utilización en todos los clústeres.' 
+summary: Utiliza la vista «Todos los clústeres» de la página «Estado» para ver el inventario de tus clústeres y la vista «Todos los clústeres» de la página «Capacidad» para consultar los detalles sobre la capacidad de almacenamiento y su utilización. 
 ---
 = Consulta la lista de clústeres y sus detalles en Active IQ Unified Manager
 :allow-uri-read: 

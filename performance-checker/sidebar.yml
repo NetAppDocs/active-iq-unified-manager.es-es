@@ -3,8 +3,9 @@ section: performance-checker
 title: Supervise y gestione el rendimiento de los clústeres
 entries:
 - title: Introducción a la supervisión del rendimiento de Active IQ Unified Manager
-  url: "/performance-checker/concept_introduction_to_unified_manager_performance_monitoring.html"
   entries:
+  - title: Más información sobre la supervisión del rendimiento
+    url: "/performance-checker/concept_introduction_to_unified_manager_performance_monitoring.html"
   - title: Funciones de supervisión del rendimiento de Unified Manager
     url: "/performance-checker/concept_unified_manager_performance_monitoring_features.html"
   - title: Las interfaces de Unified Manager que se utilizan para gestionar el rendimiento
@@ -18,13 +19,16 @@ entries:
     url: "/performance-checker/concept_what_timestamp_means_in_collected_data_and_events.html"
 - title: Navegar por los flujos de trabajo de rendimiento en la interfaz gráfica de
     usuario de Unified Manager
-  url: "/performance-checker/concept_navigate_performance_workflows_in_unified_manager_ui.html"
   entries:
+  - title: Navega por los flujos de trabajo de rendimiento en la interfaz gráfica
+      de usuario
+    url: "/performance-checker/concept_navigate_performance_workflows_in_unified_manager_ui.html"
   - title: Iniciar sesión en la interfaz de usuario
     url: "/performance-checker/task_log_in_to_gui.html"
   - title: Interfaz gráfica y rutas de navegación
-    url: "/performance-checker/concept_graphical_interface_and_navigational_paths.html"
     entries:
+    - title: Explora la interfaz gráfica y las rutas de navegación
+      url: "/performance-checker/concept_graphical_interface_and_navigational_paths.html"
     - title: Supervise la navegación de objetos del clúster
       url: "/performance-checker/concept_monitor_cluster_object_navigation.html"
     - title: Supervise la navegación del rendimiento del clúster
@@ -36,8 +40,10 @@ entries:
   - title: Filtrar el contenido de la página de inventario
     url: "/performance-checker/task_filter_inventory_page_content.html"
 - title: Supervisar el rendimiento del clúster desde el Panel de Control
-  url: "/performance-checker/concept_monitor_cluster_performance_from_dashboard.html"
   entries:
+  - title: Acerca de la supervisión del rendimiento del clúster desde el panel de
+      control
+    url: "/performance-checker/concept_monitor_cluster_performance_from_dashboard.html"
   - title: Comprender los paneles de rendimiento en el Dashboard
     url: "/performance-checker/concept_understand_performance_panels_on_dashboard.html"
   - title: Mensajes y descripciones de banner de rendimiento
@@ -46,8 +52,9 @@ entries:
     url: "/performance-checker/task_change_performance_statistics_collection_interval.html"
 - title: Solucionar problemas de cargas de trabajo mediante el analizador de carga
     de trabajo
-  url: "/performance-checker/concept_troubleshooting_workloads_using_workload_analyzer.html"
   entries:
+  - title: Acerca del analizador de carga de trabajo
+    url: "/performance-checker/concept_troubleshooting_workloads_using_workload_analyzer.html"
   - title: "¿Qué datos muestra el analizador de cargas de trabajo"
     url: "/performance-checker/reference_what_data_does_workload_analyzer_display.html"
   - title: "¿Cuándo se debe utilizar el analizador de cargas de trabajo"
@@ -56,16 +63,20 @@ entries:
     url: "/performance-checker/task_use_workload_analyzer.html"
 - title: Supervise el rendimiento del clúster desde la página de inicio del clúster
     de rendimiento
-  url: "/performance-checker/concept_monitor_cluster_performance_from_cluster_landing_page.html"
   entries:
+  - title: Acerca de la supervisión del rendimiento del clúster desde la página de
+      inicio del clúster
+    url: "/performance-checker/concept_monitor_cluster_performance_from_cluster_landing_page.html"
   - title: Comprender la página de destino del clúster de rendimiento
     url: "/performance-checker/concept_understand_performance_cluster_landing_page.html"
   - title: Página de destino de Cluster de rendimiento
-    url: "/performance-checker/reference_performance_cluster_landing_page.html"
     entries:
+    - title: Consulta la página de inicio del clúster de rendimiento
+      url: "/performance-checker/reference_performance_cluster_landing_page.html"
     - title: Página Performance Cluster Summary
-      url: "/performance-checker/reference_cluster_summary_page_opm.html"
       entries:
+      - title: Consulta la página «Resumen del clúster de rendimiento»
+        url: "/performance-checker/reference_cluster_summary_page_opm.html"
       - title: Panel de eventos de rendimiento del clúster
         url: "/performance-checker/reference_cluster_performance_events_pane.html"
       - title: Panel Managed Objects
@@ -73,13 +84,16 @@ entries:
     - title: Página Top Performers
       url: "/performance-checker/reference_top_performers_page.html"
 - title: Supervise el rendimiento mediante las páginas de Inventario de rendimiento
-  url: "/performance-checker/concept_monitor_performance_using_object_performance.html"
   entries:
+  - title: Supervisa el rendimiento de los objetos mediante las páginas de «Inventario
+      de rendimiento»
+    url: "/performance-checker/concept_monitor_performance_using_object_performance.html"
   - title: Ver páginas de inventario de rendimiento para todos los objetos de almacenamiento
     url: "/performance-checker/performance-view-all.html"
   - title: Refinar el contenido de la página de inventario de rendimiento
-    url: "/performance-checker/concept_refine_object_inventory_performance_page_content.html"
     entries:
+    - title: Comprende cómo optimizar el contenido de la página de inventario de rendimiento
+      url: "/performance-checker/concept_refine_object_inventory_performance_page_content.html"
     - title: Búsqueda en las páginas de Rendimiento del inventario de objetos
       url: "/performance-checker/task_search_on_object_inventory_performance_pages.html"
     - title: Ordenar en las páginas de Rendimiento del inventario de objetos
@@ -90,16 +104,19 @@ entries:
       en niveles en la nube
     url: "/performance-checker/concept_understand_um_recommendations_to_tier_data_to_cloud.html"
 - title: Supervisar el rendimiento mediante las páginas del Explorador de rendimiento
-  url: "/performance-checker/concept_monitor_performance_using_performance_explorer_pages.html"
   entries:
+  - title: Comprender las páginas del Explorador de rendimiento
+    url: "/performance-checker/concept_monitor_performance_using_performance_explorer_pages.html"
   - title: Comprender el objeto raíz
     url: "/performance-checker/concept_understand_root_object.html"
   - title: Aplicar filtrado para reducir la lista de objetos correlacionados de la
       cuadrícula
     url: "/performance-checker/concept_apply_filtering_to_correlated_objects.html"
   - title: Especifique un rango de tiempo para los objetos correlacionados
-    url: "/performance-checker/task_specify_correlated_objects_time_range.html"
     entries:
+    - title: Más información sobre cómo especificar un intervalo de tiempo para objetos
+        correlacionados
+      url: "/performance-checker/task_specify_correlated_objects_time_range.html"
     - title: Seleccione un rango de tiempo predefinido
       url: "/performance-checker/task_select_predefined_time_range.html"
     - title: Especifique un rango de tiempo personalizado
@@ -120,8 +137,9 @@ entries:
   - title: Ver detalles del evento en la Cronología de eventos
     url: "/performance-checker/task_view_event_details_in_performance_explorer_events_timeline.html"
   - title: Vista de zoom de las cartas de contador
-    url: "/performance-checker/concept_counter_charts_zoom_view.html"
     entries:
+    - title: Más información sobre la vista ampliada de los gráficos de contadores
+      url: "/performance-checker/concept_counter_charts_zoom_view.html"
     - title: Mostrar la vista de zoom de los gráficos del contador
       url: "/performance-checker/task_display_counter_charts_zoom_view.html"
     - title: Especifique el rango de tiempo en la Vista de Zoom
@@ -142,16 +160,19 @@ entries:
       únicamente en el nodo local
     url: "/performance-checker/task_view_node_iops_based_on_workloads_on_local_node.html"
   - title: Componentes de las páginas de destino de objetos
-    url: "/performance-checker/concept_components_of_object_landing_pages_opm.html"
     entries:
+    - title: Revisa los componentes de las páginas de destino de los objetos
+      url: "/performance-checker/concept_components_of_object_landing_pages_opm.html"
     - title: Resumen
       url: "/performance-checker/reference_summary_page_opm.html"
     - title: Componentes de la página Performance Explorer
       url: "/performance-checker/concept_components_of_performance_explorer_page.html"
 - title: Administrar el rendimiento mediante la información del grupo de políticas
     de QoS
-  url: "/performance-checker/concept_manage_performance_using_qos_policy_group_information.html"
   entries:
+  - title: Más información sobre la gestión del rendimiento de los grupos de políticas
+      de QoS
+    url: "/performance-checker/concept_manage_performance_using_qos_policy_group_information.html"
   - title: Cómo la calidad de servicio de almacenamiento puede controlar el rendimiento
       de la carga de trabajo
     url: "/performance-checker/concept_how_storage_qos_can_control_workload_throughput.html"
@@ -173,8 +194,9 @@ entries:
     url: "/performance-checker/task_view_workload_qos_minimum_and_maximum_settings.html"
 - title: Gestionar el rendimiento utilizando la capacidad de rendimiento y la información
     de IOPS disponible
-  url: "/performance-checker/concept_manage_performance_using_perf_capacity_available_iops.html"
   entries:
+  - title: Gestionar la capacidad de rendimiento y las IOPS disponibles
+    url: "/performance-checker/concept_manage_performance_using_perf_capacity_available_iops.html"
   - title: La capacidad de rendimiento utilizada
     url: "/performance-checker/concept_what_performance_capacity_used_is.html"
   - title: Qué significa el valor de capacidad de rendimiento utilizada
@@ -195,8 +217,10 @@ entries:
     url: "/performance-checker/concept_use_performance_capacity_used_counter.html"
 - title: Comprender y utilizar la página de planificación de conmutación por error
     de nodo
-  url: "/performance-checker/reference_understand_and_use_node_failover_planning_page.html"
   entries:
+  - title: Descripción general de la página «Planificación de la conmutación por error
+      de nodos»
+    url: "/performance-checker/reference_understand_and_use_node_failover_planning_page.html"
   - title: Utilice la página Planificación de conmutación por error de nodo para determinar
       acciones correctivas
     url: "/performance-checker/concept_use_failover_planning_page_to_determine_corrective_actions.html"
@@ -209,8 +233,10 @@ entries:
       para la planificación de la conmutación por error
     url: "/performance-checker/task_use_perf_capacity_used_breakdown_chart_for_failover_planning.html"
 - title: Recopilar datos y supervisar el rendimiento de la carga de trabajo
-  url: "/performance-checker/concept_collect_data_and_monitor_workload_performance.html"
   entries:
+  - title: Descubre cómo Unified Manager recopila datos de rendimiento de las cargas
+      de trabajo
+    url: "/performance-checker/concept_collect_data_and_monitor_workload_performance.html"
   - title: Tipos de cargas de trabajo supervisadas por Unified Manager
     url: "/performance-checker/concept_types_of_workloads_monitored_by_unified_manager.html"
   - title: Valores de medición del rendimiento de la carga de trabajo
@@ -228,8 +254,9 @@ entries:
   - title: Supervisión del rendimiento de las configuraciones de MetroCluster
     url: "/performance-checker/concept_performance_monitor_of_metrocluster_configurations.html"
 - title: Comprender eventos y alertas de rendimiento
-  url: "/performance-checker/concept_understand_performance_events_and_alerts.html"
   entries:
+  - title: Infórmate sobre los eventos y alertas de rendimiento
+    url: "/performance-checker/concept_understand_performance_events_and_alerts.html"
   - title: Fuentes de eventos de rendimiento
     url: "/performance-checker/concept_sources_of_performance_events.html"
   - title: Tipos de gravedad de eventos de rendimiento
@@ -248,8 +275,9 @@ entries:
   - title: Funciones de las cargas de trabajo involucradas en un evento de rendimiento
     url: "/performance-checker/concept_roles_of_workloads_involved_in_performance_incident.html"
 - title: Gestionar los umbrales de rendimiento
-  url: "/performance-checker/concept_manage_performance_thresholds.html"
   entries:
+  - title: Comprende las políticas de umbrales de rendimiento
+    url: "/performance-checker/concept_manage_performance_thresholds.html"
   - title: Cómo funcionan las políticas de umbral de rendimiento definidas por el
       usuario
     url: "/performance-checker/concept_how_user_defined_performance_threshold_policies_work.html"
@@ -276,18 +304,23 @@ entries:
       objeto
     url: "/performance-checker/concept_performance_threshold_policies_when_object_is_moved.html"
 - title: Analizar eventos de rendimiento
-  url: "/performance-checker/concept_analyze_performance_events.html"
   entries:
+  - title: Aprende a analizar los eventos de rendimiento
+    url: "/performance-checker/concept_analyze_performance_events.html"
   - title: Mostrar información sobre eventos de rendimiento
     url: "/performance-checker/task_display_information_about_performance_event.html"
   - title: Analizar eventos a partir de umbrales de rendimiento definidos por el usuario
-    url: "/performance-checker/concept_analyze_events_from_user_defined_performance_thresholds.html"
     entries:
+    - title: Acerca de los eventos derivados de los umbrales de rendimiento definidos
+        por el usuario
+      url: "/performance-checker/concept_analyze_events_from_user_defined_performance_thresholds.html"
     - title: Responder a eventos de umbral de rendimiento definidos por el usuario
       url: "/performance-checker/task_respond_to_user_defined_performance_threshold_events.html"
   - title: Analizar eventos a partir de umbrales de rendimiento definidos por el sistema
-    url: "/performance-checker/concept_analyze_events_from_system_defined_performance_thresholds.html"
     entries:
+    - title: Acerca de los eventos derivados de los umbrales de rendimiento definidos
+        por el sistema
+      url: "/performance-checker/concept_analyze_events_from_system_defined_performance_thresholds.html"
     - title: Responder a eventos de umbral de rendimiento definidos por el sistema
       url: "/performance-checker/task_respond_to_system_defined_performance_threshold_events.html"
     - title: Responder a los eventos de rendimiento del grupo de políticas de QoS
@@ -300,8 +333,9 @@ entries:
     - title: Responder a eventos de rendimiento de desequilibrio del clúster
       url: "/performance-checker/task_respond_to_cluster_imbalance_performance_events.html"
   - title: Analizar eventos desde umbrales de rendimiento dinámicos
-    url: "/performance-checker/concept_analyze_events_from_dynamic_performance_thresholds.html"
     entries:
+    - title: Acerca de los eventos relacionados con los umbrales de rendimiento dinámico
+      url: "/performance-checker/concept_analyze_events_from_dynamic_performance_thresholds.html"
     - title: Identificar las cargas de trabajo de las víctimas involucradas en un
         evento de rendimiento dinámico
       url: "/performance-checker/task_identify_victim_workloads_involved_in_performance_event.html"
@@ -312,8 +346,9 @@ entries:
         evento de rendimiento dinámico
       url: "/performance-checker/task_identify_shark_workloads_involved_in_performance_event.html"
     - title: Análisis de eventos de rendimiento para una configuración de MetroCluster
-      url: "/performance-checker/concept_performance_incident_analysis_for_metrocluster_configuration.html"
       entries:
+      - title: Analiza los eventos de rendimiento de MetroCluster
+        url: "/performance-checker/concept_performance_incident_analysis_for_metrocluster_configuration.html"
       - title: Analizar un evento de rendimiento dinámico en un clúster en una configuración
           de MetroCluster
         url: "/performance-checker/task_analyze_performance_incident_on_cluster_in_metrocluster.html"
@@ -330,8 +365,9 @@ entries:
         control de HA
       url: "/performance-checker/task_respond_to_performance_incident_caused_by_ha_takeover.html"
 - title: Resolver eventos de rendimiento
-  url: "/performance-checker/reference_resolve_performance_events.html"
   entries:
+  - title: Más información sobre cómo resolver incidencias de rendimiento
+    url: "/performance-checker/reference_resolve_performance_events.html"
   - title: Confirme que la latencia esté dentro del rango esperado
     url: "/performance-checker/concept_confirm_that_response_time_is_within_expected_range.html"
   - title: Revise el impacto de los cambios de configuración en el rendimiento de
@@ -349,8 +385,10 @@ entries:
     url: "/performance-checker/concept_move_logical_interfaces.html"
   - title: Ejecute operaciones de eficiencia del almacenamiento en momentos de menor
       actividad
-    url: "/performance-checker/concept_run_storage_efficiency_operations_at_less_busy_times.html"
     entries:
+    - title: Programa las operaciones de eficiencia del almacenamiento durante las
+        horas de menor actividad
+      url: "/performance-checker/concept_run_storage_efficiency_operations_at_less_busy_times.html"
     - title: Qué es la eficiencia del almacenamiento
       url: "/performance-checker/concept_what_storage_efficiency_is.html"
   - title: Añada discos y reasigne datos
@@ -384,8 +422,9 @@ entries:
     url: "/performance-checker/concept_add_disks_and_perform_aggregate_layout_reconstruction.html"
 - title: Configurar una conexión entre un servidor de Unified Manager y un proveedor
     de datos externo
-  url: "/performance-checker/concept_set_up_connection_between_um_and_external_data_provider.html"
   entries:
+  - title: Más información sobre cómo conectarte a un proveedor de datos externo
+    url: "/performance-checker/concept_set_up_connection_between_um_and_external_data_provider.html"
   - title: Datos de rendimiento que se pueden enviar a un servidor externo
     url: "/performance-checker/reference_performance_data_that_can_be_sent_to_an_external_server.html"
   - title: Configurar Graphite para recibir datos de rendimiento de Unified Manager

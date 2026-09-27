@@ -33,8 +33,6 @@ indexpage:
       url: "/config/concept_configure_unified_manager.html"
     - title: Gestionar configuración de funciones
       url: "/config/concept_manage_feature_settings.html"
-    - title: Gestione el acceso basado en roles
-      url: "/config/concept_manage_user_access.html"
   - title: Supervisión del rendimiento
     links:
     - title: Umbrales de rendimiento
@@ -57,10 +55,6 @@ indexpage:
       url: "/storage-mgmt/concept_monitor_vmware_virtual_infrastructure.html"
     - title: Configuraciones de MetroCluster
       url: "/storage-mgmt/concept_manage_and_monitor_metrocluster_configurations.html"
-    - title: Clústeres y estado de objetos del clúster
-      url: "/health-checker/concept_manage_and_monitor_clusters_and_cluster_object_health.html"
-    - title: Umbrales de salud
-      url: "/health-checker/concept_manage_health_thresholds.html"
     - title: Envíe mensajes de AutoSupport y paquetes de soporte
       url: "/health-checker/task_send_asup_to_technical_support.html"
   - title: Supervisión de la protección de datos
@@ -101,8 +95,6 @@ indexpage:
       url: "/events/concept_what_happens_when_an_event_is_received.html"
     - title: Eventos de la plataforma Active IQ
       url: "/events/concept_how_active_iq_platform_events_are_generated.html"
-    - title: Eventos y tipos de gravedad
-      url: "/events/reference_list_of_events_and_severity_types.html"
     - title: Eventos de corrección
       url: "/storage-mgmt/concept_fix_ontap_issues_directly_from_unified_manager.html"
     - title: Corrección automática

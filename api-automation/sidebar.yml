@@ -3,8 +3,9 @@ section: api-automation
 title: Gestión del almacenamiento usando API de REST
 entries:
 - title: Primeros pasos con Active IQ Unified Manager
-  url: "/api-automation/concept_get_started_with_um_apis.html"
   entries:
+  - title: Comience a utilizar las API REST de Active IQ Unified Manager
+    url: "/api-automation/concept_get_started_with_um_apis.html"
   - title: Destinatarios para este contenido
     url: "/api-automation/reference_intended_audience_for_this_guide.html"
   - title: Categorías y acceso API de Active IQ Unified Manager
@@ -16,8 +17,9 @@ entries:
   - title: Recursos de almacenamiento en ONTAP
     url: "/api-automation/concept_storage_resource_model.html"
 - title: Acceso y autenticación de API DE REST en Active IQ Unified Manager
-  url: "/api-automation/concept_rest_api_access_and_authentication_in_um_apis.html"
   entries:
+  - title: Accede y autentica las API REST en Active IQ Unified Manager
+    url: "/api-automation/concept_rest_api_access_and_authentication_in_um_apis.html"
   - title: códigos de estado HTTP utilizados en Active IQ Unified Manager
     url: "/api-automation/reference_authentication_errors.html"
   - title: Recomendaciones para el uso de las API para Active IQ Unified Manager
@@ -29,8 +31,9 @@ entries:
   - title: Hola servidor API
     url: "/api-automation/concept_hello_api_server.html"
 - title: API de REST de Unified Manager
-  url: "/api-automation/concept_um_apis_list_intro.html"
   entries:
+  - title: Entiende las categorías de las API REST de Active IQ Unified Manager
+    url: "/api-automation/concept_um_apis_list_intro.html"
   - title: Administrar objetos de almacenamiento en un centro de datos
     url: "/api-automation/concept_data_center_apis.html"
   - title: Acceda a las API de ONTAP a través del acceso proxy
@@ -46,7 +49,6 @@ entries:
   - title: Gestionar eventos y alertas
     url: "/api-automation/concept_events_api.html"
   - title: Gestionar cargas de trabajo
-    url: "/api-automation/concept_manage_storage_workloads.html"
     entries:
     - title: Ver cargas de trabajo de almacenamiento
       url: "/api-automation/concept_view_workloads.html"
@@ -63,8 +65,10 @@ entries:
     - title: Administrar políticas de eficiencia de almacenamiento
       url: "/api-automation/concept_manage_sep.html"
 - title: Flujos de trabajo comunes para la gestión del almacenamiento
-  url: "/api-automation/concept_workflow_intro.html"
   entries:
+  - title: Comprende los flujos de trabajo habituales de las API para la gestión del
+      almacenamiento
+    url: "/api-automation/concept_workflow_intro.html"
   - title: Determinar problemas de espacio en agregados
     url: "/api-automation/concept_workflow_space_issue.html"
   - title: Determinar problemas en objetos de almacenamiento mediante eventos
@@ -72,8 +76,9 @@ entries:
   - title: Solucionar problemas de volúmenes ONTAP mediante API de puerta de enlace
     url: "/api-automation/concept_ontap_troubleshooting_workflow.html"
   - title: Flujos de trabajo para la gestión de cargas de trabajo
-    url: "/api-automation/concept_provision_workflow.html"
     entries:
+    - title: Aprovisionar y modificar cargas de trabajo de almacenamiento
+      url: "/api-automation/concept_provision_workflow.html"
     - title: Verificar SVM en clústeres
       url: "/api-automation/concept_verify_svm_workflow.html"
     - title: Aprovisionamiento de recursos compartidos de archivos CIFS y NFS
@@ -81,7 +86,8 @@ entries:
     - title: Aprovisionar las LUN
       url: "/api-automation/concept_provision_luns.html"
     - title: Modificar las cargas de trabajo de almacenamiento
-      url: "/api-automation/concept_modify_workloads_workflow.html"
       entries:
+      - title: Modificar las cargas de trabajo de almacenamiento mediante API
+        url: "/api-automation/concept_modify_workloads_workflow.html"
       - title: Modificar un recurso compartido de archivos NFS para que admita CIFS
         url: "/api-automation/task_modify_fileshare_to_include_cifs_and_nfs.html"

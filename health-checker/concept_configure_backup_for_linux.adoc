@@ -27,3 +27,83 @@ Por ejemplo, si creó una copia de seguridad en Unified Manager 9.18, la copia d
 
 
 ====
+
+
+[[configure-snapshot-copy-location-in-active-iq-unified-manager]]
+== Configura la ubicación de la copia Snapshot en Active IQ Unified Manager
+
+Puede configurar el volumen donde se almacenarán las copias Snapshot en uno de los clústeres de ONTAP mediante System Manager de ONTAP o mediante la interfaz de línea de comandos de ONTAP.
+
+.Antes de empezar
+El clúster, la máquina virtual de almacenamiento y el volumen deben cumplir los siguientes requisitos:
+
+* Requisitos del clúster:
++
+** Se debe instalar ONTAP 9.3 o superior
+** Debe estar geográficamente cerca del servidor de Unified Manager
+** Unified Manager se puede supervisar, pero no es obligatorio
+
+
+* Requisitos de Storage VM:
++
+** El modificador de nombre y la asignación de nombres deben configurarse para que utilicen "'files'".
+** Los usuarios locales creados para corresponder con los usuarios del cliente
+** Asegúrese de que está seleccionado todo el acceso de lectura/escritura
+** Asegúrese de que Superuser Access esté definido en «'any'» en la política de exportación
+** NFS para Snapshot de NetApp para Linux
+** NFSv4 deben estar habilitados en el servidor NFS y el dominio de ID de NFSv4 especificado en las máquinas virtuales de almacenamiento y cliente
+** El volumen debe ser al menos el doble del tamaño del directorio Unified Manager/opt/netapp/data
++
+Utilice el comando du -sh /opt/netapp/data/ para comprobar el tamaño actual.
+
+
+
+* Requisitos del volumen:
++
+** El volumen debe tener al menos el doble de tamaño del directorio Unified Manager /opt/netapp/data
+** El estilo de seguridad se debe establecer en UNIX
+** Debe deshabilitarse la política de Snapshot local
+** Se debe habilitar autosize para el volumen
+** El nivel de servicio de rendimiento debe definirse en una política con una tasa elevada de IOPS y una baja latencia, como «'Extreme»
+
+
+
+
+Para obtener los pasos detallados para crear el volumen NFS, consulte https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_configure_NFSv4_in_Cluster-Mode["Cómo configurar NFSv4 en ONTAP 9"] y la http://docs.netapp.com/ontap-9/topic/com.netapp.doc.exp-nfsv3-cg/home.html["Guía exprés de configuración de NFS de ONTAP 9"].
+
+
+
+[[specify-the-destination-location-for-snapshot-copies-in-active-iq-unified-manager]]
+== Especifica la ubicación de destino para las copias de Snapshot en Active IQ Unified Manager
+
+Debe configurar la ubicación de destino para las copias Snapshot de Active IQ Unified Manager en un volumen que ya se haya configurado en uno de los clústeres de ONTAP. Debe utilizar la consola de mantenimiento para definir la ubicación.
+
+* Debe tener las credenciales de usuario raíz del host Linux en el que está instalado Active IQ Unified Manager.
+* Debe tener un ID de usuario y una contraseña autorizados para iniciar sesión en la consola de mantenimiento del servidor de Unified Manager.
+* Debe tener la dirección IP de gestión del clúster, el nombre de la máquina virtual de almacenamiento, el nombre del volumen, y el nombre de usuario y la contraseña del sistema de almacenamiento.
+* Debe haber montado el volumen en el host Active IQ Unified Manager y la ruta de montaje debe ser.
+
+
+.Pasos
+. Utilice Secure Shell para conectarse a la dirección IP o FQDN del sistema Active IQ Unified Manager.
+. Inicie sesión en el sistema con el nombre y la contraseña del usuario de mantenimiento (umadmin).
+. Introduzca el comando `maintenance_console` Y pulse Intro.
+. En la consola de mantenimiento *Menú principal*, introduzca el número de la opción *Restauración de copia de seguridad*.
+. Introduzca el número para *Configurar Snapshot Backup de NetApp*.
+. Introduzca el número para configurar NFS.
+. Revise la información que necesitará proporcionar y, a continuación, introduzca el número para *introducir detalles de configuración de copia de seguridad*.
+. Para identificar el volumen donde se escribirá la snapshot, introduzca la dirección IP de la interfaz de gestión del clúster, el nombre de la máquina virtual de almacenamiento, el nombre del volumen, el nombre de LUN, el nombre de usuario y la contraseña del sistema de almacenamiento y la ruta de montaje.
+. Compruebe esta información e introduzca `y`.
++
+El sistema ejecuta las siguientes tareas:
+
++
+** Establece la conexión con el clúster
+** Detiene todos los servicios
+** Crea un nuevo directorio en el volumen y copia los archivos de configuración de la base de datos Active IQ Unified Manager
+** Elimina los archivos de Active IQ Unified Manager y crea un enlace simbólico al nuevo directorio de la base de datos
+** Reinicia todos los servicios
+
+
+. Salga de la consola de mantenimiento e inicie la interfaz de Active IQ Unified Manager para crear una programación para la copia Snapshot si no lo ha hecho todavía.
+

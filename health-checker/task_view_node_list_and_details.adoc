@@ -2,7 +2,7 @@
 permalink: health-checker/task_view_node_list_and_details.html 
 sidebar: sidebar 
 keywords: view, node list, details 
-summary: 'Puede usar la vista Health: All Nodes para ver la lista de nodos en los clústeres. Puede usar la página de detalles Cluster / Health para ver información detallada acerca de los nodos que forman parte del clúster que se supervisa.' 
+summary: Utiliza la vista «Todos los nodos» de la página «Estado» para ver la lista de nodos de tus clústeres y la página de detalles de «Estado del clúster» para obtener información detallada sobre los nodos. 
 ---
 = Ver la lista de nodos y detalles en Active IQ Unified Manager
 :allow-uri-read: 

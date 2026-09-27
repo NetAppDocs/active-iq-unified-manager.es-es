@@ -2,7 +2,7 @@
 permalink: data-protection/task_remove_aggregates_from_resource_pools.html 
 sidebar: sidebar 
 keywords: remove, aggregates, resource pools 
-summary: 'Es posible quitar agregados de un pool de recursos existente: Por ejemplo, cuando se desea usar un agregado con otro fin.' 
+summary: Elimina agregados de un pool de recursos existente, por ejemplo, cuando quieras usar un agregado para otro fin. 
 ---
 = Eliminar agregados de los pool de recursos en Active IQ Unified Manager
 :allow-uri-read: 

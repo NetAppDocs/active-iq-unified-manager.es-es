@@ -2,7 +2,7 @@
 permalink: storage-mgmt/reference_cluster_connectivity_status_definitions.html 
 sidebar: sidebar 
 keywords: cluster, connectivity, status, definitions 
-summary: 'La conectividad entre los clústeres de una configuración MetroCluster puede ser uno de los siguientes Estados: Optimal, impacted o Down. Comprender los Estados de conectividad permite gestionar las configuraciones de MetroCluster de forma efectiva.' 
+summary: Comprende los estados de conectividad entre clústeres en una configuración de MetroCluster, como «Óptimo», «Afectado» o «Inactivo». 
 ---
 = Comprende la conectividad del clúster en una configuración de MetroCluster sobre FC en Active IQ Unified Manager
 :allow-uri-read: 

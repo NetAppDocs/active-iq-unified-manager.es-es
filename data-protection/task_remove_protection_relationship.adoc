@@ -2,7 +2,7 @@
 permalink: data-protection/task_remove_protection_relationship.html 
 sidebar: sidebar 
 keywords: remove, protection, relationship, volume, relationships page 
-summary: 'En la página Volume Relationships, puede quitar una relación de protección para eliminar de forma permanente una relación existente entre el origen y el destino seleccionados: Por ejemplo, cuando desea crear una relación con otro destino. Esta operación elimina todos los metadatos y no puede deshacerse.' 
+summary: Desde la página «Relaciones de volumen», elimina de forma permanente una relación de protección entre un origen y un destino. Esta acción no se puede deshacer. 
 ---
 = Eliminar una relación de protección de la página Relaciones de volumen en Active IQ Unified Manager
 :allow-uri-read: 

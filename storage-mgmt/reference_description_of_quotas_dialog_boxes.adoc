@@ -2,7 +2,7 @@
 permalink: storage-mgmt/reference_description_of_quotas_dialog_boxes.html 
 sidebar: sidebar 
 keywords: description, quotas, dialog, boxes 
-summary: 'Puede utilizar la opción adecuada en la pestaña cuotas de usuario y de grupo de la vista Estado: Todas las máquinas virtuales de almacenamiento para configurar el formato de la notificación de correo electrónico que se envía cuando se produce un problema relacionado con la cuota y para configurar reglas para especificar direcciones de correo electrónico basadas en la cuota de usuario.' 
+summary: Configura el formato de las notificaciones por correo electrónico relacionadas con las cuotas y las reglas para especificar direcciones de correo electrónico en la vista All Storage VMs de la página Health. 
 ---
 = Utiliza el cuadro de diálogo «Cuotas» en Active IQ Unified Manager
 :allow-uri-read: 

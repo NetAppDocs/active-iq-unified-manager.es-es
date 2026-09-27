@@ -1,7 +1,7 @@
 ---
 permalink: events/reference_logical_interface_events.html 
 sidebar: sidebar 
-keywords: 'network, interface, (lif) events, impact area, availability, configuration, performance' 
+keywords: network, interface, lif events, impact area, availability, configuration, performance 
 summary: 'Los eventos de la interfaz de red proporcionan información acerca del estado de su interfaz de red (LIF), para poder supervisar posibles problemas. Los eventos se agrupan por área de impacto e incluyen el nombre del evento y de captura, el nivel de impacto, el tipo de origen y la gravedad.' 
 ---
 = Eventos de interfaz de red en Active IQ Unified Manager

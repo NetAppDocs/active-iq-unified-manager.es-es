@@ -2,7 +2,7 @@
 permalink: health-checker/task_view_volume_list_and_details.html 
 sidebar: sidebar 
 keywords: view, volume list, details 
-summary: 'En la vista Health: Todos los volúmenes, es posible supervisar el inventario de volúmenes. La capacidad: Todos los volúmenes de la vista le permite ver información sobre la capacidad y la utilización de los volúmenes de un clúster.' 
+summary: Utiliza la vista «Todos los volúmenes» de la página «Estado» para supervisar tu inventario de volúmenes y la vista «Todos los volúmenes» de la página «Capacidad» para consultar los detalles sobre la capacidad y la utilización. 
 ---
 = Consulta la lista de volúmenes y los detalles en Active IQ Unified Manager
 :allow-uri-read: 

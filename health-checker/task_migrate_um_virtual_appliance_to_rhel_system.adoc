@@ -22,7 +22,7 @@ Puede restaurar un backup de volcado de base de datos MySQL de Unified Manager d
 
 * En el sistema Linux:
 +
-** Debe haber instalado Unified Manager en un servidor Linux siguiendo las instrucciones de link:../install-linux/concept_install_unified_manager_on_rhel.html["Instalación de Unified Manager en sistemas Linux"].
+** Debes haber instalado Unified Manager en un servidor Linux siguiendo las instrucciones de link:../install-linux/task_install_unified_manager_linux.html["Instalación de Unified Manager en sistemas Linux"].
 ** La versión de Unified Manager en este servidor debe ser la misma que la versión del dispositivo virtual desde el que se utiliza el archivo de backup.
 ** No inicie la interfaz de usuario ni configure ningún clúster, usuario ni configuración de autenticación en el sistema Linux después de la instalación. El archivo de backup rellena esta información durante el proceso de restauración.
 ** Debe tener las credenciales de usuario raíz para el host Linux.

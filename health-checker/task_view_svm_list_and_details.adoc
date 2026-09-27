@@ -2,7 +2,7 @@
 permalink: health-checker/task_view_svm_list_and_details.html 
 sidebar: sidebar 
 keywords: view, storage vm list, details 
-summary: 'En la vista Health: All Storage VMs, puede supervisar el inventario de máquinas virtuales de almacenamiento (SVM). Puede usar la página de detalles Storage VM / Health para ver información detallada sobre las SVM que se supervisan.' 
+summary: Utiliza la vista «Todas las máquinas virtuales de almacenamiento» en la página «Estado» para supervisar tu inventario de SVM y la página de detalles «Estado de las máquinas virtuales de almacenamiento» para obtener información detallada sobre las SVM. 
 ---
 = Consulta la lista y los detalles de las Storage VM en Active IQ Unified Manager
 :allow-uri-read: 

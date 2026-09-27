@@ -2,7 +2,7 @@
 permalink: data-protection/reference_relationship_all_relationships_view.html 
 sidebar: sidebar 
 keywords: volume, relationships, metrocluster 
-summary: 'La relación: La vista todas las relaciones muestra información sobre las relaciones de protección en el sistema de almacenamiento.' 
+summary: La vista «Todas las relaciones» de la página «Relaciones» muestra información sobre las relaciones de protección en el sistema de almacenamiento. 
 ---
 = Mostrar la relación: vista de todas las relaciones en Active IQ Unified Manager
 :allow-uri-read: 
